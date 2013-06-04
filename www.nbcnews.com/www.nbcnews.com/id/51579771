@@ -1,0 +1,15 @@
+try {
+    (function () {
+        if (_nbcnewsPixelman && _nbcnewsPixelman.AppendBodyFooter) {
+            _nbcnewsPixelman.AppendBodyFooter();
+        }
+    } ());
+
+    $(function () {
+
+        if (_nbcnewsAds && _nbcnewsAds.SetCookie && top.__nbcudigitaladops_dtparams) {
+            _nbcnewsAds.SetCookie(top.__nbcudigitaladops_dtparams);
+        }
+
+    });
+} catch (e) { }

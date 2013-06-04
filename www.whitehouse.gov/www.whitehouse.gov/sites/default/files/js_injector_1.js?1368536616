@@ -1,0 +1,12 @@
+/* This sets a cookie that hides splash modals after they are displayed once. We can set it across multiple wh_splash pages to ensure that the same modal will not appear twice. */
+
+var cookie_name = '4Gd92bLsxj325s';
+
+/* check for our splash cookie */
+if($.cookie(cookie_name)) {
+    /* if cookie exists, do not show splash page */
+    document.write('<style type="text/css">body div#wh-splash-1.wh-splash-hidden { display: none; } #wh-splash-wrapper { display: none !important; } </style>');
+} else {
+    /* create a splash cookie with a long expiration */
+    jQuery.cookie(cookie_name, 'TRUE', { expires: 365, path: '/' });
+}

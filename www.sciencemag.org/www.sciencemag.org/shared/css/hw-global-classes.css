@@ -1,0 +1,16 @@
+
+/*  Global classes */
+
+.hidden, .nodata,.print-only {
+	display: none;
+}
+
+/* sandbag div-- placeholder for styling */
+div.sb-div {
+	font-size: 1px;
+	margin: 0; padding: 0; border: none;
+}
+/*adding the clearfix functionality*/
+.clearfix:before, .clearfix:after { content: "."; display: block; height: 0; visibility: hidden; }
+.clearfix:after {clear: both;}
+.clearfix { *zoom: 1;}

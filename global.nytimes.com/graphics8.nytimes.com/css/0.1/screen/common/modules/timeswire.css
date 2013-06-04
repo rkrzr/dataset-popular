@@ -1,0 +1,43 @@
+/* $Id: timeswire.css 6698 2008-11-24 19: 24: 27Z donohoe $
+/css/0.1/screen/common/modules/timeswire.css
+*/
+
+.timeswireModule .sectionHeaderHome {
+  margin-bottom: 1px;
+}
+
+.timeswireModule .sectionHeaderHome a {
+  color: #333333;
+}
+
+.timeswireModule .refer {
+  margin-bottom: 6px;
+  font-size: 1em;
+  color: #808080;
+}
+
+.timeswireModule ol {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 5px;
+}
+
+.timeswireModule ol li {
+  margin-left: 10px;
+  padding-bottom: 1px;
+  padding-top: 3px;
+}
+
+.timeswireModule ol li.last {
+  padding-bottom: 0px;
+}
+
+.timeswireModule ol span {
+  float: left;
+}
+
+.timeswireModule ol li a {
+  display: block;
+  padding-left: 82px;
+}

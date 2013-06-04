@@ -1,0 +1,43 @@
+﻿body {
+	overflow: visible !important;
+}
+
+#t-content-main-nav, #t-footer, #t-link-wrapper, #t-search, #t-menu, #t-footer2, #breadcrumb,
+.addthis, .updated, #t-content-sub {display: none; float: none;}
+
+#t-wrapper {margin-top: 0px !important;}
+
+#t-wrapper-top, #t-wrapper-top-fs, #t-wrapper-top-in, #t-wrapper, body, #t-inner, #t-content, #t-content-main, #t-content-main-content {
+	background-image: none; 
+	margin: 0px; 
+	padding: 0px; 
+	float:none; 
+ }
+
+#t-header, .fs #t-header {	height: 45px; top: 0px; padding-bottom: 15px; }
+
+.t-3col #t-content-main-content {
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#t-content-main {
+	width: 100%;
+}
+
+.content, .content-slim {width: 90%; padding: 0px; float: none; clear: both;}
+
+
+p {margin-bottom: 5px; margin-top: 0px; line-height: 15px;}
+
+#t-wrapper, .ms-rtestate-field  {overflow: visible;}
+
+.ms-WPBody h2, .ms-rteElement-H2, h2,
+.ms-WPBody h3, .ms-rteElement-H3, h3 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px; text-indent: 0px;
+} 

@@ -1,0 +1,16 @@
+/* custom house classes */
+.missing 
+{
+	color:#F66 !important;
+	text-decoration: line-through !important;	
+}
+
+	.missing a
+	{
+		color:#F66;	
+	}
+  
+.debug
+{
+  position:fixed; top:5px; right: 5px; background-color:red;
+}

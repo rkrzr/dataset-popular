@@ -1,0 +1,6 @@
+/* printable css stylesheet */
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}

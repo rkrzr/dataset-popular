@@ -1,0 +1,380 @@
+////////////////////////////////////////////////////////////////////////////////////////
+// XXX updated 05 november 2012 to account for updates to twitter's api XXX
+////////////////////////////////////////////////////////////////////////////////////////
+
+(function ($) {
+    $.toJSON = function (o) {
+        if (typeof (JSON) == 'object' && JSON.stringify) return JSON.stringify(o);
+        var type = typeof (o);
+        if (o === null) return "null";
+        if (type == "undefined") return undefined;
+        if (type == "number" || type == "boolean") return o + "";
+        if (type == "string") return $.quoteString(o);
+        if (type == 'object') {
+            if (typeof o.toJSON == "function") return $.toJSON(o.toJSON());
+            if (o.constructor === Date) {
+                var month = o.getUTCMonth() + 1;
+                if (month < 10) month = '0' + month;
+                var day = o.getUTCDate();
+                if (day < 10) day = '0' + day;
+                var year = o.getUTCFullYear();
+                var hours = o.getUTCHours();
+                if (hours < 10) hours = '0' + hours;
+                var minutes = o.getUTCMinutes();
+                if (minutes < 10) minutes = '0' + minutes;
+                var seconds = o.getUTCSeconds();
+                if (seconds < 10) seconds = '0' + seconds;
+                var milli = o.getUTCMilliseconds();
+                if (milli < 100) milli = '0' + milli;
+                if (milli < 10) milli = '0' + milli;
+                return '"' + year + '-' + month + '-' + day + 'T' + hours + ':' + minutes + ':' + seconds + '.' + milli + 'Z"';
+            }
+            if (o.constructor === Array) {
+                var ret = [];
+                for (var i = 0; i < o.length; i++)
+                    ret.push($.toJSON(o[i]) || "null");
+                return "[" + ret.join(",") + "]";
+            }
+            var pairs = [];
+            for (var k in o) {
+                var name;
+                var type = typeof k;
+                if (type == "number") name = '"' + k + '"';
+                else if (type == "string") name = $.quoteString(k);
+                else continue;
+                if (typeof o[k] == "function") continue;
+                var val = $.toJSON(o[k]);
+                pairs.push(name + ":" + val);
+            }
+            return "{" + pairs.join(", ") + "}";
+        }
+    };
+
+    $.evalJSON = function (src) {
+        if (typeof (JSON) == 'object' && JSON.parse) return JSON.parse(src);
+        return eval("(" + src + ")");
+    };
+
+    $.secureEvalJSON = function (src) {
+        if (typeof (JSON) == 'object' && JSON.parse) return JSON.parse(src);
+        var filtered = src;
+        filtered = filtered.replace(/\\["\\\/bfnrtu]/g, '@');
+        filtered = filtered.replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']');
+        filtered = filtered.replace(/(?:^|:|,)(?:\s*\[)+/g, '');
+        if (/^[\],:{}\s]*$/.test(filtered)) return eval("(" + src + ")");
+        else throw new SyntaxError("Error parsing JSON, source is not valid.");
+    };
+
+    $.quoteString = function (string) {
+        if (string.match(_escapeable)) {
+            return '"' + string.replace(_escapeable, function (a) {
+                var c = _meta[a];
+                if (typeof c === 'string') return c;
+                c = a.charCodeAt();
+                return '\\u00' + Math.floor(c / 16).toString(16) + (c % 16).toString(16);
+            }) + '"';
+        }
+        return '"' + string + '"';
+    };
+    var _escapeable = /["\\\x00-\x1f\x7f-\x9f]/g;
+    var _meta = {
+        '\b': '\\b',
+        '\t': '\\t',
+        '\n': '\\n',
+        '\f': '\\f',
+        '\r': '\\r',
+        '"': '\\"',
+        '\\': '\\\\'
+    };
+})(jQuery);
+
+function parseXML(xml) {
+    if (window.ActiveXObject && window.GetObject) {
+        var dom = new ActiveXObject('Microsoft.XMLDOM');
+        dom.loadXML(xml);
+        return dom;
+    }
+    if (window.DOMParser) return new DOMParser().parseFromString(xml, 'text/xml');
+    throw new Error('No XML parser available');
+}
+
+function formatDate(idate) {
+    var itemDateString = "";
+    var itemDate = "";
+    itemDate = new Date(idate);
+    if (isNaN(itemDate)) {
+        var dateArray = idate.split(' ');
+        itemDate = new Date(dateArray[0] + ', ' + dateArray[2] + ' ' + dateArray[1] + ' ' + dateArray[5] + ' ' + dateArray[3] + ' ' + dateArray[4]);
+    }
+    if (!isNaN(itemDate)) {
+        var itemMinutes = itemDate.getMinutes();
+        var itemMonth = itemDate.getMonth() + 1;
+        var itemHour = itemDate.getHours();
+        var itemAMPM = "am";
+        if (itemMinutes < 10) {
+            itemMinutes = "0" + itemMinutes;
+        }
+        if (itemHour >= 12) {
+            itemAMPM = "pm";
+        }
+        if (itemHour == 0) {
+            itemHour = 12;
+        }
+        if (itemHour > 12) {
+            itemHour = itemHour - 12;
+        }
+        itemDateString = itemHour + ":" + itemMinutes + itemAMPM + " on " + itemMonth + "/" + itemDate.getDate() + "/" + itemDate.getFullYear();
+    }
+    return itemDateString;
+}
+
+//var lastid = null;
+$.fn.spy = function (options) {
+
+    var limit = options.limit || 10;
+    var target = this;
+ 
+    //proxy the calls by default
+    var _spyTweetsShouldBeProxied = (options.mothership == "false" || options.edp == "false" || options.proxy == "false") ? false : true;
+
+    if (options.source == "twitter" && options.type == "search") {
+        var url = "http://search.twitter.com/search.json?q=" + escape(options.query) + "&rpp=" + limit + "&callback=?"
+        if (options.lastid != null && options.lastid != undefined && !_spyTweetsShouldBeProxied) {
+            url += "&since_id=" + options.lastid;
+        }
+        if (options.geocode != null) {
+            url += "&geocode=" + options.geocode;
+        }
+    }
+
+    if (options.source == "twitter" && options.type == "list") {
+        var url = "http://api.twitter.com/1/" + escape(options.query) + "/statuses.json?per_page=" + limit + "&callback=?";
+        if (options.lastid != null && options.lastid != undefined && !_spyTweetsShouldBeProxied) {
+            url += "&since_id=" + options.lastid;
+        }
+    }
+
+    //<evann>
+    if (options.source == "twitter" && options.type == "favorites") {
+        var url = "http://api.twitter.com/1/favorites/" + escape(options.query) + ".json?per_page=" + limit + "&callback=?";
+        if (options.lastid != null && options.lastid != undefined && !_spyTweetsShouldBeProxied) {
+            url += "&since_id=" + options.lastid;
+        }
+    }
+    //</evann>
+    if (options.source == "twitter" && options.type == "account") {
+        var url = "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=" + escape(options.query) + "&count=" + limit + "&callback=?";
+        //evann added
+        if (options.lastid != null && options.lastid != undefined && !_spyTweetsShouldBeProxied) {
+            url += "&since_id=" + options.lastid;
+        }
+    }
+
+
+    if (options.source == "pipes") {
+        var url = "http://pipes.yahoo.com/pipes/pipe.run?_id=" + escape(options.query) + "&_render=" + options.datatype;
+    }
+
+    //if we have a non-empty url and someone's trying to proxy the data, we'll use our new proxy component
+    //if( url != "" && ( options.mothership == "true" || options.edp == "true" || options.proxy == "true" ) ){
+    if (url != "" && _spyTweetsShouldBeProxied) {
+        var edpBaseUrl = "http://edp.msnbc.msn.com/rendering/apiproxy?url=";
+        url = edpBaseUrl + encodeURIComponent(url) + "&jsoncallback=?";
+    }
+
+    if (options.useTwitterProxyDocument) {
+        url = "http://www.today.com/id/47390994/";
+    }
+
+    if (options.datatype == "json" && url != "") {
+
+        $.getJSON(url, function (data) {
+
+            //evann added for proxied tweets
+            if (_spyTweetsShouldBeProxied) {
+                data = eval(data);
+            }
+
+            if (options.source == "twitter" && options.type == "search") {
+                data = data.results;
+            }
+
+            //if(data && data.length>0){ lastid = data[0].id; }
+            if (data && data.length > 0) { //evann added this back in
+                //lastid = data[0].id; 
+                options.lastid = data[0].id;
+            }
+
+            render(target, data, options);
+
+        });
+
+    }
+
+    if ((options.datatype == "rss" || options.datatype == "atom") && url != "") {
+        $.get(url, function (data) {
+            data = $(data).find('string').text();
+            data = parseXML(data);
+            if ($(data).find('item').length > 0) {
+                normalize(target, data, options);
+            } else {
+                $(this).html("There was a problem getting this data.");
+            }
+        }, "xml");
+    }
+
+};
+
+function normalize(target, data, options) {
+    var items = new Array();
+    if (options.datatype == "rss") {
+        $('item', data).each(function (i) {
+            var thisitem = {};
+            var item_raw = $(this).find("link").text();
+            var item_id_index = item_raw.indexOf("/statuses/");
+            var item_id = item_raw.substr(item_id_index + 10);
+            var item_user_index = item_raw.indexOf("twitter.com/");
+            var item_user = item_raw.substring(item_user_index + 12, item_id_index);
+            var title_raw = $(this).find("title").text();
+            var item_title = title_raw.substr(item_user.length + 2);
+            var item_date = $(this).find("pubDate").text();
+            var item_avatar = "";
+
+            thisitem['id'] = item_id;
+            thisitem['text'] = item_title;
+            thisitem['from_user'] = item_user;
+            thisitem['created_at'] = item_date;
+            thisitem['profile_image_url'] = item_avatar;
+            items.push(thisitem);
+        });
+    }
+    data = eval('(' + $.toJSON(items) + ')');
+    render(target, data, options);
+}
+
+function filterProfanity(tweet) {
+    var badwords = ["shit", "piss", "fuck", "cunt", "cocksucker", "motherfucker", "tits"].join("|");
+    var filter = new RegExp(badwords, "gi");
+    var m = tweet.match(filter);
+    if (m) {
+        for (var i = 0; i < m.length; i++) {
+            var replaceString = "";
+            for (j = 0; j < m[i].length; j++) {
+                replaceString += "*";
+            }
+            tweet = tweet.replace(m[i], replaceString);
+        }
+    };
+    return tweet;
+}
+
+function render(target, data, options) {
+
+    $("ol li.load", target).remove();
+    var showImages = options.images || "true";
+    var showLinks = options.links || "true";
+    var showDates = options.dates || "true";
+    var showProfanity = options.profanity || "true";
+    var newWindow = options.newwindow || "false";
+    var limit = options.limit || 10;
+
+    var prevItemTemplateID = null; //evann added
+    $.each(data, function (i, item) {
+
+        if ($("#" + item.id_str, target).length == 0) {
+
+            if (options.type == "list" || options.type == "account" || options.type == "favorites") {
+                item.from_user = item.user.screen_name;
+                item.profile_image_url = item.user.profile_image_url;
+            }
+
+            var itemTemplate = "<li id=\"" + item.id_str + "\">";
+
+            if (showLinks == "true") {
+                var charLimit = 37;
+                var m = item.text.match(/((https?\:\/\/)|(www\.))(\S+)(\w{2,4})(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/gi);
+                // /((https?\:\/\/)|(www\.))(\S+)(\w{2,4})(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/gi
+                // /(((https?\:\/\/)|(www\.))[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/gi
+                if (m) {
+                    for (var i = 0; i < m.length; i++) {
+                        item.text = item.text.replace(m[i], "<a href=\"" + m[i] + "\">" + ((m[i].length > charLimit) ? (m[i].substring(0, charLimit) + "&hellip;") : m[i]) + "</a>");
+                        if (m[i].indexOf("www") == 0) {
+                            item.text = item.text.replace(m[i], "http://" + m[i]);
+                        }
+                    }
+                };
+                if (item.text.search(/@\w+/) > -1) {
+                    item.text = item.text.replace(/(^|\s)@(\w+)/g, "$1@<a href='http://twitter.com/$2'>$2</a>");
+                }
+                if (item.text.search(/(^|\s)#(\w+)/g) > -1) {
+                    item.text = item.text.replace(/(^|\s)#(\w+)/g, "$1<a href='http://search.twitter.com/search?q=%23$2'>#$2</a>");
+                }
+            }
+
+            if (showProfanity == "false") {
+                item.text = filterProfanity(item.text);
+            }
+
+            if (showImages == "true" && item.profile_image_url != "") {
+                itemTemplate += "<span class=\"author\"><a class=\"item.text-url profile-pic url\" href=\"http://twitter.com/" + item.from_user + "\"><img src=\"" + item.profile_image_url + "\" class=\"photo fn\" alt=\"" + item.from_user + "\" width=\"48\" height=\"48\" /></a></span>";
+            }
+
+            itemTemplate += "<span class=\"status-body\"><strong><a class=\"item.text-url screen-name\" href=\"http://twitter.com/" + item.from_user + "\">" + item.from_user + "</a></strong> <span class=\"entry-content\">" + item.text;
+
+            if (showDates == "true") {
+                itemTemplate += "<span class=\"meta entry-meta\"><a href=\"http://twitter.com/" + item.from_user + "/statuses/" + item.id_str + "\">" + formatDate(item.created_at) + "</a></span>";
+            }
+
+            itemTemplate += "</span></span></li>\n";
+
+            /*
+            if ($("ol li", target).length < limit) {
+            $("ol", target).append(itemTemplate);
+            } else {
+            if (i < limit) {
+            $("ol", target).prepend(itemTemplate);
+            }
+            $("ol li:gt(" + (limit - 1) + ")", target).remove();
+            }
+            $("ol li", target).fadeIn();
+            */
+
+            //if we haven't reached the maximum number of iterations through the loop
+            //as defined by the maximum number of tweets that can appear...
+            if (i < limit) {
+
+                //...check to see if we have the max (or more) tweets in the target location
+                if ($("ol li", target).length >= limit) {
+                    //...if so, remove the last one in the list (it's the oldest)
+                    $("ol li:gt(" + (limit - 1) + ")", target).remove();
+                }
+
+                //$("ol", target).append(itemTemplate);
+                //then check to see if there's a prevItemTemplateID
+                if (prevItemTemplateID != null) {
+                    //...if so, then we add the new itemTemplate right before the prevItemTemplateID
+                    //we do it like this because the json response comes in reverse chronological order
+                    //and we want to maintain that order in our display
+                    $(itemTemplate).insertAfter($("#" + prevItemTemplateID));
+                } else {
+                    //...otherwise we just plop that thing right in there at the beginning
+                    //and add all subsequent items in after it
+                    $("ol", target).prepend(itemTemplate);
+                }
+
+            }
+
+            //the current itemTemplate becomes the next iteration's prevItemTemplateID
+            prevItemTemplateID = item.id_str;
+
+            $("ol li", target).fadeIn();
+            //$( "ol li", target ).slideDown();
+        }
+
+    });
+
+    if (newWindow == "true") {
+        $('a[href^="http://"]', target).attr("target", "_blank");
+    }
+
+};

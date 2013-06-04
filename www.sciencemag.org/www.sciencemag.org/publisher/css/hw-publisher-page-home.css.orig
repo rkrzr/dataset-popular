@@ -1,0 +1,38 @@
+
+#pageid-home #content-block { width: 670px; position:relative; left:0; margin:0; padding:0;}
+#pageid-home.sci #content-block { width: 838px;}
+/*
+===========================================================================
+Generated  by *Science*
+ver 1.1 (09-03-09)
+===========================================================================
+*/
+
+#sci-podcast {background: url(/site/icons_shared/sci-assets.png) no-repeat -140px -4px; position: relative; padding: 54px 18px 12px 12px;}
+#sci-podcast  #podcast-id {position: absolute; top: 28px; left: 168px; font-weight: bold;}
+#sci-podcast  h2{display: none;}
+#sci-podcast  p{width: 225px; font-size: 11px; margin: 0 0 6px 0;}
+
+#sci-webinar {padding: 12px 12px 4px 12px;}
+#sci-webinar  h2{padding-right: 32px;}
+
+.sci-blogs-si,
+.sci-blogs-or,
+.sci-blogs-msci,
+.sci-blogs-career,
+.sci-blogs-ctsci,
+.sci-blogs-find
+{background: url(/site/icons_shared/sci-assets.png) no-repeat; height: 35px; display: block;}
+
+.sci-blogs-si {background-position: 0 0; width: 130px;}
+.sci-blogs-or {background-position: 0 -35px; width: 124px;}
+.sci-blogs-msci {background-position: 0 -70px; width: 122px;}
+.sci-blogs-career {background-position: 0 -105px; width: 136px;}
+.sci-blogs-ctsci {background-position: 0 -140px; width: 128px;}
+.sci-blogs-find {background-position: 0 -175px; width: 90px;}
+
+#sci-jobsearch, #sci-jobsearch fieldset select, #sci-jobsearch fieldset input  {font-size: 11px;}
+
+/*
+===========================================================================
+*/

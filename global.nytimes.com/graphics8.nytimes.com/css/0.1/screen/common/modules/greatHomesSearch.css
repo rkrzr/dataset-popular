@@ -1,0 +1,114 @@
+/*$Id: greatHomesSearch.css 19526 2009-05-21 18:33:00Z jguinto $
+/css/0.1/screen/common/modules/greatHomesSearch.css
+(c)2006 - 2009 The New York Times Company */ 
+
+.greatHomesSearchModule .horizontalMenu li { 
+	font-size: 1em;
+	padding: 0 2px;
+}
+
+.greatHomesSearchModule .horizontalMenu li.firstItem{
+	padding-left: 0;
+}
+
+.greatHomesSearchModule .horizontalMenu li input {
+	width: 14px;
+	height: 12px;
+	margin-left: 0;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+
+.greatHomesSearchModule ul.insetV {
+	font-size: 1em;
+	color: #aaa;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.greatHomesSearchModule p.meta {
+	color: #000;
+	margin-bottom: 3px;
+	font-size: 1em;
+}
+
+.greatHomesSearchModule .containingBlock input.element2 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+}
+
+/* for sale, for rent radio buttons */
+
+.greatHomesSearchModule .element2 ul {
+	padding-top: 3px;
+}
+
+.greatHomesSearchModule .element2 li input { 
+	height: 14px;
+	margin-bottom: 2px;
+}
+
+.greatHomesSearchModule .element2 label { 
+	display: inline;
+	font-size: 1.1em;
+}
+
+.greatHomesSearchModule .element2 label.active {
+	font-weight: bold;
+}
+
+/* text input */
+
+.greatHomesSearchModule .querySuggestions,
+.greatHomesSearchModule #txtSearch {
+	width: 312px;
+}
+
+.greatHomesSearchModule .querySuggestions {
+	background-color: #fff;
+	overflow:hidden;
+	border: 1px solid #ccc;
+	display: none;
+	position: absolute;
+	z-index: 1;	
+}
+
+.greatHomesSearchModule .querySuggestions ul li {
+	padding: 3px 3px 5px 5px;	
+	font-size: 1.1em;
+	background: none;
+}
+
+.greatHomesSearchModule .querySuggestions ul li.selected {
+	background-color: #eee;
+}
+
+.greatHomesSearchModule #search-alert { 
+	display:none;
+}
+
+.greatHomesSearchModule .ghost-text {
+	color: #666;
+	font-style: italic;
+}
+
+/* drop down menus */
+
+.greatHomesSearchModule .searchOption {
+	float: left;
+}
+
+.greatHomesSearchModule .searchOption select {
+	width: 100px;
+	margin-right: 8px;
+}
+
+.greatHomesSearchModule .lastSearchOption select {
+	margin-right: 0;
+}
+
+.greatHomesSearchModule .searchOption label {
+	margin-bottom: 3px;
+}

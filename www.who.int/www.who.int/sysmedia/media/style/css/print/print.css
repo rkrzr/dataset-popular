@@ -1,0 +1,747 @@
+/* --- World Health Organization ----------------------------------------------------- */
+/* --- CSS Framework: Print styles --------------------------------------------------- */
+/* --- Versions   
+
+Version 1.0.3.3
+ 
+
+
+ ------------------------------------------------------------------------------------- */
+
+/*<![CDATA[*/
+@media print {
+ 
+/* SURVEY */
+
+#survey {
+	display:none;
+}
+ 
+/* -------------------------------------------------------------------------------------
+ layout.css
+ ======================================================================================*/
+ 
+/* body */
+body {
+	background-color:#FFFFFF;
+}
+
+/* hide */
+#access, #language, #navigation, #search, #ticker, #sidebar, .template_sidebar #sidebar, .template_sidebar-marginal #sidebar, .template_sidebar-special #sidebar, #breadcrumb, #footer {
+	display:none;
+}
+
+/* areas */
+body, #page, #wrapper, #main, #content, .template_sidebar #content, .template_sidebar-marginal #content, .template_sidebar-special #content {
+	display:block;
+	float:none;
+	width:17.5cm;
+	margin:0;
+	padding:0;
+	border:none;
+	background-image:none;
+	background-color:#FFFFFF;
+}
+#primary {
+	float:left;
+	width:11.5cm;
+	margin:0;
+	padding:0;
+}
+#marginal {
+	float:right;
+	width:5.5cm;
+	margin:0;
+	padding:0;
+} 
+
+/* header */
+#header {
+	width:17.5cm;
+	height:3cm;
+	margin:0;
+	padding:0;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ main
+ ---------------------------------------------------------------------------------------*/
+
+/* title */
+#title {
+	background-color:#FFFFFF;
+	border:none;
+	padding:0 0 9px 0;
+	margin-bottom:9px;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+ general.css
+ ======================================================================================*/
+
+/* -------------------------------------------------------------------------------------
+ generic
+ ---------------------------------------------------------------------------------------*/
+
+/* clear */
+.clear {
+	visibility:visible;
+	clear:both;
+	height:1mm;
+	text-indent:0;
+	font-size:1mm;
+	line-height:1mm;
+}
+
+/* scroller */
+.scroller {
+	background-image:none;
+	padding:0;
+}
+
+/* toggler */
+.toggler {
+	background-image:none;
+	padding-left:0;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ headings
+ ---------------------------------------------------------------------------------------*/
+
+/* titles */
+.title_country, .title_topic {
+	background-image:none;
+	padding-left:0;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ text
+ ---------------------------------------------------------------------------------------*/
+
+/* links */
+.link_external, .link_reference {
+	background-image:none;
+	padding:0;
+}
+
+/* linkbutton */
+#main .linkbutton {
+	background-image:none;
+	padding-left:0;
+}
+
+/* bullet list */
+ul.bullet, ol.bullet {
+	list-style-position:inside;
+	list-style-type:disc;
+}
+
+ul.bullet li, ol.bullet li {
+	padding-left:0;
+	padding-right:0;
+	background-image:none;
+}
+ul.disc {
+	list-style-position:outside;
+	list-style-type: disc;
+	margin-left:18px;
+}
+ul.disc li {
+	padding-left: 0px;
+	background-image:none;
+}
+ul.reference, ol.reference {
+	padding-left:27px;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ table
+ ---------------------------------------------------------------------------------------*/
+
+/* cells */
+table.table tbody th, table.table tbody td {
+	background-color:#FFFFFF;
+	padding:3px 5px 6px 0;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ forms
+ ---------------------------------------------------------------------------------------*/
+
+/* inputs */
+input.tlarge {
+	width:220px;
+}
+textarea.talarge {
+	width:218px;
+}
+select.slarge {
+	width:230px;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ columns
+ ---------------------------------------------------------------------------------------*/
+
+/* columns */
+.columns {
+	width:17.5cm;
+}
+
+
+/* col 1-2 */
+.col_1-2_1, 
+.template_sidebar .col_1-2_1 {
+	width:5.5cm;
+	margin-right:0;
+}
+.col_1-2_1 img {
+	max-width:5.5cm;
+	height:auto;
+}
+.col_1-2_2,
+.template_sidebar .col_1-2_2  {
+	float:right;
+	width:11.5cm;
+}
+.col_1-2_2 img {
+	max-width:11.5cm;
+	height:auto;
+}
+#health_topic .col_1-2_1, #health_topic .inlay_color {
+	width: 5.5cm;
+	overflow: visible;
+	border:none;
+}
+#health_topic .col_1-2_2, #health_topic .inlay_color, #health_topic .inlay {
+	width: 11.5cm;
+}
+#health_topic .col_1-2_1 img {
+	max-width:5.5;
+}
+
+
+/* col 2-1 */
+.col_2-1_1,
+.template_sidebar .col_2-1_1 {
+	width:11.5cm;
+	margin-right:0;
+}
+.template_sidebar .col_2-1_1 .inlay, .template_sidebar .col_2-1_1 .inlay_color   {
+	width:11.0cm;
+	margin-right:5px;
+}
+
+
+.col_2-1_1 img {
+	max-width:11.5cm;
+	height:auto;
+}
+.col_2-1_2,
+.template_sidebar .col_2-1_2 {
+	float:right;
+	width:5.5cm;
+}
+.col_2-1_2 img {
+	max-width:5.5cm;
+	height:auto;
+}
+
+
+/* col 1-1 */
+.col_1-1_1,
+.template_sidebar .col_1-1_1 {
+	width:8.5cm;
+	margin-right:0
+}
+.col_1-1_1 img {
+	max-width:8.5cm;
+	height:auto;
+}
+.col_1-1_2,
+.template_sidebar .col_1-1_2 {
+	float:right;
+	width:8.5cm;
+}
+.col_1-1_2 img {
+	max-width:8.5cm;
+	height:auto;
+}
+
+
+/* col 1-1-1 */
+.col_1-1-1_1,
+.template_sidebar .col_1-1-1_1 {
+	width:5.5cm;
+	margin-right:0.5cm;
+}
+.col_1-1-1_1 img {
+	max-width:5.5cm;
+	height:auto;
+}
+.col_1-1-1_2,
+.template_sidebar .col_1-1-1_2 {
+	width:5.5cm;
+	margin-right:0;
+}
+.col_1-1-1_2 img {
+	max-width:5.5cm;
+	height:auto;
+}
+.col_1-1-1_3,
+.template_sidebar .col_1-1-1_3 {
+	float:right;
+	width:5.5cm;
+}
+.col_1-1-1_3 img {
+	max-width:5.5cm;
+	height:auto;
+}
+
+/* subcolumns */
+.subcol_1-1_1, .subcol_1-1_2 {
+}
+.subcol_1-1_1 {
+	margin-right:0.5cm;
+}
+.subcol_1-1_2 {
+}
+
+/* subcolumns */
+.col_2-1_1 .subcol_1-1_1,
+.template_sidebar .col_2-1_1 .subcol_1-1_1 {
+	width:5.5cm;
+}
+.col_2-1_1 .subcol_1-1_1 img,
+.template_sidebar .col_2-1_1 .subcol_1-1_1 img {
+	max-width:5.5cm;
+	height:auto;
+}
+.col_2-1_1 .subcol_1-1_2,
+.template_sidebar .col_2-1_1 .subcol_1-1_2  {
+	width:5.5cm;
+}
+.col_2-1_1 .subcol_1-1_2 img,
+.template_sidebar .col_2-1_1 .subcol_1-1_2 img {
+	max-width:5.5cm;
+	height:auto;
+}
+
+
+.col_1-2_1 .subcol_1-1_1,
+.template_sidebar .col_1-2_1 .subcol_1-1_1 {
+	width:5.5cm;
+}
+.col_1-2_1 .subcol_1-1_1 img,
+.template_sidebar .col_1-2_1 .subcol_1-1_1 img {
+	max-width:5.5cm;
+	height:auto;
+}
+.col_1-2_1 .subcol_1-1_2,
+.template_sidebar .col_1-2_1 .subcol_1-1_2 {
+	width:5.5cm;
+}
+.col_1-2_1 .subcol_1-1_2 img,
+.template_sidebar .col_1-2_1 .subcol_1-1_2 img {
+	max-width:5.5cm;
+	height:auto;
+}
+
+.col_1-2_2 .subcol_1-1_1,
+.template_sidebar .col_1-2_1 .subcol_1-1_1 {
+	width:5.5cm;
+}
+.col_1-2_2 .subcol_1-1_1 img,
+.template_sidebar .col_1-2_1 .subcol_1-1_1 img {
+	max-width:5.5cm;
+	height:auto;
+}
+.col_1-2_2 .subcol_1-1_2,
+.template_sidebar .col_1-2_1 .subcol_1-1_2 {
+	width:5.5cm;
+}
+.col_1-2_2 .subcol_1-1_2 img,
+.template_sidebar .col_1-2_1 .subcol_1-1_2 img {
+	max-width:5.5cm;
+	height:auto;
+}
+
+
+
+/* unit columns */
+.unit_col_1, .unit_col_2, .unit_col_3, .unit_col_4, .unit_col_5, .unit_col_6, 
+.unit_col_7, .unit_col_8, .unit_col_9, .unit_col_10, .unit_col_11, .unit_col_12, 
+.unit_col_13, .unit_col_14, .unit_col_15, .unit_col_16, .unit_col_17, .unit_col_18, 
+.unit_col_19, .unit_col_20, .unit_col_21, .unit_col_22, .unit_col_23, .unit_col_24,
+.unit_col_1h {
+	margin-right:0.23cm;
+}
+
+.unit_col_1 {
+	width:0.5cm;
+}
+.unit_col_1h {
+	width:1.23cm;
+}
+.unit_col_2 {
+	width:1.23cm;
+}
+.unit_col_3 {
+	width:1.96cm;
+}
+.unit_col_4 {
+	width:2.69cm;
+}
+.unit_col_5 {
+	width:3.42cm;
+}
+.unit_col_6 {
+	width:4.15cm;
+}
+.unit_col_7 {
+	width:4.88cm;
+}
+.unit_col_8 {
+	width:5.61cm;
+}
+.unit_col_9 {
+	width:6.34cm;
+}
+.unit_col_10 {
+	width:7.07cm;
+}
+.unit_col_11 {
+	width:7.8cm;
+}
+.unit_col_12 {
+	width:8.53cm;
+}
+.unit_col_13 {
+	width:9.26cm;
+}
+.unit_col_14 {
+	width:9.99cm;
+}
+.unit_col_15 {
+	width:10.72cm;
+}
+.unit_col_16 {
+	width:11.45cm;
+}
+.unit_col_17 {
+	width:12.18cm;
+}
+.unit_col_18 {
+	width:12.91cm;
+}
+.unit_col_19 {
+	width:13.64cm;
+}
+.unit_col_20 {
+	width:14.37cm;
+}
+.unit_col_21 {
+	width:15.1cm;
+}
+.unit_col_22 {
+	width:15.83cm;
+}
+.unit_col_23 {
+	width:16.56cm;
+}
+.unit_col_24 {
+	width:17.5cm;
+}
+.unit_col_last {
+	margin-right:0;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+ containers & boxes
+ ---------------------------------------------------------------------------------------*/
+
+/* containers */
+.block, .box, .mbox, .colormbox {
+	background-image:none;
+	margin:0;
+	padding:7px 0 24px 0;
+	border-top:2px solid #CCCCCC;
+	background-color:#FFFFFF;
+}
+.block {
+	padding-top:16px;
+}
+.colormbox {
+	width:auto;
+}
+
+/* stage */
+#stage, #stage.stage_narrow {
+	width:17.5cm;
+	margin:0 0 18px 0;
+	padding:0;
+	background-image:none;
+	background-color:#FFFFFF;
+}
+.template_sidebar #stage_content {
+	float:none;
+	width:17.5cm;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+#billboard #stage.stage_narrow #stage_content {
+	float:left;
+	padding:0;
+	margin:0;
+	width:11.5cm;
+}
+#billboard #stage.stage_narrow h1 {
+	width:11.5cm;
+}
+
+#stage_marginal {
+	float:right;
+	width:5.5cm;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+#stage_marginal .inlay, #stage_marginal .inlay_color, #stage_marginal .inlay_small, #stage_marginal .inlay_small_color {
+	width:5.5cm;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+ elements.css
+ ======================================================================================*/
+
+/* box elements */
+.template_sidebar-marginal .inlay, .template_sidebar-marginal .inlay_color {
+	width:11.0cm;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ branding
+ ---------------------------------------------------------------------------------------*/
+
+/* logo */
+#branding a {
+	display:block;
+	width:18cm;
+	margin:0;
+	padding:0;
+}
+#branding a img {
+	display:block;
+	margin:0 auto;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ story
+ ---------------------------------------------------------------------------------------*/
+
+/* stories */
+ul.stories,
+#stage ul.stories,
+#stage.narrow ul.stories {
+	display:none;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+ index
+ ---------------------------------------------------------------------------------------*/
+
+/* keyboard */
+.indexes_keyboard {
+	display:none;
+}
+
+/* list */
+ul.index li a, ul.index li p {
+	background-color:#FFFFFF;
+	background-image:none;
+	padding:0;
+}
+ul.index li a span, ul.index li p span {
+	padding:0;
+}
+
+/* reference */
+ul.index .index_reference span em {
+	background-image:none;
+	padding-left:0;
+}
+ul.index .index_reference span em:before {
+	content:"→";
+	padding-right:2px;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ buffet
+ ---------------------------------------------------------------------------------------*/
+
+/* entry */
+.buffet {
+	height:3cm;
+}
+.buffet_entry {
+	height:auto;
+	border:none;
+	padding:0 0 0 10px;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ factbuffet
+ ---------------------------------------------------------------------------------------*/
+
+/* container */
+#factbuffets {
+	background-color:#FFFFFF;
+	margin:0 0 20px 0;
+	padding:0;
+}
+
+/* title */
+.factbuffet h3 {
+ 	margin-bottom:3px;
+	
+}
+
+.factbuffet p {
+ 	border-bottom:none;
+}
+
+/* link */
+.factbuffet_link {
+	display:none;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ listing
+ ---------------------------------------------------------------------------------------*/
+
+/* list */
+ul.listing li {
+	padding-left:0;
+	padding-right:0;
+	background-image:none;
+	background-color:#FFFFFF;
+}
+
+/* hide images & dropdown */
+.listing_image, ul.listing .listing_dropdown {
+	display:none;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ news
+ ---------------------------------------------------------------------------------------*/
+
+/* hide links and save a tree */
+.news_links {
+	display:none;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ events
+ ---------------------------------------------------------------------------------------*/
+
+/* list */
+ul.events li {
+	padding-left:0;
+	padding-right:0;
+	background-image:none;
+	background-color:#FFFFFF;
+}
+
+/* date */
+.event_date {
+	background-image:none;
+	padding-left:0;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ feature
+ ---------------------------------------------------------------------------------------*/
+
+/* list */
+ul.feature li,
+ul.feature li a,
+#main ul.feature li a span  {
+	margin:0;
+	padding:0;
+	background-image:none;
+	background-color:#FFFFFF;
+}
+ul.feature li {
+	margin-bottom:3px;
+}
+
+
+
+/* -------------------------------------------------------------------------------------
+ paging
+ ---------------------------------------------------------------------------------------*/
+
+/* pager */
+.paging {
+	display:none;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ paging
+ ---------------------------------------------------------------------------------------*/
+
+/* aiki */
+.modal_icon {
+	display:none;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ pageactions
+ ---------------------------------------------------------------------------------------*/
+
+/* links */
+#pageactions ul li#pageaction_email a,
+#pageactions ul li#pageaction_print a {
+	visibility:hidden;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ special
+ ---------------------------------------------------------------------------------------*/
+a.login {
+ display:none;
+}
+
+
+
+}
+/*]]>*/

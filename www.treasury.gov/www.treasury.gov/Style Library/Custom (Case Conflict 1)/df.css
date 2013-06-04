@@ -1,0 +1,98 @@
+﻿/* begin 		Treasury RR Latest Press Releases 
+   Date, Time:	2010-10-19, 0913
+*/
+
+.pr-rr-link {display:block; padding:5px 0;}
+	.t-rr-pressreleases .rrdate {display:block; color:#5F5F5F; font-style:italic; float:left;}
+	/*.pr-rr-link .rrtitle {display:block; width:180px; float:right;}*/
+	.t-rr-pressreleases a { text-decoration: none;}
+	.t-rr-pressreleases a:hover { text-decoration:underline; }
+
+.rr-photo-item {padding:5px 0;}
+	.rr-photo-item .rr-photo-pic {float:left; margin:0 10px 0 0; width:102px;}
+	.rr-photo-item .rr-photo-desc {float:left; width:145px;}
+	.rr-photo-item .rr-photo-desc p {margin-top:-2px;}
+
+.rr-bullet{list-style-type:circle !important; list-style-position:outside !important;}
+
+/* begin 		Treasury Resource Center Auction Schedule Links 
+   Date, Time:	2010-10-25, 0252
+*/
+.t-rc-as-links {margin-bottom:4px; float:left;}
+.t-rc-as-separator{padding:0 10px; float:left;}
+
+#social-tabs #tabs h6 .sh-anchor {color:#045D9D !important; display:inline; height:auto; max-width:225px; text-indent:0; white-space:normal !important; width:225px;}
+
+.smf_description {font-style:normal;}
+	.smf_description div {display:inline;}
+
+/* begin 		Treasury Video, Audio, and Webcasts 
+   Date, Time:	2010-11-10, 2038
+*/
+.t-video-container {float:left; padding:0 20px 30px 10px; width:345px;}
+	.t-video-thumbnail {float:left; padding:0 5px 0 0;}
+	.t-video-desc {float:left; width:170px;}
+	.t-video-desc a {font-weight: bold;}
+
+/* Date, Time: 2010-12-20, 1017 */
+	.t-utilities-media .featured-video { padding: 0 0 30px 10px; }
+
+/* begin 		Treasury Travels div wrapper class 
+   Date, Time:	2010-11-14, 2038
+*/
+.travels-container{padding:20px 0 10px 0;}
+
+
+/*
+	begin		Resource-Center/Data-Chart-Center landing page styling
+	Date, Time:	2010-11-22, 1153	
+*/
+.datawrapper-rc-dcc {padding:20px 0 0 0;width:800px;}
+	.inner-wp-rc-dcc {float:left; padding:0 0 0 20px; width:370px;}
+		.title-icon a:hover {text-decoration:none;}
+	.flash-chart-rc-dcc {float:left;margin-left:-20px;width:370px;}/*margin-left:60px*/
+	.datawrapper-rc-dcc H4.ms-standardheader {color:#2a2a2a; font-family:Arial,Helvetica,sans-serif; font-weight:bold; font-size:14px; padding:2px 0 0 0;}
+	.datawrapper-rc-dcc h4.ms-standardheader-title {color:#2A2A2A; font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:bold; padding:0 0 16px 0;}
+	.datawrapper-rc-dcc .ms-WPHeader {background-color:transparent;}
+	.datawrapper-rc-dcc  TABLE TD{border:medium none;}
+	.datawrapper-rc-dcc .ms-WPHeader TD {border-bottom:medium none;}
+	.t-small-rc-dcc, .t-small-rc-dcc p {font-size:12px !important;line-height:12px !important; float:right; width:300px; padding-right:40px;}
+.link-disclaimer-container-rc-dcc{width:350px; padding:0 0 0 5px;}
+	span.link-rc-dcc{text-align:center; width:350px; display:block; margin-left:-9px; padding:5px 0 0 0;}
+	span.disclaimer-rc-dcc{font-size:10px; width:350px; display:block; padding:0 0 0 5px;}
+.t-read-more-container{padding:20px 15px 0 0; float:right;}
+	.t-read-more-rc-dcc{padding:0 0 5px 0; line-height:18px; margin:0;} 
+	.t-read-more-rc-dcc a {background:url("../Images/Treas/right-arrow.gif") no-repeat scroll left 3px transparent; color:#045D9D !important; line-height:18px; padding-left:10px;}
+.t-dcc-top-webpart-zone{padding:0 0;}
+#other-interest-rate-data{padding:0 0 0 30px; overflow:visible;}
+.web-zone-datawrapper-rc-dcc {padding:20px 0 0 0;width :800px;}
+.web-zone-flash-chart-rc-dcc {float:left;width:370px; padding:0 0 0 20px;}
+
+/*
+	begin		Resource-Center/Data-Chart-Center landing page styling
+	Date, Time:	2010-12-07, 1153	
+*/
+
+#social-tabs .t-rr-wrapper {overflow: hidden;}
+
+
+/*
+used by fs
+*/
+.fs-grouped-container{padding:0 0 30px 0;}
+.fs-grouped-item-date{float:left; width:150px;}
+.fs-grouped-item-title{float:left; width:450px;}
+.entitytitle {display:block; float:left; width:240px;}
+	.surveylistdoc{float:right;}
+	.datalistdoc{float:left;}
+	.othrelistdoc{}
+.letter-present{color:#045D9D; font-weight:normal; cursor:pointer; padding:0 2px;}
+	.letter-present:hover {text-decoration:underline;}
+.selected-letter{color:#045D9D; font-weight:bold; cursor:pointer; padding:0 2px; text-decoration:underline !important;}
+.letter-not-present{color:#bbb; padding:0 2px;}
+
+.fs-reportconatiner{background-color:transparent; padding:15px 0 0 0px; width:100%;}
+.fs-reportdata{/*height:610px; overflow-y:scroll;*/ width:100%;}
+
+.cpp-report{text-align:left !important;}
+.plg-in-txt{float:right !important;}

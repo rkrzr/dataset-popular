@@ -1,0 +1,41 @@
+/* Style sheet PRINT  (2008) */
+/*#photo {
+	margin-bottom: 10px}*/
+.imgClass {margin:0; padding: 0;}
+.trans { width:90px; background-color:#000;filter : progid:DXImageTransform.Microsoft.Alpha(startX=0, startY=0, finishX=100, finishY=100,style=1,opacity=0,finishOpacity=40);}
+#setnum {
+	background-color: #E4E2BC;
+	float: left;
+	width: 100%;
+}
+
+#controls {
+	float: left;	
+}
+
+#controls a
+{
+outline: none;
+border: none; 
+}
+
+#new {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#setnum ol#new li {
+	display: inline;
+	padding-right: .2em;
+}
+
+#setnum ol#new li a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#setnum ol#new li a:hover, #setnum ol#new li a.active {
+	color: #bbbbbb;
+	text-decoration: none;
+}

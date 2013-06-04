@@ -1,0 +1,177 @@
+
+
+
+/* START - Pop Ups */
+
+
+
+
+
+#modalOverlay {
+background-color: #000;
+cursor: wait;
+}
+
+#modalContainer {
+width: 600px;
+left: 50%;
+top: 15%;
+margin-left: -300px;
+}
+
+.free_popup {
+width: 315px;
+background-color: transparent;
+position:absolute;
+z-index: 10;
+background-image: url(../../media/new-oct09/img-popup-direction-arrow-pixy.png);
+background-repeat: no-repeat;
+display:inline
+}
+
+.popup_left {
+margin-top:-17px;
+margin-left: 3px;
+padding: 0 0 0 24px;
+background-position: left top;
+float:right;
+}
+
+.popup_right {
+padding: 0 28px 0 0;
+background-position: right top;
+}
+
+
+.popup_container {
+font-family: Arial, Helvetica, sans-serif;
+width: 296px;
+padding: 2px 4px 4px 12px;
+margin: 0;
+-moz-box-shadow:8px 0px 14px #888;
+-webkit-box-shadow:8px 0px 14px #888;
+-box-shadow:8px 0px 14px #888;
+/*border: #f7ab04 solid 4px;*/
+border: #b20000 solid 4px;
+background-color: transparent;
+}
+
+.border_left_off {
+border-left: none;
+}
+
+.border_right_off {
+border-right: none;
+}
+
+/*.popup_container h2 {
+font-size: 1.8em;
+line-height: 1.2em;
+color: #005740;
+padding: 14px 5px 14px 44px;
+margin: 12px 0 0 0;
+border-bottom: #b20000 solid 1px;
+background-position: left center;
+background-repeat: no-repeat;
+}
+
+.popup_container h2 {
+background-image: url(/media/new-oct09/icon-popup-info-40.gif);
+}*/
+
+.popup_container em {
+font-style: normal;
+font-weight:bold;
+}
+
+.popup_container a:link, .popup_container a:visited {
+color: #003399;
+font-weight: bold;
+}
+
+.popup_container a:hover {
+text-decoration: underline;
+}
+
+#sticky .popup_container p {
+color: #0066cc;
+font-size: 13px;
+font-weight: bold;
+line-height: 1.35em;
+margin: 12px 0 12px 0;
+padding: 0;
+}
+
+.poptextboxlist h3 {
+font-size: 0.7em;
+color: #ff3333;
+margin: 0;
+padding: 8px 0 5px 25px;
+background-image: url(http://cdn.freetranslation.com/media/icon_nostock_16.png);
+background-repeat: no-repeat;
+background-position: 8px center;
+}
+
+.poptextboxlist label {
+display: block;
+padding: 0 0 10px 0;
+}
+
+.popchecklist label {
+font-size: 1em;
+}
+
+.poptextbox {
+width: 90%;
+}
+
+.popchecklist li, .poptextboxlist li {
+padding: 7px 0 7px 35px;
+margin: 0;
+border-bottom: #eee solid 1px;
+}
+
+.popchecklist li {
+font-size: 0.8em;
+}
+
+#sticky a:link.closebutton, #sticky a:visited.closebutton, #sticky a:active.closebutton, #sticky a:focus.closebutton {
+font-size: 9px;
+font-weight: normal;
+line-height: 1em;
+color: #666;
+float: right;
+text-decoration: none;
+padding: 0 10px 0 0;
+border: none;
+background-image: url(../../media/new-oct09/icon-remove-grey-16.gif);
+background-repeat: no-repeat;
+background-position: right 2px;
+}
+
+#sticky a:hover.closebutton {
+text-decoration: underline;
+}
+
+
+#sticky div {
+
+	cursor: pointer;
+	cursor: hand;
+
+}
+
+/*
+.logo_ft {
+background-image: url(/media/gif/logo_c2000.gif);
+background-repeat: no-repeat;
+background-position: right center;
+}
+
+.popselected {
+color: #ff6600;
+background-color: #eee;
+}
+*/
+
+/* END - Pop Ups */

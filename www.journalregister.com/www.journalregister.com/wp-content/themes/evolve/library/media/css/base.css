@@ -1,0 +1,937 @@
+/**
+ * 
+ */
+
+/* Document Body */
+body {min-width:960px;}
+body, input, textarea { font: 13px/1.5 "Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif; }
+
+/* Font Styles */
+.serif { font-family: Georgia, "Times New Roman", Times, serif; }
+.sans-serif { font-family: "lucida sans", Verdana, Arial, Helvetica, sans-serif; }
+
+/* Vertical Rhythm  */
+.published {border:1px solid #494C55;line-height:15px;text-align:center;padding:4px 7px;position:relative;top:-11px;left:-11px;float:left;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/widget-title.gif") no-repeat scroll center bottom #575A62;color:#fff;text-shadow:0 1px 2px #444;}
+.published strong {font-size:17px;line-height:17px;}
+
+.author.vcard .avatar {-moz-box-shadow:0px 0px 2px #999;float:left;margin:0;position:relative;top:-7px;left:-5px;border:2px #eee solid;padding:0;margin-right:5px;}
+
+.entry-meta { margin-bottom: 10px;text-shadow:0 1px 0px #fff;  }
+.entry-header {clear:both;border:1px solid #ccc;text-transform:uppercase;margin:15px 0;padding:10px;background:transparent url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/container-menu.jpg') 0 -40px repeat-x;}
+.entry-header a {color:#555;}
+.entry-footer {font-size:13px;clear:both;font-style:italic;margin:20px 0 0 0 ;}
+.entry-footer a {border-bottom:1px dotted #ACCDEE;}
+.entry-footer a:hover {text-decoration:none;border-bottom-color:#333;color:#333;}
+.edit-post, .edit-comment, .edit-page {visibility:hidden;}
+.edit-post a, .edit-comment a, .edit-page a {-moz-box-shadow:0px 0px 2px #999;-moz-border-radius:3px;border:1px solid #fff;background:#eee url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/icon-edit.png') 5px 5px no-repeat;padding:4px;padding-left:25px;margin-left:5px;} 
+.edit-page {position:relative;left:10px;top:15px;}
+.edit-post a, .edit-page a {color:#555;}
+
+.sticky, .bypostauthor {}
+
+
+
+.entry-categories {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/icon-category.gif') 0 5px no-repeat;padding:5px 0px;padding-left:20px;}
+.entry-tags {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/icon-tag.gif') 0 5px no-repeat;padding:5px 0px;padding-left:20px;}
+
+#page-links {clear:both;float:left;margin:20px 0;}
+#page-links a {color:#999;margin:0 2px;-moz-border-radius:3px;-moz-box-shadow:0 1px 2px #ccc;text-shadow:0 1px 1px #999;text-decoration:none;padding:3px 7px;background:#f1f1f1;}
+#page-links a:hover {background:#fff;color:#333;}
+#page-links p {margin-bottom:0;}
+#page-links strong {font-size:13px;text-transform:uppercase;}
+
+
+
+
+
+
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form, .gallery-row, .comment-list ul, .comment-list ol { margin-bottom: 20px; }
+.comment, .navigation-links { margin-bottom: 40px; }
+.nav-top .navigation-links {margin-bottom:20px;}
+
+/* Header */
+/*.header {padding:12px 0 30px 0;background:#6b7076 url('../images/header.jpg') bottom left repeat-x; } */
+.header {height: 60px; background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/3-BK-ground-IMAGE.jpg") repeat-x scroll 0 0 transparent;}
+#logo-image {float:left;margin-right:20px;} 
+
+/* Content Background */
+
+
+
+.content-top {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/container-content.jpg') top left repeat-x;height:6px;_margin-bottom:-11px; }
+.content {padding-top:25px;background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/content.jpg') top left repeat; }
+.content-bottom {width:100%;height:4px;bottom:0;left:0;right:0;background:#fff;border-top:#ddd 1px solid;}  
+ 
+
+/* Logo */
+/*#logo, #logo a { font-size: 50px; float:left; margin-right:10px; letter-spacing:-1px; line-height: 50px; font-family:Impact; }*/
+#logo {text-indent: -9999px;}
+#logo a, .footer a { color: #fff; text-shadow:0px 1px 2px #222;}
+#logo a:hover , .footer a:hover {color: #fff; text-decoration: underline; }
+#tagline { color: #eee; padding-top:20px; line-height:30px;font-size: 15px;font-weight:bold;text-shadow:0px 1px 0px #555; }
+
+/* Menu */      
+
+.menu-top-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-corners.png');left:0;top:-1px;position:absolute;height:24px;width:24px;clip:rect(auto, 12px, 12px, auto);}
+.menu-top-right { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-corners.png');right:0;top:-1px;position:absolute;height:24px;width:24px;clip:rect(auto,auto,12px,12px);}
+
+.menu-bottom-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-corners.png');left:0;bottom:7px;position:absolute;height:24px;width:24px;clip:rect(12px, 12px, auto, auto);}
+.menu-bottom-right { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-corners.png');right:0;bottom:7px;position:absolute;height:24px;width:24px;clip:rect(12px, auto, auto, 12px);}
+
+
+.menu-middle-left { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-left-right.png');left:0;position:absolute;width:24px;top:11px;bottom:19px;clip:rect(auto, 12px, auto, auto);}
+.menu-middle-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-left-right.png');right:0;position:absolute;width:24px;top:11px;bottom:19px;clip:rect(auto, auto, auto, 12px);}    
+
+.menu-top {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-top-bottom.png');height:24px;top:-1px;left:12px;right:12px;position:absolute;clip:rect(auto, auto, 12px, auto);}
+.menu-bottom { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-top-bottom.png');height:24px;bottom:7px;left:12px;right:12px;position:absolute;clip:rect(12px, auto, auto, auto);}
+
+.menu-middle {background-color:#efefef;bottom:19px;left:9px;position:absolute;right:9px;top:10px;}
+                                                                                                                                                       
+.menu { margin:0px 9px;z-index:999;}
+
+
+
+
+
+
+
+
+
+.menu-back {padding-bottom:15px;background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/container-menu.jpg') top left repeat-x;}
+
+.menu-container {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/widgets-back.jpg') top left repeat;}
+
+.nav {line-height:1; width: 100%; margin-bottom:0;z-index:1;position:relative; }
+.nav, .nav * { list-style: none; margin-left: 0; }
+.nav li { float: left; padding: 0; position: relative; z-index:9999;}
+.nav ul li { width: 100%; }
+.nav a { display: block; position: relative; padding: 8px 10px; }
+
+
+
+/* Hides items under top menu */
+.nav ul { position: absolute; top: -9999em; width: 20em; z-index:9999;/* left offset of submenus need to match (see below) */ }
+
+/* Shows submenus */
+.nav li:hover ul,
+.nav li.nav-hover ul { left: -1px; top: 41px; /* match top ul list item height */ position:absolute;z-index: 999999; }
+
+/* Hides all sub items (4 levels deep) */
+.nav li:hover li ul,
+.nav li.nav-hover li ul,
+.nav li li:hover li ul,
+.nav li li.nav-hover li ul,
+.nav li li li:hover li ul,
+.nav li li li.nav-hover li ul { top: -999em; }
+
+/* On :hover, displays all sub items (4 levels deep) */
+.nav li li:hover ul,
+.nav li li.nav-hover ul,
+.nav li li li:hover ul,
+.nav li li li.nav-hover ul,
+.nav li li li li:hover ul,
+.nav li li li li.nav-hover ul { left: 20em; /* match .nav ul width */ top: -1px; }
+
+/* Default Skin */
+.nav { padding:0px 0px 2px 0px;}
+.nav ul { border: 1px solid #e1e1e1; -moz-box-shadow:2px 0px 2px #999;}
+.nav ul li a { border-bottom: 1px solid #e1e1e1;}
+.nav li a {padding:15px 10px 13px 10px; }
+.nav li:hover ul,
+.nav li.nav-hover ul { background: #eee; }
+
+.nav li:hover > a {text-shadow:0px 1px 2px #0a5182; text-decoration: none; background:#1f9ef6 url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-item.png') top left repeat-x; color:#fff;}
+.nav li li:hover>a {border:1px solid #0f85d7; padding: 9px 9px 10px 9px;}  
+
+/* 4 Level Menu */
+.nav a { color: #333; font-weight:bold; text-transform:uppercase; text-shadow:0px 1px 1px #fff; }
+.nav a:hover,.nav li.current_page_item a,.nav li.current_page_parent a,.nav li.current_page_ancestor a
+
+ { text-shadow:0px 1px 2px #0a5182; text-decoration: none; background:#1f9ef6 url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-item.png') top left repeat-x; color:#fff; border:1px solid #0f85d7; padding: 14px 9px 12px 9px; }
+
+.nav li.current_page_parent li a,
+.nav li.current_page_item ul li a, 
+.nav li.current_page_ancestor li.page_item a,
+.nav li.current_page_parent li.current_page_item .page_item a, 
+.nav li.current_page_ancestor li.current_page_ancestor li.page_item a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a
+{ border:none;border-bottom: 1px solid #e1e1e1; padding: 10px; background: #eee; color: #333; text-shadow:0px 1px 1px #fff; }
+
+.nav li.current_page_parent li a:hover,
+.nav li.current_page_item ul li a:hover,
+.nav li.current_page_ancestor li.page_item a:hover, 
+.nav li.current_page_parent li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_parent a,
+.nav li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_parent li.current_page_item .page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor a,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_item li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.page_item a:hover,
+.nav li.current_page_ancestor li.current_page_ancestor li.current_page_ancestor li.current_page_item a
+ {padding:9px 9px 10px 9px;background:#1f9ef6 url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu-item.png') top left repeat-x;color:#fff;text-shadow:0px 1px 2px #0a5182;border:1px solid #0f85d7;}
+
+
+
+.nav li li a,
+.nav li li li a,
+.nav li li li li a { padding: 10px;}
+
+.nav li li a:hover, 
+.nav li li li a:hover,
+.nav li li li li a:hover { padding:9px 9px 10px 9px; }     
+
+/* Menu bugfix */
+.ie7 .nav:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
+
+/* Links */
+a, .entry-content a:link, .entry-content a:active, .entry-content a:visited { color: #2e84db; text-decoration: none; }
+a:hover { text-decoration: underline; }
+#secondary a, #secondary-2 a {border-bottom:1px dotted #ACCDEE;font-weight:bold;line-height:130%;}
+#secondary a:hover, #secondary-2 a:hover {border-bottom-color:#184573;color:#2365a7;text-decoration:none;text-shadow:0 1px 1px #aaa;}
+.entry-content a:link, .entry-content a:active, .entry-content a:visited { text-decoration: underline; }
+.entry-content a:hover { text-decoration: none; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: normal; clear: both;margin-bottom:15px; }
+h1 { font-size: 46px; line-height: 46px; padding: 5px 0px;letter-spacing:-3px;  }
+h2 { font-size: 40px; line-height: 40px; padding: 5px 0px;letter-spacing:-2px;  }
+h3 { font-size: 34px; line-height: 34px; padding: 5px 0px;letter-spacing: -2px;  }
+h4 { font-size: 27px; line-height: 27px; padding: 5px 0px;letter-spacing:-1px; }
+h5 { font-size: 20px; line-height: 20px; padding: 5px 0px; }
+h6 { font-size: 14px; line-height: 18px; }
+
+
+/* Widgets */
+.widget {margin-bottom:15px;}
+.widget ul {margin-bottom:0;}
+.widget-title {margin-bottom:10px;position:relative;left:-17px;top:-10px;color:#fff;text-shadow:0 1px 3px #444;font-size:19px;line-height:19px;letter-spacing:-1px;font-weight:bold;text-transform:uppercase;padding:10px 18px 0 18px;}
+.widget-title a {color:#fff !important;text-shadow:0 1px 3px #444 !important;border-bottom:none !important;}
+.widget-content {position:relative;margin:0 19px 21px 19px;padding:10px 0 21px 0;font-size:15px;background:#fff;}
+
+.wtop-top {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtop-top.png");height:9px;left:-8px;position:absolute;right:-8px;top:-15px;}
+
+.wtop-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtop-corners.png');clip:rect(auto, 10px, auto, auto);height:9px;left:-18px;top:-15px;position:absolute;width:20px;}
+.wtop-right { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtop-corners.png');clip:rect(auto, auto, auto, 10px);height:9px;right:-18px;top:-15px;position:absolute;width:20px;}
+
+.wtop-middle {border-bottom:1px solid #494c55;bottom:0px;left:-8px;position:absolute;right:-8px;top:-10px;background:#575a62 url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/widget-title.gif') bottom center no-repeat;}
+
+.wtopmiddle-left {top:-6px;background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtopmiddle-left-right.png');clip:rect(auto, 11px, auto, auto);left:-19px;position:absolute;bottom:0;width:22px;} 
+.wtopmiddle-right {top:-6px;background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtopmiddle-left-right.png');clip:rect(auto, auto, auto, 11px);right:-19px;position:absolute;bottom:0;width:22px;} 
+
+
+.wbottom {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wbottom.png");height:21px;left:19px;right:19px;position:absolute;bottom:0px;}
+
+
+.wsbottom-left {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wbottom-corners.png");clip:rect(auto, 19px, auto, auto);height:21px;left:0px;bottom:0px;position:absolute;width:38px;}
+.wsbottom-right { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wbottom-corners.png');clip:rect(auto, auto, auto, 19px);height:21px;right:0px;bottom:0;position:absolute;width:38px;}
+
+
+
+.wmiddle-left { background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wmiddle-left.png');bottom:21px;left:0;position:absolute;top:0px;width:19px;}
+.wmiddle-right {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wmiddle-right.png');bottom:21px;right:0;position:absolute;top:0px;width:19px;}
+
+
+/* Widgets Header & Footer */
+
+.widgets-holder .widget {float:left;width:100%;position:relative;margin-bottom:25px;}
+.widgets-holder .widget .wtop {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wtop-top-bottom-footer-dark.png");height:9px;clip:rect(auto, auto, 9px, auto);left:11px;right:11px;position:absolute;top:-5px;}
+.widgets-holder .widget .wbottom-footer {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wtop-top-bottom-footer-dark.png");height:18px;clip:rect(9px, auto, auto, auto);left:11px;right:11px;position:absolute;bottom:0px;}
+
+.widgets-holder .widget .wtop-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wtop-corners-footer-dark.png');left:1px;top:-5px;}
+.widgets-holder .widget .wtop-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wtop-corners-footer-dark.png');right:1px;top:-5px;}
+
+.widgets-holder .widget .widget-title {margin-bottom:0px;}
+
+.widgets-holder .widget .wmiddle-left { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wmiddle-left-right-footer-dark.png');bottom:9px;clip:rect(auto, 11px, auto, auto);left:0;position:absolute;top:4px;width:38px;}
+.widgets-holder .widget .wmiddle-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wmiddle-left-right-footer-dark.png');bottom:9px;clip:rect(auto, auto, auto, 27px);position:absolute;right:0;top:4px;width:38px;}
+
+.widgets-holder .widget .wbottom-left {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wbottom-corners-footer-dark.png");clip:rect(auto, 10px, auto, auto);height:9px;left:1px;bottom:0px;position:absolute;width:20px;}
+.widgets-holder .widget .wbottom-right { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wbottom-corners-footer-dark.png');clip:rect(auto, auto, auto, 10px);height:9px;right:1px;bottom:0;position:absolute;width:20px;}
+
+.widgets-holder .widget .wmiddle-footer {background:transparent url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wback-footer-dark.png");bottom:9px;left:11px;position:absolute;right:11px;top:4px;}
+.widgets-holder .widget .widget-content {background:none;position:relative;margin:20px;margin-top:0;padding:10px 0 0 0;}
+
+.widgets-holder a:hover {text-decoration:underline;}
+
+.widgets-back {background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/widgets-back.jpg");margin-top:0px !important;padding-top:10px;}
+.widgets-back-inside {width:960px;}
+.widgets-back .widget-title a {color:#333 !important;text-shadow:0 1px 3px #ddd !important;}
+
+
+.widgets-back .widgets-holder .widget .wtop {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtop-top-bottom-footer.png");height:9px;clip:rect(auto, auto, 9px, auto);left:11px;right:11px;position:absolute;top:-5px;}
+.widgets-back .widgets-holder .widget .wbottom-footer {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtop-top-bottom-footer.png");height:18px;clip:rect(9px, auto, auto, auto);left:11px;right:11px;position:absolute;bottom:0px;}
+
+.widgets-back .widgets-holder .widget .wtop-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtop-corners-footer.png');}
+.widgets-back .widgets-holder .widget .wtop-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wtop-corners-footer.png');}
+
+
+.widgets-back .widgets-holder .widget .wmiddle-left { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wmiddle-left-right-footer.png');bottom:9px;clip:rect(auto, 11px, auto, auto);left:0;position:absolute;top:4px;width:38px;}
+.widgets-back .widgets-holder .widget .wmiddle-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wmiddle-left-right-footer.png');bottom:9px;clip:rect(auto, auto, auto, 27px);position:absolute;right:0;top:4px;width:38px;}
+
+.widgets-back .widgets-holder .widget .wbottom-left {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wbottom-corners-footer.png");clip:rect(auto, 10px, auto, auto);height:9px;left:1px;bottom:0px;position:absolute;width:20px;}
+.widgets-back .widgets-holder .widget .wbottom-right { background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wbottom-corners-footer.png');clip:rect(auto, auto, auto, 10px);height:9px;right:1px;bottom:0;position:absolute;width:20px;}
+
+.widgets-back .widgets-holder .widget .wmiddle-footer {background:transparent url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wback-footer.png");}
+
+.widgets-back h3 {color:#333;text-shadow:0 1px 3px #ddd;}
+.widgets-back ul, .widgets-back ul ul, .widgets-back ul ul ul {list-style-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/list-style.gif") !important;}
+.widgets-back a:hover {color:#333}
+
+
+
+
+/* Content */
+
+
+#primary {position:relative;}  
+.page-title { font-size: 26px; font-weight: bold;font-style: italic;letter-spacing:-1px;text-shadow:0 1px 2px #999; }
+.page-title span { font-weight: normal; }
+.entry-title, .entry-title a { color: #51545c; font-size: 38px; line-height: 38px;letter-spacing:-2px;font-weight:bold; text-shadow: 0 1px 2px #fff;}
+.entry-title, .entry-title a:hover { color: #000; text-decoration: none; }
+.type-page .entry-title {float:left;}
+.entry-content {clear:both;font-size:15px;margin-top:35px;}
+.hentry {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/entry-back.jpg') bottom center no-repeat;padding-bottom:25px;}
+.entry-content .read-more {font-size:18px;font-weight:bold;}
+.entry-content .read-more a {font-size:13px;border:none;margin-left:10px;text-decoration:none;}
+
+/* Footer */
+
+/*.footer-top {background:url('../images/footer-top.jpg') repeat-x;height:135px;position:absolute;top:0px;bottom:0;left:0;right:0;}*/
+/*.footer {position:relative;color:#ddd; background-color:#494c55;background-image:url('../images/footer.jpg'); padding:20px 0;}*/
+p#copyright {font-weight:bold;font-size:15px;text-shadow:0 1px 2px #333;}
+p#copyright .credits {font-style:italic;font-size:12px;}
+
+/* Text Elements */
+address { font-style: italic; }
+abbr[title], acronym[title], dfn[title] { cursor: help; border-bottom: 1px dotted #666; }
+
+blockquote { -moz-box-shadow:0 0px 15px #bbb;text-shadow:0 1px 1px #999;color: #555; font-style: italic;font-weight:bold;background:#f1f1f1 url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/quote.gif')no-repeat 10px 15px; border: 4px solid #ddd; margin: 0 10px;margin-bottom:20px; padding: 10px;padding-bottom:0; }
+
+strong { font-weight: bold; }
+em, dfn, cite { font-style: italic; }
+dfn { font-weight: bold; }
+
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+small { font-size: 12px; }
+
+del { text-decoration: line-through; }
+ins { text-decoration: underline; }
+
+code, pre {  line-height: 15px; }
+var, kbd, samp, code, pre { font: 12px/1.4 Consolas, "Andale Mono", Courier, "Courier New", monospace; background: #fafafa; }
+kbd { font-weight: bold; }
+samp, var { font-style: italic; }
+pre { white-space: pre; overflow: auto; padding: 10px; border: 1px solid #ddd; clear: both; }
+code { padding: 0px 3px; }
+
+/* Lists: (ul, ol, dl) */
+ul, ol, dl { margin-left: 15px; }
+.nav { margin-left: 0px; }
+.entry-content ul, .entry-content ol, #search-query { margin-left: 25px; }
+
+li ul, li ol { margin-bottom: 0; }
+ul ul, ol ol, ul ol, ol ul { margin-bottom: 0; }
+
+ol { list-style-type: decimal; }
+
+ul, ul ul, ul ul ul { list-style-type:none;list-style-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/list-style.gif'); }
+
+.widgets-holder ul, .widgets-holder ul ul, .widgets-holder ul ul ul {list-style-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/list-style-dark.gif");}
+
+dt { font-weight: bold; }
+
+.fat li { margin-bottom: 10px; }
+
+/* Tables */
+table { width:98%;-moz-box-shadow:0 0 4px #fff;-moz-border-radius:3px;border: 2px solid #d1d1d1;border-left:1px solid #ddd;border-top:1px solid #ddd; line-height: 18px; margin: 0 0 22px 0; text-align: left; }
+table .even { background: #ddd; }
+caption { text-align: left; }
+th, td { font-size:14px;border: 1px solid #ddd;border-right:0;border-bottom:0;padding: 8px 11px; background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/table-item.png") repeat-x scroll left bottom #f2f2f2;}
+thead, thead th, thead td {padding:10px 11px;font-weight:bold;background:#999;color:#fff;text-shadow:0 0px 2px #333;font-size:18px;}
+
+/* Forms */
+
+input[type="text"], input[type="password"], textarea { -moz-border-radius:5px;padding:10px 8px;font-weight:bold;border:2px solid #ccc;background:#f9f9f9 url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/input-text-back.png') top left repeat-x;  }
+input[type="submit"], button, .button, input#submit { -moz-border-radius:5px;color:#DDDDDD;font-family:arial;border:1px solid #333;font-size:16px;font-weight:700;height:32px;letter-spacing:-1px;padding:0;text-shadow:0 1px 2px #111111;text-transform:uppercase;background:#f9f9f9 url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-button-back.png') 0 -2px repeat-x;font: 12px; padding: 2px 10px; cursor: pointer; }
+button:hover, .button:hover, input#submit:hover { color:#fff; }
+
+
+/* bugfix */
+.safari input { padding: 0px 3px; }
+.chrome input { padding: 1px 3px; }
+
+/* Comments */
+
+#comments {clear:both;}
+.comments-title-back {float:left;padding:10px;padding-left:0;margin-bottom:25px;}
+.comment-title {float:left;margin-right:12px;letter-spacing:0;}
+.comment-title-meta, .pings-title-meta {font-size:22px;font-weight:bold;font-style:italic;}
+.pings-title-meta {font-size:20px;letter-spacing:0px;}
+.no-comment {font-size:19px;color:#bbb;}
+.comment-feed-link {position:relative;top:10px;}
+.comment-count {float:right;font-weight:bold;}
+.comment-list, .comment-list .children { list-style: none; }
+.comment-list { clear:both;margin:20px 4px 0 4px; }
+.comment, .trackback, .pingback { background:#fff url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/comment-list.png") repeat-x bottom left;margin-bottom: 30px;padding:15px;border:4px solid #eee;-moz-box-shadow:0 1px 6px #999999;-moz-border-radius:5px; }
+.trackback, .pingback {padding:10px;margin:0 4px 20px 4px;font-style:italic;font-size:11px;}
+.pings-list {margin-bottom:30px;list-style:none outside none;}
+.comment-list .children { margin-top: 40px; }
+.comment-meta { margin-bottom: 30px;float:left;position:relative;top:7px;font-size:11px;color:#999; }
+.commenter { font-size: 18px;font-weight:bold;float:left;margin-right:10px; }
+.commenter a {border-bottom:1px dotted #ACCDEE;}
+.commenter a:hover {border-bottom:none;}
+.comment-content {clear:left;}
+.edit-comment a {font-size:12px;color:#555;}
+a.comment-reply-link {padding-left:13px;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/reply.gif") no-repeat 0 3px;}
+a#cancel-comment-reply-link {padding-left:16px;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/cancel-reply.png") no-repeat 0 3px;}
+.avatar { float: right; margin: 0px 0px 10px 20px; border: 4px #eee solid;-moz-box-shadow:0 1px 8px #bbb; }
+a.follow-replies {background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/follow-replies.gif") no-repeat 0 0;float:left;width:19px;height:19px;position:relative;top:12px;}
+a.follow-replies:hover {background-position:0 -19px;}
+
+#showinfo a, #hideinfo a, #logout a {margin-left:10px;position:relative;top:-5px;float:left;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/change-close.png") no-repeat 0 0;width:83px;height:29px;}
+#hideinfo a {background-position:0 -28px;}
+#logout a {background-image:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/logout.png");width:80px;}
+
+
+
+.comment-unapproved {font-weight:bold;font-style:italic;color:#a08800;-moz-border-radius:5px;clear:left;background:#fff09f url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/info.png") no-repeat 4px 3px;border:1px solid #ffe761;padding:8px 10px;padding-left:40px;}
+
+
+
+/* Comment Reply */
+
+#reply-title {letter-spacing:0;margin-bottom:0;font-size:21px;font-style:italic;font-weight:bold;text-shadow:0 1px 1px #eee;}
+
+#respond {clear:both;margin-bottom:30px;padding:10px 15px;-moz-border-radius:5px;-moz-box-shadow:0 1px 6px #999;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/widgets-back.jpg") repeat scroll 0 0 transparent;
+border:1px solid #bbb;}
+
+#form-section-author, #form-section-email, #form-section-url {width:250px;height:23px;padding:8px;padding-top:9px;}
+
+
+#respond input#author, #respond input#url, #respond input#email, #respond textarea {display:block;;-moz-border-radius:5px;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/input-text-back.png") repeat-x scroll left top #F9F9F9;border:2px solid #FFFFFF;font-weight:bold;}
+
+#respond textarea {width:96%;padding:10px;font-size:18px;}
+
+#comment-form .form-section input { margin-right: 10px;background:none;border:none;width:240px; }
+.form-section { margin-bottom: 10px;position:relative; }
+.form-section label { cursor: pointer; }
+#commenter-details input { margin-right: 10px; }
+#allowed-tags { font: 11px Verdana, Arial, Helvetica, sans-serif; padding: 5px 10px; background: #fff; border: 1px #ddd dotted; border-top: none; width: 573px; }
+
+.text-field-top-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-corners.png');left:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, 7px, 20px, auto);}
+.text-field-bottom-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-corners.png');left:0;bottom:0px;position:absolute;height:40px;width:14px;clip:rect(20px, 7px, auto, auto);}
+.text-field-top-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-corners.png');right:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, auto, 20px, 7px);}
+.text-field-bottom-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-corners.png');right:0;bottom:0px;position:absolute;height:40px;width:14px;clip:rect(20px, auto, auto, 7px);}
+.text-field-top {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-back.png');right:7px;left:7px;top:0px;position:absolute;height:40px;clip:rect(auto, auto, 20px, auto);}
+.text-field-bottom {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-back.png');right:7px;left:7px;bottom:0px;position:absolute;height:40px;clip:rect(20px, auto, auto, auto);}
+.text-field-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/field-text-left-right.png');left:0px;top:20px;bottom:20px;position:absolute;width:14px;clip:rect(auto, 7px, auto, auto);}
+.text-field-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/field-text-left-right.png');right:0px;top:20px;bottom:20px;position:absolute;width:14px;clip:rect(auto, auto, auto, 7px);}
+.text-field-middle {left:7px;right:7px;top:20px;bottom:20px;position:absolute;background:#f9f9f9;}
+
+
+#submit-button {font-family:arial;text-shadow:0 1px 2px #111;font-weight:700;text-transform:uppercase;background:none;border:none;left:3px;top:3px;position:relative;z-index:1;height:35px;padding-top:5px; padding:0;width:94%;letter-spacing:-1px;font-size:17px;color:#ddd;}
+#submit-button:hover {color:#fff;}
+
+
+
+
+#submit-button-box {position:relative;float:left;width:165px;z-index:0;}
+.submit-button-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-button-corners.png');left:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, 7px, 40px, auto);}
+.submit-button-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-button-corners.png');right:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, auto, 40px, 7px);}
+.submit-button-back {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-button-back.png');height:40px;top:0px;left:7px;position:absolute;right:7px;bottom:0px;}
+
+
+/* Images */ 
+
+.entry-content img, .entry-content .wp-caption {max-width:620px;height:auto;background:#fff;padding:5px;-moz-box-shadow:0 1px 2px #999;}
+body.page-id-97 .entry-content img {max-width:620px;height:auto;background:#fff;padding:5px;-moz-box-shadow:0 0px 0px #999;}
+.entry-content .thumbnail img { float:left;margin-right:10px;max-width:100px;max-height:150px;padding:3px;width:expression(document.body.clientWidth < 742? '100px' : document.body.clientWidth > 1000? '100px' : 'auto');}
+
+
+.entry-content .alignleft.wp-caption { margin: 5px 20px 10px 0; }
+.entry-content .alignright.wp-caption { margin: 5px 0 10px 20px; }
+.entry-content .aligncenter.wp-caption { margin: 5px auto 10px auto; }
+
+.entry-content .wp-caption { text-align: center;padding:0;padding-top:5px;font-weight:bold; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none;-moz-box-shadow:none; }
+.wp-caption .wp-caption-text { margin: 0; padding: 5px; }
+
+.wp-smiley {-moz-box-shadow:none !important; background:none !important;padding:0 !important;max-height: 13px; margin: 0 !important; } /* Prevent the smileys from breaking line-height */
+
+
+
+
+
+
+
+/* [gallery] */
+.gallery { margin: auto; }
+.gallery img {border:none !important;}
+.gallery-image { margin-left: 0; }
+.gallery-caption { margin-left: 0; font-size:11px;font-weight:bold; }
+.gallery-item { float: left; width: 33%; text-align: center; margin-left: 0; }
+
+
+/* Calendar */
+
+table#wp-calendar {margin-bottom:0px;width:100%;border:0;-moz-box-shadow:none;}
+table#wp-calendar caption {margin-bottom:10px;font-size:17px;font-weight:bold;font-style:italic;text-align:right;}
+table#wp-calendar th, table#wp-calendar tbody tr td {border:0;padding:8px 3px;text-align:center;color:#bbb;background:#f5f5f5;}
+table#wp-calendar th {-moz-border-radius:2px;text-shadow:0 1px 1px #fff;background:#ddd;color:#444;font-weight:bold;border:1px solid #d1d1d1;border-top:none;border-right:1px solid #fff;}
+table#wp-calendar thead {background:none;}
+table#wp-calendar tbody {border:1px solid #ddd;}
+table#wp-calendar tbody tr td {border-right:1px solid #fff;border-top:1px solid #fff;}
+table#wp-calendar tbody tr td.pad {background:#f9f9f9;}
+table#wp-calendar tbody tr td a {text-shadow:0 1px 8px #fff;}
+table#wp-calendar tfoot tr td {text-align:center;font-size:17px;background:none;border:0;}
+
+/* Calendar Header */
+
+.widgets-back-inside table#wp-calendar a {font-weight:bold;}
+.widgets-back-inside table#wp-calendar th, .widgets-back-inside table#wp-calendar tbody tr td {color:#999;background:#eee url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wback-footer.png") repeat scroll 0 0;}
+.widgets-back-inside table#wp-calendar th {text-shadow:0 1px 1px #ddd;background:#ccc url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wback-footer.png") repeat scroll 0 0;color:#444;border:1px solid #c1c1c1;border-right:1px solid #d1d1d1;}
+.widgets-back-inside table#wp-calendar tbody tr td {border-right:1px solid #d5d5d5;border-top:1px solid #d5d5d5;}
+.widgets-back-inside table#wp-calendar tbody tr td.pad {background:#e8e8e8 url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/wback-footer.png") repeat scroll 0 0;}
+
+/* Calendar Footer */
+
+.footer table#wp-calendar a {font-weight:bold;}
+.footer table#wp-calendar th, .footer table#wp-calendar tbody tr td {color:#999;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wback-footer-dark.png") repeat scroll 0 0;}
+.footer table#wp-calendar th {text-shadow:0 1px 1px #000;background:#666 url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wback-footer-dark.png") repeat scroll 0 0;color:#fff;border:1px solid #333;border-right:1px solid #444;}
+.footer table#wp-calendar tbody tr td {border-right:1px solid #404040;border-top:1px solid #404040;}
+.footer table#wp-calendar tbody tr td.pad {opacity:.9;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/dark/wback-footer-dark.png") repeat scroll 0 0;}
+.footer table#wp-calendar tbody tr td a {text-shadow:0 1px 8px #333;}
+
+
+
+
+/* Navigation */
+.page-navigation .nav-next, .single-page-navigation .nav-next, .page-navigation .nav-previous, .single-page-navigation .nav-previous  { font-weight:bold;float:left;font-size:22px;width:auto;text-align:left;color:#555; }
+.page-navigation .nav-previous {float: right;text-align:right; }
+.single-page-navigation .nav-next { float: right;text-align:right;max-width:49%;min-width:150px;}
+.single-page-navigation .nav-previous { float: left;text-align:left;max-width:49%;min-width:150px;} 
+.page-navigation .nav-previous a, .single-page-navigation .nav-previous a, .page-navigation .nav-next a, .single-page-navigation .nav-next a {display:block;font-weight:normal;font-size:14px;color:#999;-moz-border-radius:3px;-moz-box-shadow:0 1px 2px #ccc;text-shadow:0 1px 1px #fff;text-decoration:none;padding:7px;background:#f1f1f1;}
+.page-navigation .nav-previous a:hover, .single-page-navigation .nav-previous a:hover, .page-navigation .nav-next a:hover, .single-page-navigation .nav-next a:hover {background:#fff;color:#333;}
+.page-navigation .nav-next a, .page-navigation .nav-previous a {font-size:14px;padding:3px 6px;}
+
+.single-page-navigation .nav-previous .nav-meta, .single-page-navigation .nav-next .nav-meta  {float:left;margin:0 8px;position:relative;top:-2px;}
+.single-page-navigation .nav-next .nav-meta {float:right;}
+.page-navigation .nav-next .nav-meta, .page-navigation .nav-previous .nav-meta {font-size:20px;margin:0 4px;position:relative;top:1px;line-height:10px;}
+
+/* Page Navi */
+
+.wp-pagenavi a, .wp-pagenavi span {font-weight:normal;font-size:14px;color:#999;-moz-border-radius:3px;-moz-box-shadow:0 1px 2px #ccc;text-shadow:0 1px 1px #fff;text-decoration:none;padding:7px;background:#f1f1f1;border:none !important;}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {background:#fff;color:#333;}
+.wp-pagenavi a.previouspostslink, .wp-pagenavi a.nextpostslink {font-weight:bold;}
+
+ 
+
+
+
+
+/* [gallery] + navigation clearfix */
+.gallery-row:after, .navigation-links:after, .container:after, .menu:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.gallery-row, .navigation-links, .container, .menu { display: block; }
+
+/* Basic Alignments */
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter { margin-left: auto; margin-right: auto; display: block; clear: both; }
+
+/* Slider */
+
+#slide_holder {height:150px;width:620px; position:relative;z-index:0; clear:both;float:left;}
+#slide_holder img {-moz-box-shadow:0 1px 8px #aaa;background:none repeat scroll 0 0 #FFFFFF;padding:2px;margin-right:10px;float:left;max-width:100px;}
+#slide_holder p {font-size:12px;font-style:italic;text-shadow:0 1px 1px #eee;}
+#slide_holder .featured-title, #slide_holder .twitter-title {text-shadow:0 1px 1px #eee;font-size:30px;font-weight:bold;margin-bottom:10px;letter-spacing:-1px;}
+#slide_holder .featured-title a, #slide_holder .twitter-title {color:#111;font-style:italic;}
+#slide_holder .featured-title a:hover {color:#333;text-decoration:none;}
+
+
+.slide-container { width:620px; height:140px; overflow:hidden; position:relative; }
+div.slides { position:absolute; top:0; left:0; }
+ul.slides { width:620px;position:absolute; top:0; left:0; list-style:none; padding:0; margin:0; }
+ul.slides li.slide {position:absolute; top:0px; width:620px;height:150px;display:none; padding:0 40px 0 0 ; margin:0; }
+
+
+.twitter-time {color:#888;}
+.twitter-status, .post-more {background:#eee;padding:3px 5px;-moz-border-radius:3px;-moz-box-shadow:0 1px 3px #bbb;}
+
+
+/* Search */
+
+#righttopcolumn {float:right;width:315px;position:relative;top:10px;}
+
+#search-text-box {position:relative;float:left;width:255px;z-index:0;}
+.widget-content #search-text-box {width:75%;}
+.widgets-holder .widget-content #search-text-box {width:71%;}
+.search-text-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-corners.png');left:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, 7px, 40px, auto);}
+.search-text-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-corners.png');right:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, auto, 40px, 7px);}
+.search-text-back {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-text-back.png');height:40px;top:0px;left:7px;position:absolute;right:7px;bottom:0px;}
+
+
+#search-text {background:none;border:none;position:relative;z-index:1;top:4px;left:11px;height:31px;padding-top:5px; padding:0;right:7px;width:92%;font-size:15px;font-weight:bold;}
+#search-button-box {position:relative;float:left;margin-left:5px;width:55px;z-index:0;}
+.widget-content #search-button-box {width:23%;}
+
+.search-button-left {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-button-corners.png');left:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, 7px, 40px, auto);}
+.search-button-right {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-button-corners.png');right:0;top:0px;position:absolute;height:40px;width:14px;clip:rect(auto, auto, 40px, 7px);}
+.search-button-back {background-image:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/search-button-back.png');height:40px;top:0px;left:7px;position:absolute;right:7px;bottom:0px;}
+
+
+#search-button {font-family:arial;text-shadow:0 1px 2px #111;font-weight:700;text-transform:uppercase;background:none;border:none;left:3px;top:3px;position:relative;z-index:1;height:35px;padding-top:5px; padding:0;width:94%;letter-spacing:-1px;font-size:18px;color:#ddd;}
+#search-button:hover {color:#fff;}
+
+
+#search-text-box #search_label {width:100%;float:left;height:31px !important;margin:0 6px 10px 0;_margin-right:0;position:relative;z-index:12;}
+#search-text-box #search_label span {color:#444444;cursor:text;display:block;font-size:15px;font-weight:bold;height:32px;margin-bottom:-32px;top:9px;width:100%;padding:0 12px;position:relative;z-index:10;}
+
+#comment-name_label, #comment-email_label, #comment-url_label, #comment-text_label {display:block;margin:0 6px 10px 0;_margin-right:0;position:relative;z-index:12;}
+#comment-name_label, #comment-email_label, #comment-url_label {height:31px !important;}
+#comment-name_label span, #comment-email_label span, #comment-url_label span, #comment-text_label span {color:#444444;cursor:text;display:block;font-size:13px;font-weight:bold;height:32px;margin-bottom:-32px;top:2px;width:100%;padding:0 4px;position:relative;z-index:10;}
+#comment-text_label span {top:11px;padding:0 11px;font-size:18px;}
+
+
+
+
+
+/* Subscribe/Follow Buttons */
+
+.social-title {font-weight:bold;float:left;font-size:20px;letter-spacing:-1px;margin-right:10px;text-shadow:0 1px 2px #fff;}
+
+#rss, #email-newsletter, #facebook, #twitter, #buzz, #myspace, #skype, #youtube, #flickr {background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/social-buttons.png") no-repeat scroll left top transparent;display:block;font:italic 13px arial;height:32px;margin-right:5px;width:32px;}
+#email-newsletter {background-position:0 -32px;}
+#facebook {background-position:0 -96px;}
+#twitter {background-position:0 -64px;}
+#buzz {background-position:0 -128px;}
+#myspace {background-position:0 -160px;}
+#skype {background-position:0 -192px;}
+#youtube {background-position:0 -224px;}
+#flickr {background-position:0 -256px;}
+
+div.sc_menu {position: relative;z-index:0;height: 32px;width: 315px;overflow: auto;}
+ul.sc_menu {display: block;height: 32px;width: 1800px;padding: 0 0 0 10px;margin: 0;list-style: none;}
+.sc_menu li {display: block;float: left;padding: 0;}
+.social-trans-left {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/social-trans-left.png');left:0;position:absolute;z-index:1;width:14px;height:32px;}
+.social-trans-right {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/social-trans-right.png');right:-1px;position:absolute;z-index:1;width:14px;height:32px;}
+
+
+/* Tipsy */
+
+.tipsy { padding: 5px; font-size: 13px; font-weight:bold;position: absolute; z-index: 950; }
+.tipsy small {text-transform:uppercase;color:#777;font-weight:normal;}
+  .tipsy-inner { font-style:italic;border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px;-moz-box-shadow:0 0 1px #999999;color:#fff;background:#575A62;margin-top:2px;padding:3px 5px; max-width: 200px; text-align: center; }
+  .tipsy-n .tipsy-arrow { top:0px; left: 50%; margin-left: -8px; }
+  .tipsy-s .tipsy-arrow { bottom:-2px; left: 50%; margin-left: -8px; background-position: bottom left; }
+  .tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
+  .tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+  
+  
+/* Back to Top Button */
+
+#backtotop {display:block;display:none;z-index:999;position:fixed;top:100%;margin-top:-40px;opacity: .9;margin-left:-70px;-moz-border-radius: 3px;-webkit-border-radius: 3px;background:#111;text-align: center;}
+#backtotop a { font-size:11px;color:#fff;font-weight:bold;padding:5px 8px;display: block;text-shadow:0 1px 1px #111;}
+#backtotop a:hover {text-decoration:none;}
+#backtotop:hover {opacity:1;}
+#backtotop .top-icon {padding-left:18px;background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/btop.png') no-repeat 0 4px;}  
+
+/* Share This Buttons */
+
+.share-this {margin-bottom:30px;padding:10px 0 14px 0;background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/share-back.gif') no-repeat top center;}
+.share-this strong {-moz-border-radius:6px;color:#666;margin-right:5px;text-shadow:0 1px 1px #fff;padding:5px 6px;background:url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/comment-list.png") repeat-x left bottom #FFFFFF;border:1px solid #ddd;}
+.share-this:hover strong {color:#111;}
+.share-this a {color:#777;font-size:11px;padding:5px 0;font-weight:bold;}
+.share-this a:hover {color:#333;text-decoration:none;}
+a.share-twitter, a.share-facebook, a.share-delicious, a.share-stumble, a.share-email {background:url('http://www.journalregister.com/wp-content/themes/evolve/library/media/images/share.gif') no-repeat 0 2px;background-position:0 -152px;padding-left:21px;margin-left:4px;}
+a.share-facebook {background-position:0 -183px;}
+a.share-delicious {background-position:0 -214px;}
+a.share-stumble {background-position:0 -245px;}
+a.share-email {background-position:0 -276px;}
+a.share-twitter:hover {background-position:0 3px;}
+a.share-facebook:hover {background-position:0 -28px;}
+a.share-delicious:hover {background-position:0 -59px;}
+a.share-stumble:hover {background-position:0 -90px;}
+a.share-email:hover {background-position:0 -121px;}
+
+/* Ads Spaces */
+
+.ad-space {border:2px solid #454545;margin:5px;-moz-box-shadow:0 1px 4px #999;-moz-border-radius:4px;text-shadow:0 1px 1px #333;color:#999;font-style:italic;background:#555;padding:20px;text-align:center;}
+.ad-space h3 {color:#999;font-size:18px;line-height:20px;padding:0;letter-spacing:-1px;text-shadow:0 1px 1px #333}
+.ad-space:hover {background:#333;color:#eee;}
+.space-2 {width:915px;margin-left:auto;margin-right:auto;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/* JRC Custom Styles */
+
+span#jrc-logo { 
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+span#jrc-logo a {
+    background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/logo-text.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 75px;
+    margin: -10px 0 3px 15px;
+    text-indent: -9999px;
+    width: 297px;
+}
+
+
+#mid-header {margin: 0 auto;width:960px;height:95px;}
+#jrc-logo-wrap {float:left;margin-top:25px;}
+#jrc-menu-wrap {float:right;margin-top:20px;}
+#jrc-menu-wrap ul {list-style:none;}
+#jrc-menu-wrap li {float:left;margin-top:8px;}
+#jrc-menu-wrap li.current {margin-top:5px}
+#jrc-menu-wrap li#home {width:90px;}
+#jrc-menu-wrap li#products {width:110px;}
+#jrc-menu-wrap li#careers {width:90px;}
+#jrc-menu-wrap li#leader {width:100px;}
+#jrc-menu-wrap li#director {width:115px;}
+#jrc-menu-wrap li#contact {width:80px;}
+#jrc-menu-wrap a {display:block;color:#fff;font-weight: bold;}
+#jrc-menu-back {background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu_background.jpg") repeat scroll 0 0 transparent;width:602px;height:39px}
+.menu-back {display:none;}
+
+a.menu_button.current {
+    /* Sliding right image */
+    background: transparent url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu_btn_right.png") no-repeat scroll top right; 
+display: block;
+float: left;
+height: 27px; /* CHANGE THIS VALUE ACCORDING TO IMAGE HEIGHT */
+margin-right: 6px;
+padding-right: 15px; /* CHENGE THIS VALUE ACCORDING TO RIGHT IMAGE WIDTH */
+/* FONT PROPERTIES */
+text-decoration: none;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+a.menu_button.current span {
+/* Background left image */ 
+color:#fff;
+background: transparent url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/menu_btn_left.png") no-repeat; 
+display: block;
+margin-left:-10px;
+line-height: 15px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+padding: 7px 0 5px 18px;
+} 
+a.button:hover span{
+text-decoration:underline;
+}
+
+
+#jrc-menu-wrap li#director a.menu_button.current span {
+margin-left: -17px;
+padding: 7px 0 5px 8px;
+width: 97px;
+}
+
+#jrc-menu-wrap li#products a.menu_button.current span, #jrc-menu-wrap li#careers a.menu_button.current span {
+margin-left:-20px
+}
+#jrc-menu-wrap li#leader a.menu_button.current span {
+margin-left:-15px;
+}
+
+#jrc-menu-wrap li#contact a.menu_button.current span {
+padding:7px 0 5px 10px;
+}
+
+#jrc-menu-wrap li#contact a.menu_button.current{
+padding-right:10px;
+}
+
+/* MEDIA BANNER ROTATOR PLAYER */
+#media-banner-wrap {margin: 0 auto;width:1217px;height:340px;display:none}
+body.page-id-4 #media-banner-wrap {display:block}
+#media-banner {background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/banner_mid.jpg") repeat scroll 0 0 transparent;width:1217px;height:311px;}
+#banner-top-back {margin: 0 auto;background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/banner_top.jpg") repeat scroll 0 0 transparent;width:1217px;height:120px;}
+#banner-top-back h2 {color:#fff;margin-left:150px;margin-bottom:0;padding-top:30px;font-weight: normal}
+.jrc-breadcrumb {margin-left: 150px}
+.jrc-breadcrumb span {color:#2E84DB}
+/*body.page-id-218 #banner-top-back,body.page-id-322 #banner-top-back,body.page-id-14 #banner-top-back, body.page-id-315 #banner-top-back, body.page-id-12 #banner-top-back,body.page-id-16 #banner-top-back,body.page-id-10 #banner-top-back,body.page-id-6 #banner-top-back,body.page-id-97 #banner-top-back,body.blog #banner-top-back,body.single-post #banner-top-back {display:block;}*/
+body.home #banner-top-back {display:none !important}
+body.single-post .paton-blog-title, body.blog .paton-blog-title {display:block !important;}
+#media-rotator {float:left;background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/rotator_background.png") repeat scroll 0 0 transparentwidth:555px;height:291px;margin-top:43px;margin-left:117px;}
+#media-player {float:right;background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/player_background.jpg") repeat scroll 0 0 transparent;width:410px;height:289px;margin-top:43px;margin-right:120px;padding-top:5px;padding-left:5px}
+#quote-banner {display:none;margin: 0 auto;width:1217px;text-align: center}
+body.page-id-4 #quote-banner {display:block;}
+/* HEADER DISPLAY RIGHT COLUMN */
+body.page #secondary, body.page .entry-title, .footer .container, body.page-id-16 .footer .container {display:none}
+body.page-id-16 .container, body.page-id-16 .entry-title {display: block;margin-left:20px;}
+body.page .hfeed {width:100%}
+body.page .entry-content {margin-top:0;}
+.content, .hentry {background:none;}
+
+/* BODY */
+#body-back {background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/body_back.jpg") repeat scroll 0 0 transparent;width:1026px;height:538px;}
+#body-back-inner {padding:100px 100px;}
+#body-back-inner.director-list {padding:100px 88px;}
+#body-back-inner.list-short {padding:50px 100px}
+.thumb-wrap {float:left;margin-right:5px;}
+.thumb-border {border:8px solid #FFF;width:90px;height: 90px;}
+.bio-info {margin-left:120px;color:#fff;font-size: 80%;}
+.bio-info h3 {font-size: 125%; letter-spacing: 0px;  }
+ul#bio-list{margin:0;padding:0;list-style-image: none}
+ul.partners-list {width:1000px;margin:0;padding:0;list-style-image: none;margin-left: 70px;padding-bottom:15px}
+#bio-list h3 {clear:none;margin:0;padding:0}
+.entry-title {font-weight: normal !important;font-size: 30px;}
+#bio-list li {
+    float: left;
+    height: 116px;
+    margin: 20px 3px 20px 3px;
+    width: 265px;
+    list-style-type: none;
+}
+.partners-list li {float:left;margin-right:20px;width:190px;list-style-type: none;}
+.thumb-partner .entry-content img {-moz-box-shadow: 0 0px 0px transparent}
+.list-short  #bio-list li {height: 100px}
+
+/*NAV*/
+body.page-id-12 #subnav, body.page-id-14 #subnav {margin-top:35px !important}
+
+/*BIO INFO */
+.bio-wrap .bio-member {float:left;margin-left:20px;display:block}
+.bio-wrap img {float:left;margin-bottom:15px;}
+.bio-member h3 {margin-bottom:0}
+
+
+/* FORM */
+textarea#main-message {width:350px}
+
+/* BLOG EDITS */
+.wmiddle-left,.wmiddle-right,.wtop-top,.wtop-left,.wtop-right,.wbottom,.wsbottom-left,.wsbottom-right,.wtopmiddle-left,.wtopmiddle-right,.wtop-middle,.wmiddle-right,.wmiddle-left { background:none !important }
+.widget-title {color:#000 !important; font-weight: normal !important;font: 30px/1.5 "Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif !important;}
+
+/* NIVO SLIDER */
+.nivo-caption {
+bottom:10px !important;
+margin: 0 5px !important;
+width:545px !important;
+}
+
+.nivo-directionNav a {
+margin-top:35px !important;
+}
+
+/* TWEET BOX */
+.tweet .tweet_list, .query .tweet_list {
+	background-color: #f1f1f1 !important;
+}
+.tweet .tweet_list .tweet_even, .query .tweet_list .tweet_even {
+    background-color: transparent !important;
+}
+.tweet .tweet_list li a, .query .tweet_list li a {
+    color: #666 !important;
+}
+
+.tweet, .query {
+    color: #000000 !important;
+    }
+
+/* FOOTER */
+.footer {margin: 0 auto;width:100%;}
+.footer-top {background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/2-BK-ground-IMAGE.jpg") repeat-x scroll 0 0 transparent;width:100%;height:284px;}
+.footer-bottom {margin-top:5px;background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/2-BK-ground-IMAGE.jpg") repeat-x scroll 0 0 transparent;width:100%;height:24px;text-align:center;padding-top:9px;color:#fff}
+.menu-container {background:none}
+body.page-id-4 .content, .content-top, .content-bottom {display:none;}
+
+.footer-top li {float:left;width:250px;text-align: center}
+.footer-top li.first-list-item {margin-left:100px} 
+.footer-top li.second-list-item {width:230px} 
+.footer-top li.second-list-item h3 {margin-left:30px;}
+.footer-top li.fourth-list-item p {text-align: left;color:#fff;margin-left:44px}
+.footer-top ul {list-style: none;padding-top:9px;}
+.footer-top ul#footer-bot-list li {margin-top:0;}
+.footer-top ul#footer-bot-list {margin:auto;width:1200px;}
+.footer-top h3 {font-size: 20px;color: #fff;letter-spacing: 1px;font-weight: normal;margin-bottom:10px;}
+.footer-top h3.jrc_icon {padding-left:20px;width:300px;background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/header_icon.png") no-repeat scroll 0 6px transparent;height:35px;}
+
+.footer-top ul.bullet-list-arrow,.footer-top ul.bullet-list-rss {padding-top:0px}
+.footer-top ul.bullet-list-arrow.what-we-do {margin-left:68px;}
+.bullet-list-arrow li {
+    background-image: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/bullet_arrow.png");
+    background-position: 0 0.2em;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    float:none;
+    margin-bottom:7px;
+    color:#fff;
+    text-align: left;
+}
+
+.bullet-list-rss li {
+    background-image: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/bullet_rss.png");
+    background-position: 0 0.2em;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    float:none;
+    margin-bottom:15px;
+    color:#fff;
+    text-align: left;
+}
+
+/*FOLLOW BUTTON*/
+#follow-share {
+    background: url("http://www.journalregister.com/wp-content/themes/evolve/library/media/images/share_back.jpg") no-repeat scroll 0 0 transparent;
+	width:25px;
+	height:105px;
+	-moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-topleft: 5px;
+    background-color: #00467F;
+    border-color: #fff	;
+    border-style: solid;
+    border-width: 2px 0 2px 2px;
+    font-family: impact,charcoal,arial,helvetica,sans-serif;
+    padding-top: 5px;
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+
+}
+
+#follow-share img {margin-left:0px;padding-left:6px;padding-bottom:6px}
+.partner-text {text-align: left}
+/* MODAL WINDOW */
+/* Z-index of #mask must lower than #boxes .window */
+#simplemodal-container {
+    background-color: #fff !important;
+    border: 4px solid #fff !important;
+    color:#000 !important;
+    }
+#simplemodal-container h3 {
+    color: #000 !important;
+}
+#simplemodal-container a {
+    color: #2E84DB !important;
+}
+.modal-pop-up-info {display:none;}
+.modal-pop-up {cursor:pointer}

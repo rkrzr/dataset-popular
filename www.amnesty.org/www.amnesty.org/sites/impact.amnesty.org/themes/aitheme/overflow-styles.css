@@ -1,0 +1,4805 @@
+@charset "UTF-8";
+
+/* For post-2010 reports & ai@50 */
+
+/* non-core langauage hacks! */
+#dummy-navigation{
+  margin-top:0px;
+  background-color:white;
+  padding-bottom: 1px;
+}
+
+#dummy-navigation a,
+#dummy-navigation a:link,
+#dummy-navigation a:visited{
+  color: black;
+}
+
+#dummy-navigation a:hover,
+#dummy-navigation a:focus{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+/* new twitter box */
+
+.rtl #ai50space .read-more, .appeal-block-link{
+    text-align:right;
+}
+
+#tweeter .loading{
+  background-color: #ccc;
+  padding:5px;
+}
+
+.pane-twitter-feed{
+  float:left;
+}
+
+.rtl .pane-twitter-feed{
+  float:right;
+}
+
+.pane-twitter-feed h2.pane-title{
+  background-color: yellow;
+  padding: 5px 10px;
+  font-size: 12px !important;
+  margin-bottom:1px;
+  width: 280px;
+}
+
+.node-type-ai50-feature #ai-sidebar-squeeze .pane-twitter-feed h2.pane-title, 
+.node-type-ai50-inspirational-story #ai-sidebar-squeeze .pane-twitter-feed h2.pane-title, 
+.node-type-ai50-campaign-general #ai-sidebar-squeeze .pane-twitter-feed h2.pane-title, 
+.node-type-annual-report-feature .pane-twitter-feed  h2.pane-title {
+  font-size: 12px !important;
+}
+
+#tweeter .via-text,
+#tweeter .via-text a,
+#tweeter .tweet_time a{
+  color: #666;
+  font-weight: normal;
+}
+
+#tweeter ul.tweet_list{
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+    background-color: #ccc;
+    float: left;
+    width: 290px;
+}
+
+.rtl #tweeter ul.tweet_list{
+  float:right;
+}
+
+#tweeter ul.tweet_list li{
+  display: block;
+  float: left;
+  border-top: 1px solid #bbb;
+  padding: 13px 5px;
+}
+
+.rtl #tweeter ul.tweet_list li{
+  float: right;
+}
+
+#tweeter ul.tweet_list li.tweet_first {
+  border-top: none;
+}
+
+#tweeter .retweet-false{
+  display:none;
+}
+
+#tweeter .retweet-true{
+  color: #666;
+}
+
+/* fix for addthis rtl */
+.rtl .addthis_default_style .addthis_separator, 
+.rtl .addthis_default_style .at300b, 
+.rtl .addthis_default_style .at300m, 
+.rtl .addthis_default_style .at300bs {
+    float: right;
+}
+
+/* long list (ll) stlyes */
+
+.ll-row,
+.ll-row .ll-teaser-image,
+.ll-row .ll-description-box,
+.ll-row .ll-share {
+  float:left; 
+}
+
+.rtl .ll-row,
+.rtl .ll-row .ll-teaser-image,
+.rtl .ll-row .ll-description-box,
+.rtl .ll-row .ll-share {
+  float:right; 
+}
+
+.ll-row {
+  padding: 20px 0px 20px 0px;
+  border: 0px;
+  border-top: 1px solid #ccc;
+}
+
+.ll-row .ll-teaser-image {
+  width: 140px;
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
+.rtl .ll-row .ll-teaser-image {
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.ll-row .ll-description-box {
+  width: 450px;
+}
+
+.ll-row .ll-date {
+  font-weight: bold;
+  font-size:11px;
+}
+
+.ll-share .addthis{
+  padding-top: 10px;
+}
+
+.ll-container .first{
+  border-top: 0px;
+}
+
+#ai50space .ll-description-box h3{
+ font-size: 16px;
+  padding-bottom:8px;
+}
+
+/* ai50 pagination long list (ll) stlyes */
+
+#ai-sidebar-main .view-ai50-inspiration-listing  ul.pager{
+  float: left;
+  border:0px;
+  border-top:  2px solid #ccc;
+  border-bottom:  1px solid #ccc;
+  width: 615px;
+  margin: 0px 0px 20px 0px;
+}
+
+.rtl #ai-sidebar-main .view-ai50-inspiration-listing  ul.pager{
+  float: right; 
+}
+
+#ai-sidebar-main .view-ai50-inspiration-listing  ul.pager li {
+  float: left;
+  font-size:16px;
+}
+
+.rtl #ai-sidebar-main .view-ai50-inspiration-listing  ul.pager li {
+  float: right;
+}
+
+#ai-sidebar-main .view-ai50-inspiration-listing  ul.pager li.pager-current {
+  color: black;
+}
+
+.view-ai50-inspiration-listing .item-list ul.pager li a, .item-list ul.pager li,
+.view-ai50-inspiration-listing .item-list ul.pager li a, .item-list ul.pager li.pager-current{
+  padding: 2px;
+}
+
+/* ai50 campaign region view styles */
+
+.node-type-ai50-campaign-general #campaign-node-title .pane-content{
+  margin: 0px !important;
+  font-size: 28px !important;
+  font-family: Arial;
+  font-weight:bold;
+}
+
+.pane-ai50-campaigns-listing-panel-pane-6 ul{
+  list-style:none !important;
+  width: auto;
+  overflow: hidden;
+  padding: 10px 0px 0px 0px;
+  margin:0px;
+}
+
+.pane-ai50-campaigns-listing-panel-pane-6 ul li {
+  float:left;
+  margin: 0px;
+  padding: 0px 10px;
+  display: inline;
+  border-right: 1px solid #ccc;
+}
+
+.rtl .pane-ai50-campaigns-listing-panel-pane-6 ul li {
+  float:right;
+  border-right: 0px
+  border-left: 1px solid #ccc;
+}
+
+.pane-ai50-campaigns-listing-panel-pane-6 ul li.views-row-first{
+  padding-left:0px;
+}
+
+.rtl .pane-ai50-campaigns-listing-panel-pane-6 ul li.views-row-first{
+  padding-right:0px;
+}
+
+.pane-ai50-campaigns-listing-panel-pane-6 ul li.views-row-last{
+  border-right:0px;
+}
+
+.rtl .pane-ai50-campaigns-listing-panel-pane-6 ul li.views-row-last{
+  border-left:0px;
+}
+
+/* threesquare styles */
+
+.ts-row {
+  width: 300px;
+    height: 450px;
+  float: left;
+  padding:20px 0px 20px 0px;
+  padding-right:19px;
+    overflow:hidden;
+}
+
+.rtl .ts-row {
+  float: right;
+  padding-right:0px;
+  padding-left:19px;
+}
+
+.ts-container .even-row {
+  border-top: 4px solid #ccc;
+}
+
+.ts-container .first-row {
+  padding-top: 0px;
+}
+
+.ts-row .ts-teaser-image {
+  font-size:11px;
+  line-height: 90%;
+}
+
+.ts-row .ts-read-more {
+  padding-top:15px;
+}
+
+.ts-row .ts-teaser-image .attribution{
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom:10px;
+}
+
+#ai50space .ts-row h3{
+  font-size: 16px;
+    min-height: 40px;
+}
+
+#ai50space .ts-row h3.region-child {
+    min-height: 25px;
+}
+
+/* sx highlight styles */
+
+.sx-first-wrapper,
+.sx-last-wrapper{
+  float:left;
+  width: 460px;
+  padding: 10px;
+  display: inline;
+}
+
+.rtl .sx-first-wrapper,
+.rtl .sx-last-wrapper{
+  float: right; 
+}
+
+.sx-highlight-top,
+.sx-highlight-bottom{
+    width: 460px;
+  float: left;
+}
+
+.rtl .sx-highlight-top,
+.rtl .sx-highlight-bottom{
+  float:right;  
+}
+
+.sx-highlight-top, 
+.sx-highlight-bottom, 
+.sx-floater {
+   display:inline;
+   height: 235px;
+}
+
+.ai50-bottom-border{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+.sx-view-all{
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.sx-floater{
+  float:left;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.rtl .sx-floater{
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;    
+}
+
+.sx-highlight-bottom h3 a,
+.sx-highlight-top h3 a,
+.sx-floater h3 a{
+  padding-bottom:5px;
+  display: block;
+  min-height:35px;
+  font-size: 14px;
+}
+
+.sx-highlight-bottom h3 a,
+.sx-highlight-top h3 a{
+  min-height:35px;
+}
+
+.sx-last-wrapper .even{
+   margin-right: 0px;
+}
+
+.rtl .sx-last-wrapper .even{
+   margin-left: 0px;
+}
+
+.sx-view-all p{
+  padding:7px;
+}
+
+.sx-view-all{
+    float: left;
+    clear: left;
+    text-align:right;
+    width:960px;
+    margin-bottom: 10px;
+}
+
+#ai50space .sx-view-all-region-child {
+border-bottom: 0px;
+margin-bottom: 0px;
+}
+
+.rtl .sx-view-all{
+    float: right;
+    clear: right;   
+    text-align:left;
+}
+
+.sx-view-all .sx-rss-link{
+  float:left;
+}
+
+.rtl .sx-view-all .sx-rss-link{
+  float:right;
+}
+
+.sx-view-all .sx-full-link{
+  float: right;
+}
+
+.rtl .sx-view-all .sx-full-link{
+  float: left;
+}
+
+.sx-view-all .sx-rss-link img {
+    float: left;
+    padding-right: 4px;
+}
+
+.rtl .sx-view-all .sx-rss-link img{
+    float: right;
+}
+
+/* ai@50 */
+
+#ai50space .read-more .view-ai50-campaigns-listing {
+  float:none;
+}
+
+#ai50space .read-more .view-ai50-campaigns-listing ul li {
+  list-style: none;
+    padding-top: 2px;
+}
+
+.page-50 #ai-rowbar-bottom .panel-pane{
+  margin-bottom: 20px;
+  float:left;
+}
+
+.page-50 .pane-boxes-ai50-footer {
+  margin-top: 0px !important;
+}
+
+.page-50 .pane-boxes-annual-report-2011-aisocnet-box{
+  width: 960px;
+}
+
+.page-50 #ai-rowbar-bottom .pane-boxes-ai50-footer{
+  margin-bottom: 0px !important;
+}
+
+#ai50space .pane-content .ntype-ai50-campaign-general{
+  float:left;
+}
+
+.rtl #ai50space .pane-content .ntype-ai50-campaign-general{
+  float:right;
+}
+
+.node-type-ai50-feature .view-id-ai50_campaigns_listing .campaign-images-50 p{
+  font-size: 11px !important;
+  line-height:1em;
+}
+
+.node-type-ai50-feature .view-id-ai50_campaigns_listing  .teaser-tail a{
+  display: block;
+  padding-top:10px;
+}
+
+.node-type-ai50-campaign-general h3.learn-more-title{
+  font-size: 16px !important;
+}
+
+#header-promo{
+  background-color: black;
+  color: yellow;
+  background: url(images/sitewide-teaser.jpg) no-repeat top right black;
+  height: 30px;
+  font-weight: bold;
+}
+
+.rtl #header-promo{
+      background: url(images/sitewide-teaser.jpg) no-repeat top left black;
+}
+
+#header-promo div{
+  float:left;
+  padding: 8px;
+}
+
+.rtl #header-promo div{
+  float:right;
+}
+
+#header-promo-title{
+  color: white;
+}
+
+#header-promo-title .year{
+  color: white;
+}
+
+#header-promo a,
+#header-promo a:link,
+#header-promo a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+#header-promo a:focus,
+#header-promo a:hover{
+  background-color: transparent;
+}
+
+#header-promo-title{
+  margin-right: 30px;
+}
+
+#header-promo-description{
+  margin-right:70px;
+}
+
+
+#ai50space  #ai-sidebar-squeeze {
+    margin: 0 310px 0 0;
+    padding: 30px 20px 40px 10px !important;
+    width: 960px;
+}
+
+body.section-news,
+body.node-type-ai50-feature,
+body.node-type-ai50-inspirational-story,
+body.section-news-and-updates,
+body.page-news-story-content-type, 
+body.not-front div#amnesty_news_story_node_template,
+body.node-type-ai50-campaign-general{
+  background: white;
+}
+
+body.section-news #footer ul li a.active,
+body.section-news-and-updates #footer ul li a.active,
+body.page-news-story-content-type #footer ul li a.active, 
+body.node-type-ai50-feature #footer ul li a.active,
+body.node-type-ai50-inspirational-story #footer ul li a.active,
+body.node-type-ai50-campaign-general #footer ul li a.active{
+    color: black;
+}
+
+#ai50space .action-description{
+  margin-top: 20px;
+}
+
+#ai50space #ai-sidebar-small h2{
+  line-height: 18px;
+  margin: 0px;
+}
+
+#ai50space #ai-sidebar-small p{
+  line-height: 160%;
+}
+
+.node-type-ai50-campaign-general #ai-sidebar-small{
+  padding-top: 100px;
+}
+
+.node-type-ai50-inspirational-story #ai-sidebar-small{
+  padding-top: 55px;
+}
+
+.page-50-campaigns-death-penalty #ai-sidebar-small {
+  padding-top: 60px !important;
+}
+
+#ai50space .sx-col{
+  width: 140px;
+  float: left;
+  display: inline;
+  margin-right: 18px;
+  margin-bottom:20px;
+}
+
+.rtl #ai50space .sx-col{
+  float: right;
+  display: inline;
+  margin-right: 0px;
+  margin-left: 18px;
+}
+
+#ai50space .sx-col .teaser-image{
+ margin-top: 0px;
+}
+
+#ai50space .sx-col h3{
+  padding-bottom: 5px;
+  min-height: 47px;
+  display: block;
+}
+
+#ai50space .sx-col h3.region-child{
+  min-height: 20px;
+}
+
+#ai50space .view-ai50-campaigns-listing{
+  float:left;
+  width: 960px;
+  margin: 0px 0px 20px 0px;
+  display: inline;
+}
+
+.rtl #ai50space .view-ai50-campaigns-listing{
+  float: right;
+}
+#amnesty_news_story_node_template #ai-rowbar-bottom h2.pane-title,
+#ai50space #ai-rowbar-bottom h2.pane-title {
+  background-color: yellow;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+
+
+#ai50space .twtr-hd,
+#ai50space .twtr-ft{
+    display: none;
+
+}
+
+.section-human-rights-education #ai50-promo-footer {
+  background: url(http://www.amnesty.org/sites/impact.amnesty.org/themes/images/50_buble_en.png) no-repeat top right;
+}
+
+.section-human-rights-education #footer-base,
+.section-human-rights-education #h2h-footer,
+#amnesty_news_story_node_template #h2h-footer,
+#amnesty_news_story_node_template #footer-base,
+.section-news-and-updates #h2h-footer,
+.section-news-and-updates #footer-base,
+.section-news #h2h-footer,
+.section-news #footer-base,
+#ai50space #h2h-footer,
+#ai50space #footer-base{
+  /*float:left;*/
+  width: 960px;
+}
+
+.rtl .section-human-rights-education #footer-base,
+.rtl #amnesty_news_story_node_template #h2h-footer,
+.rtl #amnesty_news_story_node_template #footer-base,
+.rtl .section-news-and-updates #h2h-footer,
+.rtl .section-news-and-updates #footer-base,
+.rtl .section-news #h2h-footer,
+.rtl .section-news #footer-base,
+.rtl #ai50space #h2h-footer,
+.rtl #ai50space #footer-base{
+  /*float:right;*/
+}
+
+.section-human-rights-education #h2h-footer,
+#amnesty_news_story_node_template #h2h-footer,
+.section-news-and-updates #h2h-footer,
+.section-news #h2h-footer,
+#ai50space #h2h-footer{
+  background-color: black;
+}
+
+.section-human-rights-education #h2h-footer h2,
+#amnesty_news_story_node_template #h2h-footer h2,
+.section-news-and-updates #h2h-footer h2,
+.section-news #h2h-footer h2,
+#ai50space #h2h-footer h2{
+  color: yellow;
+}
+
+.section-human-rights-education #h2h-footer ul,
+#amnesty_news_story_node_template #h2h-footer ul,
+.section-news-and-updates #h2h-footer ul,
+.section-news #h2h-footer ul,
+#ai50space #h2h-footer ul{
+  list-style: none;
+  display: inline;
+}
+
+.section-human-rights-education #h2h-footer h2,
+.section-human-rights-education #h2h-footer ul li,
+#amnesty_news_story_node_template #h2h-footer h2,
+#amnesty_news_story_node_template #h2h-footer ul li,
+.section-news-and-updates #h2h-footer h2,
+.section-news-and-updates #h2h-footer ul li,
+.section-news #h2h-footer h2,
+.section-news #h2h-footer ul li,
+#ai50space #h2h-footer h2,
+#ai50space #h2h-footer ul li{
+  float:left;
+  font-size: 13px;
+  margin:0px;
+  padding: 5px 10px; 
+}
+
+.rtl #amnesty_news_story_node_template #h2h-footer h2,
+.rtl #amnesty_news_story_node_template #h2h-footer ul li,
+.rtl .section-news-and-updates #h2h-footer h2,
+.rtl .section-news-and-updates #h2h-footer ul li,
+.rtl .section-news #h2h-footer h2,
+.rtl .section-news #h2h-footer ul li,
+.rtl #ai50space #h2h-footer h2,
+.rtl #ai50space #h2h-footer ul li{
+  float:right;
+}
+
+.section-human-rights-education #h2h-footer a:link,
+.section-human-rights-education #h2h-footer a:visited,
+.section-human-rights-education #h2h-footer a,
+#amnesty_news_story_node_template #h2h-footer a:link,
+#amnesty_news_story_node_template #h2h-footer a:visited,
+#amnesty_news_story_node_template #h2h-footer a,
+.section-news-and-updates #h2h-footer a:link,
+.section-news-and-updates #h2h-footer a:visited,
+.section-news-and-updates #h2h-footer a,
+.section-news #h2h-footer a:link,
+.section-news #h2h-footer a:visited,
+.section-news #h2h-footer a,
+#ai50space #h2h-footer a:link,
+#ai50space #h2h-footer a:visited,
+#ai50space #h2h-footer a{
+  color: white;
+}
+
+.section-human-rights-education #h2h-footer a:hover,
+.section-human-rights-education #h2h-footer a:focus,
+#amnesty_news_story_node_template #h2h-footer a:hover,
+#amnesty_news_story_node_template #h2h-footer a:focus,
+.section-news-and-updates #h2h-footer a:hover,
+.section-news-and-updates #h2h-footer a:focus,
+.section-news #h2h-footer a:hover,
+.section-news #h2h-footer a:focus,
+#ai50space #h2h-footer a:hover,
+#ai50space #h2h-footer a:focus{
+  color: yellow;
+}
+
+.section-human-rights-education #footer-base,
+.section-news-and-updates #footer-base,
+#amnesty_news_story_node_template #footer-base,
+.section-news #footer-base,
+#ai50space #footer-base{
+  clear: left;
+  border-top: 5px solid #999;
+  background: url('../../../default/themes/aitheme/images/iphone.png') no-repeat bottom left #ededed;
+  padding: 20px 0px;
+}
+
+.rtl .section-human-rights-education #footer-base,
+.rtl .section-news #footer-base,
+.rtl .section-news-and-updates #footer-base,
+.rtl #amnesty_news_story_node_template #footer-base, 
+.rtl #ai50space #footer-base{
+  clear: right;
+    background: url('../../../default/themes/aitheme/images/iphone.png') no-repeat bottom right #ededed;
+}
+
+/* default values */
+#footer-base .footer-split{
+  float: left;
+  height: 120px;    
+  width: 480px;
+}
+
+/* height for 50 */,
+.section-50 #footer-base .footer-split{
+  height: 90px; 
+  width: 480px;
+}
+
+/* height  & width for section news */
+
+.section-human-rights-education #footer-base .footer-split,
+.section-news-and-updates #footer-base .footer-split,
+#amnesty_news_story_node_template #footer-base .footer-split,
+.section-news #footer-base .footer-split{
+    height: 94px;
+  width: 465px;
+}
+
+/* height for a4a */
+.a4a #footer-base .footer-split{
+  height: 120px !important; 
+}
+
+/* rtl */
+.rtl #footer-base .footer-split{
+    float: right;  
+}
+
+.section-human-rights-education #footer-base .footer-split h2,
+.section-news #footer-base .footer-split h2,
+.section-news-and-updates #footer-base .footer-split h2,
+#amnesty_news_story_node_template #footer-base .footer-split h2,
+#ai50space #footer-base .footer-split h2{
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.section-human-rights-education #footer-base #icandle-promo-footer,
+.section-news #footer-base #icandle-promo-footer,
+.section-news-and-updates #icandle-promo-footer,
+#amnesty_news_story_node_template #icandle-promo-footer,
+#ai50space #footer-base #icandle-promo-footer{
+  border-right: 1px solid #ccc;
+  width: 460px;
+}
+
+.section-human-rights-education #footer-base .first-promo,
+.section-news #footer-base .first-promo,
+.section-news-and-updates .first-promo,
+#amnesty_news_story_node_template .first-promo,
+#ai50space #footer-base .first-promo{
+  padding-left: 10px;
+}
+
+.rtl .section-human-rights-education #footer-base .last-promo,
+.rtl .section-news #footer-base .last-promo,
+.rtl .section-news-and-updates #footer-base .last-promo,
+.rtl #amnesty_news_story_node_template #footer-base .last-promo,
+.rtl #ai50space #footer-base .last-promo{
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.rtl .section-human-rights-education #footer-base .first-promo,
+.rtl .section-news #footer-base .first-promo,
+.rtl .section-news-and-updates #footer-base .first-promo,
+.rtl #amnesty_news_story_node_template #footer-base .first-promo,
+.rtl #ai50space #footer-base .first-promo{
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.section-human-rights-education #footer-base .last-promo,
+.section-news #footer-base .last-promo,
+.section-news-and-updates #footer-base .last-promo,
+#amnesty_news_story_node_template #footer-base .last-promo,
+#ai50space #footer-base .last-promo{
+  padding-left: 20px;
+}
+
+.rtl .section-human-rights-education #footer-base .last-promo,
+.rtl .section-news #footer-base .last-promo,
+.rtl .section-news-and-updates #footer-base .last-promo,
+.rtl #amnesty_news_story_node_template #footer-base .last-promo,
+.rtl #ai50space #footer-base .last-promo{
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.section-human-rights-education .icandle-promo-footer-text,
+.section-news .icandle-promo-footer-text,
+.section-news-and-updates .icandle-promo-footer-text,
+#amnesty_news_story_node_template .icandle-promo-footer-text,
+#ai50space .icandle-promo-footer-text{
+  float:left;
+  width:350px;
+}
+
+.rtl .section-human-rights-education .icandle-promo-footer-text,
+.rtl .section-news .icandle-promo-footer-text,
+.rtl .section-news-and-updates .icandle-promo-footer-text,
+.rtl #amnesty_news_story_node_template .icandle-promo-footer-text,
+.rtl #ai50space .icandle-promo-footer-text{
+  float:right;
+}
+
+.section-human-rights-education .icandle-promo-footer-text p,
+.section-news .icandle-promo-footer-text p,
+.section-news-and-updates .icandle-promo-footer-text p,
+#amnesty_news_story_node_template .icandle-promo-footer-text p,
+#ai50space .icandle-promo-footer-text p{
+  margin-left: 110px;
+}
+
+.rtl .section-human-rights-education .icandle-promo-footer-text p,
+.rtl .section-news .icandle-promo-footer-text p,
+.rtl .section-news-and-updates .icandle-promo-footer-text p,
+.rtl #amnesty_news_story_node_template .icandle-promo-footer-text p,
+.rtl #ai50space .icandle-promo-footer-text p{
+  margin-left: 0px;
+  margin-right: 110px;
+}
+
+.section-human-rights-education #footer-base .click-button a,
+.section-news #footer-base .click-button a,
+.section-news-and-updates #footer-base .click-button a,
+#amnesty_news_story_node_template #footer-base .click-button a,
+#ai50space .pane-boxes-ai50-footer .click-button a{
+    background: black;
+    color: white !important;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 0px;
+    float: left;
+    margin-top: 30px;
+    display:inline;
+}
+
+.rtl .section-human-rights-education #footer-base .click-button a,
+.rtl .section-news #footer-base .click-button a,
+.rtl .section-news-and-updates #footer-base .click-button a,
+.rtl #amnesty_news_story_node_template #footer-base .click-button a,
+.rtl #ai50space .pane-boxes-ai50-footer .click-button a{
+    float: right;
+}
+
+/* defaults */
+.ai50-promo-footer-text{
+  float: left;
+  padding-right: 5px;
+}
+
+/* a4a */
+.a4a .ai50-promo-footer-text {
+    width: 269px;
+}
+
+/* 50space */
+#ai50space .ai50-promo-footer-text {
+  width: 279px;
+}
+
+/* section-news */
+
+.section-human-rights-education .ai50-promo-footer-text, 
+.section-news-and-updates .ai50-promo-footer-text,
+#amnesty_news_story_node_template .ai50-promo-footer-text,
+.section-news .ai50-promo-footer-text{
+  width: 480px;
+}
+.section-human-rights-education .ai50-promo-footer-text p, 
+.section-news-and-updates .ai50-promo-footer-text p,
+#amnesty_news_story_node_template .ai50-promo-footer-text p,
+.section-news .ai50-promo-footer-text p{
+  width: 300px;
+}
+
+.rtl .section-news-and-updates .ai50-promo-footer-text,
+.rtl #amnesty_news_story_node_template .ai50-promo-footer-text,
+.rtl .section-news .ai50-promo-footer-text,
+.rtl #ai50space .ai50-promo-footer-text {
+  float: right;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+#ai50space #ai50-promo-footer select {
+  width: 160px;
+}
+
+#ai50space #ai50-promo-footer label {
+  font-weight: bold;
+}
+
+#ai50space .pane-boxes-earth-candle-960width h2.pane-title{
+  background-color: transparent !important; 
+  font-size: 16px !important;
+  padding:5px 0px !important;
+  margin:0px;
+}
+
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo h2{
+  color: yellow;
+  margin:0px;
+}
+
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo a,
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo a:link,
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo a:visited{
+  color:white;
+}
+
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo{
+  color: white;
+  width: 960px;
+  background: url('images/earth_candle.jpg') no-repeat left bottom black;
+  margin-bottom:20px;
+}
+
+.rtl #ai50space .pane-boxes-earth-candle-960width #earth-candle-promo{
+  background: url('images/earth_candle.jpg') no-repeat -500px bottom black;
+}
+
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo h2,
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo p{
+padding: 0px 20px;
+margin-right: 500px;
+}
+
+.rtl #ai50space .pane-boxes-earth-candle-960width #earth-candle-promo h2,
+.rtl #ai50space .pane-boxes-earth-candle-960width #earth-candle-promo p{
+margin-right: 0px;
+margin-left: 500px;
+}
+
+
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo h2{
+  padding-top:20px;
+}
+
+#ai50space .pane-boxes-earth-candle-960width #earth-candle-promo p{
+  padding-bottom:20px;
+}
+
+#ai50space .pane-boxes-ai50-frontpage-triplet .promo-triplet-box{
+  float: left;
+  padding-left: 29px;
+  padding-bottom: 20px;
+}
+
+.rtl #ai50space .pane-boxes-ai50-frontpage-triplet .promo-triplet-box{
+  float: right;
+  padding-left: 0px;
+  padding-right: 29px;
+}
+
+#ai50space .pane-boxes-ai50-frontpage-triplet .promo-triplet-box.first{
+  padding-left: 0px;
+}
+
+.rtl #ai50space .pane-boxes-ai50-frontpage-triplet .promo-triplet-box.first{
+  padding-right: 0px;
+}
+
+#ai50space .pane-boxes-ai50-frontpage-triplet .promo-triplet-box h2.pane-title{
+  background-color: transparent !important;
+  padding:0px 0px 5px 0px !important;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px !important;
+  width: 300px;
+}
+
+#ai50space .pane-boxes-ai50-frontpage-triplet .promo-triplet-box p{
+  width:300px;
+}
+
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title,
+.section-news .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title{
+  background-color: transparent !important;
+  padding: 0px 0px 5px 0px !important;
+  border-bottom: 1px solid #CCC;
+  font-size: 16px !important;
+}
+
+/* ai50 global moments */
+
+#ai50space #iframe {
+    float: left;
+    height: auto;
+    width: 940px;
+    position: relative;
+    margin-top:10px;
+    display: inline;
+    background-color:#eae9e7;
+}
+
+.rtl #ai50space #iframe {
+    float: right;
+}
+
+.page-50-global-moments  iframe {
+    padding-bottom: 20px;
+}
+
+.page-50-global-moments #instructions_container {
+    float: right;
+    height: auto;
+    width: 300px;
+    position: relative;
+}
+
+.rtl .page-50-global-moments #instructions_container {
+    float: left;
+}
+
+.page-50-global-moments #instructions_box {
+    float: right;
+    height: 21px;
+    width: 265px;
+    position: relative;
+    background-color:#eae9e7;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/questionsmark.png);
+    background-repeat: no-repeat;
+    background-position: 0px -10px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.rtl .page-50-global-moments #instructions_box {
+    float: right;
+    background-position: 260px -10px;
+    padding-left: 0px;
+    padding-right: 35px;
+}
+
+
+.page-50-global-moments #instructions_container {
+    float: right;
+    height: 30px;
+    width: 300px;
+    position: relative;
+    margin-top: 70px;
+    display:inline;
+}
+
+.rtl .page-50-global-moments #instructions_container {
+    float: left;
+}
+
+.page-50-global-moments #who_we_are {
+    float: left;
+    height: auto;
+    width: 940px;
+    position: relative;
+    margin-top:30px;
+    display:inline;
+}
+
+.rtl .page-50-global-moments #who_we_are {
+    float: right;   
+}
+
+.page-50-global-moments #about_container {
+    float: left;
+    height: auto;
+    width: 940px;
+    position: relative;
+    }
+    
+.rtl .page-50-global-moments #about_container {
+    float: right;
+}
+    
+.page-50-global-moments #contact_container {
+    float: left;
+    height: auto;
+    width: 620px;
+    position: relative;
+    margin-top:30px;
+    display: inline;
+}
+
+.rtl .page-50-global-moments #contact_container {
+    float: right;
+}   
+    
+.page-50-global-moments #flickr_slideshow {
+    float: left;
+    height: auto;
+    width: 620px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.rtl .page-50-global-moments #flickr_slideshow {
+    float: right;
+}
+    
+    
+.page-50-global-moments #caption {
+    float: left;
+    height: auto;
+    width: 300px;
+    position: relative;
+    padding-top:10px;
+}
+
+.rtl .page-50-global-moments #caption {
+    float: right;
+}
+    
+.page-50-global-moments #header_grey {
+    float: left;
+    height: auto;
+    width: 620px;
+    position: relative;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.rtl .page-50-global-moments #header_grey {
+    float: right;
+}
+    
+.page-50-global-moments #body_copy {
+    float: right;
+    height: auto;
+    width: 300px;
+    position: relative;
+    padding-top:23px;
+}
+
+.rtl .page-50-global-moments #body_copy {
+    float: left;
+}
+    
+.page-50-global-moments #how_to_get_involved {
+    float: right;
+    height: auto;
+    width: 300px;
+    position: relative;
+    padding-top:23px;
+}
+
+.rtl .page-50-global-moments #how_to_get_involved {
+    float: left;
+}
+    
+.page-50-global-moments #add_to_global {
+    float: right;
+    height: auto;
+    width: 300px;
+    position: relative;
+    padding-top:0px;
+    margin-top: 10px;
+    }
+    
+.rtl .page-50-global-moments #add_to_global {
+        float: left;
+}
+    
+.page-50-global-moments #number_one {
+    float: right;
+    height: auto;
+    width: 260px;
+    position: relative;
+    padding-top:5px;
+    background-image: url(images/number_one.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-top:5px;
+}
+    
+.rtl .page-50-global-moments #number_one {
+    float: left;
+    padding-left: 0px;
+    padding-right: 40px;        
+    background-position: 266px -1px;
+}   
+    
+.page-50-global-moments #number_two {
+    float: right;
+    height: auto;
+    width: 260px;
+    position: relative;
+    padding-top:5px;
+    background-image: url(images/number_two.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+.rtl .page-50-global-moments #number_two {
+    float: left;
+    padding-left: 0px;
+    padding-right: 40px;
+    background-position: 266px -1px;        
+}
+
+.page-50-global-moments #number_three {
+    float: right;
+    height: auto;
+    width: 260px;
+    position: relative;
+    padding-top: 10px;
+    background-image: url(images/number_three.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 35px;
+}
+
+.rtl .page-50-global-moments #number_three {
+    float: left;
+    padding-left: 0px;
+    padding-right: 40px;        
+    background-position: 266px -1px;    
+}
+    
+.page-50-global-moments #or {
+    float: right;
+    height: auto;
+    width: 260px;
+    position: relative;
+    padding-top:10px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.rtl .page-50-global-moments #or {
+    float: left;
+}
+    
+.page-50-global-moments #flickr_upload {
+    float: left;
+    height: auto;
+    width: 280px;
+    position: relative;
+    background-color: #eae9e7;
+    padding: 10px;
+    background-image: url(images/flickr_logo.png);
+    background-repeat: no-repeat;
+    background-position: right 40px;
+    margin-top: 20px;
+  height: 61px !important;
+}
+
+.rtl .page-50-global-moments #flickr_upload {
+    float: right;
+    background-position: left 40px; 
+}       
+        
+.page-50-global-moments #flickr_upload_button {
+    float: left;
+    position: relative;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.rtl .page-50-global-moments #flickr_upload_button {
+    float: right;
+}
+    
+.page-50-global-moments .header_grey {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        color:#666666;
+        margin-top:10px;
+}   
+    
+.page-50-global-moments .bold {
+        font-weight: bold;
+    }
+.page-50-global-moments .padding {
+        padding-right:10px;
+    }
+.page-50-global-moments .padding_20 {
+        padding-right:20px;
+        margin:0px;
+    }
+.page-50-global-moments .padding_top_3 {
+        padding-top:10px;
+
+    }
+.page-50-global-moments .grey_line {
+        padding-top:10px;
+        padding-bottom:10px;
+
+    }
+.page-50-global-moments .subheader {
+        font-size: 16px;
+        padding-bottom:10px;
+        font-weight:bold;
+    }
+    
+.page-50-global-moments a.link_button {
+        text-decoration:none;
+        color:#ffffff !important;
+        font-weight: bold;
+    }
+.page-50-global-moments a.link_button:hover  {
+        text-decoration:none; 
+        color:#ffff00 !important;
+        font-weight: bold;
+        }
+
+/* ai50 timeline */
+
+.page-50-timeline #instructions {
+    float: left;
+    height: auto;
+    width: 940px;
+    position: relative;
+    margin-top:10px;
+    padding:0px;
+    background-color:#eae9e7;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;    
+}
+
+.rtl .page-50-timeline #instructions {
+    float: right;
+}
+
+.page-50-timeline #who_we_are {
+    float: left;
+    height: auto;
+    width: 940px;
+    position: relative;
+    margin-top:30px;
+    padding-bottom: 40px;
+    display: inline;
+}
+
+.rtl .page-50-timeline #who_we_are {
+    float: right;
+}
+
+.page-50-timeline .bold {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-50-timeline .padding {
+    padding-right:10px;
+}
+
+.page-50-timeline .padding_20 {
+    padding-right:20px;
+    margin:0px;
+}
+
+.page-50-timeline .subheader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.page-50-timeline table, 
+.page-50-timeline td{
+  border: none;
+}
+
+/*ai50 art for amnesty */
+
+.page-50-art-for-amnesty img_link.link {
+    text-decoration: none;
+}
+
+.page-50-art-for-amnesty body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-50-art-for-amnesty .header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.page-50-art-for-amnesty #instructions {
+    float: left;
+    height: auto;
+    width: 940px;
+    position: relative;
+    margin-top:10px;
+    padding:0px;
+    background-color:#eae9e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rtl .page-50-art-for-amnesty #instructions {
+    float: right;
+}
+
+.page-50-art-for-amnesty #who_we_are {
+    float: left;
+    height: auto;
+    width: 940px;
+    position: relative;
+    margin-top:30px;
+}
+
+.rtl .page-50-art-for-amnesty #who_we_are {
+    float: right;
+}
+
+.page-50-art-for-amnesty #about_container {
+    float: left;
+    height: auto;
+    width: 620px;
+    position: relative;
+}
+
+.rtl .page-50-art-for-amnesty #about_container {
+    float: right;
+}
+    
+.page-50-art-for-amnesty #contact_container {
+    float: left;
+    height: auto;
+    width: 620px;
+    position: relative;
+}
+
+.rtl .page-50-art-for-amnesty #contact_container {
+    float: right;
+}
+    
+.page-50-art-for-amnesty #who_works_with_us_container {
+    float: left;
+    height: auto;
+    width: 620px;
+    position: relative;
+}
+
+.rtl .page-50-art-for-amnesty #who_works_with_us_container {
+    float: right;
+}
+    
+.page-50-art-for-amnesty #img1 {
+    float: left;
+    height: auto;
+    width: 320px;
+    position: relative;
+    padding-top:10px;
+}
+
+.rtl .page-50-art-for-amnesty #img1 {
+    float: right;
+}
+    
+.page-50-art-for-amnesty #caption {
+    float: left;
+    height: auto;
+    width: 300px;
+    position: relative;
+    padding-top:10px;
+}
+
+.rtl .page-50-art-for-amnesty #caption {
+    float: right;
+}
+    
+.page-50-art-for-amnesty #box_copy {
+    float: right;
+    height: auto;
+    width: 300px;
+    position: relative;
+    padding-top:23px;
+}
+
+.rtl .page-50-art-for-amnesty #box_copy {
+    float: left;
+}
+    
+.page-50-art-for-amnesty .bold {
+    font-weight: bold;
+}
+
+.page-50-art-for-amnesty .padding {
+    padding-right:10px;
+}
+
+.page-50-art-for-amnesty .padding_20 {
+    padding-right:20px;
+    margin:0px;
+}
+
+.page-50-art-for-amnesty .padding_top_3 {
+    padding-top:10px;
+    
+}
+
+.page-50-art-for-amnesty .grey_line {
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+
+.page-50-art-for-amnesty .subheader {
+    font-size: 16px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+
+.page-50-art-for-amnesty #about{
+    padding-top: 20px;
+}
+
+.page-50-art-for-amnesty #ai-sidebar-small {
+  padding-top: 62px;
+}
+
+/* ai50 inspirational stories */
+
+.ntype-ai50-inspirational-story .story-bullets,
+.node-type-ai50-inspirational-story .story-bullets {
+  width:296px;
+  float:left; 
+  background-color: #e1e1e1;
+  padding: 5px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.rtl .ntype-ai50-inspirational-story .story-bullets,
+.rtl .node-type-ai50-inspirational-story .story-bullets {
+    float:right;
+}
+.ntype-ai50-inspirational-story #story-highlight,
+.node-type-ai50-inspirational-story #story-highlight{
+  width: 300px;
+  float: left;
+  padding: 0px 10px 0px 0px;
+}
+
+.rtl .ntype-ai50-inspirational-story #story-highlight,
+.rtl .node-type-ai50-inspirational-story #story-highlight{
+  float: right; 
+  padding: 0px 0px 0px 10px;
+}
+
+.ntype-ai50-inspirational-story #ai50space_campaign-images,
+.node-type-ai50-inspirational-story #ai50space_campaign-images{
+  float:left;
+  margin: 0px;
+}
+.rtl .ntype-ai50-inspirational-story #ai50space_campaign-images,
+.rtl .node-type-ai50-inspirational-story #ai50space_campaign-images{
+  float: right; 
+}
+.ntype-ai50-inspirational-story #story-pullquote,
+.node-type-ai50-inspirational-story #story-pullquote{
+  float: left;
+  border-top: 5px solid yellow;
+}
+
+.rtl .ntype-ai50-inspirational-story #story-pullquote,
+.rtl .node-type-ai50-inspirational-story #story-pullquote{
+  float: right; 
+}
+
+.ntype-ai50-inspirational-story #story-pullquote blockquote,
+.node-type-ai50-inspirational-story #story-pullquote blockquote{
+  font-size:20px;
+  line-height: 130%;
+  color: #666;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+#amnesty_news_story_node_template .group-quotestory fieldset .field-field-storyfullname .field-items .field-item {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#amnesty_news_story_node_template .group-quotestory fieldset div.field.field-type-text.field-field-storycity {
+    float: left;
+}
+
+.rtl #amnesty_news_story_node_template .group-quotestory fieldset div.field.field-type-text.field-field-storycity {
+    float: right;
+}
+
+#amnesty_news_story_node_template .group-quotestory fieldset .field-field-date-popup .field-items .field-item span.date-display-single {
+    color: #666;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+#amnesty_news_story_node_template .group-quotestory fieldset .field .field-label {
+    display:none;
+}
+.ntype-ai50-inspirational-story #story-pullquote p.fullname,
+.node-type-ai50-inspirational-story #story-pullquote p.fullname{
+  font-weight: bold;
+}
+
+.ntype-ai50-inspirational-story #story-pullquote p.location,
+.node-type-ai50-inspirational-story #story-pullquote p.location{
+  color: #666;
+}
+
+#ai50space .ntype-ai50-inspirational-story  h2.title {
+ font-size:20px;
+}
+
+#ai50space .ntype-ai50-inspirational-story h2.title {
+font-size: 20px;
+padding-top: 20px;
+border-top: 1px solid #E1E1E1;
+}
+/* ai50 campaigns pages */
+
+.node-type-ai50-feature #footer-wrapper,
+.node-type-ai50-inspirational-story #footer-wrapper,
+.node-type-ai50-campaign-general #footer-wrapper {
+  border-top: 1px solid black;
+  background: transparent;
+}
+
+.section-news  #footer a,
+.section-news-and-updates #footer a,
+#amnesty_news_story_node_template #footer a,
+.page-news-story-content-type #footer a,
+.node-type-ai50-feature #footer a,
+.node-type-ai50-inspirational-story #footer a,
+.node-type-ai50-campaign-general #footer a{
+ color: black; 
+}
+
+.section-news #footer #footer-copyright,
+.section-news-and-updates #footer #footer-copyright,
+.page-news-story-content-type #footer #footer-copyright,
+#amnesty_news_story_node_template #footer #footer-copyright,
+.node-type-ai50-feature #footer #footer-copyright,
+.node-type-ai50-inspirational-story #footer #footer-copyright,
+.node-type-ai50-campaign-general #footer #footer-copyright{
+  color: black;
+}
+
+
+
+.node-type-ai50-feature #ai-sidebar-squeeze .pane-content div.ntype-ai50-feature,
+.node-type-ai50-feature #ai-sidebar-squeeze .pane-content .ntype-ai50-inspirational-story,
+.node-type-ai50-inspirational-story #ai-sidebar-squeeze .pane-content div.ntype-ai50-inspirational-story,
+.node-type-ai50-campaign-general #ai-sidebar-squeeze .pane-content div.ntype-ai50-campaign-general{
+  width:618px;
+}
+
+.node-type-ai50-feature .panel-layout-bigcontent1col #ai-sidebar-squeeze .pane-content div.ntype-ai50-feature, 
+.node-type-ai50-feature .panel-layout-bigcontent1col #ai-sidebar-squeeze .pane-content .ntype-ai50-inspirational-story, 
+.node-type-ai50-inspirational-story .panel-layout-bigcontent1col #ai-sidebar-squeeze .pane-content div.ntype-ai50-inspirational-story, 
+.node-type-ai50-campaign-general .panel-layout-bigcontent1col #ai-sidebar-squeeze .pane-content div.ntype-ai50-campaign-general {
+  width: 960px;
+}
+
+#ai50space .action-widget .widget-holder{
+    border: 1px solid #ddd;
+  padding: 5px 20px 5px 5px;
+  margin: 0px 0px 20px 0px;
+  width: 580px;
+}
+
+.node-type-ai50-campaign-general .widget-embed{
+  float: left;
+  padding-right: 20px;
+  height: 250px;
+}
+
+.rtl .node-type-ai50-campaign-general .widget-embed{
+  float: right;
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.node-type-ai50-campaign-general .action-widget{
+  clear: left;
+}
+
+.rtl #ai50space .node-type-ai50-campaign-general .action-widget{
+  clear: right;
+}
+
+#ai50space .action-description{
+  clear:left;
+}
+
+.rtl #ai50space .action-description{
+  clear:right;
+}
+
+#ai50space .widget-instructions .widget-instructions-title,
+#ai50space .widget-instructions .widget-instructions-details{
+  float: left;
+}
+#ai50space .widget-instructions .widget-instructions-title{
+  width: 100px;
+  font-weight: bold;
+  margin: 6px 0px 0px 44px;
+}
+
+#ai50space .widget-instructions .widget-instructions-details{
+  width: 450px;
+  padding: 5px 0px;
+}
+
+#ai50space .widget-instructions{
+  margin-bottom:20px;
+  margin-top:20px;
+  width: 608px;
+  background: url(../../../default/themes/aitheme/images/questionsmark.png) no-repeat 0px -10px #eaeaea;
+  float: left;
+}
+
+.rtl #ai50space .widget-instructions {
+  background: url(../../../default/themes/aitheme/images/questionsmark.png) no-repeat 569px -10px #EAEAEA;
+  float: right;
+}
+
+.rtl #ai50space .widget-instructions .widget-instructions-title, 
+.rtl #ai50space .widget-instructions .widget-instructions-details {
+  float: right;
+}
+
+.rtl #ai50space .widget-instructions .widget-instructions-title {
+  margin: 16px 44px 0px 0px;
+}
+
+/*ai50 homepage */
+
+.page-50 .node-type-ai50-feature #ai-sidebar-squeeze .pane-content div.ntype-ai50-feature {
+width:458px;
+
+}
+
+.page-50 #ai-sidebar-squeeze .pane-node-content {
+width:458px;
+margin-right:30px;
+float:left;
+display:inline;
+
+}
+
+.page-50 #ai50space #ai-sidebar-squeeze {
+  padding:30px 0px !important;
+  width: 960px;
+  margin-bottom: 0px !important;
+}
+
+.pane-boxes-ai50-homepage-video {
+  width:470px;
+  float:left;
+}
+
+.page-50 #ai-sidebar-squeeze .panel-region-separator {
+display:none;
+}
+
+.page-50 .node-type-ai50-feature #ai-sidebar-squeeze .pane-node-content h2.pane-title {
+ background-color:#ff0;
+ display:inline;
+ padding:5px;
+}
+
+.page-50 .node-type-ai50-feature #ai-sidebar-squeeze .pane-node-content .pane-content .homepage-content{
+ margin-top:30px;
+ font-size:16px;
+ color: #666;
+ line-height:150%;
+}
+
+/* campaign landing page */
+
+.node-type-ai50-feature #ai-sidebar-small {
+width: 309px;
+padding-top: 65px;
+float: left;
+display: inline;
+}
+
+.page-50-campaigns #ai-sidebar-squeeze {
+ padding: 20px 10px 10px 10px !important;
+}
+
+.page-50-campaigns #ai-sidebar-squeeze h2.pane-title {
+  padding-bottom:10px;
+}
+
+.page-50-campaigns #ai-sidebar-squeeze h2.campaign-name{
+    margin-bottom:5px;
+    width: 620px;
+}
+
+.page-50-campaigns #ai-sidebar-squeeze  a, 
+.page-50-campaigns #ai-sidebar-squeeze  a:link {
+ color: #369;
+ text-decoration: none;
+ font-family:arial,sans-serif;
+}
+
+.page-50-campaigns #ai-sidebar-squeeze  a:hover, 
+.page-50-campaigns #ai-sidebar-squeeze  a:visited,
+.page-50-campaigns #ai-sidebar-squeeze  a:active {
+    background:none;
+  text-decoration:underline;
+}
+
+.campaign-teaser-50 {
+ clear:left;
+}
+
+.rtl .campaign-teaser-50 {
+ clear: right;
+}
+
+.campaign-teaser-50 .campaign-images-50 {
+ width:300px;
+ margin:0px;
+float:left
+}
+
+.rtl .campaign-teaser-50 .campaign-images-50 {
+  float: right;
+}
+
+.campaign-teaser-50 .image-teaser {
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+.rtl .campaign-teaser-50 .image-teaser {
+  float:right;  
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.campaign-images-50 p{
+ margin:0px;
+ padding:0px;
+}
+
+.campaign-teaser-50 .ai50_feature-image-wrapper img.icon-enlarge,
+.campaign-teaser-50 .ai50_feature-image-wrapper div.enlarge-note {
+ bottom:0px;
+}
+
+.campaign-teaser-50 .ai50_feature-image-wrapper {
+ height:250px;
+}
+
+.page-50-inspirational-stories #ai50space #ai-rowbar-bottom .view-ai50-inspiration-listing,
+.page-50-campaigns #ai50space #ai-rowbar-bottom .view-ai50-inspiration-listing{
+    float: left;
+    margin: 0px 0px 20px 0px;
+    display: inline;
+    width:960px;
+}
+
+.rtl .page-50-inspirational-stories #ai50space #ai-rowbar-bottom .view-ai50-inspiration-listing,
+.rtl .page-50-campaigns #ai50space #ai-rowbar-bottom .view-ai50-inspiration-listing{
+    float: right;
+}
+
+.node-type-ai50-campaign-general .rtl .strapline,
+.node-type-ai50-feature .rtl .strapline {
+    margin-right: 0px !important;
+    text-align: right;
+}
+
+.page-50-campaigns .node-type-ai50-feature #ai-sidebar-small {
+ padding-top:73px
+}
+
+#ai50space .page-50-campaigns-death-penalty h2.pane-title{
+ padding-bottom: 5px;
+}
+
+.page-50-global-moments .node-type-ai50-feature #ai-sidebar-small {
+padding-top: 30px;
+}
+
+/* hyperlink styles */
+.section-news-and-updates a,
+#amnesty_news_story_node_template a,
+.section-news a,
+#ai50space a,
+#air-2011 a,
+#air-2011-home a{
+  color: #336699;
+  text-decoration: none;
+}
+
+.section-news-and-updates a h2,
+#amnesty_news_story_node_template a h2,
+.section-news a h2{
+  color: #369 !important;
+}
+
+.section-news a:hover,
+.section-news a:focus,
+.section-news-and-updates a:hover,
+#amnesty_news_story_node_template a:hover,
+.section-news-and-updates a:focus,
+#amnesty_news_story_node_template a:focus,
+#ai50space a:hover,
+#ai50space a:focus,
+#air-2011 a:hover,
+#air-2011 a:focus,
+#air-2011-home a:hover,
+#air-2011-home a:focus{
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.section-news-and-updates h1,
+#amnesty_news_story_node_template h1,
+.section-news h1{
+  font-family: Arial;
+  font-size: 16px;
+  margin: 15px 0px 5px 0px;
+}
+
+.section-news-and-updates h2,
+#amnesty_news_story_node_template h2,
+.section-news h2,
+#ai50space h2,
+#air-2011 h2,
+#air-2011-home h2{
+  font-family: Arial;
+  font-size: 16px !important;
+  margin: 5px 0px 15px 0px;
+}
+
+.section-news-and-updates h3,
+#amnesty_news_story_node_template h3,
+.section-news h3,
+#ai50space h3,
+#air-2011 h3 {
+font-family:arial;
+font-size:13px;
+margin:0px 0px 0px 0px
+}
+
+.node-type-ai50-feature h2.hush,
+.node-type-ai50-inspirational-story h2.hush,
+.node-type-ai50-campaign-general h2.hush,
+.node-type-annual-report-feature h2.hush{
+  color: #999;
+}
+
+/* global update styles */
+.page-annual-report-2011-global-update #ai-sidebar-squeeze h2,
+.page-annual-report-2013-global-update #ai-sidebar-squeeze h2, 
+.page-annual-report-2012-global-update #ai-sidebar-squeeze h2 {
+  margin-bottom:5px;
+  font-size:20px;
+}
+.page-annual-report-2011-global-update #ai-sidebar-squeeze p,
+.page-annual-report-2013-global-update #ai-sidebar-squeeze p,
+.page-annual-report-2012-global-update #ai-sidebar-squeeze p {
+margin-bottom:20px
+}
+
+.page-annual-report-2011-global-update #ai-sidebar-squeeze p.first,
+.page-annual-report-2013-global-update #ai-sidebar-squeeze p.first,
+.page-annual-report-2012-global-update #ai-sidebar-squeeze p.first {
+margin-top:40px;
+clear:both;
+}
+
+ul.global-update-nav{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+
+ul.global-update-nav li{
+float:left;
+padding-right:10px;
+
+}
+
+ul.global-update-nav li.first{
+font-weight:bold;
+}
+
+ul.global-update-nav li a{
+ padding-right:10px;
+ border-right:1px #369 solid;
+ 
+}
+
+
+ul.global-update-nav li a.last{
+ border:0px;
+}
+
+a.inpage-toplink{
+ display:block;
+ text-align:right;
+ padding-bottom:3px;
+ margin-bottom:30px;
+ border-bottom:1px #ccc solid;
+}
+/* AIR2011 glossary */
+
+.ntype-annual-report-feature dl dt{
+  width:210px;
+  padding-bottom: 30px;
+  font-weight:bold;
+}
+
+.ntype-annual-report-feature dl dd{
+  width:360px;
+  padding-bottom: 30px;
+}
+
+
+.ntype-annual-report-feature dl dd,
+.ntype-annual-report-feature dl dt{
+  float:left;
+}
+
+.rtl .ntype-annual-report-feature dl dd,
+.rtl .ntype-annual-report-feature dl dt{
+  float:right;
+}
+
+
+.ntype-annual-report-feature dl dt{
+  clear:left;
+}
+
+.rtl .ntype-annual-report-feature dl dt{
+  clear:right;  
+}
+
+.ntype-annual-report-feature dl dd{
+
+}
+
+.rtl .ntype-annual-report-feature dl dd{
+    clear:left;
+}
+
+/* heading fiddling */
+.page-annual-report-2011 h2,
+.page-annual-report-2013 h2,
+.page-annual-report-2012 h2{
+    text-transform: none;
+}
+
+.node-type-annual-report #ai-sidebar-squeeze{
+    padding-top: 10px;
+}
+
+/* don't show edit controls for boxes - this messes up our layout when logged in */
+#air-2011 .boxes-box-controls,
+#air-2011-home .boxes-box-controls{
+  display:none;
+}
+
+/* front-page */
+.air-2011-front-bottom-fullwidth h2, 
+.air-2011-front-bottom-split h2 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #CCC;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.air-2011-front-bottom-fullwidth,
+.air-2011-front-bottom-split{
+    float:left;
+  padding:0px;
+}
+
+.rtl .air-2011-front-bottom-fullwidth,
+.rtl .air-2011-front-bottom-split{
+    float:right;
+  padding:0px;
+}
+
+
+.air-2011-front-bottom-split h3.title{
+    line-height: 18px;
+}
+
+.air-2011-front-bottom-split h3 a{
+  color: #336699 !important;
+  text-decoration: none;
+  font-size: 13px; 
+}
+
+.air-2011-front-bottom-split h3 a:hover,
+.air-2011-front-bottom-split h3 a:focus {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.air-2011-front-bottom-split .image-teaser {
+    margin-top: 0px;
+}
+
+#mini-panel-annual_report_front_bottom_split .teaser-image{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.air-2011-front-bottom-split .features-teaser-campaign {
+clear:both;
+}
+
+#mini-panel-annual_report_front_bottom_split .features-teaser{
+  margin-top: 0px;
+    float: left;
+    width: 290px;
+}
+
+.rtl #mini-panel-annual_report_front_bottom_split .features-teaser{
+    float: right;
+}
+
+#mini-panel-annual_report_front_bottom_split{
+  margin-top: 27px;
+}
+
+#mini-panel-air_2011_downloads .panel-col-first,
+#mini-panel-annual_report_front_bottom_split .panel-col-first{
+  float:left;
+}
+
+.rtl #mini-panel-air_2011_downloads .panel-col-first,
+.rtl #mini-panel-annual_report_front_bottom_split .panel-col-first {
+    float:right;
+}
+
+#mini-panel-air_2011_downloads .panel-col-last,
+#mini-panel-annual_report_front_bottom_split .panel-col-last {
+    float:right;
+}
+
+.rtl #mini-panel-air_2011_downloads .panel-col-last,
+.rtl #mini-panel-annual_report_front_bottom_split .panel-col-last {
+    float:left;
+}
+
+#mini-panel-air_2011_downloads .panel-panel,
+#mini-panel-annual_report_front_bottom_split .panel-panel{
+  width:289px;
+  display: inline;
+}
+
+#mini-panel-annual_report_front_bottom_split .inside{
+  margin: 0px;
+}
+
+.air_wbr_teaser-image-wrapper{
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.air_feature-image-wrapper{
+    width: 610px;
+    position: relative;
+}
+
+.air_region-image-wrapper{
+  width: 290px;
+  position: relative;
+}
+
+.ai50_feature-image-wrapper{
+    width:300px;
+    position: relative;
+}
+
+#ai50space_campaign-images,
+#air_worldbyregion-images,
+#air_region-images,
+#air_feature-images {
+    color: #666;
+    float: left;
+    font-size: 0.95em;
+    line-height: 120%;
+    margin: 0px 20px 0px 0px;
+    right: 0;
+}
+
+.rtl #ai50space_campaign-images, 
+.rtl #air_worldbyregion-images, 
+.rtl #air_region-images, 
+.rtl #air_feature-images {
+    float: right;
+    margin: 0px 0px 0px 20px;
+}
+
+.rtl #air_region-images p,
+.rtl #air_worldbyregion-images p{
+    text-align:left;
+}
+
+.rtl #air_feature-images{
+    float: right;
+}
+
+#ai50space_campaign-images{
+    width:300px;
+}
+
+#air_worldbyregion-images{
+      width:150px;
+      margin-right: 20px;
+}
+
+#air_region-images{
+    width:290px;
+}
+
+#air_feature-images {
+        width: 610px;
+        padding-bottom:40px;
+}
+
+.ai50_feature-image-wrapper div.enlarge-note,
+.air_wbr_teaser-image-wrapper div.enlarge-note, 
+.air_feature-image-wrapper div.enlarge-note,
+.air_region-image-wrapper div.enlarge-note {
+     bottom: 3px;
+     position: absolute;
+     right: 14px;
+     text-align: right;
+     text-decoration: none;
+     color: white;
+     background-color: black;
+     padding-left: 5px;
+     padding-right: 5px;
+     height: 14px;
+     margin: 0px;
+}
+
+.rtl .ai50_feature-image-wrapper div.enlarge-note,
+.rtl .air_wbr_teaser-image-wrapper div.enlarge-note, 
+.rtl .air_feature-image-wrapper div.enlarge-note,
+.rtl .air_region-image-wrapper div.enlarge-note {
+    bottom: 4px;
+    position: absolute;
+    left: 14px;
+    right: auto;
+}
+
+.ai50_feature-image-wrapper img.icon-enlarge {
+    bottom: 3px;
+    position: absolute;
+    right: 0px;
+}
+
+.air_wbr_teaser-image-wrapper img.icon-enlarge {
+    bottom: 3px;
+    position: absolute;
+    right: 0px;
+}
+
+.air_wbr_teaser-image-wrapper a:link, a:visited,
+.air_feature-image-wrapper a:link, a:visited {
+  text-decoration:none !important;
+}
+
+.features-teaser-annual_report_region .teaser-tail a{
+  text-decoration: none;
+  color: lightblue;
+}
+
+.features-teaser-annual_report_region .image-teaser{
+  margin: 0px 10px 0px 0px;
+}
+
+.rtl .features-teaser-annual_report_region .image-teaser {
+    margin: 0px 0px 0px 10px;
+}
+
+.pane-annual-report-region-nav .teaser-image{
+  margin-right: 20px;
+}
+
+.rtl .pane-annual-report-region-nav .teaser-image{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+#mini-panel-annual_report_region_nav .features-teaser {
+    float: left;
+  margin: 10px 0px 0px 0px;
+    padding: 5px;
+    width: 290px;
+}
+
+.rtl #mini-panel-annual_report_region_nav .features-teaser {
+    float: right;
+}
+
+#air-2011 #ai-sidebar-small .pane-annual-report-region-nav .panel-pane{
+margin-bottom: 10px;
+}
+
+.rtl #annual-report-country-page-promo{
+line-height: 130%;
+}
+
+/* feature pages */
+
+.ntype-annual-report-feature p.leading{
+  font-size: 22px;
+  line-height:120%;
+  color: #666666;
+  padding: 40px 0px 40px 0px;
+}
+
+/* ai-rowbar-top */
+
+#ai-rowbar-top .pane-news-header h1,
+#ai-rowbar-top .amnesty-50space-toprow-titleblock h1,
+#ai-rowbar-top .amnesty-air-toprow-titleblock h1{
+  font-family: Arial;
+  font-size: 38px;
+  padding-bottom: 4px;
+  padding-top: 23px;
+  margin: 0px
+}
+#ai-rowbar-top .pane-news-header h1{
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+#ai-rowbar-top .amnesty-air-toprow-titleblock h2{
+  font-family: Arial;
+  font-size: 16px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.pane-news-header h1 a:link,
+.pane-news-header h1 a:hover,
+.pane-news-header h1 a,
+.amnesty-50space-toprow-titleblock h1 a:link,
+.amnesty-50space-toprow-titleblock h1 a:hover,
+.amnesty-50space-toprow-titleblock h1 a,
+.amnesty-air-toprow-titleblock h1 a:link,
+.amnesty-air-toprow-titleblock h1 a:hover,
+.amnesty-air-toprow-titleblock h1 a{
+    font-size: 1em;
+    line-height: normal;
+    color: white;
+    background-color: transparent;
+}
+
+.pane-news-header h1 a:link,
+.pane-news-header h1 a:hover,
+.pane-news-header h1 a,
+.amnesty-50space-toprow-titleblock h1 a:link,
+.amnesty-50space-toprow-titleblock h1 a:hover,
+.amnesty-50space-toprow-titleblock h1 a{
+    color: black !important;    
+}
+
+.node-type-annual-report #ai-rowbar-top,
+.node-type-annual-report-region #ai-rowbar-top,
+.page-annual-report-2011 #ai-rowbar-top,
+.page-annual-report-2012 #ai-rowbar-top,
+.page-annual-report-2013 #ai-rowbar-top,
+.node-type-annual-report-feature #ai-rowbar-top{
+  background: url(images/maain-menu.jpg) no-repeat 2px 25px;
+    background-color: black;
+}
+
+.rtl .node-type-annual-report #ai-rowbar-top,
+.rtl .node-type-annual-report-region #ai-rowbar-top,
+.rtl .page-annual-report-2011 #ai-rowbar-top,
+.rtl .page-annual-report-2012 #ai-rowbar-top,
+.rtl .page-annual-report-2013 #ai-rowbar-top,
+.rtl .node-type-annual-report-feature #ai-rowbar-top{
+  background: url(images/maain-menu-rtl.jpg) no-repeat 0px 25px;
+    background-color: black;
+}
+
+.node-type-ai50-feature #ai-rowbar-top,
+.node-type-ai50-inspirational-story #ai-rowbar-top,
+.node-type-ai50-campaign-general #ai-rowbar-top{
+  background: url(images/logo-EN.gif) no-repeat top right;
+    background-color: white;    
+}
+
+.es .node-type-ai50-feature #ai-rowbar-top,
+.es .node-type-ai50-inspirational-story #ai-rowbar-top,
+.es .node-type-ai50-campaign-general #ai-rowbar-top{
+  background: url(images/logo-ES.gif) no-repeat top right;
+}
+
+.fr .node-type-ai50-feature #ai-rowbar-top,
+.fr .node-type-ai50-inspirational-story #ai-rowbar-top,
+.fr .node-type-ai50-campaign-general #ai-rowbar-top{
+  background: url(images/logo-FR.gif) no-repeat top right;
+}
+
+.ar .node-type-ai50-feature #ai-rowbar-top,
+.ar .node-type-ai50-inspirational-story #ai-rowbar-top,
+.ar .node-type-ai50-campaign-general #ai-rowbar-top{
+  background: url(images/logo-AR.gif) no-repeat top left;   
+}
+
+#ai-rowbar-top .amnesty-50space-toprow-titleblock{
+    padding: 0px 0px 0px 10px;
+    height: 105px;
+}
+
+#ai-rowbar-top .amnesty-air-toprow-titleblock{
+  padding: 0px 0px 0px 40px;
+  height: 105px;
+}
+
+#ai-rowbar-top .pane-news-header{
+    padding: 0px 0px 0px 10px;
+}
+
+.rtl #ai-rowbar-top .amnesty-air-toprow-titleblock {
+padding: 0px 40px 0px 0px;
+}
+
+#ai-rowbar-top .amnesty-air-toprow-titleblock .air-yellow-highlight{
+    color:yellow;
+}
+
+body.not-front div.node-type-story div#container,
+body.not-front div.section-news div#container,
+body.not-front div.section-news-and-updates div#container,
+body.not-front div#amnesty_news_story_node_template div#container,
+body.not-front div.node-type-annual-report div#container,
+body.not-front div.node-type-annual-report-region div#container,
+body.not-front div.node-type-annual-report-feature div#container,
+body.not-front div.page-annual-report-2011 div#container,
+body.not-front div.page-annual-report-2012 div#container,
+body.not-front div.page-annual-report-2013 div#container,
+body.not-front div.node-type-ai50-campaign-general div#container,
+body.not-front div.node-type-ai50-feature div#container,
+body.not-front div.node-type-ai50-inspirational-story div#container {
+  padding: 0px !important;
+}
+
+.node-type-story #ai-rowbar-top,
+.section-news #ai-rowbar-top,
+.section-news-and-updates #ai-rowbar-top,
+#amnesty_news_story_node_template #ai-rowbar-top,
+.node-type-annual-report #ai-rowbar-top,
+.node-type-annual-report-region #ai-rowbar-top,
+.node-type-annual-report-feature #ai-rowbar-top,
+.page-annual-report-2011 #ai-rowbar-top,
+.page-annual-report-2012 #ai-rowbar-top,
+.page-annual-report-2013 #ai-rowbar-top,
+.node-type-ai50-feature #ai-rowbar-top,
+.node-type-ai50-inspirational-story #ai-rowbar-top,
+.node-type-ai50-campaign-general #ai-rowbar-top {
+  padding-top: 0px;
+}
+
+.node-type-story h2,
+.section-news h2,
+.section-news-and-updates h2,
+#amnesty_news_story_node_template h2,
+.node-type-annual-report h2,
+.node-type-annual-report-feature h2,
+.node-type-annual-report-region h2, 
+.page-annual-report-2011 h2,
+.page-annual-report-2012 h2,
+.page-annual-report-2013 h2,
+.node-type-ai50-feature h2,
+.node-type-ai50-inspirational-story h2,
+.node-type-ai50-campaign-general h2,
+.node-type-story h1,
+.section-news h1,
+.section-news-and-updates h1,
+#amnesty_news_story_node_template h1,
+.node-type-annual-report h1,
+.node-type-annual-report-feature h1,
+.node-type-annual-report-region h1, 
+.page-annual-report-2011 h1,
+.page-annual-report-2012 h1,
+.page-annual-report-2013 h1,
+.node-type-ai50-feature h1,
+.node-type-ai50-inspirational-story h1,
+.node-type-ai50-campaign-general h1{
+    text-transform: none;
+}
+
+.node-type-ai50-feature #ai-sidebar-squeeze h2.pane-title,
+.node-type-ai50-inspirational-story #ai-sidebar-squeeze  h2.pane-title,
+.node-type-ai50-campaign-general #ai-sidebar-squeeze  h2.pane-title,
+.node-type-annual-report-feature h2.pane-title {
+  margin: 0px !important;
+  font-size: 28px !important;
+  font-family: Arial;
+}
+
+/* exception for alll inspriational stories listing */
+
+.node-type-ai50-feature #ai-sidebar-squeeze .pane-ai50-inspiration-listing-panel-pane-4 h2.pane-title{
+  font-size: 22px !important;
+}
+
+.pane-ai50-inspiration-listing-panel-pane-4 {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  float: left;
+}
+
+.rtl .pane-ai50-inspiration-listing-panel-pane-4 {
+  float: right;
+}
+
+#ai-rowbar-top .amnesty-50space-toprow-titleblock h2,
+#ai-rowbar-top .amnesty-air-toprow-titleblock h2{
+  margin: 0px;
+  font-family: Arial;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+#ai-rowbar-top .amnesty-50space-toprow-titleblock h2{
+    color:gray; 
+}
+
+#ai-rowbar-top .amnesty-air-toprow-titleblock h2{
+    color:white;
+}
+
+.node-type-annual-report #ai-rowbar-top h2,
+.node-type-annual-report-region #ai-rowbar-top h2,
+.node-type-annual-report-feature  #ai-rowbar-top h2,
+.page-annual-report-2011 #ai-rowbar-top h2,
+.page-annual-report-2013 #ai-rowbar-top h2,
+.page-annual-report-2012 #ai-rowbar-top h2 {
+    padding-bottom:20px;
+}
+
+.node-type-annual-report #air-2011 .pane-field-country-summary,
+.node-type-annual-report #air-2011 .pane-node-body{
+  padding-left: 0px;
+}
+
+.node-type-annual-report #air-2011 .country-article h2 a{
+  color:black;
+  text-decoration: none;
+}
+
+#ai-sidebar-main .view-ai50-inspiration-listing{
+  width: 615px;
+}
+
+#ai-rowbar-top .panel-region-separator{
+    display:none;
+}
+
+#ai-rowbar-top .pane-news-header  h1 a,
+#ai-rowbar-top .amnesty-50space-toprow-titleblock h1 a,
+#ai-rowbar-top .amnesty-air-toprow-titleblock h1 a{
+  text-decoration: none;
+}
+
+#ai-rowbar-top .amnesty-air-toprow-titleblock h1 a{
+    color: white;
+}
+
+#ai-rowbar-top .pane-news-header  h1 a
+#ai-rowbar-top .amnesty-50space-toprow-titleblock h1 a{
+    color:black;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul,
+#ai-rowbar-top ul.annual-report-airtopmenu{
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul{
+    background-color: #ececec;
+}
+
+#ai-rowbar-top ul.annual-report-airtopmenu{
+    background: url(images/semi-t-white.png) repeat right top;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul li,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li,
+#ai-rowbar-top ul.annual-report-airtopmenu li{
+    display: inline;
+    font-size: 12px;
+    border-top-width: 4px;
+    border-right-width: 1px;
+    border-right-color: black;
+    border-right-style: solid;
+    padding: 11px 8px;
+    float: left;
+}
+
+.rtl #ai-rowbar-top ul.annual-report-airtopmenu li{
+    display: inline;
+    font-size: 12px;
+    border-top-width: 4px;
+    border-right: none;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-left-style: solid;
+    padding: 11px 10px;
+    float: right;
+}
+
+.rtl #ai-rowbar-top #amnesty-news-toprow-menu ul li
+.rtl #ai-rowbar-top #amnesty-ai50space-toprow-menu ul li{
+  float:right;
+  border-right: none;
+  border-left: 1px solid white;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul li.active,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li.active{
+    background-color: #d8d8d8;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul li,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li{
+    border-right-color: white;
+    margin:0px;
+    padding:0px;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul li span.menu-arrow,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li span.menu-arrow{
+    display:none;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a,
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a:link,
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a:visited,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a:link,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a:visited,
+#ai-rowbar-top ul.annual-report-airtopmenu li a,
+#ai-rowbar-top ul.annual-report-airtopmenu li a:link,
+#ai-rowbar-top ul.annual-report-airtopmenu li a:visited {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a,
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a:link,
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a:visited,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a:link,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a:visited {
+    color: black;   
+    padding:10px 11px;
+    display:block;
+}
+
+#ai-rowbar-top ul.annual-report-airtopmenu li a,
+#ai-rowbar-top ul.annual-report-airtopmenu li a:link,
+#ai-rowbar-top ul.annual-report-airtopmenu li a:visited {
+  color: white; 
+}
+
+#ai-rowbar-top #amnesty-news-toprow-menu ul li.active-trail a,
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a:hover,
+#ai-rowbar-top #amnesty-news-toprow-menu ul li a:focus,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li.active-trail a,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a:hover,
+#ai-rowbar-top #amnesty-ai50space-toprow-menu ul li a:focus {
+    background-color:#d8d8d8;
+} 
+
+
+
+#ai-rowbar-top ul.annual-report-airtopmenu li a:hover,
+#ai-rowbar-top ul.annual-report-airtopmenu li a:focus {
+  color: yellow;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+#ai-rowbar-top ul.annual-report-airtopmenu li.current{
+  background-color:white;
+}
+
+#ai-rowbar-top ul.annual-report-airtopmenu li.current a:hover,
+#ai-rowbar-top ul.annual-report-airtopmenu li.current a:focus,
+#ai-rowbar-top ul.annual-report-airtopmenu li.current a:visited,
+#ai-rowbar-top ul.annual-report-airtopmenu li.current a{
+    text-decoration: none;
+    background-color: transparent;
+  color: black; 
+}
+
+/* air region navigator */
+
+#amnesty-air-region-image-map {
+    background-image: url(../../../default/themes/aitheme/images/world-regions.jpg);
+    height: 122px;
+    width: 238px;
+    overflow: hidden;
+}
+
+.pane-annual-report-region-nav h2.pane-title,
+.pane-annual-report-region-nav-2013 h2.pane-title,
+.pane-annual-report-region-nav-2012 h2.pane-title{
+    text-align: center;
+    text-transform: none;
+    color: #336699 !important;
+    font-family: arial;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.air2013_country_node_title, 
+.air2012_country_node_title {
+    font-size: 28px;
+    margin: 20px 0 0;
+    padding-bottom: 0;
+}
+
+.pane-annual-report-region-nav .panel-region-separator{
+  display:none;
+}
+
+.pane-annual-report-region-nav #air-report-jump,
+.pane-annual-report-region-nav .panel-pane{
+  float: left;
+}
+
+.rtl .pane-annual-report-region-nav #air-report-jump, 
+.rtl .pane-annual-report-region-nav .panel-pane {
+float: right;
+}
+
+.pane-annual-report-region-nav#air-report-jump{
+  padding-top: 20px;
+}
+
+.pane-air-country-reports-panel-pane-1 h2.pane-title,
+#air-report-jump h2.pane-title{
+text-transform: none;
+color: black!important;
+font-family: Arial;
+font-size: 13px !important;
+text-align: left;
+margin: 20px 0px 0px 0px;
+padding-bottom: 5px;
+}
+
+#air-report-jump h2.pane-title { 
+  text-align: center;
+} 
+
+.rtl .pane-air-country-reports-panel-pane-1 h2.pane-title,
+.rtl #air-report-jump h2.pane-title{
+    text-align: right;
+}
+
+.pane-air-country-reports-panel-pane-1 .pane-content div,
+#mini-panel-annual_report_region_nav #air-report-jump .pane-content div{
+    text-align: center;
+}
+
+.rtl .pane-air-country-reports-panel-pane-1 .pane-content div,
+.rtl #mini-panel-annual_report_region_nav #air-report-jump .pane-content div{
+    text-align: right;
+}
+
+
+.amnesty-air-region-view-header {
+    text-align: center;
+}
+
+.features-teaser-annual_report_region h3.title{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.features-teaser-annual_report_region h3.title a{
+text-decoration: none;
+  color: #336699 !important;
+}
+
+.features-teaser-annual_report_region h3.title a:hover,
+.features-teaser-annual_report_region h3.title a:focus {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+/* all air boxes */
+
+#ai50space #ai-sidebar-small .panel-pane,
+#air-2011 #ai-sidebar-small .panel-pane,
+#air-2011-home #ai-sidebar-small .panel-pane {
+  margin-bottom:40px;
+  width: 300px;
+}
+
+#air-2011-home .pane-annual-report-region-nav-2013,
+#air-2011-home .pane-annual-report-region-nav-2012,
+#air-2011-home .pane-boxes-air-social-network-sidebar {
+  padding-left: 10px;
+}
+
+.node-type-ai50-feature #ai50space #ai-sidebar-small .panel-pane {
+    width:300px;
+}
+
+#air-2011 #ai-sidebar-small .panel-region-separator{
+  display:none;
+}
+
+/* Reports & Visits */
+.pane-annual-report-2011-rnv{
+  padding: 0px;
+}
+
+.pane-annual-report-2011-rnv .pane-content .field{
+  padding: 5px 19px;
+}
+
+.pane-annual-report-2011-rnv .panel-2col .panel-col-last .inside {
+  margin: 0px;
+}
+
+.pane-annual-report-2011-rnv .panel-2col .panel-col-first .inside {
+  margin: 0px;
+}
+
+/* ai50 press release */
+
+#ai50space .pane-boxes-ai50-press-briefing{
+  width: 620px;
+}
+
+#ai50space .pane-boxes-ai50-press-briefing h2.pane-title{
+  font-size: 16px !important;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#ai50space .press-brief-img,
+#ai50space .press-brief-description,
+#ai50space .press-brief-text{
+  float: left;
+}
+
+.rtl #ai50space .press-brief-img,
+.rtl #ai50space .press-brief-description,
+.rtl #ai50space .press-brief-text{
+  float: right;
+}
+
+#ai50space .press-brief-img{
+  padding-top:5px
+}
+
+#ai50space .press-brief-description,
+#ai50space .press-brief-text{
+  padding-top: 15px;
+}
+
+#ai50space .press-brief-text h2,
+#ai50space .press-brief-text a{
+  font-size: 16px !important;
+  padding:0px;
+  padding-bottom: 5px;
+  margin:0px;
+}
+
+#ai50space .press-brief-description{
+  width: 250px;
+}
+
+#ai50space .pane-air-press-release-list-panel-pane-1 .pane-content {
+    margin: 0px 5px;
+    float: left;
+    display: inline;
+    padding-bottom: 20px;
+}
+
+.rtl .pane-air-press-release-list-panel-pane-1 .pane-content{
+    float: right;
+}
+
+#ai50space .pane-air-press-release-list-panel-pane-1 .views-row{
+  width: 300px;
+  padding-right: 15px;
+}
+
+.rtl #ai50space .pane-air-press-release-list-panel-pane-1 .views-row{
+  padding-right: 0px;
+  padding-left: 15px;
+}
+
+
+#ai50space .pane-air-press-release-list-panel-pane-1 .views-row h2{
+  font-size:16px !important;
+}
+
+.rtl #ai50space .pane-air-press-release-list-panel-pane-1 .pane-content{
+    float:right;
+    width: 960px;
+}
+
+/* press release view */
+
+
+#ai-rowbar-bottom .pane-air-press-release-list-panel-pane-1 h2.pane-title,
+.pane-annual-report-2011-rnv h2.pane-title{
+  background-color: yellow;
+  padding: 5px 19px;
+}
+
+#ai-rowbar-bottom .pane-air-press-release-list-panel-pane-1 .views-row h2{
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+
+#ai-rowbar-bottom .pane-air-press-release-list-panel-pane-1 h2,
+#air-2011 #mini-panel-annual_report_2011_rnv h2{
+  font-size: 13px !important;
+}
+
+.pane-air-press-release-list-panel-pane-1 .pane-content{
+  margin: 0px 19px;
+  float:left;
+}
+
+.rtl .pane-air-press-release-list-panel-pane-1 .pane-content{
+    float:right;
+}
+
+.pane-air-press-release-list-panel-pane-1 .views-row{
+  float:left;
+  width:280px;
+  padding-right: 10px;
+}
+
+.rtl .pane-air-press-release-list-panel-pane-1 .views-row{
+    float:right;
+  padding-right: 0px;
+    padding-left: 10px;
+}
+
+.pane-air-press-release-list-panel-pane-1 .views-row a h2{
+   color: #369;
+   text-decoration: none;
+}
+
+/* archive & region */
+
+#mini-panel-annual_report_2011_anr h2{
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-color: #CCC;
+font-family: Arial;
+font-weight: normal;
+}
+
+#mini-panel-annual_report_2011_anr h2 span{
+  font-weight:bold;
+}
+
+#mini-panel-annual_report_2011_rnv ul.visitlist,
+#mini-panel-annual_report_2011_rnv ul.reportlist{
+  list-style:none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#mini-panel-annual_report_2011_rnv ul.visitlist li,
+#mini-panel-annual_report_2011_rnv ul.reportlist li{
+  margin-bottom: 20px;
+}
+
+/* Inline Language switcher */
+#mini-panel-inline_language_switcher_2013,
+#mini-panel-inline_language_switcher_2012,
+#mini-panel-inline_language_switcher{
+  background-color:black;
+  color: gray;
+  padding: 6px 10px;
+  min-height: 11px;
+}
+
+.page-news #mini-panel-inline_language_switcher, 
+.page-news-all #mini-panel-inline_language_switcher, 
+.page-news-regional #mini-panel-inline_language_switcher,
+.page-news-multimedia #mini-panel-inline_language_switcher{
+	display: none;
+}
+
+
+
+body.section-news #mini-panel-inline_language_switcher,
+body.section-news-and-updates #mini-panel-inline_language_switcher,
+body.page-news-story-content-type #mini-panel-inline_language_switcher,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher,
+#ai50space #mini-panel-inline_language_switcher{
+  background-color:transparent;
+  padding-left: 0px;
+}
+
+#mini-panel-inline_language_switcher_2013 .panel-pane,
+#mini-panel-inline_language_switcher_2012 .panel-pane,
+#mini-panel-inline_language_switcher .panel-pane{
+  float: left;
+  padding-right: 5px;
+}
+
+.rtl #mini-panel-inline_language_switcher_2013 .panel-pane,
+.rtl #mini-panel-inline_language_switcher_2012 .panel-pane,
+.rtl #mini-panel-inline_language_switcher .panel-pane {
+    float: right;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#mini-panel-inline_language_switcher_2013,
+#mini-panel-inline_language_switcher_2012,
+#mini-panel-inline_language_switcher {
+  font-size: 11px;
+}
+
+#mini-panel-inline_language_switcher_2013 ul,
+#mini-panel-inline_language_switcher_2012 ul,
+#mini-panel-inline_language_switcher ul{
+  list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: hidden;
+    padding: 0px;
+    width: 500px;
+}
+
+#mini-panel-inline_language_switcher_2013 ul li,
+#mini-panel-inline_language_switcher_2012 ul li,
+#mini-panel-inline_language_switcher ul li{
+  padding-right: 15px;
+  float: left;
+}
+
+.rtl #mini-panel-inline_language_switcher ul li,
+.rtl #mini-panel-inline_language_switcher ul li {
+    padding-right: 0px;
+    padding-left: 15px;
+    float: right;
+}
+
+#mini-panel-inline_language_switcher ul li a:link,
+#mini-panel-inline_language_switcher_2013 ul li a:link,
+#mini-panel-inline_language_switcher_2012 ul li a:link,
+#mini-panel-inline_language_switcher ul li a:hover,
+#mini-panel-inline_language_switcher_2013 ul li a:hover,
+#mini-panel-inline_language_switcher_2012 ul li a:hover,
+#mini-panel-inline_language_switcher ul li a:focus,
+#mini-panel-inline_language_switcher_2013 ul li a:focus,
+#mini-panel-inline_language_switcher_2012 ul li a:focus,
+#mini-panel-inline_language_switcher ul li a:visited,
+#mini-panel-inline_language_switcher_2013 ul li a:visited,
+#mini-panel-inline_language_switcher_2012 ul li a:visited,
+#mini-panel-inline_language_switcher_2013 ul li a,
+#mini-panel-inline_language_switcher_2012 ul li a,
+#mini-panel-inline_language_switcher ul li a{
+    color: gray;
+}
+
+body.section-news #mini-panel-inline_language_switcher ul li a:link,
+body.section-news #mini-panel-inline_language_switcher ul li a:hover,
+body.section-news #mini-panel-inline_language_switcher ul li a:focus,
+body.section-news #mini-panel-inline_language_switcher ul li a:visited,
+body.section-news #mini-panel-inline_language_switcher ul li a,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li a:link,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li a:hover,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li a:focus,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li a:visited,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li a,
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li a:link,         
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li a:hover,        
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li a:focus,        
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li a:visited,          
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li a,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li a:link,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li a:hover,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li a:focus,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li a:visited,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li a,
+#ai50space #mini-panel-inline_language_switcher ul li a:link,
+#ai50space #mini-panel-inline_language_switcher ul li a:hover,
+#ai50space #mini-panel-inline_language_switcher ul li a:focus,
+#ai50space #mini-panel-inline_language_switcher ul li a:visited,
+#ai50space #mini-panel-inline_language_switcher ul li a{
+    color: #369;
+}
+
+#mini-panel-inline_language_switcher ul li.active a:link,
+#mini-panel-inline_language_switcher ul li.active a:hover,
+#mini-panel-inline_language_switcher ul li.active a:focus,
+#mini-panel-inline_language_switcher ul li.active a:visited,
+#mini-panel-inline_language_switcher ul li.active a{
+  color: white;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+body.section-news #mini-panel-inline_language_switcher ul li.active a:link,
+body.section-news #mini-panel-inline_language_switcher ul li.active a:hover,
+body.section-news #mini-panel-inline_language_switcher ul li.active a:focus,
+body.section-news #mini-panel-inline_language_switcher ul li.active a:visited,
+body.section-news #mini-panel-inline_language_switcher ul li.active a,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li.active a:link,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li.active a:hover,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li.active a:focus,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li.active a:visited,
+body.section-news-and-updates #mini-panel-inline_language_switcher ul li.active a,
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li.active a:link,          
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li.active a:hover,         
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li.active a:focus,         
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li.active a:visited,       
+body.page-news-story-content-type #mini-panel-inline_language_switcher ul li.active a,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li.active a:link,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li.active a:hover,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li.active a:focus,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li.active a:visited,
+#amnesty_news_story_node_template #mini-panel-inline_language_switcher ul li.active a,
+#ai50space #mini-panel-inline_language_switcher ul li.active a:link,
+#ai50space #mini-panel-inline_language_switcher ul li.active a:hover,
+#ai50space #mini-panel-inline_language_switcher ul li.active a:focus,
+#ai50space #mini-panel-inline_language_switcher ul li.active a:visited,
+#ai50space #mini-panel-inline_language_switcher ul li.active a{
+    color: black;
+}
+
+
+/* icandle block */
+#air-2011-icandle-mainpage img{
+  margin: 0px;
+  width: 450px;
+  height: 100px;
+}
+
+#air-2011-icandle-mainpage p{
+  float: left;
+  padding: 5px;
+}
+
+/* how2help block */
+#h2h-block{
+  background-color: black;
+  float:left;
+}
+
+.rtl #h2h-block{
+    float:right;
+}
+
+#h2h-block .pane-content{
+  margin: 20px;
+}
+
+#h2h-block h2{
+  color: yellow;
+  text-transform: none;
+  margin: 0px 0px 5px 0px;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+#h2h-block ul{
+  color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    padding: 0px;
+}
+
+#h2h-block li{
+  padding: 3px 3px 3px 0px;
+  font-size:13px;
+  width: 100%;
+}
+
+#h2h-block li a{
+  color: white;
+  text-decoration: none;
+}
+
+#h2h-block li a:hover{
+  color:yellow;
+  background-color: transparent;    
+}
+
+#h2h-block li .hush{
+  color: #666666;
+}
+
+/* margin for h2h on front page of AIR */
+
+.page-annual-report-2013 #h2h-block,
+.page-annual-report-2011 #h2h-block,
+.page-annual-report-2012 #h2h-block{
+  margin-top: 20px
+}
+
+/* press brief */
+/* sidebar box */
+#ai-sidebar-small .pane-boxes-air-2013-press-briefing .pane-content,
+#ai-sidebar-small .pane-boxes-air-2011-pressbrief .pane-content,
+#ai-sidebar-small .pane-boxes-air-2012-press-briefing .pane-content {
+  padding:0px;
+  width:298px;
+}
+
+#ai-sidebar-small .pane-boxes-air-2011-pressbrief .pane-content,
+#ai-sidebar-small .pane-boxes-air-2013-press-briefing .pane-content,
+#ai-sidebar-small .pane-boxes-air-2012-press-briefing .pane-content {
+  padding: 10px 0px;
+}
+
+#ai-sidebar-small .pane-boxes-air-2011-pressbrief .pane-content img,
+#ai-sidebar-small .pane-boxes-air-2013-press-briefing .pane-content img, 
+#ai-sidebar-small .pane-boxes-air-2012-press-briefing .pane-content img {
+  padding-left: 10px;
+}
+
+#ai-sidebar-squeeze .pane-boxes-air-2011-pressbrief .pane-content,
+#ai-sidebar-squeeze .pane-boxes-air-2013-press-briefing .pane-content,
+#ai-sidebar-squeeze .pane-boxes-air-2012-press-briefing .pane-content {
+  border: 1px solid #ccc;
+  border-top: none;
+  float: left;
+  width: 608px;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.pane-boxes-air-2011-pressbrief img,
+.pane-boxes-air-2011-pressbrief .press-brief-text,
+.pane-boxes-air-2013-press-briefing img,
+.pane-boxes-air-2013-press-briefing .press-brief-text,
+.pane-boxes-air-2012-press-briefing img,
+.pane-boxes-air-2012-press-briefing .press-brief-text {
+  float:left;
+}
+
+.rtl .pane-boxes-air-2011-pressbrief img,
+.rtl .pane-boxes-air-2011-pressbrief .press-brief-text,
+.rtl .pane-boxes-air-2013-press-briefing img,
+.rtl .pane-boxes-air-2013-press-briefing .press-brief-text,
+.rtl .pane-boxes-air-2012-press-briefing img,
+.rtl .pane-boxes-air-2012-press-briefing .press-brief-text {
+  float:right;
+}
+
+.pane-boxes-air-2011-pressbrief .pane-content,
+.pane-boxes-air-2013-press-briefing .pane-content,
+.pane-boxes-air-2012-press-briefing .pane-content {
+  width:100%
+}
+
+.pane-boxes-air-2011-pressbrief h2,
+.pane-boxes-air-2013-press-briefing h2,
+.pane-boxes-air-2012-press-briefing h2 {
+  margin: 0px !important;
+  padding: 5px 0px 3px 0px;
+  font-size: 18px !important;
+}
+
+.pane-boxes-air-2011-pressbrief a,
+.pane-boxes-air-2013-press-briefing a, 
+.pane-boxes-air-2012-press-briefing a {
+  font-size: 15px;
+}
+
+/* yellow boxes for air */
+
+.pane-boxes-adam-links,
+.pane-boxes-air-2011-pressbrief,
+.pane-boxes-air-2011-contactpress,
+.pane-boxes-air-2011-hrt,
+.pane-boxes-air-2011-fnf,
+.pane-boxes-air-2013-facts-figures,
+.pane-boxes-air-2013-contact-press-office,
+.pane-boxes-air-2013-press-briefing,
+.pane-boxes-air-2013-selected-treaties,
+.pane-boxes-air-2012-facts-figures,
+.pane-boxes-air-2012-contact-press-office,
+.pane-boxes-air-2012-press-briefing,
+.pane-boxes-air-2012-selected-treaties {
+  float: left;
+}
+
+.rtl .pane-boxes-adam-links,
+.rtl .pane-boxes-air-2011-pressbrief,
+.rtl .pane-boxes-air-2011-contactpress,
+.rtl .pane-boxes-air-2011-hrt,
+.rtl .pane-boxes-air-2011-fnf,
+.rtl .pane-boxes-air-2013-facts-figures,
+.rtl .pane-boxes-air-2013-contact-press-office,
+.rtl .pane-boxes-air-2013-press-briefing,
+.rtl .pane-boxes-air-2013-selected-treaties,
+.rtl .pane-boxes-air-2012-facts-figures,
+.rtl .pane-boxes-air-2012-contact-press-office,
+.rtl .pane-boxes-air-2012-press-briefing,
+.rtl .pane-boxes-air-2012-selected-treaties {
+  float:right;  
+}
+
+.pane-boxes-adam-links .pane-content,
+.pane-boxes-air-2011-pressbrief .pane-content,
+.pane-boxes-air-2011-contactpress .pane-content,
+.pane-boxes-air-2011-hrt .pane-content,
+.pane-boxes-air-2011-fnf .pane-content,
+.pane-boxes-air-2013-facts-figures .pane-content,
+.pane-boxes-air-2013-contact-press-office .pane-content,
+.pane-boxes-air-2013-press-briefing .pane-content,
+.pane-boxes-air-2013-selected-treaties .pane-content,
+.pane-boxes-air-2012-facts-figures .pane-content,
+.pane-boxes-air-2012-contact-press-office .pane-content,
+.pane-boxes-air-2012-press-briefing .pane-content,
+.pane-boxes-air-2012-selected-treaties .pane-content {
+    border: 1px solid #ccc; 
+    border-top: none;
+}
+
+#ai-sidebar-squeeze .pane-boxes-air-2011-hrt,
+#ai-sidebar-squeeze .pane-boxes-air-2011-pressbrief,
+#ai-sidebar-squeeze .pane-boxes-air-2013-press-briefing,
+#ai-sidebar-squeeze .pane-boxes-air-2013-selected-treaties,
+#ai-sidebar-squeeze .pane-boxes-air-2012-press-briefing,
+#ai-sidebar-squeeze .pane-boxes-air-2012-selected-treaties {
+  width: 610px !important;
+    position: relative;
+}
+
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2011-hrt,
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2011-pressbrief,
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2013-press-briefing,
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2013-selected-treaties,
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2012-press-briefing,
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2012-selected-treaties {
+    left: 10px;
+}
+
+.pane-boxes-ai50-amnesty-twitter-feed h2.pane-title,
+.pane-boxes-adam-links h2.pane-title,
+.pane-boxes-air-2011-pressbrief h2.pane-title,
+.pane-boxes-air-2011-contactpress h2.pane-title,
+.pane-boxes-air-2011-hrt h2.pane-title,
+.pane-boxes-air-2011-fnf h2.pane-title,
+.pane-boxes-air-2013-facts-figures h2.pane-title,
+.pane-boxes-air-2013-contact-press-office h2.pane-title,
+.pane-boxes-air-2013-press-briefing h2.pane-title,
+.pane-boxes-air-2013-selected-treaties h2.pane-title,
+.pane-boxes-air-2012-facts-figures h2.pane-title,
+.pane-boxes-air-2012-contact-press-office h2.pane-title,
+.pane-boxes-air-2012-press-briefing h2.pane-title,
+.pane-boxes-air-2012-selected-treaties h2.pane-title {
+background-color: yellow !important;
+color: black !important;
+font-size: 13px !important;
+text-transform: none;
+font-family: arial;
+padding:10px;
+}
+
+.pane-boxes-air-2011-contactpress h2.pane-title,
+.pane-boxes-air-2013-contact-press-office h2.pane-title,
+.pane-boxes-air-2012-contact-press-office h2.pane-title {
+    background-color: black !important;
+    color: white !important;
+}
+
+.pane-boxes-adam-links .pane-content,
+.pane-boxes-air-2011-pressbrief .pane-content,
+.pane-boxes-air-2011-contactpress .pane-content,
+.pane-boxes-air-2011-hrt .pane-content,
+.pane-boxes-air-2011-fnf .pane-content,
+.pane-boxes-air-2013-facts-figures .pane-content,
+.pane-boxes-air-2013-contact-press-office .pane-content,
+.pane-boxes-air-2013-press-briefing .pane-content,
+.pane-boxes-air-2013-selected-treaties .pane-content,
+.pane-boxes-air-2012-facts-figures .pane-content,
+.pane-boxes-air-2012-contact-press-office .pane-content,
+.pane-boxes-air-2012-press-briefing .pane-content,
+.pane-boxes-air-2012-selected-treaties .pane-content {
+  float:left;
+}
+
+.pane-boxes-adam-links .pane-content p,
+.pane-boxes-air-2011-pressbrief .pane-content p,
+.pane-boxes-air-2011-contactpress .pane-content p,
+.pane-boxes-air-2011-hrt .pane-content p,
+.pane-boxes-air-2011-fnf .pane-content p,
+.pane-boxes-air-2013-facts-figures .pane-content p,
+.pane-boxes-air-2013-contact-press-office .pane-content p,
+.pane-boxes-air-2013-press-briefing .pane-content p,
+.pane-boxes-air-2013-selected-treaties .pane-content p,
+.pane-boxes-air-2012-facts-figures .pane-content p,
+.pane-boxes-air-2012-contact-press-office .pane-content p,
+.pane-boxes-air-2012-press-briefing .pane-content p,
+.pane-boxes-air-2012-selected-treaties .pane-content p {
+  margin:10px;
+}
+
+.rtl .pane-boxes-adam-links .pane-content,
+.rtl .pane-boxes-air-2011-pressbrief .pane-content,
+.rtl .pane-boxes-air-2011-contactpress .pane-content,
+.rtl .pane-boxes-air-2011-hrt .pane-content,
+.rtl .pane-boxes-air-2011-fnf .pane-content,
+.rtl .pane-boxes-air-2013-facts-figures .pane-content,
+.rtl .pane-boxes-air-2013-contact-press-office .pane-content,
+.rtl .pane-boxes-air-2013-press-briefing .pane-content,
+.rtl .pane-boxes-air-2013-selected-treaties .pane-content,
+.rtl .pane-boxes-air-2012-facts-figures .pane-content,
+.rtl .pane-boxes-air-2012-contact-press-office .pane-content,
+.rtl .pane-boxes-air-2012-press-briefing .pane-content,
+.rtl .pane-boxes-air-2012-selected-treaties .pane-content {
+    float:right;
+}
+
+.pane-boxes-air-2011-hrt .click-button,
+.pane-boxes-air-2011-fnf .click-button,
+.pane-boxes-air-2013-facts-figures .click-button,
+.pane-boxes-air-2013-selected-treaties .click-button,
+.pane-boxes-air-2012-facts-figures .click-button,
+.pane-boxes-air-2012-selected-treaties .click-button {
+background: black;
+color: white;
+font-weight: bold;
+padding: 5px 10px;
+border: 0px;
+float:left;
+margin:10px;
+}
+
+.rtl .pane-boxes-air-2011-hrt .click-button,
+.rtl .pane-boxes-air-2011-fnf .click-button,
+.rtl .pane-boxes-air-2013-facts-figures .click-button,
+.rtl .pane-boxes-air-2013-selected-treaties .click-button,
+.rtl .pane-boxes-air-2012-facts-figures .click-button,
+.rtl .pane-boxes-air-2012-selected-treaties .click-button {
+    float:right;
+}
+
+#air-2011 .pane-boxes-air-2011-hrt .click-button a,
+#air-2011 .pane-boxes-air-2011-fnf .click-button a,
+#air-2011 .pane-boxes-air-2013-facts-figures .click-button a,
+#air-2011 .pane-boxes-air-2013-selected-treaties .click-button a,
+#air-2011 .pane-boxes-air-2012-facts-figures .click-button a,
+#air-2011 .pane-boxes-air-2012-selected-treaties .click-button a {
+  color: white;
+  text-decoration: none;
+}
+
+#air-2011 .pane-boxes-adam-links .click-button a:hover,
+#air-2011 .pane-boxes-adam-links .click-button a:focus,
+#air-2011 .pane-boxes-air-2011-hrt .click-button a:hover,
+#air-2011 .pane-boxes-air-2011-hrt .click-button a:focus,
+#air-2011 .pane-boxes-air-2011-fnf .click-button a:hover,
+#air-2011 .pane-boxes-air-2011-fnf .click-button a:focus,
+#air-2011 .pane-boxes-air-2013-facts-figures .click-button a:hover,
+#air-2011 .pane-boxes-air-2013-facts-figures .click-button a:focus,
+#air-2011 .pane-boxes-air-2013-selected-treaties .click-button a:hover,
+#air-2011 .pane-boxes-air-2013-selected-treaties .click-button a:focus,
+#air-2011 .pane-boxes-air-2012-facts-figures .click-button a:hover,
+#air-2011 .pane-boxes-air-2012-facts-figures .click-button a:focus,
+#air-2011 .pane-boxes-air-2012-selected-treaties .click-button a:hover,
+#air-2011 .pane-boxes-air-2012-selected-treaties .click-button a:focus {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* tweaks for contactpress */
+
+.pane-boxes-air-2011-contactpress .pane-content,
+.pane-boxes-air-2013-contact-press-office .pane-content,
+.pane-boxes-air-2012-contact-press-office .pane-content{
+  border: none;
+}
+
+/* tweaks for hrt */
+
+#ai-sidebar-squeeze .pane-boxes-air-2011-hrt .pane-content,
+#ai-sidebar-squeeze .pane-boxes-air-2013-selected-treaties .pane-content, 
+#ai-sidebar-squeeze .pane-boxes-air-2012-selected-treaties .pane-content {
+    width: 608px;
+}
+
+#ai-sidebar-squeeze .pane-boxes-air-2011-hrt h2.pane-title, 
+#ai-sidebar-squeeze .pane-boxes-air-2013-selected-treaties h2.pane-title, 
+#ai-sidebar-squeeze .pane-boxes-air-2012-selected-treaties h2.pane-title {
+  
+}
+
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2011-hrt .pane-content,
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2013-selected-treaties .pane-content,
+.rtl #ai-sidebar-squeeze .pane-boxes-air-2012-selected-treaties .pane-content {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+#ai-sidebar-small .pane-boxes-air-2011-hrt .pane-content,
+#ai-sidebar-small .pane-boxes-air-2013-selected-treaties .pane-content,
+#ai-sidebar-small .pane-boxes-air-2012-selected-treaties .pane-content {
+  padding-right: 50px;
+}
+
+.rtl #ai-sidebar-small .pane-boxes-air-2011-hrt .pane-content,
+.rtl #ai-sidebar-small .pane-boxes-air-2013-selected-treaties .pane-content,
+.rtl #ai-sidebar-small .pane-boxes-air-2012-selected-treaties .pane-content {
+  padding-right: 10px;
+  padding-left: 50px;
+}
+
+.pane-boxes-air-2011-hrt .pane-content,
+.pane-boxes-air-2013-selected-treaties .pane-content,
+.pane-boxes-air-2012-selected-treaties .pane-content {
+  background: url(../../../default/themes/aitheme/images/selected-human-right-treatises.jpg) bottom right no-repeat;
+}
+
+/* tweaks for fnf */
+
+.pane-boxes-air-2011-fnf .pane-content,
+.pane-boxes-air-2013-facts-figures .pane-content,
+.pane-boxes-air-2012-facts-figures .pane-content {
+  background: url(../../../default/themes/aitheme/images/facts-and-figures.jpg) bottom right no-repeat;
+}
+
+.pane-boxes-air-2011-fnf .pane-content,
+.pane-boxes-air-2013-facts-figures .pane-content,
+.pane-boxes-air-2012-facts-figures .pane-content {
+    width: 298px;
+}
+
+.rtl .pane-boxes-air-2011-fnf .pane-content,
+.rtl .pane-boxes-air-2013-facts-figures .pane-content,
+.rtl .pane-boxes-air-2012-facts-figures .pane-content {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+/* tweaks for adam links */
+
+.pane-boxes-adam-links .pane-content{
+    background: url(../../../default/themes/aitheme/images/audio-visual-database.jpg) bottom right no-repeat;
+}
+
+.pane-boxes-adam-links .pane-content a,
+.pane-boxes-adam-links .pane-content p{
+    font-size: 16px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    padding-bottom: 30px;
+}
+
+.pane-boxes-adam-links .pane-content ul{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+/* mainpage intro teaser */
+#air-2011-teaser-mainpage {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Arial;
+    padding: 20px 0px 26px 0px;
+}
+
+#air-2011-teaser-mainpage a {
+  color: #336699;
+  text-decoration: none;
+}
+
+#air-2011-teaser-mainpage a:hover,
+#air-2011-teaser-mainpage a:focus {
+  text-decoration:underline;
+  background-color:transparent;
+}
+
+/* mainpage bookpromo */
+.purchase-form-elements{
+  float: left;
+  width: 130px;
+  padding: 5px 0px 0px 0px;
+}
+
+.rtl .purchase-form-elements{
+  float: right;
+}
+
+#boxes-box-inline-annual_report_2011_book_promo_box .promo-clicker{
+  padding:0px;
+}
+
+.promo-select label,
+.promo-clicker label,
+.purchase-form-elements label{
+  font-weight: bold;
+  color: black;
+  display:block;
+}
+
+.purchase-form-elements select{
+  width:100%
+}
+
+.pane-boxes-annual-report-2011-book-promo-box p{
+  padding: 0px 40px 0px 0px;
+  line-height: 18px;
+}
+
+.rtl .pane-boxes-annual-report-2011-book-promo-box p{
+  padding: 0px 0px 0px 40px;
+}
+
+.pane-boxes-annual-report-2011-book-promo-box .pane-content,
+.pane-boxes-air-2013-book-promo-box .pane-content,
+#air-2013-bookpromo-mainpage .pane-content,
+.pane-boxes-air-2012-book-promo-box .pane-content,
+#air-2012-bookpromo-mainpage .pane-content {
+  padding: 15px 10px 15px 15px;
+  float: left;
+  width: 610px;
+}
+
+.rtl .pane-boxes-annual-report-2011-book-promo-box .pane-content
+.rtl .pane-boxes-air-2013-book-promo-box .pane-content,
+.rtl #air-2013-bookpromo-mainpage .pane-content,
+.rtl .pane-boxes-air-2012-book-promo-box .pane-content,
+.rtl #air-2012-bookpromo-mainpage .pane-content {
+  padding: 15px 15px 15px 10px;
+  float: right;
+}
+
+#air-2011-bookpromo-mainpage,
+#air-2013-bookpromo-mainpage,
+#air-2012-bookpromo-mainpage {
+  background-color:yellow;
+  float: left;
+  width: 620px;
+  margin-bottom: 20px;
+}
+
+.rtl #air-2011-bookpromo-mainpage,
+.rtl #air-2013-bookpromo-mainpage,
+.rtl #air-2012-bookpromo-mainpage {
+  float:right;  
+}
+
+#air-2011-bookpromo-mainpage h1,
+#air-2013-bookpromo-mainpage h1,
+#air-2012-bookpromo-mainpage h1 {
+    padding: 0px;
+  margin:0px;
+}
+
+#air-2011-bookpromo-mainpage .promo-clicker,
+#air-2011-bookpromo-mainpage .image-holder,
+#air-2011-bookpromo-mainpage .promo-text,
+#air-2013-bookpromo-mainpage .promo-clicker,
+#air-2013-bookpromo-mainpage .image-holder,
+#air-2013-bookpromo-mainpage .promo-text,
+#air-2012-bookpromo-mainpage .promo-clicker,
+#air-2012-bookpromo-mainpage .image-holder,
+#air-2012-bookpromo-mainpage .promo-text {
+  float: left;
+}
+
+.rtl #air-2011-bookpromo-mainpage .promo-clicker,
+.rtl #air-2011-bookpromo-mainpage .image-holder,
+.rtl #air-2011-bookpromo-mainpage .promo-text,
+.rtl #air-2013-bookpromo-mainpage .promo-clicker,
+.rtl #air-2013-bookpromo-mainpage .image-holder,
+.rtl #air-2013-bookpromo-mainpage .promo-text,
+.rtl #air-2012-bookpromo-mainpage .promo-clicker,
+.rtl #air-2012-bookpromo-mainpage .image-holder,
+.rtl #air-2012-bookpromo-mainpage .promo-text{
+  float: right;
+}
+
+#air-2011-bookpromo-mainpage .image-holder,
+#air-2013-bookpromo-mainpage .image-holder,
+#air-2012-bookpromo-mainpage .image-holder {
+  padding: 0px 15px 0px 0px;
+  height: 85px;
+}
+
+.rtl #air-2011-bookpromo-mainpage .image-holder,
+.rtl #air-2013-bookpromo-mainpage .image-holder,
+.rtl #air-2012-bookpromo-mainpage .image-holder{
+  padding: 0px 0px 0px 15px;
+}
+
+
+#air-2011-bookpromo-mainpage .promo-text,
+#air-2013-bookpromo-mainpage .promo-text,
+#air-2012-bookpromo-mainpage .promo-text {
+    width: 345px;
+  padding: 0px;
+}
+
+#air-2011-bookpromo-mainpage h1,
+#air-2013-bookpromo-mainpage h1,
+#air-2012-bookpromo-mainpage h1 {
+    text-transform: none;
+    font-family: Arial;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.promo-clicker {
+  padding-top: 10px;
+}
+
+.promo-clicker input.click-button{
+  background: black;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 0px;
+    margin-top: 10px;
+}
+
+.promo-clicker input.click-button:hover{
+  color: #ffff00;
+}
+
+.page-annual-report-2011 #ai-rowbar-bottom .panel-region-separator,
+.page-annual-report-2013 #ai-rowbar-bottom .panel-region-separator,
+.page-annual-report-2012 #ai-rowbar-bottom .panel-region-separator{
+    display:none;
+}
+
+.page-annual-report-2011 #ai-rowbar-bottom .air-2011-front-bottom-split,
+.page-annual-report-2013 #ai-rowbar-bottom .air-2011-front-bottom-split,
+.page-annual-report-2012 #ai-rowbar-bottom .air-2011-front-bottom-split{
+    width:48%;
+    float:left;
+}
+
+.node-type-annual-report-feature #story-images{
+  float:left;
+}
+
+.node-type-annual-report-feature .view-annual-report-region .views-row{
+  clear:left;
+}
+
+.view-air-country-reports .container-inline{
+    text-align:center;
+}
+
+.view-id-air_country_reports select{
+    width:190px;
+}
+
+body.node-type-annual-report .country-article h2{
+    clear: right;
+}
+
+body.node-type-annual-report #annual-report-country-title{
+    margin-bottom:10px;
+}
+
+body.node-type-annual-report ul.header-list, body.node-type-annual-report-region ul.header-list {
+    float: left;
+    list-style-type: none;
+    width: 220px;
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+}
+
+body.node-type-annual-report .rtl ul.header-list, 
+body.node-type-annual-report-region .rtl ul.header-list {
+    float: right;
+    margin: 0px 15px 0px 0px;
+}
+
+body.node-type-annual-report #annual-report-country-sections{
+  float:left;
+  width:210px;
+}
+
+body.node-type-annual-report .rtl #annual-report-country-sections{
+  float:right;
+}
+
+body.node-type-annual-report h2 a{
+  text-decoration: none;
+  text-transform: none;
+}
+
+body.node-type-ai50-feature h2.pane-title,
+body.node-type-ai50-inspirational-story h2.pane-title,
+body.node-type-ai50-campaign-general h2.pane-title,
+body.node-type-annual-report h2.pane-title{
+  text-transform: none;
+}
+
+body.node-type-annual-report .pane-field-country-summary{
+  clear:left;
+  padding-top: 10px;
+}
+
+body.node-type-annual-report .rtl .pane-field-country-summary{
+    clear:right;
+}
+
+body.node-type-annual-report .summary{
+  font-weight: bold;
+}
+
+body.node-type-annual-report .country-facts{
+  float: left;  
+  width: 540px;
+}
+
+body.node-type-annual-report #country-infobox{
+  float: left;  
+}
+
+body.node-type-annual-report #country-infobox dl.infobox{
+  float: left;  
+  margin:0;
+  width: 100%;
+}
+
+body.node-type-annual-report .country-info{
+  clear: left;  
+}
+
+body.node-type-annual-report .pane-annual-report-2011-country .panel-region-separator{
+    display:none;
+}
+
+body.node-type-annual-report span.italics{
+  font-style:italic;
+}
+
+body.node-type-annual-report dl dd{
+  font-weight: bold;
+  margin-left: 0;
+}
+
+body.node-type-annual-report dl dt {
+float: left;
+clear: left;
+margin-right: 5px;
+}
+
+/* book promo footer */ 
+
+#ai-rowbar-bottom #air-book-promo-footer .image-holder,
+#ai-rowbar-bottom #air2013-promo-footer .image-holder,
+#ai-rowbar-bottom #air2012-promo-footer .image-holder {
+    margin: 0px 5px 0px 0px;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .promo-clicker,
+#ai-rowbar-bottom #air2013-promo-footer .promo-clicker,
+#ai-rowbar-bottom #air2012-promo-footer .promo-clicker {
+    float:left;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .image-holder,
+#ai-rowbar-bottom #air2013-promo-footer .image-holder,
+#ai-rowbar-bottom #air2012-promo-footer .image-holder {
+    float:left;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .promo-title,
+#ai-rowbar-bottom #air2013-promo-footer .promo-title,
+#ai-rowbar-bottom #air2012-promo-footer .promo-title {
+    margin:0px;
+    font-family: Arial;
+    padding: 20px 0px;
+    font-size:20px;
+}
+
+#air-book-promo-footer .pane-content,
+#air2013-promo-footer .pane-content,
+#air2012-promo-footer .pane-content {
+  padding: 0px 20px;
+}
+
+#air-book-promo-footer,
+#air2013-promo-footer,
+#air2012-promo-footer {
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-color: #999;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer,
+#ai-rowbar-bottom #air2013-promo-footer,
+#ai-rowbar-bottom #air2012-promo-footer {
+    float: left;
+    margin: 19px 0px 0px 0px;
+    padding: 0px 2px 5px 0px;
+    background-color: #ededed;
+    color: black;
+    width: 100%;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .pane-block h1,
+#ai-rowbar-bottom #air2013-promo-footer .pane-block h1,
+#ai-rowbar-bottom #air2012-promo-footer .pane-block h1 {
+    color: white;
+    text-transform:none;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .promo-text,
+#ai-rowbar-bottom #air2013-promo-footer .promo-text,
+#ai-rowbar-bottom #air2012-promo-footer .promo-text {
+    width: 300px;
+    float: left;
+    height: 65px;
+    overflow: hidden;
+    line-height: 17px;
+    padding-right: 20px;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .promo-text p,
+#ai-rowbar-bottom #air2013-promo-footer .promo-text p, 
+#ai-rowbar-bottom #air2012-promo-footer .promo-text p {
+    clear:left;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .promo-clicker,
+#ai-rowbar-bottom #air2013-promo-footer .promo-clicker,
+#ai-rowbar-bottom #air2012-promo-footer .promo-clicker {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100px;
+    float: left;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .promo-select,
+#ai-rowbar-bottom #air2013-promo-footer .promo-select,
+#ai-rowbar-bottom #air2012-promo-footer .promo-select {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 30px 0px 0px;
+    width: 190px;
+    float: left;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer .promo-select select,
+#ai-rowbar-bottom #air2013-promo-footer .promo-select select,
+#ai-rowbar-bottom #air2012-promo-footer .promo-select select {
+    width: 190px;
+    margin-top: 10px;
+}
+
+#ai-rowbar-bottom #air-book-promo-footer,
+#ai-rowbar-bottom #air2013-promo-footer,
+#ai-rowbar-bottom #air2012-promo-footer {
+    position: relative;
+    left: -1px;
+    bottom: -1px;
+}
+
+/* rtl book promo footer */
+
+.rtl #ai-rowbar-bottom #air-book-promo-footer .promo-clicker,
+.rtl #ai-rowbar-bottom #air-book-promo-footer .promo-select,
+.rtl #ai-rowbar-bottom #air-book-promo-footer .promo-text,
+.rtl #ai-rowbar-bottom #air-book-promo-footer .image-holder,
+.rtl #ai-rowbar-bottom #air2013-promo-footer .promo-clicker,
+.rtl #ai-rowbar-bottom #air2013-promo-footer .promo-select,
+.rtl #ai-rowbar-bottom #air2013-promo-footer .promo-text,
+.rtl #ai-rowbar-bottom #air2013-promo-footer .image-holder,
+.rtl #ai-rowbar-bottom #air2012-promo-footer .promo-clicker,
+.rtl #ai-rowbar-bottom #air2012-promo-footer .promo-select,
+.rtl #ai-rowbar-bottom #air2012-promo-footer .promo-text,
+.rtl #ai-rowbar-bottom #air2012-promo-footer .image-holder{
+  float: right;
+}
+
+.rtl #ai-rowbar-bottom #air-book-promo-footer .promo-select,
+.rtl #ai-rowbar-bottom #air-book-promo-footer .promo-clicker,
+.rtl #ai-rowbar-bottom #air2013-promo-footer .promo-select,
+.rtl #ai-rowbar-bottom #air2013-promo-footer .promo-clicker,
+.rtl #ai-rowbar-bottom #air2012-promo-footer .promo-select,
+.rtl #ai-rowbar-bottom #air2012-promo-footer .promo-clicker{
+  padding: 0px 0px 0px 30px;
+}
+
+body.node-type-annual-report-region #story-images{
+  float: left;
+  margin: 0 0 0 0px;
+}
+
+body.node-type-annual-report-region .content{
+  clear: left;
+}
+/* Now for RTL languages */
+
+body.node-type-annual-report-region .rtl .content {
+clear: right;
+}
+
+body.node-type-annual-report.rtl #ai-rowbar-bottom {
+    position: relative;
+    left: 1px;
+    bottom: -20px;
+}
+
+body.node-type-annual-report.rtl #ai-rowbar-bottom .promo-text p{
+    clear:right;
+}
+
+body.node-type-annual-report.rtl #ai-rowbar-bottom .promo-text{
+    width:300px;
+    float:right;
+    height:65px;
+    overflow: hidden;
+}
+
+body.node-type-annual-report.rtl #ai-rowbar-bottom .promo-clicker{
+    float:right;
+}
+
+body.node-type-annual-report.rtl #ai-rowbar-bottom .image-holder{
+    float:right;
+}
+
+body.node-type-annual-report.rtl #ai-rowbar-bottom .promo-title{
+    float:right;
+    margin:0px;
+}
+
+body.node-type-annual-report.rtl #ai-rowbar-bottom .pane-block{
+    float: right;
+    margin: 19px 0px 0px 0px;
+    padding: 5px 0px 5px 2px;
+    background-color: darkGray;
+    color: white;
+    width: 100%;
+}
+
+body.node-type-annual-report.rtl dl dd{
+  float: right;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 0;
+  width: 48%;
+}
+
+body.node-type-annual-report.rtl dl dt{
+  float: right;
+  clear: right;
+}
+
+body.node-type-annual-report.rtl #annual-report-country-facts .infobox {
+    float: right;
+    margin: 0px;
+    width: 100%;
+}
+
+body.node-type-annual-report.rtl #annual-report-country-facts {
+    float: right;
+}
+
+/* air 2011 introduction page tweaks */
+
+.page-annual-report-2011-introduction .pane-node-content,
+.page-annual-report-2013-introduction .pane-node-content,
+.page-annual-report-2012-introduction .pane-node-content{
+  width: 610px;
+}
+
+.page-annual-report-2011-introduction .pane-node-content h2.pane-title,
+.page-annual-report-2013-introduction .pane-node-content h2.pane-title,
+.page-annual-report-2012-introduction .pane-node-content h2.pane-title{
+  padding-bottom: 30px;
+}
+
+.page-annual-report-2011-introduction #h2h-block,
+.page-annual-report-2013-introduction #h2h-block,
+.page-annual-report-2012-introduction #h2h-block{
+  margin-top: 27px;
+  margin-bottom: 20px !important;
+}
+
+/* social networking */
+
+.pane-boxes-annual-report-2011-aisocnet-box a{
+    float:left;
+    width:165px;
+    height:70px;
+    display:block;
+}
+
+.rtl .pane-boxes-annual-report-2011-aisocnet-box a{
+    float:right;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box span{
+  display:none;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.facebook:link,
+.pane-boxes-annual-report-2011-aisocnet-box  a.facebook {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat top left;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.facebook:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat top left;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.twitter:link,
+.pane-boxes-annual-report-2011-aisocnet-box  a.twitter {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -170px 0px;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.twitter:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -170px 0px;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.flickr:link,
+.pane-boxes-annual-report-2011-aisocnet-box  a.flickr {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -350px 0px;
+  width: 105px;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.flickr:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -350px 0px;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.youtube:link,
+.pane-boxes-annual-report-2011-aisocnet-box  a.youtube {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -450px 0px;
+}
+
+.pane-boxes-annual-report-2011-aisocnet-box  a.youtube:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -450px 0px;
+}
+
+/* social networking ai50 */
+
+.section-news .pane-boxes-annual-report-2011-aisocnet-box a,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box a,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box a,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box a{
+    float:left;
+    width:140px;
+    height:40px;
+    display:block;
+}
+
+.rtl .section-news .pane-boxes-annual-report-2011-aisocnet-box a,
+.rtl .section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box a,
+.rtl #amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box a,
+
+.rtl #ai50space .pane-boxes-annual-report-2011-aisocnet-box a{
+    float:right;
+}
+
+.section-news .pane-boxes-annual-report-2011-aisocnet-box a.facebook:link,
+.section-news .pane-boxes-annual-report-2011-aisocnet-box a.facebook,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box a.facebook:link,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box a.facebook,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box a.facebook,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box a,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box a.facebook:link,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box a.facebook {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -25px -17px;
+}
+
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.facebook:hover,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.facebook:hover,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.facebook:hover,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.facebook:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -25px -17px;
+}
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:link,
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.twitter,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:link,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.twitter,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:link,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.twitter,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:link,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.twitter {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -185px -17px;
+}
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:hover,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:hover,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:hover,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.twitter:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -185px -17px;
+}
+
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:link,
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.flickr,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:link,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.flickr,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:link,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.flickr,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:link,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.flickr {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -350px -17px;
+  width: 105px;
+}
+
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:hover,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:hover,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:hover,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.flickr:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -350px -17px;
+}
+
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:link,
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.youtube,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:link,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.youtube,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:link,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.youtube,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:link,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.youtube {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -470px -17px;
+}
+
+.section-news .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:hover,
+.section-news-and-updates .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:hover,
+#amnesty_news_story_node_template .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:hover,
+#ai50space .pane-boxes-annual-report-2011-aisocnet-box  a.youtube:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -470px -17px;
+}
+
+/* fiddle for front page */
+
+.page-annual-report-2011 .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title,
+.page-annual-report-2013 .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title,
+.page-annual-report-2012 .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title{
+  margin-bottom:0px !important;
+}
+
+.page-annual-report-2011 #ai-sidebar-squeeze .panel-region-separator,
+.page-annual-report-2013 #ai-sidebar-squeeze .panel-region-separator,
+.page-annual-report-2012 #ai-sidebar-squeeze .panel-region-separator {
+    display:none;
+}
+
+.rtl #air-2011 #ai-sidebar-squeeze,
+.rtl #air-2011-home #ai-sidebar-squeeze{
+  width:610px;
+}
+  
+/* sidebar social networking */
+
+.pane-boxes-air-social-network-sidebar h2.pane-title{
+  padding: 0px 110px 5px 0px;
+}
+
+.rtl .pane-boxes-air-social-network-sidebar h2.pane-title{
+  padding: 0px 0px 5px 120px;
+}
+
+.pane-boxes-air-social-network-sidebar .pane-content{
+ height: 90px;
+}
+
+.pane-boxes-air-social-network-sidebar a{
+    float:left;
+    width:145px;
+    height:40px;
+    display:block;
+}
+
+.rtl .pane-boxes-air-social-network-sidebar .pane-content a{
+    float:right;
+}
+
+.pane-boxes-air-social-network-sidebar span{
+  display:none;
+}
+
+.pane-boxes-air-social-network-sidebar  a.facebook:link,
+.pane-boxes-air-social-network-sidebar  a.facebook {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -28px -10px;
+}
+
+.pane-boxes-air-social-network-sidebar  a.facebook:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -28px -10px;
+}
+
+.pane-boxes-air-social-network-sidebar  a.twitter:link,
+.pane-boxes-air-social-network-sidebar  a.twitter {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -170px -10px;
+}
+
+.pane-boxes-air-social-network-sidebar a.twitter:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -170px -10px;
+}
+
+.rtl .pane-boxes-air-social-network-sidebar  a.facebook:link,
+.rtl .pane-boxes-air-social-network-sidebar  a.facebook {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -8px -10px;
+}
+
+.rtl .pane-boxes-air-social-network-sidebar  a.facebook:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -8px -10px;
+}
+
+.rtl .pane-boxes-air-social-network-sidebar  a.twitter:link,
+.rtl .pane-boxes-air-social-network-sidebar  a.twitter {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -153px -10px;
+}
+
+.rtl .pane-boxes-air-social-network-sidebar a.twitter:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -153px -10px;
+}
+
+.pane-boxes-air-social-network-sidebar  a.flickr:link,
+.pane-boxes-air-social-network-sidebar  a.flickr {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -350px -10px;
+  width: 105px;
+}
+
+.pane-boxes-air-social-network-sidebar a.flickr:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -350px -10px;
+}
+
+.pane-boxes-air-social-network-sidebar  a.youtube:link,
+.pane-boxes-air-social-network-sidebar  a.youtube {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-normal-state-footer.gif)  no-repeat -450px -10px;
+  margin-left:20px;
+}
+
+.pane-boxes-air-social-network-sidebar  a.youtube:hover {
+  background: url(../../../default/themes/aitheme/images/socialnetwork-hover-state-footer.gif)  no-repeat -450px -10px;
+}
+
+.node-type-ai50-feature  #ai-sidebar-small .pane-boxes-air-social-network-sidebar h2.pane-title,
+.node-type-ai50-inspirational-story  #ai-sidebar-small .pane-boxes-air-social-network-sidebar h2.pane-title,
+.node-type-ai50-campaign-general  #ai-sidebar-small .pane-boxes-air-social-network-sidebar h2.pane-title,
+.node-type-annual-report-feature #ai-sidebar-small .pane-boxes-air-social-network-sidebar h2.pane-title {
+    font-size:16px !important;
+    border-bottom:1px #cccccc solid;
+}
+
+/* twitter box */
+
+.twtr-doc {
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+    font-weight: normal;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.rtl .twtr-doc {
+    text-align: right !important;
+}
+
+#boxes-box-inline-amnestyonline_twitter_feed_block
+#twtr-widget-1 .twtr-doc, #twtr-widget-1 .twtr-hd a, #boxes-box-inline-amnestyonline_twitter_feed_block #twtr-widget-1 h3, #twtr-widget-1 h4, #twtr-widget-1 .twtr-popular {
+    background-color:#ffff00 !important;
+    color:#000 !important;
+    font-size:13px !important;
+    text-transform:none;
+    font-family:arial;
+}
+
+#boxes-box-inline-amnestyonline_twitter_feed_block .twtr-bd {
+    padding: 0px;
+}
+
+#boxes-box-inline-amnestyonline_twitter_feed_block .twtr-ft {
+    display:none;
+}
+
+#boxes-box-inline-amnestyonline_twitter_feed_block .twtr-timeline {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    height: 225px;
+    background-color:#333 !important;
+    color:#000;
+}
+
+.twtr-profile-img-anchor,#boxes-box-inline-amnestyonline_twitter_feed_block #twtr-widget-1 h3 {
+    display:none;
+}
+
+#boxes-box-inline-amnestyonline_twitter_feed_block #twtr-widget-1 h4 {
+    margin:0px !important;
+}
+
+/* downloads air 2011 */
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+  float: left;
+  
+  font-weight: bold;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li{
+  float: left;
+  padding-top: 20px
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 10px;
+  float: left;
+  height: 48px;
+  width: 580px;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li.full-report,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li.full-report,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li.full-report{
+  background-color: #ededed;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li div,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li div,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li div{
+  float: left;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li div.dl-image,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li div.dl-image,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li div.dl-image{
+  width: 50px;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li div.dl-details,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li div.dl-details,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li div.dl-details{
+  width: 315px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li div.dl-details p,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li div.dl-details p,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li div.dl-details p{
+  padding: 0px; 
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li div.dl-details .dl-description,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li div.dl-details .dl-description,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li div.dl-details .dl-description{
+    font-weight: normal;
+    color:#666;
+    line-height: 1em;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li div.click-button,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li div.click-button,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li div.click-button{
+  width: 209px;
+  text-align: right;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li ul li div.click-button a,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li ul li div.click-button a,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li ul li div.click-button a{
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 15px;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li.rtl,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li.rtl,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li.rtl{
+  text-align:right;
+}
+
+.page-annual-report-2011-downloads #ai-sidebar-squeeze ul li.rtl ul li div.click-button,
+.page-annual-report-2013-downloads #ai-sidebar-squeeze ul li.rtl ul li div.click-button,
+.page-annual-report-2012-downloads #ai-sidebar-squeeze ul li.rtl ul li div.click-button{
+  text-align: left;
+}
+
+/* downloads mini-panel */
+
+#mini-panel-air_2011_downloads {
+ margin-top: 40px;
+}
+
+#mini-panel-air_2011_downloads h2.pane-title {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #CCC;
+    font-family: Arial;
+    font-size: 16px !important;
+        padding-bottom: 3px;
+}
+
+#mini-panel-air_2011_downloads .pane-content{
+  padding-top: 20px;
+}
+
+#mini-panel-air_2011_downloads .pane-boxes-ai-is-podcast ul li{
+  float: none;
+  padding: 0px;
+}
+
+/* World by Regions */
+
+.wbr-teaser-annual_report_region .image-teaser {
+margin-left: 0px;
+}
+
+.wbr-teaser-annual_report_region {
+    margin-bottom:40px;
+    clear: left;
+    width: 600px;
+}
+
+.rtl .wbr-teaser-annual_report_region {
+  clear:right;  
+}
+
+.page-annual-report-2011-world-by-region #air-2011 h2.region-name,
+.page-annual-report-2013-world-by-region #air-2011 h2.region-name,
+.page-annual-report-2012-world-by-region #air-2011 h2.region-name{
+  margin: 0px 0px 5px 0px;
+}
+
+.page-annual-report-2011-world-by-region #h2h-block,
+.page-annual-report-2013-world-by-region #h2h-block,
+.page-annual-report-2012-world-by-region #h2h-block{
+  margin-top: 32px;
+  margin-bottom: 20px !important;
+}
+
+/* key issues air 2011 */
+
+.page-annual-report-2011-key-issues #ai-sidebar-squeeze ul,
+.page-annual-report-2013-key-issues #ai-sidebar-squeeze ul,
+.page-annual-report-2012-key-issues #ai-sidebar-squeeze ul{
+  margin: 0px;
+  padding: 10px 0px 0px 0px; 
+  list-style: none;
+}
+
+.page-annual-report-2011-key-issues #ai-sidebar-squeeze li,
+.page-annual-report-2013-key-issues #ai-sidebar-squeeze li,
+.page-annual-report-2012-key-issues #ai-sidebar-squeeze li{
+  clear:both;
+  padding: 0px 0px 40px 0px; 
+}
+
+.page-annual-report-2011-key-issues .key-issues-image,
+.page-annual-report-2013-key-issues .key-issues-image,
+.page-annual-report-2012-key-issues .key-issues-image{
+  float:left;
+  margin-right: 20px;
+}
+
+.rtl .page-annual-report-2011-key-issues .key-issues-image,
+.rtl .page-annual-report-2013-key-issues .key-issues-image,
+.rtl .page-annual-report-2012-key-issues .key-issues-image {
+    float: right;
+  margin-right: 0px;
+    margin-left: 20px;
+}
+
+.page-annual-report-2011-key-issues .key-issues-image p,
+.page-annual-report-2013-key-issues .key-issues-image p,
+.page-annual-report-2012-key-issues .key-issues-image p{
+  padding: 0px;
+  margin:0px;
+  font-size: 10px;
+  line-height: 1em;
+}
+.page-annual-report-2011-key-issues .key-issues-image p.copyright,
+.page-annual-report-2013-key-issues .key-issues-image p.copyright,
+.page-annual-report-2012-key-issues .key-issues-image p.copyright{
+  font-weight: bold;
+}
+
+
+
+/* region pages */
+
+.ntype-annual-report-region #story-images img, #story-images .asset-swfobject {
+margin-top: 0px;
+}
+
+.ntype-annual-report-region .panel-bigcontent2col #ai-sidebar-squeeze .pane-node-content h2.pane-title {
+padding-bottom: 0px;
+margin:0;
+margin-top:20px;
+font-size:28px;
+}
+
+.pane-content .ntype-annual-report-region h1{
+/*  position:absolute;
+  top:13px;
+  font-family:arial;
+  color:#666;
+  font-size:16px;
+*/
+  font-family:arial;
+  font-size:16px;
+}
+
+h2.annual-report-countrynavlist{
+  font-weight: normal;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #CCC;
+}
+
+h2.annual-report-countrynavlist .region-name{
+  font-weight: bold;
+}
+
+/* old report air promo */
+
+#annual-report-country-page-promo{
+  width:555px;
+  height: 98px;
+  background: url(../../../default/themes/aitheme/images/country-page-2012.jpg)  no-repeat top left;
+  padding-bottom: 20px;
+}
+
+#annual-report-country-page-promo h2.air-promo-title{
+  font-family: Arial;
+  font-size: 13px;
+  color:white;
+  padding: 5px;
+  margin: 0px;
+}
+
+#annual-report-country-page-promo p.air-promo-body{
+  padding: 5px;
+  margin: 0px;
+  color:white;
+  font-size:18px;
+}
+
+#annual-report-country-page-promo .report-year,
+#annual-report-country-page-promo .country-name{
+  color: yellow;
+}
+
+#annual-report-country-page-promo p.air-promo-body a{
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#annual-report-country-page-promo p.air-promo-body a:focus,
+#annual-report-country-page-promo p.air-promo-body a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.es #amnesty_news_story_node_template .pane-amnestyblocks-print-email ul.print-email li,
+.fr #amnesty_news_story_node_template .pane-amnestyblocks-print-email ul.print-email li,
+.en #amnesty_news_story_node_template .pane-amnestyblocks-print-email ul.print-email li {
+  float:none;
+  width: 50px;
+  padding-top: 5px;
+}
+
+.ar #amnesty_news_story_node_template .pane-amnestyblocks-print-email ul.print-email li {
+  margin: 3px 10px 10px 0;
+}
+
+.pane-content .ntype-annual-report-region h1.air2013_country_node_title,
+.pane-content .ntype-annual-report-region h1.air2012_country_node_title {
+    font-size: 28px;
+    margin: 20px 0 0;
+    padding-bottom: 0;
+}
+
+
+#air-2013-download #mini-panel-annual_report_front_bottom_split h2.pane-title,
+#air-2012-download #mini-panel-annual_report_front_bottom_split h2.pane-title {
+  margin: 5px 0px 15px 0px !important;
+  font-size: 16px !important;
+  font-family: Arial;
+}
+
+.pane-field-reports {
+    padding-left:19px;
+}
+
+.rtl .pane-field-reports {
+    padding-left:19px;
+}

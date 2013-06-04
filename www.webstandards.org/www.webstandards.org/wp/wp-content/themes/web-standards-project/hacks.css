@@ -1,0 +1,8 @@
+/*  Clearing floats: http://annevankesteren.nl/2005/03/clearing-floats */
+#branding, #nav-main, #content-summary, #content-members, body.individual #content-sub {_height: 1%;}
+
+
+/* Explorer only */
+* html #nav-supp a {background: url(http://www.webstandards.org/files/theme/a-04.gif) no-repeat;}
+* html #nav-supp a:hover {background: url(http://www.webstandards.org/files/theme/a-04-h.gif) no-repeat;}
+* html body.index #content-main div {height:32em;}

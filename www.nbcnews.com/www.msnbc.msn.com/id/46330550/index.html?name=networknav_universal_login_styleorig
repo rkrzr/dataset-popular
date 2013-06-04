@@ -1,0 +1,106 @@
+#siteheader #network #sites-shows li {padding: 0 6px;}
+#siteHeader #network #sites-shows {float: left; margin: 8px 10px 0 30px;}
+
+#zinger_network_nav div, #zinger_network_nav li, #zinger_network_nav p {color: #525252;}
+#siteheader #network #sites-shows #zinger_network_nav .section li {padding: 0;}
+
+#zinger_network_nav .section ul {display:inline-block;}
+#zinger_network_nav .section li {clear:left;}
+
+.zinger-login-widget #zinger_network_nav a {color: #114477;}
+.zinger-login-widget #zinger_network_nav a:hover {color: #cc0000;}
+
+.zinger_login_nav {position: absolute; top: 0; padding-left: 11px;}
+
+.j_edition_networknav_universal_login_blue .c-account-widget, .j_edition_networknav_universal_login_today .c-account-widget { cursor: pointer;}
+
+#zinger_network_nav .c-account-widget span {position: relative;}
+
+#zinger_network_nav .j-zinger-login, .c-account-info {background-color: white; border: 1px solid #AAAAAA; box-shadow: 0 2px 9px rgba(0, 0, 0, 0.5); padding: 15px; position: absolute; right: 0; width: 260px;}
+
+#zinger_network_nav .c-onlogin {background-color: white; border: 1px solid #AAA; box-shadow: 0 2px 9px rgba(0,0,0,0.5); padding: 15px 15px 20px; position: absolute;
+    right: 0; top: 24px; width: 268px; z-index: 1000001;}
+
+
+#zinger_network_nav .header .title {font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #525252;}
+
+.j_widget_zinger_newsvine .header {color: #525252;}
+
+.j_widget_zinger .header .logo img {display: none;}
+
+.j_widget_zinger_login j_edition_networknav .j-user-displayName { font: 20px Arial,Helvetica,sans-serif;}
+
+.j_widget_zinger_login j_edition_networknav a {color: #354D7D;}
+
+.j_widget_zinger_login .c-account-widget span {background: url("http://msnbcmedia.msn.com/i/MSNBC/Components/Interactives/_swf/cover/msnbcLoginArrow.gif") no-repeat scroll right 5px transparent; 
+            position: relative; top: 3px; display: inline-block; line-height: normal; color: white; padding: 1px 12px 0 3px;}
+
+.j_edition_networknav_universal_login_today .j_widget_zinger_login .c-account-widget span:hover {background: url("http://msnbcmedia.msn.com/i/MSNBC/Components/Interactives/_swf/cover/msnbcLoginArrow.gif") no-repeat scroll right -21px transparent; color: #ffcc33;}
+
+.j_widget_zinger_login .c-account-widget img {vertical-align: middle; height: 24px; width: 24px;}
+
+#zinger_network_nav .c-account-info .header span {display: inline-block; font-size: 18px; margin-top: 2px; font-weight: bold; line-height: 18px; font-family: arial; font-size: 17px; font-weight: bold;}
+#zinger_network_nav .zinger_login .c-account-info .section ul li a {line-height: 17px; font-size: 13px; text-decoration: none; color: #b74c11;}
+.zinger_login .c-account-info .section ul li a:hover {color: #7F351F;}
+#zinger_network_nav .c-connect, #zinger_network_nav .c-onlogin {font-size: 12px;}
+#siteheader #zinger_network_nav  .footer li {float: left;}
+#siteheader #zinger_network_nav  .footer .privacy {float: right; list-style: none;}
+
+.j_widget_zinger_login .c-account-login {*margin-top: 24px;}   
+.c-account-login .logo {display: none!important;}                       
+.j_widget_zinger_login .c-account-info .header {margin: 0 0 0 70px;}
+
+.j_widget_zinger_login .c-account-info .header img {float: left; height: 60px; margin: 0 0 0 -70px; width: 60px;}
+
+.j_widget_zinger_login .c-account-info .header h1 {font-size: 20px; margin: 0; color: #525252;}
+
+.j_widget_zinger_login .c-account-info .section {margin-top: 5px; padding-left: 70px;}
+
+.j_widget_zinger_login .c-account-info .section:after,
+.j_widget_zinger_login .c-account-info .footer:after {clear: both; content: "."; display: block; height: 0; visibility: hidden;}
+
+.j_widget_zinger_login .c-account-info .footer {border-top: 1px dotted #ddd; margin-top: 15px; padding-top: 5px;}
+
+.j_widget_zinger_login .c-account-info .section ul li,
+.j_widget_zinger_login .c-account-info .footer ul li {display: block; margin-left: 0;}
+
+.j_widget_zinger_login .c-account-info .footer ul li a {display: block; line-height: 18px; padding: 3px 0; text-decoration: none;}
+
+.j_widget_zinger_facebook {margin-bottom: 10px;}
+
+.j_widget_zinger_twitter .controls form {display: none;}
+
+.c-account-login h2.success {color: #008b12;}
+
+#zinger_network_nav .j_widget_zinger a:link, .j_widget_zinger a:visited, .j_widget_zinger a:hover {color: #114477; text-decoration: none;}
+
+.j_edition_networknav_universal_login_today .c-account-info a, .c-account-login a {color: #b74c11; text-decoration: none; font-size: 12px;}
+.j_edition_networknav_universal_login_today .c-account-info a:hover, .c-account-login a:hover {color: #7F351F;}
+
+/* IE fixes */
+.IE-7 #siteHeader #network #sites-shows {float: left; margin: 8px 10px 0 31px;}
+.IE-7 #siteheader #network #sites-shows li {padding: 0 6px;}
+.IE-7 #zinger_network_nav .j_widget_zinger_login {width: 85px; position: relative;}
+.IE-7 #zinger_network_nav .j_widget_zinger_login .c-account-login {margin-top: 0px;}
+.IE-7 #zinger_network_nav .j_widget_zinger_login .c-account-info {top: 24px!important; width: 310px!important;}
+
+.IE-8 #siteHeader #network #sites-shows {float: left; margin: 8px 10px 0 22px;}
+.IE-8 #siteheader #network #sites-shows li {padding: 0 6px;}
+.IE-8 #zinger_network_nav .j_widget_zinger_login {width: 85px; position: relative;}
+.IE-8 #zinger_network_nav .j_widget_zinger_login .c-account-login {margin-top: 0px;}
+.IE-8 #zinger_network_nav .j_widget_zinger_login .c-account-info {top: 24px!important; width: 310px!important;}
+
+.IE-9 #siteHeader #network #sites-shows {float: left; margin: 8px 10px 0 22px;}
+.IE-9 #siteheader #network #sites-shows li {padding: 0 6px;}
+.IE-9 #zinger_network_nav .j_widget_zinger_login {width: 85px; position: relative;}
+.IE-9 #zinger_network_nav .j_widget_zinger_login .c-account-login {margin-top: 0px;}
+.IE-9 #zinger_network_nav .j_widget_zinger_login .c-account-info {top: 24px!important; width: 310px!important;}
+
+/*  TODAY sections */
+#todayShow #siteHeader #network #sites-shows {margin-left: 20px;}
+
+/*
+.IE-9 {top: 29px;}
+*/
+
+.c-onlogin, .c-onlogin p {text-align: left;}

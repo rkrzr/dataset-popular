@@ -1,0 +1,1045 @@
+var EN = { modules:[], moduleEvents:{} };
+
+if(Array.prototype.push == null) { Array.prototype.push = function(){ for(var i = 0; i < arguments.length; i++){ this[this.length] = arguments[i]; }; return this.length; };};
+if(String.prototype.trim == null){ String.prototype.trim = function() { return this.replace(/^\s+|\s+$/, ''); }; };
+
+EN.browserLang = String(navigator.language ? navigator.language : navigator.userLanguage).toLowerCase().replace(/-[a-z]+$/, "") || "en";
+
+EN.registerModule = function(mod, obj) {
+        if(mod in EN.modules) {
+                return;
+        };
+        EN.modules[mod] = true;
+        EN[mod] = obj;
+};
+
+EN.moduleEvent = function(eventType, repeatable) {        
+        try {
+                for(mod in EN.modules) {                                                                           
+                        if((eventType in EN[mod]) && typeof(EN[mod][eventType]) == "function" && !(!repeatable && (mod in EN.moduleEvents && eventType in EN.moduleEvents[mod]))) {                 
+                                EN.moduleEvents[mod] = {eventType:1};
+                                EN[mod][eventType]();                       
+                        };
+                };
+        } catch (err) {};
+};
+
+EN.onDomReady = function() {
+        /*@cc_on@*/
+        /*@if(@_win32)
+        var ignoreMe = document.body.offsetWidth;
+        /*@end@*/        
+        EN.moduleEvent("onDomReady", false);
+};
+
+EN.onLoad = function() {
+        EN.moduleEvent("onLoad", false);
+};
+
+EN.onUnload = function() {
+        EN.moduleEvent("onUnload", false);
+};
+
+EN.onResize = function() {
+        EN.moduleEvent("onResize", true);
+};
+
+EN.addEvent = (window.addEventListener) ? function(obj, evType, fn, useCapture){
+        obj.addEventListener(evType, fn, useCapture || true);
+        return true;
+} : function(obj, evType, fn, useCapture){
+        var r = obj.attachEvent("on"+evType, fn);
+        return r;
+};
+
+EN.removeEvent = (window.addEventListener) ? function(obj, evType, fn, useCapture){
+        obj.removeEventListener(evType, fn, useCapture || true);
+        return true;
+} : function(obj, evType, fn, useCapture) {
+        try {
+                var r = obj.detachEvent("on"+evType, fn);
+                return r;
+        } catch(err) { return false; };
+};
+
+EN.addEvent(window, "load",   EN.onLoad);
+EN.addEvent(window, "unload", EN.onUnload);
+EN.addEvent(window, "resize", EN.onResize);
+
+EN.stopEvent = function(e) {
+        e = e || document.parentWindow.event;
+        if (e.stopPropagation) {
+                e.stopPropagation();
+                e.preventDefault();
+        };
+        
+        /*@cc_on@*/
+        /*@if(@_win32)
+        e.cancelBubble = true;
+        e.returnValue  = false;
+        /*@end@*/
+        return false;
+};
+
+EN.hasClass = function(e, c) {
+        return new RegExp("(^|\\s)" + c + "(\\s|$)").test(e.className);
+};
+
+EN.addClass = function(e,c) {
+        if(new RegExp("(^|\\s)" + c + "(\\s|$)").test(e.className)) { return; };
+        e.className += ( e.className ? " " : "" ) + c;
+};
+
+EN.removeClass = function(e,c) {
+        e.className = !c ? "" : e.className.replace(new RegExp("(^|\\s*\\b[^-])"+c+"($|\\b(?=[^-]))", "g"), "");
+};
+
+EN.getInnerText = function(el) {
+        if (typeof el == "string" || typeof el == "undefined") return el;
+        if(el.innerText) return el.innerText;
+
+        var txt = '', i;
+        for (i = el.firstChild; i; i = i.nextSibling) {
+                if (i.nodeType == 3) { txt += i.nodeValue; }
+                else if (i.nodeType == 1) { txt += fd.getInnerText(i); };
+        };
+        return txt;
+};
+
+EN.joinNodeLists = function() {
+        if(!arguments.length) { return []; };
+        var nodeList = [];
+        for(var i = 0; i < arguments.length; i++) {
+                for (var j = 0, item; item = arguments[i][j]; j++) {
+                        nodeList[nodeList.length] = item;
+                };
+        };
+        return nodeList;
+};
+
+EN.registerModule("comingUp", {
+        tableData:[],
+        max:0,
+        current:0,
+        loadHour:new Date().getHours(),
+        interval:null,
+
+        onDomReady:function() {         
+                var tbl = document.getElementById("coming-up");
+                if(!tbl) { return; };
+                EN.comingUp.max = tbl.rows.length;
+                var tds, time;
+                for(var i = 0, row; row = tbl.rows[i]; i++) {
+                        tds = row.cells;
+                        if(!tds.length) { continue; };
+                        time = EN.getInnerText(tds[tds.length - 1]).replace(/[^\d]/, "");
+                        EN.comingUp.tableData.push([time, row]);
+                };
+                EN.comingUp.pause();
+        },
+        pause:function() {
+                if(EN.comingUp.tableData.length) {
+                        var secs = 60 - new Date().getSeconds();
+                        if(EN.comingUp.tableData[EN.comingUp.current][0] < new Date().getMinutes()) {
+                                secs = (60 - new Date().getMinutes()) * 60;
+                                if(EN.comingUp.tableData[EN.comingUp.current][0] > 0) {
+                                        secs += EN.comingUp.tableData[EN.comingUp.current][0] * 60;
+                                };
+                        } else if(EN.comingUp.tableData[EN.comingUp.current][0] > new Date().getMinutes()) {
+                                secs = (EN.comingUp.tableData[EN.comingUp.current][0] - new Date().getMinutes()) * 60;
+                        };
+                        secs -= 60 - new Date().getSeconds();
+                        setTimeout(EN.comingUp.fade, Math.floor(secs * 1000));
+               };
+        },
+        fade:function() {
+                var rowToFade = EN.comingUp.tableData[EN.comingUp.current];
+                EN.comingUp.current++;
+                var rowToHighlight = EN.comingUp.tableData.length - 1 > EN.comingUp.current ? EN.comingUp.tableData[EN.comingUp.current] : false;
+
+                if(rowToFade) {
+                        EN.removeClass(rowToFade[1], "next-program");
+                        $(rowToFade[1]).animate({opacity: 0.5}, 2000);
+                };
+                
+                if(rowToHighlight) {
+                        EN.addClass(rowToHighlight[1], "next-program");
+                        EN.comingUp.pause();
+                } else {
+                        setTimeout(EN.comingUp.fade, 60000);
+                };
+        }
+});
+
+EN.registerModule("textTools", {
+        initialSize:1,
+        textSize:1,         
+        onDomReady:function() {                
+                var at = $(".article-tools");
+                
+                if(!at.length) { return; };
+                
+                EN.textTools.initialSize = (("isRTL" in EN) && EN.isRTL) ? 4 : 1;                
+                EN.textTools.textSize    = EN.textTools.initialSize;
+                
+                at.each(function() {
+                        $(this).prepend('<a class="txt-smaller" href="#main">'+EN.pageTranslations.getTranslation('smaller_text')+'</a> <a class="txt-larger" href="#article-tools">' + EN.pageTranslations.getTranslation('larger_text') + '</a>');               
+                });
+                
+                $(".article-tools").each(function() { $("a:lt(2)", this).click( EN.textTools.toolAction ); });
+
+                var ts = EN.cookie.readCookie("EN_textSize");
+                if(ts) {                           
+                        EN.textTools.textSize = Number(ts) < EN.textTools.initialSize ? EN.textTools.initialSize : ts;
+                };
+                
+                EN.textTools.resizeText();
+        },
+        toolAction:function(e) {
+                if(this.className.search(/txt-larger/) != -1) {
+                        if(EN.textTools.textSize > 20) return false;
+                        EN.textTools.textSize++;
+                        EN.textTools.resizeText();
+                } else if(this.className.search(/txt-smaller/) != -1) {
+                        if(EN.textTools.textSize < EN.textTools.initialSize+1) return false;
+                        EN.textTools.textSize--;
+                        EN.textTools.resizeText();
+                };
+                
+                return EN.stopEvent(e);
+        },
+        resizeText:function() {
+                EN.cookie.createCookie("EN_textSize", EN.textTools.textSize, 365);
+                $("#article-text").css("fontSize", (100 + ((EN.textTools.textSize - 1) * 10)) + "%");
+        }
+});
+
+EN.registerModule("centerArticleTitle", {
+        onDomReady:function() {                
+                var titleWrap = document.getElementById("title-wrap");               
+                            
+                if(!titleWrap) { return; };   
+                
+                var h1           = titleWrap.getElementsByTagName("h1")[0],               
+                    a            = h1.getElementsByTagName('a')[0]; 
+                    
+                if(a && a.offsetWidth > h1.offsetWidth) {
+                        var c = { "small" : "smaller", "smaller" : "smallest" };
+                        if(a.className in c) {
+                                a.className = c[a.className];
+                        };
+                }; 
+                
+                titleWrap.style.marginTop = Math.max(0, Math.floor(($(titleWrap.parentNode).height() - titleWrap.offsetHeight) / 2)) + "px";               
+        }
+});
+
+EN.registerModule("videoPlayer", {
+        onDomReady:function() {                               
+                var pl = document.getElementById("article-player-new");
+                              
+                if(!pl || !(typeof window.drawFlashPlayer == "function")) { return; };  
+                
+                var lnk = document.createElement('a'),
+                    txt;
+                
+                try {
+                        txt = EN.pageTranslations.getTranslation('play_pause_video');
+                } catch(e) {
+                        txt = "Play/Pause Video";
+                };
+                
+                lnk.appendChild(document.createTextNode(txt));
+                lnk.href = "#article-player-new";
+                
+                lnk.onclick = function(e) {
+                        var pl = document.getElementById("article-player-new");  
+                        if(pl && pl.tagName && pl.tagName.search(/object|embed/i) != -1) {                         
+                                try { pl.playExt(); } catch(err) { }; 
+                        };                    
+                        return EN.stopEvent(e);
+                };
+                
+                lnk.id = "play-pause";
+                                               
+                pl.parentNode.appendChild(lnk);
+                var links = $("#bulletin-list .playBulletin");
+                for(var i = 0, link; link = links[i]; i++) {
+                        try {
+                                if(link.getAttribute("href")) {
+                                        link.onclick = function(e) {
+                                                var pl = document.getElementById("article-player-new");  
+                                                if(pl && pl.tagName && pl.tagName.search(/object|embed/i) != -1) {                         
+                                                        try { pl.playExtBul(this.id); } catch(err) { }; 
+                                                };                  
+                                                
+                                                return EN.stopEvent(e);
+                                        }                                 
+                                };
+                        } catch(err) { };                
+                }    
+        }
+});
+
+EN.registerModule("externalLinks", {
+        onDomReady:function() {
+                var links = document.getElementsByTagName("a");
+                for(var i = 0, link; link = links[i]; i++) {
+                        try {
+                                if(link.getAttribute("href") && String(link.getAttribute("rel")).search("external") != -1) {
+                                        link.onclick = EN.externalLinks.openWin;                                 
+                                };
+                        } catch(err) { };
+                };
+        },
+        openWin:function(e) { 
+                e = e || window.event;                
+                if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) return true;
+                var oWin = window.open(this.getAttribute('href'), '_blank');
+                if(oWin) {
+                        if(oWin.focus) oWin.focus();
+                        return false;
+                };
+                oWin = null;
+                return true;
+        } 
+});
+
+EN.registerModule("cookie", {
+        enabled:null,
+        domain:String(window.location.hostname).replace(/^([^\.]+)\./, "") || "euronews.net",
+        cookieEnabled: function() {                              
+                if(EN.cookie.enabled != null) return EN.cookie.enabled;
+                var cookieEnabled = (navigator.cookieEnabled) ? true : false;
+                if (typeof navigator.cookieEnabled == "undefined" && !cookieEnabled) {
+                        document.cookie="testcookie";
+                        cookieEnabled=(document.cookie=="testcookie")? true : false;
+                        document.cookie="";
+                };
+                EN.cookie.enabled = cookieEnabled;
+                return cookieEnabled;
+        },
+        createCookie:function(name,value,days) {
+                if (days) {
+                        var date = new Date();
+                        date.setTime(date.getTime()+(days*24*60*60*1000));
+                        var expires = "; expires="+date.toGMTString();
+                } else { expires = ""; };
+                document.cookie = name+"="+value+expires+"; path=/; domain="+EN.cookie.domain;
+        },
+        readCookie:function(name) {
+                // Escape regexp special characters 
+                name = name.replace(/([.*+?^=!:${}()|[\]\/\\])/g, '\\$1');
+
+                var regex = new RegExp('(?:^|;)\\s?' + name + '=(.*?)(?:;|$)','i'),
+                    match = document.cookie.match(regex);
+
+                return match && unescape(match[1]); 
+        }
+});
+
+EN.registerModule("addStyleSheet", {
+        filesAdded:[],
+        addFile:function(filename) {                  
+                if(filename in EN.addStyleSheet.filesAdded) { return; };                
+                var fileref = document.createElement("link");
+                fileref.setAttribute("rel", "stylesheet");
+                fileref.setAttribute("type", "text/css");
+                fileref.setAttribute("href", filename);                 
+                if (typeof fileref!="undefined") { document.getElementsByTagName("head")[0].appendChild(fileref) };
+                fileRef = null;          
+        }
+});
+
+EN.registerModule("tabs", {
+        onDomReady:function() {          
+                $(".tab_container .tab_content").hide(); 	
+                $("ul.tabs").each(function() { $("li:first", this).addClass("active").show(); });
+                $(".tab_container").each(function() { $(".tab_content:first", this).show(); });        
+		
+	        $("ul.tabs li a").click(function() {
+	               if($(this).parent("li").hasClass("active")) return false;	        
+	               var parentUL = $(this).parent("li").get(0);	                     
+                       parentUL = $(parentUL).parent("ul.tabs").get(0);	        
+	        
+                       $("li", parentUL).removeClass("active"); 
+                
+		       $(this).parent("li").addClass("active"); 
+		       $(".tab_content", $(parentUL).parent("div.tabbedWigit").get(0)).hide();	      
+		       $($(this).attr("href")).show(); 
+		       return false;
+	       }); 
+	}
+});
+
+EN.registerModule("topStoriesExtraLinksList", {
+        onDomReady:function() {          
+                
+			if ($('#headline-block ol.topStoriesLinksListExtras').length > 0){
+				$("#headline-block ol.topStoriesLinksListExtras").hide();
+				$("#headline-block .moreLess").show();
+				
+				$("#headline-block .moreLess.more").click(function(){
+					$(this).siblings(".less").removeClass("inactive");
+					obj = $(this);
+					if (!$(this).hasClass("inactive")) {
+						$("#headline-block ol.topStoriesLinksListExtras:hidden:first").slideDown(300,function(){
+							if ($("#headline-block ol.topStoriesLinksListExtras:hidden").length == 0 ) {
+								$(obj).addClass("inactive");	
+							}	
+						});
+					}
+					
+					return false;
+				}) 
+				$("#headline-block .moreLess.less").click(function(){
+					$(this).siblings(".more").removeClass("inactive");
+					obj = $(this);
+					if (!$(this).hasClass("inactive")) {
+						$("#headline-block ol.topStoriesLinksListExtras:visible:last").slideUp(300,function(){
+							if ($("#headline-block ol.topStoriesLinksListExtras:visible").length == 0 ) {
+								$(obj).addClass("inactive");
+							}
+						});
+					}
+					return false;
+				}) 
+			}
+	}
+});
+
+EN.registerModule("weather", {
+        inp:null,
+        form:null,
+        scaffold:null,
+        retryCount:0,
+        retryTimer:null,
+        retryTS:null,
+        cookieInfo:{
+                txtVal:null,
+                parts:[],
+                defaultCity:null
+        },
+        cName:"EN_meteo",
+        cNameFC:"EN_meteo_fc",
+        cityCache:{},
+        nonWeather:false,
+        cityListOverlay:null,
+        init: function() {                                 
+                if(EN.weather.nonWeather) {
+                        return;
+                };
+                
+                EN.weather.updateCookieInfo();
+                
+                var table   = document.getElementById("saved-city-table"),
+                    msg     = document.getElementById("saved-city-message");  
+                    
+                
+                if(!EN.cookie.cookieEnabled()) {                
+                        // Replace the saved city text with a cookie required message
+                        if(msg) {
+                                var trad = EN.pageTranslations.getTranslation("cookie_required_meteo");
+                                trad = trad == "cookie required meteo" ? 'A cookie enabled browser is required in order to save cities to your myWeather list.' : trad;                                
+                                msg.innerHTML = trad;  
+                        };                
+                };
+                
+                // Create the overlay
+                if(document.getElementById("city-list-overlay")) {                        
+                        EN.weather.cityListOverlay = $("#city-list-overlay").overlay({
+	                        expose: {
+		                      color: '#fff',
+		                      // load mask a little faster
+		                      loadSpeed: 200,
+		                      // highly transparent
+		                      opacity: 0.5
+	                               },
+	                       // disable this for modal dialog-type of overlays
+	                       closeOnClick: true,
+	                       // we want to use the programming API
+	                       api: true
+                                // load it immediately after the construction
+                        });       
+                };
+                
+                // Add Ajax events to the search form
+                EN.weather.form = document.getElementById("city-search");              
+                EN.weather.inp  = document.getElementById("city-search-inp");
+                if(EN.weather.inp && EN.weather.form) {                                        
+                        EN.addEvent(EN.weather.form, "submit", EN.weather.onSubmit);
+                };                               
+                
+                // Create the "save to defaults" buttons etc
+                EN.weather.createSaveButtons();
+                
+                // Set screen temps to saved value or "C"
+                EN.weather.changeAllTemps(EN.cookie.readCookie(EN.weather.cNameFC) || "C");
+                
+                EN.weather.addTempChangeButtons();
+                
+                // Update the saved cities list
+                if(EN.cookie.cookieEnabled() && table) {                                             
+                        var n = EN.weather.readNameCache();                        
+                        if(n) {                                
+                                EN.weather.cityCache = n;                             
+                                EN.weather.updateSavedListCallback(n);         
+                        } else {                                
+                                EN.weather.updateSavedList(true);
+                        };
+                };      
+        },
+        updateWeatherBlock:function() {                
+                EN.weather.nonWeather = true;
+               
+                if(!EN.cookie.cookieEnabled() || !document.getElementById("weather-wrapper")) { 
+                        return;
+                };
+                
+                // Set screen temps to saved value or "C"
+                EN.weather.changeAllTemps(EN.cookie.readCookie(EN.weather.cNameFC) || "C");
+                EN.weather.updateCookieInfo();                               
+                
+                if(EN.weather.cookieInfo.defaultCity) {                 
+                        var cacheJSON = EN.weather.readWeatherBlockCache();  
+                                                
+                        if(!cacheJSON) {  
+                                document.getElementById("weather-wrapper").className = "loading-weather";
+                        
+                                $.ajax({
+                                        url:            document.getElementById("more-weather").href,
+                                        type:           "POST",                        
+                                        data:           { "ajaxSubmit":1, "defaultCity":EN.weather.cookieInfo.defaultCity }, 
+                                        cache:          false,
+                                        dataType:       "json",
+                                        success:        EN.weather.updateWeatherBlockCallback,
+                                        error:          EN.weather.updateWeatherBlockCallback                        
+                                }); 
+                               
+                        } else {                                    
+                                EN.weather.updateWeatherBlockCallback(cacheJSON);
+                        };      
+                };                
+        },
+        updateWeatherBlockCallback:function(cb) {                
+                document.getElementById("weather-wrapper").className = "";                
+                if("htmlVal" in cb) {
+                        document.getElementById("weather-wrapper").innerHTML = cb.htmlVal;                        
+                };                
+                if("url" in cb) {                       
+                        document.getElementById("more-weather").href = cb.url
+                };                
+                if("htmlVal" in cb && "url" in cb) {
+                        EN.weather.updateWeatherBlockCache(cb);
+                };
+        },
+        createSaveButtons:function() {                                
+                // Create the "make default" and "save to myWeather" links if needs be
+                if(document.getElementById("city-current-details") && EN.cookie.cookieEnabled()) {
+                        
+                        var cityID      = String(document.getElementById("city-current-details").className).replace("cityID-", ""),
+                            parent      = document.getElementById("city-current-details").parentNode,
+                            docFrag     = document.createDocumentFragment(),
+                            msg1        = EN.pageTranslations.getTranslation("add_to_myweather"),
+                            msg2        = EN.pageTranslations.getTranslation("set_as_default"),
+                            lnk         = document.createElement("a"),
+                            spn         = document.createElement("span"),
+                            addFrag     = false,                   
+                            lnk1, lnk2, div1, div2, spn1, spn2;
+                        
+                        EN.weather.removeMakeDefaultLink();                        
+                        
+                        if(EN.weather.cookieInfo.parts.length < 8 && !EN.weather.cityExistsInCookie(cityID)) {   
+                                lnk1            = lnk.cloneNode(false);
+                                lnk1.onclick    = EN.weather.addCity;
+                                lnk1.href       ="#";
+                                lnk1.className   = "btn add-btn";
+                                lnk1.id         = "add_to_myweather";
+                                    
+                                spn1            = spn.cloneNode(false);
+                                spn2            = spn.cloneNode(false);
+                                spn2.appendChild(document.createTextNode(msg1 == "add to myweather" ? "Add to myWeather" : msg1));
+                        
+                                spn1.appendChild(spn2);
+                                lnk1.appendChild(spn1);
+                                docFrag.appendChild(lnk1);
+                                docFrag.appendChild(document.createTextNode(String.fromCharCode(160)));
+                                addFrag = true;
+                        };
+                        
+                        // Only add if it's not already the default or theres no saved locations
+                        if(EN.weather.cookieInfo.parts.length > 0 && (!EN.weather.cityIsDefault(cityID) && (EN.weather.cookieInfo.parts.length < 8 || EN.weather.cityExistsInCookie(cityID)))) { 
+                                lnk2            = lnk.cloneNode(false);
+                                lnk2.onclick    = EN.weather.setDefault;
+                                lnk2.href       ="#";
+                                lnk2.className  = "btn add-btn";
+                                lnk2.id         = "set_as_default";
+                                
+                                spn1            = spn.cloneNode(false);
+                                spn2            = spn.cloneNode(false);
+                                spn2.appendChild(document.createTextNode(msg2 == "set as default" ? "Set as Default" : msg2));
+                        
+                                spn1.appendChild(spn2);
+                                lnk2.appendChild(spn1);
+                                                        
+                                docFrag.appendChild(lnk2);
+                                addFrag = true;
+                        };
+                        
+                        if(addFrag) {
+                                var p = document.createElement("p");
+                                p.appendChild(docFrag);                                                               
+                                parent.insertBefore(p, parent.getElementsByTagName("h1")[0].nextSibling);
+                        };
+                };
+        },
+        updateCookieInfo:function() {               
+               var mCookie = EN.cookie.readCookie(EN.weather.cName),
+                   cities  = mCookie ? String(mCookie).split("|") : [];                 
+                                   
+               EN.weather.cookieInfo.txtVal             = String(mCookie);
+               EN.weather.cookieInfo.parts              = cities;  
+               EN.weather.cookieInfo.defaultCity        = cities && cities.length ? cities[0] : false;  
+        },        
+        cityExistsInCookie:function(cityID) { 
+                var regExp = new RegExp("(\||^)" + cityID + "(\||$)");                  
+                return !(EN.weather.cookieInfo.txtVal.search(regExp) == -1);        
+        },
+        cityIsDefault:function(cityID) {                               
+                return EN.weather.cookieInfo.defaultCity == cityID;        
+        },
+        addCityToSavedList:function(makeDefault) {
+                if(!document.getElementById("city-current-details")) {
+                        return;
+                };
+                
+                makeDefault = !!makeDefault;                
+                
+                var cityID = String(document.getElementById("city-current-details").className).replace("cityID-", "");
+                
+                if(EN.weather.cityExistsInCookie(cityID) && !makeDefault) {
+                        return;        
+                };
+                
+                var newList = [];                    
+               
+                if(makeDefault) {
+                        newList = [cityID];                        
+                };
+                
+                for(var i = 0, cID; cID = EN.weather.cookieInfo.parts[i]; i++) {
+                        if(!(cID == cityID)) {
+                                newList.push(cID);
+                        };
+                };
+                
+                if(!makeDefault) {
+                        newList.push(cityID);                        
+                };
+               
+                // Try to grab the name, f and c values from the HTML
+                if(!(cityID in EN.weather.cityCache)) {                        
+                        var div = document.getElementById("city-current-details").innerHTML;    
+                        EN.weather.cityCache[cityID] = {"html":div};                             
+                };
+                
+                if(newList.length && newList[0] == cityID) {
+                        EN.weather.updateWeatherBlockCache("");                
+                };
+                
+                EN.cookie.createCookie(EN.weather.cName, newList.join("|"), 365);
+                EN.weather.updateCookieInfo();
+               
+                EN.weather.updateSavedList(false);                
+        },
+        removeAddCityLink:function() {                    
+                var lnk = document.getElementById("add_to_myweather");
+                if(lnk) {
+                        lnk.parentNode.removeChild(lnk);
+                };        
+        },
+        removeMakeDefaultLink:function() {
+                var lnk = document.getElementById("set_as_default");
+                if(lnk) {
+                        lnk.parentNode.removeChild(lnk);
+                }; 
+                EN.weather.removeAddCityLink();        
+        },
+        removeCity:function(e) {
+                
+                var cityID  = this.className.match(/cityid_([^\s|$]+)/)[1],
+                    div     = document.getElementById("savedcityid_" + cityID),
+                    newList = [];
+                 
+                div.parentNode.removeChild(div);
+                
+                if(EN.weather.cookieInfo.defaultCity && EN.weather.cookieInfo.defaultCity == cityID) {
+                        EN.weather.updateWeatherBlockCache("");        
+                };
+                
+                for(var i = 0, cID; cID = EN.weather.cookieInfo.parts[i]; i++) {
+                        if(!(cID == cityID)) {
+                                newList.push(cID);
+                        };
+                };
+                
+                EN.cookie.createCookie(EN.weather.cName, newList.join("|"), 365);
+                EN.weather.updateCookieInfo();   
+                
+                EN.weather.cityCache[cityID] = null;
+                delete EN.weather.cityCache[cityID];                
+               
+                if(newList.length) {
+                        EN.weather.updateNameCache({"cityDetails":EN.weather.cityCache});
+                } else {
+                        EN.weather.updateNameCache(false);
+                };
+                
+                EN.weather.updateSavedList(false);
+                
+                return false;        
+        },
+        addCity:function(e) {
+                EN.weather.removeAddCityLink();                
+                EN.weather.addCityToSavedList(false);
+                return EN.stopEvent(e);                
+        },
+        setDefault:function(e) {
+                EN.weather.removeMakeDefaultLink();                
+                EN.weather.addCityToSavedList(true);
+                return EN.stopEvent(e);
+        },
+        onUnload:function() {
+                clearTimeout(EN.weather.retryTimer);
+        },
+        updateSavedList:function(useAjax) {
+                clearTimeout(EN.weather.retryTimer);
+                
+                var table   = document.getElementById("saved-city-table"),
+                    msg     = document.getElementById("saved-city-message");                
+                
+                if(!table) {
+                        return;
+                };
+                    
+                if(EN.weather.cookieInfo.txtVal && EN.weather.cookieInfo.parts.length) {                        
+                        var located = 0;
+                        
+                        for(var i = 0, city; city = EN.weather.cookieInfo.parts[i]; i++) {
+                                if(city in EN.weather.cityCache) {                                        
+                                        located++;
+                                };
+                        };                        
+                        
+                        if(!useAjax && located == EN.weather.cookieInfo.parts.length) {
+                                var div, td;
+                                for(var i = 0, city; city = EN.weather.cookieInfo.parts[i]; i++) {                                                                                                                       
+                                        div = document.getElementById('savedcityid_' + city),
+                                        td  = document.getElementById('sc-' + i);
+                                        
+                                        if(div) {
+                                                div = div.parentNode.removeChild(div);                                                                                               
+                                                td.appendChild(div);                                                                                                                                               
+                                        };
+                                };     
+                                
+                                for(var z = i; z < 8; z++) { 
+                                        td  = document.getElementById('sc-' + i);
+                                        td.innerHTML = "&#160;";                                        
+                                };
+                                
+                                if(msg) {
+                                        msg.className   = "not-in-view";   
+                                        if(table) {
+                                                table.className   = "";                                        
+                                        };                                
+                                };
+                                
+                                $("#saved-city-table a.delete_from_list").each(function() { $(this).click(EN.weather.removeCity); });
+                                 
+                        } else { 
+                                if(msg) {
+                                        if(table) {
+                                                table.className   = "not-in-view";                                     
+                                        };
+                                        var msgText = EN.pageTranslations.getTranslation("loading_weather_data");                                        
+                                        msg.innerHTML = "<p>" + (!msgText || msgText == 'loading_weather_data' ? "Loading weather data&#8230;" : msgText) + "</p>";
+                                        msg.className = "";
+                                };                                  
+                                
+                                $.ajax({
+                                        type:           "POST",                        
+                                        data:           { "ajaxSubmit":1, "cityList":EN.weather.cookieInfo.txtVal }, 
+                                        cache:          false,
+                                        dataType:       "json",
+                                        success:        EN.weather.updateSavedListCallback,
+                                        error:          EN.weather.updateSavedListCallback                        
+                                }); 
+                        };                            
+                } else {                                                       
+                        if(msg) {
+                                if(table) {
+                                        table.className   = "not-in-view";                                   
+                                };
+                                var msgTxt    = EN.pageTranslations.getTranslation("save_locations_help");
+                                msg.innerHTML = "<p>" + (msgTxt == "save locations help" ? "You can save locations by searching for a city and clicking the &#8220;save location&#8220; link positioned next to the city name." : msgTxt) + "</p>";
+                                msg.className = "";
+                        };
+                };        
+        },
+        retryCountDown:function() {
+                var currT = new Date().getTime(),
+                    secs  = 30 - Math.round((currT - EN.weather.retryTS) / 1000),
+                    spn   = document.getElementById("weather-countdown");
+                    
+                if(!spn) {
+                        clearTimeout(EN.weather.retryTimer);
+                        return;
+                };
+                
+                if(secs > 1) {                
+                        spn.innerHTML = secs;                
+                        EN.weather.retryTimer = setTimeout(EN.weather.retryCountDown, 1000);
+                } else {
+                        clearTimeout(EN.weather.retryTimer);
+                        EN.weather.updateSavedList();
+                };
+        },
+        updateSavedListCallback:function(cb) {
+                clearTimeout(EN.weather.retryTimer);
+                var table   = document.getElementById("saved-city-table"),
+                    msg     = document.getElementById("saved-city-message"),
+                    par     = table.parentNode; 
+                    
+                if(!("cityDetails" in cb)) { 
+                        table.className   = "not-in-view";                                      
+                        
+                        if("message" in cb) {                                
+                                if(msg) {                                        
+                                        msg.innerHTML = cb.message;                                        
+                                };
+                        } else {
+                                if(EN.weather.retryCount++ < 2) {                                                                            
+                                        msg.innerHTML = '<p>An error occurred while attempting to retrieve weather data. Another attempt to load the data will be automatically launched in <span id="weather-countdown">30</span> seconds&#8230;</p>';
+                                        EN.weather.retryTS = new Date().getTime();                                        
+                                        EN.weather.retryTimer = setTimeout(EN.weather.retryCountDown, 1000);                                                                   
+                                } else {                                        
+                                        msg.innerHTML = "<p>Apologies, further attempts to load the weather data were unsuccessfull&#8230;</p>";
+                                };                                
+                        };
+                        
+                        msg.className   = "";                        
+                        return;    
+                };                
+                
+                if(!table) {
+                        return;        
+                };                  
+                
+                var textToInsert = '', i = 0, td, locCnt = 0;  
+                EN.weather.cityCache = {};
+                
+                msg.className   = "not-in-view";
+                table.className = "";
+                
+                for(var i = 0; i < 8; i++) {                                  
+                        td   = document.getElementById('sc-' + i);
+                        if(!td) { continue; };
+                        if(i < EN.weather.cookieInfo.parts.length && "cityDetails" in cb && cb.cityDetails[EN.weather.cookieInfo.parts[i]]) {                                                               
+                                EN.weather.setElementHTML(td,  cb.cityDetails[EN.weather.cookieInfo.parts[i]].html);
+                                EN.weather.cityCache[EN.weather.cookieInfo.parts[i]] = {"html":cb.cityDetails[EN.weather.cookieInfo.parts[i]].html, "cityname":cb.cityDetails[EN.weather.cookieInfo.parts[i]].cityname, "url":cb.cityDetails[EN.weather.cookieInfo.parts[i]].url};                               
+                        } else {
+                                locCnt++;
+                                td.innerHTML = "&#160;";                                                                       
+                        };                        
+                };
+                
+                $("#saved-city-table a.delete_from_list").each(function() { $(this).click(EN.weather.removeCity); });
+                
+                EN.weather.updateNameCache({"cityDetails":EN.weather.cityCache});                                    
+        },
+        setElementHTML:function(El, htmlTxt) { 
+                try {                          
+                        if( El.attachEvent ) { 
+                                var elTmp = document.createElement('div'); 
+                                elTmp.innerHTML = htmlTxt; 
+                                El.innerHTML = ""; 
+                                for( var i = 0; i < elTmp.childNodes.length; i++ ){ 
+                                        El.appendChild( elTmp.childNodes[i] ); 
+                                }; 
+                        } else { 
+                                El.innerHTML = htmlTxt; 
+                        }; 
+                } catch( err ) { };
+        },
+        updateWeatherBlockCache:function(val) {
+                sessvars.blockCache = val;
+                sessvars.blockCacheTS = new Date().getTime();
+        },
+        readWeatherBlockCache:function() {                
+                return (!sessvars.blockCacheTS || Number(new Date().getTime()) - Number(sessvars.blockCacheTS) > 360000) ? false : sessvars.blockCache || false;
+        },        
+        updateNameCache:function(val) {   
+                sessvars.htmlCache = val;
+                sessvars.htmlCacheTS = new Date().getTime();
+        },
+        readNameCache:function() {
+                return (!sessvars.htmlCacheTS || new Date().getTime() - Number(sessvars.htmlCacheTS) > 360000) ? false : sessvars.htmlCache || false;
+        },
+        changeAllTemps:function(tempType) {                
+                tempType = !(tempType == "C" || tempType == "F") ? "C" : tempType;
+                
+                EN.cookie.createCookie(EN.weather.cNameFC, tempType, 365);
+                
+                $(document.body).removeClass("active_F");
+                $(document.body).removeClass("active_C");                
+                $(document.body).addClass("active_" + tempType);
+        },
+        changeTemp:function(e) {                             
+                var tempType = $(this).hasClass("show_C") ? "C" : "F";                
+                if($(document.body).hasClass("active_" + tempType)) { return; };
+                EN.weather.changeAllTemps(tempType);
+                return false;                
+        },
+        addTempChangeButtons:function() {
+                $(".change_temp").each(function() { if($(this).hasClass("buttons_added")) { return; }; $(this).empty(); $(this).addClass("buttons_added"); $(this).html('<a class="show_C btn pill-l" href="#"><span><span>C</span></span></a><a class="show_F btn pill-r" href="#"><span><span>F</span></span></a>'); $(".show_C:first", $(this)).click(EN.weather.changeTemp); $(".show_F:first", $(this)).click(EN.weather.changeTemp); });
+        },
+        onSubmit:function(e) {
+                e = e || document.parentWindow.event;
+                
+                var val = String(EN.weather.inp.value).trim();
+                if(!val) { return EN.stopEvent(e); }; 
+                               
+                EN.weather.inp.disabled = true;
+                EN.addClass(EN.weather.inp, "disabled");                
+                
+                document.getElementById("citySubmit").style.display = 'none';
+                
+                $.ajax({
+                        type:           "POST",                        
+                        data:           { "ajaxSubmit":1, "cityName":val }, 
+                        cache:          false,
+                        dataType:       "json",
+                        success:        EN.weather.searchCallback,
+                        error:          EN.weather.searchCallback                        
+                });
+                
+                return EN.stopEvent(e);
+        },
+        searchCallback:function(details) {                
+                EN.weather.inp.disabled = false;
+                EN.removeClass(EN.weather.inp, "disabled");
+                document.getElementById("citySubmit").style.display = '';
+        
+                if(details.locations) {  
+                        if(details.locations.length == 1) {
+                                window.location = details.locations[0].url;
+                                return;
+                        }; 
+                        
+                        $("#city-list-overlay .overlay-inner:first").empty().append(details.message + '<ul id="results">');
+                        var lnk;
+                        
+                        $.each(details.locations, function(i, item) {
+                                lnk = $("<a/>").attr("href", item.url);
+                                if(i == details.locations.length - 1) {
+                                        $(lnk).addClass("last-link");
+                                };
+                                $("<li>").append($(lnk).append(item.suggestion)).appendTo("#results");
+                        });
+                        
+                        // Focus on the first link
+                        $("#results a:first").focus();
+                                                
+                } else if(details.message) {                        
+                        $("#city-list-overlay .overlay-inner:first").empty().html(details.message);        
+                };
+                
+                EN.weather.cityListOverlay.load();
+        }           
+});
+
+// CLICKS ON MOST VIEWED/SHARED WIDGETS TABS
+EN.registerModule("mostViewedWidget", {
+	onDomReady:function() { 
+		
+		
+		// Set twitter plugin
+		$("#twitterMostShared a").attr("target","_parent");
+		$("#twitterMostShared .dlvr-dest-widget:not(:first)").remove();
+		
+		// Bind click on first level tabs
+		$("#mostViewedWidget .tabsFirstLevel li a").bind("click",bindMostViewedWidgetFirstLevelTabs);
+		// Bind click on second level tabs
+		$("#mostViewedWidget .tabsSecondLevel li a").bind("click",bindMostViewedWidgetSecondLevelTabs);
+		
+		// Show tabs if js is activated
+		$("#mostViewedWidget .tabsFirstLevel li.second").css("display","block");
+		$("#isJsActivated").addClass("jsActivated");
+		
+		
+		function bindMostViewedWidgetFirstLevelTabs () {
+			
+			if ($(this).hasClass("active"))
+				return false;
+				
+			$("#mostViewedWidget .tabsFirstLevel li a").unbind();
+			$("#mostViewedWidget .tabsSecondLevel li a").unbind();	
+			$("#mostViewedWidget .tabsFirstLevel li a").bind("click",function () {return false;});
+			$("#mostViewedWidget .tabsSecondLevel li a").bind("click",function () {return false;});	
+				
+			// Remove all active class, and add it to the current tab
+			$("#mostViewedWidget .tabsFirstLevel li a").removeClass("active");
+			$(this).addClass("active");
+			
+			// Get position of that tab
+			positionTab = $("#mostViewedWidget .tabsFirstLevel li").index($(this).parent("li"));
+			
+			// Show the content of the active tab
+			$(".contentFrame .contentItem:visible").fadeOut(150,function(){
+				$(".contentFrame .contentItem:eq(" + positionTab + ")").fadeIn(150, function(){
+					$("#mostViewedWidget .tabsFirstLevel li a").bind("click",bindMostViewedWidgetFirstLevelTabs);
+					$("#mostViewedWidget .tabsSecondLevel li a").bind("click",bindMostViewedWidgetSecondLevelTabs);
+				});
+			});
+			
+			// Stop link propagation
+			return false;
+		
+		};
+		
+			
+		function bindMostViewedWidgetSecondLevelTabs () {
+			if ($(this).hasClass("active"))
+				return false;
+				
+			$("#mostViewedWidget .tabsFirstLevel li a").unbind();
+			$("#mostViewedWidget .tabsSecondLevel li a").unbind();	
+			$("#mostViewedWidget .tabsFirstLevel li a").bind("click",function () {return false;});
+			$("#mostViewedWidget .tabsSecondLevel li a").bind("click",function () {return false;});	
+			
+			// Get a pointer on the content item div
+			objContentItem = $(this).parents(".contentItem");
+			
+			// Remove all active class, and add it to the current subtab
+			$(".tabsSecondLevel li a",objContentItem).removeClass("active");
+			$(this).addClass("active");
+			
+			
+			positionTab = $(".tabsSecondLevel li",objContentItem).index($(this).parent("li"));
+			
+			$(".subContent div.item:visible",objContentItem).fadeOut(150,function(){
+				$(".subContent div.item:eq(" + positionTab + ")",objContentItem).fadeIn(150, function(){
+					$("#mostViewedWidget .tabsFirstLevel li a").bind("click",bindMostViewedWidgetFirstLevelTabs);
+					$("#mostViewedWidget .tabsSecondLevel li a").bind("click",bindMostViewedWidgetSecondLevelTabs);
+				});
+			});
+			return false;
+		
+		};
+		
+		
+		
+		return false;
+	}
+});

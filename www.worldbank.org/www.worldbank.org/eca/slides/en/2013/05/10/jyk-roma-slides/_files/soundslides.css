@@ -1,0 +1,397 @@
+#container{
+	position:relative;
+}
+
+.iDevices #background {
+	position:absolute;
+}
+
+.iDevices #lowerthirds {
+	position:absolute;
+	color:white;
+	z-index:400;
+	margin-top: 0px;
+	margin-left: 18px;
+}
+
+.iDevices .lt_name{
+	font-family:Arial;
+	font-size:28px;
+	color: white; 
+	text-shadow: black 0.1em 0.1em 0.2em;
+	margin-top: 0px;
+	margin-bottom:3px;
+}
+
+.iDevices .lt_title{
+	font-family:Arial;
+	font-size:18px;
+	color: white; 
+	text-shadow: black 0.1em 0.1em 0.2em;
+	margin-top: 3px;
+	margin-bottom:20px;
+}
+
+.iDevices #slide_area {
+	position:absolute;
+	top: 0;
+	cursor: pointer;
+	display:inline;
+	text-align:center;
+}
+
+
+.iDevices #demo {
+	position:relative;
+	top: 40%;
+}
+
+p#ss_header {
+	margin: 0;
+	text-align: left;
+	text-indent: 10px;
+}
+
+/* @group CONTROLS */
+
+/* -----------------------------------------------------------------
+Controls
+----------------------------------------------------------------- */
+
+
+.iDevices #controls, #caption_credit_footer{
+	position:absolute;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+/* -----------------------------------------------------------------
+Controls (regular)
+----------------------------------------------------------------- */
+
+.iDevices #controls div {
+	color: grey;
+	font-family:Arial;
+	font-size:11px;
+	margin: 2px;
+}
+
+.iDevices #controls a{
+	color: #5b5b5b;
+	text-decoration:none;
+	font-family: Helvetica Neue, Arial;
+}
+
+.iDevices #controls a:hover{
+	color: #FFF;
+}
+
+.iDevices #counter {
+	color:white;
+	font-family: Helvetica Neue, Arial;
+}
+
+/* -----------------------------------------------------------------
+Controls --> iDevices class
+----------------------------------------------------------------- */
+
+.iDevices #controls div {
+	margin: 0px;
+	font-family: Helvetica;
+	font-size:16px;
+}
+.iDevices #controls{
+	position:absolute;
+	/* top:0px;
+	left:0px; */
+	padding: 0px;
+}
+
+.iDevices #controls li{
+	list-style-type: none;
+	position: absolute;
+}
+
+.iDevices #controls li a {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 18px;
+	background: url("http://www.worldbank.org/eca/slides/en/2013/05/10/jyk-roma-slides/_files/js_buttons.png") no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	outline: none;
+}
+
+.iDevices #controls li#play{
+	left: 0px;
+}
+
+.iDevices #controls li#play a {
+	width: 47px;
+	background-position: -12px 3px;
+	border-right: thin solid #5b5b5b;
+}
+
+.iDevices #controls li#play a:hover {
+	background-position: 22px 3px;
+}
+
+.iDevices #controls li#stop {
+	left: 0px;
+}
+
+.iDevices #controls li#stop a {
+	width: 23px;
+	background-position: -17px -16px;
+	border-right: thin solid #5b5b5b;
+	display: none;
+}
+
+.iDevices #controls li#stop a:hover {
+	background-position: 8px -16px;
+}
+
+.iDevices #controls li#pause{
+	left: 24px;
+}
+
+.iDevices #controls li#pause a {
+	width: 23px;
+	background-position: -16px -56px;
+	border-right: thin solid #5b5b5b;
+	display: none;
+}
+
+.iDevices #controls li#pause a:hover {
+	background-position: 9px -56px;
+}
+
+.iDevices #controls li#resume{
+	left: 24px;
+}
+
+.iDevices #controls li#resume a {
+	width: 23px;
+	background-position: -15px -36px;
+	border-right: thin solid #5b5b5b;
+	display: none;
+}
+
+.iDevices #controls li#resume a:hover {
+	background-position: 10px -36px;
+}
+
+.iDevices #controls li#buffering{
+	left: 46px;
+	color: #FFF;
+	z-index: 1;
+	font-size: 12px;
+	width: 90px;
+}
+
+.iDevices #controls li#gutter-background {
+	position: absolute;
+	top: 0px;
+	left: 48px;
+	right: 100px;
+	height: 10px;
+}
+
+.iDevices #controls li#gutter {
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	right: 115px;
+	height: 10px;
+	cursor: pointer;
+}
+
+.iDevices #controls li#gutter span#track {
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	right: 0px;
+	height: 1px;
+	cursor: pointer;
+	background-color: #666;
+}
+
+.iDevices #controls li span#handle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	margin-left: -10px;
+	padding-right: 20px;
+	background: url("http://www.worldbank.org/eca/slides/en/2013/05/10/jyk-roma-slides/_files/js_buttons.png") no-repeat -20px -73px;
+	cursor: pointer;
+}
+
+.iDevices #controls li#counter {
+	right: 71px;
+	color: #ccc;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+.iDevices #controls li#thumbs{
+	right: 66px;
+}
+
+.iDevices #controls li#thumbs a {
+	width: 25px;
+	background-position: -19px -97px;
+	border-left: thin solid #5b5b5b;
+}
+
+.iDevices #controls li#thumbs a:hover {
+	background-position: 6px -97px;
+}
+
+.iDevices #controls li#back{
+	right: 40px;
+}
+
+.iDevices #controls li#back a {
+	width: 18px;
+	background-position: -25px -116px;
+}
+
+.iDevices #controls li#back a:hover {
+	background-position: 0 -116px;
+}
+
+.iDevices #controls li#next {
+	right: 20px;
+}
+
+.iDevices #controls li#next a {
+	width: 18px;
+	background-position: -25px -136px;
+}
+
+.iDevices #controls li#next a:hover {
+	background-position: 0 -136px;
+}
+
+/* -----------------------------------------------------------------
+----------------------------------------------------------------- */
+/* @end */
+
+
+.iDevices #caption_credit_footer{
+	text-align: right;
+}
+
+.iDevices #caption_credit_footer a {
+	color: #000;
+	text-decoration:none;
+	font-family: Helvetica Neue, Arial;
+	padding-right: 1px;
+}
+
+.iDevices #caption_credit_footer a.active {
+	font-weight: bold;
+}
+
+.iDevices #caption_credit_footer a:hover {
+	color: #5b5b5b;
+}
+
+
+.iDevices #caption_credit_footer .divider{
+	padding: 0 5px;
+	height: 10px;
+}
+
+
+.iDevices div#thumb_container {
+	position: absolute;
+	background: url("http://www.worldbank.org/eca/slides/en/2013/05/10/jyk-roma-slides/_files/trans_bg.png") repeat;
+}
+
+.iDevices div#thumb_container div.page{
+	position: relative;
+	width: 510px;
+	top: 100px;
+	display: none;
+}
+
+.iDevices div#thumb_container div.thumb{
+	width: 150px;
+	height: 100px;
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.iDevices div.thumb_nav {
+	position: absolute;
+	top: 350px;
+}
+
+.iDevices #thumb_container div.thumb_nav ul {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.iDevices #thumb_container div.thumb_nav li {
+	display: inline;
+	padding: 2px;
+}
+
+.iDevices #thumb_container div.thumb_nav li a{
+	color: #FFF;
+	font: 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-decoration: none;
+	background-color: #000;
+	padding: 5px;
+}
+
+.iDevices #thumb_container div.thumb_nav li a:hover{
+	background-color: #333;	
+}
+
+.iDevices #slide_area .slide {
+	position:absolute;
+}
+
+.iDevices #slide_area .caption{
+	position:absolute;
+	bottom: 0px;
+	left: 0;
+	text-align: left;
+	overflow:hidden;
+}
+
+.iDevices #slide_area .credit{
+	position:absolute;
+	text-align: left;
+	overflow:hidden;
+	margin: 0px;
+	bottom: 0;
+}
+
+.iDevices #slide_area .credit p{
+	margin: 0;
+}
+
+.iDevices #slide_area .slide img{
+	position:relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	height: auto;
+	filter:inherit; /* REQUIRED FOR IE 8 FADES TO WORK */
+}
+
+.iDevices #slide_area div.slide div.image {
+	overflow: hidden;
+	filter:inherit;  /* REQUIRED FOR IE 8 FADES TO WORK */
+}

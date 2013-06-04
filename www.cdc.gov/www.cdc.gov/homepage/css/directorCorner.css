@@ -1,0 +1,119 @@
+
+	
+#content-main aside .btn-directorCorner { margin-bottom:2em; border:1px solid #dddddd; background-color:#f1efe1; height:140px; 
+}
+
+.frame { border:3px solid #fff; padding:7px 8px 0 10px; height:140px
+}
+
+
+#content-main aside .btn-directorCorner p { color:black; margin:0 1.408450704% 1em; padding:0;
+}
+
+#content-main aside .btn-directorCorner a img{ float:right; margin:0 0 0 10px; 
+}
+
+#content-main aside .btn-directorCorner a { background-color:#f1efe1; display:block; color:#000; height:25px; 
+}
+
+#content-main aside .btn-directorCorner ul { height:15px; text-decoration:none; list-style-type: none; padding: 10px 0 0 10px;
+}
+
+
+#content-main aside .btn-directorCorner ul a { height:15px; font-size:1.1em;
+}
+
+#content-main aside .btn-directorCorner a:hover .h4 { 
+	color:#00e;
+	text-decoration:underline !important;
+}
+
+#content-main aside .btn-directorCorner a .h4 {
+	font-size:1.8em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	margin-bottom:3px;
+}
+
+
+
+
+/* BOTTOM MODULE */
+
+#content-main aside .btn-directorCorner-bottom { margin-bottom:2em; border:1px solid #dddddd; background-color:#EBF2F9; height:109px; 
+}
+
+.frame { border:3px solid #fff; padding:7px 8px 0 10px; height:95px
+}
+
+#content-main aside .btn-directorCorner-bottom p { color:black; padding:0;
+}
+
+#content-main aside .btn-directorCorner-bottom img{ float:left; margin:0 10px 0 0; 
+}
+
+/* #content-main aside .btn-directorCorner-bottom p img{ float:left; margin:0 10px 0 0; 
+} */
+
+#content-main aside .btn-directorCorner-bottom a { background-color:#EBF2F9; display:block; color:#000; height:25px; 
+}
+
+#content-main aside .btn-directorCorner-bottom ul { text-decoration:none; padding: 30px 0 0 10px; color:#000; list-style-type:none;
+}
+
+
+#content-main aside .btn-directorCorner-bottom ul li a { height:15px;  font-size:1.1em; font-weight:bold; 
+}
+
+#content-main aside .btn-directorCorner-bottom a:hover .h4 { 
+	color:#00e;
+	text-decoration:underline !important;
+}
+
+#content-main aside .btn-directorCorner-bottom a .h4 {
+	font-size:1.8em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	margin: 0 0 3px 0;
+}
+
+
+/* BOTTOM MODULE */
+
+#content-main aside .btn-directorCorner-bottom2 { margin-bottom:2em; border:1px solid #dddddd; background-color:#EBF2F9; height:140px; 
+}
+
+#content-main aside .btn-directorCorner-bottom2 .frame { border:3px solid #fff; padding:7px 8px 0 10px; height:126px
+}
+
+#content-main aside .btn-directorCorner-bottom2 p { color:black; padding:0;
+}
+
+#content-main aside .btn-directorCorner-bottom2 img{ float:left; margin:0 10px 0 0; 
+}
+
+/* #content-main aside .btn-directorCorner-bottom p img{ float:left; margin:0 10px 0 0; 
+} */
+
+#content-main aside .btn-directorCorner-bottom2 a { background-color:#EBF2F9; display:block; color:#000; height:25px; 
+}
+
+#content-main aside .btn-directorCorner-bottom2 ul { margin:10px 0 0 40%; text-decoration:none; padding: 10px 0 0 10px;  color:#000; 
+}
+
+
+#content-main aside .btn-directorCorner-bottom2 ul li a { height:15px;  font-size:1.1em; 
+}
+
+#content-main aside .btn-directorCorner-bottom2 a:hover .h4 { 
+	color:#00e;
+	text-decoration:underline !important;
+}
+
+#content-main aside .btn-directorCorner-bottom2 a .h4 {
+	font-size:1.8em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	margin: 0 0 3px 0;
+}
+

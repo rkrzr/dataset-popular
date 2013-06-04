@@ -1,0 +1,662 @@
+/* 
+American Heart Association - 2009
+12px = .75em;
+14px = .875em;
+13px = .813em;
+16px = 1em;
+18px = 1.125em;
+20px = 1.25em;
+24px = 1.5em;
+*/
+
+/* General ---------------------------------------------- */
+body{
+padding: 0;
+margin: 0;
+font-family: Arial,"Trebuchet MS",Helvetica,sans-serif;
+font-size: 100%;
+/* background: transparent url(../images/body.png) no-repeat scroll center 180px; */
+}
+
+.clrit{
+clear: both;
+}
+
+
+/* Dimensions ------------------------------------------ */
+.width960{
+width: 960px; /* duh! */
+margin: 0 auto;
+overflow: visible;
+/*height: 85px;
+min-height: 85px;*/
+}
+
+
+/* Wrappers -------------------------------------------- */
+/* HEADER WRAPPER */
+#headerWrapper{
+background: #ffffff !important;
+margin: inherit;
+padding: inherit;
+width: 100%;
+font-size: 100%;
+/*height: 85px;*/
+min-height: 85px;
+border-bottom:2px solid #DD4853;
+
+
+}
+
+.headerDesign{
+overflow: visible;/* hidden */
+background: transparent url(../images/default_design_bg.gif) no-repeat scroll center top;
+position: relative;
+}
+
+.leftRegion{
+/*background: url("../images/beta1.png") no-repeat scroll 165px top transparent;*/ 
+float: left;
+padding:10px;
+width:300px;
+}
+
+/*AHA Logo*/
+
+.leftRegion a.ahaLogo{
+display:block;
+float: left;
+width: 140px;
+height: 65px;
+background: transparent url(../images/aha_logo2.png) no-repeat scroll center center;
+margin: 0 10px 0 0;
+}
+
+.leftRegion a.ahaLogo:active{
+background-position: 0 1px;
+}
+
+.leftRegion a.ahaLogo span{
+text-indent: -99999px;
+display: block;
+}
+
+
+/*ASA LOGO*/
+.leftRegion a.asaLogo{
+display: inline-block;
+float: left;
+width: 140px;
+height: 65px;
+background: transparent url(../images/asa_logo2.png) no-repeat scroll center center;
+margin: 0 10px 0 0;
+}
+
+.leftRegion a.asaLogo:active{
+background-position: 0 1px;
+}
+
+.leftRegion a.asaLogo span{
+text-indent: -99999px;
+display: block;
+}
+
+
+/*AHA ES LOGO*/
+.leftRegion a.aha-esLogo{
+display: inline-block;
+float: left;
+width: 140px;
+height: 65px;
+background: transparent url(../images/aha-es_logo.png) no-repeat scroll center center;
+margin: 0 10px 0 0;
+}
+
+.leftRegion a.aha-esLogo span{
+text-indent: -99999px;
+display: block;
+}
+
+
+
+
+
+.leftRegion a.subLogo{
+border-left:1px solid #EAEAEA;
+display:inline-block;
+height:65px;
+line-height:65px;
+margin:0;
+padding:0 0 0 5px;
+text-align:left;
+width:140px;
+
+}
+
+.subLogo img {
+	border: 0 none;
+	vertical-align: bottom;
+	position: relative;
+	bottom: 0;
+}
+
+
+.leftRegion a.subLogo span{
+position: relative;
+top: 40px;
+}
+
+.rightRegion{
+margin:0 10px;
+width:610px;
+float: right;
+}
+
+
+
+.buttonDonate {
+	margin: 0;	
+}
+
+.displayDonate{
+width: 65px;
+margin:0 0 10px;
+background: #c02942;
+color: #fff;
+font-weight: bold !important;
+}
+
+.roundBottom{
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
+-moz-border-radius-topleft:0px;
+-moz-border-radius-topright:0px;
+-webkit-border-bottom-left-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+-webkit-border-top-left-radius:0px;
+-webkit-border-top-right-radius:0px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border-top-left-radius:0px;
+border-top-right-radius:0px;
+
+
+}
+
+a.displayDonate{
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial,"Trebuchet MS",Helvetica,sans-serif;
+	text-decoration: none;
+}
+
+
+
+.buttonDonate a:hover {
+	color: #fff;
+	background: #5d5d5d;
+	text-decoration: none;
+	}
+
+
+.cnChar1 {
+	background-position: 0 0;
+	}
+
+.cnChar2 {
+	background-position: -53px 0;
+	}
+
+.cnChar1:hover {
+	background-position: 0px -14px;
+	}
+
+.cnChar2:hover {
+	background-position: -53px -14px;
+	}
+
+.cnChar1, .cnChar2 {
+	text-indent: -9999px;
+	height: 12px;
+	width: 49px;
+	display: inline-block;
+	background-color: transparent;
+	background-image: url(../images/cn_char.gif);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+
+.searchWrap{
+	/*This is for when The entire Search Header have social icons*/
+	
+    /*height: 35px;
+    margin: 0 0 10px 30px;
+    width: 578px;*/
+    
+	width: 460px;
+	margin: 0 0 10px 150px;	
+	height: 35px;
+}
+
+
+.searchWrap .input {
+background:transparent none repeat scroll 0 0;
+border:0 none;
+float:left;
+height:35px;
+line-height:35px;
+margin:0 5px;
+width:410px;
+_width:380px;
+
+}
+
+.searchWrap .input input{
+	border:0 none;
+	color:#989898;
+	font-size:12px;
+	width:100%;
+	background: transparent;
+	padding: 10px 0px 0px 4px;
+}
+
+.inputHint {
+	height: 35px;
+}
+
+.searchWrap button span {
+	display:block;
+	height:24px;
+	overflow:hidden;
+	text-indent:-9999px;
+	width:30px;
+	*background: transparent;
+}
+
+.searchWrap button {
+border: 0 none;
+background: transparent;
+*background:url("../images/ahahome/header_design_05.png") no-repeat scroll -902px -40px transparent;
+
+*display:block;
+cursor:pointer;
+float:right;
+height:37px;
+*height:30px;
+overflow:hidden;
+width:37px;
+*width:38px;
+}
+
+
+/*Social*/
+.social {
+     float: left;
+    height: 33px;
+    line-height: 33px;
+    margin-right: 5px;
+    width: 115px;
+    }
+.social .socialOne, .social .socialTwo, .social .socialThree {
+display: block;
+    float: left;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 32px;
+}
+
+.socialOne {
+background: url("../images/socialsIcons/colors/facebook.png") no-repeat scroll 0 0 transparent;
+}
+.socialTwo {
+background: url("../images/socialsIcons/colors/twitter.png") no-repeat scroll 0 0 transparent;
+}
+
+.socialThree {
+background: url("../images/socialsIcons/colors/youtube.png") no-repeat scroll 0 0 transparent;
+}
+
+
+
+/***************/
+
+
+
+/* ===================================== */
+/* ! AUTOSUGGEST FORM AND RESULT TABLE   */
+/* ===================================== */
+/* FORM */
+
+#suggestion_form{
+/* visibility: visible; */
+}
+/* TABLE */
+#search_suggest{
+/* visibility: hidden !important; */
+/* display: block; */
+*display:none;
+z-index: 99990 !important;
+ background: #f7f7f7 !important; 
+
+
+ right: 0px;
+/* overflow: hidden !important; */
+}
+
+ 
+.ss-gac-d {
+  color: green;
+  font-size: 10px;
+  overflow: hidden;
+  padding: 0 3px;
+  text-align: right;
+  white-space: nowrap;
+}
+ 
+.ss-gac-b td {
+  color: white;
+}
+ 
+.ss-gac-e td {
+  font-size: 10px;
+  line-height: 15px;
+  padding: 0 3px 2px;
+  text-align: right;
+}
+ 
+.ss-gac-e span {
+  color: #00c;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+
+.ss-gac-m  {
+/*background: url("images/ui-bg_diagonals-medium_55_eaeaea_40x40.png") repeat scroll 50% 50% #EAEAEA;*/
+border:0 solid #000000;
+color:#5D5D5D;
+cursor:default;
+font-size: 12px;
+margin:0;
+padding: 10px 0 10px 10px;
+position:absolute;
+z-index:9999;
+/* top: 400px; */
+}
+.ss-gac-c  { 
+border-bottom:1px solid #EAEAEA;
+border-top:1px solid #F7F7F7;
+overflow:hidden;
+padding:5px;
+text-align:left;
+white-space: normal;
+}
+
+.ss-gac-b  { /*Select*/
+background:none repeat scroll 0 0 #3366CC;
+color:white;
+}
+
+
+
+
+/* =================================== */
+/* ! Localization & Languages Style   */
+/* ================================= */
+.additionalHeaderLinks{
+text-align: center;
+vertical-align: middle;
+height: 30px;
+line-height: 30px;
+float: right;
+display: inline-block;
+font-size: 12px;
+text-transform: uppercase;
+text-decoration: none;
+font-family: Arial,"Trebuchet MS",Helvetica,sans-serif;
+text-decoration: none;					
+}
+
+.additionalHeaderLinks a{
+margin: 0;
+padding:0 10px;
+color: #5d5d5d;
+text-decoration:none;
+}
+
+.additionalHeaderLinks a:hover{
+text-decoration: none;
+color: #D41017;
+}
+
+.linkCareers a{
+border-right: 1px solid #eaeaea;
+
+}
+
+.linkCareers a:hover{
+
+}
+
+.linkLanguages a {
+border-right: 1px solid #eaeaea;
+}
+
+.linkLanguages a:hover {
+
+}
+
+.linkLocal a{
+color:#5D5D5D;
+text-decoration:none;
+border-right: 1px solid #eaeaea;
+}
+
+
+.linkLocal a:hover{
+
+}
+
+.linkVolunteer a{
+}
+
+.linkVolunteer a:hover{
+
+}
+
+
+#languagesWrapper{
+display: block;
+width: 192px;
+position: absolute;
+top:-57px;
+font-size: 12px;
+overflow: hidden;
+visibility: hidden;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.languageWrapperLeftPosition {left: 560px !important;}
+}
+
+.languageWrapperLeftPosition {
+/*
+left: 659px;
+*left: 659px;
+*/
+
+left: 560px;
+*left: 560px;
+}
+
+
+.topTabContainerLanguages{
+display:block;width:192px;height:12px;margin:0;padding:0;
+}
+
+
+#localizationWrapper{
+display: block;
+width: 192px;
+position: absolute;
+top:-57px;
+visibility: hidden;
+font-size: 12px;
+overflow: hidden;
+/* left: 557px; */
+left: 464px;
+}
+
+.submitButton{
+color: #0267ac;
+background: transparent url(../images/bg_btn_white.png) scroll repeat center top;
+border: 1px solid #eaeaea;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-size: 11px;
+height: 24px;
+/* padding: 0 7px; */
+width: 90%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.leftPositionSubmitBtn {margin-left: 3px !important;}
+}
+
+.leftPositionSubmitBtn {
+margin-left: 0px;
+}
+
+.localSearchTable .inputField{
+color: #999;
+border: 1px solid #eaeaea;
+padding: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-weight: bold;
+width: 90%;
+margin-left: 0;
+font-size: 11px;
+}
+
+.localizationContainer{
+display: block;
+width: 192px;
+background: #f5f5f5 url('../images/header_tabbox_body.gif') scroll repeat-y center top;
+padding: 0;
+margin: 0;
+}
+
+
+.formZipCode{
+padding:0 !important;
+margin:0 !important;
+}
+
+.dottedHR{
+size: 1px;height: 1px;margin: 0;border: none 0;border-top: 1px dotted #c1c1c1;clear: both;
+}
+
+.topTabContainer{
+display:block;width:192px;height:12px;margin:0;padding:0;
+}
+
+.textLocal{
+display:block;text-align:right;color:#5d5d5d;padding: 7px 14px;
+}
+
+.tabBoxTitle{
+background:#cc0000 url(custom-theme/images/ui-bg_diagonals-medium_55_630000_40x40.png) repeat scroll 50% 50%;
+padding:5px; color:#FFF; margin: 0;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+text-transform:uppercase;text-align:center;
+font-size: 11px;
+border: 1px solid #cc0000;
+display: block;
+}
+
+.padding5px{
+padding: 5px;
+}
+
+.localSearchTable{
+/* border-collapse: collapse;	 */
+padding: 0;
+margin: 0;
+width: 100%;
+}
+
+.localSearchTable tr{
+padding: 0;
+margin: 3px 0;
+}
+
+.localSearchTable tr td{
+padding: 0;
+margin: 0;
+}
+
+.tabBoxTextSnippet{
+color:#5d5d5d;line-height:13px;font-size:11px;font-weight:normal;display:inline-block;width:115px;
+}
+.tabBoxDisplayMap{
+display:inline-block;width:62px;vertical-align:top;
+}
+
+.searchStateButton{
+display:block;background:transparent url(../images/bg_btn_white.png) scroll repeat center top;color:#0267AC;width:167px;padding:5px;border:1px solid #eaeaea;-moz-border-radius: 4px;
+-webkit-border-radius: 4px; border-radius: 4px; text-align:center;margin:0 auto;
+
+}
+
+.searchStateButton a{
+text-decoration: none !important;
+}
+
+.searchStateButton a:hover{
+
+}
+
+.bottomTabContainer{
+display:block;width:192px;height:6px;margin:0;padding:0;
+}
+
+.displayLanguagesSlots{
+border-bottom: 1px dotted #c1c1c1;
+padding: 3px;
+}
+
+.displayLanguagesSlots a{
+color: #5d5d5d;
+font-weight: normal;
+font-size: 11px;
+text-decoration: none;
+display: inline-block;
+}
+
+.displayLanguagesSlots a:hover{
+text-decoration: none;
+color: #D41017;
+}
+
+.displayLanguageFlag{
+	display: none;
+margin: 0 5px 0 0;
+}
+/* ==================== */
+/* ! End Localization   */
+/* ==================== */
+

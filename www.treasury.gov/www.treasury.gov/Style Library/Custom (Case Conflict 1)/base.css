@@ -1,0 +1,300 @@
+﻿/*CSS Reset*/
+
+html, body, div, dl, dt, dd, li, pre, form, fieldset, input, textarea, th, td, button { margin: 0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-size: 100%; font-weight: normal; }
+
+address, caption, cite, code, dfn, var { font-style: normal; font-weight: normal; }
+
+input, select, textarea, table { font-size: 100%; font-family:Arial, Helvetica, sans-serif; }
+
+caption, th { text-align: left; font-weight: normal; font-style: normal; }
+
+acronym, abbr, fieldset, img { border: 0;}
+
+table {
+	border-collapse:collapse;
+	padding: 0px;
+	margin: 0px;}
+
+a {outline: none;}
+
+
+/* basic styles */
+
+body, html {margin: 0px; padding: 0px; height: 100%;}
+
+body {
+	background: #f3f3f3 url('http://www.treasury.gov/Style%20Library/images/treas/bg.jpg') repeat-x;
+	margin: 0px auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #2a2a2a;
+	overflow: auto !important; /* this is done to override the SharePoint scrolling mechanism with our custom one */	
+}
+
+#t-content-sub body {background-color: transparent !important;}
+
+.ms-WPBody {font-family:Arial, Helvetica, sans-serif; font-size: 12px; line-height: 17px; color: #2a2a2a;}
+
+h1, .ms-rteElement-H1,
+h2, .ms-rteElement-H2,
+h3, .ms-rteElement-H3,
+h4, .ms-rteElement-H4,
+h5, .ms-rteStyle-H5,
+h6, .ms-rteStyle-H6 {color: #2a2a2a;}
+
+.ms-WPBody h1, .ms-rteElement-H1, h1 {font-size: 23px; font-weight: bold; font-family:"Times New Roman", Times, serif;}
+.ms-WPBody h2, .ms-rteElement-H2, h2 {font-size: 16px; font-weight: bold; font-family:Arial, Helvetica, sans-serif;}
+.ms-WPBody h3, .ms-rteElement-H3, h3 {font-size: 16px; font-weight: bold; font-family:"Times New Roman", Times, serif; }
+.ms-WPBody h4, .ms-rteElement-H4, h4 {font-size: 14px; font-weight: bold; font-family:Arial, Helvetica, sans-serif;}
+.ms-WPBody h5, .ms-rteStyle-H5, h5 {font-size: 14px; font-weight: bold; font-style:italic;  font-family:Arial, Helvetica, sans-serif;}
+.ms-WPBody h6, .ms-rteStyle-H6, h6 {font-size: 12px; font-weight: bold; font-family:Arial, Helvetica, sans-serif;}
+
+h2 {margin-top: 10px;}
+	
+p {margin-bottom: 10px; line-height:17px;}
+
+
+a:link, a:visited, a:hover, a:active {color: #045d9d;}
+.ms-WPBody a:link, .ms-WPBody a:visited, .ms-WPBody a:hover, .ms-WPBody a:active {color: #045d9d;}
+
+/* classes */
+.aligncenter { text-align: center; }
+.alignleft { text-align: left; }
+.alignright { text-align: right; }
+.clear { clear: both; }
+
+.floatleft { float: left; margin: 0px 1em 1em 0px; }
+.floatright { float: right; margin: 0px 0px 1em 1em; }
+
+.t-small, .t-small p  {font-size: 11px !important; line-height: 12px !important;}
+.watermark {font-size: 11px; color: #888;}
+/* layout */
+
+#t-outer-wrapper {/* Center the wrapper */margin: 0px auto; }
+
+#t-wrapper {/* Outer setting the inner bg imge with shadow */
+	margin: 0px auto;
+	width: 1000px;
+	padding: 0px;
+	/*height: 100%;	*/
+	background:url('http://www.treasury.gov/Style%20Library/images/treas/bg-inner.jpg') repeat-y left top;
+	position: relative; z-index: 1;}
+	
+
+#t-wrapper-top {
+	width: 1000px;
+	padding: 0px;
+	/* height: 100%;*/	
+	background: transparent url('http://www.treasury.gov/Style%20Library/images/treas/bg-top2.jpg') no-repeat left top;
+	margin: 0px auto;
+	position: relative;
+	z-index: 2;}
+#t-wrapper-top-fs {
+	width: 1000px;
+	padding: 0px;
+	height: 100%;	
+	background: transparent url('http://www.treasury.gov/Style%20Library/images/treas/bg-top-fs.jpg') no-repeat left top;
+	margin: 0px auto;
+	position: relative;
+	z-index: 2;}
+#t-wrapper-top-in {
+	width: 1000px;
+	padding: 0px;
+	height: 100%;	
+	background: transparent url('http://www.treasury.gov/Style%20Library/images/treas/t-top-initiatives.jpg') no-repeat left top;
+	margin: 0px auto;
+	position: relative;
+	z-index: 2;}
+
+#t-inner {width: 978px; margin: 0px auto;}
+
+/* Header Part */
+#t-header {height: 165px; position: relative; z-index: 10000;}
+
+.fs #t-header {height: 190px; position: relative; z-index: 10000;}
+	#t-logo {
+		width: 385px; height: 60px;
+		position: relative; top: 35px;}
+	
+	#fs-title {position: absolute; bottom: 3px; display:block;}
+
+	#fs-title a {height: 36px; width: 200px; display:block; text-indent: -9999px;}
+	
+	#initiatives {position: absolute; bottom: 8px; display:block; right: 15px;}
+	#initiatives a {background: url('http://www.treasury.gov/Style%20Library/images/treas/initiatives-button.jpg') no-repeat; height: 24px; width: 161px; display:block; text-indent: -9999px;}
+	
+	#t-link-wrapper {
+		float: right;
+		width: 365px;
+		position: absolute; top: 28px; right: 0px; }
+			
+	#t-global {
+		float: left;
+		position:relative;
+		width: 250px;
+		font: 11px Arial, Helvetica, sans-serif;	}
+		#t-global ul {float: left; margin: 2px 0px 0px 0px; padding: 0px; list-style: none;}
+		#t-global li {float: left; padding: 0px 0 0 5px; }
+
+/* Connect with us */
+
+	#t-network { float: right;}
+		#t-network ul { float: right; margin: 3px 0 0 0px; padding: 0px; list-style: none;}
+		#t-network li { float: right; margin-right: 6px; width: 15px; }
+	
+		#t-network-fb, #t-network-tw, #t-network-yt, #t-network-ms, #t-network-fr {display: block;width: 20px; height: 20px; text-indent:-9999px;}
+			#t-network-fb {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat 0px -30px;}
+			#t-network-tw {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -30px -30px;}
+			#t-network-yt {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -60px -30px;}
+			#t-network-ms {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -90px -30px display: none;}
+			#t-network-fr {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -120px -30px;}
+			#t-network-fb:hover {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat 0px 0px;}
+			#t-network-tw:hover {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -30px 0px;}
+			#t-network-yt:hover {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -60px 0px;}
+			#t-network-ms:hover {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -90px 0px;}
+			#t-network-fr:hover {background: url('http://www.treasury.gov/Style%20Library/images/treas/si-sprite.png') no-repeat -120px 0px;}
+
+/* Search */
+	#t-search {
+		position:absolute;
+		top: 60px;
+		width: 190px;
+		right: 10px;
+		float: right;}
+
+	input#ctl00_PlaceHolderSearchArea_rformsearch {
+		background:url("../../_layouts/images/bgximg.png") repeat-x scroll 0 -511px #FFFFFF;
+		border:1px solid #E3E3E3 !important;
+		height:19px;
+		padding:2px 3px 0;
+		width:155px !important;
+		font-size: 11px;
+		}
+		
+	input#ctl00_PlaceHolderSearchArea_btnGo	 {
+		height:24px; width: 25px;
+		border: 0px;
+		padding:0 !important;
+		cursor:hand !important;
+		}
+#t-search .search-input-box input  {width: 160px; padding: 3px; float: left; height: 14px; border:1px solid #E3E3E3; border-right: none;}
+
+#t-search .search-input-button input {width: 20px; float: right; height: 20px; border:1px solid #E3E3E3 !important;}
+#t-search a {float: right; padding-top: 3px;}
+
+
+/* Top Menu - for the actual CSS see sharepoint-changes.css - this does not use simple rendering because of the image in the middle and the inability to attatch CSS to ID's */		
+	#t-menu {position:absolute; bottom: 14px;}
+	
+	.fs #t-menu {position:absolute; bottom: 39px;}
+		
+		#t-treas-for {
+			/*background: transparent url('../images/treas/t-treasury-for-button.gif') no-repeat;*/
+			width: 124px; 
+			height: 39px;
+			margin: 0px;
+			position: absolute;
+			bottom: 0px;
+			left: 85px;
+			z-index: 1;
+			display: block;}
+
+/* Content Sections */			
+#t-content {background: #fff url('http://www.treasury.gov/Style%20Library/images/treas/bg-sidebar.jpg') no-repeat right -200px; /*padding-bottom: 30px;*/ min-height: 600px;}
+		
+	#t-content-main {/* Home Page Main Content Area*/
+		background-color: #fff; width: 685px; float: left;}
+		
+	#t-content-sub {/* Exterior RR */
+		width: 290px; float: right; padding: 0px;}
+		
+		.t-content-sub-inner {/* inner RR */
+			width: 280px; margin: 0px auto;}
+
+	/* would need different background images for different page layouts - 2 col, 3 col */ 
+	.t-home { }	
+	.t-3col { }
+		
+		.t-3col #t-content-main-nav {
+			width: 170px; padding: 0; 
+			float: left;
+			min-height: 560px;
+			margin-top: -14px;
+			background: transparent url('http://www.treasury.gov/Style%20Library/images/treas/bg-left.jpg') no-repeat left top;}
+		
+		.fs .t-3col #t-content-main-nav {margin-top: 0px;}
+			
+			#t-main-nav-inner {padding: 0px 0px 0px 0px;}
+	
+		.t-3col #t-content-main-content {width: 500px; padding: 0px; float: right;}
+		
+
+/* Left Nav - left nav is using Simple Rendering which renders the navigation in an UL */
+
+	.menu-vertical ul ul {margin-bottom: 0px; border-bottom: 1px solid #CFCFCB; padding-bottom: 5px;}
+	.menu-vertical ul li {padding: 0px 0px 0px 0px;}
+	.menu-vertical li a {
+		font-weight: normal;
+		font-size: 12px;
+		color: #045d9d;
+		border-bottom: 1px solid #CFCFCB;
+		padding: 8px 5px 8px 15px;}
+		
+	.menu-vertical li a:hover {text-decoration: underline;}
+
+	.menu-vertical ul li .selected {
+		font-weight: bold !important; 
+		border: 1px solid #c2bcb4;
+		border-top: none; 
+		display:block;
+		background: #ffffff url('http://www.treasury.gov/Style%20Library/Images/Treas/t-selected-header-nav-bg.jpg') repeat-x left bottom;}
+	
+	.menu-vertical ul li ul li {padding: 0px;}
+	.menu-vertical li ul li a {padding: 5px 10px 0px 25px; font-weight: normal; border-bottom: none;}
+		.menu-vertical li ul li a:hover {text-decoration : underline;}
+
+	.menu-vertical li ul li .selected,
+	.menu-vertical ul li ul li.selected {
+		font-weight: bold !important;
+	 	background-image: none !important; 
+	 	border: 0px solid transparent !important; 
+	 	background-color: transparent;}
+
+/* Footer - large footer at the bottom of the page */
+
+#t-footer {
+	/* seal background image, */
+	background: transparent url('http://www.treasury.gov/Style%20Library/images/treas/t-footer-top.jpg') no-repeat right top;
+	padding: 85px 50px 0px 50px;}
+	
+#t-footermenu {padding-top: 30px;}
+	#t-footermenu li { margin-bottom: 30px; }
+		li.footer-heading {font: bold 11px Arial, Helvetica, sans-serif; color: #7e1b1b; text-decoration:none;}
+
+		#t-footermenu-col1 { float: left; width: 185px; padding-right: 30px; }
+		#t-footermenu-col2 { float: left; width: 200px; padding-right: 30px; }
+		#t-footermenu-col3 { float: left; width: 200px; padding-right: 30px; }
+		#t-footermenu-col4 { float: left; width: 200px; padding-right: 0px; }
+	
+	#t-footermenu ul { margin: 0; padding: 0; list-style: none; }	
+	#t-footermenu ul ul { margin: 5px 0 0 0; padding:0; list-style: none; }
+	#t-footermenu ul ul li { float: none; margin-bottom: 0px; padding-top: 5px; }
+	#t-footermenu ul ul li a {font-weight: normal; font: 11px Arial, Helvetica, sans-serif; color: #5b5b5b; text-decoration:none;}
+
+/* Secondary Bottom Footer - legal links, etc */
+#t-footer2 {padding: 5px 50px 25px 50px;}
+	#t-footer-req { float: left; height: 17px; }
+		#t-footer-req h6,#t-footer-req ul,#t-footer-req a {color:#666; font:11px Arial; text-decoration:none;}
+		#t-footer-req h6 { font-style: italic; display: inline; margin: 0; padding: 0 5px 0 0; }
+		#t-footer-req ul{display: inline;margin: 0px;padding: 0px; list-style: none;}
+		#t-footer-req a { font-style: italic !important;padding: 0 5px; }
+		#t-footer-req a:hover {text-decoration:underline;} 
+	#t-footer-global { float: right; width: 520px; text-align: right; height: 17px; }
+		#t-footer-global ul, #t-footer-req ul {margin: 0px; padding: 0px; display: inline;}
+		#t-footer-global li, #t-footer-req li {list-style-type: none; display: inline;}
+			#t-footer-global a, #t-footer-req a {text-decoration: none;font-weight: normal; font: 11px Arial, Helvetica, sans-serif; color: #5f5f5f;}
+
+

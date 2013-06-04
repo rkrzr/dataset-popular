@@ -1,0 +1,504 @@
+﻿/*Front Cover Core*/
+
+.Mac .cbx .textMed {font-size: 70%;}
+.Mac .cbx-header .textSmallBold, .Mac .cbx .mbox, .Mac .cbx .headlineList2 {font-size: 75%;}
+Mac .cbx .mbox {padding-top:1px;}
+
+/*CORE STRUCTURE*/
+#cover {background: url("../../../../../media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnbc-cover-grid-bg.jpg") repeat-x top center;}
+#cover #nav-left {margin-top: 37px;}
+#cover #nav-left #newsMAIN .nmTS {margin-top: -15px;}
+#cover #top-stories {width: 996px; margin: 0 auto;}
+  .IE #cover #top-stories {clear:both;}
+  .IE #cover #top-stories .tsm {float:left;}
+#front #top-stories {width: 820px; margin: 0;}
+#front .container {background:none;}
+#front {background: url("../../../../../media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnbc-section-grid-bg2.jpg") no-repeat top center;}
+
+#cover #tab-box, #front #tab-box {clear: left; margin: 0; padding-top: 37px; width: 499px; float: left;}
+#cover #ad-showcase, #front #ad-showcase, #cover #adShowcase_F, #front #adShowcase_F { float: left; width: 300px; height: 340px; margin: 25px 0 0 20px; padding: 0; background: #FFF;}
+#cover #ad-promo-showcase, #front #ad-promo-showcase {margin-top: 16px !important;}
+#cover #ad-superbanner, #front #ad-superbanner {text-align: center;}
+#cover #ad-sponsored-links, #front #ad-sponsored-links, #story #ad-sponsored-links, #subSectionFront #ad-links {width: 820px; height: 120px;}
+#cover #sliderAd, #front #sliderAd, #cover #ad-slider, #front #ad-slider {text-align:center; background:#000;}
+
+#summaries {clear: both; margin: 0; padding: 30px 0 0 0;}
+  .IE #summaries {padding-top: 0; margin-top: 20px;}
+#cover .section-summary {margin: 0 0 30px 0; padding: 0; width: 832px;}
+#front .section-summary {margin-top: 30px;}
+
+/*GRID DASHBOARDS*/
+.dash {height: 85px; margin-top: 20px; background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/dash-border-std.gif') no-repeat 10px top; overflow: hidden;}
+.dash .inner-div {background-position: right -20px;}
+.dash #cell1 {background: none;}
+.dash .label-std {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/dash-label-bg-std.gif')  no-repeat; margin-right: 0; height: 60px; padding: 7px 10px 0 7px;}
+.dash .label-std .abstr {font-family: Tahoma, 'Lucida Grande', sans-serif; font-size: 60%;}
+.dash .label-std h5 a {font-size: 80%; font-weight: bold;}
+
+/*GRID OVERRIDES*/
+.Mac * { font-size: 99.9%; }
+#cover #content, #cover #top-stories, #front #content {font-size: 1.59em; text-align:left;}
+.tsm #label1, .tsm #label2, .tsm #label3, .tsm #label4, .tsm #label5, .tsm #label6 {background-color: transparent; width: auto !important; padding-bottom: 2px;}
+.grid h4 a, .grid h5 a {font-weight: normal;}
+.grid .content .breaking {background-color: #C44 !important; padding-bottom: 0 !important; height: 19px !important;}
+.grid .breaking a, .grid .breaking a:visited{border:none !important;}
+.grid .label a:visited {color: #147;}
+.grid .content .breaking a:visited {color: #FFF;}
+.ctrl1 a, .opt-size a {font-weight: normal;}
+
+#top-stories .tsm .lbl-cntdn a, #top-stories .tsm .lbl-2col a, #top-stories .tsm .lbl-3col a, #top-stories .tsm .lbl-4col a, #top-stories .tsm .lbl-5col a, #top-stories .tsm .lbl-6col a, #top-stories .lbl-custom a, #top-stories .lbl-custom-2col a, #top-stories .lbl-custom-3col a, #top-stories .lbl-custom-4col a, #top-stories .lbl-custom-5col a, #top-stories .lbl-custom-6col a {display: block; text-indent: -5000px}
+
+.sum {margin-bottom: 30px;}
+.sum .grid .label {background-color: #DDD; height: 1.8em; overflow:hidden; min-height:16px;}
+.sum .grid .w0-5 a {font-weight: normal;}
+.sum .grid .w1-5 .label {width: auto !important;}
+.sum {width: 820px; overflow:hidden;}
+.sum .box-hdr h2 a {color: #FFF;}
+.sum #cell1 .max {border-top: 1px dashed #AAA; padding-top: 10px;}
+.sum .sublabel-tease, .dash .sublabel-tease {padding-bottom: 5px;}
+.sum .source, .dash .source {font-family: 'Lucida Grande', Tahoma, sans-serif; font-size: 60%; padding-top: 3px;}
+.sum .nowrap, .dash .nowrap {display: table !important;}
+.sum-min #cell1 .abstr {display: none;}
+.sum-min .medmax, .sum-min .max, .sum-med .max  {display: none !important;}
+  .IE .sum .label, .IE .dash .label {width: auto !important;}
+  .IE .sum .w1-5 .img-thumb-m .text, .IE .dash .w1-5 .img-thumb-m .text {width: 236px;}
+  .IE .sum .grid {width: 820px;}
+.sum-thumbs .w1, .sum-thumbs .w2 {background: none;}
+.sum-thumbs .w1 .story {margin: 0 !important;}
+.sum-thumbs .y1 {height: 163px !important; border-bottom: none;}
+.sum-thumbs .y2, .sum-thumbs .y3 {border-bottom: none; border-top: 1px dashed #AAA; height: 123px !important; padding-top: 15px;}
+.sum-thumbs .y2 {top: 168px !important;}
+.sum-thumbs .y3 {top: 305px !important;}
+.sum-thumbs .y1 .story {margin-top: 15px !important;}
+.sum-thumbs .w1 .story .img, .sum-thumbs .w1 .story .text {margin: auto !important;}
+.sum-thumbs .w1 .story .img {width: 96px !important;}
+.sum-thumbs .w1 .story .text {width: 134px !important; text-align: center; padding-top: 7px !important;}
+  .IE .sum-thumbs .w1 {text-align: center;}
+  .IE .sum-thumbs .w1 .story .text {padding: 0;}
+ 
+  .Firefox .sum ul{margin-top:6px;}
+
+/*bevel*/
+#top-stories .label {border: none; background: transparent; white-space: nowrap; overflow: hidden; }
+#top-stories .sublabel {border-top: 1px solid #CCCCCC; background-color: #EEE;}   
+#top-stories .content {border-right: 1px solid #FFF;} 
+#top-stories .sR {border: none;}
+#top-stories .inner-div {border: none;}
+#top-stories .dash .label {border-left: 1px solid #FFF;}
+ 
+.tbx .tab .sublabel {border-bottom: 1px solid #CCC; margin: 15px 15px 0 10px; padding-left: 0;}  
+.tbx .tab .text .sublabel-tease, .tbx .tab .source, .sum-thumbs .source, .sum-thumbs .sublabel-tease {display: none;}
+.tbx .tab .label {height: auto; width: auto !important;}
+.tbx .tab .label-span-3 .label {width: 478px !important;}
+.IE .tbx .tab .label-span-3 .label{width:498px !important;}
+.tbx .tab .label-hide #label2, .tbx .tab .label-hide #label3 {height: 16px !important;}
+.tbx .tab .border-top-dashed {border-top: 1px dashed #AAA; padding: 10px 0 0 7px; margin-top: 25px;}
+.tbx .tab .label-span-2 .label{width: 200% !important;}
+.tbx .tab .img-thumb-s .icoUpd, .tbx .tab .img-thumb-s .icoNew, .sum .sublabel-tease .icoNew, .sum .sublabel-tease .icoUpd {display: none;}
+.row, .row-label-left {padding-bottom:10px;}
+  .Mac-Firefox .box-hdr .ctrl1{ margin-top: 7px; }
+  .Mac-Firefox div.tbx .box-hdr .ctrl1{ margin-top: 0; }
+
+#ssWrap .grid .span-2{width:302px !important;}
+.IE #ssWrap .grid .span-2{width:129.5% !important;}
+.IE #ssWrap .grid .span-3{width:300% !important;}
+
+/*NEWSTAB-------------------------------------*/
+div.tbx-content div.scroll #newstabweather.tab, div.tbx-content div.scroll #newstabmarket.tab, div.tbx-content div.scroll #newstabsports.tab,div.tbx-content div.scroll #newstablottery.tab, div.tbx-content div.scroll #newstabhoroscope.tab {height: auto !important;}
+div.scroll .tab {width: 100% !important;}
+div.scroll div#cell1, div.scroll div#cell2 {font-family: Arial, sans-serif; font-size: 100%;}
+div.scroll div#cell1 span.label1 {font-size: 90%; }
+div.scroll div#cell1 span.label1 a:link, div.scroll div#cell1 span.label1 a:visited {color: #6699CC;}
+div.scroll div#cell1 span.chnglink {display: inline; font-family: Arial, sans-serif; font-size: 110%; font-weight: normal;}
+div.scroll div#cell1 a.chng, div.scroll div#cell1 a.chng:visited {color: #369; display: inline;  font-family: Arial, sans-serif; font-size: 100%; text-decoration: underline;}
+div.scroll div#cell1 a:hover {color: #C00; text-decoration: underline;}
+div.scroll div#cell2 p {color: #666; font-size: 60%; line-height: 85%; padding-bottom: 6px;}
+span.lotdate {color: #999; font-size: 90%;}
+/*market section----------------------*/
+table.marchart {border-collapse: collapse; font-family: Arial, sans-serif; margin: 10px 0 10px 0; padding: 0; text-align: left; width: 97%; }
+table.marchart th {background-color: #DDD; color: #666; font-size: 60%; font-weight: bold; margin: 0; padding: 3px 8px 3px 8px; text-align: left; font-family: 'Lucida Grande', Tahoma;}
+table.marchart td {border-bottom: 1px solid #dfdfdf; color: #444; font-size: 80%; margin: 0; padding: 6px 8px 6px 8px;}
+table.marchart td a {font-weight: bold; border-bottom: 1px dotted #CCC;}
+table.marchart td.down {color: #C00;} 
+table.marchart td.up {color: #3C0;}
+table.marchart p {color: #3C0;}
+div#newstabmarket div.mktstory {padding: 0.8em 0;}
+div#newstabmarket div.mktstory p {color: #666; font-family: Tahoma,sans-serif; font-size: 70%; font-weight: bold;}
+/*sports section----------------------*/
+div.league {color: #666; margin-top: 10px; margin-bottom: 15px;}
+span.scoredate {color: #666; font-size: 60%;}
+span.leaguename {font-weight: bold; font-size: 100%;}
+div.league .noscores {color: #444; display: block; font-size: 80%; border-bottom: 1px solid #dfdfdf; padding-bottom: 3px;}
+table.scorebox {border-bottom: 1px solid #dfdfdf; font-family: Arial, sans-serif; margin: 0 0 10px 0; padding: 0; text-align: left; width: 97%;}
+table.scorebox td {color: #666; font-size: 80%; margin: 0; padding: 4px 0;}
+table.scorebox td.team {width: 150px;}
+table.scorebox td.score {width: 50px;} 
+table.scorebox td.team, table.scorebox td.team a:link, table.scorebox td.score {font-weight: normal;}
+table.scorebox td.status, table.scorebox td.links {color: #666;}
+table.scorebox td.links a:link, table.scorebox td.links a:visited, table.scorebox td.links a {color: red;}
+table.scorebox td.score.winner {font-weight: bold;}
+/*horoscope section----------------------*/
+div.scroll div#cell2 div.horoscope {min-height: 55px;}
+/*weather section-------------------------*/
+span.weatherlabel {font-weight: bold; color: #666; font-size: 80%; display: block; margin-top: 10px;}
+table.wealoc {font-family: Arial, sans-serif; margin: 0 0 10px 0; padding: 0; text-align: left; width: 97%;}
+table.wealoc td {border-bottom: 1px solid #e0e0e0; color: #666; font-family: Arial, sans-serif; font-size: 80%; margin: 0; padding: 3px 2px;}
+table.wealoc td.date {font-family: Arial, sans-serif;}
+table.wealoc td.condition img {width: 30px; height: 30px;}
+table.wealoc td.cond {text-transform: lowercase;}
+table.wealoc td.links a:link, table.wealoc td.links a:visited, table.wealoc td.links a {color: #6698cb;}
+/*all sections----------------------*/
+div.scroll div#cell2 table tr.tablehead {display: none;}
+div#newstablottery div, div#newstabhoroscope div {font-size: 80%; color: #444; padding: 7px 0 7px 0;}
+div#newstablottery div strong, div#newstabhoroscope div strong {font-weight: bold;}
+div#newstablottery {display: none;}
+div#newstabhoroscope {display: none;}
+div#newstabsports {display: none;}
+
+/*BIZ FRONT MY STOCKS TAB---------------------*//*add*/
+div.scroll .tab {width: 100% !important;}
+div.scroll div#cell1, div.scroll div#cell2 {font-family: Arial, sans-serif; font-size: 100%;}
+div.scroll div#cell1 span.label1 {font-size: 90%; }
+div.scroll div#cell1 span.label1 a:link, div.scroll div#cell1 span.label1 a:visited {color: #6699CC;}
+div.scroll div#cell1 span.chnglink {display: inline; font-family: Arial, sans-serif; font-size: 110%; font-weight: normal;}
+div.scroll div#cell1 a.chng, div.scroll div#cell1 a.chng:visited {color: #369; display: inline;  font-family: Arial, sans-serif; font-size: 100%; text-decoration: underline;}
+div.scroll div#cell1 a:hover {color: #C00; text-decoration: underline;}
+div.scroll div#cell2 p {color: #666; font-size: 60%; line-height: 85%; padding-bottom: 6px;}
+span.lotdate {color: #999; font-size: 90%;}
+/*market section----------------------*/
+table.marchart {border-collapse: collapse; font-family: Arial, sans-serif; margin: 10px 0 10px 0; padding: 0; text-align: left; width: 97%; }
+table.marchart th {background-color: #DDD; color: #666; font-size: 60%; font-weight: bold; margin: 0; padding: 3px 8px 3px 8px; text-align: left; font-family: 'Lucida Grande', Tahoma;}
+table.marchart td {border-bottom: 1px solid #dfdfdf; color: #444; font-size: 80%; margin: 0; padding: 6px 8px 6px 8px;}
+table.marchart td a {font-weight: bold; border-bottom: 1px dotted #CCC;}
+table.marchart td.down {color: #C00;} 
+table.marchart td.up {color: #3C0;}
+table.marchart p {color: #3C0;}
+/*partner box----------------------*/
+.tbx .tab .cbx .boxH_3053751 {display: none;}
+.tbx .tab .cbx .boxB_3053751 {background: none; border: none;}
+.tbx .tab .cbx .boxBI_3053751 {padding: 5px 0 0 0;}
+
+/*LOCAL NEWS + WEATHER-------------------------------------*/
+.grid .span-3 {width: 476px;}
+.grid .span-2 {width: 320px;}
+/*
+.grid .label-span {padding-top: 20px;}
+  .IE .grid .label-span {padding-top: 30px;}
+*/
+.grid .label-span #localH, .grid .label-span #localC {padding-top: 20px; }
+  .IE .grid .label-span .localH, .IE .grid .label-span .localC {padding-top: 30px; }
+.grid .label-span .label {position: absolute; top: 0; z-index: 1;}
+div.box-hdr .sub-hed a.chng:link {font-size: 80%; font-weight: normal; text-decoration: underline;}
+.fakelabel {border: 1px solid red; height: 20px; display: block; height: 20px;}
+.fakelabel .weathercom, .fakelabel .following {margin-top: 30px;}
+#grid_23283967 #label1 {width: 484px; height: auto !important; white-space: nowrap; z-index: 1; }
+  .IE #grid_23283967 #label1 {width: 504px; height: auto !important; white-space: nowrap;}
+#grid_23283967 #label3 {width: 312px; height: auto !important; z-index: 1;}
+  .IE #grid_23283967 #label3 {height: auto !important; width: 336px;}
+#grid_23283967 span#label2.hide, #grid_23283967 span#label4.hide {background: url('wb_front_cover_core.css');}
+.Safari #grid_23283967 span#label2.hide, .Safari #grid_23283967 span#label4.hide {background: none;}
+.IE-6 #grid_23283967 span#label2.hide, .IE-6 #grid_23283967 span#label4.hide {background: inherit;}
+/*production slabel work*/
+.IE-7 #grid_23283967 #label1.span-3 {padding-left: 5px; padding-right: 160px;}
+#grid_23283967 #label1.span-3{width: 477px; }
+/*---------------no cookie----------------------*/
+.nocookie a, .nocookie a:link, .nocookie a:visited {border-bottom: 1px dotted #AAA; color: #AAA; text-decoration: none;}
+.nocookie a:hover, .nocookie .story h6 a:hover {border: 0 !important; color: #999; text-decoration: underline !important;}
+.IE-6 .nocookie a {border-bottom: 0; background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/dots.gif') repeat-x bottom; text-decoration: none;}
+/*-----------------weather graphics--------------------*/
+.weatherreport {margin-top: 5px !important;}
+.weatherreport .condition {color: #999; float: left; font-size: 0.75em; font-weight: bold; line-height: 1.1em; margin: 0 3px 3px 3px; padding: 0 2px 2px 2px; text-align: center; width: 64px; height: auto;}
+.weatherreport #weacomlogo {background: none; border: 0; padding: 2px; width: auto; height: auto;}
+.weatherreport .condition span.date {font-family: Arial, sans-serif; font-size: 95%; display: block;}
+.weatherreport .condition img {height: auto; margin: 0 auto; padding: 0; text-align: center; width: 48px; height: 48px;}
+.weatherreport .condition img#wealogo {margin: 14px 0 0 1px; padding: 0; width: 64px; height: 61px; text-align:center;}
+.weatherreport .condition span.temps, .weatherreport .condition span.icon {font-family: Arial, sans-serif; display: block; font-weight: normal;}
+.weatherreport .condition span.icon {color: #6699cc; font-size: 80%; line-height: 90%; padding: 3px; min-height: 36px; min-width: 36px; overflow: hidden;}
+/*------------------supplemental links-------------------*/
+.weathercom {color: #777;}
+.weathercom .story h6 {font-weight: normal;}
+/*---------------zip search box----------------------*/
+div#LNWzipsearch {display: none;}
+div#LNWzipsearch form {background: url('../../../../../media4.s-nbcnews.com/i/msnbc/Components/CSS/img/LNWzipform2.gif') top left no-repeat; margin: 8px 0 0 10px; padding: 0; width: 155px; height: 70px;}
+.Opera div#LNWzipsearch form, .Safari div#LNWzipsearch form {margin-top: 8px;}
+div#LNWzipsearch form fieldset {border: 0; margin: 0; padding: 3px 14px 0 0; height: 60px; width: 155px;}
+.Safari div#LNWzipsearch form fieldset, .Opera div#LNWzipsearch form fieldset {padding: 6px 18px 0 0;}
+div#LNWzipsearch form div {margin: 0; padding: 6px 0 0 4px; width: 100%; height: 60px;}
+.IE div#LNWzipsearch form div {padding-left: 4px;}
+div#LNWzipsearch form div.caption {background: none; clear: both; height: 16px; font-size: 70%; line-height: 75%; margin: 0 0 0 5px; padding: 0; text-align: center; width: 85%;white-space:nowrap;}
+.IE div#LNWzipsearch form div.caption {padding-left: 12px;}
+.Safari.Mac div#LNWzipsearch form div.caption {padding-top: 3px;}
+div#LNWzipsearch form div.caption a {border-bottom: 0; color: #6699cc; text-decoration: underline;}
+div#LNWzipsearch form div.caption a:hover {border-bottom: 0;}
+div#LNWzipsearch form label {display: none;}
+div#LNWzipsearch form input#txtZip {background: #FFF url('../../../../../media2.s-nbcnews.com/i/msnbc/Components/CSS/img/formbox_inputfade.gif') top right repeat-y; border: 1px solid #999; border-right: 0; color: #999; display: inline; float: left; font-size: 14px; margin: 2px 0 0 6px; padding: 2px; width: 85px; height: 22px;}
+.IE div#LNWzipsearch form input#txtZip {margin-top: 2px; padding-left: 4px;}
+.IE-6 div#LNWzipsearch form input#txtZip {width: 90px;}
+/*tQSZip version*/
+div#LNWzipsearch form input#tQSZip {background: #FFF url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/formbox_inputfade.gif') top right repeat-y; border: 1px solid #999; border-right: 0; color: #999; display: inline; float: left; font-size: 14px; margin: 2px 0 0 6px; padding: 2px; width: 85px; height: 22px;}
+.IE div#LNWzipsearch form input#tQSZip {margin-top: 2px; padding-left: 4px;}
+.IE-6 div#LNWzipsearch form input#tQSZip {width: 90px;}
+div#LNWzipsearch form button#ZipSubmit {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/formbox_submitfade.gif') left; border: 1px solid #999; border-left: 0; font-size: 14px; display: inline; float: left; margin: 2px 0 0 0; padding: 1px 0 2px 0; width: 30px; height: 22px;}
+.Mac-Safari div#LNWzipsearch form input#tQSZip {font-size: 10px; height: auto !important; width: 89px !important;}
+.Mac-Safari div#LNWzipsearch form button#ZipSubmit {font-size: 10px; height: auto !important; width: 30px !important; text-align: center;}
+
+/*MARKET TICKER-------------------------------*/
+div.marketticker {background: url('../../../../../media4.s-nbcnews.com/i/msnbc/Components/CSS/img/1px-dash-999.gif') top left repeat-x; display: block; font-size: 70%; margin: 5px 0 15px auto; padding: 15px 0 0 10px; text-align: center; width: 820px; height: 10px; z-index: 5;}
+#front div.marketticker {margin-top: 15px;}
+div.marketticker .col1 {float:left; text-align:left; width: 166px;}
+div.marketticker span.label {display: inline; color: #666; font-family:Georgia,serif; font-size:140%; font-weight:bold; padding-top:5px;}
+div.marketticker span.sponsored {margin-left: 3px; vertical-align: middle;}
+div.marketticker a.sponsor {padding: 3px 5px 0 0;}
+div.marketticker img {vertical-align: bottom;}
+div.marketticker .index {float: left; margin-right: 10px; margin-top: -15px; padding: 20px 55px 5px 0; text-align: left; z-index: 20;}
+.IE div.marketticker .index {position: inherit; top: -2px; padding-top: 20px; margin-right: 8px;}
+.IE-7 div.marketticker .index {padding-top: 25px;}
+.IE-6 div.marketticker .index {top: -0px;}
+div.marketticker span.symbol {display: block; font-size: 130%; font-weight: bold; margin-top: -5px; padding: 0; text-align: left;}
+.IE-6 div.marketticker span.symbol {margin-top: -12px;}
+div.marketticker span.symbol a {color: #369;}
+div.marketticker .change {color: #666; display: inline; font-size: 130%; font-weight: bold; text-align: left;}
+div.marketticker .down {background: url('wb_front_cover_core.css') left no-repeat; color: #cc6666; padding: 0;} 
+div.marketticker .up {background: url('wb_front_cover_core.css') left no-repeat; color: #393; padding: 0;}
+div.marketticker span.last {color: #666; display: inline; padding-left: 4px; text-align: left;}
+div.marketticker .percentage {font-size: 12px; font-weight: normal; padding-left: 6px;}
+div.marketticker form {display: inline; float: left; margin-top: 8px; width: 134px;}
+.IE-6 div.marketticker form {margin-left: -3px;}
+div.marketticker form input#symbol {color: #999; 
+ background: #FFF url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/formbox_inputfade.gif') top right repeat-y; 
+ border: 1px solid #999; border-right: 0; display: inline; font-size: 9px; margin: 0; padding: 4px 0 4px 4px; width: 74px; height: 24px; z-index: 20;}
+.IE div.marketticker form input#symbol {font-size: 11px; padding-top: 5px;}
+.IE div.marketticker form button#quotesubmit {font-size: 11px;}
+.Opera div.marketticker form button#quotesubmit {padding-top: -5px;}
+div.marketticker form button#quotesubmit {background: url('../../../../../media3.s-nbcnews.com/i/msnbc/Components/CSS/img/formbox_submitfade.gif') left; 
+ border: 1px solid #999; border-left: 0; color: #07519A; font-size: 9px; display: inline; margin-left: 0; padding: 3px 3px; width: 60px; height: 24px; z-index: 20;}
+.Mozilla div.marketticker form button#quotesubmit {margin-top: 3px;}
+.Firefox div.marketticker form input#symbol, .Firefox div.marketticker form button#quotesubmit  {height: auto;}
+.IE6 div.marketticker form button#quotesubmit {margin-left: -1px;}
+
+/*WEATHER BADGE AND MASTER BADGES DEFINITIONS MOVED TO GLOBAL_CORE.CSS*/
+/*MARKET BADGE-------------------------------*/
+div.marketbadge {display: inline; font-size: 120%; position: relative; width: auto; z-index: 20; margin-left: -10px; left: -5px;}
+div.marketbadge span {display: inline;}
+div.marketbadge .symbol {display: inline; font-size: 120%; font-weight: bold; margin-right: -5px; text-align: right; width: 180px; color: #666; }
+div.marketbadge .mktup {color: #2e9e3c; font-weight: bold; margin-left: -15px;}
+div.marketbadge .mktdown {color: #C66; font-weight: bold; margin-left: -20px;}
+div.marketbadge .mktunch {color: #2e9ecc; font-weight: bold; margin-left: -15px;}
+div.marketbadge .mktup {display: inline; padding-bottom: 11px; padding-left: 80px; padding-top: 25px; z-index: 20; text-align: right;}
+div.marketbadge .mktdown {display: inline; padding-bottom: 11px; padding-left: 80px; padding-top: 25px; z-index: 20; text-align: right;}
+div.marketbadge .mktunch {display: inline; padding-bottom: 11px; padding-left: 80px; padding-top: 25px; z-index: 20; text-align: right;}
+div.marketbadge .last { padding-left: 10px; }
+div.marketbadge .marketlink a {display: inline; font-size: 90%; font-weight: bold; padding-bottom: 0; padding-left: 10px; padding-right: 10px; color: #147; }
+.Opera div.marketbadge .marketlink a {font-size: 100%;}
+.IE-6 div.marketbadge { left: 0; }
+.IE-6 div.marketbadge span { padding-bottom: 5px; }
+.IE-6 div.marketbadge .last { position: relative; bottom: 5px; }
+.IE-6 div.marketbadge .marketlink a { position: relative; bottom: 5px; }
+.IE div.marketbadge {padding: 35px 0 15px 0; margin-top: -35px; width: 420px; z-index: 20;}
+.IE div.marketbadge .symbol {width: auto; display: inline-block;}
+.IE-6 div.marketbadge {margin-top: 0; padding-top: 0; padding-bottom: 2px; top: -18px; }
+.IE div.marketbadge .mktdown .arrowdown {position: relative; top: 1px; white-space: nowrap; }
+.IE-6 div.marketbadge .mktdown .arrowdown {padding-top: 27px; top: 0;padding-bottom: 6px; }
+.IE div.marketbadge .mktup .arrowup {position: relative; top: 1px; white-space: nowrap; }
+.IE-6 div.marketbadge .mktup .arrowup {padding-top: 27px; top: 0;padding-bottom: 6px; }
+.IE div.marketbadge .mktunch .arrowunch {position: relative; top: 1px; white-space: nowrap; }
+.IE-6 div.marketbadge .mktunch .arrowunch {padding-top: 27px; top: 0;padding-bottom: 6px; }
+/*-----------market badge / market ticker 2.0 PNGS-----------*/
+div.marketbadge span.arrowup, div#mkt-tickr .arrowup {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-up.png') no-repeat bottom left; background-repeat: no-repeat;}
+div.marketbadge span.arrowdown, div#mkt-tickr .arrowdown {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-down.png') no-repeat bottom left; background-repeat: no-repeat;} 
+div.marketbadge span.arrowunch, div#mkt-tickr .arrowunch {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-nochange.png') no-repeat bottom left; background-repeat: no-repeat;}
+/*slices 2.0 modifications*/
+.IE-6 div.marketbadge span.arrowup {background-image: none; height: 1px; width: 170px; padding: 30px 0 5px 0; text-align: right; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-up.png', sizingMethod='crop');}
+.IE-6 div.marketbadge span.arrowdown {background-image: none; height: 1px; width: 170px; padding: 30px 0 5px 0; text-align: right; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-down.png', sizingMethod='crop');}
+.IE-6 div.marketbadge span.arrowunch {background-image: none; height: 1px; width: 170px; padding: 30px 0 5px 0; text-align: right; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-nochange.png', sizingMethod='crop');}
+.IE-6 div#mkt-tickr .arrowup {text-align: left; background-image: none; height: 1px; width: 160px; padding: 30px 0 5px 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-up3.png', sizingMethod='crop');}
+.IE-6 div#mkt-tickr .arrowdown {text-align: left; background-image: none; height: 1px; width: 160px; padding: 30px 0 5px 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-down3.png', sizingMethod='crop');}
+.IE-6 div#mkt-tickr .arrowunch {text-align: left; background-image: none; height: 1px; width: 160px; padding: 30px 0 5px 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-nochange3.png', sizingMethod='crop');}
+div#mkt-tickr .arrowup, div#mkt-tickr .arrowdown, div#mkt-tickr .arrowunch {background-position: bottom right;}
+/*-----------Cover TSM financial crisis market ticker-----------*/
+div#mkt-tickr_tsm .arrowup {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-up.png') no-repeat bottom left; background-repeat: no-repeat;}
+div#mkt-tickr_tsm .arrowdown {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-down.png') no-repeat bottom left; background-repeat: no-repeat;}
+div#mkt-tickr_tsm .arrowunch {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-nochange.png') no-repeat bottom left; background-repeat: no-repeat;}
+.IE-6 div#mkt-tickr_tsm .arrowup {text-align: left; background-image: none; height: 1px; width: 160px; padding: 30px 0 5px 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-up3.png', sizingMethod='crop');}
+.IE-6 div#mkt-tickr_tsm .arrowdown {text-align: left; background-image: none; height: 1px; width: 160px; padding: 30px 0 5px 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-down3.png', sizingMethod='crop');}
+.IE-6 div#mkt-tickr_tsm .arrowunch {text-align: left; background-image: none; height: 1px; width: 160px; padding: 30px 0 5px 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/djia-nochange3.png', sizingMethod='crop');}
+div#mkt-tickr_tsm .arrowup, div#mkt-tickr_tsm .arrowdown, div#mkt-tickr_tsm .arrowunch {background-position: bottom right;}
+#mkt-tickr_tsm.marketticker {width: 996px; height: 50px; margin-bottom:0 !important;}
+#mkt-tickr_tsm.marketticker form {float: right; margin-right: 5px; width: 204px;}
+#mkt-tickr_tsm.marketticker form input#symbol {width:144px;}
+#mkt-tickr_tsm.marketticker .index {margin: -15px 10px 0 15px}
+.safari #mkt-tickr_tsm.marketticker {margin-top: 20px;}
+/*-----------Cover TSM financial crisis market ticker v2-----------*/
+div#mkt-tickr_tsm .arrowup {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/left-djia-up.png') no-repeat bottom left; background-repeat: no-repeat;}
+div#mkt-tickr_tsm .arrowdown {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/left-djia-down.png') no-repeat bottom left; background-repeat: no-repeat;}
+div#mkt-tickr_tsm .arrowunch {background: url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/left-djia-nochange.png') no-repeat bottom left; background-repeat: no-repeat;}
+
+.IE-6 div#mkt-tickr_tsm .arrowup {text-align: left; background-image: none; height: 1px; width: 160px; padding: 15px 0 5px 37px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/left-djia-up.png', sizingMethod='crop');}
+.IE-6 div#mkt-tickr_tsm .arrowdown {text-align: left; background-image: none; height: 1px; width: 160px; padding: 15px 0 5px 37px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/left-djia-down.png', sizingMethod='crop');}
+.IE-6 div#mkt-tickr_tsm .arrowunch {text-align: left; background-image: none; height: 1px; width: 160px; padding: 15px 0 5px 37px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/CSS/img/left-djia-nochange.png', sizingMethod='crop');}
+
+div#mkt-tickr_tsm .arrowup, div#mkt-tickr_tsm .arrowdown, div#mkt-tickr_tsm .arrowunch {background-position: top left;}
+div#mkt-tickr_tsm div.index span.change, div#mkt-tickr_tsm div.index span.percentage {color: #666; display: inline; font-size: 12px; text-align: left; white-space: nowrap;}
+div#mkt-tickr_tsm div.index span.change {font-size: 14px; font-weight: bold; padding-right: 12px;}
+div#mkt-tickr_tsm div.index div.last .nums {padding-left: 5px; font-size: 12px;}
+#mkt-tickr_tsm.marketticker form {margin-right: 13px; width: 155px;}
+#mkt-tickr_tsm.marketticker form input#symbol {width: 75px;}
+div#mkt-tickr_tsm.marketticker .index {margin: 0px 50px 0px 0px; padding-left: 55px;}
+div#mkt-tickr_tsm.marketticker .end {margin-right: 10px;}
+div#mkt-tickr_tsm .index {padding: 3px 0px 5px 0pt; text-align:left; z-index:20;}
+div#mkt-tickr_tsm div.index span.down {color: #cc6666;} 
+div#mkt-tickr_tsm div.index span.up {color: #393;}
+/*sponsorship and disclaimer additions 1/09/09*/
+div.marketticker form {margin-top: 2px; margin-left: 5px;}
+div.marketticker span.sponsored {display: block; margin-left: 0px;}
+.marketticker div.disclaimer {display: block; text-align: left; margin: 3px 10px 0 0;}
+div.marketticker div.disclaimer2 {display: block; font-size: 10px; margin-top: 5px; text-align: center;}
+div.marketticker div.disclaimer2 a {white-space: nowrap; color: #6699CC;}
+
+/*ADS*/
+#sliderAd{width:980px; margin: 0 auto; position:relative; background:transparent; padding:0px 0;}
+#sliderAdHolder{text-align:center; position:relative;  background:#727064 url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/hdr-ad-bg.gif') bottom center repeat-x;}
+/*  
+commenting out this height hack based on reports from Unicast -- testing effect but could add it back.
+.Win-Safari #sliderAd div div, .Opera #sliderAd div div, .Firefox #sliderAd div div{background:transparent !important; height:35px  !important;}*/
+
+  .IE #sliderAd div div{height:30px;} /*Seems to cause expander to not appear*/
+/*#sliderAd img{margin:5px 0 !important; visibility:hidden !important;}*/
+#sliderAd a img{visibility:visible !important;}
+  /*.IE #sliderAd{padding:5px 0; top:5px;}causes white space on fronts with no ads.  overridden with a funky fresh js command.*/
+#AdBanner_F1 {text-align: center; width: 820px; margin: -10px 0 20px 0;}
+  .Mac #AdBanner_F1 {font-size:9px;}
+#AdBanner_F1 .adbar {padding-top: 0;}
+
+
+#ad-front-footer{ width: 830px; height: 380px; }
+
+#ad-front-footer h6 { border-bottom:1px solid #999999; color:#999999; display:block; font-weight: bold; font-size: 100%; margin-bottom:15px; padding:0pt 0pt 7px 10px; }
+
+#ad-front-footer #ad-front-sponsoredlinks { float:left; width:332px; }
+
+#ad-front-footer #ad-front-sponsoredlinks h6 { width:320px; }
+
+#ad-front-footer #ad-front-resourceguide { float:right; width:480px; }
+
+#ad-front-footer #ad-front-resourceguide h6 { width:460px; }
+#ad-front-footer #ad-front-resourceguide #front-resourceguide-wrapper { float:left; width:332px; }
+#ad-front-footer #ad-front-resourceguide #front-resourceguide-col1 { float:left; text-align:center; width:166px; }
+#ad-front-footer #ad-front-resourceguide #front-resourceguide-col2 { float:right; text-align:center; width:166px; }
+#ad-front-footer #ad-front-resourceguide #front-resourceguide-shopping { float:right; width:140px; }
+
+#ad-front-footer #ad-front-resourceguide #front-resourceguide-wrapper p {font-family: Arial, sans-serif; font-weight: normal; font-size: 11px; margin: 5px 0 16px 0;}
+#ad-front-footer #ad-front-resourceguide #front-resourceguide-wrapper p a, #ad-front-footer #ad-front-resourceguide #front-resourceguide-wrapper p a:visited {color: #393; font-weight: normal; text-decoration: none;}
+#ad-front-footer #ad-front-resourceguide #front-resourceguide-wrapper p a:hover {text-decoration: underline;}
+
+#ad-front-footer .listing {background: transparent; border: none; line-height: 1.5;}
+#ad-front-footer .listing p {line-height:1.4; margin-bottom:8px;}
+#ad-front-footer .listing_title {font-size: 100%;}
+
+/*Alpha Channel cover tease*/
+.slc-mini {position: relative; width: 820px; margin-bottom: 20px;}
+.slc-mini h2 {font-weight: bold; color: #999; padding-left: 10px; font-family: Arial, sans-serif;}
+#slc-alpha {height: 80px; background: transparent url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/Blogs/Alpha/alpha-tz-bg.jpg') no-repeat 0 27px;}
+#slc-alpha li {float: left;}
+#slc-alpha .author {width: 156px; margin-right: 20px; font-family: "Lucida Grande", Tahoma, sans-serif; font-size: 60%; font-weight: bold;}
+#slc-alpha .author p {width: 45px; float: right;}
+#slc-alpha .author img {float: left;}
+#slc-alpha .author p, #slc-alpha .post {padding-top: 20px;}
+#slc-alpha .post {width: 630px;}
+#slc-alpha .post h4 a {font-family: Georgia, serif; font-size: 110%; font-weight: normal; color: #147;}
+#slc-alpha .post h4 a:hover, #slc-alpha .post p a:hover {color: #C00; border-bottom: 1px solid #C00; text-decoration: none;}
+#slc-alpha .post p {font-size: 70%; color: #444; margin-top: 3px;}
+#slc-alpha .post p a {color: #147; border-bottom: 1px dotted #CCC;}
+#slc-alpha .tz-img {position: absolute; right: 10px; margin-top: -3px;}
+
+/*COPY-PASTE FONT FIX*/
+a font {color: #147;}
+a:hover font {color: #C00;}
+#ssWrap #cell4 a font {color: #C00; font-weight: bold;}
+
+/*Slicelets*/
+.slicelet {background: #FFF url(../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/1px-dash-999.gif) repeat-x left top; margin-top: 5px; padding: 8px 10px 0 10px;}
+.IE-6 .slicelet {margin-top: 15px; position: relative;}
+.slicelet .grid {height: 60px; margin-top: 0;}
+.slicelet .labelet {float: left; margin-top: 10px; width: 160px;}
+.slicelet .contentlet {float: left; margin-top: 10px; width: 630px;}
+.slicelet .labelet h4 {color: #666;}
+.slicelet .contentlet span.abstr {display: inline; font-size: 70%; padding-left: 2px;}
+.sum-min .slicelet #cell1 .abstr {display: inline;}
+/*Oscars 08 Slicelet*/
+#oscarslicelet .grid {height: 60px;}
+#oscarslicelet .oscar-news-head {background: transparent url('../../../../../media1.s-nbcnews.com/i/msnbc/Components/ArtAndPhoto-Fronts/ENTERTAINMENT/Projects/08_Oscars/oscarSliceSlanted4.png') top left no-repeat; float:left; position: relative; margin: -10px 0pt 0pt 0pt; color:#666; width: 160px; height: 60px;}
+.IE-6 #oscarslicelet .oscar-news-head {background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/msnbc/Components/ArtAndPhoto-Fronts/ENTERTAINMENT/Projects/08_Oscars/oscarSliceSlanted4.png', sizingMethod='crop');}
+#oscarslicelet .oscar-img {position:relative; left: 20px; top:-40px;}
+#oscarslicelet .oscar-chatter {position:relative; left:10px; margin-top:10px;}
+#oscarslicelet .oscar-chatter span.abstr {display: inline; font-size: 70%; padding-left: 2px;}
+#oscarslicelet .oscar-news-head h4 {padding-top: 20px; color: #666;}
+/*NBCSports Slicelet*/
+#nbcsportslet .grid {height: 70px; margin-top: 5px;}
+#nbcsportslet .labelet {background: transparent url('../../../../../media1.s-nbcnews.com/i/msnbc/Templates/z_samples/zJulie/Slicelet_Mugs_NBCSports.gif') left no-repeat; height: 70px; position: relative; top: -25px; width: 280px;}
+#nbcsportslet .contentlet {width: 480px;}
+
+/* 4 Sponsored Links, 1 Advertorial. Uses grid # 24164197 & slice doc #24241757 */
+.adSpot_01 .box-hdr h2 {color:#999; font-weight:bold;}
+.adSpot_01 .box-hdr h2 span.sub-hed2{font-size:100%; font-weight:bold; position:relative; left:375px}
+.adSpot_01 .grid .label {font-size:70%;}
+.adSpot_01 .grid .label a, .adSpot_01 .grid .label a:visited{color:#69c;}
+.adSpot_01 .grid .label {background:#FFF;}
+.adSpot_01 .grid #cell5 .label a, .adSpot_01 .grid #cell5 .label a:visited {color:#393;} 
+.adSpot_01 .grid #cell5 .label a:hover {color:#C00; text-decoration:underline;} 
+.adSpot_01 .grid #cell5.content a, .adSpot_01 .grid #cell5.content a:visited {color:#393;}
+.adSpot_01 .grid #cell1 .label, .adSpot_01 .grid #cell2 .label, 
+.adSpot_01 .grid #cell3 .label{border-right:1px solid #ccc;}
+.adSpot_01 .grid .label{border-top: 1px solid #ccc;}
+.adSpot_01 .grid #cell4 .label{margin-right:15px;}
+.adSpot_01 .content#cell1, .adSpot_01 .content#cell2, 
+.adSpot_01 .content#cell3, .adSpot_01 .content#cell4 {background: transparent url(../../../../../media3.s-nbcnews.com/i/msnbc/Components/CSS/img/grid-border-fade.gif) no-repeat scroll right bottom;}
+.adSpot_01 .ssBody {background:none;}
+.adSpot_01 .box-hdr{background:none; border:none;}
+
+/*5 Sponsored Links. Uses grid #24239036 & slice doc #24162562 */
+.sponsorSlice .box-hdr h2 {color:#999; font-weight:bold;}
+.sponsorSlice .box-hdr h2 span.sub-hed2{display:none;}
+.sponsorSlice .grid .label {font-size:70%;}
+.sponsorSlice .grid .label a, .sponsorSlice .grid .label a:visited{color:#69c;} 
+.sponsorSlice .grid .label a:hover {color:#c00; text-decoration:underline;}
+.sponsorSlice .grid .label {background:#FFF;}
+.sponsorSlice .grid #cell1 .label, .sponsorSlice .grid #cell2 .label, .sponsorSlice .grid #cell3 .label, .sponsorSlice .grid #cell4 .label{border-right: 1px solid #ccc; border-top:1px solid #ccc;}
+.sponsorSlice .grid #cell5 .label{border-top:1px solid #ccc;} 
+.sponsorSlice .content#cell1, .sponsorSlice .content#cell2, .sponsorSlice.content#cell3, .sponsorSlice .content#cell4 {background: transparent url(../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/grid-border-fade.gif) no-repeat scroll right bottom;}
+.sponsorSlice .ssBody {background:none}
+.sponsorSlice .box-hdr{background:none; border:none;}
+
+/* 3 Sponsored links, 2 Advertorials.  Uses grid #24242600 & slice doc #24241758 */
+.adSpot_02 .box-hdr h2 {color:#999; font-weight:bold;}
+.adSpot_02 .box-hdr h2 span.sub-hed2{color:#999; font-size:100%; font-weight:bold; position:relative; left:210px}
+.adSpot_02 .grid .label {font-size:70%;}
+.adSpot_02 .grid .label a, .adSpot_02 .grid .label a:visited{color:#69c;}
+.adSpot_02 .grid .label {background:#FFF;}
+.adSpot_02 .grid #cell5 .label a, .adSpot_02 .grid #cell4 .label a,
+.adSpot_02 .grid #cell5 .label a:visited, .adSpot_02 .grid #cell4 .label a:visited {color:#393;} 
+.adSpot_02 .grid #cell5 .label a:hover .adSpot_02 .grid #cell4 .label a:hover {color:#C00; text-decoration:underline;} 
+.adSpot_02 .grid #cell1 .label, .adSpot_02 .grid #cell2 .label, .adSpot_02 .grid #cell4 .label{border-right:1px solid #ccc;}
+.adSpot_02 .grid .label{border-top: 1px solid #ccc;}
+.adSpot_02 .grid #cell3 .label{margin-right:15px;}
+.adSpot_02 #cell1, .adSpot_02 #cell2, 
+.adSpot_02 #cell3, .adSpot_02 #cell4 {background: transparent url(../../../../../media1.s-nbcnews.com/i/msnbc/Components/CSS/img/grid-border-fade.gif) no-repeat scroll right bottom;}
+.adSpot_02 .grid #cell4.content a, .adSpot_02 .grid #cell4.content a:visited {color:#393;}
+.adSpot_02 .grid #cell5.content a, .adSpot_02 .grid #cell5.content a:visited {color:#393;}
+.adSpot_02 .ssBody {background:none;}
+.adSpot_02 .box-hdr{background:none; border:none;}
+/*display correction*/
+#spotlight .sum {display: block;}
+#spotlight .std {height: 200px !important;}
+
+
+/* Advertise | Adchoices */
+.ad-label {clear:both;float:none !important;display:block;height:10px;overflow:hidden;color:#848484;text-align:center;text-transform:capitalize;}
+.ad-label, .ad-label a, .ad .ad-label a, .ad-label a.mediakit, .ad-label a.adchoices {font-family:arial,helvetica,verdana,sans-serif;font-size:10px;font-weight:normal !important;line-height:9px !important;text-decoration:none !important;border:0;}
+.ad-break .ad-label {margin-bottom:10px;padding-bottom:3px;border-bottom:1px solid #CCC;}
+.ad-label .adchoices {display:inline;padding:0 10px 0 3px;background:transparent url("../../../../../media1.s-nbcnews.com/i/MSNBC/SiteManagement/Ads/Custom Solutions/AdChoices/adchoices-blue4.png") no-repeat right center;}
+* html .ad-label .adchoices {background-image:url("../../../../../media1.s-nbcnews.com/i/MSNBC/SiteManagement/Ads/Custom Solutions/AdChoices/adchoices-blue4.gif");}
+.ad-label a.mediakit {display:inline;padding:0 3px 0 0;color:#69C;}
+.ad-label a.adchoices {color:#69C;}
+.ad-label a:hover, .ad-label a:visited, .ad-label a.adchoices:hover, .ad-label a.mediakit:hover {color:#369;}

@@ -1,0 +1,461 @@
+@media only screen and (device-width: 768px) and (orientation:portrait) { 	
+	.inside .decor {
+		display: none;
+	}
+	
+	.inside .box {
+		margin: 0 0 10px 0;
+	}
+	
+	.inside h3 {
+		padding-left: 5px;
+	}
+	
+	.inside .fake-content {
+		left: 5px;
+	}
+	
+	.inside .plain {
+		padding-left: 5px;
+	}
+}
+
+/* Small-screen & smartphones (portrait and landscape) */
+@media screen and (min-width : 320px) and (max-width : 480px),
+        screen and (-webkit-device-pixel-ratio : 2) and (max-width : 640px) and (orientation : landscape),
+        screen and (-webkit-device-pixel-ratio : 2) and (max-width : 360px) and (orientation : portrait),
+        screen and (-webkit-device-pixel-ratio : 1.5) and (max-width : 640px) and (orientation : landscape),
+        screen and (-o-device-pixel-ratio : 3/2) and (max-width : 640px) and (orientation : landscape) {
+	
+	body #constrain {
+        min-width:90%;
+        overflow:hidden;
+		padding:0;
+    }
+
+    /* Remove survey banner */
+
+	div.global-message {
+		display: none;
+	}
+
+	
+	.cruft, #explore .top, .base {
+		display: none;
+	}
+	.research-explore {
+		background: none;
+	}
+	
+	.nature-journal {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.nature-journal li.cover-link {
+		width: 149px;
+		float: left;
+		border-right: #FFFFFF solid 5px;
+	}
+	
+	.nature-journal .plain {
+		height: 185px;
+	}
+
+	.nature-journal .plain li.current {
+		height: 20px;
+		margin: 5px 0 15px 155px;
+		padding-top: 10px;
+		background: #EEDFCA;
+	}
+	
+	ul.plain li {
+		font-size: 75%;
+	}
+	
+	.nature-journal .compact {
+		width: 40%;
+		margin-bottom: 20px;
+		margin-left: 1px;
+	}
+	
+	
+	.journal-feature {
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	#research {
+		float: none;
+		padding-bottom: 0px !important;
+		width: 95%;
+		margin: 0 auto;
+	}
+	
+	
+	.standard, .research h2, .inside h2, .explore h2, .nature-journal h2, .news h2  {
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		background-image: none;
+	}
+	
+	.standard, .inside h2  {
+		background: #816b48;
+		background: -webkit-gradient(linear, 0 0, 0 30, from(#97866d), to(#816b48));
+		background :-moz-linear-gradient(top, #97866d, #816b48 30px);
+	}
+	
+	.research h2 {
+		background: #002c01;
+		background: -webkit-gradient(linear, 0 0, 0 30, from(#005506), to(#002c01));
+		background :-moz-linear-gradient(top, #005506, #002c01 30px);
+	}
+	
+	.explore h2, .nature-journal h2 {
+		background: #811100;
+		background: -webkit-gradient(linear, 0 0, 0 30, from(#a41b22), to(#811100));
+		background :-moz-linear-gradient(top, #a41b22, #811100 30px);
+	}
+	
+	.news h2 {
+		background: #001d61;
+		background: -webkit-gradient(linear, 0 0, 0 30, from(#003f80), to(#001d61));
+		background :-moz-linear-gradient(top, #003f80, #001d61 30px);
+	}
+
+	.standard span, .research h2 span, .explore h2 span, .nature-journal h2 span, .news h2 span{
+		background-image: none;
+	}
+	
+	#explore {
+		width: 95%;
+	}
+	
+	.standard {
+		width: 100%;
+	}
+	
+	#research .special-feature p {
+		float: none;
+	}
+	
+	.special-feature h3 img {
+		top: 40px;
+	}
+	
+	.news {
+		width: 100%;
+		float: none;
+		padding: 0;
+		margin: 0 auto;
+		background: none;
+	}
+	
+	.news .todays-feature h3 {
+		background: none;
+	}
+	
+	.news .todays-feature, .news .latest-news {
+		padding-left: 0;
+	}
+	.news .todays-feature span {
+		display:none;
+	}
+	
+	
+	body.mobile-home #extranav {
+		display: inline-block;
+		float: none;
+		width: 95% !important;
+		margin: 0 8px;
+	}
+	
+	.inside .decor {
+		display: none;
+	}
+	
+	.inside .box {
+		margin: 0 0 10px 0;
+	}
+	
+	.inside h3 {
+		padding-left: 5px;
+	}
+	
+	.inside .fake-content {
+		left: 5px;
+	}
+	
+	.inside .plain {
+		padding-left: 5px;
+	}
+	
+	body #ftr .footer-inner {
+		padding: 0;
+		background: white url(/common/images/footer_bg.png) repeat-x 0 0;
+	}
+
+	
+	body #content {
+	    width: auto;
+	    border: 0;
+	}
+	
+	/* FOOTER */
+	
+	
+	#ftr .search-form {
+		height: 25px;
+	    margin: 0;
+	    width: 96%;
+		float:left;
+	    background: #ddd;
+	    padding: 6px 0 6px 4%;
+		border-left: none;
+	    border-bottom: 5px solid #fff;
+	}
+	
+	#ftr .search-form label {
+		display:none;
+	}
+	
+	#ftr .search-form input.text {
+		width: 80%;
+		margin-right: 5px;
+	}
+	
+	#ftr .search-form input.text {
+		padding: 4px 0;
+	}
+
+	
+	#ftr .search-form input.button {
+		padding: 5px 10px;
+		text-transform: uppercase;
+		margin-right: 5px;
+	}
+	
+	
+	#constrain-footer {
+		border: 0px;
+	}
+    
+    #footer form#footer-search {
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    #ftr .footer-links {
+		width: auto;
+        float: none;
+        font-weight: bold;
+        font-size: 1.1em;
+        border-bottom: 1px dotted #ccc;
+        border-right: 0;
+        margin: 0 20px;
+    }
+
+	#ftr .footer-links {
+		padding: 10px 0 5px 0;
+	}
+	
+	#ftr .footer-links.last {
+		border: none;
+	}
+	
+	#ftr #footer-copyright {
+		margin: 0;
+	}
+
+	
+	#ftr .footer-inner {
+		padding: 0;
+	}
+    
+    body #footer p.copyright  {
+        background-position:top left;
+        padding: 50px 0 0 0;
+        margin-top: 10px;
+    }
+
+	#ftr .logo {
+		background-position: top left;
+		padding: 50px 0 0 0;
+		margin-left: 10px;
+	}
+
+	/* END FOOTER */
+	
+	/* HEADER */
+
+	li.li4 {
+		display: none;
+	}
+	
+	#hdr .login-nav {
+		background: url('/images/home_03/nature_mobile_header.jpg') no-repeat left top #a42726 !important;
+		min-height: 50px;
+	}
+	
+	#hdr .publications-search {
+		height: 30px;
+		margin: 0;
+		padding-top: 5px;
+		background: #CBCBCB;
+		background: -webkit-gradient(linear, 0 0, 0 200, from(#202020), to(#CBCBCB));
+		background :-moz-linear-gradient(top, #202020, #CBCBCB 310px);
+	}
+	
+	#hdr .logon.links-above {
+		font-size: 92%;
+	}
+	
+	#hdr .login-nav .list {
+		left: 0	;
+		top: -30px;
+		width: 155px;
+	}
+	
+	#hdr .login-nav .list li {
+		float: right;
+	}
+	
+	#hdr .login-nav .list li.li2 {
+		display: none;
+	}
+	
+	#hdr .logon, #hdr .logon.links-above {
+		position: absolute;
+		top: -35px;
+	}
+	.search {
+		display:none;
+	}
+	
+	#leaderboard nav {
+		display:none;
+	}
+	
+	.publications {
+		background: #666666;
+	}
+	
+	.publications ul li:last-child {
+		display:none;
+	}
+	
+	.pub1 {
+		display: none;
+	}
+
+	#hdr .login-nav .list a {
+		background: none;
+	}
+	
+	ul.global-nav li.home a {
+		background-image:none;
+		color:#ffffff;
+		padding:0px 0 5px 5px;
+		font-weight: normal;
+		font-size: 1.5em;
+	    line-height: 24px;	
+	}
+
+	#hdr .logon a.login, #hdr .logon a:hover.login, #hdr .logon a.logout, #hdr .logon a:hover.logout {
+		background-image: none;
+	}
+	
+	.publications ul li.nature-link, #hdr .nature-link a:link, #hdr .nature-link a:visited, #hdr li.nature-link {
+		background-image:none;
+		color:#ffffff;
+		padding:0px 0 5px 5px;
+		font-weight: normal;
+		font-size: 1.2em;
+	    line-height: 24px;
+	}
+	
+	ul.global-nav li.home a:hover {
+		color:#ffffff;
+	}
+	
+	/* END HEADER */
+	
+	#content .two-column .column {
+		width:295px;
+	}
+	
+     
+}
+
+/* Landscape */
+@media screen and (min-width: 321px) and (max-width : 480px) {
+	
+	html {
+	    -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	}
+	
+	.news {
+		width: 65%;
+		float: left;
+		padding: 0;
+		margin: 0 auto;
+		background: none;
+	}
+	
+	.nature-journal {
+		width: 149px;
+		float: right;
+		font-weight: bold;
+	}
+	
+	.nature-journal li.cover-link {
+		float: none;
+		border-right: none;
+	}
+	
+	.nature-journal .plain {
+		height: 230px;
+	}
+
+	.nature-journal .plain li.current {
+		height: auto;
+		margin: 0;
+		padding-top: 0;
+	}
+	
+	.nature-journal .compact {
+		width: auto;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+	
+	
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+	
+	.home #header, .home #header.v2, body #header, body #header.v2 {
+		background-image: url('/images/home_03/nature_mobile_header_x2.jpg');
+		background-size: 480px 75px;
+     }
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

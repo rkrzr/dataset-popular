@@ -1,0 +1,23 @@
+.cit-vol {
+	font-weight: bold;
+}
+
+#pageid-searchall #col-main {
+	margin-left: 150px;
+}
+.el-guildline {
+	display:block;
+	font-size:.75em;
+	font-weight: normal;
+}
+#pageid-instusage #content-block {
+	left: 30px !important;
+	width: 800px !important;
+}
+#pageid-instusage #col-2 {
+	display: none !important;
+}
+#pageid-instusage #content-block table tr td {
+	padding-left: 6px;
+	padding-right: 6px;
+}

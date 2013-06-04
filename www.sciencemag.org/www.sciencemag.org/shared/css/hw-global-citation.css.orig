@@ -1,0 +1,328 @@
+
+/**********************************************************
+ * citation display styles
+ **********************************************************/
+.cit-list, .cit-list ol, .cit-list ul, .cit-list li, .cit-list div,
+.cit-list h2, .cit-list h3, .cit-list h4 {
+	margin: 0px; padding: 0px;
+}
+.cit * {
+	display: inline;
+}
+
+.cit script {
+	display: none;
+}
+
+.cit li,
+.cit ul{
+	margin:0;padding:0;
+}
+
+ul.cit-list,
+ul.related-list,
+ol.cit-response-list,
+.cit-list ul,
+.cit-list ol {
+	list-style: none;
+}
+
+/* styling for individual citation records (list items) */
+li.cit, div.cit {
+	display: block;
+	margin: 0px;
+	margin-top: .7em;
+	padding: .5em .3em;
+	color: #222222;
+}
+/* hide form label from display- but move offscreen so still available for accessibility */
+.cit .cit-form-select label, .notonscreen {
+	position: absolute;
+	left: -9999px;
+}
+
+.cit.fromcover {
+	background-color: #B9C28D;
+}
+.cit.openaccess {
+	background-color: #CCE0F9;
+}
+.cit.inaugural {
+	background-color: #D9B13F;
+}
+.cit h1, .cit h2, .cit h3, .cit h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* remove checkbox from normal flow so we can line up sections and author names */
+.cit .cit-form-select,
+.cit .cit-form-select input {
+	position: absolute;
+}
+
+div.cit-metadata {
+	display: block;
+}
+
+
+.cit .cit-metadata .cit-section {
+	font-weight: bold;
+}
+
+.cit .cit-metadata .cit-response-list {
+    padding-left: 3em;
+    display: block;
+}
+
+.cit .cit-metadata .cit-response-list li {
+	display: block;
+}
+
+.cit .cit-metadata .cit-response-list .cit-auth-list {
+    padding-left: 0;
+}
+
+.cit .cit-metadata .cit-response-list .cit-auth-list *  {
+    display: inline
+}
+
+.cit .cit-metadata .cit-response-list li span {
+	white-space: nowrap;
+}
+
+
+.cit .cit-metadata .cit-title,
+.cit .cit-metadata .cit-title-note {
+	display: block;
+	color: #111111;
+	font-size: 1em;
+	font-weight: bolder;
+	margin-top: .2em;
+	padding-left: 3em;
+}
+.cit .cit-auth-list li span {
+	white-space: nowrap;
+}
+/** to allow long strings of authors to wrap correctly **/
+.cit .cit-auth-list li span.cit-sep-separator {
+	white-space: normal;
+}
+
+.toc-cit .cit-auth-list li.group-author .cit-auth, 
+.cit .cit-auth-list li.group-author span,
+.cit .cit-auth-list li.group-author span {
+    white-space: normal; 
+}
+
+/* If you do NOT have a punctuation element before your group author list, you'll need to override this */ 
+.toc-cit .cit-auth-list li.group-author.group-author-first-item {
+    position: relative;
+    left:-0.3em;
+}
+
+.cit cite {
+	display: block;
+	font-style: normal;
+	margin-top: .25em;
+	padding-left: 3em;
+}
+.cit .cit-metadata abbr.cit-jnl-abbrev {
+	border: none;
+}
+
+.cit .cit-criteria-match {
+	display:block;
+	font-size:0.85em;
+	margin:0.4em 0pt;
+	padding:0.2em;	
+	padding-left: 3.4em;
+ }
+
+.cit .cit-external-content {
+    display: block;
+    font-style: normal;
+    margin-top: .25em;
+    padding-left: 3em;
+}
+ 
+/* handle links */
+.cit a {
+	color: #660033;
+	text-decoration: none;
+	font-weight:bold;
+}
+/****** this won't work reliably! ***
+.cit .cit-extra a:before {
+	content:"| ";
+	color:black;
+}
+*******************/
+.cit a:hover {
+	color: #660033;
+	text-decoration: underline;
+}
+.cit a:visited {b
+	color: #660033;
+}
+
+/* move view list to own line, space appropriately */
+.cit .cit-views,
+.cit .cit-author-summary-views {
+	display: block;
+	margin: .25em 0px;
+	padding-left: 2.5em;
+}
+
+.cit .cit-views li a,
+.cit .cit-author-summary-views li a {
+	padding-left: 9px;
+	background-image: url(../../shared/img/misc/rightchevron.gif);
+	background-position: 0px center;
+	background-repeat: no-repeat;
+}
+.cit .cit-views li,
+.cit .cit-author-summary-views li {
+	padding-left: .5em;
+}
+
+/* provide spacing between views and access indicator */
+.cit .cit-extra  span {
+	padding-left: 3em;
+	margin-left: .5em;
+	padding-top: .4em;
+	font-size: .9em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* remove the above for reference citations */
+.ref-cit .cit-extra span {
+    padding-left: 0em;
+    margin-left: 0em;
+    padding-top: inherit;
+    font-size: 1em;
+    font-weight: inherit;
+    text-transform: none;
+}
+
+.cit .open-access-note {
+	color: #000090;
+}
+
+/* move related article list to own line, space appropriately */
+.cit .related-articles {
+	display: block;
+	padding-left: 3em;
+}
+
+.cit .related-articles li {
+	display: block;
+	padding-left: 12px;
+	font-style: italic;
+	background-image: url(../img/common/right.gif);
+	background-position: 0px center;
+	background-repeat: no-repeat;
+}
+
+.gca-buttons {
+	margin-top: 1.5em;
+}
+
+.gca-buttons  input {
+   background-color:#eeeeee;
+   border-style:solid;
+   border-color:#666666;
+   margin-right: 0.5em;
+}
+
+
+/* thumbnail.  by default only display on tocs*/
+
+#pageid-toc .cit.has-thumbnail div.cit-metadata,
+#pageid-toc .cit.has-thumbnail div.cit-extra
+{
+    display: block;
+    margin-left: 100px;
+}
+
+img.cit-thumbnail {
+    float: left;
+}
+
+#pageid-toc .cit.has-thumbnail .cit-title-group,
+#pageid-toc .cit.has-thumbnail .cit-first-element {
+    display: block;
+}
+
+#pageid-toc .cit.has-thumbnail .cit-title-group {
+    margin-left: 2em;
+}
+
+#pageid-toc .cit.has-thumbnail .cit-form-select {
+    left: 100px;
+}
+#pageid-toc .cit.has-thumbnail .cit-form-select input {
+    left: 10px;
+}
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Condensed format
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/*  Tighten up the spacing a bit, smallify */
+li.condensed-cit, div.condensed-cit {
+	padding: 0.1em 0.3em;
+	font-size: 90%;
+}	 
+
+/* Strip out a lot of things */	 
+.condensed-cit .cit-metadata .cit-auth-list,  			 	/* author list */
+.condensed-cit  .cit-criteria-match,		 					/* summary list */
+.condensed-cit  .cit-metadata cite .cit-metadata-note,   		/* PAP data, etc */
+.condensed-cit  .cit-metadata cite .cit-doi,					/* DOI */
+.condensed-cit .cit-metadata cite .cit-pages .cit-sep,			/* Anything that's not the fpage */
+.condensed-cit .cit-metadata cite .cit-pages .cit-pages-lpage,
+.condensed-cit .cit-metadata cite .cit-pages .cit-last-page,
+.condensed-cit .cit-metadata cite .cit-sep-after-article-online-dates,
+.condensed-cit img.cit-thumbnail
+ {
+	display: none;
+}
+
+.cit .cit-metadata .cit-section,
+.cit .cit-metadata .cit-first-element
+ {
+	margin-left: 1.5em;
+	padding-left: 0.4em;
+}
+
+.cit .cit-metadata .cit-first-element {
+	display: block;
+}
+
+
+/* Scoot this up since we're not displaying the author list */
+
+.condensed-cit .cit-metadata .cit-title
+ {
+	margin-left: 1.5em;
+	padding-left: 0.2em;
+	display: block;
+}
+
+.cit .cit-extra .print-on-demand-link {
+    white-space:nowrap;
+        text-transform:none;
+        margin-left:0;
+        padding:0;
+        font-size: 1em;
+}
+
+.cit .cit-extra li.pod-link {display:inline-block;}
+

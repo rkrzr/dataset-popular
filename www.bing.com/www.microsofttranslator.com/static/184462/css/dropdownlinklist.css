@@ -1,0 +1,17 @@
+﻿/* Styles for the DropDownLinkList control */
+.LanguagePair { white-space: nowrap; height: 28px; vertical-align: middle; border-collapse: collapse; }
+.DDStyle_outer, .DDLSwap { display: inline; float: left; vertical-align: middle; }
+.DDLSwap { border: solid 1px white }
+.DDStyle_outer { border: none; margin: 0 4px 0 4px; }
+.DDStyle { -moz-user-focus: ignore; -moz-user-input: disabled; -moz-user-select: none; -khtml-user-select: none; -o-user-select: none; }
+.DDStyle:focus { outline: 0; /*remove dotted line firefox*/ }
+span.DDStyle {border: 1px solid rgb(212, 212, 212); padding: 3px; background: rgb(255, 255, 255) url(../img/drop_down.gif) no-repeat scroll 95% center; display: block; white-space: nowrap; cursor: pointer; color: Black !important; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; }
+span.DDStyleRtl {border: 1px solid rgb(212, 212, 212); padding: 3px; background: rgb(255, 255, 255) url(../img/drop_down.gif) no-repeat scroll 5% center; display: block; white-space: nowrap; cursor: pointer; color: Black !important; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; }
+span.DDStyle:hover, span.DDStyle:focus { border-color: Highlight; }
+.DDStyle a, .DDStyle a:visited { display: block; color: Black !important; text-decoration: none !important; }
+.DDStyle a:hover, .DDStyle a:focus { outline:0; background-color: Highlight; color: white !important; }
+div.DDStyle { padding: .5em .2em .5em .2em; position: absolute; z-index: 999; display: none; background-color: #ffffff; border: solid 1px #D4D4D4; }
+div.DDStyle:hover {border-color:Highlight;}
+.DDStyle td { white-space: nowrap; margin-left: 1em; padding: 0 1em 0 .5em; width: 45%; }
+.DDStyle img { z-index: 999;border-style: None; border-width: 0px; border: 0; top: -2px; position: absolute; }
+.DDStyle HR { color: Highlight; height: 1px; }

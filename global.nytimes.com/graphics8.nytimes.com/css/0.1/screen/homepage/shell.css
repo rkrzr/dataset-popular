@@ -1,0 +1,104 @@
+/*$Id: shell.css 118809 2013-01-04 16:35:08Z surya.sanagavarapu $
+/css/0.1/screen/homepage/shell.css 
+(c)2006 - 2008 The New York Times Company */    
+
+#masthead {
+	padding: 4px;
+	text-align: center;
+	min-height: 90px;
+	border-bottom: 2px solid #000;
+}
+
+#masthead #date {
+	margin: 4px auto 0;
+	text-align: center;
+	float: none;
+	clear: none;
+}
+
+#lastUpdate {
+  margin-left: 1em;  
+  color: #999999;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 0.9165em;
+}
+
+#masthead #NYTLogo, 
+#masthead #date {
+	width: 379px;
+}
+
+#home #main {
+	margin-top: 0;
+	padding: 0;
+	border-top: 1px solid #d3d3d3;
+}
+
+#toolbar {
+  height: 31px;
+	padding: 3px 7px 3px 4px;
+}
+
+#toolbar:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#toolsHome {
+  float: right;
+  font-size: 1.1em;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 3em; /*33px*/
+}
+
+#toolsHome img {
+  margin-right: 4px;
+  margin-bottom: 3px;
+  vertical-align: middle;
+}
+
+.socialMediaModule {
+  float: right;
+  margin: 8px 6px 0 0;
+}
+
+.socialMediaModule .pipe {
+  float:left;
+}
+
+.socialMediaModule .listLabel {
+  margin: 2px 5px 2px 0;
+  float: left;
+  color: #999; 
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.1em;
+}
+
+.socialMediaTools {
+  float: left;
+  margin: 0 3px 0 0;
+  padding: 0;
+}
+
+.socialMediaTools li{
+  display: inline-block;
+  margin-right: 4px;
+}
+
+#toolbar .inlineSearchControl {
+  float: left;
+  padding-top: 5px;
+}
+
+#toolbar .inlineSearchControl .text {
+  width: 310px;   
+}
+
+.toolbarPromo {
+  clear: none;
+  margin: -3px 8px 0 0;
+  width: 128px;
+}

@@ -1,0 +1,42 @@
+/* Id: $ */
+
+/**
+ * @file
+ * provides basic CSS styling for activity comments
+ */
+html.js .activity-comments-hide-comments .activity-comment-hidden {
+  display: none;
+}
+
+.activity-comment-show-all {
+  border-bottom: solid 2px #FFFFFF;
+  display: none;
+  padding-left: .5em;
+}
+
+.activity-comments-hide-comments .activity-comment-show-all-processed {
+  display:block;
+}
+
+.activity_comment-comment-form {
+  width: 270px;
+  background-color: #ECEFF5;
+}
+
+.item-list ul.activity-comment-list li {
+  background-image: none;
+  border-bottom: solid 2px #FFFFFF;
+  margin: 0;
+}
+
+.activity-comments-meta {
+  font-size: smaller;
+}
+
+.activity_comment-comment-form .form-item {
+  padding-left: .5em;
+}
+
+.activity-comments-meta div {
+  display: inline;
+}

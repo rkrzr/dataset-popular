@@ -1,0 +1,175 @@
+
+try {
+
+    if (!_nbcnewsPixelman) {
+        var _nbcnewsPixelman = {
+
+            IsEnabled: function () {
+
+                //pixelman is enabled by default.
+                //Disable pixelman by placing this code in head section of document
+                // var _nbcnewsPixelmanDisabled = true;
+
+                if (typeof _nbcnewsPixelmanDisabled === "undefined") {
+                    return true;
+                }
+                else if (_nbcnewsPixelmanDisabled === true) {
+                    return false;
+                }
+                return true;
+            },
+
+            AppendBodyHeader: function () {
+                if (this.IsEnabled()) {
+                    var bodyHeader = '<scr' + 'ipt src="//www.nbcudigitaladops.com/hosted/global_header.js"></scr' + 'ipt>';
+                    document.write(bodyHeader);
+                }
+            },
+
+            AppendBodyFooter: function () {
+                if (this.IsEnabled()) {
+                    var bodyFooter = '<scr' + 'ipt src="//www.nbcudigitaladops.com/hosted/global.js"></scr' + 'ipt>';
+                    document.write(bodyFooter);
+                }
+            }
+        };
+    }
+} 
+catch (e) {};
+
+try {
+
+    if (!_gpt_simpleUrlTargetingParams) {
+        var _gpt_simpleUrlTargetingParams = "";
+    }
+
+    if (!_gpt_simpleUrlTargeting) {
+
+        var _gpt_simpleUrlTargeting = {
+
+            AppendParams: function (params) {
+
+                if (_gpt_simpleUrlTargetingParams) {
+                    _gpt_simpleUrlTargetingParams += encodeURIComponent("&") + params;
+                }
+                else {
+                    _gpt_simpleUrlTargetingParams += params;
+                }
+            },
+
+            setTargeting: function (key, values) {
+
+                var keyValues = "";
+
+                keyValues += key + encodeURIComponent("=");
+
+                for (var i = 0; i < values.length; i++) {
+                    if (i > 0) {
+                        keyValues += ",";
+                    }
+                    keyValues += values[i];
+                }
+
+                this.AppendParams(keyValues);
+            }
+        };
+    }
+}
+catch (e) { };
+
+try {
+
+    if (!_nbcnewsAds) {
+
+        var _nbcnewsAds = {
+
+            Init: function () {
+                this.cookieData = this.GetCookie(this.cookieName);
+                this.nbcuDataObject = this.GetNbcuDataObject();
+                this.SetNbcuDataToTargeting(this.nbcuDataObject);
+            },
+
+            cookieData: "",
+            cookieName: "nbcnewsAds_master_kvs",
+            cookieExpireHour: 1440,
+
+            SetCookie: function(cd,cn,ch){
+                if (cn == undefined) {
+				    cn=this.cookieName;
+			    }
+				if (ch == undefined) {
+				    ch=this.cookieExpireHour;
+			    }
+			    var d = new Date;
+			    d.setHours(d.getHours()+ch);
+			    var c = cn+'='+escape(cd)+'; expires='+d.toGMTString()+'; path=/;';
+			    document.cookie = c;
+			},
+
+            GetCookie: function (cookieName) {
+                var c = document.cookie; if (!c) return '';
+                var i = c.indexOf(cookieName + "="); if (-1 == i) return '';
+                var len = i + cookieName.length + 1;
+                var end = c.indexOf(";", len);
+                return unescape(c.substring(len, end < 0 ? c.length : end));
+            },
+
+            GetNbcuDataObject: function () {
+
+                var dataObject = null;
+
+                if (this.cookieData) {
+
+                    dataObject = {};
+                    var dtparams = this.cookieData;
+                    var dtparamsArray = dtparams.split(";");
+
+                    for (var i = 0; i < dtparamsArray.length; i++) {
+                        if (dtparamsArray[i] !== "") {
+                            if (dtparamsArray[i].indexOf("=") !== -1) {
+
+                                var param = dtparamsArray[i].split("=");
+
+                                if (dataObject[param[0]]) {
+                                    dataObject[param[0]].push(param[1]);
+                                }
+                                else {
+                                    var paramArray = [];
+                                    paramArray.push(param[1]);
+                                    dataObject[param[0]] = paramArray;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                return dataObject;
+            },
+
+            SetNbcuDataToTargeting: function (nbcuData) {
+
+                for (var key in nbcuData) {
+
+                    _gpt_simpleUrlTargeting.setTargeting(key, nbcuData[key]);
+
+                }
+            },
+
+            SetGptTargeting: function (gpt) {
+
+                if (gpt.setTargeting) {
+
+                    if (this.nbcuDataObject) {
+
+                        for (var key in this.nbcuDataObject) {
+                            gpt.setTargeting(key, this.nbcuDataObject[key]);
+                        }
+                    }
+                }
+            }
+        };
+
+        _nbcnewsAds.Init();
+    }
+}
+catch (e) { };

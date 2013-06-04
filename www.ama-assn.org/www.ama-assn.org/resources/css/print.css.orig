@@ -1,0 +1,503 @@
+* {float: none !important;overflow: visible !important; position: relative !important;}
+
+body { 	background: white; font-size: 12pt; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	}
+
+#shell{
+	width: 100%;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	background: none;
+	}
+	
+	#content,
+	#audience {
+	width: 96% !important;
+	border: 0;
+	padding: 0 0 0 20px !important;
+	float: none !important;
+	background: none;
+	}
+
+
+
+a:link, a:visited { color: #452663; background: transparent;  	text-decoration: underline; 	}
+
+
+#search,
+#audiencenav,
+#navigation,
+#hero-nav,
+#rmnheader,
+#forums-tools,
+.Forums_PageTable,
+.Forums_PageTableBottom,
+#share-tools,
+.Discussion_Topic_Options,
+#footer-rich,
+.footer-social { display: none; visibility: collapse;}
+
+#ls-row-1 {
+  background: url("/resources/images/global/bg-header.png") repeat-x scroll 0 -40px transparent;
+  border-bottom: 1px solid #EEEEEE;
+  height: 99px;
+  margin: 0 auto;
+  padding: 5px 0 0 0;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+#logo {
+	margin:0;
+	padding:0;
+	float: none;
+}
+.social-header {
+	display: none;
+}
+
+#breadcrumb {
+  color: #666;
+  font-size: 75%;
+  line-height: 2em;
+  margin: 0 0  1.5em 0;
+  padding: 0;
+  text-align: left;
+  width: auto;
+}
+
+/* home */
+#hero-wrapper, #hero {
+	height: auto;
+	width: auto;
+}
+
+#hero00,
+#hero01,
+#hero02,
+#hero03,
+#hero04,
+#hero05,
+#hero06 {
+	display: block !important;
+	opacity: 100 !important;
+	left: auto !important;
+	top:  auto !important;
+	position:  relative !important;
+}
+
+
+#floatright img, .home #featured-resources, .home #featured-resources-pat, #calendar-heading form {
+  float: none;
+}
+
+#featured-resources {
+ display: none;
+}
+
+#featured-resources .item, #featured-resources-pat .item {
+  width: auto;
+}
+
+#featured-resources .heading {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+
+
+#featured-resources .heading, 
+#featured-resources-pat .heading,
+#news-and-events .heading,
+#special-messages .heading,
+#news-bit .heading a,
+#CommunityComponentTop #CommunityComponent .heading,
+#membership-id h2,
+#featured-products .heading
+ {
+  border-bottom:none;
+  color: #333 !important;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+  font-size: 130% !important;
+  line-height: 1.75em  !important;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  background: none !important;
+}
+
+#news-bit .heading {
+  margin: 0;
+  padding: 0;
+  font-size:100%;
+}
+
+#featured-resources .item a p, #featured-resources .item a:link p, #featured-resources .item a:visited p, #featured-resources-pat .item a p, #featured-resources-pat .item a:link p, #featured-resources-pat .item a:visited p {
+  background:none;
+  border-bottom:none;
+  color: inherit;
+  font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: inherit;
+}
+
+#news-nav {
+  display: none;
+  }
+  
+ #news-and-events {
+  height: auto;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: auto;
+}
+#news-and-events img {
+    float: none !important;}
+
+.home #news-and-events #news-and-events {
+  background:none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#news-bit {
+  background:none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#news-swap .news-item {
+	display: block !important;
+	position: relative !important;
+	top: auto !important;
+	left:auto !important;
+	opacity: 100 !important;
+}
+#news-bit .subheading {
+  font-size: auto;
+  line-height:auto;
+  margin: 0=;
+  padding: 0;
+  width: auto;
+}
+
+#news-bit p,
+#special-messages p {
+  font-size: 90%;
+  line-height: 1.75em;
+  margin: 0 0 1em 0;
+  padding: 0;
+  width: auto;
+}
+.home #news-and-events .subheading, .home #news-and-events p {
+  width: auto;
+}
+#news-and-events .subheading {
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#news-bit .subheading {
+  font-size: inherit;
+  line-height:auto;
+  margin: 0;
+}
+
+.subheading a, .subheading a:link, .subheading a:visited {
+    color: #444;
+    font-size: 100%;
+    font-weight: bold;
+  text-decoration: none;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#news-and-events p {
+  font-size: 90%;
+  line-height: 1.75em;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+#CommunityComponentTop #CommunityComponent {
+  background:none;
+  height: auto;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  width: auto;
+}
+
+#special-messages {
+  background:none;
+  height: auto;
+  margin:0;
+  padding: 0;
+  width: auto;
+}
+#ls-gen11-ls-area-body {
+  width: 100%;
+}
+
+a.more, a.more:link, a.more:visited,  #primary a.more,  #primary a.more:link,  #primary a.more:visited {
+
+  display:none;
+}
+
+/* audience pages */
+
+#audience {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: auto;
+}
+
+#ls-row-2-col-2 {
+  margin: 0;
+  width: auto;
+}
+
+ #audience-header {
+  margin-bottom: 1.75em;
+}
+
+#tabs a.all, #tabs a.all:link, #tabs a.all:visited {
+ display: none;
+}
+
+#tabs .tab-col {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.ui-tabs-nav .ui-tabs-selected a:link, .ui-tabs-nav .ui-tabs-selected a:visited, .ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav .ui-tabs-disabled a:visited {
+  color: #444;
+}
+.ui-tabs-nav .ui-tabs-selected a span, .ui-tabs-nav a:hover span, .ui-tabs-nav a:focus span, .ui-tabs-nav a:active span {
+  background-position: inherit;
+  color: #444;
+}
+.ui-tabs-nav {
+	display: none;
+}
+.ui-tabs-panel {
+	display: block !important;
+	height: auto;
+}
+
+#audience-header {
+  font-size: 80%;
+}
+#audience .ui-tabs-panel {
+  background: none;
+  border-top: none;
+  margin: 0 0 1.75em 0;
+  min-height: 2em;
+  padding: 0;
+}
+.physicians #audience #news-and-events, .residents #audience #news-and-events, .medical-students #audience #news-and-events, .patients #audience #news-and-events {
+  background: none;
+  height: auto;
+  margin: 0 ;
+  padding: 0;
+  width: auto;
+}
+.physicians #audience #news-and-events #news-and-events, .residents #audience #news-and-events #news-and-events, .medical-students #audience #news-and-events #news-and-events, .patients #audience #news-and-events #news-and-events {
+  background: none;
+  height: auto;
+  margin: 0;
+  padding: 0 ;
+  position: relative;
+  width: auto;
+}
+.physicians #news-and-events .news-item, .residents #news-and-events .news-item, .medical-students #news-and-events .news-item, .patients #news-and-events .news-item {
+  text-align: left;
+  width: auto;
+}
+ul#scroll-products li, ul#scroll-products-aud li {
+  font-size: 100%;
+  height: auto;
+  list-style: none outside none;
+  margin: 0;
+  width: auto;
+}
+#news-and-events p {
+  font-size: inherit;
+  width: auto;
+}
+#membership {
+	display: none;
+}
+#membership-id {
+  background:none;
+  font-size: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0 ;
+  width: auto;
+}
+
+#featured-products {
+  background: none;
+  height: auto;
+  margin: 0 0 1.75em 0;
+  padding: 0;
+  width: auto;
+}
+
+/* sub pages */
+
+.threeCol #content {
+  background: none;
+  margin: 0 1.75em;
+  padding: 0;
+}
+
+.page-options ul {
+  display: none;
+}
+
+#ls-row-4-col-1,
+#ls-row-4-col-3 { 
+	display: none;
+}
+
+.threeCol #ls-row-4-col-2 {
+  color: #3B3B3B;
+  float: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.about-ama .banner {
+  background-image:none;
+}
+.banner {
+  background:none;
+  color: #333;
+  display: inherit;
+  font:150% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  height: auto;
+  margin: 0 ;
+  padding:.5em 0 1em 0;
+  text-align: left;
+  display: none;
+}
+h1 { font-size: 160%; font-weight: bold;}
+h2 { font-size: 140%; font-weight: bold;}
+h3 { font-size: 120%; font-weight: bold;}
+h4 { font-size: 110%; font-weight: bold;}
+h5 { font-size: 105%; font-weight: bold;}
+
+.pallet,
+.pallet p {display: block !important;}
+
+.accordion-container div.accordion-heading.selected strong {
+  background: none #fff;
+  color: #444;
+  text-decoration: none;
+}
+
+.accordion-container div {
+  background: none repeat scroll 0 0 #fff;
+}
+
+/* community pages */
+
+
+ #maincontent h1.forum {
+	background: none;}
+#maincontent h1 p,
+#primary h1 p	 { 
+	border-bottom:none;
+  color: #333 !important;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+  font-size: 130% !important;
+  line-height: 1.75em  !important;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  background: none !important;
+  
+}
+
+
+.unread_posts {
+	display: none;
+}
+.Forums_StartDiscussion,
+#Forum_DiscussionSubscribe_Button,
+#DiscussionSubscribeDiv {
+	display: none !important;
+}
+#forums-tools {
+	display:none;
+}
+.Discussion_Admin {
+	display: none;
+}
+.Discussion_Topic_Options,
+.Discussion_PostAddEnemy,
+.Discussion_ReportAbuse,
+.Discussion_PostContact,
+.Discussion_PostBlock,
+.Discussion_PostDelete,
+.Discussion_Topic_Options span,
+.Discussion_PostAddEnemy span,
+.Discussion_ReportAbuse span,
+.Discussion_PostContact span,
+.Discussion_PostBlock span,
+.Discussion_PostDelete span
+ {
+	display: none !important;
+}
+.Forums_ContainerHead {
+	display: none !important;
+}
+#new-disc-post {
+	display:	none;
+}
+.Discussion_VisibilityContainer {
+    border-top: 1px solid #999;
+}
+
+/* footer */
+#ls-row-3 {
+  margin: 0 auto;
+  width: auto;
+}
+#footer {
+  background:none;
+  height: auto;
+  margin: 0 ;
+  padding: 0;
+  position: relative;
+  width:auto;
+}
+
+.footernav,
+#footer-ad {
+	display: none;
+	visibility: collapse;
+}
+
+#iwfooter {
+  background:none;
+  border-top: 1px solid #666;
+  color: #777;
+  font-size: 85%;
+  height: auto;
+  line-height: inherit;
+  margin: 0 ;
+  padding: 1em 0 1.25em 0;
+  width: auto;
+}
+.Forums_CurrentPageCrumb { font-size: 75%; }

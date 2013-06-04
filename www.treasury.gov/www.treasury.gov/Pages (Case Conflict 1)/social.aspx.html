@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head><title>
+	Social Hub
+</title><meta name="ProgId" content="SharePoint.WebPartPage.Document" />
+<!--[if gte mso 9]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="stylesheet" type="text/css" href="../Style&#32;Library/custom/styles.css" /><link rel="stylesheet" href="../Style&#32;Library/Custom/ui.tabs.css" type="text/css" media="print, projection, screen" />
+
+ 
+<!--[if IE ]>
+	<link href="/Style%20Library/Custom/ie-Styles.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+<!--[if IE 6]>   
+	<link href="/Style%20Library/Custom/ie6.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+	<script type="text/javascript" src="../Style&#32;Library/jquery-ui-1.8.6.custom/js/jquery-1.4.2.min.js"></script>
+	<script src="../Style&#32;Library/jquery-ui-1.8.6.custom/js/jquery-ui-1.8.6.custom.min.js" type="text/javascript"></script>
+
+
+  <script type="text/javascript">
+	$(function() {
+		$("#tabs").tabs().addClass('ui-corner-left');
+		$("#tabs").removeClass('ui-corner-top').addClass('ui-tabs-vertical ui-helper-clearfix');
+	});
+  </script>
+<style type="text/css">
+
+#social-tabs .ui-tabs-vertical .ui-tabs-panel {
+	height: 180px;
+}
+#social-tabs .st-content {
+	height: 140px !important;
+}
+.sf-link {
+	float: right; padding-right: 10px; padding-top: 3px;
+}
+.t-read-more a {
+	background-position: left 9px;
+	text-decoration: none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<form name="form1" method="post" action="social.aspx.html" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x0BDD87E1FC6DD427E80FD9BEF0E101D1CE7BF24FE5456ED18B912DEE8E31DC1A02449FCE86F12C8F4B74D2FD7147EEAE62F49F65FA6FCDF5FA1E865CF33FC8CB,22 May 2013 09:44:32 -0000" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODM5MzMzOTczD2QWAgIED2QWCAIDD2QWAmYPFgIeBFRleHQF1hU8ZGl2IGNsYXNzPSJzbWZfaG9sZGVyIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxoNj4NCiAgICA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3R3aXR0ZXIuY29tL1VTVHJlYXN1cnkvc3RhdHVzZXMvMzM2OTE2NTg1NzAyODk1NjE3IiB0aXRsZT0iIFJUIEBIVURSb2NreU10bnM6ICNIVUQgJmFtcDthbXA7IEBVU1RyZWFzdXJ5IGFkbWluaXN0ZXIgYSBwcm9ncmFtIHRvIGhlbHAgbWFrZSAjaG9tZW93bmVyc2hpcCBhZmZvcmRhYmxlLiBMZWFybiBtb3JlIGFib3V0IEBNSEE0UGFydG5lcnMgYXQgaHR0cDovL+KApiI+IFJUIEBIVURSb2NreU10bnM6ICNIVUQgJmFtcDsgQFVTVHJlYXN1cnkgYWRtaW5pc3RlciBhIHByb2dyYW0gdG8gaGVscCBtYWtlICNob21lb3duZXJzaGlwIGFmZm9yZGFibGUuIExlYXJuIG1vcmUgYWJvdXQgQE1IQTRQYXJ0bmVycyBhdCBodHRwOi8v4oCmPC9hPg0KICA8L2g2Pg0KICA8ZGl2IGNsYXNzPSJzbWZfZGF0ZSI+DQogICAgPCEtLVR1ZSwgMjEgTWF5IDIwMTMgMTg6NDk6MDggKzAwMDAtLT5UdWVzZGF5IE1heSAyMSwgMjAxMywgMjo0OSBQTTwvZGl2Pg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJzbWZfaG9sZGVyIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxoNj4NCiAgICA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3R3aXR0ZXIuY29tL1VTVHJlYXN1cnkvc3RhdHVzZXMvMzM2ODk5MzQxODAzNDgzMTM2IiB0aXRsZT0iIEFzc3QgU2VjeSBmb3IgVGF4IFBvbGljeSBNYXp1cidzIHRlc3RpbW9ueSBvbiAmcXVvdDtUaGUgU2hpZnRpbmcgb2YgUHJvZml0cyBPZmZzaG9yZSBieSBVUyBNdWx0aW5hdGlvbmFsIENvcnBvcmF0aW9ucyZxdW90OyBodHRwOi8vdC5jby9XWEZvMkZHTUd2Ij4gQXNzdCBTZWN5IGZvciBUYXggUG9saWN5IE1henVyJ3MgdGVzdGltb255IG9uICJUaGUgU2hpZnRpbmcgb2YgUHJvZml0cyBPZmZzaG9yZSBieSBVUyBNdWx0aW5hdGlvbmFsIENvcnBvcmF0aW9ucyIgaHR0cDovL3QuY28vV1hGbzJGR01HdjwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1UdWUsIDIxIE1heSAyMDEzIDE3OjQwOjM3ICswMDAwLS0+VHVlc2RheSBNYXkgMjEsIDIwMTMsIDE6NDAgUE08L2Rpdj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0ic21mX2hvbGRlciIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiPg0KICA8aDY+DQogICAgPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly90d2l0dGVyLmNvbS9VU1RyZWFzdXJ5L3N0YXR1c2VzLzMzNjY0NTY0NTM5MTc4MTg4OCIgdGl0bGU9IiBUb2RheSBTZWNyZXRhcnkgTGV3IHNlbnQgdGhpcyBkZWJ0IGxpbWl0IGxldHRlciB0byBDb25ncmVzcyBodHRwOi8vdC5jby83bWM1ZndDOEw3Ij4gVG9kYXkgU2VjcmV0YXJ5IExldyBzZW50IHRoaXMgZGVidCBsaW1pdCBsZXR0ZXIgdG8gQ29uZ3Jlc3MgaHR0cDovL3QuY28vN21jNWZ3QzhMNzwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1UdWUsIDIxIE1heSAyMDEzIDAwOjUyOjMxICswMDAwLS0+TW9uZGF5IE1heSAyMCwgMjAxMywgODo1MiBQTTwvZGl2Pg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJzbWZfaG9sZGVyIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxoNj4NCiAgICA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3R3aXR0ZXIuY29tL1VTVHJlYXN1cnkvc3RhdHVzZXMvMzM2NTI1MjM0ODk3MzA5Njk2IiB0aXRsZT0iIENvaGVuIHRvIGNvbnRpbnVlIFRyZWFzdXJ54oCZcyBnbG9iYWwgY29uc3VsdGF0aW9uIG9uIGludGVybmF0aW9uYWwgI3NhbmN0aW9ucyBhZ2FpbnN0IElyYW4gJmFtcDthbXA7IFN5cmlhIGFuZCBlZmZvcnRzIHRvIGNvbWJhdCBpbGxpY2l0ICNmaW5hbmNlIj4gQ29oZW4gdG8gY29udGludWUgVHJlYXN1cnnigJlzIGdsb2JhbCBjb25zdWx0YXRpb24gb24gaW50ZXJuYXRpb25hbCAjc2FuY3Rpb25zIGFnYWluc3QgSXJhbiAmYW1wOyBTeXJpYSBhbmQgZWZmb3J0cyB0byBjb21iYXQgaWxsaWNpdCAjZmluYW5jZTwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1Nb24sIDIwIE1heSAyMDEzIDE2OjU0OjAyICswMDAwLS0+TW9uZGF5IE1heSAyMCwgMjAxMywgMTI6NTQgUE08L2Rpdj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0ic21mX2hvbGRlciIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiPg0KICA8aDY+DQogICAgPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly90d2l0dGVyLmNvbS9VU1RyZWFzdXJ5L3N0YXR1c2VzLzMzNjUyNTEzNDI4NDMyODk2MCIgdGl0bGU9IiBVbmRlclNlYyBmb3IgVGVycm9yaXNtICZhbXA7YW1wOyBGaW5hbmNpYWwgSW50ZWxsaWdlbmNlIERhdmlkIENvaGVuIHRyYXZlbGluZyB0byBRYXRhciwgVUFFLCBTYXVkaSBBcmFiaWEgdGhpcyB3ZWVrIGh0dHA6Ly90LmNvL0ZJS0ZvTTN2TkYiPiBVbmRlclNlYyBmb3IgVGVycm9yaXNtICZhbXA7IEZpbmFuY2lhbCBJbnRlbGxpZ2VuY2UgRGF2aWQgQ29oZW4gdHJhdmVsaW5nIHRvIFFhdGFyLCBVQUUsIFNhdWRpIEFyYWJpYSB0aGlzIHdlZWsgaHR0cDovL3QuY28vRklLRm9NM3ZORjwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1Nb24sIDIwIE1heSAyMDEzIDE2OjUzOjM5ICswMDAwLS0+TW9uZGF5IE1heSAyMCwgMjAxMywgMTI6NTMgUE08L2Rpdj4NCjwvZGl2PmQCBQ9kFgJmDxYCHwAFskk8bWVkaWE6dGFnIHhtbG5zOm1lZGlhPSJodHRwOi8vc2VhcmNoLnlhaG9vLmNvbS9tcnNzLyIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiPg0KICA8YSBocmVmPSJodHRwOi8vd3d3LmZsaWNrci5jb20vcGhvdG9zL3VzdHJlYXN1cnkvODcyNDYxNjE1Ni8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogU2VjcmV0YXJ5IExldyB3ZWxjb21lcyB0aGUgS2luZyBhbmQgUXVlZW4gb2YgU3dlZGVuIHRvIHRoZSBUcmVhc3VyeSBEZXBhcnRtZW50IChUaHVyc2RheSBNYXkgOSwgMjAxMywgNToyNSBQTSkmI3hBOyAgICAgICI+DQogICAgPGltZyBzcmM9Imh0dHA6Ly9mYXJtOC5zdGF0aWNmbGlja3IuY29tLzcyODQvODcyNDYxNjE1Nl8zZTU2YzIxMmQxX3MuanBnIiB3aWR0aD0iNTkiIGhlaWdodD0iNTkiIGFsdD0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogU2VjcmV0YXJ5IExldyB3ZWxjb21lcyB0aGUgS2luZyBhbmQgUXVlZW4gb2YgU3dlZGVuIHRvIHRoZSBUcmVhc3VyeSBEZXBhcnRtZW50IChUaHVyc2RheSBNYXkgOSwgMjAxMywgNToyNSBQTSkmI3hBOyAgICAgICIgLz4NCiAgPC9hPg0KPC9tZWRpYTp0YWc+DQo8bWVkaWE6dGFnIHhtbG5zOm1lZGlhPSJodHRwOi8vc2VhcmNoLnlhaG9vLmNvbS9tcnNzLyIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiPg0KICA8YSBocmVmPSJodHRwOi8vd3d3LmZsaWNrci5jb20vcGhvdG9zL3VzdHJlYXN1cnkvODcyNDYxOTk4NC8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogU2VjcmV0YXJ5IExldyBwYXJ0aWNpcGF0ZXMgaW4gY2VyZW1vbnkgdG8gdW52ZWlsIHRoZSBDb25ncmVzc2lvbmFsIEdvbGQgTWVkYWwgaG9ub3JpbmcgUmFvdWxsIFdhbGxlbmJlcmcgKFRodXJzZGF5IE1heSA5LCAyMDEzLCA1OjI1IFBNKSYjeEE7ICAgICAgIj4NCiAgICA8aW1nIHNyYz0iaHR0cDovL2Zhcm04LnN0YXRpY2ZsaWNrci5jb20vNzM1Ni84NzI0NjE5OTg0X2ZjOGFlNzVkOTlfcy5qcGciIHdpZHRoPSI1OSIgaGVpZ2h0PSI1OSIgYWx0PSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IHBhcnRpY2lwYXRlcyBpbiBjZXJlbW9ueSB0byB1bnZlaWwgdGhlIENvbmdyZXNzaW9uYWwgR29sZCBNZWRhbCBob25vcmluZyBSYW91bGwgV2FsbGVuYmVyZyAoVGh1cnNkYXkgTWF5IDksIDIwMTMsIDU6MjUgUE0pJiN4QTsgICAgICAiIC8+DQogIDwvYT4NCjwvbWVkaWE6dGFnPg0KPG1lZGlhOnRhZyB4bWxuczptZWRpYT0iaHR0cDovL3NlYXJjaC55YWhvby5jb20vbXJzcy8iIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10Ij4NCiAgPGEgaHJlZj0iaHR0cDovL3d3dy5mbGlja3IuY29tL3Bob3Rvcy91c3RyZWFzdXJ5Lzg3MjQ1OTQzMzgvIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IFNlY3JldGFyeSBMZXcgdG91cnMgVml0YW1peCBtYW51ZmFjdHVyaW5nIGZhY2lsaXR5IGR1cmluZyB0cmlwIHRvIENsZXZlbGFuZCwgT2hpbyAoVGh1cnNkYXkgTWF5IDksIDIwMTMsIDU6MTYgUE0pJiN4QTsgICAgICAiPg0KICAgIDxpbWcgc3JjPSJodHRwOi8vZmFybTguc3RhdGljZmxpY2tyLmNvbS83NDAwLzg3MjQ1OTQzMzhfZGNlODA1ODc2MV9zLmpwZyIgd2lkdGg9IjU5IiBoZWlnaHQ9IjU5IiBhbHQ9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IFNlY3JldGFyeSBMZXcgdG91cnMgVml0YW1peCBtYW51ZmFjdHVyaW5nIGZhY2lsaXR5IGR1cmluZyB0cmlwIHRvIENsZXZlbGFuZCwgT2hpbyAoVGh1cnNkYXkgTWF5IDksIDIwMTMsIDU6MTYgUE0pJiN4QTsgICAgICAiIC8+DQogIDwvYT4NCiAgPGJyIC8+DQo8L21lZGlhOnRhZz4NCjxtZWRpYTp0YWcgeG1sbnM6bWVkaWE9Imh0dHA6Ly9zZWFyY2gueWFob28uY29tL21yc3MvIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvdXN0cmVhc3VyeS84NzIzNDc4NDg1LyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IHRvdXJzIFZpdGFtaXggbWFudWZhY3R1cmluZyBmYWNpbGl0eSBkdXJpbmcgdHJpcCB0byBDbGV2ZWxhbmQsIE9oaW8gKFRodXJzZGF5IE1heSA5LCAyMDEzLCA1OjE2IFBNKSYjeEE7ICAgICAgIj4NCiAgICA8aW1nIHNyYz0iaHR0cDovL2Zhcm04LnN0YXRpY2ZsaWNrci5jb20vNzQxMS84NzIzNDc4NDg1XzNhMzU5ZTk2MmFfcy5qcGciIHdpZHRoPSI1OSIgaGVpZ2h0PSI1OSIgYWx0PSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IHRvdXJzIFZpdGFtaXggbWFudWZhY3R1cmluZyBmYWNpbGl0eSBkdXJpbmcgdHJpcCB0byBDbGV2ZWxhbmQsIE9oaW8gKFRodXJzZGF5IE1heSA5LCAyMDEzLCA1OjE2IFBNKSYjeEE7ICAgICAgIiAvPg0KICA8L2E+DQo8L21lZGlhOnRhZz4NCjxtZWRpYTp0YWcgeG1sbnM6bWVkaWE9Imh0dHA6Ly9zZWFyY2gueWFob28uY29tL21yc3MvIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvdXN0cmVhc3VyeS84NzI0NTk5NzcyLyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IHRvdXJzIFZpdGFtaXggbWFudWZhY3R1cmluZyBmYWNpbGl0eSBkdXJpbmcgdHJpcCB0byBDbGV2ZWxhbmQsIE9oaW8gKFRodXJzZGF5IE1heSA5LCAyMDEzLCA1OjE2IFBNKSYjeEE7ICAgICAgIj4NCiAgICA8aW1nIHNyYz0iaHR0cDovL2Zhcm04LnN0YXRpY2ZsaWNrci5jb20vNzM3NS84NzI0NTk5NzcyXzE4YjE0OTcxYWNfcy5qcGciIHdpZHRoPSI1OSIgaGVpZ2h0PSI1OSIgYWx0PSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IHRvdXJzIFZpdGFtaXggbWFudWZhY3R1cmluZyBmYWNpbGl0eSBkdXJpbmcgdHJpcCB0byBDbGV2ZWxhbmQsIE9oaW8gKFRodXJzZGF5IE1heSA5LCAyMDEzLCA1OjE2IFBNKSYjeEE7ICAgICAgIiAvPg0KICA8L2E+DQo8L21lZGlhOnRhZz4NCjxtZWRpYTp0YWcgeG1sbnM6bWVkaWE9Imh0dHA6Ly9zZWFyY2gueWFob28uY29tL21yc3MvIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvdXN0cmVhc3VyeS84NzE0NTk5MjgyLyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IGF0IHRoZSBJbnRlci1BbWVyaWNhbiBEZXZlbG9wbWVudCBCYW5rIChNb25kYXkgTWF5IDYsIDIwMTMsIDEwOjUzIEFNKSYjeEE7ICAgICAgIj4NCiAgICA8aW1nIHNyYz0iaHR0cDovL2Zhcm05LnN0YXRpY2ZsaWNrci5jb20vODI3MS84NzE0NTk5MjgyXzg3ZTkxNGYxZDRfcy5qcGciIHdpZHRoPSI1OSIgaGVpZ2h0PSI1OSIgYWx0PSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IGF0IHRoZSBJbnRlci1BbWVyaWNhbiBEZXZlbG9wbWVudCBCYW5rIChNb25kYXkgTWF5IDYsIDIwMTMsIDEwOjUzIEFNKSYjeEE7ICAgICAgIiAvPg0KICA8L2E+DQogIDxiciAvPg0KPC9tZWRpYTp0YWc+DQo8bWVkaWE6dGFnIHhtbG5zOm1lZGlhPSJodHRwOi8vc2VhcmNoLnlhaG9vLmNvbS9tcnNzLyIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiPg0KICA8YSBocmVmPSJodHRwOi8vd3d3LmZsaWNrci5jb20vcGhvdG9zL3VzdHJlYXN1cnkvODcxMzQ2Njc1My8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogRXF1YWwgRnV0dXJlcyBQYXJ0bmVyc2hpcDogRnJvbSBQcm9taXNlIHRvIFByb2dyZXNzIDIwMTMgU3ByaW5nIE1lZXRpbmdzIChNb25kYXkgTWF5IDYsIDIwMTMsIDEwOjUzIEFNKSYjeEE7ICAgICAgIj4NCiAgICA8aW1nIHNyYz0iaHR0cDovL2Zhcm05LnN0YXRpY2ZsaWNrci5jb20vODI3OS84NzEzNDY2NzUzXzI3NTI4MzA5YWFfcy5qcGciIHdpZHRoPSI1OSIgaGVpZ2h0PSI1OSIgYWx0PSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBFcXVhbCBGdXR1cmVzIFBhcnRuZXJzaGlwOiBGcm9tIFByb21pc2UgdG8gUHJvZ3Jlc3MgMjAxMyBTcHJpbmcgTWVldGluZ3MgKE1vbmRheSBNYXkgNiwgMjAxMywgMTA6NTMgQU0pJiN4QTsgICAgICAiIC8+DQogIDwvYT4NCjwvbWVkaWE6dGFnPg0KPG1lZGlhOnRhZyB4bWxuczptZWRpYT0iaHR0cDovL3NlYXJjaC55YWhvby5jb20vbXJzcy8iIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10Ij4NCiAgPGEgaHJlZj0iaHR0cDovL3d3dy5mbGlja3IuY29tL3Bob3Rvcy91c3RyZWFzdXJ5Lzg3MTM0NTE0NjUvIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IEVxdWFsIEZ1dHVyZXMgUGFydG5lcnNoaXA6IEZyb20gUHJvbWlzZSB0byBQcm9ncmVzcyAyMDEzIFNwcmluZyBNZWV0aW5ncyAoTW9uZGF5IE1heSA2LCAyMDEzLCAxMDo1MyBBTSkmI3hBOyAgICAgICI+DQogICAgPGltZyBzcmM9Imh0dHA6Ly9mYXJtOS5zdGF0aWNmbGlja3IuY29tLzg1NjAvODcxMzQ1MTQ2NV9iYWYyODMwMmE2X3MuanBnIiB3aWR0aD0iNTkiIGhlaWdodD0iNTkiIGFsdD0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogRXF1YWwgRnV0dXJlcyBQYXJ0bmVyc2hpcDogRnJvbSBQcm9taXNlIHRvIFByb2dyZXNzIDIwMTMgU3ByaW5nIE1lZXRpbmdzIChNb25kYXkgTWF5IDYsIDIwMTMsIDEwOjUzIEFNKSYjeEE7ICAgICAgIiAvPg0KICA8L2E+DQo8L21lZGlhOnRhZz4NCjxtZWRpYTp0YWcgeG1sbnM6bWVkaWE9Imh0dHA6Ly9zZWFyY2gueWFob28uY29tL21yc3MvIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvdXN0cmVhc3VyeS84NjMxMjE2NTA5LyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IG1lZXRzIHdpdGggUHJlc2lkZW50IG9mIHRoZSBFdXJvcGVhbiBDb21taXNzaW9uIEpvc8OpIE1hbnVlbCBCYXJyb3NvIGluIEJydXNzZWxzLCBBcHJpbCA4LCAyMDEzIChNb25kYXkgQXByIDgsIDIwMTMsIDE6MTIgUE0pJiN4QTsgICAgICAiPg0KICAgIDxpbWcgc3JjPSJodHRwOi8vZmFybTkuc3RhdGljZmxpY2tyLmNvbS84Mzk1Lzg2MzEyMTY1MDlfOTgxZDA5NzJmYV9zLmpwZyIgd2lkdGg9IjU5IiBoZWlnaHQ9IjU5IiBhbHQ9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IFNlY3JldGFyeSBMZXcgbWVldHMgd2l0aCBQcmVzaWRlbnQgb2YgdGhlIEV1cm9wZWFuIENvbW1pc3Npb24gSm9zw6kgTWFudWVsIEJhcnJvc28gaW4gQnJ1c3NlbHMsIEFwcmlsIDgsIDIwMTMgKE1vbmRheSBBcHIgOCwgMjAxMywgMToxMiBQTSkmI3hBOyAgICAgICIgLz4NCiAgPC9hPg0KICA8YnIgLz4NCjwvbWVkaWE6dGFnPg0KPG1lZGlhOnRhZyB4bWxuczptZWRpYT0iaHR0cDovL3NlYXJjaC55YWhvby5jb20vbXJzcy8iIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10Ij4NCiAgPGEgaHJlZj0iaHR0cDovL3d3dy5mbGlja3IuY29tL3Bob3Rvcy91c3RyZWFzdXJ5Lzg1OTYzMzExNTYvIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IERlcHV0eSBTZWNyZXRhcnkgTmVhbCBXb2xpbiBzcGVha3Mgd2l0aCBzdHVkZW50cyB2aXNpdGluZyBmcm9tIEZvcmRoYW0gVW5pdmVyc2l0eSAoV2VkbmVzZGF5IE1hciAyNywgMjAxMywgNDoyNSBQTSkmI3hBOyAgICAgICI+DQogICAgPGltZyBzcmM9Imh0dHA6Ly9mYXJtOS5zdGF0aWNmbGlja3IuY29tLzg1MjIvODU5NjMzMTE1Nl8zMDZhMGI2NjdiX3MuanBnIiB3aWR0aD0iNTkiIGhlaWdodD0iNTkiIGFsdD0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogRGVwdXR5IFNlY3JldGFyeSBOZWFsIFdvbGluIHNwZWFrcyB3aXRoIHN0dWRlbnRzIHZpc2l0aW5nIGZyb20gRm9yZGhhbSBVbml2ZXJzaXR5IChXZWRuZXNkYXkgTWFyIDI3LCAyMDEzLCA0OjI1IFBNKSYjeEE7ICAgICAgIiAvPg0KICA8L2E+DQo8L21lZGlhOnRhZz4NCjxtZWRpYTp0YWcgeG1sbnM6bWVkaWE9Imh0dHA6Ly9zZWFyY2gueWFob28uY29tL21yc3MvIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvdXN0cmVhc3VyeS84NTk2MzMzOTQ0LyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBGb3JkaGFtIFVuaXZlcnNpdHkgc3R1ZGVudHMgcG9zZSBmb3IgYSBncm91cCBwaG90byB3aXRoIERlcHV0eSBTZWNyZXRhcnkgTmVhbCBXb2xpbiAoV2VkbmVzZGF5IE1hciAyNywgMjAxMywgNDoyNSBQTSkmI3hBOyAgICAgICI+DQogICAgPGltZyBzcmM9Imh0dHA6Ly9mYXJtOS5zdGF0aWNmbGlja3IuY29tLzgwOTYvODU5NjMzMzk0NF83NjBlM2EyMDkxX3MuanBnIiB3aWR0aD0iNTkiIGhlaWdodD0iNTkiIGFsdD0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogRm9yZGhhbSBVbml2ZXJzaXR5IHN0dWRlbnRzIHBvc2UgZm9yIGEgZ3JvdXAgcGhvdG8gd2l0aCBEZXB1dHkgU2VjcmV0YXJ5IE5lYWwgV29saW4gKFdlZG5lc2RheSBNYXIgMjcsIDIwMTMsIDQ6MjUgUE0pJiN4QTsgICAgICAiIC8+DQogIDwvYT4NCjwvbWVkaWE6dGFnPg0KPG1lZGlhOnRhZyB4bWxuczptZWRpYT0iaHR0cDovL3NlYXJjaC55YWhvby5jb20vbXJzcy8iIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10Ij4NCiAgPGEgaHJlZj0iaHR0cDovL3d3dy5mbGlja3IuY29tL3Bob3Rvcy91c3RyZWFzdXJ5Lzg1OTUyMjg4NTEvIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IERlcHV0eSBTZWNyZXRhcnkgTmVhbCBXb2xpbiB0YWtlcyBxdWVzdGlvbnMgZnJvbSBGb3JkaGFtIFVuaXZlcnNpdHkgc3R1ZGVudHMgKFdlZG5lc2RheSBNYXIgMjcsIDIwMTMsIDQ6MjUgUE0pJiN4QTsgICAgICAiPg0KICAgIDxpbWcgc3JjPSJodHRwOi8vZmFybTkuc3RhdGljZmxpY2tyLmNvbS84MTAxLzg1OTUyMjg4NTFfM2IzZDFiMjA3ZV9zLmpwZyIgd2lkdGg9IjU5IiBoZWlnaHQ9IjU5IiBhbHQ9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IERlcHV0eSBTZWNyZXRhcnkgTmVhbCBXb2xpbiB0YWtlcyBxdWVzdGlvbnMgZnJvbSBGb3JkaGFtIFVuaXZlcnNpdHkgc3R1ZGVudHMgKFdlZG5lc2RheSBNYXIgMjcsIDIwMTMsIDQ6MjUgUE0pJiN4QTsgICAgICAiIC8+DQogIDwvYT4NCiAgPGJyIC8+DQo8L21lZGlhOnRhZz4NCjxtZWRpYTp0YWcgeG1sbnM6bWVkaWE9Imh0dHA6Ly9zZWFyY2gueWFob28uY29tL21yc3MvIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvdXN0cmVhc3VyeS84NTg5Nzg2Nzc4LyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IG1ldCB3aXRoIENoaW5lc2UgUHJlc2lkZW50IFhpIEppbnBpbmcgaW4gQmVpamluZyBvbiBUdWVzZGF5LCBNYXJjaCAxOSwgMjAxMy4gKE1vbmRheSBNYXIgMjUsIDIwMTMsIDEwOjU2IEFNKSYjeEE7ICAgICAgIj4NCiAgICA8aW1nIHNyYz0iaHR0cDovL2Zhcm05LnN0YXRpY2ZsaWNrci5jb20vODM3Ni84NTg5Nzg2Nzc4X2I0MmQ1ODhhN2Nfcy5qcGciIHdpZHRoPSI1OSIgaGVpZ2h0PSI1OSIgYWx0PSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IG1ldCB3aXRoIENoaW5lc2UgUHJlc2lkZW50IFhpIEppbnBpbmcgaW4gQmVpamluZyBvbiBUdWVzZGF5LCBNYXJjaCAxOSwgMjAxMy4gKE1vbmRheSBNYXIgMjUsIDIwMTMsIDEwOjU2IEFNKSYjeEE7ICAgICAgIiAvPg0KICA8L2E+DQo8L21lZGlhOnRhZz4NCjxtZWRpYTp0YWcgeG1sbnM6bWVkaWE9Imh0dHA6Ly9zZWFyY2gueWFob28uY29tL21yc3MvIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCI+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cuZmxpY2tyLmNvbS9waG90b3MvdXN0cmVhc3VyeS84NTg4Njg5Nzk5LyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJVUyBUcmVhc3VyeSBEZXBhcnRtZW50OiBTZWNyZXRhcnkgTGV3IG1ldCB3aXRoIENoaW5h4oCZcyBuZXcgbGVhZGVyc2hpcCB0ZWFtIGluIEJlaWppbmcgb24gVHVlc2RheSwgTWFyY2ggMTksIDIwMTMuIChNb25kYXkgTWFyIDI1LCAyMDEzLCAxMDo1NiBBTSkmI3hBOyAgICAgICI+DQogICAgPGltZyBzcmM9Imh0dHA6Ly9mYXJtOS5zdGF0aWNmbGlja3IuY29tLzg1MTMvODU4ODY4OTc5OV9iN2EzNjY1YTMwX3MuanBnIiB3aWR0aD0iNTkiIGhlaWdodD0iNTkiIGFsdD0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogU2VjcmV0YXJ5IExldyBtZXQgd2l0aCBDaGluYeKAmXMgbmV3IGxlYWRlcnNoaXAgdGVhbSBpbiBCZWlqaW5nIG9uIFR1ZXNkYXksIE1hcmNoIDE5LCAyMDEzLiAoTW9uZGF5IE1hciAyNSwgMjAxMywgMTA6NTYgQU0pJiN4QTsgICAgICAiIC8+DQogIDwvYT4NCjwvbWVkaWE6dGFnPg0KPG1lZGlhOnRhZyB4bWxuczptZWRpYT0iaHR0cDovL3NlYXJjaC55YWhvby5jb20vbXJzcy8iIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10Ij4NCiAgPGEgaHJlZj0iaHR0cDovL3d3dy5mbGlja3IuY29tL3Bob3Rvcy91c3RyZWFzdXJ5Lzg1ODk3ODQ1OTQvIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IlVTIFRyZWFzdXJ5IERlcGFydG1lbnQ6IFNlY3JldGFyeSBMZXcgc3BlYWtzIHdpdGggQ2hpbmEncyBQcmVzaWRlbnQgWGkgSmlucGluZyBkdXJpbmcgdGhlaXIgbWVldGluZyBhdCB0aGUgR3JlYXQgSGFsbCBvZiB0aGUgUGVvcGxlIGluIEJlaWppbmcgb24gVHVlc2RheSwgTWFyY2ggMTksIDIwMTMuIChNb25kYXkgTWFyIDI1LCAyMDEzLCAxMDo1NiBBTSkmI3hBOyAgICAgICI+DQogICAgPGltZyBzcmM9Imh0dHA6Ly9mYXJtOS5zdGF0aWNmbGlja3IuY29tLzgxMDMvODU4OTc4NDU5NF82YzEzOTQ5ZmZjX3MuanBnIiB3aWR0aD0iNTkiIGhlaWdodD0iNTkiIGFsdD0iVVMgVHJlYXN1cnkgRGVwYXJ0bWVudDogU2VjcmV0YXJ5IExldyBzcGVha3Mgd2l0aCBDaGluYSdzIFByZXNpZGVudCBYaSBKaW5waW5nIGR1cmluZyB0aGVpciBtZWV0aW5nIGF0IHRoZSBHcmVhdCBIYWxsIG9mIHRoZSBQZW9wbGUgaW4gQmVpamluZyBvbiBUdWVzZGF5LCBNYXJjaCAxOSwgMjAxMy4gKE1vbmRheSBNYXIgMjUsIDIwMTMsIDEwOjU2IEFNKSYjeEE7ICAgICAgIiAvPg0KICA8L2E+DQogIDxiciAvPg0KPC9tZWRpYTp0YWc+ZAIHD2QWAmYPFgIfAAWOFTxkaXYgY2xhc3M9InNtZl9ob2xkZXIiIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10IiB4bWxuczptc3htbD0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4c2x0IiB4bWxuczppbnRlcm5hbD0iaHR0cDovL3JlY292ZXJ5Lmdvdi9pbnRlcm5hbCI+DQogIDxoNj4NCiAgICA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5mYWNlYm9vay5jb20vdXN0cmVhc3VyeS9wb3N0cy81NDEwMDkyNjU5MzgwODQiIHRpdGxlPSJGYWNlYm9vayBwb3N0OiAgVW5kZXIgU2VjcmV0YXJ5IGZvciBJbnRlcm5hdGlvbmFsIEFmZmFpcnMgTGFlbCBCcmFpbmFyZCB2aXNpdGVkIHRoZSBDb3VuY2lsIG9uIEYuLi4iPiBVbmRlciBTZWNyZXRhcnkgZm9yIEludGVybmF0aW9uYWwgQWZmYWlycyBMYWVsIEJyYWluYXJkIHZpc2l0ZWQgdGhlIENvdW5jaWwgb24gRi4uLjwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1UaHUsIDE2IE1heSAyMDEzIDIwOjUxOjMwICswMTAwLS0+VGh1cnNkYXkgTWF5IDE2LCAyMDEzLCAzOjUxIFBNPC9kaXY+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9InNtZl9ob2xkZXIiIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10IiB4bWxuczptc3htbD0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4c2x0IiB4bWxuczppbnRlcm5hbD0iaHR0cDovL3JlY292ZXJ5Lmdvdi9pbnRlcm5hbCI+DQogIDxoNj4NCiAgICA8YSB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5mYWNlYm9vay5jb20vdXN0cmVhc3VyeS9wb3N0cy81NDA1MzYxMDU5ODU0MDAiIHRpdGxlPSJGYWNlYm9vayBwb3N0OiAgSGVscCBmb3IgSG9tZW93bmVycyBFdmVudCYjeEE7VGh1cnNkYXksIE1heSAxNiwgMjAxMyB8IDE6MDAgcC5tLiAmYW1wOyN4MjAxMzsgODowMCBwLm0uJiN4QTtEb25hbGQuLi4iPiBIZWxwIGZvciBIb21lb3duZXJzIEV2ZW50ClRodXJzZGF5LCBNYXkgMTYsIDIwMTMgfCAxOjAwIHAubS4gJiN4MjAxMzsgODowMCBwLm0uCkRvbmFsZC4uLjwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1XZWQsIDE1IE1heSAyMDEzIDE3OjM2OjMzICswMTAwLS0+V2VkbmVzZGF5IE1heSAxNSwgMjAxMywgMTI6MzYgUE08L2Rpdj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0ic21mX2hvbGRlciIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiIHhtbG5zOm1zeG1sPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOnhzbHQiIHhtbG5zOmludGVybmFsPSJodHRwOi8vcmVjb3ZlcnkuZ292L2ludGVybmFsIj4NCiAgPGg2Pg0KICAgIDxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LmZhY2Vib29rLmNvbS91c3RyZWFzdXJ5L3Bvc3RzLzU0MDI2MjkzMjY3OTM4NCIgdGl0bGU9IkZhY2Vib29rIHBvc3Q6ICBUcmVhc3VyeSB0b2RheSBob3N0ZWQgcmVwcmVzZW50YXRpdmVzIGZyb20gdGhlIDIxIG90aGVyIGFnZW5jaWVzIHRoYXQgbWFrZSB1cCB0aC4uLiI+IFRyZWFzdXJ5IHRvZGF5IGhvc3RlZCByZXByZXNlbnRhdGl2ZXMgZnJvbSB0aGUgMjEgb3RoZXIgYWdlbmNpZXMgdGhhdCBtYWtlIHVwIHRoLi4uPC9hPg0KICA8L2g2Pg0KICA8ZGl2IGNsYXNzPSJzbWZfZGF0ZSI+DQogICAgPCEtLVR1ZSwgMTQgTWF5IDIwMTMgMjI6MDk6MjMgKzAxMDAtLT5UdWVzZGF5IE1heSAxNCwgMjAxMywgNTowOSBQTTwvZGl2Pg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJzbWZfaG9sZGVyIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCIgeG1sbnM6bXN4bWw9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206eHNsdCIgeG1sbnM6aW50ZXJuYWw9Imh0dHA6Ly9yZWNvdmVyeS5nb3YvaW50ZXJuYWwiPg0KICA8aDY+DQogICAgPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93d3cuZmFjZWJvb2suY29tL3VzdHJlYXN1cnkvcG9zdHMvNTM4NjQxMDUyODQxNTcyIiB0aXRsZT0iRmFjZWJvb2sgcG9zdDogIFdhdGNoIENOQkMmYW1wOyMwMzk7cyBpbnRlcnZpZXcgd2l0aCBTZWNyZXRhcnkgTGV3IHRoaXMgbW9ybmluZyBmcm9tIExvbmRvbiwgd2hlcmUgdGhlIFNlLi4uIj4gV2F0Y2ggQ05CQyYjMDM5O3MgaW50ZXJ2aWV3IHdpdGggU2VjcmV0YXJ5IExldyB0aGlzIG1vcm5pbmcgZnJvbSBMb25kb24sIHdoZXJlIHRoZSBTZS4uLjwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1GcmksIDEwIE1heSAyMDEzIDE0OjA3OjAwICswMTAwLS0+RnJpZGF5IE1heSAxMCwgMjAxMywgOTowNyBBTTwvZGl2Pg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJzbWZfaG9sZGVyIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCIgeG1sbnM6bXN4bWw9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206eHNsdCIgeG1sbnM6aW50ZXJuYWw9Imh0dHA6Ly9yZWNvdmVyeS5nb3YvaW50ZXJuYWwiPg0KICA8aDY+DQogICAgPGEgdGFyZ2V0PSJfYmxhbmsiIGhyZWY9Imh0dHA6Ly93d3cuZmFjZWJvb2suY29tL3VzdHJlYXN1cnkvcG9zdHMvNTM4NjM1ODY2MTc1NDI0IiB0aXRsZT0iRmFjZWJvb2sgcG9zdDogICI+IDwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPg0KICAgIDwhLS1GcmksIDEwIE1heSAyMDEzIDEzOjQ3OjAyICswMTAwLS0+RnJpZGF5IE1heSAxMCwgMjAxMywgODo0NyBBTTwvZGl2Pg0KPC9kaXY+ZAIJD2QWAmYPFgIfAAXpFTxkaXYgY2xhc3M9InNtZl9ob2xkZXIiIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10IiB4bWxuczphdG9tPSJodHRwOi8vd3d3LnczLm9yZy8yMDA1L0F0b20iPg0KICA8aDY+DQogICAgPGEgY2xhc3M9InNoLWFuY2hvciIgdGFyZ2V0PSJfcGFyZW50IiBocmVmPSJodHRwOi8vd3d3LnlvdXR1YmUuY29tL3VzZXIvVVNUcmVhc0dvdi8jcC91LzAveHBXZFlaSlNHeXMiPlRyZWFzdXJ5IEFubm91bmNlcyAkMy41IEJpbGxpb24gaW4gTmV3IE1hcmtldHMgVGF4IENyZWRpdHM8L2E+DQogIDwvaDY+DQogIDxkaXYgY2xhc3M9InNtZl9kYXRlIj5XZWRuZXNkYXkgQXByIDI0LCAyMDEzLCAyOjA3IFBNPGJyIC8+PHNwYW4gY2xhc3M9InNtZl9kZXNjcmlwdGlvbiI+VS5TLiBEZXBhcnRtZW50IG9mIHRoZSBUcmVhc3VyeSdzIENvbW11bml0eSBEZXZlbG9wbWVudCBGaW5hbmNpYWwgSW5zdGl0dXRpb25zIEZ1bmQgRGlyZWN0b3IgRG9ubmEgSi4gR2FtYnJlbGwgY29uZ3JhdHVsYXRlcyB0aGUgYXdhcmRlZXMgdW5kZXIgdGhlIDIwMTIgcm91bi4uLjwvc3Bhbj48L2Rpdj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0ic21mX2hvbGRlciIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiIHhtbG5zOmF0b209Imh0dHA6Ly93d3cudzMub3JnLzIwMDUvQXRvbSI+DQogIDxoNj4NCiAgICA8YSBjbGFzcz0ic2gtYW5jaG9yIiB0YXJnZXQ9Il9wYXJlbnQiIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vdXNlci9VU1RyZWFzR292LyNwL3UvMC9fWWEzaWw3aFE4MCI+UmVzb3VyY2VzIGZvciBTdHJ1Z2dsaW5nIEhvbWVvd25lcnMgZnJvbSB0aGUgTWFraW5nIEhvbWUgQWZmb3JkYWJsZSBQcm9ncmFtPC9hPg0KICA8L2g2Pg0KICA8ZGl2IGNsYXNzPSJzbWZfZGF0ZSI+VGh1cnNkYXkgSmFuIDI0LCAyMDEzLCAyOjMwIFBNPGJyIC8+PHNwYW4gY2xhc3M9InNtZl9kZXNjcmlwdGlvbiI+QWx2aW5hIE1jSGFsZSwgZm9ybWVyIERpcmVjdG9yIG9mIE1hcmtldGluZyBmb3IgVHJlYXN1cnkncyBIb21lb3duZXJzaGlwIFByZXNlcnZhdGlvbiBPZmZpY2UsIG9mZmVycyBhZHZpY2UgZm9yIHN0cnVnZ2xpbmcgaG9tZW93bmVycyBhbmQgc3BlYWtzIGFib3V0IHRoZSBiZS4uLjwvc3Bhbj48L2Rpdj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0ic21mX2hvbGRlciIgeG1sbnM6Zm10PSJ1cm46dHJlYXN1cnkteHNsdC1mbXQiIHhtbG5zOmF0b209Imh0dHA6Ly93d3cudzMub3JnLzIwMDUvQXRvbSI+DQogIDxoNj4NCiAgICA8YSBjbGFzcz0ic2gtYW5jaG9yIiB0YXJnZXQ9Il9wYXJlbnQiIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vdXNlci9VU1RyZWFzR292LyNwL3UvMC9jWVp4T2F1SG9fZyI+QW50aS1mcmF1ZCBQdWJsaWMgU2VydmljZSBBbm5vdW5jZW1lbnQgKDMwLXNlY29uZHMpPC9hPg0KICA8L2g2Pg0KICA8ZGl2IGNsYXNzPSJzbWZfZGF0ZSI+TW9uZGF5IEphbiAxNCwgMjAxMywgMzowNCBQTTxiciAvPjxzcGFuIGNsYXNzPSJzbWZfZGVzY3JpcHRpb24iPkFzIHRoZSBNYXJjaCAxLCAyMDEzLCBkZWFkbGluZSBmb3IgZmVkZXJhbCBiZW5lZml0cyByZWNpcGllbnRzIG9mIHRoZSBzd2l0Y2ggdG8gYWxsLWVsZWN0cm9uaWMgZmVkZXJhbCBiZW5lZml0cyBkcmF3cyBuZWFyLCBzY2FtbWVycyBhcmUgdGFraW5nIGFkdmFudGFnZSBvZiAuLi48L3NwYW4+PC9kaXY+DQo8L2Rpdj4NCjxkaXYgY2xhc3M9InNtZl9ob2xkZXIiIHhtbG5zOmZtdD0idXJuOnRyZWFzdXJ5LXhzbHQtZm10IiB4bWxuczphdG9tPSJodHRwOi8vd3d3LnczLm9yZy8yMDA1L0F0b20iPg0KICA8aDY+DQogICAgPGEgY2xhc3M9InNoLWFuY2hvciIgdGFyZ2V0PSJfcGFyZW50IiBocmVmPSJodHRwOi8vd3d3LnlvdXR1YmUuY29tL3VzZXIvVVNUcmVhc0dvdi8jcC91LzAvTzNHcVlTMkdVMnMiPkFudGktZnJhdWQgUHVibGljIFNlcnZpY2UgQW5ub3VuY2VtZW50ICg2MC1zZWNvbmRzKTwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPk1vbmRheSBKYW4gMTQsIDIwMTMsIDM6MDUgUE08YnIgLz48c3BhbiBjbGFzcz0ic21mX2Rlc2NyaXB0aW9uIj5BcyB0aGUgTWFyY2ggMSwgMjAxMywgZGVhZGxpbmUgZm9yIGZlZGVyYWwgYmVuZWZpdHMgcmVjaXBpZW50cyBvZiB0aGUgc3dpdGNoIHRvIGFsbC1lbGVjdHJvbmljIGZlZGVyYWwgYmVuZWZpdHMgZHJhd3MgbmVhciwgc2NhbW1lcnMgYXJlIHRha2luZyBhZHZhbnRhZ2Ugb2YgLi4uPC9zcGFuPjwvZGl2Pg0KPC9kaXY+DQo8ZGl2IGNsYXNzPSJzbWZfaG9sZGVyIiB4bWxuczpmbXQ9InVybjp0cmVhc3VyeS14c2x0LWZtdCIgeG1sbnM6YXRvbT0iaHR0cDovL3d3dy53My5vcmcvMjAwNS9BdG9tIj4NCiAgPGg2Pg0KICAgIDxhIGNsYXNzPSJzaC1hbmNob3IiIHRhcmdldD0iX3BhcmVudCIgaHJlZj0iaHR0cDovL3d3dy55b3V0dWJlLmNvbS91c2VyL1VTVHJlYXNHb3YvI3AvdS8wL2JLVXRaMVByNGxJIj5NeU1vbmV5QXBwVXAgR3JhbmQgUHJpemUgRmluYWxpc3Q6IENlbnR6IEFwcDwvYT4NCiAgPC9oNj4NCiAgPGRpdiBjbGFzcz0ic21mX2RhdGUiPlRodXJzZGF5IE9jdCA0LCAyMDEyLCAxOjExIFBNPGJyIC8+PHNwYW4gY2xhc3M9InNtZl9kZXNjcmlwdGlvbiI+VGhlIGdyYW5kIHByaXplIGZpbmFsaXN0IGluIHRoZSBNeU1vbmV5QXBwVXAgQ2hhbGxlbmdlLCBDZW50eiBhcHAgaGVscHMgdG8gbWFrZSBzdHVkZW50IGxvYW5zIGVhc3kgYW5kIHNpbXBsZSB0byBtYW5hZ2UuIEFtb25nIG90aGVyIGZlYXR1cmVzLCB0aGUgYXBwIGFsbG93cy4uLjwvc3Bhbj48L2Rpdj4NCjwvZGl2PmRk1pX+nmi96Uw0wDz2KBbzlZHX3qY=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="../WebResource.axd%3Fd=x08MsCL9dWFDlcU8Li4XDYcby1Vconh_khe78PJHxeQbecWYx6EQwyXvk7-SGdHvyYai1hPlk22ts9iqgroxXQZonxk1&amp;t=634604777963325687" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'form1';
+var g_presenceEnabled = true;var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002f", webLanguage: 1033, currentLanguage: 1033, webUIVersion:4,pageListId:"{c957b70d-9d07-4e7d-9c4e-9e9b5b7f4feb}",pageItemId:27, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};//]]>
+</script>
+<script type="text/javascript" src="../_layouts/1033/init.js%3Frev=7rurhilS20pNrVcviE3PbA=="></script>
+<script src="../WebResource.axd%3Fd=CEEM-k5JZrIzvK2c2jJz9mhSqwccPhGIm8ehVFLj4dx2gqNKXIaY3UvTrybYKqeoR8_rDfVtdseDNZuCbTDGLlvYKKjIjBqQgY2dxwpzjoWivsAozpWx50WjPjyZiKp952BpO1C1bj-J_c1h5Zf_hgFbFbk1&amp;t=634608675249481397" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+                            function DoCallBack(filterText)
+                            {WebForm_DoCallback('g_5486cd9b_12f8_4b45_b817_267f3fb25cc9',filterText,UpdateFilterCallback,0,CallBackError,true)
+                            }
+                            function CallBackError(result, clientsideString)
+                            {                
+                            }
+                        //]]>
+</script>
+<script type="text/javascript">
+<!--
+var L_Menu_BaseUrl="";
+var L_Menu_LCID="1033";
+var L_Menu_SiteTheme="";
+//-->
+</script><script type="text/javascript" >
+<!--
+//-->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+UpdateFormDigest('\u002f', 1440000);
+return true;
+}
+//]]>
+</script>
+
+
+<div id="social-tabs">
+	<div class="t-rr-wrapper">
+		<div class="header">
+		<h2>Social Hub</h2>
+		
+		<div class="hiddenStructure"><a title="Click here to read all the social feeds" href="http://www.treasury.gov/connect/Pages/default.aspx">Click here to read all the social feeds</a></div> 
+							
+
+		</div>
+		
+		<div id="tabs">
+		<ul>
+			<li><a class="st-blog" href="social.aspx.html#tabs-1">Treasury Notes Blog</a></li>
+			<li><a class="st-tw" href="social.aspx.html#tabs-2">Twitter</a></li>
+			<li><a class="st-fl" href="social.aspx.html#tabs-3">Flickr</a></li>
+			<li><a class="st-fb" href="social.aspx.html#tabs-4">Facebook</a></li>
+			<li><a class="st-yt" href="social.aspx.html#tabs-5">You Tube</a></li>
+			<!-- <li><a class="st-ms" href="#tabs-6">My Space</a></li> -->
+		</ul>
+		<div id="tabs-1">
+			<h3 class="social-hub-header"><a href="http://www.treasury.gov/connect/blog" target="_parent" title="U.S. Department of the Treasury Blog">Treasury Notes Blog</a></h3>
+			<div class="st-content">
+				<table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td valign="top"><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartg_5486cd9b_12f8_4b45_b817_267f3fb25cc9" width="100%" class="ms-WPBody" OnlyForMePart="true" allowDelete="false" style="" ><div id="cbqwpg_5486cd9b_12f8_4b45_b817_267f3fb25cc9" class="cbq-layout-main">
+			
+				<div>								
+			
+		<div class="smf_holder" style="width: 200px !important;" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime"><h6><a class="sh-anchor" title="" target="_parent" href="http://www.treasury.gov/connect/blog/Pages/Secretary-Lew-Sends-Debt-Limit-Letter-to-Congress.aspx">Secretary Lew Sends Debt Limit Letter to Congress</a></h6><div class="smf_date">Friday May 17, 2013</div><div class="smf_description">​Today, Secretary Lew sent the following letter​ to Congress regarding the debt limit.</div></div><div class="smf_holder" style="width: 200px !important;" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime"><h6><a class="sh-anchor" title="" target="_parent" href="http://www.treasury.gov/connect/blog/Pages/Under-Secretary-Brainard-Discusses-Global-Economy-at-Council-on-Foreign-Relations.aspx">Under Secretary Brainard Discusses Global Economy at Council on Foreign Relations</a></h6><div class="smf_date">Thursday May 16, 2013</div><div class="smf_description">​Under Secretary for International Affairs Lael Brainard visited the Council on Foreign Relations (CFR) in New York tod...</div></div><div class="smf_holder" style="width: 200px !important;" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime"><h6><a class="sh-anchor" title="" target="_parent" href="http://www.treasury.gov/connect/blog/Pages/Starting-Early-with-Financial-Literacy-Is-Key-to-Strong-Economy.aspx">Starting Early with Financial Literacy Is Key to Strong Economy</a></h6><div class="smf_date">Tuesday May 14, 2013</div><div class="smf_description">​Treasury today hosted representatives from the 21 other agencies that make up the Financial Literacy and Education Com...</div></div><div class="smf_holder" style="width: 200px !important;" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime"><h6><a class="sh-anchor" title="" target="_parent" href="http://www.treasury.gov/connect/blog/Pages/Raoul-Wallenberg-Congressional-Gold-Medal-Designs-Unveiled.aspx">Raoul Wallenberg Congressional Gold Medal Designs Unveiled</a></h6><div class="smf_date">Thursday May 9, 2013</div><div class="smf_description">​Treasury Secretary Jacob J. Lew today unveiled the designs of the Raoul Wallenberg Congressional Gold Medal during a c...</div></div><div class="smf_holder" style="width: 200px !important;" xmlns:ddwrt="http://schemas.microsoft.com/WebParts/v2/DataView/runtime"><h6><a class="sh-anchor" title="" target="_parent" href="http://www.treasury.gov/connect/blog/Pages/Treasury-Opens-Its-Doors-to-Kids-For-Take-a-Future-Fed-to-Work-Day.aspx">Treasury Opens Its Doors to Kids For Take a Future Fed to Work Day</a></h6><div class="smf_date">Wednesday May 8, 2013</div><div class="smf_description">Today as part of Public Service Recognition Week, we hosted the children of Treasury employees for “Take a Future Fed t...</div></div>
+			
+				</div>
+			
+		</div><html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><head>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:DisplayAsOfDate msdt:dt="string"></mso:DisplayAsOfDate>
+<mso:AsOfDate msdt:dt="string"></mso:AsOfDate>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">System Account</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">36000.0000000000</mso:Order>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:Geography_x0020_TagTaxHTField0 msdt:dt="string"></mso:Geography_x0020_TagTaxHTField0>
+<mso:ArticleStartDate msdt:dt="string"></mso:ArticleStartDate>
+<mso:Resource_x0020_Type_x0020_Tag msdt:dt="string"></mso:Resource_x0020_Type_x0020_Tag>
+<mso:Topic_x0020_Tag msdt:dt="string"></mso:Topic_x0020_Tag>
+<mso:Office_Tag msdt:dt="string"></mso:Office_Tag>
+<mso:ContentTypeId msdt:dt="string">0x010100547C9E7237ACB84FA12672222A90F208</mso:ContentTypeId>
+<mso:Geography_x0020_Tag msdt:dt="string"></mso:Geography_x0020_Tag>
+<mso:Person_x0020_TagTaxHTField0 msdt:dt="string"></mso:Person_x0020_TagTaxHTField0>
+<mso:Resource_x0020_Type_x0020_TagTaxHTField0 msdt:dt="string"></mso:Resource_x0020_Type_x0020_TagTaxHTField0>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:TaxCatchAll msdt:dt="string"></mso:TaxCatchAll>
+<mso:Office_TagTaxHTField0 msdt:dt="string"></mso:Office_TagTaxHTField0>
+<mso:ShowArticleDateInTitle msdt:dt="string"></mso:ShowArticleDateInTitle>
+<mso:TitleAlternate msdt:dt="string"></mso:TitleAlternate>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:Person_x0020_Tag msdt:dt="string"></mso:Person_x0020_Tag>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:Topic_x0020_TagTaxHTField0 msdt:dt="string"></mso:Topic_x0020_TagTaxHTField0>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">System Account</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+<title></title></head></div></td>
+	</tr>
+</table>
+				
+			</div>
+		</div>		<div id="tabs-2">
+			<h3 class="social-hub-header"><a href="http://twitter.com/USTreasury/" target="_blank" title="U.S. Department of the Treasury on Twitter">Twitter</a></h3>
+			<div class="st-content">
+				<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt">
+  <h6>
+    <a target="_blank" href="http://twitter.com/USTreasury/statuses/336916585702895617" title=" RT @HUDRockyMtns: #HUD &amp;amp; @USTreasury administer a program to help make #homeownership affordable. Learn more about @MHA4Partners at http://…"> RT @HUDRockyMtns: #HUD &amp; @USTreasury administer a program to help make #homeownership affordable. Learn more about @MHA4Partners at http://…</a>
+  </h6>
+  <div class="smf_date">
+    <!--Tue, 21 May 2013 18:49:08 +0000-->Tuesday May 21, 2013, 2:49 PM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt">
+  <h6>
+    <a target="_blank" href="http://twitter.com/USTreasury/statuses/336899341803483136" title=" Asst Secy for Tax Policy Mazur's testimony on &quot;The Shifting of Profits Offshore by US Multinational Corporations&quot; http://t.co/WXFo2FGMGv"> Asst Secy for Tax Policy Mazur's testimony on "The Shifting of Profits Offshore by US Multinational Corporations" http://t.co/WXFo2FGMGv</a>
+  </h6>
+  <div class="smf_date">
+    <!--Tue, 21 May 2013 17:40:37 +0000-->Tuesday May 21, 2013, 1:40 PM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt">
+  <h6>
+    <a target="_blank" href="http://twitter.com/USTreasury/statuses/336645645391781888" title=" Today Secretary Lew sent this debt limit letter to Congress http://t.co/7mc5fwC8L7"> Today Secretary Lew sent this debt limit letter to Congress http://t.co/7mc5fwC8L7</a>
+  </h6>
+  <div class="smf_date">
+    <!--Tue, 21 May 2013 00:52:31 +0000-->Monday May 20, 2013, 8:52 PM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt">
+  <h6>
+    <a target="_blank" href="http://twitter.com/USTreasury/statuses/336525234897309696" title=" Cohen to continue Treasury’s global consultation on international #sanctions against Iran &amp;amp; Syria and efforts to combat illicit #finance"> Cohen to continue Treasury’s global consultation on international #sanctions against Iran &amp; Syria and efforts to combat illicit #finance</a>
+  </h6>
+  <div class="smf_date">
+    <!--Mon, 20 May 2013 16:54:02 +0000-->Monday May 20, 2013, 12:54 PM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt">
+  <h6>
+    <a target="_blank" href="http://twitter.com/USTreasury/statuses/336525134284328960" title=" UnderSec for Terrorism &amp;amp; Financial Intelligence David Cohen traveling to Qatar, UAE, Saudi Arabia this week http://t.co/FIKFoM3vNF"> UnderSec for Terrorism &amp; Financial Intelligence David Cohen traveling to Qatar, UAE, Saudi Arabia this week http://t.co/FIKFoM3vNF</a>
+  </h6>
+  <div class="smf_date">
+    <!--Mon, 20 May 2013 16:53:39 +0000-->Monday May 20, 2013, 12:53 PM</div>
+</div>
+			</div>
+		</div>
+		
+		<div id="tabs-3">
+			<h3 class="social-hub-header"><a href="http://www.flickr.com/photos/ustreasury/" target="_blank" title="U.S. Department of the Treasury Flickr Photostream">Flickr</a></h3>
+			<div class="st-content">
+				<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8724616156/" target="_blank" title="US Treasury Department: Secretary Lew welcomes the King and Queen of Sweden to the Treasury Department (Thursday May 9, 2013, 5:25 PM)&#xA;      ">
+    <img src="../../farm8.staticflickr.com/7284/8724616156_3e56c212d1_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew welcomes the King and Queen of Sweden to the Treasury Department (Thursday May 9, 2013, 5:25 PM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8724619984/" target="_blank" title="US Treasury Department: Secretary Lew participates in ceremony to unveil the Congressional Gold Medal honoring Raoull Wallenberg (Thursday May 9, 2013, 5:25 PM)&#xA;      ">
+    <img src="../../farm8.staticflickr.com/7356/8724619984_fc8ae75d99_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew participates in ceremony to unveil the Congressional Gold Medal honoring Raoull Wallenberg (Thursday May 9, 2013, 5:25 PM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8724594338/" target="_blank" title="US Treasury Department: Secretary Lew tours Vitamix manufacturing facility during trip to Cleveland, Ohio (Thursday May 9, 2013, 5:16 PM)&#xA;      ">
+    <img src="../../farm8.staticflickr.com/7400/8724594338_dce8058761_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew tours Vitamix manufacturing facility during trip to Cleveland, Ohio (Thursday May 9, 2013, 5:16 PM)&#xA;      " />
+  </a>
+  <br />
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8723478485/" target="_blank" title="US Treasury Department: Secretary Lew tours Vitamix manufacturing facility during trip to Cleveland, Ohio (Thursday May 9, 2013, 5:16 PM)&#xA;      ">
+    <img src="../../farm8.staticflickr.com/7411/8723478485_3a359e962a_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew tours Vitamix manufacturing facility during trip to Cleveland, Ohio (Thursday May 9, 2013, 5:16 PM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8724599772/" target="_blank" title="US Treasury Department: Secretary Lew tours Vitamix manufacturing facility during trip to Cleveland, Ohio (Thursday May 9, 2013, 5:16 PM)&#xA;      ">
+    <img src="../../farm8.staticflickr.com/7375/8724599772_18b14971ac_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew tours Vitamix manufacturing facility during trip to Cleveland, Ohio (Thursday May 9, 2013, 5:16 PM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8714599282/" target="_blank" title="US Treasury Department: Secretary Lew at the Inter-American Development Bank (Monday May 6, 2013, 10:53 AM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8271/8714599282_87e914f1d4_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew at the Inter-American Development Bank (Monday May 6, 2013, 10:53 AM)&#xA;      " />
+  </a>
+  <br />
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8713466753/" target="_blank" title="US Treasury Department: Equal Futures Partnership: From Promise to Progress 2013 Spring Meetings (Monday May 6, 2013, 10:53 AM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8279/8713466753_27528309aa_s.jpg" width="59" height="59" alt="US Treasury Department: Equal Futures Partnership: From Promise to Progress 2013 Spring Meetings (Monday May 6, 2013, 10:53 AM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8713451465/" target="_blank" title="US Treasury Department: Equal Futures Partnership: From Promise to Progress 2013 Spring Meetings (Monday May 6, 2013, 10:53 AM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8560/8713451465_baf28302a6_s.jpg" width="59" height="59" alt="US Treasury Department: Equal Futures Partnership: From Promise to Progress 2013 Spring Meetings (Monday May 6, 2013, 10:53 AM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8631216509/" target="_blank" title="US Treasury Department: Secretary Lew meets with President of the European Commission José Manuel Barroso in Brussels, April 8, 2013 (Monday Apr 8, 2013, 1:12 PM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8395/8631216509_981d0972fa_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew meets with President of the European Commission José Manuel Barroso in Brussels, April 8, 2013 (Monday Apr 8, 2013, 1:12 PM)&#xA;      " />
+  </a>
+  <br />
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8596331156/" target="_blank" title="US Treasury Department: Deputy Secretary Neal Wolin speaks with students visiting from Fordham University (Wednesday Mar 27, 2013, 4:25 PM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8522/8596331156_306a0b667b_s.jpg" width="59" height="59" alt="US Treasury Department: Deputy Secretary Neal Wolin speaks with students visiting from Fordham University (Wednesday Mar 27, 2013, 4:25 PM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8596333944/" target="_blank" title="US Treasury Department: Fordham University students pose for a group photo with Deputy Secretary Neal Wolin (Wednesday Mar 27, 2013, 4:25 PM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8096/8596333944_760e3a2091_s.jpg" width="59" height="59" alt="US Treasury Department: Fordham University students pose for a group photo with Deputy Secretary Neal Wolin (Wednesday Mar 27, 2013, 4:25 PM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8595228851/" target="_blank" title="US Treasury Department: Deputy Secretary Neal Wolin takes questions from Fordham University students (Wednesday Mar 27, 2013, 4:25 PM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8101/8595228851_3b3d1b207e_s.jpg" width="59" height="59" alt="US Treasury Department: Deputy Secretary Neal Wolin takes questions from Fordham University students (Wednesday Mar 27, 2013, 4:25 PM)&#xA;      " />
+  </a>
+  <br />
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8589786778/" target="_blank" title="US Treasury Department: Secretary Lew met with Chinese President Xi Jinping in Beijing on Tuesday, March 19, 2013. (Monday Mar 25, 2013, 10:56 AM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8376/8589786778_b42d588a7c_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew met with Chinese President Xi Jinping in Beijing on Tuesday, March 19, 2013. (Monday Mar 25, 2013, 10:56 AM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8588689799/" target="_blank" title="US Treasury Department: Secretary Lew met with China’s new leadership team in Beijing on Tuesday, March 19, 2013. (Monday Mar 25, 2013, 10:56 AM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8513/8588689799_b7a3665a30_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew met with China’s new leadership team in Beijing on Tuesday, March 19, 2013. (Monday Mar 25, 2013, 10:56 AM)&#xA;      " />
+  </a>
+</media:tag>
+<media:tag xmlns:media="http://search.yahoo.com/mrss/" xmlns:fmt="urn:treasury-xslt-fmt">
+  <a href="http://www.flickr.com/photos/ustreasury/8589784594/" target="_blank" title="US Treasury Department: Secretary Lew speaks with China's President Xi Jinping during their meeting at the Great Hall of the People in Beijing on Tuesday, March 19, 2013. (Monday Mar 25, 2013, 10:56 AM)&#xA;      ">
+    <img src="../../farm9.staticflickr.com/8103/8589784594_6c13949ffc_s.jpg" width="59" height="59" alt="US Treasury Department: Secretary Lew speaks with China's President Xi Jinping during their meeting at the Great Hall of the People in Beijing on Tuesday, March 19, 2013. (Monday Mar 25, 2013, 10:56 AM)&#xA;      " />
+  </a>
+  <br />
+</media:tag>			</div>
+		</div>
+		<div id="tabs-4">
+			<h3 class="social-hub-header"><a href="http://www.facebook.com/ustreasury" target="_blank" title="U.S. Department of the Treasury on Facebook">Facebook</a></h3>
+			<div class="st-content">
+				<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:msxml="urn:schemas-microsoft-com:xslt" xmlns:internal="http://recovery.gov/internal">
+  <h6>
+    <a target="_blank" href="http://www.facebook.com/ustreasury/posts/541009265938084" title="Facebook post:  Under Secretary for International Affairs Lael Brainard visited the Council on F..."> Under Secretary for International Affairs Lael Brainard visited the Council on F...</a>
+  </h6>
+  <div class="smf_date">
+    <!--Thu, 16 May 2013 20:51:30 +0100-->Thursday May 16, 2013, 3:51 PM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:msxml="urn:schemas-microsoft-com:xslt" xmlns:internal="http://recovery.gov/internal">
+  <h6>
+    <a target="_blank" href="http://www.facebook.com/ustreasury/posts/540536105985400" title="Facebook post:  Help for Homeowners Event&#xA;Thursday, May 16, 2013 | 1:00 p.m. &amp;#x2013; 8:00 p.m.&#xA;Donald..."> Help for Homeowners Event
+Thursday, May 16, 2013 | 1:00 p.m. &#x2013; 8:00 p.m.
+Donald...</a>
+  </h6>
+  <div class="smf_date">
+    <!--Wed, 15 May 2013 17:36:33 +0100-->Wednesday May 15, 2013, 12:36 PM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:msxml="urn:schemas-microsoft-com:xslt" xmlns:internal="http://recovery.gov/internal">
+  <h6>
+    <a target="_blank" href="http://www.facebook.com/ustreasury/posts/540262932679384" title="Facebook post:  Treasury today hosted representatives from the 21 other agencies that make up th..."> Treasury today hosted representatives from the 21 other agencies that make up th...</a>
+  </h6>
+  <div class="smf_date">
+    <!--Tue, 14 May 2013 22:09:23 +0100-->Tuesday May 14, 2013, 5:09 PM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:msxml="urn:schemas-microsoft-com:xslt" xmlns:internal="http://recovery.gov/internal">
+  <h6>
+    <a target="_blank" href="http://www.facebook.com/ustreasury/posts/538641052841572" title="Facebook post:  Watch CNBC&amp;#039;s interview with Secretary Lew this morning from London, where the Se..."> Watch CNBC&#039;s interview with Secretary Lew this morning from London, where the Se...</a>
+  </h6>
+  <div class="smf_date">
+    <!--Fri, 10 May 2013 14:07:00 +0100-->Friday May 10, 2013, 9:07 AM</div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:msxml="urn:schemas-microsoft-com:xslt" xmlns:internal="http://recovery.gov/internal">
+  <h6>
+    <a target="_blank" href="http://www.facebook.com/ustreasury/posts/538635866175424" title="Facebook post:  "> </a>
+  </h6>
+  <div class="smf_date">
+    <!--Fri, 10 May 2013 13:47:02 +0100-->Friday May 10, 2013, 8:47 AM</div>
+</div>
+			</div>
+		</div>
+		<div id="tabs-5">
+			<h3 class="social-hub-header"><a href="http://www.youtube.com/user/USTreasGov/" target="_blank" title="U.S. Department of the Treasury YouTube Channel">YouTube</a></h3>
+			<div class="st-content">
+				<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:atom="http://www.w3.org/2005/Atom">
+  <h6>
+    <a class="sh-anchor" target="_parent" href="http://www.youtube.com/user/USTreasGov/#p/u/0/xpWdYZJSGys">Treasury Announces $3.5 Billion in New Markets Tax Credits</a>
+  </h6>
+  <div class="smf_date">Wednesday Apr 24, 2013, 2:07 PM<br /><span class="smf_description">U.S. Department of the Treasury's Community Development Financial Institutions Fund Director Donna J. Gambrell congratulates the awardees under the 2012 roun...</span></div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:atom="http://www.w3.org/2005/Atom">
+  <h6>
+    <a class="sh-anchor" target="_parent" href="http://www.youtube.com/user/USTreasGov/#p/u/0/_Ya3il7hQ80">Resources for Struggling Homeowners from the Making Home Affordable Program</a>
+  </h6>
+  <div class="smf_date">Thursday Jan 24, 2013, 2:30 PM<br /><span class="smf_description">Alvina McHale, former Director of Marketing for Treasury's Homeownership Preservation Office, offers advice for struggling homeowners and speaks about the be...</span></div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:atom="http://www.w3.org/2005/Atom">
+  <h6>
+    <a class="sh-anchor" target="_parent" href="http://www.youtube.com/user/USTreasGov/#p/u/0/cYZxOauHo_g">Anti-fraud Public Service Announcement (30-seconds)</a>
+  </h6>
+  <div class="smf_date">Monday Jan 14, 2013, 3:04 PM<br /><span class="smf_description">As the March 1, 2013, deadline for federal benefits recipients of the switch to all-electronic federal benefits draws near, scammers are taking advantage of ...</span></div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:atom="http://www.w3.org/2005/Atom">
+  <h6>
+    <a class="sh-anchor" target="_parent" href="http://www.youtube.com/user/USTreasGov/#p/u/0/O3GqYS2GU2s">Anti-fraud Public Service Announcement (60-seconds)</a>
+  </h6>
+  <div class="smf_date">Monday Jan 14, 2013, 3:05 PM<br /><span class="smf_description">As the March 1, 2013, deadline for federal benefits recipients of the switch to all-electronic federal benefits draws near, scammers are taking advantage of ...</span></div>
+</div>
+<div class="smf_holder" xmlns:fmt="urn:treasury-xslt-fmt" xmlns:atom="http://www.w3.org/2005/Atom">
+  <h6>
+    <a class="sh-anchor" target="_parent" href="http://www.youtube.com/user/USTreasGov/#p/u/0/bKUtZ1Pr4lI">MyMoneyAppUp Grand Prize Finalist: Centz App</a>
+  </h6>
+  <div class="smf_date">Thursday Oct 4, 2012, 1:11 PM<br /><span class="smf_description">The grand prize finalist in the MyMoneyAppUp Challenge, Centz app helps to make student loans easy and simple to manage. Among other features, the app allows...</span></div>
+</div>
+			</div>
+		</div>	
+		<p class="t-read-more">
+		<span><a class="sf-link" target="_parent" href="http://www.treasury.gov/connect/Pages/default.aspx">All social feeds</a></span>
+		<span><a class="sf-link" href="http://www.treasury.gov/SitePolicies/Pages/privacy.aspx" target="_parent" title="Privacy Policy">Social media privacy</a></span>
+		</p>
+		</div>
+		
+	</div>
+	
+ <div class="clear"></div>
+</div>
+
+
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002fsp.core.js?rev=7ByNlH\u00252BvcgRJg\u00252BRCctdC0w\u00253D\u00253D");</script><script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=b6\u00252FcRx1a6orhAQ\u00252FcF\u00252B0ytQ\u00253D\u00253D");</script><script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002fsp.ui.dialog.js?rev=IuXtJ2CrScK6oX4zOTTy\u00252BA\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.core.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script><script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f1033\u002fcore.js?rev=thUAOrLfyaU\u00252Fgyxy0eiMiw\u00253D\u00253D");</script>
+<script type="text/javascript">
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;
+WebForm_InitCallback();//]]>
+</script>
+<script type="text/javascript">RegisterSod("mediaplayer.js", "\u002f_layouts\u002fmediaplayer.js?rev=Q6vfD9BNL\u00252B9PvwgrVEcc\u00252FA\u00253D\u00253D");</script><script type="text/javascript">RegisterSod("sp.publishing.resources.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252EPublishing\u00252EResources\u0026rev=q6nxzZIVVXE5X1SPZIMD3A\u00253D\u00253D");</script>
+<script type="text/javascript">
+//<![CDATA[
+function g_5486cd9b_12f8_4b45_b817_267f3fb25cc9_init() {
+    EnsureScript('mediaplayer.js', 
+        typeof(mediaPlayer) != 'undefined' ? typeof(mediaPlayer.attachToMediaLinks) : 'undefined');
+    ExecuteOrDelayUntilScriptLoaded(
+        function() {
+            if (Silverlight.isInstalled('2.0')) {
+                mediaPlayer.createOverlayPlayer();
+                mediaPlayer.attachToMediaLinks(document.getElementById('cbqwpg_5486cd9b_12f8_4b45_b817_267f3fb25cc9'), ["wmv","wma","mp3","mp4"],'');
+            }
+        }, 'mediaplayer.js');
+}
+if (_spBodyOnLoadFunctionNames != null) { _spBodyOnLoadFunctionNames.push('g_5486cd9b_12f8_4b45_b817_267f3fb25cc9_init'); }
+//]]>
+</script>
+</form>
+
+</body>
+
+</html>

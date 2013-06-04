@@ -1,0 +1,550 @@
+/*$Id: ads.css 117421 2012-12-06 02:51:01Z surya.sanagavarapu $
+/css/0.1/screen/common/ad.css 
+(c)2006 - 2011 The New York Times Company */
+
+#TopLeft {
+  float: left;
+}
+
+#TopRight {
+  float: right;
+}
+
+.centeredAd {
+  text-align: center;
+}
+
+.subNavigation #Position1B {
+  float: left;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+#TopAd,
+#SFPushDown {
+  margin-top: 1px; /* navigation tabsContainer -1px bottom  */
+  clear: both;
+  padding: 5px 0pt;
+  text-align: center;  
+  border-bottom: 1px solid #D3D3D3;     
+}   
+
+#TopAd > table,
+#SFPushDown > table {
+  margin: auto;
+}
+
+/* BEGIN Ad rules from general.css
+--------------------------------*/
+
+#Middle1C {
+	float: right;
+	display: inline;  
+	text-transform: uppercase;
+	width: 88px;
+	overflow: hidden;
+	font-size: 9px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+			
+#Middle1C img {
+	display: block;
+	margin-bottom: 1px;
+}
+
+/* Google ad styling */
+.linkbox {cursor:pointer;cursor:hand;}
+
+/* BEGIN Ad rules from article.css
+--------------------------------*/
+
+#adxCircBottom {
+	clear:both;
+	padding-bottom:15px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+#masthead #Bar3,	
+#adxCircBottom a, 
+#adxCircBottom font {
+	font: bold 1.2em arial, helvetica, sans-serif;
+	color:#004276;
+}
+	
+#masthead #Bar3 {
+	font-weight:normal;
+}
+
+#aColumn #adxSponLink {
+	clear: both;
+	width:100%;
+}
+
+#aColumn #adxSponLink iframe {
+	margin-bottom: 10px;
+}
+	
+#adxToolSponsor {
+	padding: 5px 10px 5px 18px;
+}
+	
+#bColumn #adxBigAd {                        
+	text-align: center; 
+	_border-top: none;
+	padding-top: 12px;             
+}	
+	
+/* BEGIN Ads
+--------------------------------*/
+#adxBigAd.columnGroup {                        
+	text-align:center; 
+	_border-top: none;
+	padding-top: 0;             
+}
+
+#adxBigAd table {
+	margin: auto;
+}
+
+#adxBigAd h4 {
+	margin:0px;
+	padding:0px 0 3px 0;
+	color:#999;
+}
+#adxMiddle {
+	margin-bottom:15px;
+}	
+#advertiserLinks {
+	border:1px solid #dedede;
+	overflow: hidden;
+}
+	
+#advertiserLinks h4 {
+	margin:0px;
+	background-color: #efefef;
+	padding: 2px 6px;
+	color: #999;
+	border-bottom:1px solid #dedede;
+}
+	
+#advertiserLinks table {
+	margin: 10px 0;
+	width: 100%;
+}
+	
+#advertiserLinks td {
+	padding: 0 10px;
+}
+	
+#advertiserLinks td.gutter {
+	padding:0px;
+	background-color:#efefef;
+	width:1px;
+}
+#advertiserLinks a {
+	text-decoration: none;
+}
+	
+#advertiserLinks li {
+	padding-bottom: .7em; 
+}
+		
+#advertiserLinks h5 {
+	margin:0px;
+	padding:0px;
+	text-decoration: underline;
+}
+
+#advertiserLinks p {
+	margin: 0;
+	padding:0px;
+}	
+
+* html #advertiserLinks .adUrl{
+	overflow: hidden;
+	word-wrap: break-word;
+	width: 150px;
+}
+	
+#advertiserLinkImg {
+	text-align: center;
+	margin:0px;
+	padding:0px;
+}
+	
+#adTextLinkImg img {
+	border: none;
+}
+	
+#adxSponLink {
+	clear: both;
+}
+
+#adxSponLink iframe { 
+	margin-bottom: 10px;
+}
+
+#SponLink.singleAd {  /* div only contains js no content */
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#adxSponLinkA {
+  margin-top: 8px;
+}
+	
+#sponsoredLinks {
+  font-family: arial, helvetica, sans-serif;
+	clear: both;
+}
+	
+#sponsoredLinks #header {
+	padding: 1px;
+	background: #f4f4f4;
+}
+	
+* html #sponsoredLinks #header {
+	padding: 3px;
+}	
+	
+#header h4 {
+	color: #999999;
+	font-weight: normal;
+	margin: 0 0 0 2px;
+	padding: 0 0 0 2px;
+	float: left;
+}
+	
+#header .whatIs a {
+  font-size: 1.1em;
+  line-height: 1.2727em; /* 14px*/ 
+	float: right;
+}
+
+#adContent { 
+	padding: 10px;
+}
+	
+#adContent .ad,
+#adContent .ad a:link,
+#adContent .ad a:visited {
+	padding-bottom: 10px;
+	color: #004276;
+}
+	
+.tableless {position:relative;} 
+.tableless img {margin:10px 5px 10px 0;}
+.tableless img.inline {margin:0; position:relative; bottom:-3px;} 
+.tableless p {margin:0;}
+
+.cColumn .twoColumnAd .subColumn-2 .firstColumn {
+	width: 200px;
+	border-right: 1px solid #ccc;
+	padding-right: 7px;
+	margin-right: 8px;
+}
+
+.cColumn .twoColumnAd .subColumn-2 .lastColumn {
+	width: 100px;
+}
+
+.twoColumnAd .lastColumn h4 {
+	color: #999;
+}
+
+.twoColumnAd .firstImage {
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+/* Advertisement headings (gray background) */
+.adHeader,
+#sponsoredLinks #header {
+	background: #f4f4f4;
+	padding: 6px 8px;
+	display: block;
+	margin-bottom:2px;
+}
+
+.adHeader h4,
+#sponsoredLinks #header h4 {
+  font-family:arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.2727em; /* 14px*/     
+  font-weight: normal;
+	color: #666;
+	text-transform:uppercase;
+}
+
+/* BEGIN advertisementColumnGroup */
+
+div.advertisementColumnGroup div.textAdvertisement,
+div.advertisementColumnGroup div.ad_section {
+	padding-left: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 12px;
+	}
+
+div.advertisementColumnGroup div.textAdvertisement a.titleLink,
+div.advertisementColumnGroup div.ad_section a.title_link {
+	display: block;
+	font-size: 90%;
+	}
+
+div.advertisementColumnGroup div.textAdvertisement span.adText,
+div.advertisementColumnGroup div.ad_section span.ad_text,
+div.advertisementColumnGroup div.textAdvertisement span.visibleUrl,
+div.advertisementColumnGroup div.ad_section span.visible_url {
+	display: block;
+	font-size: 80%;
+	}
+
+div.advertisementColumnGroup .advertisementThumbnails {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: none;
+	}
+
+div.advertisementColumnGroup .advertisementThumbnails .column {
+	margin: 6px 8px;
+	_margin: 6px 8px 6px 6px;
+	display: inline;
+	float: left;
+	width: 86px;
+	overflow: visible;
+	/*\*/vertical-align: top;/*\*/
+	position: relative;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	background: none;
+	text-align:left;
+	_height: 1%;
+	line-height: 1.2em;
+	word-wrap: break-word;
+	}
+
+div.advertisementColumnGroup .advertisementThumbnails a {
+	line-height: 1.2em;
+	}
+
+div.advertisementColumnGroup .advertisementThumbnails a {
+	line-height: 1em;
+	}
+
+div.advertisementColumnGroup .advertisementThumbnails img {
+	display: block;
+	margin-bottom: 3px;
+	}
+	
+.bColumn .singleAd {
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+
+/* center non text ads */
+
+.bColumn .singleAd,
+.cColumn .bigAd {
+  text-align: center;
+}
+
+.cColumn .bigAd,
+.cColumn .singleAd,
+.cColumn .twoColumnAd,
+.cColumn .featuredPropertiesAd {
+  clear: both;
+  border-top:1px solid #ccc;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.cColumn .columnGroup.first .singleAd:first-child {
+  border: none;
+  padding-top: 0;
+}
+
+/* styles for featuredPropertiesAd */
+
+.featuredPropertiesAd .lastColumn .moduleHeader {
+  color: #666;
+}
+
+.featuredPropertiesAd  .story .firstImage  {
+  height: 252px;
+  width: 336px;
+}
+
+.featuredPropertiesAd .tileAdContainer {
+  width: 336px; 
+  text-align: center;
+}
+
+.featuredPropertiesAd .tileAdContainer .tileAd1 {
+  margin-right: 10px;
+}
+
+/* BEGIN NYT Store Styles 
+------------------------------*/
+#nytStoreBox {
+	background: #F6F6F5;
+	margin-bottom: 10px;
+}
+	
+#nytStoreBox #nytStoreHeader {
+	background: #7B8EAA;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+}
+	
+#nytStoreBox #storeItem {
+	background: #F6F6F5;
+	padding: 15px 0 15px 15px;
+}
+	
+#nytStoreBox #storeItem img {
+	background: #F6F6F5;
+	float: left;
+	width: 90px;
+	height: 90px;
+	padding-right: 10px;
+}
+
+#nytStoreBox #storeItem .text {
+	background: #F6F6F5;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+	
+#nytStoreBox #storeItem .link {}
+
+#nytStoreBox #storeItem .clear {
+	clear: both;
+	background: #fff;
+	visibility: hidden;
+}
+
+/* END NYTimes Store Promo 
+------------------------------------*/
+
+
+
+/* BEGIN TextAds  - these classes are used in articles' bColumns
+-----------------------------------------*/
+
+.cColumn-TextAdsBox {
+	clear:both;
+	overflow:auto;
+	padding:10px;
+	padding-right:9px;	
+}
+
+.cColumn-TextAdsBox .opposingFloatControl .element1 {
+	width: 180px;
+}
+
+* html .cColumn-TextAdsBox {
+	height: 1%;}
+
+
+.cColumn-TextAdsLeft {
+	text-align: left;
+	width:180px;
+	float:left;
+}
+
+.cColumn-TextAdsLeft .cColumn-TextAdsHeader {}
+
+.cColumn-TextAdsLeft .cColumn-TextAd {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+.cColumn-TextAdsLeft .cColumn-TextAd br {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.cColumn-TextAdsBox font {}
+
+.cColumn-TextAdsRight {
+	float:right;
+}
+	
+/* END Ad rules from article.css
+------------- 
+
+/* most popular ad rules */
+
+#mostPopWidget .moduleAd {
+  text-align: right;
+  padding-right: 8px; 
+  padding-bottom: 5px;
+  margin-top: -37px;
+  width: auto; 
+}
+
+#mostPopWidget .moduleAd:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+
+#Feature1 .story .callout {
+  width: 171px;
+  height: 96px;
+  float: left;
+  display:inline;
+  margin-left: 0;
+  margin-right: 13px; 
+  padding: 0;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+#Feature1 .story h5,
+#Feature1 .story .summary {
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1.166em; /* 14px */
+}
+
+#Feature1 .story .summary {
+  letter-spacing: -0.01em;
+  word-spacing: -0.15em;
+  color: #000;
+}
+
+#Feature1 .story .adCreative {
+  float: left;
+}
+
+/* 5 tiled ads module */
+
+.spanABCAd .subColumn-5 .column {
+  width: 198px;
+  margin-right: 0;
+}
+    
+.spanABCAd .subColumn-5 .firstColumn,
+.spanABCAd .subColumn-5 .lastColumn  {
+  width: 188px;
+}
+    
+.spanABCAd .subColumn-5 .column .inset {
+  margin: 10px 19px;
+}
+
+.spanABCAd .subColumn-5 .firstColumn .inset {
+  margin-left: 10px;
+}
+
+.spanABCAd .subColumn-5 .lastColumn .inset {
+  margin-right: 10px;
+}

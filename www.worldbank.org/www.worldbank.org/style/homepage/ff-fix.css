@@ -1,0 +1,99 @@
+html>/**/body #wrapper .results, html>/**/body #wrapper .results-es {top: 722px !important;}
+html>/**/body #wrapper .ads {top: 502px !important;}
+html>/**/body #wrapper .blog {top: 502px !important;}
+html>/**/body #wrapper .blog-es {top: 499px !important;}
+html>/**/body #wrapper #mygallery-paginate	 {top:169px !important;}
+html>/**/body #wrapper #mygallery2-paginate	 {top:817px !important;}
+html>/**/body #footer .footer-hidden {margin: 0px 0px 1px;}
+
+html>/**/body #audiences .audience-header-cn {padding: 0.7em 0.8em;}
+
+
+html>/**/body #global-nav table#nav-table tr td a, html>/**/body #global-nav table#nav-table tr td a:visited{
+font-size: 11px !important;
+font-weight: 600;
+text-transform:uppercase;
+border-right:1px solid #848884;
+line-height:15px;
+margin:6px 0 0;
+padding:0px 19px 0px 18px;
+color: white;
+}
+
+html>/**/body #global-nav table#nav-table tr td a:hover { 
+text-decoration: underline;
+
+}
+
+html>/**/body .browse select {
+	position:relative;
+	top:3px;
+}
+
+html>/**/body .browse  form label {
+
+position:relative;
+top:3px;
+}
+
+
+html>/**/body .spanish {top: 470px;}
+
+html>/**/body .image-left-ieg-lang {margin-top: 2px;}
+
+/*Audiences*/
+
+html>/**/body #audiences #governance, html>/**/body #audiences #investors, html>/**/body #audiences #business{
+	top:484px;
+}
+
+html>/**/body #audiences-fr #business,
+html>/**/body #audiences-sp #business,
+html>/**/body #audiences-sp #governance,
+html>/**/body #audiences-sp #investors,
+html>/**/body #audiences-fr #governance,
+html>/**/body #audiences-fr #investors{
+top:682px;
+}
+
+html>/**/body #audiences #governance{
+	left:227px; 
+}
+
+html>/**/body #audiences #business{
+	left:331px; 
+}
+
+
+html>/**/body #audiences #investors{
+	 	left:425px;
+}
+
+html>/**/body #audiences-sp #governance{
+	left:228px; 
+}
+
+html>/**/body #audiences-sp #investors{
+	 	left:442px;
+}
+
+html>/**/body #audiences-sp #business{
+	 	left:328px;
+}
+
+
+
+html>/**/body #audiences-fr #governance{
+	left:277px; 
+}
+
+html>/**/body #audiences-fr #investors{
+	 	left:488px;
+}
+
+
+
+
+
+
+

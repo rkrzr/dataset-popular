@@ -1,0 +1,103 @@
+#action-appeal-action-form fieldset,
+.campaign fieldset {
+  border: 0;
+  padding: 0;
+  margin: 1em 0 3em;
+}
+
+#action-appeal-action-form fieldset legend,
+.campaign fieldset legend {
+  display: none;
+}
+
+#action-appeal-action-form fieldset blockquote,
+.campaign fieldset blockquote {
+  background: #EEE;
+  margin: 0;
+  padding: 1em;
+}
+
+#action-appeal-action-form fieldset blockquote.preview,
+.campaign fieldset blockquote.preview {
+  background: #ff6;
+}
+
+#action-appeal-action-form fieldset .form-radios .form-item,
+.campaign fieldset .form-radios .form-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+#edit-activism-signup-mail-1-wrapper,
+#edit-activism-signup-mail-wrapper {
+  clear: both;
+}
+
+#edit-activism-signup-mail-1-wrapper input,
+#edit-activism-signup-mail-wrapper input {
+  width: 440px;
+}
+
+#edit-activism-signup-country-1-wrapper label,
+#edit-activism-signup-country-wrapper label {
+  display: inline;
+}
+
+/************************ Activism share block **************************
+ * for any node that this is added to, get rid of the panel separator 
+ * by adding the node type to the css below
+ * */
+
+/** get rid of the panel separator between the node and the activism-share-block **/
+.node-type-campaign  div.pane-node-content+div.panel-separator {
+display: none;
+}
+/** and float it right so it's in the proper place */
+.activism-share-block {
+  float: right;
+}
+#recipients-info-wrapper .form-text {
+    float:left;
+    margin-right: 5px;
+    padding-left: 5px;
+    width: 190px;
+    margin-top:5px;
+}
+
+.recipients_text-label {
+    color: #cdcdcd;
+    padding-left: 5px;
+    font-weight: normal;
+}
+
+#remove-last-wrapper input {
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 5px;
+    text-decoration: underline;
+    color: #336699;
+    clear:both;
+}
+
+
+#add-more-wrapper input {
+    text-align: right;
+    display:block;
+
+}
+
+.remove-last-hide {
+    display:none;
+}
+
+#remove-last-wrapper {
+    clear: both;
+    float: right;
+    margin-top: -20px;
+    width: 151px;
+}
+#add-more-wrapper {
+    clear: both;
+    float: right;
+    width: 151px;
+}

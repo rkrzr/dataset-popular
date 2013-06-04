@@ -1,0 +1,16 @@
+/* Document ID: 35109356 */
+var mtContainer = document.getElementById("mtContainer"), mtShowDap = !1;
+if (null != mtContainer) {
+    var dxMktTick = {}; (function () {
+        Math.random(); var c = {}, a = ""; dxMktTick.clearForm = function (a) { "" != a.value && (a.value = "") }; dxMktTick.onLoad = function () {
+            c = DBMgr.def.getData(); if (!(null == c || void 0 == c)) if (!(null == c.quotes || void 0 == c.quotes)) {
+                a += '<div id="mkt-tickr" class="marketticker minmedmax">'; a += '<div class="col1"><span class="label">Markets</span>'; a += '<div class="disclaimer">Quotes delayed 15+ min.</div>'; a += "</div>"; for (var d = 0; d < c.quotes.length; d++) {
+                    var b = c.quotes[d]; if ("NaN" ==
+b.last || NaN == b.last) b.arrow = "unch", b.sym = "-", b.name = "<br />"; a += '<div class="index arrow' + b.arrow + '">'; a += '<span class="symbol"><a title="' + b.name + '" href="http://www.msnbc.msn.com/id/31260763/ns/business-markets?q=' + b.sym + '">'; if ("$DJI" == b.sym || "I:DJI" == b.sym) b.sname = "Dow industrials"; if ("$COMP" == b.sym || "I:COMP" == b.sym) b.sname = "Nasdaq"; a += b.sname + "</a></span>"; "NaN" == b.last || NaN == b.last ? a += '<span class="nums nan">Temporarily unavailable</span><br /><br /></div>' : (a += '<span class="nums"><span class="change ' +
+b.arrow + '">' + b.change + ' <span class="percentage">' + b.pct + '</span></span><span class="last"><br />last ' + b.last + "</span></span>", a += "</div>")
+                } a += '<form action="http://www.msnbc.msn.com/id/31260763/ns/business-markets" method="get">'; a += '<input type="text" onfocus="javascript:dxMktTick.clearForm(this);" value="Enter symbol" name="q" id="symbol">'; a += '<button id="quotesubmit" type="submit">Get quote</button>'; a += '<div id="mtSponsor"><span class="mtSponsorT">Sponsored by</span><div id="mtDap"></div></div>';
+                a += "</form>"; a += "</div>"; null != document.getElementById("mtContainer") && (mtContainer.innerHTML += a); mtShowDap = !0; setTimeout("mtCreateDap()", 1E3)
+            } 
+        } 
+    })(); if (!0 == DBMgr.hasLoaded()) dxMktTick.onLoad(); else DBMgr.subscribe(dxMktTick.onLoad)
+};

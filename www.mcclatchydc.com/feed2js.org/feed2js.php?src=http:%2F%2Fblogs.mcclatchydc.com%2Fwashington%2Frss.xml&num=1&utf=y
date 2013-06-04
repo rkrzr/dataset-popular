@@ -1,0 +1,7 @@
+feed2js_ck = true;
+
+document.write('<div class="rss-box">');
+document.write('<ul class="rss-items">');
+document.write('<li class="rss-item"><a class="rss-item" href="http://blogs.mcclatchydc.com/washington/2013/05/obama-on-irs-i-am-angry-about-it.html" target="_self">Obama on IRS: \"I am angry about it\"</a><br />');
+document.write('</li>');
+document.write('</ul></div>');

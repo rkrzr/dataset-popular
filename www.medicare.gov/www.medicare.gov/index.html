@@ -1,0 +1,1062 @@
+<!doctype html>
+<html lang="en">
+<head>	
+				<title>Medicare.gov: the official U.S. government site for Medicare</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="../cdn.optimizely.com/js/170377910.js"></script>	
+	
+
+	<meta name="keywords" content="Medicare, Medicare Eligibility, Medicare Advantage, Medicare Advantage Plans, Advantage Plans, Medicare Part  D, Medicare Part C, Medicare Part B, Medicare Part A, Medicare health plans, Medicare drug plans, Medicare drug coverage, Medicare prescription drug coverage, Medicare supplemental plans, Medicare supplemental insurance, Medicare supplement, Medicare facilities, Medicare providers, what’s new, parts of Medicare, elder care , Durable Medicare Equipment (DME), Medicare costs, Medicare non-covered services, Medicare covered services, Rights and Protections, Medigap, Medicare claims, Medicare appeals, Medicare complaints, Medicare forms, Mail About Medicare, Medicare Open Enrollment, Medicare card, ESRD, End-Stage Renal Disease, Extra Help, Apply for Medicare, Medicare coverage, Medicare rights, Medicare fraud, Medicare benefits, Medicare gov official site, Medicare premiums, Medicare.com, Medicare application, Medicare website, Medicare sign up, Medicare insurance" />
+
+	<!--[if IE]>
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="imagetoolbar" content="no" />
+<![endif]-->
+
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+
+<link type="text/css" rel="stylesheet" href='../assets.cms.gov/Resources/Medicare/css/MedicarePrint.css' media="print" />
+
+<script type="text/javascript">
+    function replaceAssetsElements() {
+    // This assets link should be referenced dynamically via each page type.
+    var assetsHosts = "";
+
+    try{
+        assetsHosts = "//" + document.getElementById("assetsHostVar").getAttribute("content");
+        if (assetsHosts.indexOf("cannot be found") != -1) assetsHosts = "";
+
+        var DefaultMedicare = "medicare.gov"
+
+        if (window.location.hostname.indexOf(DefaultMedicare) == -1 && assetsHosts != "") {
+            var $headReferences = $("head").children()
+
+            for (var i = 0; i < $headReferences.length; i++) {
+                if ($headReferences[i].getAttribute("AssetsSrc")) {
+                    $headReferences[i].href = assetsHosts + $headReferences[i].getAttribute("AssetsSrc");
+                }
+            }
+        }
+    }catch(e){}
+} 
+</script>
+
+  
+<!-- es.medicare.gov-->
+<script type="text/javascript">
+  function OneLink()
+  {
+      var redirectLink = document.location.href;
+      var pagePath = document.location.pathname.toLowerCase();
+
+      if ( pagePath.indexOf(".aspx") > 0 || pagePath.indexOf(".asp")>0){
+          var mySplitResult =pagePath.split("/");
+          if (mySplitResult.length >2){
+                switch (mySplitResult[1]) {
+                    case "dialysisfacilitycompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/DialysisFacilityCompare";
+                        break;
+                    case "hospitalcompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/HospitalCompare";
+                        break;
+                    case "contacts":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/Contacts";
+                        break;
+                    case "medicareeligibility":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/MedicareEligibility/Home.asp";
+                        break;
+                    case "nursinghomecompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/NursingHomeCompare";
+                        break;
+                    case "find-a-doctor":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/find-a-doctor";
+                        break;
+                    case "homehealthcompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/homehealthcompare/search.aspx";
+                        break;
+                    case "medicareonlineforms":
+                        if(mySplitResult[2]=="authorizationform")
+                            redirectLink = document.location.protocol +"//"+ window.location.hostname + "/MedicareOnlineForms/AuthorizationForm/OnlineFormStep.asp";
+                        else
+                           redirectLink = document.location.protocol +"//"+ window.location.hostname + "/MedicareOnlineForms";
+                        break;
+                    case "publications":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/publications";
+                        break;
+                    case "supplierdirectory":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/supplierdirectory";
+                        break;
+                    case "coverage":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/Coverage";
+                        break;
+                    case "gopaperless":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/GoPaperless";
+                        break;
+                    default:
+                       break;
+                }
+          }
+      }
+
+      if (window.location.hostname.indexOf("qa") >=0 || window.location.hostname.indexOf("staging") >=0|| window.location.hostname.indexOf("localhost") >=0){
+             redirectLink= redirectLink.replace(window.location.hostname, 'es-qamedicare.onelink-translations.com');
+      }else{
+            redirectLink= redirectLink.replace(window.location.hostname, 'es.medicare.gov');
+      }
+
+      document.location.href = redirectLink;
+  }
+</script>
+<!-- END es.medicare.gov -->
+
+<!-- Google's Site Search BEGIN-->
+  <script src="../www.google.com/jsapi" type='text/javascript'></script>
+  <link rel='stylesheet' href="site-search/default.css" type='text/css' />
+  <script type='text/javascript'>
+
+
+
+    if (window.location.hostname == "es.medicare.gov"){
+      google.load('search', '1', { language: 'es' });
+    }else{
+      google.load('search', '1', { language: 'en' });
+    }
+    google.load('feeds', '1');
+
+    function init() {
+    try {
+    if (window.location.hostname == "es.medicare.gov"){
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:f-_vzp1vfzy',document.getElementById('Search_TextBox'),'SearchImageButton');
+    }else{
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:4efeow-xvgm',document.getElementById('Search_TextBox'),'SearchImageButton');
+    }
+    } catch (err) { }
+
+    try {
+    if (window.location.hostname == "es.medicare.gov"){
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:nvsifwkzkaw',document.getElementById('searchcovered-textbox'),'searchcovered-button');
+    }else{
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:jj3pfbcxpx8',document.getElementById('searchcovered-textbox'),'searchcovered-button');
+    }
+    } catch (err) { }
+    }
+
+
+    function siteSearchRedirect() {
+    try {
+    if (window.location.hostname == "www.mymedicare.gov") {
+    var siteSearchResultsPath = 'http://www.medicare.gov/site-search/search-results.html';
+    }
+    else if (window.location.hostname == "plancompare.medicare.gov") {
+    var siteSearchResultsPath = 'http://www.medicare.gov/site-search/search-results.html';
+    }
+    else
+    {
+    var siteSearchResultsPath = '/site-search/search-results.html';
+    }
+
+    if (document.getElementById('Search_TextBox').value !== null) {
+    var searchValue = encodeURIComponent(document.getElementById('Search_TextBox').value);
+    window.location.href = siteSearchResultsPath + '?q=' + searchValue;
+    }
+    } catch (err) { }
+    }
+
+
+    function YMCsiteSearchRedirect() {
+    try {
+
+    var siteSearchResultsPath = '/coverage/your-medicare-coverage.html';
+
+    if (document.getElementById('searchcovered-textbox').value !== null) {
+    var searchValue = encodeURIComponent(document.getElementById('searchcovered-textbox').value);
+    window.location.href = siteSearchResultsPath + '?q=' + searchValue;
+    }
+    } catch (err) { }
+    }
+
+
+    google.setOnLoadCallback(init);
+
+    function searchTextBoxKeyUp(event) {
+    try {
+    var keyPressed = String.fromCharCode(event.keyCode);
+
+    if (keyPressed == '\n' || keyPressed == '\r') {
+    siteSearchRedirect();
+    }
+    } catch (err) { }
+    }
+  </script>
+<!-- Google's Site Search END-->
+
+<link rel="shortcut icon" href="favicon.ico"/>
+
+<!-- Pre-existing header scripts-->
+<script type='text/javascript'>
+  //<![CDATA[
+        function mp_onload() {
+            if (window.body_onload != null)
+                window.body_onload();
+        }
+        function getAnchorValue() {
+            var url = location.href;
+            var urlArray = url.split('#');
+
+            //Delete old cookie.
+            document.cookie = "anchor=" + "" + "; expires=-1" + "; path=/";
+
+            if (urlArray[1] != null && urlArray[1] != "") {
+                //Create new cookie.
+                document.cookie = "anchor=" + urlArray[1] + "; path=/";
+            }
+        }
+        //]]>
+
+</script>
+
+<!--Medicare Libraries and styles-->
+<link rel='stylesheet' AssetsSrc='/Resources/Medicare/css/MedicareHeaderFooter.css'  href='../assets.cms.gov/Resources/Medicare/css/MedicareHeaderFooter.css'  type='text/css'/>
+
+<!--Google analytics async tracking code-->
+<script src='../assets.cms.gov/Resources/global/JS/ga-track.js' type='text/javascript'></script>
+
+
+
+	<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link rel="apple-touch-icon" AssetsSrc='/Resources/Global/Images/Icons/icon-iphone.png'  href='http://assets.cms.gov/Resources/Global/Images/Icons/icon-iphone.png' />
+<link rel="apple-touch-icon" sizes="72x72" AssetsSrc='/Resources/Global/Images/Icons/icon-ipad.png' href='http://assets.cms.gov/Resources/Global/Images/Icons/icon-ipad.png' />
+<link rel="apple-touch-icon" sizes="114x114" AssetsSrc='/Resources/Global/Images/Icons/icon-iphone4.png' href='http://assets.cms.gov/Resources/Global/Images/Icons/icon-iphone4.png' />
+<link rel="apple-touch-icon" sizes="144x144" AssetsSrc='/Resources/Global/Images/Icons/icon-ipad2.png' href='http://assets.cms.gov/Resources/Global/Images/Icons/icon-ipad2.png' />
+
+<link  AssetsSrc='/Resources/Global/css/lib/bootstrap.css' href='../assets.cms.gov/Resources/Global/css/lib/bootstrap.css' rel="stylesheet" type="text/css"/>
+<link  AssetsSrc='/Resources/Global/css/lib/bootstrap-responsive.css' href='../assets.cms.gov/Resources/Global/css/lib/bootstrap-responsive.css' rel="stylesheet"/>
+<link rel="stylesheet"  AssetsSrc='/Resources/Global/css/lib/jquery-ui-1.8.17.custom.css' href='../assets.cms.gov/Resources/Global/css/lib/jquery-ui-1.8.17.custom.css' type="text/css"/>
+<link rel="stylesheet"  AssetsSrc='/Resources/Global/css/508Assets.css' href='../assets.cms.gov/Resources/Global/css/508Assets.css' type="text/css"/>
+<link rel="stylesheet"  AssetsSrc='/Resources/Medicare/css/MedicareGlobal.css' href='../assets.cms.gov/Resources/Medicare/css/MedicareGlobal.css' type="text/css"/>
+<link rel="stylesheet"  AssetsSrc='/Resources/Global/css/508addthis.css' href='../assets.cms.gov/Resources/Global/css/508addthis.css' type="text/css"/>
+
+
+
+<!-- HTML5 shi/css3 media query, for IE6-8 support of HTML5 elements  -->
+<!--[if lt IE 9]>
+      <script src="//assets.cms.gov/Resources/Global/JS/lib/html5.js"></script>
+<![endif]-->
+    
+<script type="text/javascript">
+    // Fix iPhone viewport scaling bug on orientation change
+    (function (doc) {
+
+        var addEvent = 'addEventListener',
+        type = 'gesturestart',
+        qsa = 'querySelectorAll',
+        scales = [1, 1],
+        meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+        function fix() {
+            meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+            doc.removeEventListener(type, fix, true);
+        }
+
+        if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+            fix();
+            scales = [.25, 4.0];
+            doc[addEvent](type, fix, true);
+        }
+
+    } (document));
+</script>
+
+                				<link rel="canonical" href="http://www.medicare.gov/index.html" />
+					
+	<link rel='stylesheet'  href='../assets.cms.gov/Resources/Medicare/css/contentdatatable.css'  type='text/css'/>
+
+	</head>
+<body>
+	<!-- Google Tag Manager -->
+<noscript><iframe src="../www.googletagmanager.com/ns.html%3Fid=GTM-XN6B.html"
+height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XN6B');</script>
+<!-- End Google Tag Manager -->
+
+	<a name="Top"></a>
+    <div class="skipnav">
+        <a href="index.html#main_content" title="Skip Navigation" id="skipNavigation">Skip Navigation</a></div>
+    <div id="page">
+        <div id="pagecontent" class="container-fluid">
+            <header id="header" role="banner">	
+        					        		<!-- Google Tag Manager -->
+<noscript>
+  <iframe src="../www.googletagmanager.com/ns.html%3Fid=GTM-XN6B.html" title="googletagmanager" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<script type="text/javascript">
+
+
+  (function (w, d, s, l, i) {
+  w[l] = w[l] || []; w[l].push({ 'gtm.start':
+  new Date().getTime(), event: 'gtm.js'
+  }); var f = d.getElementsByTagName(s)[0],
+  j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+  '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer',
+  (window.location.hostname == "medicare.gov" || window.location.hostname == "www.medicare.gov" ) ? 'GTM-XN6B' : 'GTM-V7HZ');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Canonical -->
+<link rel="canonical" href="index.html"/>
+
+<nav id="headertoolbar" role="navigation" aria-labelledby="navheading1">
+  <h2 id="navheading1" class="HiddenText">Site Options</h2>
+  <ul id="headertoolbarleft">
+    
+
+    <li id="espanolli" title="Click here to view in Espa&ntilde;ol">
+      <a  href="javascript:OneLink();">Espa&ntilde;ol</a>
+    </li>
+    <li id="fontli">
+      <ol>
+        <li title="Click here to use a small font" >
+          <a class="smallFont" href="index.html#">
+            <span aria-hidden="true">A</span><span class="HiddenText">Small Font</span>
+          </a>
+        </li>
+        <li title="Click here to use a medium font">
+          <a class="medFont" href="index.html#">
+            <span aria-hidden="true">A</span><span class="HiddenText">Medium Font</span>
+          </a>
+        </li>
+        <li title="Click here to use a large font">
+          <a class="largeFont" href="index.html#">
+            <span aria-hidden="true">A</span><span class="HiddenText">Large Font</span>
+          </a>
+        </li>
+      </ol>
+    </li>
+    <li id="emailli">
+      <a href="index.html#" title="Send this page by e-mail">Email</a>
+    </li>
+    <li id="printli">
+      <a href="index.html#" title="Print this page">Print</a>
+    </li>
+    <li id="viewli" class="toolbarmenu">
+      <a href="index.html#" class="toolbarmenu-a">
+        View <span class="HiddenText"> options</span><span class="HiddenText 508State">, collapsed</span>
+      </a>
+      <ul>
+        <li id="espanolli-responsive">
+          <a mporgnav="" lang="es" href="http://es.medicare.gov/">Espa&ntilde;ol</a>
+        </li>
+        <li id="emailli-responsive">
+          <a href="javascript:void(0);" title="Send this page by e-mail">
+            <span class="icon">
+            </span>Email
+          </a>
+        </li>
+        <li id="printli-responsive">
+          <a href="index.html#" title="Print this page">
+            <span class="icon">
+            </span>Print
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul id="headertoolbarright">
+    <li  id="aboutli" title="Learn more about us">
+      <a href="http://www.medicare.gov/about-us/about-medicare.html">About Us</a>
+    </li>
+    <li  id="FAQli">
+      <a href="http://questions.medicare.gov/app/home">
+        <abbr title="Frequenty asked questions">FAQ</abbr>
+      </a>
+    </li>
+    <li  id="glossaryli" title="Go to the glossary">
+      <a href="http://www.medicare.gov/glossary/a.html">Glossary</a>
+    </li>
+    <li  id="cmsli" title="Go to CMS.gov">
+      <a href="http://www.cms.gov/">CMS.gov</a>
+    </li>
+    <li id="sitesli" class="toolbarmenu">
+      <a href="index.html#" class="toolbarmenu-a">
+        Sites <span class="HiddenText 508State">, collapsed</span>
+      </a>
+      <ul>
+        <li title="Go to CMS.gov">
+          <a href="http://www.cms.gov/">CMS.gov</a>
+        </li>
+        <li>
+          <a href="http://www.medicare.gov/about-us/about-medicare.html">About Us</a>
+        </li>
+        <li>
+          <a href="http://questions.medicare.gov/app/home">FAQ</a>
+        </li>
+        <li>
+          <a href="http://www.medicare.gov/glossary/a.html">Glossary</a>
+        </li>
+      </ul>
+    </li>
+    <li id="mymedicareli"  title="Login to MyMedicare.gov">
+      <a href="https://www.mymedicare.gov/">MyMedicare.gov Login</a>
+    </li>
+  </ul>
+
+</nav>
+<div id="headerlogocontent">
+  <div id="headerlogo">
+    <a id="headerlogo-link" href="index.html" title="Medicare.gov - the Official U.S. Government Site for Medicare">
+      <img src="../assets.cms.gov/Resources/Medicare/Images/home/logoSprite.png" alt="Medicare.gov - the Official U.S. Government Site for Medicare"/>
+    </a>
+  </div>
+</div>
+<div id="headersearchrightcontent" onkeyup="searchTextBoxKeyUp(event);" role="search">
+  <label id="SearchBoxLabelTop" class="HiddenText" for="Search_TextBox">Search Medicare.gov</label>
+  <input id="Search_TextBox" class="SearchBox" type="text" title="type search term here" name="Search_TextBox" autocomplete="off" placeholder="type search term here" />
+  <input id="SearchImageButton" class="btn" onclick="javascript:siteSearchRedirect(); return false;" type="submit" value="Search"/>
+  <div id="headerlearnrightcontent">
+    <a href="http://www.healthcare.gov/" id="headerlearnlink">Learn about your health care options</a>
+  </div>
+</div>
+
+				        		
+
+
+
+
+
+
+<div id="menu-btn" class="btn btn-primary opened">
+	<a href="index.html#">
+		Menu <span class="icon">
+			<span class="HiddenText 508State">, collapsed</span>
+		</span>
+	</a>
+</div>
+
+<nav class="" id="topnav" role="navigation" aria-labelledby="navheading2">
+	<h2 id="navheading2" class="HiddenText">Main Menu</h2>
+	<ul id="nav-list">
+		                            							<li class="top sub"> 
+                                 				<a href="http://www.medicare.gov/sign-up-change-plans/index.html" title="Sign Up / Change Plans">Sign Up /</br> Change Plans</a> 
+                					<ul class="topnavsubmenu"> 
+                    						               <li><a href="http://www.medicare.gov/people-like-me/new-to-medicare/getting-started-with-medicare.html" title="Getting started with Medicare">Getting started with Medicare</a></li> 
+                        						               <li><a href="http://www.medicare.gov/sign-up-change-plans/decide-how-to-get-medicare/your-medicare-coverage-choices.html" title="Your Medicare coverage choices">Your Medicare coverage choices</a></li> 
+                        						               <li><a href="http://www.medicare.gov/sign-up-change-plans/get-parts-a-and-b/when-how-to-sign-up-for-part-a-and-part-b.html" title="When & how to sign up for Part A & Part B">When & how to sign up for Part A & Part B</a></li> 
+                        						               <li><a href="http://www.socialsecurity.gov/medicareonly/" title="Apply for Medicare online">Apply for Medicare online</a></li> 
+                        						               <li><a href="http://www.medicare.gov/sign-up-change-plans/get-drug-coverage/get-drug-coverage.html" title="How to get drug coverage">How to get drug coverage</a></li> 
+                        						               <li><a href="http://www.medicare.gov/sign-up-change-plans/when-can-i-join-a-health-or-drug-plan/when-can-i-join-a-health-or-drug-plan.html" title="When can I join a health or drug plan?">When can I join a health or drug plan?</a></li> 
+                        						               <li><a href="http://www.medicare.gov/sign-up-change-plans/medicare-health-plans/medicare-health-plans.html" title="About Medicare health plans">About Medicare health plans</a></li> 
+                        						               <li><a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health & drug plans">Find health & drug plans</a></li> 
+                        						               <li><a href="http://www.medicare.gov/find-a-plan/enrollment/check-enrollment.aspx" title="Check your enrollment">Check your enrollment</a></li> 
+                        						               <li><a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" title="Find doctors, hospitals, & facilities">Find doctors, hospitals, & facilities</a></li> 
+                        					</ul> 
+                			</li>
+			                        							<li class="top sub"> 
+                                				<a href="http://www.medicare.gov/your-medicare-costs/index.html" title="Your Medicare Costs">Your Medicare Costs</a> 
+                					<ul class="topnavsubmenu"> 
+                    						               <li><a href="http://www.medicare.gov/your-medicare-costs/help-paying-costs/get-help-paying-costs.html" title="Get help paying costs">Get help paying costs</a></li> 
+                        						               <li><a href="http://www.medicare.gov/your-medicare-costs/part-a-costs/part-a-costs.html" title="Part A costs">Part A costs</a></li> 
+                        						               <li><a href="http://www.medicare.gov/your-medicare-costs/part-b-costs/part-b-costs.html" title="Part B costs">Part B costs</a></li> 
+                        						               <li><a href="http://www.medicare.gov/part-d/costs/part-d-costs.html" title="Costs for Medicare drug coverage">Costs for Medicare drug coverage</a></li> 
+                        						               <li><a href="http://www.medicare.gov/your-medicare-costs/medicare-health-plan-costs/costs-for-medicare-health-plans.html" title="Costs for Medicare health plans">Costs for Medicare health plans</a></li> 
+                        						               <li><a href="http://www.medicare.gov/your-medicare-costs/paying-parts-a-and-b/pay-parts-a-and-b-premiums.html" title="Ways to pay Part A & Part B premiums">Ways to pay Part A & Part B premiums</a></li> 
+                        						               <li><a href="http://www.medicare.gov/your-medicare-costs/costs-at-a-glance/costs-at-glance.html" title="Costs at a glance">Costs at a glance</a></li> 
+                        					</ul> 
+                			</li>
+			                        							<li class="top sub"> 
+                                				<a href="http://www.medicare.gov/what-medicare-covers/index.html" title="What Medicare Covers">What Medicare Covers</a> 
+                					<ul class="topnavsubmenu"> 
+                    						               <li><a href="http://www.medicare.gov/coverage/your-medicare-coverage.html" title="Is my test, item, or service covered?">Is my test, item, or service covered?</a></li> 
+                        						               <li><a href="http://www.medicare.gov/what-medicare-covers/part-a/what-part-a-covers.html" title="What Part A covers">What Part A covers</a></li> 
+                        						               <li><a href="http://www.medicare.gov/what-medicare-covers/part-b/what-medicare-part-b-covers.html" title="What Part B covers">What Part B covers</a></li> 
+                        						               <li><a href="http://www.medicare.gov/part-d/coverage/part-d-coverage.html" title="What drug plans cover">What drug plans cover</a></li> 
+                        						               <li><a href="http://www.medicare.gov/what-medicare-covers/medicare-health-plans/what-medicare-advantage-plans-cover.html" title="What Medicare health plans cover">What Medicare health plans cover</a></li> 
+                        						               <li><a href="http://www.medicare.gov/coverage/preventive-and-screening-services.html" title="Preventive services">Preventive services</a></li> 
+                        						               <li><a href="http://www.medicare.gov/Supplier/Home.asp" title="Find suppliers of medical equipment & supplies">Find suppliers of medical equipment & supplies</a></li> 
+                        						               <li><a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" title="Find doctors, hospitals, & facilities">Find doctors, hospitals, & facilities</a></li> 
+                        						               <li><a href="http://www.medicare.gov/what-medicare-covers/not-covered/item-and-services-not-covered-by-part-a-and-b.html" title="What's not covered by Part A & Part B?">What's not covered by Part A & Part B?</a></li> 
+                        					</ul> 
+                			</li>
+			                        							<li class="top sub"> 
+                                				<a href="http://www.medicare.gov/part-d/index.html" title="Drug Coverage (Part D)">Drug Coverage (Part D)</a> 
+                					<ul class="topnavsubmenu"> 
+                    						               <li><a href="http://www.medicare.gov/sign-up-change-plans/get-drug-coverage/get-drug-coverage.html" title="How to get drug coverage">How to get drug coverage</a></li> 
+                        						               <li><a href="http://www.medicare.gov/part-d/coverage/part-d-coverage.html" title="What drug plans cover">What drug plans cover</a></li> 
+                        						               <li><a href="http://www.medicare.gov/part-d/costs/part-d-costs.html" title="Costs for Medicare drug coverage">Costs for Medicare drug coverage</a></li> 
+                        						               <li><a href="http://www.medicare.gov/sign-up-change-plans/when-can-i-join-a-health-or-drug-plan/when-can-i-join-a-health-or-drug-plan.html" title="When can I join a health or drug plan?">When can I join a health or drug plan?</a></li> 
+                        						               <li><a href="http://www.medicare.gov/part-d/how-part-d-works-with-other-insurance/part-d-and-other-insurance.html" title="How Part D works with other insurance">How Part D works with other insurance</a></li> 
+                        						               <li><a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health & drug plans">Find health & drug plans</a></li> 
+                        					</ul> 
+                			</li>
+			                        							<li class="top sub"> 
+                                 				<a href="http://www.medicare.gov/supplement-other-insurance/index.html" title="Supplements & Other Insurance">Supplements &amp;</br> Other Insurance</a> 
+                					<ul class="topnavsubmenu"> 
+                    						               <li><a href="http://www.medicare.gov/supplement-other-insurance/how-medicare-works-with-other-insurance/how-medicare-works-with-other-insurance.html" title="How Medicare works with other insurance">How Medicare works with other insurance</a></li> 
+                        						               <li><a href="http://www.medicare.gov/supplement-other-insurance/retiree-insurance/retiree-insurance.html" title="Retiree insurance">Retiree insurance</a></li> 
+                        						               <li><a href="http://www.medicare.gov/supplement-other-insurance/medigap/whats-medigap.html" title="What's supplement (Medigap) insurance?">What's supplement (Medigap) insurance?</a></li> 
+                        						               <li><a href="http://www.medicare.gov/find-a-plan/questions/medigap-home.aspx" title="Find a Medigap policy">Find a Medigap policy</a></li> 
+                        						               <li><a href="http://www.medicare.gov/supplement-other-insurance/when-can-i-buy-medigap/when-can-i-buy-medigap.html" title="When can I buy Medigap?">When can I buy Medigap?</a></li> 
+                        						               <li><a href="http://www.medicare.gov/supplement-other-insurance/compare-medigap/compare-medigap.html" title="How to compare Medigap policies">How to compare Medigap policies</a></li> 
+                        						               <li><a href="http://www.medicare.gov/supplement-other-insurance/medigap-and-travel/medigap-and-travel.html" title="Medigap & travel">Medigap & travel</a></li> 
+                        					</ul> 
+                			</li>
+			                        							<li class="top sub"> 
+                                 				<a href="http://www.medicare.gov/claims-and-appeals/index.html" title="Claims & Appeals">Claims &amp;</br> Appeals</a> 
+                					<ul class="topnavsubmenu"> 
+                    						               <li><a href="http://www.medicare.gov/claims-and-appeals/file-a-complaint/complaints.html" title="File a complaint">File a complaint</a></li> 
+                        						               <li><a href="http://www.medicare.gov/claims-and-appeals/file-a-claim/file-a-claim.html" title="File a claim">File a claim</a></li> 
+                        						               <li><a href="http://www.MyMedicare.gov" title="Check the status of a claim (MyMedicare.gov)">Check the status of a claim (MyMedicare.gov)</a></li> 
+                        						               <li><a href="http://www.medicare.gov/claims-and-appeals/file-an-appeal/appeals.html" title="File an appeal">File an appeal</a></li> 
+                        						               <li><a href="http://www.medicare.gov/claims-and-appeals/right-to-fast-appeal/fast-appeals.html" title="Your right to a fast appeal">Your right to a fast appeal</a></li> 
+                        						               <li><a href="http://www.medicare.gov/claims-and-appeals/medicare-rights/medicare-rights-overview.html" title="Your Medicare rights">Your Medicare rights</a></li> 
+                        						               <li><a href="http://www.medicare.gov/MedicareOnlineForms/" title="Get Medicare forms">Get Medicare forms</a></li> 
+                        						               <li><a href="https://www.medicare.gov/MedicareOnlineForms/AuthorizationForm/OnlineFormStep.asp" title="Authorization to Disclose Personal Health Information">Authorization to Disclose Personal Health Information</a></li> 
+                        					</ul> 
+                			</li>
+			                        							<li class="top sub"> 
+                                				<a href="http://www.medicare.gov/manage-your-health/index.html" title="Manage Your Health">Manage Your Health</a> 
+                					<ul class="topnavsubmenu"> 
+                    						               <li><a href="https://www.mymedicare.gov/" title="Login to MyMedicare.gov">Login to MyMedicare.gov</a></li> 
+                        						               <li><a href="http://www.medicare.gov/MedicareOnlineForms/" title="Get Medicare forms">Get Medicare forms</a></li> 
+                        						               <li><a href="http://www.medicare.gov/manage-your-health/advance-directives/advance-directives-and-long-term-care.html" title="Advance directives & long-term care">Advance directives & long-term care</a></li> 
+                        						               <li><a href="http://www.medicare.gov/manage-your-health/personal-health-records/personal-health-records.html" title="Personal Health Records (PHRs)">Personal Health Records (PHRs)</a></li> 
+                        						               <li><a href="http://www.medicare.gov/manage-your-health/electronic-prescribing/electronic-prescribing.html" title="Electronic prescribing">Electronic prescribing</a></li> 
+                        						               <li><a href="http://www.medicare.gov/manage-your-health/electronic-health-records/electronic-health-records.html" title="Electronic Health Records (EHRs)">Electronic Health Records (EHRs)</a></li> 
+                        						               <li><a href="http://www.medicare.gov/manage-your-health/blue-button/medicare-blue-button.html" title="Medicare's Blue Button">Medicare's Blue Button</a></li> 
+                        						               <li><a href="http://www.medicare.gov/manage-your-health/coordinating-your-care/coordinating-your-care.html" title="Coordinating your care">Coordinating your care</a></li> 
+                        					</ul> 
+                			</li>
+			                        							<li class="top sub navbar-last"><a href="http://www.medicare.gov/forms-help-and-resources/index.html" title="Forms, Help, & Resources">Forms, Help, &amp;</br> Resources</a>
+							<ul class="topnavsubmenu">
+                					        					<li><a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health & drug plans">Find health & drug plans</a></li>
+												        					<li><a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" title="Find doctors, hospitals, & facilities">Find doctors, hospitals, & facilities</a></li>
+												        					<li><a href="http://www.medicare.gov/your-medicare-costs/help-paying-costs/get-help-paying-costs.html" title="Get help paying costs">Get help paying costs</a></li>
+												        					<li><a href="http://www.medicare.gov/Supplier/Home.asp" title="Find suppliers of medical equipment & supplies">Find suppliers of medical equipment & supplies</a></li>
+												        					<li><a href="http://www.medicare.gov/forms-help-and-resources/forms/medicare-forms.html" title="Forms">Forms</a></li>
+												        					<li><a href="http://www.medicare.gov/Publications/" title="Publications">Publications</a></li>
+												        					<li><a href="http://www.medicare.gov/forms-help-and-resources/mail-about-medicare/mail-about-medicare.html" title="Mail you get about Medicare">Mail you get about Medicare</a></li>
+												        					<li><a href="https://secure.ssa.gov/apps6z/IMRC/main.html" title="Lost/incorrect Medicare card">Lost/incorrect Medicare card</a></li>
+												        					<li class="navmenuseparator"><a href="http://www.medicare.gov/forms-help-and-resources/report-fraud-and-abuse/fraud-and-abuse.html" title="Report fraud & abuse">Report fraud & abuse</a></li>
+												        					<li><a href="http://www.medicare.gov/claims-and-appeals/file-a-complaint/complaints.html" title="File a complaint">File a complaint</a></li>
+												        					<li><a href="http://www.medicare.gov/forms-help-and-resources/identity-theft/identity-theft.html" title="Identity theft: protect yourself">Identity theft: protect yourself</a></li>
+												        					<li><a href="http://www.medicare.gov/Contacts/Default.aspx" title="Phone numbers & websites">Phone numbers & websites</a></li>
+												        					<li class="navmenuseparator"><a href="http://www.medicare.gov/forms-help-and-resources/privacy-practices/privacy.html" title="Privacy practices">Privacy practices</a></li>
+												        					<li><a href="http://www.medicare.gov/forms-help-and-resources/contact/contact-medicare.html" title="Contact Medicare">Contact Medicare</a></li>
+											</ul>
+			</li> 
+								                                                                                                                                                                                                                                                                                                            	</ul>
+</nav>
+
+<noscript>
+  <p id="js-off-message">
+    The page could not be loaded.  The Medicare.gov Home page currently does not fully support browsers with &quot;JavaScript&quot; disabled.  Please note that if you choose to continue without enabling &quot;JavaScript&quot; certain functionalities on this website may not be available.
+  </p>
+</noscript>  
+						</header>
+				
+			<div id="wrapper">
+	<a id="main_content" name="main_content" tabindex="-1"></a>		
+	<div id="main-content" role="main">
+		<h1 class="HiddenText">Medicare.gov</h1>
+			<!-- Home Banner =============================================================================== -->
+						<div id="homebanner">
+            	<div id="searchcovered" onkeyup="EnterFunction(event, YMCsiteSearchRedirect);" role="search">
+            		<h2>Is my test, item, or <br /><span>service covered?</span></h2>
+            		<form>
+            			<label class="HiddenText" for="searchcovered-textbox" id="SearchCoveredLabelTop" title="Search Medicare.gov for covered items">Search Medicare.gov for covered items</label>
+            			<input class="searchbox-defaultvalue" id="searchcovered-textbox" placeholder="type your test, item, or service here" title="type your test, item, or service here" type="text" value="" />
+            			<input class="btn btn-primary" id="searchcovered-button" onclick="javascript:YMCsiteSearchRedirect(); return false;" type="submit" value="Go" />
+            		</form>
+            	</div>
+            	<a class="btn btn-announce btn-pill" href="http://www.medicare.gov/find-a-plan/questions/home.aspx" id="find-hadp-button" title="Find health &amp; drug plans"><span class="homepage-button-label"><span class="icon"></span> Find health &amp; drug plans</span></a> <a class="btn btn-announce btn-pill" href="http://www.socialsecurity.gov/medicareonly/" id="apply-fm-button" title="Apply for Medicare"><span class="homepage-button-label"><span class="icon"></span> Apply for Medicare</span></a> 
+            	<a class="btn btn-secondary" href="https://www.mymedicare.gov/" id="mymedicare-button" title="Login to MyMedicare.gov"><span class="icon"></span> MyMedicare.gov login</a>
+            </div>
+			
+			<br/>
+			<!-- Announcement Section ====================================================================== -->
+    		
+			
+			<div id="announcement-section">
+    		   			</div>
+			<!-- Get Help Section ========================================================================== -->
+			
+	
+<div id="gethelp-section"><div class="span3" onkeyup="EnterFunctionParams(event, lostCard ,'lostincorrect-dropdown');"><h2>Address change/Medicare card issue?<!-- Lost / incorrect Medicare card? --></h2><label class="HiddenText" for="lostincorrect-dropdown" title="Select your card issue">Lost or incorrect Medicare card? Select your card issue</label> <select id="lostincorrect-dropdown"><option>Select your card issue...</option><option value="https://secure.ssa.gov/apps6z/ICOA/coa001.jsp">Change your name or address</option><option value="https://secure.ssa.gov/apps6z/IMRC/main.html">Replace a lost or damaged card</option><option value="http://ssa-custhelp.ssa.gov/app/answers/detail/a_id/329/kw/reportstolencard">Report a stolen card</option></select><input class="btn btn-primary .go" id="lost-go" onclick="lostCard('lostincorrect-dropdown')" type="submit" value="Go" /></div><div class="span3" onkeyup="EnterFunctionParams(event, peopleLikeMe ,'informationforme-dropdown');"><h2>Information for my situation</h2><label class="HiddenText" for="informationforme-dropdown" title="Select your situation">Information for my situation - Select your situation</label> <select id="informationforme-dropdown"><option>Select your situation...</option><option value="/people-like-me/new-to-medicare/getting-started-with-medicare.html">I'm getting started with Medicare</option><option value="/people-like-me/disability/disability.html">I have a disability</option><option value="/people-like-me/extra-help/extra-help.html">I need or get Extra Help / Medicaid</option><option value="/campaigns/caregiver/caregiver.html">I'm a caregiver</option><option value="/people-like-me/outside-us/outside-us.html">I'm outside the U.S.</option><option value="/people-like-me/esrd/esrd.html">I have End-Stage Renal Disease</option></select><input class="btn btn-primary .go" id="info-go" onclick="peopleLikeMe('informationforme-dropdown')" type="submit" value="Go" /></div><div class="span3 last" onkeyup="EnterFunctionParams(event, FindSomeone ,'findsomeone-dropdown');"><h2>Find someone to talk to</h2><label class="HiddenText" for="findsomeone-dropdown" id="state-id" title="Select your state">Find someone to talk to in your state</label> <select id="findsomeone-dropdown" name="State" size="1"><option selected="selected" value="Select your state">Select your state...</option><option value="AL|Alabama">Alabama</option><option value="AK|Alaska">Alaska</option><option value="AS|American Samoa">American Samoa</option><option value="AZ|Arizona">Arizona</option><option value="AR|Arkansas">Arkansas</option><option value="CA|California">California</option><option value="CO|Colorado">Colorado</option><option value="CT|Connecticut">Connecticut</option><option value="DE|Delaware">Delaware</option><option value="DC|District of Columbia">District of Columbia</option><option value="FM|Federated States of Micronesia">Federated States of Micronesia</option><option value="FL|Florida">Florida</option><option value="GA|Georgia">Georgia</option><option value="GU|Guam">Guam</option><option value="HI|Hawaii">Hawaii</option><option value="ID|Idaho">Idaho</option><option value="IL|Illinois">Illinois</option><option value="IN|Indiana">Indiana</option><option value="IA|Iowa">Iowa</option><option value="KS|Kansas">Kansas</option><option value="KY|Kentucky">Kentucky</option><option value="LA|Louisiana">Louisiana</option><option value="ME|Maine">Maine</option><option value="MH|Marshall Islands">Marshall Islands</option><option value="MD|Maryland">Maryland</option><option value="MA|Massachusetts">Massachusetts</option><option value="MI|Michigan">Michigan</option><option value="MN|Minnesota">Minnesota</option><option value="MS|Mississippi">Mississippi</option><option value="MO|Missouri">Missouri</option><option value="MT|Montana">Montana</option><option value="NE|Nebraska">Nebraska</option><option value="NV|Nevada">Nevada</option><option value="NH|New Hampshire">New Hampshire</option><option value="NJ|New Jersey">New Jersey</option><option value="NM|New Mexico">New Mexico</option><option value="NY|New York">New York</option><option value="NC|North Carolina">North Carolina</option><option value="ND|North Dakota">North Dakota</option><option value="MP|Northern Mariana Islands">Northern Mariana Islands</option><option value="OH|Ohio">Ohio</option><option value="OK|Oklahoma">Oklahoma</option><option value="OR|Oregon">Oregon</option><option value="PW|Palau">Palau</option><option value="PA|Pennsylvania">Pennsylvania</option><option value="PR|Puerto Rico">Puerto Rico</option><option value="RI|Rhode Island">Rhode Island</option><option value="SC|South Carolina">South Carolina</option><option value="SD|South Dakota">South Dakota</option><option value="TN|Tennessee">Tennessee</option><option value="TX|Texas">Texas</option><option value="UM|U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option><option value="UT|Utah">Utah</option><option value="VT|Vermont">Vermont</option><option value="VI|Virgin Islands of the U.S.">Virgin Islands of the U.S.</option><option value="VA|Virginia">Virginia</option><option value="WA|Washington">Washington</option><option value="WV|West Virginia">West Virginia</option><option value="WI|Wisconsin">Wisconsin</option><option value="WY|Wyoming">Wyoming</option></select><input class="btn btn-primary .go" id="find-go" onclick="FindSomeone('findsomeone-dropdown')" type="submit" value="Go" /></div></div>
+	 
+	 <div id="homepage-columns">
+		<div id="find-dphp-column" class="span3">
+    		<h2>Find doctors, providers, hospitals, plans &amp; suppliers </h2>
+					<ul>
+							
+									<li>
+
+
+<a href="http://www.medicare.gov/find-a-doctor/provider-search.aspx" title="Find doctors & other health professionals">Find doctors & other health professionals</a>
+
+</li>
+								
+							
+									<li>
+
+
+<a href="http://www.medicare.gov/NursingHomeCompare/search.aspx" title="Find nursing homes">Find nursing homes</a>
+
+</li>
+								
+							
+									<li>
+
+
+<a href="http://www.medicare.gov/hospitalcompare/search.aspx" title="Find hospitals">Find hospitals</a>
+
+</li>
+								
+							
+									<li>
+
+
+<a href="http://www.medicare.gov/homehealthcompare/search.aspx" title="Find home health services">Find home health services</a>
+
+</li>
+								
+							
+									<li>
+
+
+<a href="http://www.medicare.gov/Dialysisfacilitycompare/search.aspx" title="Find dialysis facilities">Find dialysis facilities</a>
+
+</li>
+								
+							
+									<li>
+
+
+<a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health & drug plans">Find health & drug plans</a>
+
+</li>
+								
+							
+									<li>
+
+
+<a href="http://www.medicare.gov/Supplier/Home.asp" title="Find suppliers of medical equipment & supplies">Find suppliers of medical equipment & supplies</a>
+
+</li>
+								
+							
+												
+					</ul>
+		
+	
+<p><a class="btn btn-secondary" href="http://www.medicare.gov/help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" id="more-qpct-button" title="More quality, planning, &amp; compare tools">More quality, planning, &amp; compare tools</a></p>
+
+							
+		</div>
+ 
+		
+				
+<div id="feedtabs-column" class="span3">
+	<h2 class="HiddenText">Latest Updates</h2>
+    <div id="feedTabs">
+	    </div>	
+
+        <div id="blogTab">
+            <ul>
+				            	            												
+	
+	
+<li class="feedItem"><p><a href="http://blog.medicare.gov/2013/05/06/older-americans-month-2013-unleash-the-power-of-age/" title="Older Americans Month 2013: Unleash the Power of Age!">Older Americans Month 2013: Unleash the Power of Age!</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="http://blog.medicare.gov/2013/05/01/protect-your-bones-medicare-can-help" title="Protect your bones">Protect your bones</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="http://blog.medicare.gov/2013/05/01/protect-yourself-from-hepatitis-b-2/" title="Protect yourself from Hepatitis B">Protect yourself from Hepatitis B</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="http://blog.medicare.gov/2013/05/01/get-your-blood-pressure-checked-regularly/ " title="Check your blood pressure regularly">Check your blood pressure regularly</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="http://blog.medicare.gov/2013/04/01/making-complaints-less-complex" title="Making complaints less complex">Making complaints less complex</a></p></li>
+
+
+					            	            						
+			</ul>
+		
+            <a class="feedtab-button btn btn-primary" title="Click to read more blogs" href="http://blog.medicare.gov">Read more blogs</a>
+		</div>
+		
+         <div id="newsTab">
+            <ul>
+				            	            												
+	
+	
+<li class="feedItem"><p><a href="http://www.hhs.gov/news/press/2013pres/05/20130508a.html" title="An unprecedented look at hospital charges">An unprecedented look at hospital charges</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="http://www.hhs.gov/news/press/2013pres/05/20130503a.html" title="HHS Secretary Kathleen Sebelius on Older Americans Month">HHS Secretary Kathleen Sebelius on Older Americans Month</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="http://www.hhs.gov/news/press/2013pres/05/20130502a.html" title="HHS Secretary Kathleen Sebelius on Mental Health Month">HHS Secretary Kathleen Sebelius on Mental Health Month</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="https://www.cms.gov/apps/media/press/release.asp?Counter=4578&intNumPerPage=10&checkDate=&checkKey=&srchType=1&numDays=3500&srchOpt=0&srchData=&keywordType=All&chkNewsType=1%2C+2%2C+3%2C+4%2C+5&intPage=&showAll=&pYear=&year=&desc=&cboOrder=date" title="Expanded competitive bidding program means fair pricing">Expanded competitive bidding program means fair pricing</a></p></li>
+
+
+					            	            						
+				
+			</ul>
+		
+			<a class="feedtab-button btn btn-primary" title="Click to read more news" 
+
+href="http://www.cms.gov/Newsroom/Newsroom-Center.html">Read more news</a>
+		</div>
+        <div id="videosTab">
+			<ul>
+				            	            												
+	
+	
+<li class="feedItem"><p><a href="http://www.youtube.com/watch?v=kiNX_mc7S5s" title="Medicare & You: Hepatitis awareness (video)">Medicare & You: Hepatitis awareness (video)</a></p></li>
+
+
+											
+	
+	
+<li class="feedItem"><p><a href="http://www.youtube.com/watch?v=opQFBVd7oHI&feature=plcp " title="Medicare & You: high blood pressure and osteoporosis (video)">Medicare & You: high blood pressure and osteoporosis (video)</a></p></li>
+
+
+					            	            						
+				
+			</ul>
+			<a class="feedtab-button btn btn-primary" title="Click to read more videos" href="http://www.youtube.com/user/CMSHHSgov"
+                target="_blank">Watch more videos</a>
+		</div>
+				
+</div>
+		
+				
+		
+                 <div id="homepage-buttons-column" class="span3">
+					<h2 class="HiddenText">Additional Actions</h2>
+					
+	
+<ul><li id="hp-costs-button"><a class="btn btn-primary btn-pill" href="http://www.medicare.gov/your-medicare-costs/help-paying-costs/get-help-paying-costs.html" title="Get help with costs"><span class="icon"> </span>Get help with costs</a></li><li id="hp-plans-button"><a class="btn btn-primary btn-pill" href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Explore Medicare health plans"><span class="icon"> </span>Explore Medicare health plans</a></li><li id="hp-how-button"><a class="btn btn-primary btn-pill" href="http://www.medicare.gov/supplement-other-insurance/how-medicare-works-with-other-insurance/how-medicare-works-with-other-insurance.html" title="Find out how Medicare works with other insurance"><span class="icon"> </span>Find out how Medicare works with other insurance</a></li><li id="hp-mail-button"><a class="btn btn-primary btn-pill" href="http://www.medicare.gov/help-and-resources/mail-about-medicare/mail-about-medicare.html" title="Mail you get about Medicare"><span class="icon"> </span>Mail you get about Medicare</a></li><li id="hp-paperless-button"><a class="btn btn-primary btn-pill" href="http://www.medicare.gov/gopaperless/home.aspx" title="Go paperless: get Medicare &amp; You electronically"><span class="icon"> </span>Go paperless: get <em>Medicare &amp; You</em> electronically</a></li></ul>
+                 </div>
+	 </div>
+</div>
+	<div id="clearfooter"></div>
+ </div>			<footer id="footer" role="contentinfo">				
+                					                	<h2 class="HiddenText">Footer</h2>
+<div id="footer-top">
+    <button id="footer_home_btn" title="Medicare.gov Home" class="btn btn-primary"  onclick="window.location.href='/';return false;">Home</button>
+    <div id="footer-home-logo-wrapper">
+        <div id="footer_home_logo">
+            <a id="footer_home_logo_link" title="Go to Medicare.gov" href="index.html">
+                <img src="../assets.cms.gov/Resources/Medicare/Images/home/logoSprite.png" alt="Medicare.gov"/>
+            </a>
+        </div>
+    </div>  
+    <div id="footer-address">
+        A federal government website managed by the Centers for Medicare &amp; Medicaid Services<br/>
+        7500 Security Boulevard, Baltimore, MD 21244
+    </div>
+    <div id="footer-hhs-logo-wrapper">
+        <div id="footer_hhs_logo">
+            <a href="http://www.hhs.gov/" title="Health and Human Services home page" id="footer_hhs_logo_link">
+                <img src="../assets.cms.gov/Resources/Medicare/Images/home/logoSprite.png" alt="Health and Human Services home page"/>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="footer-bottom">
+    <div id="footer-column1">
+        <ul>
+            <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/index.html" title="Sign Up or Change Plans">Sign Up / Change Plans</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/index.html" title="Your Medicare Costs">Your Medicare Costs</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/what-medicare-covers/index.html" title="What Medicare Covers">What Medicare Covers</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/part-d/index.html" title="Drug Coverage (Part D)">Drug Coverage (Part D)</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/supplement-other-insurance/index.html" title="Supplements & Other Insurance">Supplements &amp; Other Insurance</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/claims-and-appeals/index.html" title="Claims &amp; Appeals">Claims &amp; Appeals</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/manage-your-health/index.html" title="Manage Your Health">Manage Your Health</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/index.html" title="Forms, Help, & Resources">Forms, Help &amp; Resources</a>
+            </li>
+        </ul>
+    </div>
+    <div id="footer-column2">
+        <h3 class="footer-headline">Take Action</h3>
+        <ul>
+            <li>
+                <a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health and drug plans">Find health &amp; drug plans</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" title="Find doctors, providers, hospitals and plans">Find doctors, providers, hospitals &amp; plans</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/Supplier/Home.asp" title="Where can I get covered medical items?">Where can I get covered medical items?</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/forms/medicare-forms.html" title="Get Medicare forms">Get Medicare forms</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/Publications/Home.asp" title="Publications">Publications</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/about-us/other-languages/information-in-other-languages.html" title="Information in other languages">Information in other languages</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/Contacts/Default.aspx" title="Phone numbers and websites">Phone numbers &amp; websites</a>
+            </li>
+        </ul>
+        <h3 class="footer-headline">Get Email Updates</h3>
+
+        <div class="email-form" id="login">
+                  <input id="email_action_url" type="hidden" value="https://public.govdelivery.com/accounts/USCMS/subscribers/qualify"/>
+            <input id="category_id" name="category_id" type="hidden" value="USCMS_C110" />
+            <label for="footer-email-updates-textbox" class="HiddenText" id="email-updates-label">Your email address for getting email updates</label>
+            <input autocomplete="off" name="email" type="text" title="type email here" value="" placeholder="type email here" class="SearchBox searchbox-defaultvalue" id="footer-email-updates-textbox" dir="ltr" spellcheck="false" />
+            <input id="footer-go-button" class="btn btn-primary" name="footer-go-button" type="submit" value="Go"/>
+        </div>
+    </div>
+    <div id="footer-column3">
+        <h3 class="footer-headline">Helpful Links</h3>
+        <ul>
+            <li>
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/index.html" title="Site policies and important links">Site policies &amp; important links</a>
+            </li>
+            <li>
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/Privacy-Policy.html" title="Privacy policy">Privacy policy</a>
+            </li>
+            <li>
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/FOIA.html" title="FOIA">
+                    <abbr title="Freedom of Information Act">FOIA</abbr>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/NoFearAct.html" title="No Fear Act">No Fear Act</a>
+            </li>
+            <li>
+                <a href="http://www.HHS.gov" title="HHS.gov">HHS.gov</a>
+            </li>
+            <li>
+                <a href="http://USA.gov" title="USA.gov">USA.gov</a>
+            </li>
+            <li>
+                <a href="http://oig.hhs.gov" title="Inspector General">Inspector General</a>
+            </li>
+            <li>
+                <a href="http://www.medicare.gov/about-us/plain-writing/plain-writing.html" title="Plain language">Plain language</a>
+            </li>
+            <li>
+                <a href="http://archive-it.org/collections/2650" title="Archive">Archive</a>
+            </li>
+          
+            <li>
+              <a href="http://www.medicare.gov/download/downloaddb.asp" title="Downloadable Databases">Downloadable databases</a>
+            </li>
+            <li>
+              <a href="http://www.medicare.gov/medicare-and-you/medicare-and-you.html" title="Medicare & You">Medicare &amp; You</a>
+            </li>
+          <li>
+            <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/Help.html" title="Help with file formats &amp; plug-ins">Help with file formats &amp; plug-ins</a>
+          </li>
+        </ul>
+    </div>
+    <div id="footer-column4">
+        <h3 class="footer-headline">CMS &amp; HHS Websites</h3>
+        <ul>
+            <li>
+                <a title="HealthCare.gov" href="http://healthcare.gov">HealthCare.gov</a>
+            </li>
+            <li>
+                <a title="STOPMedicareFraud.gov" href="http://STOPmedicarefraud.gov">STOPMedicareFraud.gov</a>
+            </li>
+            <li>
+                <a title="InsureKidsNow.gov" href="http://insurekidsnow.gov">InsureKidsNow.gov</a>
+            </li>
+            <li>
+                <a title="MyMedicare.gov" href="http://mymedicare.gov">MyMedicare.gov</a>
+            </li>
+            <li>
+                <a title="Medicaid.gov" href="http://medicaid.gov">Medicaid.gov</a>
+            </li>
+            <li>
+                <a title="CMS.gov" href="http://cms.gov">CMS.gov</a>
+            </li>
+        </ul>
+        <h3 class="footer-headline">Get Involved with Us</h3>
+        <div class="footer-bucket">
+           <ul>
+                <li class="footer_email">
+                      <a class="footer_email_link" title="Email this page" href="http://www.medicare.gov/emailthispage/emailform.asp?version=DOTNET">
+                          <img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="Email this page"/>
+                      </a>
+                </li>
+                <li class="footer_twitter">
+                      <a class="footer_twitter_link" title="CMS Twitter" href="http://www.twitter.com/MedicareGov">
+                          <img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="CMS Twitter"/>
+                      </a>
+                </li>
+                <li class="footer_youtube">
+                      <a class="footer_youtube_link" title="CMS YouTube" href="http://www.youtube.com/user/CMSHHSgov">
+                          <img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="CMS Youtube"/>
+                      </a>
+                </li>
+                <li class="footer_rss">
+                      <a class="footer_rss_link" title="CMS RSS Feed" href="http://www.cms.gov/cmsfeeds/">
+                          <img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="CMS RSS Feed"/>
+                      </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+					                	<script type='text/javascript' src='../assets.cms.gov/Resources/Global/JS/lib/jquery-1.7.2.js'></script>
+<script type='text/javascript' src='../assets.cms.gov/Resources/Global/JS/jquery.hcmode-detection.js'></script>
+<script type='text/javascript' src='../assets.cms.gov/Resources/Global/JS/lib/jquery.listen.js'></script>
+<script type='text/javascript' src='../assets.cms.gov/Resources/Global/JS/lib/jquery-ui-1.8.17.custom.js'></script>
+<script type='text/javascript' src='../assets.cms.gov/Resources/Global/JS/508addthis.js'></script>
+<script type='text/javascript' src='../assets.cms.gov/Resources/Global/JS/ga-track-footer.js'></script>
+<script type='text/javascript' src='../assets.cms.gov/Resources/Medicare/JS/topNavigation.js'></script>
+<script type='text/javascript' src='../assets.cms.gov/Resources/Medicare/JS/medicareutils.js'></script>
+
+<!--Font Resize Script -->
+<script type='text/javascript' src='../assets.cms.gov/Resources/Medicare/JS/fontsizer.jquery.js'></script>
+<script type='text/javascript'>
+  $(document).ready(function () {
+  
+  replaceAssetsElements();
+  fontResizer();
+  });
+</script>
+
+<!--Forsee Script CODE-->
+<script type='text/javascript' src='SharedResources/widgets/foresee/foresee-trigger.js'></script>
+
+
+<!-- Chartbeat -->
+<script type='text/javascript'>
+  try {
+
+  switch (document.location.host) {
+  case "medicare.gov":
+  var _sf_async_config={uid:11791,domain:"medicare.gov"};
+  break;
+  case "es.medicare.gov":
+  var _sf_async_config={uid:11791,domain:"es.medicare.gov"};
+  break;
+  case "csr.medicare.gov":
+  break;
+  default:
+  var _sf_async_config={uid:11791,domain:"medicare.gov"};
+  break;
+  }
+
+  (function(){
+  function loadChartbeat() {
+  window._sf_endpt=(new Date()).getTime();
+  var e = document.createElement('script');
+  e.setAttribute('language', 'javascript');
+  e.setAttribute('type', 'text/javascript');
+  e.setAttribute('src',
+  (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+  "static.chartbeat.com/js/chartbeat.js");
+  document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+  loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+  } catch (err) { }
+</script>
+					
+																	<link AssetsSrc='/Resources/Medicare/CSS/FeedTabs.css'  href='../assets.cms.gov/Resources/Medicare/CSS/FeedTabs.css' rel='stylesheet' type='text/css'/>
+<script type='text/javascript' AssetsSrc='/Resources/Global/JS/jquery.508tabs.js'  src='../assets.cms.gov/Resources/Global/JS/jquery.508tabs.js'></script>
+<script type='text/javascript'  AssetsSrc='/Resources/Medicare/JS/feedTabs.js'  src='../assets.cms.gov/Resources/Medicare/JS/feedTabs.js'></script>
+ 
+													                <script type='text/javascript' AssetsSrc='/Resources/Global/JS/jquery.ui.widget.js' src='../assets.cms.gov/Resources/Global/JS/jquery.ui.widget.js'></script>
+<script type='text/javascript' AssetsSrc='/Resources/Global/JS/jquery.508tooltip.js' src='../assets.cms.gov/Resources/Global/JS/jquery.508tooltip.js'></script>
+<script type='text/javascript' AssetsSrc='/Resources/Global/JS/jquery.508expcollapse.js' src='../assets.cms.gov/Resources/Global/JS/jquery.508expcollapse.js'></script>
+<script type="text/javascript" language="javascript">
+    $(document).ready(function () {
+		$("#blogTab").detach();
+	    $(".glossary").tooltip();
+	    $("#expandAll").bind('click', function () {
+	    	$(".collapse-header").removeClass("collapsed");
+	    	$(".collapse-header").addClass("expanded");
+	    	$(".collapse").collapse("show");
+		});
+		$("#collapseAll").bind('click', function () {
+	    	$(".collapse-header").removeClass("expanded");
+	    	$(".collapse-header").addClass("collapsed");
+	    	$(".collapse").collapse("hide");
+	    });
+	});
+</script>
+<script type='text/javascript'>
+	$(document).ready(function () {
+    	// adds a class to every other glossary item for IE
+        if ($('html').hasClass('IE8') || $('html').hasClass('IE7')) {
+        	$('#glossary .definitions .content div:nth-child(even)').addClass('even-definition');
+        }
+   	});
+</script>
+
+										
+			 				
+        	</footer>
+        </div>
+	</div>
+	<!-- 2013-05-08 13:00:00.047 -->
+
+	
+	
+<!-- CrazyEgg Code -->	
+<script type="text/javascript"> setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1179.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); </script>
+</body>
+</html>
+

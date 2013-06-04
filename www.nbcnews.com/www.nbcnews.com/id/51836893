@@ -1,0 +1,35 @@
+try {
+
+    if (!_gpt_simpleUrl) {
+        var _gpt_simpleUrl = {
+            correlator: 0,
+
+            GetCorrelator: function () {
+
+                if ((_gpt_simpleUrl.correlator > 0) === false) {
+                    _gpt_simpleUrl.correlator = Math.ceil(1000000000 * Math.random());
+                }
+
+                return _gpt_simpleUrl.correlator;
+            },
+
+            CreateTag: function (networkId, adUnit, width, height) {
+                var randId = "gptAd-" + adUnit + Math.ceil(1000000000 * Math.random());
+
+                document.writeln("<iframe id=\"" + randId + "\" frameborder=\"0\" marginHeight=\"0\" marginWidth=\"0\" height=\"" + height + "\" width=\"" + width + "\" scrolling=\"no\" style=\"overflow:hidden;\"><\/iframe>");
+
+                $(function () {
+                    var src = "http://pubads.g.doubleclick.net/gampad/adx?";
+                    src += "iu=" + networkId + "/" + adUnit;
+                    src += "&sz=" + width + "x" + height;
+                    src += "&t=" + top._gpt_simpleUrlTargetingParams;
+                    src += "&c=" + _gpt_simpleUrl.GetCorrelator();
+                    src += "&ord=" + Math.ceil(1000000000 * Math.random());
+                    $("#" + randId).attr("src", src);
+                });
+            }
+
+        };
+    }
+}
+catch (e) { };

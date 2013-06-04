@@ -1,0 +1,312 @@
+/* 
+GLOBAL STYLE SHEET CONSISTS OF THE FOLLOWING: 
+ 
+"reset" styles which strip the styles of default settings,  such as padding,  bold,  etc.
+"base" styles reapply the properties.
+"global" styles are styles that are common on all html pages.
+*/
+
+/***************************************************************
+ ************************** RESET ******************************
+ ***************************************************************/
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img { 
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before, 
+q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+/* *** latin conventions *** */
+
+caption, th {
+	text-align: left;
+}
+
+
+/***************************************************************
+ ************************** BASE *******************************
+ ***************************************************************/
+
+/*
+p {
+	font-size: 82%;
+	color: #333333;
+}
+*/
+
+h1,  h2,  h3 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+	font-weight: bold; 
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+
+blockquote, ul, ol, dl {
+	margin: 1em;
+	/*font-size: 82%;*/
+}
+
+th, td {
+	border: 1px solid #000;
+	padding: .5em;
+}
+
+th {
+	font-weight: bold;
+	text-align: center;
+}
+
+caption {
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+p, fieldset, table {
+	margin-bottom: 1em;
+}
+
+/* *** latin conventions *** */
+
+h1 {
+	font-size: 138.5%;
+}
+
+h2 {
+	font-size: 123.1%;
+}
+
+h3 {
+	font-size: 108%;
+}
+
+em {
+	font-style: italic;
+}
+
+ol, ul, dl {
+	margin-left: .5em;
+}
+
+ol li {
+	list-style: decimal outside;	
+}
+
+ul li {
+	list-style: disc outside;
+}
+
+dl dd {
+	margin-left: 1em;
+}
+
+
+/***************************************************************
+ ******** Global CSS: Styles common on all html pages **********
+ ***************************************************************/
+
+html { 
+	min-height: 100%;
+	margin-bottom: 1px; 
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif; /* *** latin conventions *** */
+	font-size: 81.3%;
+}
+
+#main {
+	width: 64em;
+	background-color: #FFF;
+	border: 1px solid #333;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Skip Links */
+ 
+#skiplink {
+	width: 20em;
+	clear: both;
+	font-size: .9em;
+	display: inline;
+}
+
+#skiplink ul {
+	margin: 0;
+}
+
+#skiplink  ul li {
+	display: inline;
+}
+
+#skiplink a:focus, #skiplink a:active {
+	color: #fff;
+	background-color: #000;
+}
+
+/* Branding Bar */
+
+#brandbar {
+	height: 1.9em;
+	background-color: #C2C6CF;
+	background-image: url(../common/images/brandbarbkgd.jpg);
+	background-repeat: repeat-x;
+}
+
+#brandbar .unicon { /* *** latin conventions *** */
+	padding-top: .2em;
+	padding-right: .4em;
+}
+
+#brandbar .welcome { /* *** latin conventions *** */
+	color: #333;
+	display: block;
+	float: left;
+	font-size: .9em;
+	padding-top: .5em;
+}
+
+#brandbar .welcome a {
+	text-decoration: none;
+	color: #1e1e1e;
+}
+
+#brandbar a:hover {
+	text-decoration: underline;
+	color: #1e1e1e;
+}
+
+#brandbar #searchfrm { /* *** latin conventions *** */
+	float: right;
+	text-align: right;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+#brandbar #searchfrm label { /*hidden*/
+	position: absolute;
+	overflow: hidden;
+	font-size: 88%;
+	top: -500px;
+}
+
+#brandbar #searchfrm .button {
+	font-size: 78%;
+}
+
+#brandbar #searchfrm .textbox {
+	font-size: 90%;
+	width: 12em;
+}
+
+/* Languages Bar */
+
+#languages {
+	height: 1.8em;
+	font-size: .9em;
+}
+
+#languages ul {
+	text-align: right; /* *** latin convention *** */
+	margin: 0;
+}
+
+#languages ul li {
+	display: inline;
+	padding-right: 1em; /* *** latin convention *** */
+}
+
+#languages ul li#arabic {
+	direction: rtl; /* *** latin convention *** */
+	font-size: 1.15em;
+	font-family: Tahoma, Arial, "Arabic Transparent";
+}
+
+#languages ul li#chinese {
+	font-size: .95em;
+}
+
+/* Top Banner */
+
+#topbanner {
+	clear: none;
+	width: 100%;
+	float: left;  /* *** latin convention *** */
+	height: 124px;
+}
+
+#topbanner #hiddentitle, #topbanner #hiddentitle span {
+	background-repeat: no-repeat;
+	margin-bottom: -90px;
+}
+
+#topbanner h1 {
+	text-align: left;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+#topbanner  h1 span {
+	display: block;
+	position: relative;
+	z-index: 1;	
+}
+
+
+/* Footer */
+
+#footer {
+	text-align: center;
+	clear: both;
+	font-size: .9em;
+	height: 2em;
+	padding-top: .5em;
+}
+
+#footer ul li  {
+	display:inline;
+	padding-left:0.2em;
+}
+
+#footer2 ul li  {
+	display:inline;
+}

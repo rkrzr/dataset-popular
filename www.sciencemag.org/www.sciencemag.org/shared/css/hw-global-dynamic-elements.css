@@ -1,0 +1,199 @@
+
+/* *********************************************
+
+	CSS for elements added by Javascript
+
+
+
+
+
+***********************************************  */
+
+
+
+
+/* hovering abstracts */
+div#hovering-abs-close {
+	padding: 0px;
+	margin: 0px;
+}
+div#hovering-abs-close a {
+	text-decoration: none;
+	font-weight:bold;
+	color: #444;
+}
+div#hovering-abs-close a:hover {
+	text-decoration: none;
+	font-weight:bold;
+	color: black;
+}
+div#hovering-abs-close a span {
+	font-size: .667em;
+}
+div#hovering-abs h1 {
+	font-size: 1em;
+	padding: .4em;
+	margin: .5em;
+}
+div#hovering-abs {
+	background-color: #d8d8d8;
+	padding: .4em;
+	margin: .5em;
+	border: 1px solid #333;
+	left: 140px;
+	width: 405px; /*600px;*/
+	overflow: auto;
+	font-size: .66em;
+	line-height: 1.3;
+	z-index: 99;
+}
+div#hovering-abs div {
+	margin: 0;
+	padding: 0;
+}
+div#hovering-abs p {
+	margin: 0;
+	padding: .4em 1em;
+}
+div#hovering-abs-ptr {
+	background-image: url(http://www.sciencemag.org/shared/img/misc/abs-ptr.gif);
+	background-position: bottom right;
+	position:absolute;
+	margin: 0px; padding: 0px;
+	left: 510px;
+	top: 1200px;
+	width: 32px;
+	height: 32px;
+	z-index: 99;
+}
+
+div#hovering-abs .xref-sep,
+div#hovering-abs .xref-aff,
+div#hovering-abs .xref-corresp,
+div#hovering-abs ol,
+div#hovering-abs ul,
+div#hovering-abs div.fn-group {
+	display: none;
+}
+
+div#hovering-abs div.medline-abstract div {
+	margin: 0;
+	padding: .4em 1em;
+}
+div#hovering-abs div.medline-abstract div.subsection {
+	margin: 0;
+	padding: .4em 0;
+}
+div#hovering-abs div.medline-abstract p.medline-attribution {
+	margin: 0;
+	padding: .4em 1em;
+	font-style: italic;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	view-more boxes
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+div.hw-gen-page  .view-more {
+	background-color: white;
+	display: block;
+	font-weight: bold;
+	float: left;
+	margin-left: -2px;/*-.5em;*/
+	margin-right: 5px;/*.5em;*/
+	font-size: .833em;
+	border: 1px solid #DCDCDC;
+	text-decoration: none;
+	width: 1.3em;
+	height: .9em;
+	text-align: center;
+	padding-bottom: .4em;
+	cursor: pointer;
+}
+
+div.hw-gen-page  .view-more:hover {
+	background-color: #383838;
+	color: white;
+}
+
+
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	rate this.  rate it now.
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */     
+        
+.rateThis p.rateThis-helpText { 
+    padding: 0; margin: 0.1em 0; 
+    clear:both;
+}
+
+#col-2 .rateThis div {margin:0;padding:0;}
+
+.rateThis-scale {
+    background: url("http://www.sciencemag.org/shared/img/rating-stars.gif") repeat scroll 0 0 transparent;
+    display: block;
+    height: 16px;
+    position: relative;
+}
+
+.rateThis-scale .rateThis-overallRating {
+    height: 16px;
+    background: url("http://www.sciencemag.org/shared/img/rating-stars.gif") repeat scroll left -16px transparent;
+    position: absolute;
+    display:none;
+}
+
+.rateThis-scale .rateThis-userRating {
+    height: 16px;
+    background: url("http://www.sciencemag.org/shared/img/rating-stars.gif") repeat scroll left -32px transparent;
+    position: absolute;
+    display:none;
+}
+ul.rateThis {padding: 3px 3px 3px 10px;list-style-image: url("http://www.sciencemag.org/publisher/icons/li-arrow.gif");margin: 0 5px;}
+.rateThis h5 {font-size:1em;
+    float:none;
+    padding: 0;
+    margin: 0 0 0.2em 0;
+	font-weight:bold;
+}
+.rateThis .rateThis-statistics { clear:both;font-size:0.9em;}
+.rateThis .rateThis-status { clear:both;}
+.rateThis .rateThis-debug { clear:both; font-weight: bold }
+#col-2 .rateThis div.rateThis-scale {margin:2px 0;}
+
+/* semantics dynamic sidebar elements on content pages */
+#semantics-related-terms #related-terms {
+	margin: 0; padding: 0;
+}
+#semantics-similar-articles .cit .cit-section {
+	display:none;
+}
+
+#semantics-similar-articles .cit cite {
+	display: inline;
+	padding: 0;
+}
+#semantics-similar-articles .cit .cit-sep-after-site-title,
+#semantics-similar-articles .cit .cit-sep-after-article-print-date,
+#semantics-similar-articles .cit .cit-vol,
+#semantics-similar-articles .cit .cit-pages,
+#semantics-similar-articles .cit .cit-doi {
+	display: none;
+}
+#semantics-similar-articles .cit .cit-auth-list {
+	padding: 0;
+	display:block;
+}
+
+#semantics-similar-articles .cit span.accesscheck {
+	display: inline;
+}
+
+#semantics-similar-articles div {
+	margin: 0;
+	padding-top: 0;
+}
+
+#semantics-similar-articles .cit .cit-title,
+#semantics-similar-articles .cit .cit-extra span,
+#semantics-similar-articles .cit .cit-views {
+	padding-left: 0;
+}

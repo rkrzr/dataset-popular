@@ -1,0 +1,55 @@
+.header-container .header-wrap .nav,
+.header-container .header-wrap .header .top-nav,
+.header-container .header-wrap .header .media,
+
+.content-container .page .main .subnav,
+.content-container .homesplash .secondary-nav,
+.content-container button,
+.content-container input,
+.content-container select,
+.content-container object,
+.content-container embed,
+.content-container iframe,
+.content-container a.more,
+.content-container .show-refs,
+.content-container .view-all,
+.content-container a.request-interview,
+.content-container .morning-bell-sign-up,
+.content-container .popupWindow,
+.content-container .share-block,
+.content-container .calendar-block .col-1,
+.content-container .ctwo-column-leftnav .sidebar,
+.content-container .homesplash .feature,
+
+.footer-container .footer-wrap .sect1,
+.footer-container .footer-wrap .sect2 .footer_nav_top,
+.footer-container .footer-wrap .sect2 .footer_nav_bot
+{display:none !important}
+
+.content-container * {margin-left:0; padding-left:0}
+.content-container .refs-container {display:block !important}
+
+.feature {border:1px solid black}
+
+.memo-header {font-size:12px !important;}
+
+
+/* LISTS */
+.content ul { list-style: inside square; }
+.content ul, .content ol {margin:0 0 10px 10px}
+.content div ol  {margin-left: 27px;}
+.content li { padding: 5px 0;}
+
+
+/* BLOCKQUOTES */
+.blockquote-container { line-height:20px; }
+.blockquote { padding:0 16px; clear:both; font-size:1em }
+.col-2 .blockquote-container { font-size:.7em; color:#333; /*margin:21px;*/ }
+.col-1 .blockquote-container { color:#666; font-size:.9em; margin:0 27px; width:610px; }
+.col-1 .blockquote  { width:578px; }
+
+
+.article_actions {
+	display: none;
+}
+fieldset,img,abbr {border:none;}

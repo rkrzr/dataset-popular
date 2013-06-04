@@ -1,0 +1,110 @@
+label { font-weight: bold; }
+span.required { font-weight:bold; font-family:georgia, bookman old style, serif; color:#a84444; }
+fieldset    { padding:1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
+legend      { font-weight: bold; font-size:1.2em; }
+input.text, input.title   { width: 595px; margin:0; }
+input.text, input.title, #google-inp   { border:1px solid #bbb; background:#f6f6f6; padding:5px; }
+input.text:focus,
+input.title:focus,
+#google-inp:focus         { border:1px solid #999; background:#fff; }
+input.title               { font-size:1.5em; }
+input.sub,
+#google-sub
+        {
+        background:#ddd;
+        border:3px double #eee;
+        border-bottom-color:#999;
+        border-right-color:#999;
+        color:#666;
+        padding:0.2em;
+        line-height:1.2em;
+        font-size:100%;
+        font-weight:normal;
+        text-transform:uppercase !important;
+        cursor:pointer;
+        font-family:arial bold, arial black, arial, sans-serif; 
+        text-shadow:1px 1px 1px #fff;        
+        }
+#google-inp
+        {          
+        display:block;
+        font-size:100%;
+        padding:3px 2px;  
+        margin-right:2.1em;
+        width:263px;
+        }
+#google-sub
+        {                     
+        position:absolute;
+        right:0;
+        top:0;
+        padding:0;
+        border-width:0px;
+        height:23px;
+        width:29px;      
+        }
+#cse-search-box div
+        {
+        position:relative;
+                  
+        }
+/* search */
+#searchbox
+        {
+        display:none;
+        padding-bottom:6px !important;
+        }
+#searchbox .col-8-tp
+        {
+        padding-top:4px;
+        padding-left:4px;
+        padding-right:5px;
+        padding-bottom:0;
+        overflow:hidden;
+        }
+/* Textareas */
+textarea            { width: 595px; max-width:595px; height: 150px; margin:0; font-family:arial, sans-serif; }
+textarea            { border:1px solid #bbb; background:#eee; padding:5px; }
+textarea:focus      { border:1px solid #999; background:#fff; }
+
+/* Select fields */
+select              { border:1px solid #ccc; background:#f6f6f6; }
+select:focus        { border:1px solid #999; background:#fff; }
+
+
+/* Success, error & notice boxes for messages and errors. */
+.error,
+.notice, 
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+.error      { background: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #817134; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #529214; border-color: #C6D880; }
+.error a    { color: #D12F19; }
+.notice a   { color: #817134; }
+.success a  { color: #529214; }
+
+.form-col1
+        {
+        width:299px;
+        float:left;
+        margin-right:10px;
+        }
+.form-col1 input.text
+        {
+        width:287px;
+        display:block;
+        }
+.form-col2
+        {
+        width:298px;
+        float:left;
+        }
+.form-col2 input.text
+        {
+        width:286px;
+        display:block;
+        }
+/* Hacks to deal with width differences */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+        textarea { max-width:595px; min-width:595px; }
+}

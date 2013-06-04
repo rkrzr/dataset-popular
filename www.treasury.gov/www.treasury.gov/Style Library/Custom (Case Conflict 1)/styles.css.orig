@@ -1,0 +1,1204 @@
+﻿@import url('base.css');
+@import url('sharepoint-changes.css');
+@import url('df.css');
+
+/* Style Guide */
+/* Margin bottoms for the right rails are set to 8px*/
+/* Borders on the RR are set to #d3d3d3;
+/* Borders on Treasury Travels are set to #8f8f8f
+
+/* blue #045d9d - blue links/headlines (anything blue is a link
+/* burgundy #7e1b1b - highlighted text
+/* #2a2a2a body text
+/* #5f5f5f - headlines within top gradient boxes and footer
+/* #949494 - breadcrumbs
+/* #d3d3d3 - border boxes
+/* #f7f7f7 - background to boxes with pages
+/* #f3f3f3 - site background
+/* #d8ddeo - background gradient base color for headline title bards within boxes
+
+/********************/
+
+
+/* Thickbox for Left Nav */
+	#t-content-main-nav a.thickbox {width: 150px; !important; display: block;}
+
+/* Article Date */
+	.article-date {display: block}
+/* Last Updated */
+
+	.updated {text-align: right; font-weight: bold; font-size: 11px; margin: 5px 0px; display:block; clear:both;}
+	
+/* Share Print Button */
+	.addthis {float: right; padding: 10px 0 5px 0px; width: 100%; text-align: right;}
+
+/* Hidden  */
+	.hiddenStructure { display: block;  background: transparent;  background-image: none; /* */
+	 border: none; height: 1px; overflow: hidden; padding: 0; margin: -1px 0 0 -1px; width: 1px; position:absolute;}
+	.hiddenLabel, .hiddenOffScreen 	 {position:absolute; left:-9999px;  width:1px; height:1px; overflow:hidden; } 
+
+/* SharePoint Specific */
+	
+	.ms-PartSpacingVertical {margin-top: 0px;}/* already adding spacing for the RR bits */
+
+	/* Breadcumbs */
+	 
+	#breadcrumb{padding: 0px; font: 11px Arial, Helvetica, sans-serif; color: #949494 !important; margin-top: 5px;}
+	#breadcrumb a {color: #949494 !important; text-decoration: none;}
+	#breadcrumb a.currentnode {font-weight: bold !important;color: #949494 !important;}
+
+	
+/* Icon Links */
+    img[alt^="PDF icon"] {display: none;}/* this removes the pdf icon that came over with the migration */
+    a img[alt$="PDF Icon"] {display: none !important;}/* this removes the pdf icon that came over with the migration */
+    a img[alt$="Excel Icon"] {display: none !important;}/* this removes the pdf icon that came over with the migration */
+   
+   a[href$='.pdf'], a[href$='.PDF'] {
+	    /*display:inline-block;*/
+	    padding-right:25px;
+	    line-height:18px;
+	    background:transparent url(../images/treas/page_white_acrobat.png) top right no-repeat;}
+	
+
+    a[href$='.swf'], a[href$='.fla'], a[href$='.swd'] {
+	    /*display:inline-block;*/
+	    padding-right:25px;
+	    line-height:18px;
+	    background:transparent url(../images/treas/FlashIcon.png) top right no-repeat;}
+
+
+    a[href$='.xls'], a[href$='.csv'], a[href$='.xlt'], a[href$='.xlw'], a[href$='.xlsx']  {
+	    /*display:inline-block;*/
+	    padding-right:25px;
+	    line-height:18px;
+	    background:transparent url(../images/treas/page_white_excel.png) top right no-repeat;}
+
+
+    a[href$='.xml'] {
+	    /*display:inline-block;*/
+	    padding-right:25px;
+	    line-height:18px;
+	    background:transparent url(../images/treas/page_white_code.png) top right no-repeat;}
+
+    
+   a[href$='.ppt'], a[href$='.pps'] {
+	    /*display:inline-block;*/
+	    padding-right:25px;
+	    line-height:18px;
+	    background:transparent url(../images/treas/PowerPointIcon.png) top right no-repeat;}
+   
+   
+    a[href$='.doc'], a[href$='.rtf'], a[href$='.txt'], a[href$='.wps'], a[href$='.docx'] {
+	    /*display:inline-block;*/
+	    padding-right:25px;
+	    line-height:18px;
+	    background:transparent url(../images/treas/page_white_word.png) top right no-repeat;}
+	
+    a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
+	    /*display:inline-block;*/
+	    padding-right:25px;
+	    line-height:18px;
+	    background:transparent url(../images/treas/page_generic_zipped.png) top right no-repeat;}
+		    
+	.ui-tabs-panel a[href$='.pdf'], 
+   	.ui-tabs-panel a[href$='.swf'], .ui-tabs-panel a[href$='.fla'], .ui-tabs-panel a[href$='.swd'], 
+   	.ui-tabs-panel a[href$='.xml'], .ui-tabs-panel a[href$='.ppt'], .ui-tabs-panel a[href$='.pps'], 
+   	.ui-tabs-panel a[href$='.xls'], .ui-tabs-panel a[href$='.csv'], .ui-tabs-panel a[href$='.xlt'], 
+    .ui-tabs-panel a[href$='.xlw'] {display:inline-block;}
+
+	.t-rr-wrapper a[href$='.pdf'], 
+   	.t-rr-wrapper a[href$='.swf'], .t-rr-wrapper a[href$='.fla'], .t-rr-wrapper a[href$='.swd'], 
+   	.t-rr-wrapper a[href$='.xml'], .t-rr-wrapper a[href$='.ppt'], .t-rr-wrapper a[href$='.pps'], 
+   	.t-rr-wrapper a[href$='.xls'], .t-rr-wrapper a[href$='.csv'], .t-rr-wrapper a[href$='.xlt'], 
+    .t-rr-wrapper a[href$='.xlw'] {padding-right: 25px !important;}
+
+
+/* Content Styles */
+
+	.content {padding: 10px 10px 0px 0px; text-align:left;}
+
+	/*.content ul {list-style-type: none; margin: 0px; padding: 0px;}
+		.content li {
+			margin: 3px 0 3px 10px; 
+			list-style-type: none;
+			padding-left: 10px;
+			background: transparent url('../images/treas/t-rr-bullet.gif') no-repeat left 7px;}
+*/	
+
+	.ui-tabs-panel .content ul {list-style-type: none; margin: 0px; padding: 0px;}
+		.ui-tabs-panel .content li {
+			margin: 3px 0 3px 10px; 
+			list-style-type: none;
+			padding-left: 10px;
+			background: transparent url('../images/treas/t-rr-bullet.gif') no-repeat left 7px;}
+
+		.ui-tabs-panel .content ul ul li {
+			margin: 3px 0 3px 40px; 
+			padding-left: 20px;}
+		.ui-tabs-panel .content ul ul ul li {
+			margin: 3px 0 3px 60px; 
+			padding-left: 20px;}
+
+	.content-bg {
+		clear: both;
+		border: 1px soid #d3d3d3;
+		background-color: #f7f7f7;
+		padding: 20px 10px 10px 10px;
+		margin: 10px 0px 0px 0px;
+		display:block;}	
+		
+	.content10 {padding: 10px;}	
+		
+	.content-slim {width: 700px; clear: right;}
+	
+	.thumb img {float: left; margin-right: 12px; margin-top: 10px; background-color: #fff; border: 2px solid #d3d3d3 !important; display:block; }
+
+	.description {color: #2a2a2a; font-size: 12px; font-family:Arial, Helvetica, sans-serif !important; padding-bottom: 10px; }
+	.description p {overflow: hidden; }
+		
+	.leftcontent {width: 240px; float: left; margin-right: 5px;}
+	.rightcontent {width: 240px; float: left; margin-left: 5px;}
+	.leftcontent h3, .rightcontent h3 {margin: 0px;}
+	.leftcontent p, .rightcontent p {margin: 0px 0 10px 0;}
+	
+	.center img {text-align: center; margin: 0px auto;}
+
+/* Resource Center */
+	#t-rc {padding-top: 20px;}
+	
+	#t-rc .viewmore a {font-size: 11px; text-decoration: underline;}
+	#t-rc .viewmore {background-color: #f7f7f7; padding: 5px 0px; margin-top: 20px;}
+	.t-rc-links {margin-bottom: 4px;}
+
+/* Chart Styles */
+
+	object#chart {
+	text-align: left;
+	float: left;}
+	
+	#chart {padding-bottom: 10px;}
+
+/* Heading Styles */
+
+	.header h1 {margin-top: 22px;padding: 8px 0px 0px 0px; text-indent: -5px; line-height: 120%; /* This fixes the space that SP keeps adding */	}
+		
+	.header h1.pr-pages { /* this is for the PR layouts */
+		font-family: Arial, Helvetica, sans-serif;
+		margin-top: 20px;
+		padding: 10px 0px 10px 0px; 
+		text-indent: -5px; 
+		line-height: 120%; /* This fixes the space that SP keeps adding */}
+		
+	/* Header with the background image floated to the right */
+	.header-bgimage {background:url('../images/treas/t-header-bg-image.jpg') no-repeat right top; height: 95px;  margin-right: 5px;}
+	
+	.header-interestrates-bgimage {background:url('../images/treas/t-header-bg-image.jpg') no-repeat right top; height: 85px; margin-right: 5px;}		
+	.header-bgimage h1 {padding: 30px 0px 0px 0px; line-height: 120%;}
+	.header-bgimage h1 .ms-formfieldcontainer {position:relative; top: -50px;}
+
+	/* Header in the Right Rail */
+	.t-rr-wrapper .header {text-align: center; height: 15px; padding: 9px 0px; border-bottom: 1px solid #d3d3d3; background:url('../images/treas/t-rightrail-header-bg.jpg') repeat-x left bottom;}
+	.t-rr-wrapper .ms-WPBody h3 {font-size: 14px;}	
+	.t-rr-wrapper .header h4, .t-rr-wrapper .header h3 {color: #5f5f5f; text-transform:uppercase;}
+
+	/* Heading in the Content container - basic text */
+	
+	.content h2 {font-weight: bold; margin-bottom: 10px;}
+
+/* Widgets */
+
+	/* Read More */
+
+	.t-read-more a {padding-left: 10px !important; color: #045d9d !important; line-height: 18px;
+		background: transparent url('../Images/Treas/right-arrow.gif') no-repeat left 3px;}
+	
+	.t-rr-wrapper .content .t-read-more a {padding-left: 10px !important; color: #045d9d !important; line-height: 18px;
+		background: transparent url('../Images/Treas/right-arrow.gif') no-repeat left 3px;}
+	p.t-read-more {margin: 0px; line-height: 18px;}
+
+	/* Right Rail Plain Widget */
+
+	.t-rr-wrapper {width:278px; border: 1px solid #d3d3d3; background-color: #fff; margin-bottom: 4px;}
+		
+		.t-rr-wrapper .content {padding: 8px 10px 8px 10px;}
+		.t-rr-wrapper .content h6 {color: #045d9d;}
+		.t-rr-wrapper .content p {font: 12px Arial, Helvetica, sans-serif;}
+		.t-rr-wrapper .featured-video {display: block; text-align: center;}
+		.t-rr-wrapper .featured-video img {margin: 0px 0px 0px 0px;}
+		.t-rr-wrapper .featured-photo img {margin: 10px 0 10px 3px;}
+		/*.t-rr-wrapper img {float: left; margin: 0px 10px 0 0;}*/
+	
+		.t-rr-wrapper ul {padding-left: 0px; margin: 0px;}
+		.t-rr-wrapper li {
+			margin: 3px 0px; 
+			list-style-type: none;
+			padding-left: 10px;
+			background: transparent url('../images/treas/t-rr-bullet.gif') no-repeat left 7px; }
+		.t-rr-wrapper li a { }
+
+		/*.t-rr-wrapper a {padding-left: 8px; padding-right: 25px;}*/
+		.t-rr-wrapper .bottom_link  {position: relative; bottom: 0px; padding: 0px 0px; right: 0px; text-align:right;}
+		.t-rr-wrapper .bottom_link a  {padding: 0px 0px; text-align:right; font-size: 11px; text-decoration: none;}
+
+	/* Right Rail with Blue Background */
+	.t-content-sub-inner p {font: normal 11px/15px Arial, Helvetica, sans-serif;}
+	.t-content-sub-inner a {}
+	.t-content-sub-inner h2, .t-content-sub-inner h3 {font-family:"Times New Roman", Times, serif; font-weight: bold;}
+	
+	/* Setting the background color, image, positioning for the Right Rail */
+	.t-rr-blue {
+			background: transparent url('../images/treas/rr-bg-blue.jpg') no-repeat left top;
+			margin-bottom: 4px;
+			width: 280px; height: 102px;}
+		.fs-rr-mha { height: 140px; background-image: url('../images/treas/fs-rr-bg-blue.jpg'); }
+
+	.t-rr-inner {width: 262px; margin: 0px auto; padding: 10px 5px 10px 5px;}
+		.t-rr-inner h3 { font-size: 15px; color: #045d9d; margin-bottom: 5px;}
+			.fs-rr .t-rr-inner h3 { color: #2a2a2a; }
+			.fs-rr-mha .t-rr-inner h3 a { font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+		.t-rr-inner p { margin-bottom: 5px; margin-top: 0px; line-height: 15px;padding-left: 72px;}
+			.fs-rr-mha p { padding-left: 5px; clear: both; }
+			.t-rr-img a {
+				float: left;
+				display: block;
+				width: 62px; height: 63px; 
+				margin-right: 10px; margin-top: 5px;
+				text-indent: -9999px;}
+			
+			.t-rr-img a.mha {background:url('../images/treas/icons.png') no-repeat 0px 0px;}
+			.t-rr-img a.mha:hover {background:url('../images/treas/icons.png') no-repeat -143px 0px;}
+
+			.fs-rr .t-rr-img a.mha {margin-top: 0;background :url('../images/treas/icons.png') no-repeat 0px -516px;}
+			.fs-rr .t-rr-img a.mha:hover {background:url('../images/treas/icons.png') no-repeat -143px -516px;}
+
+			.t-rr-img a.fs {background:url('../images/treas/icons.png') no-repeat 0px -104px;}
+			.t-rr-img a.fs:hover {background:url('../images/treas/icons.png') no-repeat -144px -104px;}
+
+			.t-rr-img a.wsr {background:url('../images/treas/icons.png') no-repeat 0px -213px;}
+			.t-rr-img a.wsr:hover {background:url('../images/treas/icons.png') no-repeat -143px -213px;}
+
+			.t-rr-img a.rgov {background:url('../images/treas/icons.png') no-repeat 0px -327px;}
+			.t-rr-img a.rgov:hover {background:url('../images/treas/icons.png') no-repeat -143px -327px;}
+
+			.t-rr-img a.mm {background:url('../images/treas/icons.png') no-repeat 0px -423px;}
+			.t-rr-img a.mm:hover {background:url('../images/treas/icons.png') no-repeat -143px -423px;}
+
+			.t-rr-img a.dl {background:url('../images/treas/icons.png') no-repeat 0px -618px; width: 63px;}
+			.t-rr-img a.dl:hover {background:url('../images/treas/icons.png') no-repeat -143px -618px; width: 63px;}
+			
+			.t-rr-img a.fsanc {background:url('../images/treas/icons.png') no-repeat 0px -719px;}
+			.t-rr-img a.fsanc:hover {background:url('../images/treas/icons.png') no-repeat -143px -719px;}
+
+
+	/* This will set the background for the Auctions RR bit - this is a CEWP that has been saved out */						
+	#t-auctions {
+			margin-bottom: 5px;
+			background: transparent url('../images/treas/treas-auctions.jpg') no-repeat left top;
+			width: 280px; height: 112px;}
+	#t-auctions a {text-indent: -9999px; display:block; width: 280px; height: 112px;}
+
+	/* Content Editor WebPart has been saved out to the site with the proper formatting for this piece */
+	#t-travels {
+			background: #fff url('../images/treas/treasury-travels.png') repeat-x left top;
+			width: 278px; min-height: 267px;
+			margin-bottom: 8px;
+			border: 1px solid #d3d3d3;}
+			
+			#t-travels img {
+				float: right;
+				margin-bottom: 5px;
+				border: 1px solid #d3d3d3;
+				background-color: #fff;
+				width: 224px;
+				height: 163px;}
+			
+			#t-travels .t-inner {width: 225px; margin: 0px auto; padding-top: 10px; padding-bottom: 5px;}
+			#t-travels h2 {margin-bottom: 10px; font-size: 23px; font-weight: normal;text-transform: uppercase; color: #045d9d; text-align:center;}				
+			.travels-container h3 {color: #045d9d !important;}				
+	
+	/* Press Center Right Rail */
+	.t-rr-presscenter h4 { color: #2a2a2a; font-family: Arial, Helvetica, sans-serif; }
+	.t-rr-presscenter .content { padding: 8px 0; margin: 0 10px; }
+	
+	.t-rr-pressreleases { border-bottom: solid 1px #d3d3d3}
+		.t-rr-pressreleases .presslisttable td { border-top: none; }
+		.t-rr-pressreleases .presslisttable td.date { font-style: italic; color: #5f5f5f; }
+		.t-rr-pressreleases .presslisttable td.title a { text-decoration: none; color: #2a2a2a; }
+		.t-rr-pressreleases li.dfwp-item {list-style-type: none !important; background: none !important; padding-left: 0px; }
+		
+		.pr-link {display: block; border-bottom: solid 1px #d3d3d3; padding: 5px 0px; height: 35px; }
+		.pc-left-widgets .pr-link .title {display:block; width: 370px !important; float: right;}
+		.pr-link .date {width: 65px; float: left; display: block;}
+		.pc-left-widgets .t-rr-wrapper li {padding-left: 0px;}
+		.pc-right-widgets .t-rr-wrapper li {padding-left: 0px;}
+
+
+	.t-rr-video { border-bottom: solid 1px #d3d3d3; }
+		.t-rr-video .t-rr-video-item { padding-bottom: 8px; }
+		.t-rr-video .t-rr-video-pic { width: 102px; float: left; margin: 0 10px 0 0; }
+		.t-rr-video .videopic { width: 102px; height: 72px; border: 0; }
+		.t-rr-video .t-rr-video-desc { width: 145px; float: left; }
+	
+	.featured-video-desc {padding: 10px;}
+
+	.t-rr-photo { border-bottom: solid 1px #d3d3d3; }
+		.t-rr-photo-item { padding-bottom: 8px; }
+		.t-rr-photo-pic { width: 102px; float: left; margin: 0px 10px 0px 0; }/* RR Featured Photo */
+		.t-rr-photo-pic img {border: 1px solid #d3d3d3; padding: 3px; margin: 0 3px 0 0;}
+		.t-rr-photo-desc { width: 140px; float: left; margin-left: 5px; }
+	
+	.t-rr-events .dfwp-item { color: #5f5f5f; font-style: italic; /* default styling gets the date */ }
+		.t-rr-events .dfwp-item strong { color: #000; font-style: normal; font-weight: normal; }
+		.t-rr-events li.dfwp-item { list-style-type: none !important; background: none !important; padding-left: 0px; }
+		.t-rr-events .dfwp-item a { font-weight: normal; font-style: normal; text-decoration: none; }
+		.t-rr-events .dfwp-item a:hover { text-decoration: underline; }
+
+
+		/* Blog Archive
+			.blog-archive-item  {
+				margin: 3px 0 3px 10px; 
+				padding-left: 10px;
+				background: transparent url('../images/treas/t-rr-bullet.gif') no-repeat left 7px;} */
+	
+/* Press Center Landing Page */
+
+	.content-bg .header h2 {font-family: "Times New Roman", Times, serif; color: #5f5f5f; margin-top: 0px; text-align: left; padding-left: 5px;}
+	.content-bg .t-rr-wrapper {background-color: #f4f4f4; width: auto;}
+	.content-bg .t-rr-wrapper .item { padding: 0; }
+	.content-bg .t-rr-wrapper li {background-image: none;}/* Removes bullets from press center */
+	.content-bg .t-rr-wrapper .title {width: 350px;}	
+		
+	/* List table - used for Announcements, Latest Press Releases */
+	.presslisttable { width: 100%;  }
+	.presslisttable td { vertical-align: top; padding: 8px 0; border-top: 1px solid #CFCFCB; font: 12px Arial, Helvetica, sans-serif; }
+		.content-bg .dfwp-list > li:first-child .presslisttable td { border-top: none; }
+	.presslisttable td.date { width: 65px; padding-right: 10px; }
+	.presslisttable td.summary { width: 370px;  }
+	
+	/* Event list */
+	.eventitem { padding: 8px 0; border-top: 1px solid #CFCFCB; }
+		.content-bg .dfwp-list > li:first-child .eventitem { border-top: none; }
+		.content-bg .t-rr-wrapper .eventitem .title {width: 250px;}	
+
+	/* Latest Photos or Video */
+	.thumbnail-wrapper {padding: 0px; margin: 0px auto;}	
+		.thumbnail-wrapper img {margin: 0px auto; padding: 5px;  display:block; background-color: #fff; padding: 3px; border: 2px solid #d3d3d3;}
+
+	.thumbnail-s {margin: 0 10px;}
+		.thumbnail-small {/*width: 110px;*/ float: left; text-align: center; margin: 0px auto; }
+		.thumbnail-small a.desc {padding: 0px; clear: both; }	
+		.thumbnail-small img { margin: 3px auto; float:none !important; }
+		#t-content-sub .t-rr-wrapper .thumbnail-small {margin: 0px auto; } /* Featured Photo RR only */
+		#t-content-sub .thumbnail-s {margin: 0px;}
+		.content-bg .t-rr-wrapper .thumbnail-small {width: 140px;}/* Press release page only */
+
+	.thumbnail-large {width: 350px; float: left; text-align: left !important; padding-left: 5px; }	
+		.thumbnail-large a.desc {padding: 5px 0 0 0; }	
+		.thumbnail-large img {float: left !important; margin: 0 10px 10px 0; }	
+
+	/* News */
+	img.image {padding: 3px; display:block; background-color: #fff; margin: 0px 10px 0px 0px; float: left; border: 1px solid #d3d3d3;}
+
+
+	.newsimage {float: left; margin: 0 5px 5px 0; border: 1px solid #d3d3d3; padding: 3px 3px 1px 3px;}
+	.ttravelsimage {float: right; margin: 10px 5px 5px 10px; border: 1px solid #d3d3d3; padding: 3px 3px 1px 3px;}
+
+/* Home Page */
+	/* Rotator */
+	#t-rotator {background: transparent url('../images/treas/t-rotator.jpg') no-repeat left top; width: 685px; height: 305px;}
+		
+			#t-rotator .t-inner {height: 255px; width: 635px; position: relative; top: 25px; left: 25px; }			
+			#t-rotator-image {float: left;  width: auto; height: 100%; width: 320px;}
+			#t-rotator-content {padding-top: 0px; width: 305px; float: right;}
+			#t-rotator-content p {font: 12px/17px Arial, Helvetica, sans-serif; margin-bottom: 5px;}
+			#t-rotator-content h1 {
+				background: transparent url('../Images/Treas/line-bg.jpg') repeat-x left bottom;
+				margin-bottom: 0px;
+				padding-bottom: 10px;
+				text-transform: uppercase; color: #045d9d; 
+				font-size: 17px; line-height: 22px; font-weight:bold;}
+			
+			.t-rotator-read-more a {padding-left: 10px; color: #045d9d !important;
+				background: transparent url('../Images/Treas/right-arrow.gif') no-repeat left 3px;}
+			
+			p.t-rotator-read-more {margin: 0 0 5px 0px; line-height: 12px;}
+				
+			#t-rotator-footer {}	
+
+			#t-rotator-footer a {
+				position: absolute; right: 190px; top: 228px; 
+				text-indent: -9999px; display: block; width: 117px; height: 26px;
+				background: transparent url('../Images/Treas/press-center-btn.jpg') no-repeat;}
+
+/*Treasury For Tabs */
+
+	/* Tabbed Interface */
+	#t-tab-wrapper {margin: 10px 0px 3px 5px; padding-bottom: 0px; width: 680px;}
+	
+	#t-tab-wrapper .ui-tabs-panel {background: #f7f7f7 url('../images/treas/tab-bg-shadow.jpg') repeat-x center bottom;
+		/*width: 680px; height: 305px;*/}
+	
+	#container-1 {width: 680px;} /*Sets the overall width of the container */
+	
+	/*.t-tabs {/* adding the bottom shadow to the tabs 
+		background: #f7f7f7 url('../images/treas/tab-bg-shadow.jpg') no-repeat center bottom;
+		width: 674px; height: 14px; margin-top: -10px;}*/
+	
+	.tabs-inner {padding: 10px 0 0px 20px; width: 655px; min-height: 330px;}/* setting the padding for the tabs */
+
+		/* Some Content settings */
+		.tabs-inner p {margin-bottom: 10px;}
+		
+		/* Left content holds the image and some basic text */			
+		.tabs-left-content {width: 230px; display:block; float: left; position:relative;}
+			.tabs-left-content img {border: 3px solid #d3d3d3; margin: 0px 0px 5px 0px !important; float: left; margin-bottom: 5px; width: 225px;}
+		
+		/* Right content holds some link to questions in two columns */	
+		.tabs-right-content {width: 400px; margin-left: 0px; float: right; padding-top: 10px;position:relative;}
+			.tabs-right-content h3 {font: bold italic 16px "Times New Roman", Times, serif !important; color: #2a2a2a; margin-bottom: 10px;}
+			.tabs-right-content .left {float: left; width: 185px; margin-right: 5px;}
+			.tabs-right-content .right {float: left; width: 185px; margin-left: 5px;}
+			.tabs-right-content .left p, 
+			.tabs-right-content .right p  {background: transparent url('../Images/Treas/line-bg.jpg') repeat-x left bottom; padding-bottom: 10px;}
+			
+			
+	.noborder {border: none !important; border-right: 1px solid #d3d3d3 !important;}/* helps when I turn off the left border for the first tab */
+	.tabs-header {padding: 5px 18px 5px 5px; font-weight: bold; min-height: 22px; }/* this is for the Treasury For ... heading text */
+	
+		/* sets the bg image for the sub level tabs */		
+		/* this is the sub row for the tabs */
+		#container-2, 
+		#container-3, 
+		#container-4, 
+		#container-5,
+		#container-6,
+		#container-7  {background: transparent url('../images/treas/sub-tab-row-bg.jpg') repeat-x left top; width: 680px;}
+			
+		#container-2 .tabs-right-content,
+		#container-3 .tabs-right-content,
+		#container-4 .tabs-right-content,
+		#container-5 .tabs-right-content,
+		#container-6 .tabs-right-content,
+		#container-7 .tabs-right-content {height: 290px; overflow-y: auto; overflow-x: hidden;}
+
+	    #container-2, #container-3, #container-4, #container-5, #container-6, #container-7 {margin: 0;}
+	    
+	    #container-2 .ui-tabs-nav a, #container-2 .ui-tabs-nav a span,  
+	    #container-3 .ui-tabs-nav a, #container-3 .ui-tabs-nav a span,  
+		#container-4 .ui-tabs-nav a, #container-4 .ui-tabs-nav a span,
+		#container-5 .ui-tabs-nav a, #container-5 .ui-tabs-nav a span,
+		#container-6 .ui-tabs-nav a, #container-6 .ui-tabs-nav a span  {background-image: none; border: none;}
+		
+		#container-2 li, #container-3 li, #container-4 li, #container-5 li, #container-6 li {border: none;}
+		#container-2 .ui-tabs-nav, #container-3 .ui-tabs-nav, #container-4 .ui-tabs-nav,
+		#container-5 .ui-tabs-nav, #container-6 .ui-tabs-nav, #container-7 .ui-tabs-nav {margin-left: 5px;}
+		
+		.ui-tabs-panel {border: none !important;}
+
+		#container-3 .ui-tabs-nav li {min-width: 100px;}
+		#container-4 .ui-tabs-nav li {min-width: 90px;}
+				
+		/* Container 2 is the main wrapper */
+		#container-2 .ui-tabs-nav li {margin-right: 10px;}
+		#container-2 .ui-tabs-nav a {font-weight: normal; text-decoration:none;}
+		#container-2 .ui-tabs-nav a:hover {font-weight: normal; text-decoration: underline;}
+		#container-2 .ui-tabs-nav .ui-tabs-selected a{color: #2a2a2a; font-weight: bold; text-decoration:none;}
+		#container-2 .ui-tabs-nav a, 
+		#container-2 .ui-tabs-nav a span {padding-left: 0px; padding-right: 0px;}
+		
+		/* The remaining are for the sub tabs */
+		#container-3 .ui-tabs-nav li {margin-right: 10px;}
+		#container-3 .ui-tabs-nav a {font-weight: normal; text-decoration:none;}
+		#container-3 .ui-tabs-nav a:hover {font-weight: normal; text-decoration: underline;}
+		#container-3 .ui-tabs-nav .ui-tabs-selected a{color: #2a2a2a; font-weight: bold; text-decoration:none;}
+		#container-3 .ui-tabs-nav a, 
+		#container-3 .ui-tabs-nav a span {padding-left: 0px; padding-right: 0px;}
+
+		#container-4 .ui-tabs-nav li {margin-right: 10px;}
+		#container-4 .ui-tabs-nav a {font-weight: normal; text-decoration:none;}
+		#container-4 .ui-tabs-nav a:hover {font-weight: normal; text-decoration: underline;}
+		#container-4 .ui-tabs-nav .ui-tabs-selected a{color: #2a2a2a; font-weight: bold; text-decoration:none;}
+		#container-4 .ui-tabs-nav a, 
+		#container-4 .ui-tabs-nav a span {padding-left: 0px; padding-right: 0px;}
+
+		#container-5 .ui-tabs-nav li {margin-right: 10px;}
+		#container-5 .ui-tabs-nav a {font-weight: normal; text-decoration:none;}
+		#container-5 .ui-tabs-nav a:hover {font-weight: normal; text-decoration: underline;}
+		#container-5 .ui-tabs-nav .ui-tabs-selected a{color: #2a2a2a; font-weight: bold; text-decoration:none;}
+		#container-5 .ui-tabs-nav a, 
+		#container-5 .ui-tabs-nav a span {padding-left: 0px; padding-right: 0px;}
+
+		#container-6 .ui-tabs-nav li {margin-right: 10px;}
+		#container-6 .ui-tabs-nav a {font-weight: normal; text-decoration:none;}
+		#container-6 .ui-tabs-nav a:hover {font-weight: normal; text-decoration: underline;}
+		#container-6 .ui-tabs-nav .ui-tabs-selected a{color: #2a2a2a; font-weight: bold; text-decoration:none;}
+		#container-6 .ui-tabs-nav a, 
+		#container-6 .ui-tabs-nav a span {padding-left: 0px; padding-right: 0px;}
+		
+		/* need to reformat list items inside the tab panel */
+		.ui-tabs-panel .content .ui-tabs-nav li, 
+		.ui-tabs-panel .content .ui-tabs-nav li li { 
+			border: none !important; 
+			margin: 3px 0px; 
+			list-style-type: none;
+			padding-left: 10px;
+			width: 100%;
+			background: transparent url('../images/treas/t-rr-bullet.gif') no-repeat left 7px; }
+
+		.ui-tabs-panel .content .ui-tabs-nav li a, 
+		.ui-tabs-panel .content .ui-tabs-nav li li a { 
+			text-align: left; font-weight: normal; background-image: none;}
+
+	/* Data Center */
+	#t-data {
+			background: #fff url('../images/treas/bg-data.jpg') repeat-x left bottom;
+			border: 1px solid #d3d3d3;
+			margin-top: 0px;
+			margin-left: 5px;
+			width: 675px; min-height: 330px;}
+			
+		#t-data .t-inner h2 {font-family: "Times New Roman", Times, serif;}	
+		#t-data .t-inner {padding: 20px; height: 290px;}
+			#t-data a {}
+			#t-data .t-inner p {line-height: 17px; font-size: 12px;}
+			#t-data .t-inner ul {margin: 0px; padding: 0px 0px 5px 0px;}
+			#t-data .t-inner li { list-style: none; padding: 2px 0px; margin: 0px;}
+		
+		#t-data #chart {padding-bottom: 0px;}		
+		#t-data h2 {text-transform: uppercase; margin-bottom: 20px; font-weight: bold; font-size: 23px;}	
+		#t-data h4 {font-family: Arial, Helvetica, sans-serif; text-indent: 20px; font-weight: bold; color: #045d9d; font-size: 14px;}	
+		#t-data .t-inner-left {float: left; width: 270px; margin-right: 15px; height: 290px;}
+		#t-data .t-inner-right {float: right; width: 343px; height: 290px;}
+		#t-data .t-inner-right-links {float: right; width: 330px; text-align: right; padding-top: 10px;}
+		#t-data .t-read-more a {padding: 0px 10px; color: #045d9d !important; line-height: 18px; text-align: right;}
+
+.t-chart table {width: 100% !important;}
+	
+	/* Resrouce Center Data Center */
+		.datawrapper  {padding: 20px 0 30px 0;}
+		.inner-wp {width: 300px; float: left;}
+		.flash-chart {width: 370px; float: left; margin-left: 60px;}
+		span.customize-link {float: right;}
+		.datawrapper .t-read-more {float: right;}
+		.datawrapper table td {border: none;}
+		.datawrapper h3.ms-standardheader {color: #2a2a2a; font-weight: bold;}
+		.datawrapper .ms-WPHeader td, .datawrapper .ms-fakewptitle {border-bottom : none !important;}
+		.datawrapper .ms-WPHeader {background-color: transparent;}
+	
+/* Social Media Tabs - these are used in the Right Rail and on the home page*/
+	#social-tabs {margin: 0px auto;	background-color: #f7f7f7;}
+	#social-tabs .t-rr-wrapper {background-color: #f7f7f7; height: 253px; margin-bottom: 0px;}
+	#social-tabs .header  {height: 20px;}
+	#social-tabs #tabs {padding-top: 10px;}
+	
+	#social-tabs .header h2 { /* heading tags */
+		text-align:center;
+		text-transform: uppercase;
+		padding: 0px 0px 8px 0px;
+		font-size: 23px;
+		color: #5f5f5f;
+		margin-top: 0px;
+		font-family:"Times New Roman", Times, serif;
+		font-weight: normal;}
+	
+	#social-tabs #tabs h3  {height: 20px !important; padding: 5px 0px;}
+	#social-tabs #tabs h3 a {/* sub heading tags */
+		text-align:left;
+		text-transform:capitalize;
+		font-size: 12px;
+		text-decoration: none;
+		padding: 0px !important;
+		width: 100% !important;
+		text-indent: 0px !important;
+		font-family:Arial, Helvetica, sans-serif;
+		color: #045d9d !important;}
+	#social-tabs #tabs h3 a:hover {text-decoration: underline;}
+		
+		#social-tabs .t-read-more a {color:#045d9d !important;}
+	
+	/* Starting the actual tab CSS */
+	#social-tabs .ui-tabs-panel {background-color: #f7f7f7;}
+	#social-tabs .ui-tabs-nav {padding-left: 1px; width: 30px;}
+	
+	.ui-tabs-vertical {	width: 280px;}
+	.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+
+	.t-rr-wrapper #tabs li {padding: 0px !important;}
+
+	.ui-tabs-vertical .ui-tabs-nav li { 
+		clear: left; width: 100%; 
+		border-bottom-width: 0px !important; border-right-width: 0 !important;
+		background-image: none;
+		padding: 0px !important; 
+		margin: 0 -1px .2em 0; }
+	
+		#social-tabs .ui-tabs-vertical .ui-tabs-nav li {margin: 0px;}
+	.ui-tabs-vertical .ui-tabs-nav li a {display:block; width: 20px; height: 40px; padding: 0px !important; background-image: none; }
+		
+		#social-tabs .ui-tabs-nav a {display: block; height: 35px; width: 36px; text-indent: -9999px;}
+		#social-tabs .ui-tabs-nav a,
+		#social-tabs .ui-tabs-nav a span { background: none !important; padding: 0px !important; }
+
+		#social-tabs li a.st-tw:hover,
+		#social-tabs li a.st-tw {background: transparent url('../images/treas/st-twitter.jpg') no-repeat center -6px !important; }
+		
+		#social-tabs .ui-tabs-selected a.st-tw:link {background: transparent url('../images/treas/st-twitter.jpg') no-repeat center -43px !important; }
+
+		#social-tabs li a.st-blog:hover,
+		#social-tabs li a.st-blog:link {background: transparent url('../images/treas/st-blog.jpg') no-repeat center -6px !important; }
+		
+		#social-tabs .ui-tabs-selected a.st-blog:link {background: transparent url('../images/treas/st-blog.jpg') no-repeat left -43px !important; }
+
+		#social-tabs li a.st-fb:hover,
+		#social-tabs li a.st-fb {background: transparent url('../images/treas/st-facebook.jpg') no-repeat center -6px !important; }
+		
+		#social-tabs .ui-tabs-selected a.st-fb:link {background: transparent url('../images/treas/st-facebook.jpg') no-repeat center -43px !important; }
+
+		#social-tabs li a.st-fl:hover,
+		#social-tabs li a.st-fl {background: transparent url('../images/treas/st-flickr.jpg') no-repeat center -6px !important; }
+		
+		#social-tabs .ui-tabs-selected a.st-fl:link {background: transparent url('../images/treas/st-flickr.jpg') no-repeat center -43px !important; }
+
+		#social-tabs li a.st-yt:hover,
+		#social-tabs li a.st-yt {background: transparent url('../images/treas/st-youtube.jpg') no-repeat center -6px !important; }
+		
+		#social-tabs .ui-tabs-selected a.st-yt:link {background: transparent url('../images/treas/st-youtube.jpg') no-repeat center -43px !important; }
+	
+	.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected {padding-bottom: 0; padding-right: .1em; border-right-width: 1px;  }
+	#social-tabs .ui-tabs-vertical .ui-tabs-panel { margin-left: 10px; padding: 0px 0px 0px 0px; float: left; width: 230px; height: 190px;}
+	
+	#social-tabs .st-content {/* Inner content area for the Social Tabs */
+		overflow-y: scroll;
+		overflow-x: hidden;
+		width: 220px; height: 155px;
+		background-color: #fff;
+		padding: 5px;
+		border: 1px solid #ccc;}
+	
+	#social-tabs .ui-tabs-nav li {
+		float: none !important;
+		display: block;
+		list-style: none;
+		width: 30px;
+		min-width: 30px;
+		border-width: 0px !important;
+		border-color: transparent !important;} 	
+	
+	#social-tabs ul.ui-tabs-nav {
+		background: transparent url('../images/treas/bg-social-tabs-side.jpg') no-repeat left top;
+		list-style: none;
+		margin: -1px 0 0 0px;
+		padding: 0px;
+		display: block;
+		float: left;
+		width: 30px;
+		height: 205px;}
+
+	#social-tabs .ui-tabs-nav a {text-align: left;}		
+	
+	#social-tabs .st-content a {text-indent: 0px; display:inline; height: auto; width: 225px; max-width: 225px; white-space: normal !important;}
+	
+	/* ST feed styles */
+		.t-rr-wrapper .content-smf {padding: 5px;}
+		.smf_holder {font: normal 11px arial, helvetica, sans-serif; color: #2a2a2a;
+			margin: 0 0 5px 0px; max-width: 215px; height: auto; word-wrap: break-word;}
+		.smf_holder h6 {font-weight: normal;}
+		.smf_holder h6 a {text-decoration: none;}
+		.smf_holder h6 a:hover {text-decoration: underline;}
+		.smf_holder p {padding: 5px; margin: 0px;}
+		.smf_holder p img {display: none;}
+		.smf_date {font-size: 10px; color: #292929; font-style: italic; margin-bottom: 10px;}
+		#youtube .smf_date {font-size: 10px; color: #292929; font-style: italic; margin: 3px 0;}
+		h4.smf_title {font: bold 12px arial, helvetica, sans-serif !important; color: #2a2a2a;}
+	
+	/* Flickr feed styles */
+	
+	#social-tabs .t-rr-wrapper .st-content img {margin: 0px;}
+	
+/* Landing Pages - adding a image below the header */
+
+	#topimage {
+		background: transparent url('../images/treas/tgov-topimage.jpg') no-repeat left 0px; clear: both;
+		width: 476px; height: 129px; display: block; padding: 13px 8px 0px 10px; margin-top: 10px; }
+			
+	#topimage img {width: 474px; height: 119px; }
+
+	.description-page {display: block; padding: 10px 0px; width: 490px; margin: 0px auto;
+		font: 15px/20px "Times New Roman", Times, serif;}
+		
+/* Office Pages */
+
+	/* List Pages */
+		.office-bureau-list {
+			border-top: 4px solid #045d9d;
+			padding: 5px 0px 5px 0px;
+			margin-right: 10px;	}
+			
+		.office-bureau-list ul {margin: 0px; padding: 0px; list-style-type: none;}
+		.office-bureau-list li {padding-bottom: 10px; border-bottom: 2px solid #d3d3d3; min-height: 110px; margin-bottom: 10px;}
+		.office-bureau-list li.last {padding-bottom: 10px; border-bottom: none; margin-bottom: 0px;}
+		.office-bureau-list {padding: 10px 0px;}
+		.office-bureau-list .thumb img {width: 78px; height: 78px;}
+	
+	/* Office DropDowns */
+		#main-office, #sub-office {
+			background-color: #f7f7f7;
+			display:block;
+			width: 450px;
+			}
+			
+			#main-office .content10 {padding-top: 3px;padding-bottom: 3px;}
+			#sub-office .content10 {padding-top: 3px;margin-bottom: 10px;}
+
+	/* Headers */
+		#main-office h4, #sub-office h4 {font-size: 12px;}	
+	
+	/* Text */
+	
+
+	/* Office Tabs */
+	#office-container-1 .ui-tabs-panel {
+		width: 731px;
+		border: 1px solid #d3d3d3 !important;
+		background: #f7f7f7 url('../Images/Treas/t-about-tabbed-offices-bg.jpg') no-repeat right bottom;
+		min-height: 115px;}
+		
+	.fs #office-container-1 .ui-tabs-panel {width: 760px;}
+		
+	#office-container-1 .ui-tabs-nav {padding-left: 0px;}
+	#office-container-1 .ui-tabs-nav li {border-left: 1px solid #e4e2dd;}
+	#office-container-1 .ui-tabs-nav li.ui-tabs-selected {/*border: 1px solid #B5B5B5; border-bottom: none; background-color: #ECEAE7;*/}
+	#office-container-1 .content {padding: 20px;}
+		.t-tabs-shadow {/* adding the bottom shadow to the tabs */
+		background: transparent url('../images/treas/tab-main-bg-shadow.jpg') no-repeat center -8px;
+		width: 100%; height: 14px;}
+	#office-container-1 h3, #office-container-1 h4 {font-family:Arial, Helvetica, sans-serif; font-weight: bold; margin-bottom: 10px;}
+
+
+	/* Office Tab Contact*/
+		.three-col td {border-collapse:collapse; padding: 10px 0; vertical-align: top;}
+		.contact-name, .contact-title, .contact-phone, .contact-email {line-height: 17px;}
+		.contact-name {font-weight: bold; font-size: 13px;}
+		.contact-title {font-weight: bold;}
+		
+	/* Office Tab Board */
+		.boards h3 { background: transparent url('../Images/Treas/line-bg.jpg') repeat-x left bottom; padding-bottom: 3px;}
+		.boards h4 {margin-left: 15px;}
+		.boards td {padding-left: 10px; padding-right: 10px;}
+		.boards td p {margin-left: 25px;}
+		
+/* Press Center */
+	/* Press Center Landing Page */
+	
+	.pc-left-widgets {
+		float: left;	
+		width: 470px;
+		position:relative;}
+	
+	.pc-right-widgets {
+		float: right;
+		width: 280px;
+		margin-left: 10px;
+		position:relative;}
+	
+/* Blogs */
+	.blogPost {border-bottom: 1px solid #d3d3d3; margin-bottom: 10px;}
+	h2.blog {color: #045d9d; font-family: "Times New Roman", Times, serif;}
+	.blogAuthor {float: left; font-weight: bold; padding-right: 20px;}
+	
+	.blogDate {padding:0px; float: left;}
+	.blogCategory {padding: 10px 0px;}
+
+/* Search page */
+	#advsearch { background: #e3dfda url('../Images/Treas/search-box.png') no-repeat top left; line-height: 1.5em; padding: 20px 0 0 0; }
+		#advsearch h1 { font-size: 23px; padding: 0 0 0 15px; margin-bottom: 20px; }
+		#advsearch .advanced_search_header_options { padding: 0 30px 10px 30px; }
+		#advsearch .advanced_search_header_options ul { margin: 0px; padding:0; list-style: none; }
+			#advsearch .advanced_search_header_options li { margin: 0 25px .2em 0; float: left; }
+			#advsearch .advanced_search_header_options .whats_this { font-size: .8em; }
+			/* changed the padding below from 5px on top and bottom to 3px - hw 12.09.10 */
+		#advsearch .expander_bar { clear: both; background: url('../Images/Treas/tab.png') repeat-x; padding: 3px 15px; border: solid 1px #d6d5d4; font-weight: bold; }
+			#advsearch .expander_bar a { font-weight: normal; }
+		#advsearch .expander_content { padding: 3px 15px 5px 15px; }/* Changed the bottom padding from 15 to 5 - HW 12.09.10*/
+		#advsearch .expander_actions { padding: 3px 15px 7px 15px; }
+			#advsearch .expander_actions .select_all { padding-left: 5px; }
+	#advsearch_buttons { clear: both; width: 149px;  height: 26px; float: right; background: url('../Images/Treas/search-box-bottom.png') no-repeat; padding: 8px 20px 0 30px; text-align: center;  }
+	/* .checkboxlist is for the checkbox options */
+	.expander_container ul { margin: 0px; padding:0; list-style: none; }
+		.expander_container li { margin: 0 10px .2em 0; }
+			.expander_container li input, #advsearch .advanced_search_header_options li input { margin-right: 5px; float: left; }
+			.checkbox_item ul { padding: .5em 0px .5em 20px; }
+			.expander_container li li { float: left; }
+	
+	/* section tweaks */
+	#office_content li li { width: 225px; height: 3em; margin-right: 10px; }
+	#office_content li li input { margin-bottom: 1em; }
+		#office_content #officeofgeneralcounsel_content li { height: 4.5em; }
+			#office_content #officeofgeneralcounsel_content li input { margin-bottom: 4em; }
+		#office_content #officeinternationalaffairs_content li, 
+		#office_content #officeoftaxpolicy_content li,
+		#office_content #officeofthetreasurer_content li { width: auto; height: auto; }
+			#office_content #officeinternationalaffairs_content li input, 
+			#office_content #officeofthetreasurer_content li input,
+			#office_content #officeoftaxpolicy_content li input { margin-bottom: 0px; }
+		#office_content #officeofdomesticfinance_content li { height: auto; }
+			#office_content #officeofdomesticfinance_content li input { margin-bottom: 0px; }
+		#office_content #officeofmanagement_content li { height: 6em; }
+			#office_content #officeofmanagement_content li input { margin-bottom: 5.5em; }
+	#person_content li { width: 225px; float: left; margin-right: 10px; margin-bottom: 5px; }
+	#resourcecenter_content li li { width: 225px; margin-right: 10px; }
+		#resourcecenter_content #smallbusinessprograms_content li,
+			#resourcecenter_content #faqs_content li,
+			#resourcecenter_content #international_content li,
+			#resourcecenter_content #dataandchartcenter_content li,
+			#resourcecenter_content #economicpolicy_content li,
+			#resourcecenter_content #terroristandillicitfinance_content li { height: 3em; }
+		#resourcecenter_content #smallbusinessprograms_content li input,
+			#resourcecenter_content #faqs_content li input,
+			#resourcecenter_content #international_content li input,
+			#resourcecenter_content #dataandchartcenter_content li input,
+			#resourcecenter_content #economicpolicy_content li input,
+			#resourcecenter_content #terroristandillicitfinance_content li input { margin-bottom: 1em; }
+	#usa_content li { width: 120px; height: 1.5em; }
+
+	
+
+/* Forms */
+	.required { color: #f00; }
+	.contactform input { margin-right: 5px; }
+	.contactform textarea.fullwidth { width: 100%; }
+	.contactform .ErrorText { display: none; }
+	/* .formcolumn is for the fields that have labels inline with inputs */
+	.formcolumn p { clear: both;  }
+	.formcolumn label {display: block; width: 170px;float: left; margin-bottom: 10px; }
+	.formcolumn .label-nowidth label { display: inline; width: auto; float: none; margin-right: 8px; margin-bottom: 0px; }
+	
+	/* for page /about/organizational-structure/offices/International-Affairs/Pages/TicSystemContactInformation.aspx */
+	#tic-reporters { list-style:lower-alpha; }
+	#tic-reporters ul { margin:0 0 0 20px; padding:0; list-style: none; }
+
+/* Treasury Officials */
+
+	#top-officials {
+		clear: right;
+		border: 1px solid #d3d3d3;
+		background-color: #f7f7f7;
+		padding: 5px;
+		height: 120px;
+		margin-bottom: 10px;
+		line-height: 22px;}
+		#top-officials span.secretary {font-size: 14px !important;	font-weight: bold;}
+		#top-officials span.secretary a {font-size: 14px !important; font-weight: normal;}
+		#top-officials table {height: 120px;}
+		#top-officials table td.alignright {text-align:right;}
+		#top-officials table td img {background-color: #fff; margin: 12px; padding: 4px; border: 1px solid #d3d3d3;}
+		#top-officials table td .imagecell {width: 80px !important}
+		#top-officials {clear: right; padding: 5px;}
+	
+	#other-officials table td {height: 20px !important;}
+	#other-officials table {padding: 5px;}
+	
+	
+	
+/* Chart Tables */
+
+.ms-WPBody table {font-size: 12px;}
+.ms-WPBody td, .ms-WPBody th {font-family: Arial, Helvetica, sans-serif !important; font-size: 12px;}
+
+table .t-chart {width: 760px !important;}
+table.t-chart td  {padding: 5px !important;}
+.t-chart th {background-color : #d7d7d7; font-weight: bold; height: 25px; text-transform:capitalize; padding:0px 2px 0px 2px}
+.t-chart tr {height: 20px;}
+.t-chart .oddrow {background-color: #f7f7f7;}	
+.t-headline {font-weight: bold; font-size:large}
+
+
+table .t-chart2 {width: 100% !important;}
+table.t-chart2 td  {padding: 3px !important; vertical-align: top !important;}
+.t-chart2 th {font-weight: normal; padding: 3px;}
+.t-chart2 tr {}
+.t-chart2 .oddrow {background-color: transparent;}	
+
+table .t-press {width: 100% !important;	color: #5f5f5f; margin-top: 20px;}
+table.t-press td  {padding: 5px  !important; vertical-align: middle !important; vertical-align: top;}
+table.t-press tr.header {border: 1px solid #d3d3d3;}
+.t-press th {font-weight: bold;
+	padding: 5px 3px;
+	text-align: center; 
+	background: transparent url('../images/treas/sub-tab-row-bg.jpg') repeat-x left top; 
+	}
+.t-press th.firstcol {
+	background-image: none; 
+	vertical-align: top;
+	text-align: center; 
+	vertical-align: middle !important; 
+	font-weight: normal;border-bottom: none; 
+	background-color: transparent;}
+.t-press tr.datarow {border-bottom: 1px solid #d3d3d3;}
+.t-press td.category {width: 100px; text-align: center;}
+.t-press .oddrow {background-color: #f3f3f3;}	
+.t-press .evenrow {background-color: #e7e7e7;}	
+
+.pagnation {padding: 10px 0; float: right;}
+/* Other tables */
+
+.oddrow th {font-weight: normal; vertical-align: top;}
+.evenrow th{font-weight: normal; vertical-align: top;}
+.oddrow td {vertical-align: top;}
+.evenrow td{vertical-align: top;}
+
+
+/* Gov Delivery (*/
+.t-gov-delivery-link a {
+	    display:block;
+	    padding-left:20px;
+	    border: none;
+	    line-height:18px;
+	    background:transparent url(../images/treas/email.png) top left no-repeat;}
+
+.t-gov-delivery-link {padding-top: 5px;}
+
+/* Quick Links */
+
+.LinksWebPArt a {font-weight: normal !important;}
+
+
+/* Specially Designated Nationals List (SDN) Pages under Resource Center Financial Sanctions
+Added to fix the headers of the tables - by GGal. 11.30.10*/
+.sdn h3 {
+	background-color:#1165a3;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	padding:10px 0px 10px 0px;
+}
+
+/* For the Grid tables */
+
+table.fs-impact-grid {
+	width: 100%;
+}
+
+.fs-impact-grid-cell, .fs-impact-grid-header {
+	text-align: center !important;
+    height: 10px;
+    padding: 5px;
+}
+
+.fs-impact-grid-cell:first-child, 
+.fs-impact-grid-header:first-child{
+	display: none;
+}
+
+.fs-impact-program-label {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.fs-impact-grid-header-row {
+    border: 1px solid #D3D3D3;
+ 	border-right: 0px;
+ 	border-left: 0px;
+    background: url("../images/treas/sub-tab-row-bg.jpg") repeat-x scroll left bottom transparent;
+    font-weight: bold;
+    padding: 5px 3px;
+    text-align: center;
+}
+.fs-impact-grid-row {
+    border-bottom: 1px solid #D3D3D3;
+    background-color: #F3F3F3;
+    vertical-align: middle;
+}
+
+.fs-impact-grid-alternating-row {
+    background-color: #e7e7e7;
+}
+
+.fs-impact-grid-pager {
+	height: 30px;
+}
+.fs-impact-grid-pager span {
+	padding-right: 10px;
+}
+
+/* Tool Tips */
+
+a.tt{
+    position:relative; /*this is the key*/
+    z-index:24;
+    border-bottom: 1px #000 dashed;
+    color:#000;
+    text-decoration:none; cursor:help;}
+
+a.tt:hover{z-index:25; background-color:#f7f7f7; text-decoration: none;}
+
+a.tt span{display: none}
+
+a.tt:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    padding: 5px; 
+    position:absolute;
+    top: 2em; 
+    left:2em; 
+    width:15em;
+    border:2px solid #d3d3d3;
+    background-color:#f7f7f7; 
+    color:#000;
+    line-height: 14px;
+    font-size: 11px;
+    text-align: left;}
+
+/* treasury for 508 page */
+.t4-outer {
+	width:750px;
+}
+.t4-tab2Title {
+	clear: both;
+	margin: 5px 0px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.t4-tab1Title {
+/*border-bottom:medium green solid;
+	border-top: medium red solid; */
+	background:url(../Images/Treas/line-bg.jpg) repeat-x left top;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	clear: both;
+
+}
+.t4-categoryContent {
+	
+}
+/*  with images */
+.t4-categoryContent .tabs-left-content {
+	width: 220px;
+}
+.t4-categoryContent .tabs-right-content {
+	float: right;
+	width: 500px;
+}
+.t4-categoryContent .tabs-right-content .left{width: 240px;}
+.t4-categoryContent .tabs-right-content .right{width: 240px;}
+
+
+
+/*  without images
+.t4-categoryContent .tabs-left-content {
+	display:none;
+}
+.t4-categoryContent .tabs-right-content {
+	float: left;
+	width:750px;
+}
+.t4-categoryContent .tabs-right-content .left{width: 240px;}
+.t4-categoryContent .tabs-right-content .right{float: right; width: 400px;}
+*/
+
+/* Layer of Filtering Search Results */
+.resultNavigationRegion
+{
+    padding:8px;
+    width: 100%;
+    margin: 0 auto;
+    white-space:nowrap;
+    font-size:1.1em;
+}
+input.resultPageInput, select.resultPageInput
+{
+    border-width: 1px; 
+	border-style: solid;
+	border-color:#DFDFDF;
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-khtml-border-radius: 3px;
+	-moz-box-sizing:border-box;
+	font-size: 12px;
+	margin:1px;
+	padding:1px;
+}
+input.resultPageInput 
+{
+	width:2em;
+}
+select.resultPageInput
+{
+    width:4em;
+}
+select.resultSortInput
+{
+    width:8em;
+}
+.resultNavHeader {
+    clear: both;
+}
+.resultNavFooter {
+    clear: both;
+}
+.resultNavLink, .resultNavLinkSelected {
+    font-size: 10pt !important;
+    padding-left: 5px;
+    padding-right: 5px;   
+    border: 1px solid #E3E3E3; 
+}
+.resultNavLink {
+    color: #4887BA !important;
+}
+.resultNavLinkSelected {    
+    font-weight: bold;
+    color: #616161;
+    background-color:#F3F3F3;
+}
+.resultNavRegion {
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    padding-top: 8px;
+    padding-Bottom: 8px;
+    white-space: nowrap;
+}
+.resultRegion {
+    border-bottom: solid 1px #D5D5D5;
+    padding-top:8px;
+    padding-bottom:8px;
+} 
+.resultTitle, .resultTitle a:link, .resultTitle a:visited {
+    color:#0072BC;
+    font-size: 1.2em;
+    text-decoration:underline;
+}
+.resultTitle {
+    text-decoration:none;
+}
+.resultPropName
+{
+	font-weight:bold;
+}
+.resultProps {
+    
+}
+.resultImg {
+    border:0px;
+    vertical-align:-10%;
+    text-decoration:none !important;
+}
+.RadEditor {
+	width:auto !important;
+}
+.resultProps .resultProps:first-child {
+               display:none;
+}
+DIV TABLE.fddDataSet TD.clickIcon {
+	TEXT-ALIGN: center; FONT-SIZE: 1.5em; VERTICAL-ALIGN: middle !important
+}
+.fddDataSet {
+	BACKGROUND-COLOR: #e7e7e7
+}
+TABLE.fddDataSet TD {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; VERTICAL-ALIGN: top !important; PADDING-TOP: 5px
+}
+.fddDataSet TH {
+	BACKGROUND-COLOR: #e3e2dd;
+}

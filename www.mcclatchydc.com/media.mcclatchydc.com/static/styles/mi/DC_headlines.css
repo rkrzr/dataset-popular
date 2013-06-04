@@ -1,0 +1,35 @@
+#MI_DC_headlines {
+	border-top: 2px solid #142958;
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+#MI_DC_headlines h1, #MI_DC_headlines .MC_DC_label {
+	color:#142958;
+	margin: 6px 0;
+	font: normal 11px arial black, arial, helvetica, verdana, sans-serif;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+#MI_DC_headlines img {
+	vertical-align: middle;
+}
+
+#MI_DC_headlines ul {
+	margin: 0 0 8px 8px;
+	padding-left: 8px;
+}
+#MI_DC_headlines li {
+	color: #999;
+	font: normal 14px arial, verdana, helvetica, sans-serif;
+}
+#MI_DC_headlines a {
+	font: normal 12px arial, verdana, helvetica, sans-serif;
+}
+#MI_DC_headlines a:link { color: #075099; text-decoration: none; }
+#MI_DC_headlines a:visited { color: #075099; text-decoration: none; }
+#MI_DC_headlines a:active { color: #075099; text-decoration: underline; }
+#MI_DC_headlines a:hover { color: #075099; text-decoration: underline; }

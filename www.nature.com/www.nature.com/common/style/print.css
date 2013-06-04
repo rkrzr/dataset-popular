@@ -1,0 +1,147 @@
+/* main print stylesheet */
+#header,
+#head-er,
+#breadcrumb,
+.no-css,
+#journalnav,
+#journal-header,
+#extranav,
+#footer,
+#foot-er,
+#footer-sponsor,
+#npglogo,
+#hdr,
+#ftr #footer-links {display:none;}
+
+#hdr .journal-header img {display: block !important;}
+
+#content-journalnav, #content {
+	width:100%;
+	padding:0;
+	margin:0;
+}
+
+/* ideally, we'd set the width for the body, but IE6 doesn't allow that */
+* html #content-journalnav, * html #content {
+	width: 450pt;
+}
+
+#footer-copyright {
+	clear:both;
+	color:#999;
+	font-size:90%;
+	margin-top:15px;
+	padding-top:15px;
+	border-top:solid 2px black;
+}
+
+#footer-copyright a {
+	color:#000;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#footer-copyright .non-copyright {display:none;}
+
+/* puts a black line under the logo */
+.print-header {
+	border-bottom:2px solid black;
+	padding-bottom:15px;
+	margin-bottom:15px;
+}
+
+body {
+	color:#000;
+	background:#fff;
+	font-size:13pt;
+	font-family:georgia, serif;
+}
+
+/*h1 {font-size: 16pt;}
+h2 {font-size: 11pt;}
+h3, h4, h5, h6 {font-size: 11pt;}*/
+
+a:link, a:visited {
+	color:#009;
+	background:transparent;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+/* this will insert URLs after links in content - commented out after realisation it kind of breaks things
+#content a:link:after, #content a:visited:after {
+	content:" (" attr(href) ") ";
+	font-weight: normal;
+}
+*/
+	
+/* short quote */
+#article #content div blockquote {
+	border:1px solid #000;
+	text-align:center;
+	margin:1.26em 0;
+	padding:0.5em;
+}
+#article #content div blockquote p {margin:0;}
+#article #content div blockquote img {display:none;}
+/* end short quote */
+	
+	
+/* gets rid of links that are useless in print format */
+.backtotop {display:none}
+.back-to-article {display:none}
+.prevnext {display:none}
+
+
+* html #article-related table.data {
+	font-size:11pt;
+	width:100%;
+}
+
+#article-related table.data {
+	font-size:11pt;
+	width:100%;
+}
+
+#article-related table.data  {
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+	text-align:left;
+	border:1px solid #999;
+}
+
+#article-related table.data thead {font-weight:bold;}
+
+#article-related table.data thead th {
+	border-right:1px solid #999;
+	border-left:1px solid #999;
+	background:#f6f6f6;
+}
+
+#article-related table.data thead th.colspan {
+	text-align:center;
+	border:1px solid #999;
+	border-top:0;
+}
+
+#article-related table.data thead th.last, #article-related table.data tbody td.last {border-bottom:1px solid #999;}
+
+#article-related table.data tbody {
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+}
+#article-related table.data tbody tr  {background-color:#f6f6f6;}
+#article-related table.data tbody tr.odd {background-color:#fff;}
+#article-related table.data tbody td {
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+}
+
+#article-related table.data tfoot {position:relative;}
+
+#article-related table.data tfoot td {
+	font-size:11pt;
+	background-color:#fff;
+}
+/* end table styles */

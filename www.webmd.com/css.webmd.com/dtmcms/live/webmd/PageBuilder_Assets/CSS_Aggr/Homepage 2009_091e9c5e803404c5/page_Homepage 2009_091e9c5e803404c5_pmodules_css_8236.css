@@ -1,0 +1,680 @@
+/* /webmd/PageBuilder_Assets/CSS/LinkList/Top 12 Videos/Green Header with Button_091e9c5e80082cac.css */
+
+/*====================================================
+Link List with Green heading and optional button CSS
+====================================================*/
+.list_mod {
+margin-bottom:25px;
+}
+.list_mod h3 {
+color:#88a906;
+font-size:125%;
+margin:0;
+padding:0 0 8px;
+}
+.list_mod h3 a:visited, .list_mod h3 a:link, .list_mod h3 a:hover, .list_mod h3 a:active {
+	background: url("../../../consumer_assets/site_images/modules/arrow_left_nav_hdr.png") no-repeat scroll 100% 5px transparent;
+	color: #88A906;
+	padding-right: 12px;
+	zoom: 1;
+}
+.list_mod ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+.list_mod ul li {
+background:url('../../../consumer_assets/site_images/modules/li_bull_blue.gif') 0 8px no-repeat;
+line-height:19px;
+padding-left:8px;
+font-size:90%;
+}
+.list_mod .btn {
+display:block;
+margin-top:10px;
+}
+.activePage {
+font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/StandardPromo/Standard Promo v4/Dynamic Lead_091e9c5e80c1bfa1.css */
+
+.spromo {
+	background:url("../../../consumer_assets/site_images/modules/dlback_2013.jpg") no-repeat;
+	width:490px;
+	height:208px;
+	}
+.spromo {
+	padding: 2px 0 12px 4px;
+	}
+.slide {
+	position:absolute;
+	display:none;
+	height:208px;
+	width:490px;}
+.slide#prm-hp_n1s {
+	display:block;}			
+.prm_slide, .prm_right .prm_txt {
+	float:left;
+	}
+.prm_right .prm_txt {
+        position: relative;
+        filter: inherit;
+        }	
+.prm_right .prm_txt h2{
+	font-size:200%;
+	font-weight:normal;
+	color:#414141;
+	margin:4px 0 2px 0;
+        position: relative;
+        filter: inherit;
+	}
+.prm_right .prm_txt h2 a {
+        color:#000;
+	}
+.prm_right .prm_txt h2 a:hover {
+	text-decoration:none;
+	}
+.prm_right .prm_txt a.type_quiz i {
+background: url('../../../consumer_assets/site_images/modules/quiz_icon.gif') no-repeat;
+display: inline-block;
+height: 12px;
+margin-left: 3px;
+margin-top:2px;
+vertical-align: text-top;
+width: 12px;
+}	
+.prm_slide, .prm_right .prm_txt a{
+	}
+.spromo .prm_slide {
+	position:relative;
+	filter:inherit;
+	width:294px;
+	float:left;
+	}
+.spromo .prm_right {
+        position:relative;
+	filter:inherit;
+	float:left;
+	width:188px;
+	}			
+.spromo .prm_slide img{
+	width:294px;
+	height:200px;
+	border-radius:4px;	
+	}
+.spromo .prm_slide .corners{
+	width:294px;
+	height:200px;
+	position:absolute;
+	background:url(../../../consumer_assets/site_images/modules/dlcorners.gif);
+	}		
+.spromo .prm_txt {
+	position:relative;
+	left:6px;
+	height:125px;
+	width:170px;
+	overflow:hidden;
+	}	
+.spromo .nav {
+	position:relative;
+	left:305px;	
+	top:166px;
+	width:166px;
+	height:25px;
+	text-align: center;
+	display:none;
+	}
+.spromo .nav .nav_links {
+	text-align: left;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	}	
+.spromo .nav .nav_links ul{
+	list-style:none;
+	padding:0;
+	}
+.spromo .nav .nav_links ul li{
+	float:left;
+	}
+.spromo .nav .nav_links a{
+	cursor:pointer;
+	display:block;
+	background:url("../../../consumer_assets/site_images/modules/dlnav_2013.jpg") no-repeat;
+	background-position:-27px 0px;
+	width:15px;
+	height:25px;
+	}
+.spromo .nav a#prm-hp_left{
+	background-position:0px 0px;
+	}	
+.spromo .nav a#prm-hp_right{
+	background-position:-40px 0px;
+	}			
+.spromo .nav a.nav_on {
+	cursor:default;
+	display:block;
+	background:url("../../../consumer_assets/site_images/modules/dlnav_2013.jpg") no-repeat;
+	background-position:-11px 0px;
+	width:15px;
+	height:25px;
+	float:left;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Story with Links paragraph and linked header/Green Header Center Well_091e9c5e805ddec9.css */
+
+/* START Center Well Story Links Par Module */	
+.story_links_par {
+padding-bottom: 4px;
+}
+.story_links_par h3 {
+border-bottom: 1px solid #DFE5D5;
+color:#88a906;
+font-size:180%;
+font-weight:normal;
+margin:0;
+padding:0 0 6px 0;
+}
+.story_links_par .main_story{
+clear:both;
+margin-top:5px;
+overflow:auto;
+_height: 110px; /* IE 6 Hack */
+}
+.story_links_par ul {
+list-style:none;
+margin:0;
+padding:5px 10px 0 0;
+float:left;
+width: 235px;
+}
+.story_links_par ul li {
+background:url('../../../consumer_assets/site_images/modules/li_bull_blue.gif') 0 8px no-repeat;
+line-height:19px;
+padding-left:8px;
+font-size:90%;
+}
+.story_links_par p {
+color:#333;
+font-size:90%;
+font-weight:bold;
+margin:0;
+padding:6px 5px 0px 0;
+}
+.story_links_par .no_link_fmt {
+background:none;
+padding-left:0px;
+}
+.story_links_par p a{
+font-weight:normal;
+}
+.story_links_par .attrib {
+font-style:normal;
+}
+.story_links_par .main_story h4 {
+font-size:100%;
+font-weight:normal;
+margin:0;
+padding:5px 0 10px 0;
+}
+.story_links_par .main_story img {
+border:0;
+float:left;
+margin:0 12px 8px 0;
+}
+.story_links_par li {
+font-weight:bold;
+}
+.story_links_par li a{
+font-weight:normal;
+}
+.story_links_par .main_story p {
+color:#333;
+font-size:90%;
+line-height:110%;
+font-weight:normal;
+margin:0px 15px 7px 122px;
+padding:0;
+}
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML/Newsletter One Click Module_091e9c5e80c7b460.css */
+
+/**** Newsletter One Click Module ****/
+.newsletterThurii_rdr {
+  /*background:  url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/newsletters/bg_bottom.png');*/
+  min-height: 215px;
+  clear: both;
+  margin-bottom: 4px;
+  /*padding-bottom: 13px;*/
+  width: 306px;
+}
+
+.newsletterThurii_rdr .newsletterFmt {
+  background: url("../../../../../../../img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/newsletters/bg_top.png") no-repeat center top;
+  margin: 0;
+  width: 306px;
+  padding: 19px 0 0;
+}
+
+.newsletterThurii_rdr .wrapper {
+    background-image: url("../../../../../../../img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/newsletters/bg_bottom.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0 10px 20px 20px;
+}
+
+.newsletterThurii_rdr .newsletterTitle {
+    background-image: url("../../../../../../../img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/newsletters/bg_mouse.png");
+    background-position: 100% -10px;
+    background-repeat: no-repeat;
+}
+
+.newsletterThurii_rdr .newsletterError {
+    color: red;
+}
+
+.newsletterThurii_rdr input.error {
+  outline: 1px solid red;
+}
+
+.newsletterThurii_rdr h4 {
+    color: #F58220;
+    font-family: arial;
+    font-size: 2.65em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0 0 0.1em;
+    padding: 0.1em 0 0;
+}
+
+.newsletterThurii_rdr h5 {
+	font-family: arial;
+    color: #686C6B;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: -10px 0 0.5em;
+    padding: 0;
+}
+
+.newsletterThurii_rdr h6.thanks {
+    color: #F58220;
+    font-size: 2.65em;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin-left: 0.125em;
+    letter-spacing: -1px;
+    margin-top: -9px;
+}
+
+.newsletterThurii_rdr .multi_nl_cb_text {
+    margin-bottom: 1em;
+	font-family: arial;
+}
+
+.newsletterThurii_rdr label {
+    display: block;
+    font-size: 0.8em;
+    margin: 0 0 4px;
+    padding: 0;
+}
+
+.newsletterThurii_rdr label.privacy_label {
+    font-style: italic;
+    margin: 25px 0 0;
+}
+
+.newsletterThurii_rdr input.multi_nl_cb {
+    margin: 0 7px 0 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.newsletterThurii_rdr input.privacy {
+    margin: 0 4px 0 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.newsletterThurii_rdr .reg_down {
+  color: red;
+  height: 95px;
+  margin: 0px auto;
+  padding: 35px 0 0 0;
+  text-align: center;
+  width: 80%;
+}
+
+.newsletterThurii_rdr input.newsletterEmail {
+    margin-bottom: 0.5em;
+    width: 190px;
+}
+.newsletterThurii_rdr a.enhanced_nl_link {
+    float: left;
+    font-size: 80%;
+    margin: 5px 0 0 1px;
+}
+
+.newsletterThurii_rdr input.newsletterEmail {
+    margin-bottom: 0.5em;
+    width: 190px;
+}
+
+.newsletterThurii_rdr button.webmd-btn {
+    border: 0 none;
+    margin: 12px 0 0 3px;
+    padding: 0;
+}
+/****END Newsletter One Click Module****/
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/LinkList/Basics and Trends/Top Links_091e9c5e800196a5.css */
+
+/* START Top Searches */
+
+.top_search_rdr {
+	margin: 10px 0px 11px 5px;
+	width: 480px;
+}
+
+#thirdCol_area .top_search_rdr {
+	margin: 0px 0px 11px 8px;
+	width: 292px;
+}
+
+.top_search_rdr h3 {	
+	border-bottom: 1px solid #dfe5d5;
+	color: #88A906;
+	font-size: 140%;
+	font-weight: normal;
+	margin: 0px 0px 6px;
+	padding: 0px 0px 6px;
+}
+
+.top_search_rdr .col_1_fmt{
+	float: left;
+	margin: 0px 15px 10px 0px;
+	width: 222px;
+}
+
+.top_search_rdr .col_2_fmt{
+	float: left;
+	margin: 0px 0px 10px 0px;
+	width: 227px;
+}
+
+.top_search_rdr .top_search_number{
+	background: transparent url("../../../consumer_assets/site_images/modules/top20_numbox.gif") no-repeat scroll 0%;
+	clear: both;
+	color: #88A906;
+	float: left;
+	font-weight: bold;
+	height: 17px;
+	text-align: center;
+	width: 21px;
+	line-height: 17px;
+}
+
+.top_search_rdr .top_search_item{	
+	float: left;
+	line-height: 17px;	
+	margin: 0px 0px 0px 5px;		
+	min-height: 22px;
+	width: 195px;
+}
+
+* html .top_search_rdr .top_search_item{	
+	height: 22px;
+}
+
+.top_search_rdr .clearing {
+	clear:both;
+}
+
+/* END Top Searches */
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/EditorialModule/Large and Small Thumbs/Center Well Green Header Text_091e9c5e80330522.css */
+
+/* Edmod large and small thumbs     */
+/* Center well, Green Header Text  */
+.hht {
+margin-bottom:20px;
+}
+.hht h3 {
+border-bottom:1px solid #dfe5d5;
+color:#88a906;
+font-size:180%;
+font-weight:normal;
+margin:0;
+padding:0 0 8px 0;	
+}
+.hht .large_thumbs {
+float:left;
+overflow: auto;
+padding:10px 15px 0 0;
+width:250px;
+}
+.hht .small_thumbs {
+float:left;
+overflow: auto;
+padding:10px 5px 0 0;
+width:210px;
+}
+.hht .story {
+clear:both;
+_height: 1%; /* IE6 hack */
+overflow:auto;
+padding-bottom:15px;
+}
+.hht .story p {
+margin:0;
+padding:0;
+}
+.hht .story img {
+ float:left;	
+ margin-right:8px;
+}
+.hht .story .sub {
+font-size:80%;
+line-height:13px;
+padding-top:4px;
+}
+.hht .small_thumbs .story {
+padding-bottom:16px;
+}
+.hht .large_thumbs .story p {
+ margin-left: 118px;
+}
+.hht .small_thumbs .story p {
+ font-size:90%;
+ margin-left: 64px;
+}
+.hht ul {
+clear:both;
+list-style:none;
+margin:0;
+padding:0;
+}
+.hht ul li {
+background:url('../../../consumer_assets/site_images/modules/li_bull_blue.gif') 0 8px no-repeat;
+float:left;
+line-height:19px;
+height:19px;
+padding-left:8px;
+font-size:90%;
+width:230px;
+}
+.hht ul li.see_all {
+	background: none;
+	float: right;
+	font-weight: bold;
+}
+.hht .clearing {
+clear:both;
+}
+
+/* RSS Links */
+.hht .rh_rss {
+float:right;
+font-size:45%;
+height:17px;
+margin:0;
+padding:9px 0 0 0;
+white-space:nowrap;
+width:100px;	
+}
+.hht .rh_rss .rh_rss_link {
+background:transparent url(../../../consumer_assets/site_images/icons/icon_rss_sml.gif) no-repeat scroll left top;
+padding:1px 0 3px 20px;
+}
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Linked Image OAS/Linked Image OAS_091e9c5e80ac9d4d.css */
+
+#x51 {
+  margin:0 0 10px 0;
+}
+
+/* Prevent OAS Flicker */
+.oas #x51 {
+  visibility: hidden;
+}
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/EditorialModule/HC 2011 Featured Articles OAS/Right Rail - 1 on top 2 on bottom_091e9c5e80959487.css */
+
+/* Right Rail 1 on top, 2 on bottom */
+.featured-articles .pos_1 {
+	border-bottom: 1px #DFE5D5 solid;
+	overflow: hidden;
+	padding-bottom: 16px;
+	width: 296px;	
+}
+.featured-articles .pos_2, .pos_3 {
+	width: 148px;
+	float:left;
+	padding: 10px 0;
+}
+.featured-articles .subEditorial h3 {
+	font-size: 90%;
+	margin: 0;
+	padding: 0;
+}
+.featured-articles .subEditorial p {
+	font-size: 90%;
+	margin: 0;
+	padding: 0;
+}
+.featured-articles .pos_1 .icon {
+	float:left;
+	width: 110px;
+	padding-right: 5px;
+}
+.featured-articles .pos_2 .feature, .featured-articles .pos_3 .feature {
+	padding-right: 20px;
+}
+.featured-articles .pos_2 .icon {
+	padding-bottom: 5px;
+}
+.featured-articles .pos_3 .icon {
+	padding-bottom: 4px;
+}
+/* OAS specific */
+.oas #x01, .oas #x02, .oas #x03 {
+	visibility: hidden;
+}
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005110/Right Ad/Right Ad CSS Transparent_091e9c5e80342ef9.css */
+
+/* = RIGHT AD TRANSPARENT BACKGROUND 
+------------------------------------------------------- */
+#rightAd_rdr {
+ clear: both;
+ margin: 0 auto 10px auto;
+ _text-align: center;
+ width: 300px;
+}
+#rightAd_rdr .rightAd_top_fmt, 
+#rightAd_rdr .rightAd_bottom_fmt {
+ background: url("../../../consumer_assets/site_images/modules/ad_lbl_trans.gif") 50% 0px no-repeat;
+ height: 5px;
+ width: 300px;
+}
+#rightAd_rdr .rightAd_top_fmt {
+ padding-bottom: 2px;
+}
+#rightAd_rdr .rightAd_bottom_fmt {
+ clear: both;
+ margin-top: 2px;
+}
+#rightAd_rdr .rightAd_BG_fmt {
+ width: 300px;
+}
+
+
+

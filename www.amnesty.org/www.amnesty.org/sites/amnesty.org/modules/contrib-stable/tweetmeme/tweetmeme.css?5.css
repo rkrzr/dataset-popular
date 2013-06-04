@@ -1,0 +1,20 @@
+/* $Id: tweetmeme.css,v 1.2.2.1 2009/08/14 03:32:57 robloach Exp $ */
+
+/**
+ * @file
+ * Provides all the styling for the TweetMeme integration.
+ */
+
+/**
+ * Styling for the button.
+ */
+.tweetmeme-button {
+  float: right;
+}
+
+/**
+ * Override styling from Drupal for the TweetMeme widget.
+ */
+#tweetmeme_widget ul li, #tweetmeme_widget ul.menu li, #tweetmeme_widget .item-list ul li, #tweetmeme_widget li.leaf {
+  background: none;
+}

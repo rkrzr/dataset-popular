@@ -1,0 +1,340 @@
+﻿/**
+ * Default theme
+ *
+ */
+/* Slight reset to make the preview have ample padding. */
+
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  padding: 1em;
+  width: auto;
+}
+.cse .gsc-control-wrapper-cse,
+.gsc-control-wrapper-cse {
+  width: 100%;
+}
+.gsc-control-cse, .gsc-control-cse .gsc-table-result {
+    width: auto !important;
+}
+.cse .gsc-branding,
+.gsc-branding {
+  display: none;
+}
+.gsc-input
+{
+background:none !important
+}
+.cse .gsc-control-cse div,
+.gsc-control-cse div {
+  position: normal;
+}
+/* Selector for entire element. */
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  
+}
+.cse .gsc-control-cse:after,
+.gsc-control-cse:after {
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+.cse .gsc-resultsHeader,
+.gsc-resultsHeader {
+  border: block;
+}
+/* Search button */
+.cse input.gsc-search-button,
+input.gsc-search-button {
+  font-family: inherit;
+  color: #000000;
+  text-shadow: 0 1px 2px #FFFFFF;
+  background-color: #CECECE;
+  border: 1px outset;
+  border-color: #666666;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+/* Inactive tab */
+.cse .gsc-tabHeader.gsc-tabhInactive,
+.gsc-tabHeader.gsc-tabhInactive {
+  border-bottom: none;
+  color: #666666;
+  background-color: #e9e9e9;
+  border: 1px solid;
+  border-color: #e9e9e9;
+  border-bottom: none;
+}
+/* Active tab */
+.cse .gsc-tabHeader.gsc-tabhActive,
+.gsc-tabHeader.gsc-tabhActive {
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-top: 2px solid;
+  border-color: #e9e9e9;
+  border-top-color: #FF9900;
+  border-bottom: none;
+}
+/* This is the tab bar bottom border. */
+.cse .gsc-tabsArea,
+.gsc-tabsArea {
+  margin-top: 1em;
+  border-bottom: 1px solid #e9e9e9;
+}
+/* Inner wrapper for a result */
+.cse .gsc-webResult.gsc-result,
+.gsc-webResult.gsc-result,
+.gsc-imageResult-column,
+.gsc-imageResult-classic {
+  padding: .25em;
+  border: 1px solid;
+  border-color: #ffffff;
+  margin-bottom: 1em;
+}
+/* Result hover event styling */
+.cse .gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result:hover,
+.gsc-results .gsc-imageResult-classic:hover,
+.gsc-results .gsc-imageResult-column:hover {
+  border: 1px solid;
+  border-color: #FFFFFF;
+}
+/*Promotion Settings*/
+/* The entire promo */
+.cse .gs-promotion,
+.gs-promotion {
+  background-color: #FFFFFF;
+  border: medium none;
+
+}
+/* Promotion image */
+.cse .gs-promotion .gs-promotion-image,
+.gs-promotion .gs-promotion-image {}
+/* Promotion links */
+.cse .gs-promotion a.gs-title:link,
+.gs-promotion a.gs-title:link,
+.cse .gs-promotion a.gs-title:link *,
+.gs-promotion a.gs-title:link *,
+.cse .gs-promotion .gs-snippet a:link,
+.gs-promotion .gs-snippet a:link {
+  color: #0000CC;
+}
+.cse .gs-promotion a.gs-title:visited,
+.gs-promotion a.gs-title:visited,
+.cse .gs-promotion a.gs-title:visited *,
+.gs-promotion a.gs-title:visited *,
+.cse .gs-promotion .gs-snippet a:visited,
+.gs-promotion .gs-snippet a:visited {
+  color: #0000CC;
+}
+.cse .gs-promotion a.gs-title:hover,
+.gs-promotion a.gs-title:hover,
+.cse .gs-promotion a.gs-title:hover *,
+.gs-promotion a.gs-title:hover *,
+.cse .gs-promotion .gs-snippet a:hover,
+.gs-promotion .gs-snippet a:hover {
+  color: #0000CC;
+}
+.cse .gs-promotion a.gs-title:active,
+.gs-promotion a.gs-title:active,
+.cse .gs-promotion a.gs-title:active *,
+.gs-promotion a.gs-title:active *,
+.cse .gs-promotion .gs-snippet a:active,
+.gs-promotion .gs-snippet a:active {
+  color: #0000CC;
+}
+/* Promotion snippet */
+.cse .gs-promotion .gs-snippet,
+.gs-promotion .gs-snippet,
+.cse .gs-promotion .gs-title .gs-promotion-title-right,
+.gs-promotion .gs-title .gs-promotion-title-right,
+.cse .gs-promotion .gs-title .gs-promotion-title-right *,
+.gs-promotion .gs-title .gs-promotion-title-right * {
+  color: #000000;
+}
+/* Promotion url */
+.cse .gs-promotion .gs-visibleUrl,
+.gs-promotion .gs-visibleUrl {
+  color: #008000;
+}
+/* Style for auto-completion table
+ * .gsc-completion-selected : styling for a suggested query which the user has moused-over
+ * .gsc-completion-container : styling for the table which contains the completions
+ */
+.gsc-completion-selected {
+  background: #D5E2FF;
+}
+.gsc-completion-container {
+  font-family: arial,helvetica,clean,sans-serif;
+  font-size: 14px;
+  position: absolute;
+  background: white;
+  border: 1px solid #666666;
+  margin-left: 0;
+  margin-right: 0;
+  z-index:10000;
+  /* The top, left, and width are set in JavaScript. */
+}
+
+/* Full URL */
+.gs-webResult div.gs-visibleUrl-short {
+  display: none;
+}
+.gs-webResult div.gs-visibleUrl-long {
+  display: block;
+}
+
+#cse-search-box     
+{
+	clear:none;
+	display: block;
+    float: right;
+    padding: 15px; 
+}
+
+#SiteSearchForm
+{
+    display: block;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+
+#SiteSearchResultForm
+{
+    display: block;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+
+#query-input, #siteSearchBtn 
+{
+	border-width: 2px;
+}
+
+#query-input,#query-input:active, #query-input:focus
+{
+	background-color:#FFFFFF;
+	margin-right:20px; 
+	width:700px;
+}
+
+.gsc-control-cse {
+	font-family: Arial, sans-serif;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.gsc-tabHeader.gsc-tabhInactive {
+	border-color: #E9E9E9;
+	background-color: #E9E9E9;
+}
+
+.gsc-tabHeader.gsc-tabhActive {
+	border-top-color: #FF9900;
+	border-left-color: #E9E9E9;
+	border-right-color: #E9E9E9;
+	background-color: #FFFFFF;
+}
+
+.gsc-tabsArea {
+	border-color: #E9E9E9;
+}
+
+.gsc-webResult.gsc-result,
+.gsc-results .gsc-imageResult {
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+.gsc-webResult.gsc-result:hover,
+.gsc-imageResult:hover {
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.gs-webResult div.gs-visibleUrl,
+.gs-imageResult div.gs-visibleUrl,
+.gs-webResult div.gs-visibleUrl-short {
+	color: #008000;
+}
+
+.gs-webResult div.gs-visibleUrl-short {
+	display: none;
+}
+
+.gs-webResult div.gs-visibleUrl-long {
+	display: block;
+}
+
+.gsc-cursor-box {
+	border-color: #FFFFFF;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+	border-color: #E9E9E9;
+	background-color: #FFFFFF;
+	color: #0000CC;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+	border-color: #FF9900;
+	background-color: #FFFFFF;
+	color: #0000CC;
+}
+
+.gs-promotion {
+	background-color: #FFFFFF;
+}
+
+.gs-promotion a.gs-title:link,
+.gs-promotion a.gs-title:link *,
+.gs-promotion .gs-snippet a:link,
+.gs-promotion a.gs-title:visited,
+.gs-promotion a.gs-title:visited *,
+.gs-promotion .gs-snippet a:visited,
+.gs-promotion a.gs-title:hover,
+.gs-promotion a.gs-title:hover *,
+.gs-promotion .gs-snippet a:hover,
+.gs-promotion a.gs-title:active,
+.gs-promotion a.gs-title:active *,
+.gs-promotion .gs-snippet a:active,
+.gs-webResult.gs-result a.gs-title:link,
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link,
+.gs-imageResult a.gs-title:link b,
+.gs-webResult.gs-result a.gs-title:visited,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited,
+.gs-imageResult a.gs-title:visited b,
+.gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title:hover b,
+.gs-imageResult a.gs-title:hover,
+.gs-imageResult a.gs-title:hover b,
+.gs-webResult.gs-result a.gs-title:active,
+.gs-webResult.gs-result a.gs-title:active b,
+.gs-imageResult a.gs-title:active,
+.gs-imageResult a.gs-title:active b,
+.gsc-cursor-page,
+a.gsc-trailing-more-results:link {
+	color: #0000CC;
+}
+.gs-webResult .gs-snippet,
+.gs-imageResult .gs-snippet,
+.gs-promotion .gs-snippet,
+.gs-promotion .gs-title .gs-promotion-title-right,
+.gs-promotion .gs-title .gs-promotion-title-right *  {
+	color: #000000;
+}
+.gs-promotion .gs-visibleUrl,
+.gs-promotion .gs-visibleUrl-short {
+	color: #008000;
+}
+
+/* Bring autocomplete rows to the top of the element stack */
+.gstl_0, .gssb_c , .gstl_l , .gssb_f, .gssb_e, .gssb_a, .gsq_a {
+	z-index: 200000;
+}

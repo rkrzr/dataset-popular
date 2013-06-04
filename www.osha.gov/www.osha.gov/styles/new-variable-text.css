@@ -1,0 +1,1416 @@
+* {font-family:Tahoma;}
+#maincontain HR {color:#003399}
+#maincontain UL {font-size: 80%;
+	list-style-type: square;
+	margin-bottom: 10px;
+	text-align: left;
+	color: #000000;
+}
+#maincontain OL { font-size: 80%;
+	margin-bottom: 10px;
+	text-align: left;
+	list-style-position: outside;
+	color:#000000;
+}
+#maincontain UL UL{font-size: 100%;}
+#maincontain UL OL{font-size: 100%;}
+#maincontain OL UL{font-size: 100%;}
+#maincontain OL OL{font-size: 100%;}
+#maincontain .banner-usdol {
+	font-size: 128%;
+	font-weight: bold;
+	color: #003399;
+}
+
+#maincontain .whiteSix {
+	color:#ffffff;
+	font-size:68%
+}
+
+#maincontain .whiteEight {
+	font-size:75%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldEight {
+	font-size:75%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteEightI {
+	font-size:75%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldEightI {
+	font-size:75%;
+	font-weight:bold;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteNine {
+	font-size:78%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldNine {
+	font-size:78%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteNineI {
+	font-size:78%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldNineI {
+	font-size:78%;
+	font-weight:bold;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteTen {
+	font-size:80%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldTen {
+	font-size:80%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteTenI {
+	font-size:80%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldTenI {
+	font-size:80%;
+	font-weight:bold;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteEleven {
+	font-size:90%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldEleven {
+	font-size:90%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteElevenI {
+	font-size:90%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldElevenI {
+	font-size:90%;
+	font-weight:bold;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteTwelve {
+	font-size:100%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldTwelve {
+	font-size:100%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteTwelveI {
+	font-size:100%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldTwelveI {
+	font-size:100%;
+	font-weight:bold;
+	font-style:italic;
+	color:#ffffff;
+}
+#maincontain .whiteThirteen {
+	font-size:108%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldThirteen {
+	font-size:108%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteThirteenI {
+	font-size:108%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldThirteenI {
+	font-size:108%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteFourteen {
+	font-size:118%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldFourteen {
+	font-size:118%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteFourteenI {
+	font-size:118%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldFourteenI {
+	font-size:118%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteFifteen {
+	font-size:122%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldFifteen {
+	font-size:120%;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteFifteenI {
+	font-size:120%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldFifteenI {
+	font-size:120%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#maincontain .whiteSixteen {
+	font-size:128%;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldSixteen {
+	font-size:128%;
+	font-weight:bold;
+	color:#ffffff;
+}
+#maincontain .whiteSixteenI {
+	font-size:128%;
+	font-style:italic;
+	color:#ffffff;
+}
+
+#maincontain .whiteBoldSixteenI {
+	font-size:128%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffffff;
+}
+#maincontain .blackSix {
+	color:#000000;
+	font-size:68%;
+ }
+#maincontain .blackSix a{color:#003399;}
+#maincontain .blackSix a:visited {color: #003366;}
+
+#maincontain .blackBoldSix {
+	color:#000000;
+	font-size:68%;
+	font-weight:bold;
+ }
+#maincontain .blackBoldSix a{color:#003399;}
+#maincontain .blackBoldSix a:visited {color: #003366;}
+#maincontain .blueSix {
+	color:#003399;
+	font-size:68%;
+ }
+#maincontain .blueSix a{color:#003399;}
+#maincontain .blueSix a:visited {color: #003366;}
+#maincontain .blueBoldSix {
+	color:#003399;
+	font-size:68%;
+	font-weight:bold;
+ }
+#maincontain .blueBoldSix a{color:#003399;}
+#maincontain .blueBoldSix a:visited {color: #003366;}
+#maincontain .tabs li a:hover {text-decoration:underline;}
+#maincontain .blackEight {
+	font-size:75%;
+	color:#000000;
+}
+#maincontain .blackBoldEight {
+	font-size:75%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackEightI {
+	font-size:75%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldEightI {
+	font-size:75%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackNine {
+	font-size:78%;
+	color:#000000;
+}
+#maincontain .blackBoldNine {
+	font-size:78%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackNineI {
+	font-size:78%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldNineI {
+	font-size:78%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackTen {
+	font-size:80%;
+	color:#000000;
+}
+#maincontain .blackBoldTen {
+	font-size:80%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackTenI {
+	font-size:80%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldTenI {
+	font-size:80%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackEleven {
+	font-size:90%;
+	color:#000000;
+}
+#maincontain .blackBoldEleven {
+	font-size:90%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackElevenI {
+	font-size:90%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldElevenI {
+	font-size:90%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackTwelve {
+	font-size:100%;
+	color:#000000;
+}
+#maincontain .blackBoldTwelve {
+	font-size:100%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackTwelveI {
+	font-size:100%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldTwelveI {
+	font-size:100%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackThirteen {
+	font-size:108%;
+	color:#000000;
+}
+#maincontain .blackBoldThirteen {
+	font-size:108%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackThirteenI {
+	font-size:108%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldThirteenI {
+	font-size:108%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackFourteen {
+	font-size:118%;
+	color:#000000;
+}
+#maincontain .blackBoldFourteen {
+	font-size:118%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackFourteenI {
+	font-size:118%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldFourteenI {
+	font-size:118%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackFifteen {
+	font-size:122%;
+	color:#000000;
+}
+#maincontain .blackBoldFifteen {
+	font-size:120%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackFifteenI {
+	font-size:120%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldFifteenI {
+	font-size:120%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackSixteen {
+	font-size:128%;
+	color:#000000;
+}
+#maincontain .blackBoldSixteen {
+	font-size:128%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackSixteenI {
+	font-size:128%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blackBoldSixteenI {
+	font-size:128%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueSixCaption {
+	font-size:65%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blackSixCaption {
+	font-size:65%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueEight {
+	font-size:75%;
+	color:#000000;
+}
+#maincontain .blueBoldEight {
+	font-size:75%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueEightI {
+	font-size:75%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blueBoldEightI {
+	font-size:75%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blueNine {
+	font-size:78%;
+	color:#000000;
+}
+#maincontain .blueBoldNine {
+	font-size:78%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueNineI {
+	font-size:78%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blueBoldNineI {
+	font-size:78%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blueTen {
+	font-size:80%;
+	color:#000000;
+}
+#maincontain .blueBoldTen {
+	font-size:80%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueTenI {
+	font-size:80%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blueBoldTenI {
+	font-size:80%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueEleven {
+	font-size:90%;
+	color:#000000;
+}
+#maincontain .blueBoldEleven {
+	font-size:90%;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueElevenI {
+	font-size:90%;
+	font-style:italic;
+	color:#000000;
+}
+#maincontain .blueBoldElevenI {
+	font-size:90%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#maincontain .blueTwelve {
+	font-size:100%;
+	color:#003399;
+}
+#maincontain .blueBoldTwelve {
+	font-size:100%;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueTwelveI {
+	font-size:100%;
+	font-style:italic;
+	color:#003399;
+}
+#maincontain .blueBoldTwelveI {
+	font-size:100%;
+	font-style:italic;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueThirteen {
+	font-size:108%;
+	color:#003399;
+}
+#maincontain .blueBoldThirteen {
+	font-size:108%;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueThirteenI {
+	font-size:108%;
+	font-style:italic;
+	color:#003399;
+}
+#maincontain .blueBoldThirteenI {
+	font-size:108%;
+	font-style:italic;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueFourteen {
+	font-size:118%;
+	color:#003399;
+}
+#maincontain .blueBoldFourteen {
+	font-size:118%;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueFourteenI {
+	font-size:118%;
+	font-style:italic;
+	color:#003399;
+}
+#maincontain .blueBoldFourteenI {
+	font-size:118%;
+	font-style:italic;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueFifteen {
+	font-size:122%;
+	color:#003399;
+}
+#maincontain .blueBoldFifteen {
+	font-size:120%;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueFifteenI {
+	font-size:120%;
+	font-style:italic;
+	color:#003399;
+}
+#maincontain .blueBoldFifteenI {
+	font-size:120%;
+	font-style:italic;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueSixteen {
+	font-size:128%;
+	color:#003399;
+}
+#maincontain .blueBoldSixteen {
+	font-size:128%;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .blueSixteenI {
+	font-size:128%;
+	font-style:italic;
+	color:#003399;
+}
+#maincontain .blueBoldSixteenI {
+	font-size:128%;
+	font-style:italic;
+	font-weight:bold;
+	color:#003399;
+}
+#maincontain .yellowEight {
+	font-size:75%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldEight {
+	font-size:75%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowEightI {
+	font-size:75%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldEightI {
+	font-size:75%;
+	font-weight:bold;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowNine {
+	font-size:78%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldNine {
+	font-size:78%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowNineI {
+	font-size:78%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldNineI {
+	font-size:78%;
+	font-weight:bold;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowTen {
+	font-size:80%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldTen {
+	font-size:80%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowTenI {
+	font-size:80%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldTenI {
+	font-size:80%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowEleven {
+	font-size:90%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldEleven {
+	font-size:90%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowElevenI {
+	font-size:90%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldElevenI {
+	font-size:90%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowTwelve {
+	font-size:100%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldTwelve {
+	font-size:100%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowTwelveI {
+	font-size:100%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldTwelveI {
+	font-size:100%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowThirteen {
+	font-size:108%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldThirteen {
+	font-size:108%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowThirteenI {
+	font-size:108%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldThirteenI {
+	font-size:108%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowFourteen {
+	font-size:118%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldFourteen {
+	font-size:118%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowFourteenI {
+	font-size:118%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldFourteenI {
+	font-size:118%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowFifteen {
+	font-size:122%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldFifteen {
+	font-size:120%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowFifteenI {
+	font-size:120%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldFifteenI {
+	font-size:120%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowSixteen {
+	font-size:128%;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldSixteen {
+	font-size:128%;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .yellowSixteenI {
+	font-size:128%;
+	font-style:italic;
+	color:#ffcc00;
+}
+#maincontain .yellowBoldSixteenI {
+	font-size:128%;
+	font-style:italic;
+	font-weight:bold;
+	color:#ffcc00;
+}
+#maincontain .redSix {
+	font-size:75%;
+	color:#990000;
+}
+#maincontain .redEight {
+	font-size:75%;
+	color:#990000;
+}
+#maincontain .redBoldEight {
+	font-size:75%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redEightI {
+	font-size:75%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldEightI {
+	font-size:75%;
+	font-weight:bold;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redNine {
+	font-size:78%;
+	color:#990000;
+}
+#maincontain .redBoldNine {
+	font-size:78%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redNineI {
+	font-size:78%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldNineI {
+	font-size:78%;
+	font-weight:bold;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redTen {
+	font-size:80%;
+	color:#990000;
+}
+#maincontain .redBoldTen {
+	font-size:80%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redTenI {
+	font-size:80%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldTenI {
+	font-size:80%;
+	font-weight:bold;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redEleven {
+	font-size:90%;
+	color:#990000;
+}
+#maincontain .redBoldEleven {
+	font-size:90%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redElevenI {
+	font-size:90%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldElevenI {
+	font-size:90%;
+	font-weight:bold;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redTwelve {
+	font-size:100%;
+	color:#990000;
+}
+#maincontain .redBoldTwelve {
+	font-size:100%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redTwelveI {
+	font-size:100%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldTwelveI {
+	font-size:100%;
+	font-weight:bold;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redThirteen {
+	font-size:108%;
+	color:#990000;
+}
+#maincontain .redBoldThirteen {
+	font-size:108%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redThirteenI {
+	font-size:108%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldThirteenI {
+	font-size:108%;
+	font-style:italic;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redFourteen {
+	font-size:118%;
+	color:#990000;
+}
+#maincontain .redBoldFourteen {
+	font-size:118%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redFourteenI {
+	font-size:118%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldFourteenI {
+	font-size:118%;
+	font-style:italic;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redFifteen {
+	font-size:122%;
+	color:#990000;
+}
+#maincontain .redBoldFifteen {
+	font-size:120%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redFifteenI {
+	font-size:120%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldFifteenI {
+	font-size:120%;
+	font-style:italic;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redSixteen {
+	font-size:128%;
+	color:#990000;
+}
+#maincontain .redBoldSixteen {
+	font-size:128%;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .redSixteenI {
+	font-size:128%;
+	font-style:italic;
+	color:#990000;
+}
+#maincontain .redBoldSixteenI {
+	font-size:128%;
+	font-style:italic;
+	font-weight:bold;
+	color:#990000;
+}
+#maincontain .yellowBkgnd {background-color:#ffcc00;}
+#maincontain .dk-blueBkgnd {background-color:#003399;}
+#maincontain .whiteBkgnd {background-color:#ffffff;}
+#maincontain .blueBkgnd {background-color:#3366cc;}
+#maincontain .aquaBkgnd {background-color:#009999;}
+#maincontain .bold {font-weight:bold;}
+#maincontain .italic {font-style:italic;}
+
+/*Old stuff*/
+
+#maincontain A.blueheader {
+	font-size:80%;
+	text-decoration: none;
+	color: #3366CC;
+	font-weight: bold;
+	}
+#maincontain A.result  {
+	font-size:80%;
+	text-decoration: none;
+	color: #31639C;
+	}
+#maincontain A.whiteresult  {
+	font-size:80%;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	}
+#maincontain A.whiteheader {
+	font-size:80%;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	}
+#maincontain TD.gray  {
+	text-decoration: none;
+	background-color: #eeeeee;
+	}
+#maincontain TD.graycenter  {
+	text-decoration: none;
+	color: #31639C;
+	background-color: #eeeeee;
+	text-align: center;
+	}
+#maincontain TD.white  {
+	text-decoration: none;
+	background-color: #ffffff;
+	}
+#maincontain TD.whitecenter  {
+	text-decoration: none;
+	color: #31639C;
+	background-color: #ffffff;
+	text-align: center;
+	}
+#maincontain TD.sort  {
+		text-decoration: none;
+	text-align: center;
+	background-color: #ffffff;
+	}
+#maincontain TD.caption {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CECE9C;
+	text-align: center;
+	}
+#maincontain ul.standard {
+	font-size: 100%;
+	list-style-type: square;
+	margin-bottom: 10px;
+	text-align: left;
+	color:#000000;
+}
+
+/* font rules*/
+
+#maincontain .title1 {
+	font-weight: bold;
+	font-size: 80%;
+	color: #996600;
+}
+#maincontain .title2 {
+	font-weight: bold;
+	font-size: 100%;
+	color: #000099;
+}
+#maincontain .title3 {
+	font-weight: bold;
+	font-size: 75%;
+	color: #996600;
+}
+#maincontain .title4 {
+	font-weight: bold;
+	font-size: 80%;
+	color: #153499;
+}
+#maincontain .title5 {
+	font-weight: bold;
+	font-size: 100%
+	color: #666666;
+}
+#maincontain .notetext1 {
+	font-size: 75%;
+	color: #F40000;
+	margin: 2px 2px 2px 2px;
+}
+#maincontain .notetext2 {
+	font-weight: bold;
+	font-size: 75%;
+	color: #F40000;
+	margin: 2px 2px 2px 2px;
+}
+#maincontain .footnote1 {
+	font-weight: bold;
+	font-size: 75%;
+	text-decoration: none;
+	vertical-align: super;
+	color: #F40000;
+	margin: 2px 2px 2px 2px;
+}
+#maincontain .linktext {font-size: 75%;}
+#maincontain .standard {
+	 font-size: 75%;
+	 color: #757575;
+}
+#maincontain .linkedstandard {font-size: 75%;}
+#maincontain ul.menu-item-findit{
+	font-size:72%;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-left:20px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#maincontain ul.menu-item-findit a {color: #0000ff;}
+#maincontain ul.news-items{
+	font-size:72%;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-left:20px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#maincontain ul.news-items a {color: #003399;}
+#maincontain ul.menu-item-small{
+	font-size:70%;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-left:18px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+	line-height: 12px;
+}
+#maincontain .shadow {
+	background-image: url(../images/shadow-bot-wh.gif);
+	background-repeat: repeat;
+	height: 6px;
+}
+#maincontain .lightBlue {
+	color: #cfd2e5;
+	font-size:75%;
+	font-weight:bold;
+}
+#maincontain .lightBlue a: link {color: #cfd2e5;}
+#maincontain .lightBlue a: active {color: #ffffff;}
+#maincontain .lightBlue a: hover {color: #ffffff;}
+#maincontain .lightBlue a: visited: {color: #cfd2e5;}
+#maincontain ul.menu-item {
+	color: #000000;
+	font-size: 70%;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-left:20px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+	list-style:square;
+	list-style-image:url(../images/bulletBlue.gif);
+}
+#maincontain ul.menu-item  a{color:#003399;}
+#maincontain ul.menu-item a:visited {color: #003366;}
+#maincontain ul.menu-red {
+	color: #FFFFCC;
+	font-size: 70%;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:5px;
+	margin-left:20px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	list-style:square;
+	list-style-image:url(../images/red-arrow.gif);
+}
+#maincontain ul.menu-red  a{color:#003399;}
+#maincontain ul.menu-red a:visited {color: #003366;}
+#maincontain div#search-bar {
+	color: #FFCC66;
+	font-size: 70%;
+	font-weight: bold;
+	float:right;
+}
+#maincontain div#search-bar a{
+	color: #FFCC66;
+	font-weight: bold;
+}
+#maincontain .bar {
+	color: #FFCC66;
+	font-size: 75%;
+	font-weight: bold;
+}
+#maincontain .bar a{
+	color: #FFCC66;
+	font-weight: bold;
+}
+
+
+
+#main .blackEight {
+	font-size:75%;
+	color:#000000;
+}
+#main .blackBoldEight {
+	font-size:75%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackEightI {
+	font-size:75%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldEightI {
+	font-size:75%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackNine {
+	font-size:78%;
+	color:#000000;
+}
+#main .blackBoldNine {
+	font-size:78%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackNineI {
+	font-size:78%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldNineI {
+	font-size:78%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackTen {
+	font-size:80%;
+	color:#000000;
+}
+#main .blackBoldTen {
+	font-size:80%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackTenI {
+	font-size:80%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldTenI {
+	font-size:80%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackEleven {
+	font-size:90%;
+	color:#000000;
+}
+#main .blackBoldEleven {
+	font-size:90%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackElevenI {
+	font-size:90%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldElevenI {
+	font-size:90%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackTwelve {
+	font-size:100%;
+	color:#000000;
+}
+#main .blackBoldTwelve {
+	font-size:100%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackTwelveI {
+	font-size:100%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldTwelveI {
+	font-size:100%;
+	font-weight:bold;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackThirteen {
+	font-size:108%;
+	color:#000000;
+}
+#main .blackBoldThirteen {
+	font-size:108%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackThirteenI {
+	font-size:108%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldThirteenI {
+	font-size:108%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackFourteen {
+	font-size:118%;
+	color:#000000;
+}
+#main .blackBoldFourteen {
+	font-size:118%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackFourteenI {
+	font-size:118%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldFourteenI {
+	font-size:118%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackFifteen {
+	font-size:122%;
+	color:#000000;
+}
+#main .blackBoldFifteen {
+	font-size:120%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackFifteenI {
+	font-size:120%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldFifteenI {
+	font-size:120%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackSixteen {
+	font-size:128%;
+	color:#000000;
+}
+#main .blackBoldSixteen {
+	font-size:128%;
+	font-weight:bold;
+	color:#000000;
+}
+#main .blackSixteenI {
+	font-size:128%;
+	font-style:italic;
+	color:#000000;
+}
+#main .blackBoldSixteenI {
+	font-size:128%;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+}
+#main .language {
+	font-size:142%;
+	color:#000000;

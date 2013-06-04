@@ -1,0 +1,79 @@
+#siteHeader, #footer {background-color: #04162e!important;}
+
+.nbc_news_cover.social_links{
+ width: 820px !important;
+ margin-bottom: 30px;
+ /*border:blue;*/
+}
+
+.social_links .links_box_hdr{
+ background: url("../../msnbcmedia.msn.com/i/MSNBC/SiteManagement/SiteWide/SectionSlice/newStoryPage/nsp-tabbgblackd-big.gif") repeat-y scroll 0 0 #333333;
+ border-bottom: 1px solid #333;
+ margin-bottom: 10px;
+ height: 25px;
+}
+
+.social_links {
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.social_links ul {
+ list-style:none;
+ margin:10px 0 0 10px;
+ padding:0;
+}
+
+.social_links li {
+ margin: 0 15px 10px 0;
+ padding:0;
+ background: transparent url("../../msnbcmedia.msn.com/i/MSNBC/Components/CSS/img/icons/social_icons_sprite.png") no-repeat;
+ display: inline-block;
+ 
+ /* for IE7 inline-block on blocks */
+ *zoom: 1;
+ *display: inline;
+}
+
+.social_links a {
+ text-decoration:none;
+ color:#369;
+ font-size:13px;
+ font-weight: normal;
+ line-height:1.5em;
+ padding-left:24px;
+}
+
+.social_links a:hover {
+ color:#C00;
+}
+
+.social_links .h4 a,
+.social_links .h4 a:hover,
+.social_links .h4 a:visited {
+ font-size:16px;
+ color:#FFF;
+ font-weight:bold;
+ padding: 2px 0 0 5px;
+ display: block;
+}
+
+.social_list .tumblr { background-position:0 0; }
+.social_list .twitter { background-position:0 -20px; }
+.social_list .facebook { background-position:0 -40px; }
+.social_list .google { background-position:0 -62px; }
+.social_list .instagram { background-position:0 -84px; }
+.social_list .pinterest { background-position:0 -107px; }
+.social_list .linkedIn { background-position:0 -152px; }
+.social_list .newsletters { background: url("../../msnbcmedia.msn.com/i/msnbc/Components/CSS/img/icons/icon-nbc.gif") no-repeat scroll 0 3px;
+margin-right:0; }
+.social_list .newsletters a { padding-left: 20px; }
+.social_list .more {background:none;}
+
+/*
+.social_list .newsletters,
+.social_list .bookmark { display: block; background:none; font-weight:bold; }
+.social_list .newsletters a,
+.social_list .bookmark a {
+  padding-left: 0;
+}
+*/

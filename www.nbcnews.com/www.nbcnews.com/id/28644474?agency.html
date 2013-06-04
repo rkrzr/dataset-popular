@@ -1,0 +1,11 @@
+/* Document ID: 28644445 */
+function HeaderSearchText(){this.default_text="Powered by Bing";this.searching=false;this.timeoutVal=null;this.IEBingBranding=function(){$(".IE #content input.sw_qbox").focus(function(){$(this).css("background-position","0 -937em");$(this).val("");});$(".IE #content input.sw_qbox").blur(function(){$(this).css("background-position","100% 4px");});};this.CreateFocus=function(ctl){ctl.val("");ctl.addClass('sw_qbox').removeClass('sw_qbox_blur');};this.CreateBlur=function(ctl){if(ctl.val().length==0){ctl.val(this.default_text);ctl.addClass('sw_qbox_blur').removeClass('sw_qbox');}};this.CreateClick=function(ctl,evt){if(ctl.val()!=this.default_text){DoSearch(0);}};this.CreateEvents=function(ctl){var searchbox=$(ctl).find('#q');var me=this;if(searchbox){$(searchbox).focus(function(){me.CreateFocus(searchbox)});$(searchbox).blur(function(e){me.CreateBlur(searchbox)});searchbox.blur();}var searchBtn=$(ctl).find(':button');if(searchBtn&&searchbox){$(searchBtn).attr('onclick','');$(searchBtn).click(function(e){me.CreateClick(searchbox,e)});}};this.Initialize=function(){var searchCtl=$('#searchset');if(searchCtl){this.CreateEvents(searchCtl);}}};$(document).ready(function(){var searchTextObject=new HeaderSearchText();searchTextObject.Initialize();searchTextObject.IEBingBranding();});
+//END SEARCH
+//START Marketplace Pricegrabber code
+
+function dap(pg, width, height) {
+    var randomId = "dapAd" + Math.floor(Math.random() * 10000000000);
+    document.write("<div id='" + randomId + "'></div>");
+    dapMgr.enableACB(randomId, false);
+    dapMgr.renderAd(randomId, pg, width, height);
+}

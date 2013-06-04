@@ -1,0 +1,417 @@
+/* -- PICKLE ADS COMMON JAVASCRIPT LIBRARY --------------------------------------------- */
+
+
+if (window.addEventListener){
+
+    window.addEventListener('load', function () {
+	if (typeof this.pickleAdsUC == 'undefined') {
+	    this.pickleAdsUC = '334812a2034d3b63adca6da3f046e2b0';
+	}
+    });
+
+} else if (window.attachEvent){
+
+    window.attachEvent('onload', function () {
+	if (typeof this.pickleAdsUC == 'undefined') {
+	    this.pickleAdsUC = '334812a2034d3b63adca6da3f046e2b0';
+	}
+    });
+
+}
+
+
+if (typeof pickleAds_clickthru == 'undefined') {
+    function pickleAds_clickthru( keyword ) {
+      window.open(pickleAds_base_URL + 'activity/clickthru/' + pickleAds_creative_id + '/' + keyword + '/' + pickleAdsUC + '/' + Math.floor(Math.random()*10000), '_blank');
+    }
+}
+
+if (typeof pickleAds_clickthru_64 == 'undefined') {
+    function pickleAds_clickthru_64( keyword ) {
+      window.open(pickleAds_base_URL + 'activity/clickthru/' + '64' + '/' + keyword + '/' + pickleAdsUC + '/' + Math.floor(Math.random()*10000), '_blank');
+    }
+}
+
+if (typeof pickleAds_track == 'undefined') {
+    function pickleAds_track( keyword, comment ) {
+      var img = document.createElement('img');
+      img.src = pickleAds_base_URL + 'activity/track/' + pickleAds_creative_id + '/' + keyword + '/' + comment + '/' + pickleAdsUC + '/' + Math.floor(Math.random()*10000);
+    }
+}
+
+if (typeof pickleAds_track_64 == 'undefined') {
+    function pickleAds_track_64( keyword, comment ) {
+      var img = document.createElement('img');
+      img.src = pickleAds_base_URL + 'activity/track/' + '64' + '/' + keyword + '/' + comment + '/' + pickleAdsUC + '/' + Math.floor(Math.random()*10000);
+    }
+}
+
+if (typeof pickleAds_openPanel == 'undefined') {
+    function pickleAds_openPanel( panel_name ) {
+    
+        var pickleAds_newPanel_html = "";
+        for(p = 0; p < pickleAds_panels.length; p++) {
+        	if (pickleAds_panels[p].name == panel_name) {
+        	
+        	    var panel_div=document.createElement('div');
+        	    panel_div.innerHTML=pickleAds_panels[p].html;
+        	    document.getElementById('pickle_adsystem_'+pickleAds_creative_id+'_container').appendChild(panel_div.firstChild); 
+        	    
+        	    // track the expanding
+        	    pickleAds_track('EXPAND_PANEL', pickleAds_panels[p].id );
+            
+        	    break;
+        	}
+        }
+    }
+}
+
+if (typeof pickleAds_openPanel_64 == 'undefined') {
+    function pickleAds_openPanel_64( panel_name ) {
+    
+        var pickleAds_newPanel_html = "";
+        for(p = 0; p < pickleAds_panels.length; p++) {
+        	if ((pickleAds_panels[p].name == panel_name) && (pickleAds_panels[p].creative_id==64)) {
+        	
+        	    var panel_div=document.createElement('div');
+        	    panel_div.innerHTML=pickleAds_panels[p].html;
+        	    document.getElementById('pickle_adsystem_'+'64'+'_container').appendChild(panel_div.firstChild); 
+        	    
+        	    // track the expanding
+        	    pickleAds_track_64('EXPAND_PANEL', pickleAds_panels[p].id );
+            
+        	    break;
+        	}
+        }
+    }
+}
+
+if (typeof pickleAds_closePanel == 'undefined') {
+    function pickleAds_closePanel( panel_name ) {
+    
+        for(p=0;p<pickleAds_panels.length;p++) {
+        	if (pickleAds_panels[p].name==panel_name) {
+        
+        	    var element = document.getElementById('pickle_adsystem_'+pickleAds_creative_id+'_panel_'+pickleAds_panels[p].id);
+        	    element.parentNode.removeChild(element);
+        
+        	    // track the expanding
+        	    pickleAds_track('CLOSE_PANEL', pickleAds_panels[p].id );
+            
+        	    break;
+        	}
+        }
+        
+    }
+}
+
+if (typeof pickleAds_closePanel_64 == 'undefined') {
+    function pickleAds_closePanel_64( panel_name ) {
+    
+        for(p=0;p<pickleAds_panels.length;p++) {
+        	if ((pickleAds_panels[p].name == panel_name) && (pickleAds_panels[p].creative_id==64)) {
+        
+        	    var element = document.getElementById('pickle_adsystem_'+'64'+'_panel_'+pickleAds_panels[p].id);
+        	    element.parentNode.removeChild(element);
+        
+        	    // track the expanding
+        	    pickleAds_track_64('CLOSE_PANEL', pickleAds_panels[p].id );
+            
+        	    break;
+        	}
+        }
+        
+    }
+}
+
+// ---------------------------------------------------
+
+function pickleAds_AnimateCss(sEleId, sCssProp, iTarget, uTotalTime) {
+
+    units = 'px'; // only supports integer pixel values for now
+    var ele = pickleAds_xGetElementById(sEleId);
+    var startValue = parseInt(pickleAds_xGetComputedStyle(ele, sCssProp)) || 0;
+    var disp = iTarget - startValue; // total displacement
+    var freq = Math.PI / (2 * uTotalTime); // frequency
+    var startTime = new Date().getTime();
+    var tmr = setInterval(
+	function() {
+	var elapsedTime = new Date().getTime() - startTime;
+	if (elapsedTime < uTotalTime) {
+	    var f = Math.abs(Math.sin(elapsedTime * freq));
+	    ele.style[pickleAds_xCamelize(sCssProp)] = Math.round(f * disp + startValue) + units;
+	}
+	else {
+	    clearInterval(tmr);
+	    ele.style[pickleAds_xCamelize(sCssProp)] = iTarget + units;
+	}
+	}, 10
+    );
+    
+}
+
+
+// Help functions for pickleAds_AnimateCSS function ----------------------------------
+function pickleAds_xGetElementById(a){if(typeof(a)=="string"){if(document.getElementById){a=document.getElementById(a)} else {if(document.all){a=document.all[a]}else{a=null}}}return a;}
+function pickleAds_xGetComputedStyle(e, p, i){if(!(e=pickleAds_xGetElementById(e))) return null;var s, v = 'undefined', dv = document.defaultView;if(dv && dv.getComputedStyle){s = dv.getComputedStyle(e,'');if (s) v = s.getPropertyValue(p);}else if(e.currentStyle) {v = e.currentStyle[pickleAds_xCamelize(p)];}else return null;return i ? (parseInt(v) || 0) : v;}
+function pickleAds_xCamelize(d){var e,g,b,f;b=d.split("-");f=b[0];for(e=1;e<b.length;++e){g=b[e].charAt(0);f+=b[e].replace(g,g.toUpperCase())}return f}
+
+
+// -- STORED VARIABLES -------------------------------------------------
+
+if (typeof pickleAds_storedVariables == 'undefined') {
+    var pickleAds_storedVariables = new Array();
+}
+
+if (typeof pickleAds_storeVariable == 'undefined') {
+    function pickleAds_storeVariable(_variableName, _variableValue) {
+	var existingFlag = -1;
+	for(var r=0; r<pickleAds_storedVariables.length;r++){
+		if (pickleAds_storedVariables[r].name == _variableName) {existingFlag = r;}
+	}
+	// update or add the variable ------------------------------------------
+
+
+	if (existingFlag>-1) {
+		pickleAds_storedVariables[existingFlag].value = _variableValue;
+	} else {
+		pickleAds_storedVariables.push({name:_variableName, value:_variableValue});
+	}
+
+    }
+}
+
+if (typeof pickleAds_getVariable == 'undefined') {
+    function pickleAds_getVariable(_variableName) {
+
+	    var variableValue = undefined;
+
+	    for(var r=0; r<pickleAds_storedVariables.length;r++){
+		if (pickleAds_storedVariables[r].name == _variableName) {variableValue = pickleAds_storedVariables[r].value; break;}
+	    }
+
+	return variableValue;
+    }
+}
+// -- END OF STORED VARIABLES -------------------------------------------------
+
+
+
+
+// -- VIDEO TRACKING ----------------------------------------------------------
+
+if (typeof video_tracking == 'undefined') {
+
+    var video_tracking = true;
+    
+    function pickleAds_videoStart( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_START', comment );
+    }
+    function pickleAds_videoEnd( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_END', comment );
+    }
+    function pickleAds_videoStop( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_STOP', comment );
+    }
+    function pickleAds_videoPause( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_PAUSE', comment );
+    }
+    function pickleAds_videoPlay( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_PLAY', comment );
+    }
+    function pickleAds_videoAudioUnmute( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_AUDIO_UNMUTE', comment );
+    }
+    function pickleAds_videoAudioMute( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_AUDIO_MUTE', comment );
+    }
+    function pickleAds_videoPercentage25( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_PERCENTAGE_25', comment );
+    }
+    function pickleAds_videoPercentage50( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_PERCENTAGE_50', comment );
+    }
+    function pickleAds_videoPercentage75( comment ) {
+        // tracking of the event
+        pickleAds_track('VIDEO_PERCENTAGE_75', comment );
+    }
+}
+
+if (typeof video_tracking_64 == 'undefined') {
+
+    var video_tracking_64 = true;
+    
+    function pickleAds_videoStart_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_START', comment );
+    }
+    function pickleAds_videoEnd_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_END', comment );
+    }
+    function pickleAds_videoStop_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_STOP', comment );
+    }
+    function pickleAds_videoPause_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_PAUSE', comment );
+    }
+    function pickleAds_videoPlay_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_PLAY', comment );
+    }
+    function pickleAds_videoAudioUnmute_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_AUDIO_UNMUTE', comment );
+    }
+    function pickleAds_videoAudioMute_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_AUDIO_MUTE', comment );
+    }
+    function pickleAds_videoPercentage25_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_PERCENTAGE_25', comment );
+    }
+    function pickleAds_videoPercentage50_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_PERCENTAGE_50', comment );
+    }
+    function pickleAds_videoPercentage75_64( comment ) {
+        // tracking of the event
+        pickleAds_track_64('VIDEO_PERCENTAGE_75', comment );
+    }
+}
+// -- END OF VIDEO TRACKING ---------------------------------------------------
+
+
+
+/* -- END OF PICKLE ADS COMMON JAVASCRIPT LIBRARY --------------------------------------------- */
+
+/* -- PICKLE ADS FLASH JAVASCRIPT LIBRARY --------------------------------------------- */
+
+function pickleAds_hasFlashVersionOrBetter(major, minor) {
+    minor = minor || 0;
+    var v;
+    if (navigator.plugins && navigator.plugins.length > 0) {
+        var type = 'application/x-shockwave-flash';
+        var mimeTypes = navigator.mimeTypes;
+        if (mimeTypes && mimeTypes[type] && mimeTypes[type].enabledPlugin && mimeTypes[type].enabledPlugin.description) {
+            v = mimeTypes[type].enabledPlugin.description.replace(/^.*?([0-9]+)\.([0-9])+.*$/, '$1,$2').split(',');
+        }
+    }
+    else {
+        var flashObj = null;
+        try { flashObj = new ActiveXObject('ShockwaveFlash.ShockwaveFlash'); } catch (ex) { return false; }
+        if (flashObj != null) {
+            var fV;
+            try { fV = flashObj.GetVariable("$version"); } catch (err) { return false; }
+            v = fV.replace(/^.*?([0-9]+,[0-9]+).*$/, '$1').split(',');
+        }
+    }
+    if (v) {
+        var to_return;
+        var majorVersion = parseInt(v[0], 10);
+
+        if (majorVersion > major) {
+            to_return = true;
+        } else {
+            
+            if (major == majorVersion) {
+                if (minor <= parseInt(v[1], 10)) {
+                to_return = true;
+                } else {
+                to_return = false;
+                }
+            }
+        }
+  
+        return to_return;
+    }
+    return false;
+}
+
+
+
+// -- BROADCAST MESSAGES ------------------------------------------------------
+
+var isMSIE = /*@cc_on!@*/0;
+
+if (typeof pickleAds_ObjIds == 'undefined') {
+    var pickleAds_ObjIds = [];
+}
+if (typeof pickleAds_Objects == 'undefined') {
+    var pickleAds_Objects = [];
+}
+
+if (typeof pickleAds_CacheFlashObjects == 'undefined') {
+    function pickleAds_CacheFlashObjects() {
+        for (var i = 0, l = pickleAds_ObjIds.length; i < l; i++) {
+            var o = document.getElementById(pickleAds_ObjIds[i]);
+            if (o !== null) {
+                if (!isMSIE) {
+                    var cn = o.children, k = cn.length;
+                    for (var j = 0; j < k; j++) {
+                        if(cn[j].type && cn[j].type === 'application/x-shockwave-flash') {
+                            if (pickleAds_Objects.indexOf(cn[j]) === -1) {
+                                pickleAds_Objects.push(cn[j]);
+                            }
+                        }
+                    }
+                } else {
+                    pickleAds_Objects.push(o);
+                }    
+            }
+        }
+        
+    }
+}
+
+if (typeof pickleAds_broadcastMessage == 'undefined') {
+    function pickleAds_broadcastMessage(broadcaster, msg, useCache) {
+	
+
+        if (!useCache) {
+            pickleAds_Objects.length = 0;
+        }
+        if (pickleAds_Objects.length === 0) {
+            pickleAds_CacheFlashObjects();
+            if (pickleAds_Objects.length === 0) {
+                return false;
+            }        
+        }
+        
+        for (var i = 0, l = pickleAds_Objects.length; i < l; i++) {
+            pickleAds_Objects[i].acceptBroadcastMessage && pickleAds_Objects[i].acceptBroadcastMessage(broadcaster, msg);      
+        }
+        
+    } 
+}
+
+// -- END OF BROADCAST MESSAGES -----------------------------------------------------------------
+
+
+/* -- END OF PICKLE ADS FLASH JAVASCRIPT LIBRARY --------------------------------------------- */
+
+
+var pickleAds_targetVersion = 8;
+var pickleAds_targetMinor = 0;
+var pickleAds_base_URL = 'http://serve.adfootprints.com/';
+var pickleAds_creative_id = '64';
+
+if (typeof pickleAds_panels == 'undefined') { var pickleAds_panels = new Array(); }
+
+if (pickleAds_hasFlashVersionOrBetter(pickleAds_targetVersion, pickleAds_targetMinor)) {
+    document.write('<div id=\"pickle_adsystem_64_container\" style=\"position:relative; overflow: hidden; width: 336px; height: 320px;\">\n\n    <div id=\"pickle_adsystem_64_banner\" style=\"width: 336px; height: 320px;\">\n\t\n\t\n\t<object classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" width=\"336\" height=\"320\" id=\"pickle_adsystem_5194c95f81e71\" name=\"pickle_adsystem_5194c95f81e71\" align=\"middle\">\n\t\t\t\t<param name=\"movie\" value=\"http://d3cxgjorprur2q.cloudfront.net/campaigns/campaign_49/creative_64/Cube3D.swf?clicktag=http://www.sothebysrealty.com/eng/sales/0-99000000-price\" />\n\t\t\t\t<param name=\"quality\" value=\"high\" />\n\t\t\t\t<param name=\"bgcolor\" value=\"#ffffff\" />\n\t\t\t\t<param name=\"play\" value=\"true\" />\n\t\t\t\t<param name=\"loop\" value=\"false\" />\n\t\t\t\t<param name=\"wmode\" value=\"opaque\" />\n\t\t\t\t<param name=\"scale\" value=\"showall\" />\n\t\t\t\t<param name=\"menu\" value=\"false\" />\n\t\t\t\t<param name=\"devicefont\" value=\"false\" />\n\t\t\t\t<param name=\"salign\" value=\"\" />\n\t\t\t\t<param name=\"allowScriptAccess\" value=\"always\" />\n\t\t\t\t<param name=\"FlashVars\" value=\"pickleAds_AbsolutePath=http%3A%2F%2Fd3cxgjorprur2q.cloudfront.net%2Fcampaigns%2Fcampaign_49%2Fcreative_64%2F&pickleAds_CreativeID=64&pickleAds_Clickthrus=ClickTrack1^http%3A%2F%2Fwww.sothebysrealty.com|ClickTrack3^http%3A%2F%2Fwww.nytimes.com%2Fads%2Fpublic%2Fsothebysrealty%2F&clicktag=http://www.sothebysrealty.com/eng/sales/0-99000000-price\" />\n\t\t\t\t\n\t\t\t\t<!--[if !IE]>-->\n\t\t\t\t<object type=\"application/x-shockwave-flash\" data=\"http://d3cxgjorprur2q.cloudfront.net/campaigns/campaign_49/creative_64/Cube3D.swf?clicktag=http://www.sothebysrealty.com/eng/sales/0-99000000-price\" width=\"336\" height=\"320\">\n\t\t\t\t\t<param name=\"movie\" value=\"http://d3cxgjorprur2q.cloudfront.net/campaigns/campaign_49/creative_64/Cube3D.swf?clicktag=http://www.sothebysrealty.com/eng/sales/0-99000000-price\" />\n\t\t\t\t\t<param name=\"quality\" value=\"high\" />\n\t\t\t\t\t<param name=\"bgcolor\" value=\"#ffffff\" />\n\t\t\t\t\t<param name=\"play\" value=\"true\" />\n\t\t\t\t\t<param name=\"loop\" value=\"true\" />\n\t\t\t\t\t<param name=\"wmode\" value=\"opaque\" />\n\t\t\t\t\t<param name=\"scale\" value=\"showall\" />\n\t\t\t\t\t<param name=\"menu\" value=\"false\" />\n\t\t\t\t\t<param name=\"devicefont\" value=\"false\" />\n\t\t\t\t\t<param name=\"salign\" value=\"\" />\n\t\t\t\t\t<param name=\"allowScriptAccess\" value=\"always\" />\n\t\t\t\t\t<param name=\"FlashVars\" value=\"pickleAds_AbsolutePath=http%3A%2F%2Fd3cxgjorprur2q.cloudfront.net%2Fcampaigns%2Fcampaign_49%2Fcreative_64%2F&pickleAds_CreativeID=64&pickleAds_Clickthrus=ClickTrack1^http%3A%2F%2Fwww.sothebysrealty.com|ClickTrack3^http%3A%2F%2Fwww.nytimes.com%2Fads%2Fpublic%2Fsothebysrealty%2F&clicktag=http://www.sothebysrealty.com/eng/sales/0-99000000-price\" />\n\t\t\t\t<!--<![endif]-->\n\t\t\t\t\t<a href=\"http://www.adobe.com/go/getflash\">\n\t\t\t\t\t\t<img src=\"http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif\" alt=\"Get Adobe Flash player\" />\n\t\t\t\t\t</a>\n\t\t\t\t<!--[if !IE]>-->\n\t\t\t\t</object>\n\t\t\t\t<!--<![endif]-->\n\t\t\t</object>\n\n\t\n    </div>\n    \n</div>\n\n<script id=\"pickle_adsystem_scr_5194c95f81e71\">\n    if (typeof pickleAds_ObjIds === \'undefined\') {\n        var pickleAds_ObjIds = [];\n    }\n    if (pickleAds_ObjIds.indexOf(\'pickle_adsystem_5194c95f81e71\') === -1) {\n        pickleAds_ObjIds.push(\'pickle_adsystem_5194c95f81e71\');\n    }\n</script>\n\n\n');
+} else {
+    document.write('<a href=\"http://www.sothebysrealty.com/eng/sales/0-99000000-price\" target=\"_blank\"><img src=\"http://d3cxgjorprur2q.cloudfront.net/campaigns/campaign_49/creative_64/3dcube_backup.jpg\" border=\"0\"></a>');
+}

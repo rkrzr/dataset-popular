@@ -1,0 +1,642 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<script type="text/javascript">(function(){var a=navigator.userAgent,b=window.location,c=document.cookie;if(a.match(/iP(od|ad|hone)/i)||a.match(/Android/i)||a.match(/RIM Tablet/i))if(c.indexOf("mobile=false")<0)b.href="http://www.noaa.gov/mobile/splash.php";else if(a.match(/iPad/i)||a.match(/Android/i)||a.match(/RIM Tablet/i))document.documentElement.className+=" tablet "})();</script>
+<meta name="DC.title" content="National Oceanic and Atmospheric Administration (NOAA) Home Page" />
+<meta name="DC.description" content="The National Oceanic and Atmospheric Administration (NOAA) is a federal agency focused on the condition of the oceans and the atmosphere. It plays 
+several distinct roles within the Department of Commerce." />
+<meta name="DC.creator" content="US Department of Commerce, NOAA, National Oceanic and Atmospheric Administration" />
+<meta name="DC.date.created" scheme="ISO8601" content="1998-12-06" />
+
+<meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+<meta name="keywords" content="coastal and marine ecosystems, fisheries, climate, el ni&ntilde;o, data and forecasts for weather and water cycle 
+events, including storms, hurricanes, tornadoes, droughts, floods, commerce, transportation, research, nautical charts, 
+air quality, fire weather, diving, satellites, coral reef, whales, turtles, tsunamis, volcanoes" />
+<meta name="author" content="US Department of Commerce, NOAA, National Oceanic and Atmospheric Administration" />
+<meta name="description" content="The National Oceanic and Atmospheric Administration (NOAA) is a federal agency focused on the condition of the oceans and the atmosphere. It plays 
+several distinct roles within the Department of Commerce." />
+<meta name="language" content="EN-US" />
+
+  <link rel="apple-touch-icon" href="/mobile/logo_apple.png"/> 
+
+    <link rel="apple-touch-icon-precomposed" href="/mobile/logo_apple.png"/>
+
+
+<title>NOAA - National Oceanic and Atmospheric Administration</title>
+<!--
+<script type="text/javascript" src="loadEvents.js"></script>
+<script type="text/javascript" src="explore.js"></script>
+//-->
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="NOAA News [RSS]" href="http://www.rss.noaa.gov/noaarss.xml" />
+<script type="text/javascript" src="/explore.js"></script>
+<script type="text/javascript" src="/loadEvents.js"></script>
+<script type="text/javascript" src="/includes/exit.js"></script>
+
+
+<script type="text/javascript" src="/scripts/AC_RunActiveContent.js"></script>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="/scripts/AC_RunActiveContent.js" language="javascript"></script>	
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+<!-- Countdown to Launch Script -->
+<script src="scripts/jquery-1.6.1.js" type="text/javascript"></script>
+<script src="scripts/jquery.jcountdown.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+	$("#launch_time").countdown({
+		date: "October 28, 2011 10:48:01", /* Satellite Launch Date. The date is off by an additional 5 hours. */
+		offset: 1,
+		onComplete: function( event ){
+		
+			$(this).html("<div class=\"countdown_complete\">LAUNCHED!</div>");
+		},
+		onPause: function( event, timer ){
+
+			$(this).html("Pause");
+		},
+		onResume: function( event ){
+		
+			$(this).html("Resumed");
+		},
+		leadingZero: true
+	});
+	
+	//$("#time2").countdown('pause');
+	
+	//$("#time2").countdown('resume');
+
+});
+</script>
+<script type="text/javascript" src="/slider/source/coin-slider.min.js"></script>
+<link rel="stylesheet" href="/slider/source/coin-slider-styles.css" type="text/css" />
+<link href="images/extreme_banner/extreme_banner.css" rel="stylesheet" />
+<link href="css/socialmedia.css" rel="stylesheet" />
+
+</head>
+<body class="home">
+
+<!-- BEGIN VIEW CONTAINER //-->
+<div id="index_container">
+
+	<!-- BEGIN HEADER //-->
+<div id="header">
+							<!-- BEGIN HEADING TITLE //-->
+			<div id="headTitle">
+			<a href="http://www.noaa.gov/index.html"><img src="/images/head_title.png" alt="National Oceanic and Atmospheric Administration, United States Department of Commerce" width="611" height="69" /></a>
+			<a href="http://www.commerce.gov" id="headDOC" title="DOC Seal.  Click to visit the U.S. Department of Commerce Website."></a>
+			</div>
+			<!-- END HEADING TITLE //-->
+<!-- HEADER TITLE //-->
+						<!-- BEGIN MID NAVIGATION //-->
+		<div id="midBlock">
+			<ul id="midNavElements">
+				<li id="midNavAbout"><a href="/about-noaa.html">About NOAA</a></li>
+				<li id="midNavContacts"><a href="/contacts.html">Contacts</a></li>
+				<li id="midNavLocator"><a href="http://nsd.rdc.noaa.gov">Staff Directory</a></li>
+				<li id="midNavHelp"><a href="/help.html">Help</a></li>
+			</ul>
+			<div id="searchBox">
+				<label for="query-field" style="display: none;" >Search Criteria</label>
+				<form  id="searchForm" method="get" action="http://search.usa.gov/search">
+                	<fieldset id="searchFieldSet">
+					<input type="hidden" name="affiliate" value="noaa.gov" />
+					<input type="hidden" name="v:project" value="firstgov" />
+					<input type="text" name="query"  id="query-field" />
+					<input type="image" src="/images/search_submit.png" id="searchsubmit"  alt="Click to Search NOAA.gov" />
+					</fieldset>
+    			</form>
+			</div>
+		</div>
+		<!-- END MID NAVIGATION //--><!-- MID NAVIGATION //-->
+			
+	</div>
+	<!-- END HEADER //-->
+	<!-- BEGIN LEFT SIDE NAVIGATION -->
+	<div id="leftNav">
+			<ul id="leftNavElements">
+					<li id="leftNavWeather">
+						<form id="localWeather" action="http://forecast.weather.gov/zipcity.php" method="post">
+                        	<fieldset id="wxFieldSet">
+							<label for="zipcity"> Weather.gov  Forecast</label>
+							<br />	<input  type="text" id="zipcity" name="inputstring" value="City, ST"  onfocus="this.value=''" > <input type="image" src="/images/weather_submit.png" id="wxsubmit" alt="Click to look up weather forecast by City, State" />
+							</fieldset>
+						</form>
+					</li>
+					<li id="leftNavAlerts"><a href="http://www.weather.gov">Active Weather Alerts</a></li>
+					<li id="leftNavOrganizations"><a href="/organizations.html">Our Organization</a></li>
+					<li id="leftNavOpportunities"><a href="/opportunities.html">Working With Us</a></li>
+					<li id="leftNavMedia"><a href="/media.html">Media & Constituents</a></li>
+					<li id="leftNavYourState"><a href="http://www.legislative.noaa.gov/NIYS/">NOAA In Your State</a></li>
+					<li><a href="http://www.noaanews.noaa.gov/stories2013/20130410_budget_statement.html">Budget Information</a></li>
+  <li id="leftNavEmergency"><a href="http://www.homelandsecurity.noaa.gov">Emergency Information for NOAA Employees</a></li>
+                    <li id="leftNavLast" onclick="window.location.href='http://www.nws.noaa.gov/com/weatherreadynation/'"><a href="http://www.nws.noaa.gov/com/weatherreadynation/" title="NOAA Weather Ready Nation">Weather Ready Nation</a></li>
+
+				    </ul>
+<!-- LEFT NAVIGATION ITEMS //-->
+			    <div id="leftNavExtras">
+    
+    <br />
+<a href="http://www.usda.gov/drought"><img src="/images/drought-badge_145.jpg" alt="USDA drought page." width="150" height="58" style="margin-top: -8px;"/></a>
+    <a href="http://www.noaawatch.gov"><img src="/images/left_nav_noaawatch.png" alt="NOAAWatch All Hazards Monitor" width="129" height="31" /></a>
+    <!--<a href="eos.html"><img src="/images/noaa_eos.png" alt="Earth Observation - Taking the Pulse of the Planet" width="127" height="50" /></a>  //-->
+        
+         <a href="http://www.climate.gov"><img src="/images/noaa_climategov_new.png" width="145" height="40" alt="Climate.gov - Science and services for society"/></a>
+
+         <a href="/lawenforcementupdates/"><img src="/images/noaa_enforcement.png" width="130" height="43" alt="Enforcement Complaint E-Hotline" /></a>
+    <!--<a href="http://www.osd.noaa.gov/jpssgap/"><img src="/images/JPSS-GAP.png" width="144" height="40" alt="JPSS (GAP) Mitigation Study" /></a>-->
+         
+         </div>
+<!-- LEFT NAVIGATION EXTRAS (FRONT) //-->
+	</div>
+	<!-- END LEFT SIDE NAVIGTION //-->
+
+	<!-- BEGIN CONTENT CONTAINER //-->
+	<div id="contentArea" class="front">
+
+		<!-- BEGIN CENTER AREA //-->
+		<div id="centerArea">
+			 <!-- Add # to make #include comment FEATURE STORY section to activate inc_emergency.html //-->
+            
+            <!-- Reverse to return to normal //-->
+			<!-- include virtual="/inc_emergency.html"-->
+			<!-- BEGIN FEATURE STORY //-->
+<div id='coin-slider'>
+
+
+<a href="http://www.youtube.com/watch?v=VKR9Vk5lftc&feature=youtu.be"><img src=/slider/images/image_03_safeboatingweek_2013.jpg width="450" height="320" alt=Safe boating video. Credit: NOAA."/><span>
+<div style="font-size: 1.4em;"><b>Safe boating makes for smooth sailing</b></div>
+Before you head out onto the water, get the forecast and don a life vest</span></a>
+
+
+
+
+
+<a href="http://www.nmfs.noaa.gov/podcasts/2013/05/listening_to_fin_whales.html"><img src=/slider/images/image_04_finwhale_podcast.jpg width="450" height="320" alt=Fin whale. Credit: NOAA."/><span>
+<div style="font-size: 1.4em;"><b>To protect fin whales, scientists work on listening skills</b></div>
+NOAA researchers study whale songs to map endangered populations</span></a>
+
+
+
+
+<a href="http://www.youtube.com/watch?v=DuMOkD_JBwY&amp;feature=youtu.be"><img src=/slider/images/image_02_droughtvideo.jpg width="450" height="320" alt=Drought video. Credit: NOAA."/><span><div style="font-size: 1.4em;"><b>To escape drought, slow and steady wins the race</b></div>
+See what it takes to 'break' drought conditions in the Plains</span></a>
+
+
+
+
+
+<a href="http://nrc.oarhq.noaa.gov/CouncilProducts/ResearchPlans/5-YearRDPlan.aspx"><img src="/slider/images/image_02_southpole_NOAA_Sept2012_ozonemeasurements.jpg" width="450" height="320" alt=Ozone and south pole. Credit: NOAA."/><span>
+<div style="font-size: 1.4em;"><b>NOAA's draft five-year R&D plan open for comment</b></div>
+Take a closer look at our scientific research priorities for 2013-2017</span></a>
+
+
+
+
+
+<a href="http://noaaoceanscience.wordpress.com/2013/05/10/technology-and-data-noaa-and-partners-deliver-new-climate-and-health-data-tool-to-public/"><img src="/slider/images/image_02_climateandhealth.jpg" width="450" height="320" alt=Soldier in sun, drinking water - link between climate and health. credit: noaa."/><span>
+<div style="font-size: 1.4em;"><b>'Open data' drives release of climate & health research</b></div>
+MATCH, an online data tool, could open door to new scientific insights</span></a>
+
+
+
+
+
+
+
+
+<a href="http://oceanservice.noaa.gov/news/weeklynews/may13/2013surveys.html"><img src="/slider/images/image_02_postsandy_hydrographicsurvey.jpg" width="450" height="320" alt= NOAA Begins 2013 Post-Sandy Hydrographic Surveys at Statue of Liberty. Credit: NOAA."/><span>
+<div style="font-size: 1.4em;"><b>Post-Sandy surveys around the Statue of Liberty</b></div>
+NOAA working to re-establish safe navigation ahead of July 2013 reopening</span></a>
+
+<a href="http://www.ncdc.noaa.gov/news/ncdc%E2%80%99s-data-help-track-emergence-periodical-cicadas"><img src="/slider/images/image_02_cicada.jpg" width="450" height="320" alt= Cicada."/><span><div style="font-size: 1.4em;"><b>NOAA data helping track cicada emergence</b></div>
+U.S. Climate Reference Network soil data used in NPR citizen scientist project</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <a href="http://www.drought.gov/drought/"><img src="/slider/images/image_01_drought_042413.jpg" width="450" height="320" alt="U.S. Drought" /><span>
+<div style="font-size: 1.5em;"><b> Drought continues to grip nation
+</b></div>Get the latest conditions and list of resources</span>
+ </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+  
+  
+ 
+ 
+
+  
+  
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+ 
+
+
+  
+  
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+   
+  
+  
+
+
+
+
+  
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+  
+  
+ 
+  
+
+ 
+    
+
+
+
+    
+
+
+
+      
+         
+    
+    
+
+
+    
+    
+       
+
+    
+    
+
+    
+    
+    
+  <!--<a href="http://www.spc.ncep.noaa.gov/">
+
+        <img src='/slider/images/mar2_severe_wx.jpg' alt="Severe Weather Map" >
+
+     <span>
+
+            <div style="font-size: 1.5em;"><b>Severe weather from Friday continues</b></div>Affects parts of Ala., Ga., Ill., Ind., Ky., Miss., Ohio, and Tenn.
+
+        </span>
+
+    </a>-->
+    
+ 
+     
+    
+
+</div>
+	<!-- END FEATURE STORY //-->
+						<!-- Add # to make #include comment FEATURE STORY section to activate inc_emergency.html //-->
+            
+            <!-- Reverse to return to normal //-->
+			<!-- include virtual="/inc_emergency.html"-->
+			<!-- BEGIN FEATURE STORY //-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({ width: 450, height: 320, navigation: true, effect: 'straight', delay: 5000, spw: 3, sph: 2
+ });
+	});
+</script>
+		
+
+  <!-- FEATURE STORY //-->
+
+			<!-- BEGIN NOAA NOW //-->
+			<div id="noaaNow">
+				<!--img src="/images/title_noaanow.png" width="86" height="14" alt="NOAANow - Top News Stories" class="sectionTitle"/-->
+				<ul id="noaaNowList">
+						<li><a href="http://www.ncdc.noaa.gov/sotc/global/2013/04/"></a><a href="http://www.ncdc.noaa.gov/sotc/global/2013/04/">Global April temperatures were 13th highest on record; Year-to-date is eighth warmest period on record; North American snow cover was third largest</a><br />According to NOAA scientists, April 2013 was also the 37th consecutive April and 338th consecutive month (more than 28 years) with a global temperature above the 20th-century average.</li>
+	<li><a href="http://www.ncdc.noaa.gov/sotc/national/2013/4"></a><a href="http://www.ncdc.noaa.gov/sotc/national/2013/4">April was cool, wet and had more snow on the ground for the contiguous U.S.; April temperatures were coolest since 1997</a><br />According to NOAA scientists, the average temperature for the contiguous United States during April was 49.7°F, 1.4°F below the 20th-century average. It was the 23rd coolest April on record. Below-average temperatures dominated the central United States.</li>
+					<!-- <li id="subscribenoaaNow"></li> -->		
+				</ul>
+			</div>
+			<!-- END NOAA NOW //-->
+<!-- NOAA NOW //-->
+		   
+        
+      </div>
+<!-- END CENTER AREA //-->
+		
+		<!-- BEGIN FAR RIGHT COLUMN //-->
+	  <div id="rightArea">	
+						<!-- BEGIN EXPLORE NOAA //-->
+			<div id="exploreNOAA">
+				<img src="/images/title_explore.jpg" width="180" height="14" alt="Explore our Agency" class="sectionTitle"  />
+				<ul id="exploreNOAAItems">
+				  <li id="exploreWeather"><a href="wx.html"><img src="/images/explore_weather.png" alt="Explore Weather" title="Explore Weather"  width="68" height="43" /></a></li>
+					<li id="exploreOceans"><a href="ocean.html"><img src="/images/explore_oceans.png"  alt="Explore Oceans" title="Explore Oceans" width="68" height="43" /></a></li>
+					<li id="exploreFisheries"><a href="fisheries.html"><img src="/images/explore_fisheries.png" alt="Explore Fisheries" title="Explore Fisheries" width="68" height="43" /></a></li>
+					<li id="exploreCharting"><a href="charts.html"><img src="/images/explore_charting.png" alt="Explore Charting" title="Explore Charting" width="68" height="43"  /></a></li>
+					<li id="exploreSatellites"><a href="satellites.html"><img src="/images/explore_satellites.png" alt="Explore Satellites" title="Explore Satellites" width="68" height="42"  /></a></li>
+					<li id="exploreClimate"><a href="climate.html"><img src="/images/explore_climate.png" alt="Explore Climate" title="Explore Climate" width="68" height="42" /></a></li>
+					<li id="exploreResearch"><a href="research.html"><img src="/images/explore_research.png" alt="Explore Research" title="Explore Research" width="68" height="42" /></a></li>
+					<li id="exploreCoasts"><a href="coasts.html"><img src="/images/explore_coasts.png" alt="Explore Coasts" title="Explore Coasts" width="68" height="42" /></a></li>
+				</ul>
+			</div>
+			<!-- END EXPLORE NOAA //-->
+	<!-- EXPLORE NOAA //-->
+			
+			<!-- BEGIN NEWS RELEASES //-->
+			<div id="newsReleases">
+				<a id="newsReleaseArchive" href="/newsarchive.html">All Releases</a>
+				<img src="/images/title_newsroom.jpg" width="180" height="14" alt="From the Newsroom" class="sectionTitle"/>
+				<ul id="newsReleasesList">
+						<li><a href="http://www.noaanews.noaa.gov/stories2013/20130520_shipwrecks.html">New NOAA report examines national oil pollution threat from shipwrecks</a></li>
+	<li><a href="http://www.noaanews.noaa.gov/stories2013/20130520_charts.html">NOAA’s latest mobile app provides free nautical charts for recreational boating</a></li>
+	<li><a href="http://www.noaanews.noaa.gov/stories2013/20130515_sandyassessment.html">NOAA releases final report of Sandy service assessment</a></li>
+	<li><a href="http://www.noaanews.noaa.gov/stories2013/20130502_goesr.html">First GOES-R instrument ready to be installed onto spacecraft</a></li>
+	<li><a href="http://www.noaanews.noaa.gov/stories2013/20130429_ports.html">New current meter at Stevens will feed data into NOAA’s real-time information system to allow ships to navigate more safely in New York harbor</a></li>
+				  <li id="subscribeReleases"><a href="http://www.rss.noaa.gov/noaarss.xml">Subscribe to NOAA News [RSS]</a> <img src="/images/rss_icon.png" alt="Subscribe to RSS Feed" width="12" height="12" /></li>
+				</ul>
+			</div>
+			<!-- END NEWS RELEASES //-->
+<!-- NEWS RELEASES //-->
+						<!-- BEGIN FEATURES //-->
+			<div id="features">
+				<img src="/images/title_closerlook.jpg" alt="A Closer Look" width="180" height="14" class="sectionTitle"/>
+				
+                
+          <ul id="featureItems">
+          
+			<li id="smallFeatureFullWidth" style="background-image: url('/images/features_education.png');"><a href="http://www.education.noaa.gov">NOAA Education</a><br />Science Resources for Students and Teachers </li>
+					<li id="smallFeatureFullWidth" style="background-image: url('/images/features_corps.png');"><a href="http://www.noaacorps.noaa.gov">NOAA Corps</a><br />
+					  The New Corps of Discovery <a href="http://www.corpscpc.noaa.gov/flash/recruit_video.html">video</a></li>
+                      <div style="display:none;"> <img src="http://www.nnvl.noaa.gov/iod/iod.jpg"  /></div>
+	
+          <!--
+          <li><a href="http://www.education.noaa.gov"><img src="/images/features_education.png" alt="Education." width="32" height="32" /></a>&nbsp; &nbsp;<a href="http://www.education.noaa.gov"> NOAA Education</a><br />Science Resources for Students and Teachers 
+					<li><a href="http://www.noaacorps.noaa.gov"><img src="/images/features_corps.png" alt="NOAA Corps." width="32" height="32" />NOAA Corps</a><br />
+					  The New Corps of Discovery [<a href="http://www.noaacorps.noaa.gov/recruiting/recruit_video.html">see video</a>]</li>
+			 -->
+              </ul>
+              
+              
+</div>
+<!-- END FEATURES //--><!-- FEATURES //-->
+			<!-- BEGIN SOCIAL MEDIA //-->
+
+<div id="socialmedia">
+
+  <img src="images/title_socialmedia.jpg" width="180" height="14" alt="Stay Connected to NOAA" class="sectionTitle" />
+
+<ul id="socialmediaItems">
+
+  <li><a href="https://twitter.com/#!/NOAA" title="NOAA on Twitter"><img src="/images/social_twitter_off_sm.png" alt="NOAA on Twitter" width="34" height="34" border="0" onmouseover="this.src='/images/social_twitter_sm.png';" onmouseout="this.src='/images/social_twitter_off_sm.png';" /></a></li>
+  
+  <li><a href="http://www.facebook.com/usnoaagov" title="NOAA on Facebook"><img src="/images/social_facebook_off_sm.png" alt="NOAA on Facebook" width="34" height="34" border="0" onmouseover="this.src='/images/social_facebook_sm.png';" onmouseout="this.src='/images/social_facebook_off_sm.png';" /></a></li>
+  
+  <li><a href="http://www.youtube.com/usnoaagov" title="NOAA on YouTube"><img src="/images/social_youtube_off_sm.png" alt="NOAA on YouTube" width="34" height="34" border="0" onmouseover="this.src='/images/social_youtube_sm.png';" onmouseout="this.src='/images/social_youtube_off_sm.png';" /></a></li>
+  
+  <li><a href="http://www.rss.noaa.gov/noaarss.xml" title="NOAA on RSS Feed"><img src="/images/social_rss_off_sm.png" alt="NOAA on RSS Feed" width="34" height="34" border="0" onmouseover="this.src='/images/social_rss_sm.png';" onmouseout="this.src='/images/social_rss_off_sm.png';" /></a></li>
+  
+  <li><a href="/socialmedia/#podcasts" title="NOAA on Podcast"><img src="/images/social_podcast_off_sm.png" alt="NOAA on Podcast" width="34" height="34" border="0" onmouseover="this.src='/images/social_podcast_sm.png';" onmouseout="this.src='/images/social_podcast_off_sm.png';" /></a></li>
+  
+</ul>
+
+<ul id="socialmediaViewAll">
+
+  <a href="socialmedia/" title="View all of NOAA's social media sites">View all of NOAA's social media sites</a>
+
+</ul>
+
+</div>
+</div>
+
+<!-- END SOCIAL MEDIA //--><!-- SOCIAL MEDIA //-->
+            
+		</div>
+		<!-- END FAR-RIGHT COLUMN //-->
+
+		<div style="clear: both"></div>
+
+	</div>
+
+	<div style="clear: both"></div>
+
+	<!-- END CONTENT CONTAINER //-->
+</div>
+		<!-- END VIEW CONTAINER //-->
+		<!-- BEGIN FOOTER //-->
+ <div id="footer">
+	 <a href="/mobile/index.php">NOAA Mobile</a> | 
+     <a href="http://www.noaa.gov/privacy.html">Protecting Your Privacy</a> | 
+	 <a href="http://www.corporateservices.noaa.gov/~foia/">FOIA</a> | 
+	 <a href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html">Information Quality</a> |  
+	<a href="/disclaimer.html">Disclaimer</a> | 
+	 <a href="http://www.usa.gov">USA.gov</a>  |
+     <a href="http://www.ready.gov">Ready.gov</a> | 
+     <a href="/sitemap.html">Site Map</a> |
+	 <a href="mailto:webmaster@noaa.gov?subject=NOAA Website">Contact Webmaster</a></div>
+<!-- END FOOTER //-->
+<script type="text/javascript">
+  //<![CDATA[
+    var aid = "noaa.gov";
+  //]]>
+</script>
+<script src="http://search.usa.gov/javascripts/stats.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e8b2d4f2b7a30ac"></script>
+
+<!-- ANALYTICS SCRIPT -->
+<script type="text/javascript" src="/scripts/federated-analytics.js"></script>
+		<!-- FOOTER //-->
+                
+</body>
+</html>
+

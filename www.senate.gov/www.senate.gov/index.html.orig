@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>U.S. Senate</title>
+	<link rel="STYLESHEET" type="text/css" href="/resources/style.css" />
+	<link rel="STYLESHEET" type="text/css" href="/resources/global.css" />	
+    <script src="resources/global.js" type="text/javascript"></script>
+    <script TYPE="text/javascript">
+        function findYourSenator() {
+            location=document.findSenators.findsenator.options[document.findSenators.findsenator.selectedIndex].value;
+        }
+    
+    </SCRIPT>
+    <STYLE>
+    .contenttitle {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: arial
+}
+
+.contentsubtitle {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: arial
+}
+    </STYLE>
+</head>
+
+<body>
+	<div style="text-align: center; marign: 0 auto;"><img src="/resources/images/uss_bg_top.gif" width="770" height="5" alt="" border="0" /></div>
+	<div id="wrapper">			
+		<div id="mainWrapper">
+			<div id="container">
+				<div id="main_pageheader">
+                    <div id="main_pageheader_left"><img src="/resources/images/uss_logo_01.gif" width="329" height="66" alt="Senate.Gov. The United States Senate" border="0" /></div>
+					<div id="main_pageheader_right">
+                            <form method="post" ID="findSenators" name="findSenators" ACTION="javascript: findYourSenator()">
+                                <img src="/resources/images/uss_main_find.gif" width="94" height="9" alt="Find Your Senators" border="0" /> <br />
+                                <label for="findsenator"></label><select id="findsenator" name="stateName"><option value="/general/contact_information/senators_cfm.cfm">Find Your Senators</option><option value="/general/contact_information/senators_cfm.cfm?State=AL">Alabama</option><option value="/general/contact_information/senators_cfm.cfm?State=AK">Alaska</option><option value="/general/contact_information/senators_cfm.cfm?State=AZ">Arizona</option><option value="/general/contact_information/senators_cfm.cfm?State=AR">Arkansas</option><option value="/general/contact_information/senators_cfm.cfm?State=CA">California</option><option value="/general/contact_information/senators_cfm.cfm?State=CO">Colorado</option><option value="/general/contact_information/senators_cfm.cfm?State=CT">Connecticut</option><option value="/general/contact_information/senators_cfm.cfm?State=DE">Delaware</option><option value="/general/contact_information/senators_cfm.cfm?State=FL">Florida</option><option value="/general/contact_information/senators_cfm.cfm?State=GA">Georgia</option><option value="/general/contact_information/senators_cfm.cfm?State=HI">Hawaii</option><option value="/general/contact_information/senators_cfm.cfm?State=ID">Idaho</option><option value="/general/contact_information/senators_cfm.cfm?State=IL">Illinois</option><option value="/general/contact_information/senators_cfm.cfm?State=IN">Indiana</option><option value="/general/contact_information/senators_cfm.cfm?State=IA">Iowa</option><option value="/general/contact_information/senators_cfm.cfm?State=KS">Kansas</option><option value="/general/contact_information/senators_cfm.cfm?State=KY">Kentucky</option><option value="/general/contact_information/senators_cfm.cfm?State=LA">Louisiana</option><option value="/general/contact_information/senators_cfm.cfm?State=ME">Maine</option><option value="/general/contact_information/senators_cfm.cfm?State=MD">Maryland</option><option value="/general/contact_information/senators_cfm.cfm?State=MA">Massachusetts</option><option value="/general/contact_information/senators_cfm.cfm?State=MI">Michigan</option><option value="/general/contact_information/senators_cfm.cfm?State=MN">Minnesota</option><option value="/general/contact_information/senators_cfm.cfm?State=MS">Mississippi</option><option value="/general/contact_information/senators_cfm.cfm?State=MO">Missouri</option><option value="/general/contact_information/senators_cfm.cfm?State=MT">Montana</option><option value="/general/contact_information/senators_cfm.cfm?State=NE">Nebraska</option><option value="/general/contact_information/senators_cfm.cfm?State=NV">Nevada</option><option value="/general/contact_information/senators_cfm.cfm?State=NH">New Hampshire</option><option value="/general/contact_information/senators_cfm.cfm?State=NJ">New Jersey</option><option value="/general/contact_information/senators_cfm.cfm?State=NM">New Mexico</option><option value="/general/contact_information/senators_cfm.cfm?State=NY">New York</option><option value="/general/contact_information/senators_cfm.cfm?State=NC">North Carolina</option><option value="/general/contact_information/senators_cfm.cfm?State=ND">North Dakota</option><option value="/general/contact_information/senators_cfm.cfm?State=OH">Ohio</option><option value="/general/contact_information/senators_cfm.cfm?State=OK">Oklahoma</option><option value="/general/contact_information/senators_cfm.cfm?State=OR">Oregon</option><option value="/general/contact_information/senators_cfm.cfm?State=PA">Pennsylvania</option><option value="/general/contact_information/senators_cfm.cfm?State=RI">Rhode Island</option><option value="/general/contact_information/senators_cfm.cfm?State=SC">South Carolina</option><option value="/general/contact_information/senators_cfm.cfm?State=SD">South Dakota</option><option value="/general/contact_information/senators_cfm.cfm?State=TN">Tennessee</option><option value="/general/contact_information/senators_cfm.cfm?State=TX">Texas</option><option value="/general/contact_information/senators_cfm.cfm?State=UT">Utah</option><option value="/general/contact_information/senators_cfm.cfm?State=VT">Vermont</option><option value="/general/contact_information/senators_cfm.cfm?State=VA">Virginia</option><option value="/general/contact_information/senators_cfm.cfm?State=WA">Washington</option><option value="/general/contact_information/senators_cfm.cfm?State=WV">West Virginia</option><option value="/general/contact_information/senators_cfm.cfm?State=WI">Wisconsin</option><option value="/general/contact_information/senators_cfm.cfm?State=WY">Wyoming</option></select>&nbsp;<input TYPE="IMAGE" SRC="/resources/images/uss_button_go.gif" ALIGN="absmiddle" alt="Go" /><!--<a href="#"><img align="absmiddle" alt="GO" src="/resources/images/uss_button_go.gif" onClick="location=findSenators.findsenator.options[findSenators.findsenator.selectedIndex].value" style="padding: 0px; border-style: none; link-style: none; border-thickness: 0px;"></a>-->
+                            </form>
+                            <div class="formruler">
+                                <img border="0" alt="" height="1" width="1" src="/resources/images/spacer.gif"></div>
+                            <form method="GET" action="/general/search/search_cfm.cfm" name="search">
+                                <img src="resources/images/uss_main_search.gif" width="34" height="9" alt="Search" border="0" /> <br />
+                                <!-- Removed 'Enter Keyword(s)' from the value field <label for="search"></label><input onfocus="this.value=''" class="searchBox" id="search" value="Enter Keyword(s)" name="q" type="text">-->
+                                <label for="search"></label><input onfocus="this.value=''" class="searchBox" id="search" value="" name="q" type="text"><input align="absmiddle" alt="GO" src="/resources/images/uss_button_go.gif" type="image"><input value="default_collection" name="site" type="hidden"><input value="10" name="num" type="hidden"><INPUT value="0" name="filter" type="hidden">
+                            </form>
+                        </div>					
+				</div><!-- // main_pageheader -->				
+				<div id="main_pagenav"><a href="general/contact_information/senators_cfm.cfm"><img src="/resources/images/home/uss_mainnav_01_off.gif" width="109" height="33" alt="Senators" border="0"  onmouseover="rolloverOn(this,'uss_mainnav_01')" onmouseout="rolloverOff(this,'uss_mainnav_01')" /></a><a href="/pagelayout/committees/d_three_sections_with_teasers/committees_home.htm"><img src="/resources/images/home/uss_mainnav_02_off.gif" width="118" height="33" alt="Committees" border="0" onmouseover="rolloverOn(this,'uss_mainnav_02')" onmouseout="rolloverOff(this,'uss_mainnav_02')" /></a><a href="/pagelayout/legislative/g_three_sections_with_teasers/legislative_home.htm"><img src="/resources/images/home/uss_mainnav_03_off.gif" width="192" height="33" alt="Legislation and Records" border="0" onmouseover="rolloverOn(this,'uss_mainnav_03')" onmouseout="rolloverOff(this,'uss_mainnav_03')" /></a><a href="/pagelayout/art/a_three_sections_with_teasers/art_hist_home.htm"><img src="/resources/images/home/uss_mainnav_04_off.gif" width="134" height="33" alt="Arts and History" border="0" onmouseover="rolloverOn(this,'uss_mainnav_04')" onmouseout="rolloverOff(this,'uss_mainnav_04')" /></a><a href="/pagelayout/visiting/a_three_sections_with_teasers/visitors_home.htm"><img src="/resources/images/home/uss_mainnav_05_off.gif" width="94" height="33" alt="Visitors" border="0" onmouseover="rolloverOn(this,'uss_mainnav_05')" onmouseout="rolloverOff(this,'uss_mainnav_05')" /></a><a href="/pagelayout/reference/g_three_sections_with_teasers/reference_home.htm"><img src="/resources/images/home/uss_mainnav_06_off.gif" width="113" height="33" alt="Reference" border="0" onmouseover="rolloverOn(this,'uss_mainnav_06')" onmouseout="rolloverOff(this,'uss_mainnav_06')" /></a></div> <!-- // main_pagenav -->
+				
+				<div id="main_pageheader_images"><a href="/general/capcam.htm" title="Capitol Dome Camera"><img src="/resources/images/home/uss_img_capitol_off.gif" width="174" height="90" alt="The United States Capitol" border="0" onmouseover="rolloverOn(this,'uss_img_capitol')" onmouseout="rolloverOff(this,'uss_img_capitol')" /></a><img src="/resources/images/spacer.gif" width="1" height="1" alt="" border="0" /><a href="/artandhistory/art/artifact/Painting_33_00019.htm"><img src="/resources/images/home/uss_feature_telegraph.jpg" width="410" height="90" alt="Telegraph" border="0" /></a><img src="/resources/images/spacer.gif" width="1" height="1" alt="" border="0" /><a href="floor/index.htm" title="Senate Floor Webcast"><img src="/resources/images/home/uss_img_floor_off.gif" width="174" height="90" alt="Senate Floor" border="0" onmouseover="rolloverOn(this,'uss_img_floor')" onmouseout="rolloverOff(this,'uss_img_floor')" /></a></div> <!-- // main_pageheader_images -->
+
+				<div id="contentArea">
+					<div id="leftCol">
+					
+						<div id="leftnav">
+							<a href="/pagelayout/reference/b_three_sections_with_teasers/virtual.htm"><img src="/resources/images/home/uss_main_leftnav_01_off.gif" width="174" height="24" alt="Virtual Reference Desk" border="0" onmouseover="rolloverOn(this,'uss_main_leftnav_01')" onmouseout="rolloverOff(this,'uss_main_leftnav_01')" /></a><br />
+							<a href="/pagelayout/legislative/g_three_sections_with_teasers/lobbyingdisc.htm"><img src="/resources/images/home/uss_main_leftnav_02_off.gif" width="174" height="24" alt="Public Disclosure" border="0" onmouseover="rolloverOn(this,'uss_main_leftnav_02')" onmouseout="rolloverOff(this,'uss_main_leftnav_02')" /></a><br />
+							<a href="/reference/Nominations/Index.htm"><img src="/resources/images/home/uss_main_leftnav_03_off.gif" width="174" height="24" alt="Nominations" border="0" onmouseover="rolloverOn(this,'uss_main_leftnav_03')" onmouseout="rolloverOff(this,'uss_main_leftnav_03')" /></a><br />
+							<a href="/pagelayout/reference/two_column_table/stats_and_lists.htm"><img src="/resources/images/home/uss_main_leftnav_04_off.gif" width="174" height="24" alt="Statistics and Lists" border="0" onmouseover="rolloverOn(this,'uss_main_leftnav_04')" onmouseout="rolloverOff(this,'uss_main_leftnav_04')" /></a><br />
+						</div> <!-- // left nav -->
+
+
+                       
+						
+
+                         
+
+
+                        <!-- Inaugural Website -->
+                        <!--
+                        <div class="leftnav_news">
+							<div class="leftnav_newsTitle"><a href="http://inaugural.senate.gov/"><img src="/resources/images/home/inaugural_website.gif" width="120" height="14" alt="Inaugural Web site" border="0" /></a></div>
+							<div class="teasertext">The Joint Congressional 
+                                Committee on Inaugural Ceremonies has launched a 
+                                <A 
+                                HREF="http://inaugural.senate.gov/">website</A> 
+                                to provide up-to-date information about the 2013 
+                                Presidential Inauguration and related ceremonies 
+                                along with historical information and photos of 
+                                inaugurals past.</a>
+                            </div>
+						</div>-->
+ <!-- Remember Senator Robert Byrd -->
+                       <!--<div class="leftnav_news"> 
+							
+                            
+                            
+                            
+                            <div class="leftnav_newsTitle"><a href="http://byrd.senate.gov"><img src="/resources/images/home/Byrd_InMemoriam.gif" width="120" height="31" alt="Remebering Senator Robert C. Byrd" border="0" /></a></div>
+                            <div class="teasertext">
+                                <P><a href="http://byrd.senate.gov">Senator Byrd (1917-2010)</a></P>
+                            </div>
+						</div>-->
+
+						<!--Congressional Gold Medal Ceremony
+<div class="leftnav_news">
+<div class="lefnav_newsTitle"><a href="/general/brooke_cgm_1.htm"><img src="/resources/images/home/GoldMedalCeremony.gif" width="120" height="32" alt="Congressional Gold Medal Ceremony" border="0"/></a></div>
+<div class="teasertext"><A HREF="/general/brooke_cgm_1.htm">Video stream</A> of the ceremony honoring Congressional Gold Medal recipient, the Honorable Edward Brooke.</div>
+
+</div>-->
+<!-- Capitol Camera-->
+                        <!--<div class="leftnav_news">
+							<div class="leftnav_newsTitle"><a href="/general/capcam.htm"><img src="/resources/images/home/capitol_camera.gif" width="120" height="14" alt="Capitol Camera" border="0" /></a></div>
+							<div class="teasertext"><A HREF="/general/capcam.htm">Live video stream</a> of the U.S. Capitol dome.</div>
+						</div>-->
+
+                        <!--17th Amendment Centennial -->
+
+                        
+
+                         <div class="leftnav_news">
+                             <div class="leftnav_newsTitle"><a href="/artandhistory/history/common/briefing/100Years_Direct_Election_Senators.htm"><img src="/resources/graphic/centennial_of_direct_election.gif" width="120" height="40" alt="Centennial of Direct Election" border="0" /></a></div>
+                             <div class="teasertext">
+                                 April 8, marks the 100th anniversary of the ratification of the 17th Amendment, establishing direct election of senators. <a href="/artandhistory/history/common/briefing/100Years_Direct_Election_Senators.htm">More&raquo;</a>
+                             </div>
+                         </div>
+                         
+
+                        <!-- Civil War Sesquicentennial-->
+                        <div class="leftnav_news">
+							<div class="leftnav_newsTitle"><a href="/artandhistory/history/common/civil_war/CivilWar.htm"><img src="/resources/images/home/CW150_FrontPage.gif" width="120" height="51" alt="Civil War Sesquicentennial" border="0" /></a></div>
+							<div class="photo"><img src="/artandhistory/art/resources/graphic/thumbnail/38_00264.jpg" alt="The Great Uprising of the North--An Anniversary Picture--April 12, 1862." border="0" /></div><div class="teasertext">In commemoration of the 150th anniversary of the Civil War, a <a href="/artandhistory/history/common/civil_war/CivilWar.htm">continuing series</a> of online features explores the Senate's wartime experience.</div>
+					  <!--  </div>-->
+                            
+						</div>
+
+						<!--   Take the Puck Challenge -->
+						<!-- <div class="leftnav_news">
+							<div class="leftnav_newsTitle"><a href="/artandhistory/art/puck/puck_intro.htm"><img src="/resources/images/home/uss_title_puck.gif" width="120" height="33" alt="Take the Puck Challenge" border="0" /></a></div>
+							<div class="teasertext">Learn about "Puck," a satirical weekly magazine that parodied the American political scene. It was one of the most popular periodicals of the late 19th century. View slideshows of Puck cartoons and Take the Puck Challenge, an innovative, interactive series of riddles designed to give readers insight to the political satire.
+ <a href="/artandhistory/art/puck/puck_intro.htm">More&#187;</a></div>
+						</div>-->
+                      
+
+                        
+                        
+                        
+<!-- The Senate Chamber Desks -->
+                       <!--remember kennedy entry was here-->
+
+                        <!-- removed include -->
+                        <!--     #include virtual="/general/leftSide_Features/Virtual_Reference_Desk.inc"
+</div>-->
+
+						
+						
+						<div class="leftnav_news"> 
+							<div class="leftnav_newsTitle"><a href="/pagelayout/history/g_three_sections_with_teasers/origins.htm"><img src="/resources/images/home/uss_title_history.gif" width="93" height="31" alt="This Week in Senate History" border="0" /></a></div>
+					
+	
+			
+							<!--<div class="photo"><img src="/artandhistory/history/resources/graphic/thumbnail/JosephMcCarthy.jpg" alt="Joseph McCarthy (R-WI)" border="0" /></div>
+							<div class="leftnav_newsdate">February 9, 1950</div>
+							<div class="teasertext">Senator Joseph R. McCarthy (R-WI) began his rise to national prominence with a speech at Wheeling, West Virginia, in which he charged that Communists had infiltrated federal government agencies.
+ <a href="/pagelayout/history/g_three_sections_with_teasers/origins.htm">More&#187;</a></div>-->
+                            <div class="photo">
+    <img border="0" src="/artandhistory/history/resources/graphic/thumbnail/ConstImage.jpg" alt="U.S. Constitution"></div><div class="leftnav_newsdate">May 13, 1789</div><div class="teasertext">
+    <p>The Constitution required that senators be divided into classes "so that one-third may be chosen every second Year." On May 13, 1789, the Senate implemented this requirement. </p>
+    <a href="/pagelayout/history/g_three_sections_with_teasers/origins.htm">More&raquo;</a>
+</div>
+
+						</div>
+								<!-- American Indian Heritage Month
+						<div class="leftnav_news">
+							<div class="leftnav_newsTitle"><a href="/artandhistory/history/common/generic/American_Indian_Heritage_Month.htm"><img src="/resources/images/home/american_indian_title.gif" width="106" height="31" alt="American Indian Heritage Month" border="0" /></a></div>
+							<div class="teasertext">During the month of November, the United States celebrates National American Indian Heritage Month. <a href="/artandhistory/history/common/generic/American_Indian_Heritage_Month.htm">Learn More</a>.
+
+ </div> 
+						</div>-->	
+
+
+
+
+												
+					</div> 
+						 <!-- // Left Column -->
+					
+					<div id="center_rightColumn">
+						<div id="rightCol">
+							<div id="rightnav">  
+								<a href="/pagelayout/legislative/one_item_and_teasers/2013_schedule.htm"><img src="/resources/images/home/uss_main_rightnav_01_off.gif" width="174" height="24" alt="2013 Session Schedule" border="0" onmouseover="rolloverOn(this,'uss_main_rightnav_01')" onmouseout="rolloverOff(this,'uss_main_rightnav_01')" /></a><br />
+								<a href="/pagelayout/committees/b_three_sections_with_teasers/committee_hearings.htm"><img src="/resources/images/home/uss_main_rightnav_02_off.gif" width="174" height="24" alt="Scheduled Hearings" border="0" onmouseover="rolloverOn(this,'uss_main_rightnav_02')" onmouseout="rolloverOff(this,'uss_main_rightnav_02')" /></a><br />
+								<a href="/pagelayout/legislative/b_three_sections_with_teasers/active_leg_page.htm"><img src="/resources/images/home/uss_main_rightnav_03_off.gif" width="174" height="24" alt="Active Legislation" border="0" onmouseover="rolloverOn(this,'uss_main_rightnav_03')" onmouseout="rolloverOff(this,'uss_main_rightnav_03')" /></a><br />
+								<a href="/pagelayout/legislative/a_three_sections_with_teasers/votes.htm"><img src="/resources/images/home/uss_main_rightnav_04_off.gif" width="174" height="24" alt="Votes" border="0" onmouseover="rolloverOn(this,'uss_main_rightnav_04')" onmouseout="rolloverOff(this,'uss_main_rightnav_04')" /></a><br />
+                                
+							</div> <!-- // right Nav -->
+							
+<!-- Begin maintenance notice -->	
+
+<!-- 						
+							<div id="floorSchedule">
+								<div class="floorSchedule_title"><img src="/resources/images/home/maintenance_notice.gif" width="108" height="29" alt="Scheduled Maintenance Notice" border="0" /></div>
+									<div class="teasertext"><br />This Web site may be unavailable at times on Saturday, August 25th between 6:00am and 6:00pm due to maintenance on the site.</div>							
+							</div>
+ 						
+ -->							
+<!-- End maintenance notice -->							
+                            <div>
+                                
+                                
+                            </div>
+							<div id="floorSchedule">
+                                 <!--<div class="contentsubtitle">
+                                    <a href="/visiting/common/generic/public_access_information.htm" style="color: red;">Door Access Notice</a>                                    
+                                     <br />
+                                     <br />
+                                </div>-->
+                              <!--  <div class="teasertext">
+                                    Senate To Be Open for Business Wednesday
+                                    <br />
+                                    <br />
+The Washington Metropolitan Area experienced a 5.8 to 6.0 earthquake at approximately 2 pm Tuesday.  Fortunately, there have been no earthquake-related injuries reported.  As of now, Wednesday is expected to be a regular workday in the Senate. The U.S. Capitol, Senate office buildings, and garages are expected to reopen by Wednesday morning.
+
+                                    <br />
+                                    <br />
+                                </div>-->
+								<div class="floorSchedule_title"><img src="/resources/images/home/uss_title_schedule.gif" width="116" height="19" alt="Floor Schedule" border="0" /></div>
+								<!-- <div class="floorSchedule_date">Tuesday, Sep 6, 2005</div> -->
+							   
+                               
+                               
+                               
+                                 
+                                 <div class="teasertext">
+								
+								<!--****** floor_schedule Version: 680.1 was generated at: Tuesday, May 14, 2013: 5:50 PM EST in folder: /Senate.gov/legislative/schedule **--><table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td valign="top">
+            <br>
+            <p align="left">
+                <b>Wednesday, May 15, 2013</b>
+            </p>
+            <p>9:30 a.m.: Convene and begin a period of morning business.<br>
+                <br>Thereafter, resume consideration of <a target="_blank" href="http://hdl.loc.gov/loc.uscongress/legislation.113s601">S.601</a>, the Water Resources Development Act.</p>
+            <br>
+            <p>
+                <i>Previous Meeting</i>
+            </p>
+            <p align="left">
+                <b>Tuesday, May 14, 2013</b>
+            </p>
+            <p>The Senate convened at 10:00 a.m. and adjourned at 6:39 p.m. 2 <a href="/legislative/LIS/roll_call_lists/vote_menu_113_1.htm">record votes</a> were taken.</p>
+            <br>
+            <P>
+                <A TARGET="_blank" href="http://thomas.loc.gov/cgi-bin/dailydigest">Daily 
+      Digest</A>(latest issue)
+    </P>
+            <BR>
+            <P>
+                <A TARGET="_blank" href="http://www.gpo.gov/fdsys/browse/browse/getTodaysSenateCalendar.action;jsessionid=hz0FTY9LlYR2MhQ4fWvRZMpdCs9G6YJgLyjzX5Gxxgmmrf2GvLbF!-1276175600!-1777913497">Senate Calendar</A>(latest issue)
+    </P>
+            <BR>
+            <P>
+                <A TARGET="_blank" href="http://www.senate.gov/legislative/LIS/executive_calendar/xcalv.pdf">Executive Calendar</A>(latest issue, PDF format)
+    </P>
+        </td>
+    </tr>
+</table>
+
+								
+								<!--12 noon: Convene and begin a period of morning business.
+									<div class="floorSchedule_ruler"></div>
+									2.15 p.m. : Proceed to the consideration of the cloture motion on S. 147, the Native Hawaiian Government Reorganization Bill.
+									<div class="floorSchedule_ruler"></div>
+									 <a href="#">2005 Session Schedule</a> -->	<br/>	
+                                     							<div class="floorSchedule_Title"><a href="/legislative/LIS/floor_activity/floor_activity.htm"><img src="/resources/images/home/OnTheSenateFloor.gif" width="118" height="19" alt="Floor Activity" border="0" /></a></div>
+                                                                View the previous legislative day's <a href="/legislative/LIS/floor_activity/floor_activity.htm">Floor Activity</a>.
+								</div>
+							</div>
+						</div>
+                         
+                         
+                         
+                         <!-- // right Column -->
+						
+						<div id="centerCol">
+					 
+					     <img src="/resources/images/home/Watergate.gif" alt="Celebrating Black History Month" border="0" />
+							
+                            <div class="ruler"></div>
+                                                <span class="bodyCopy">
+                                                 <P>
+        <font size="+1"></font>
+    </P>
+<P>Forty years ago this month, the Senate launched its best-known inquiry when chairman <A href="/artandhistory/history/common/generic/Featured_Bio_ErvinSam.htm">Sam Ervin</A> of <A href="/states/NC/intro.htm">North Carolina</A> gaveled to order the first public hearing of the Select Committee on Presidential Campaign Activities, commonly known as the <A href="/artandhistory/history/common/investigations/Watergate.htm">Watergate Committee</A>. Americans watched live televised broadcasts of the hearings as senators and staff questioned the president’s closest advisors about the break-in and cover-up at the Watergate office complex and other “illegal and improper campaign practices and financing” that occurred during the presidential campaign of 1972.
+</P>
+<div width="100%">
+<div align="center" style="float:left; padding-left:15px">
+
+<img src="/artandhistory/history/resources/graphic/small/WatergateCommittee.jpg"/>
+</div>
+<div align="center" style="float:left; padding-bottom:10px; padding-right:50px; padding-left:50px">
+<img src="/artandhistory/history/resources/graphic/small/Watergate.jpg"/>
+</div>
+</div>
+<br/>
+
+<P>The Senate Watergate Committee has been credited with reviving public confidence in congressional investigations, which had declined during the McCarthy inquiries of the 1950s. Several factors contributed to the committee’s overall success including extensive media coverage, sustained public interest, the meticulous work of investigators, the cooperation of key witnesses, and the continuing support of the full Senate. Public support for the investigation remained strong even when a series of confrontations between the Watergate Committee and the White House provoked a <A href="/pagelayout/history/g_three_sections_with_teasers/origins.htm">constitutional crisis</A>.  </P>
+<br/>
+<P> Since its first inquiry in 1792, Congress has conducted hundreds of investigations, fulfilling a constitutional oversight responsibility while serving as the eyes and ears of the American public. Over the past two centuries the Senate has probed issues such as interstate commerce, Ku Klux Klan activities, the sinking of the <A href="/artandhistory/history/common/generic/News_Titanic.htm">R.M.S. <I>Titanic</I></A>, <A href="/artandhistory/history/common/investigations/Pecora.htm">Wall Street banking practices</A>, <A href="/artandhistory/history/common/investigations/Kefauver.htm">organized crime</A>, antiunion activity, the sale of cotton, and the Vietnam War. </P>
+<br/>
+<P>
+Congressional investigations, in the words of Senator Ervin, "can be the catalyst that spurs Congress and the public to support vital reforms in our nation’s laws." The Watergate investigation prompted Congress to approve a series of measures including revisions to the <A href="/artandhistory/history/common/investigations/pdf/Watergate_FedElectionCampAct.pdf">Federal Election Campaign Act</A> and the <A href="/artandhistory/history/common/investigations/pdf/Watergate_EthicsGov.pdf">Ethics in Government Act</A>.  </P>
+
+<img width="100%" src="/resources/graphic/horiz_table_line.gif" height="1" />
+
+
+<P align="right"><a href="/general/Features/Archive.htm">Past Feature Articles</a></P>
+</span>
+
+
+
+							
+							<div style="padding: 10px;"></div>	
+							
+							<div class="tour">
+								<div class="tourTitle"><img src="/resources/images/home/uss_title_tours.gif" width="119" height="21" alt="Capitol Tours" border="0" /></div>
+								<div>
+									<div id="tourPhoto"><img src="/resources/images/home/uss_img_visitors.jpg" width="119" height="82" alt="Photo Capitol Hill" border="0" /></div>
+									<div id="tourInfo">
+										<p class="teasertext">FOR INFORMATION ON CAPITOL TOURS, PLEASE CALL 202-226-8000</p>
+										<div class="tour_ruler"></div>
+																				
+										<p class="teasertext">
+										
+										The <a href="/pagelayout/visiting/a_three_sections_with_teasers/visitors_home.htm">visitors page</a> is your source for information on Capitol tours, maps of the area and visiting Washington, D.C. 
+
+
+										</p>
+									</div>
+								</div>									
+							</div> <!-- // Tour -->
+							<br />
+						</div> <!-- // center Column -->
+					</div> <!-- // center_rightColumn -->
+				</div>
+
+			</div> <!-- // container -->	
+			
+			<div id="footer_navigation">
+				<div id="footersection">
+					<ul id="footer_nav">
+						<li class="first"><a href="/general/contact_information/senators_cfm.cfm">Senators</a></li>
+						<li><a href="/pagelayout/committees/d_three_sections_with_teasers/committees_home.htm">Committees</a></li>
+						<li><a href="/pagelayout/legislative/g_three_sections_with_teasers/legislative_home.htm">Legislation &amp; Records</a></li>
+						<li><a href="/pagelayout/art/a_three_sections_with_teasers/art_hist_home.htm">Art &amp; History</a></li>
+						<li><a href="/pagelayout/visiting/a_three_sections_with_teasers/visitors_home.htm">Visitors</a></li>
+						<li><a href="/pagelayout/reference/g_three_sections_with_teasers/reference_home.htm">Reference</a></li>				
+					</ul>
+				</div>
+			</div><!-- // footer_navigation -->
+			
+		</div> <!-- // mainWrapper -->		
+	</div> <!-- // wrapper -->			
+	<!--<div style="text-align: center; marign: 0 auto;"><img src="/resources/images/uss_bg_bottom.gif" width="770" height="8" alt="" border="0" /></div>-->
+		
+	<div id="footer_navigation_2">
+		<div id="footersection_2">
+			<ul id="footer_nav_2">
+                <li class="first_2" style="vertical-align: middle;"><a title="BrowseAloud Support" href="/general/common/generic/browsealoud.htm"><IMG style="vertical-align: middle;" valign="bottom" border="0" SRC="/resources/graphic/browsaloud.gif" alt="BrowseAloud Support" /></a></li>
+<li><a href="/pagelayout/general/one_item_and_teasers/contacting.htm">Contact</a></li>
+<li><a href="/pagelayout/general/one_item_and_teasers/content_responsibility.htm">Content Responsibility</a></li>
+<li><a href="/usage/internetpolicy.htm">Usage Policy</a></li>
+<li><a href="/pagelayout/general/one_item_and_teasers/pdf_help.htm">PDF Help</a></li>
+<li><a href="/pagelayout/general/one_item_and_teasers/privacy.htm">Privacy Policy</a></li>
+<li><a href="/index.htm">www.senate.gov</a></li>
+
+<!-- Created: 12/12/2012 11:47:42 AM -->
+<script src="/wt_sdc/central_webtrends.js" type="text/javascript"></script>
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<script type="text/javascript">
+//<![CDATA[
+var _tag=new WebTrends();
+_tag.dcsGetId();
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+}
+_tag.dcsCollect();
+//]]>
+</script>
+<noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//sdc1.senate.gov/dcsu6dnnr5iyw688xq6v3nh5q_7l3g/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.senate.gov"/></div>
+</noscript>
+
+
+
+			</ul>
+		</div>
+	</div><!-- // footer_navigation -->
+	
+</body>
+</html>
+

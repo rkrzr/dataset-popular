@@ -1,0 +1,230 @@
+/* ############ CSS FOR THE FAO HOME PAGE - RIGHT COLUMN ####### */
+
+td#box_right1 {
+border-bottom:0px;
+/*padding: 0 0 10px 0;*/
+  padding: 0;
+}
+
+td#box_right2 {
+background:none;
+padding: 0;
+}
+
+td#box_right3 {
+padding-top: 0px;
+/*padding:0 0 10px;*/
+}
+
+td#box_right1_2 {
+padding:0 0 2px;
+}
+
+#box_right4 {
+background:none;
+/*padding-bottom: 10px;*/
+}
+
+td#box_right6 {
+background:none;
+padding-top: 10px;
+}
+
+
+/*------------- START BOTTOM BODY HOME PAGE -------------*/ 
+
+#cfs_box_homepage {
+border-top:5px solid #4BAA46;
+border-bottom: 5px solid #537cac;
+margin-top:10px;
+float:left;
+width:197px;
+}
+
+#cfs_box_homepage p.bodytext {
+margin: 2px;
+color:#4071A7;
+text-align: center;
+font-weight: bold;
+}
+
+/*
+#field_box_homepage {
+border-top:5px solid #4BAA46;
+border-bottom: 5px solid #537cac;
+margin-top:10px;
+float:left;
+width:197px;
+}
+*/
+
+div#field_box_homepage p.bodytext {
+margin: 4px 2px 4px 2px;
+color:#4071A7;
+text-align: center;
+font-weight: bold;
+}
+
+#meetings {
+background-color:#f0f0f0;
+float:left;
+width:197px;
+margin-top:0;
+}
+
+div#meetings h1.csc-firstHeader {
+border-top:0;
+background-color:#ce9400;
+color:#FFFFFF;
+height:33px;
+font-size:0.8em;
+}
+
+#blueBox {
+background-color:#f0f0f0;
+border-top:0;
+padding-bottom:10px;
+}
+
+div#blueBox h1.csc-firstHeader {
+border-top:0 none;
+background-color:#28467f;
+color:#FFFFFF;
+height:33px;
+font-size:0.8em;
+font-weight:bold;
+margin-bottom:8px;
+margin-top:0;
+padding-left:3px;
+padding-top:4px;
+}
+
+div#greenBox h1.csc-firstHeader {
+background-color:#6DAC58;
+color:#FFFFFF;
+font-size:0.8em;
+height:33px;
+/*padding-bottom:3px;
+padding-top:1px;*/
+}
+
+td#box_blue_key h1.csc-firstHeader {
+background-color:#008296;
+border-top:0 none;
+color:#FFFFFF;
+font-size:0.8em;
+font-weight:bold;
+height:33px;
+margin-bottom:7px;
+margin-top:0;
+padding-left:3px;
+/*padding-bottom:4px;*/
+padding-top:4px;
+}
+
+td#box_blue_key, #box_ylw_light {
+background-color:#f0f0f0;
+}
+
+#greenBox {
+background-color:#f0f0f0;
+border-top:0;
+}
+
+table.box_home {
+background-color:#f0f0f0;
+}
+
+div#c22637 h1 a {
+color:#FFFFFF;
+font-size:0.8em;
+}
+
+div#c22637 h1 {
+background-color:#CE9400;
+font-size:0.8em;
+color:#FFFFFF;
+height:auto;
+padding-bottom:16px;
+width:196px;
+padding-left:4px;
+padding-top:4px;
+}
+
+td#box_ylw h1.csc-firstHeader a {
+color:#FFFFFF;
+}
+
+td#box_notice {
+border:0;
+}
+
+/*------------- END BOTTOM BODY HOME PAGE -------------*/ 
+
+/*------------- START MORE NEWS + MEDIA -------------*/ 
+
+td#media_centre ul li, table#more_news_media ul li {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(images/arrow.gif) no-repeat scroll left 6px;
+color:#4071A7;
+font-size:0.8em;
+list-style-type:none;
+margin:2pt;
+}
+
+td#media_centre ul li {
+padding:2px 0 3pt 15px;
+}
+
+table#more_news_media ul li {
+margin:2pt;
+padding:1px 0 0 15px;
+}
+
+table#more_news_media ul {
+padding: 0;
+}
+
+h4.media_list {
+margin: 0;
+}
+
+h4.media_list a {
+font-size:13px;
+}
+
+table#more_news_media h1.csc-firstHeader {
+font-size:0.9em;
+font-weight:bold;
+margin-bottom:0;
+margin-top:3px;
+padding-bottom:0;
+vertical-align:top;
+}
+
+table#more_news_media h1.csc-firstHeader a {
+color:#004673;
+}
+
+table#more_news_media {
+border-top: 1px solid #a2a5a4;
+margin-top: 7px;
+}
+
+table#more_news_media td {
+padding-top: 5px;
+}
+
+/*------------- END MORE NEWS + MEDIA -------------*/ 
+
+#billionBanner{
+  padding-left:15px;
+  padding-bottom:15px;
+}
+#underBannerSpacer{
+  border-bottom:1px solid #A2A5A4;
+  width:812px;
+  padding-bottom:15px;
+}

@@ -1,0 +1,1443 @@
+@import url(../style.css);
+@import url(horizontal_menu.css);
+
+body {
+  margin: 10px;
+  background: white;
+	/* ===START Fixing body spacing for Safari, KHTML === */
+	margin-top: 9px;
+	padding-top: 1px;
+	/* ===END Fixing body spacing for Safari, KHTML === */
+	/* ===START font style === */
+	font: 11px Arial, Verdana, Helvetica, sans-serif;
+	color: #000;
+	/* ===END font-size === */
+}
+
+/* ===START Horizontal (top) "submenu" === */
+#organizational_menus {
+	margin: 27px 0 6px 0;
+}
+#organizational_menus .topLayer .active_submenu_item {
+	background-color: #3B8ACC;
+}
+/* ===END Horizontal (top) "submenu" === */
+/* ===START Heading Banners=== */
+#page_hed_lvl_1_block_top {
+	width: 578px;
+	height: 7px;
+}
+#page_hed_lvl_1_block {
+	width: 577px;
+	height: 95px;
+}
+#page_hed_lvl_1_block, #page_hed_lvl_2_block {
+	border-right: 1px solid #757575;
+}
+#page_hed_lvl_1_block a {
+	/* because banner is using a GIF over a background*/
+	display: block;
+	width: 576px; /* yes, 576 and not 577 */
+}
+
+/* ===START SPP: General H1 banner=== */
+/* spp_cstc is now 'gr,' below */
+/* The rest of SPP is now 'cstc' */
+.spp td#page_hed_lvl_1_block_top,
+.programs_general td#page_hed_lvl_1_block_top,
+.spp_rd td#page_hed_lvl_1_block_top,
+.spp_cstc td#page_hed_lvl_1_block_top,
+.spp_doser td#page_hed_lvl_1_block_top,
+.spp_sepp td#page_hed_lvl_1_block_top,
+.spp_shr td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/spp_all/spp_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* New banners: "2010b" */
+.spp_2010b td#page_hed_lvl_1_block_top,
+.spp_rd_2010b td#page_hed_lvl_1_block_top,
+.spp_cstc_2010b td#page_hed_lvl_1_block_top,
+.spp_doser_2010b td#page_hed_lvl_1_block_top,
+.spp_sepp_2010b td#page_hed_lvl_1_block_top,
+.spp_shr_2010b td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/spp_all/spp_top_2010b.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.spp td #page_hed_lvl_1_block,
+.programs_general td #page_hed_lvl_1_block,
+.spp_rd td #page_hed_lvl_1_block,
+.spp_cstc td #page_hed_lvl_1_block,
+.spp_doser td #page_hed_lvl_1_block,
+.spp_sepp td #page_hed_lvl_1_block,
+.spp_shr td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/spp_all/spp_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+/* New banners: "2010b" */
+.spp_2010b td #page_hed_lvl_1_block,
+.spp_rd_2010b td #page_hed_lvl_1_block,
+.spp_cstc_2010b td #page_hed_lvl_1_block,
+.spp_doser_2010b td #page_hed_lvl_1_block,
+.spp_sepp_2010b td #page_hed_lvl_1_block,
+.spp_shr_2010b td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/spp_all/spp_btm_2010b.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* ===END SPP: General H1 banner=== */
+
+/* ===START Center of Science, Policy and Social Programs (CSPSP): General H1 banner */
+.cspsp td#page_hed_lvl_1_block_top,
+.doser td#page_hed_lvl_1_block_top,
+.rcp td#page_hed_lvl_1_block_top,
+.rd td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/cspsp_all/cspsp_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.cspsp td #page_hed_lvl_1_block,
+.doser td #page_hed_lvl_1_block,
+.rcp td #page_hed_lvl_1_block,
+.rd td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/cspsp_all/cspsp_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* ===END Center of Science, Policy and Social Programs (CSPSP): General H1 banner=== */
+
+/* ===START Office of Government Relations (GR): General H1 banner=== */
+.gr td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/gr_all/gr_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.gr td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/gr_all/gr_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* ===END Office of Government Relations (GR): General H1 banner=== */
+
+/* ===START Education: General H1 banner=== */
+.edu_general td#page_hed_lvl_1_block_top,
+.edu_massmedia td#page_hed_lvl_1_block_top,
+.edu_sse td#page_hed_lvl_1_block_top,
+.edu_p2061 td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/edu_all/edu_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.edu_general td #page_hed_lvl_1_block,
+.edu_massmedia td #page_hed_lvl_1_block,
+.edu_sse td #page_hed_lvl_1_block,
+.edu_p2061 td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/edu_all/edu_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* ===END Education: General H1 banner=== */
+
+/* ===START International: General H1 banner=== */
+.intl_general td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/international_all/international_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.intl_general_2010b td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/international_all/international_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.intl_general td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/international_all/international_btm.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.intl_general_2010b td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/international_all/international_btm.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* ===END International: General H1 banner=== */
+
+
+/* ===START Centers: General H1 banner=== */
+/* includes
+		Public Engagement,
+		Careers in S&T,
+		Curriculum Materials,
+		Sci, Tech, and Sustainability
+		Capacity Center
+*/
+.centers td#page_hed_lvl_1_block_top,
+.ctr_public_engagement td#page_hed_lvl_1_block_top,
+.ctr_careers_in_st td#page_hed_lvl_1_block_top,
+.ctr_curriculum_materials td#page_hed_lvl_1_block_top,
+.ctr_sci_tech_sustainability td#page_hed_lvl_1_block_top,
+.adv_sci_eng_capacity td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/centers_all/centers_general_icons_top.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+/*.news td #page_hed_lvl_1_block,*/
+.centers td #page_hed_lvl_1_block,
+.ctr_public_engagement td #page_hed_lvl_1_block,
+.ctr_careers_in_st td #page_hed_lvl_1_block,
+.ctr_curriculum_materials td #page_hed_lvl_1_block,
+.ctr_sci_tech_sustainability td #page_hed_lvl_1_block,
+.adv_sci_eng_capacity td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/centers_all/centers_general_icons_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+/*	 ===START Centers: CSTSP H1 banner=== */
+.ctr_cstsp td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/centers_cstsp/cstsp_icons_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.ctr_cstsp td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/centers_cstsp/cstsp_icons_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+/*	 ===END Centers: CSTSP H1 banner */
+
+/* ===END Centers: General H1 banner */
+
+/* ===START Membership H1 banner */
+.membership td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/membership/membership_graphic_top.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.membership td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/membership/membership_graphic_btm.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/* ===END Membership H1 banner */
+
+/* ===START Careercenter: General H1 banner */
+.careercenter td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/careercenter/careercenter_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.careercenter td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/careercenter/careercenter_btm.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/* ===END Careercenter: General H1 banner */
+
+/* ===START pan-AAAS H1 banner */
+/* For privacy policy, terms of use, sitemap, About AAAS,
+	AAAS site-spanning purposes
+*/
+.pan_aaas td#page_hed_lvl_1_block_top
+{
+	background-image: url(../images/banners/pan_aaas/pan_aaas_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.pan_aaas td #page_hed_lvl_1_block
+{
+	background-image: url(../images/banners/pan_aaas/pan_aaas_btm.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/* ===END Membership H1 banner */
+
+/* ===START Publications H1 banner */
+.publications td#page_hed_lvl_1_block_top,
+.edu_sbf td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/publications/science_reader_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.publications td #page_hed_lvl_1_block,
+.edu_sbf td #page_hed_lvl_1_block
+{
+	background-image: url(../images/banners/publications/science_reader.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/* ===END Publications H1 banner */
+
+/* ===START Multimedia H1 banner */
+.multimedia td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/multimedia/multimedia_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.multimedia td #page_hed_lvl_1_block
+{
+	background-image: url(../images/banners/multimedia/multimedia_bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/* ===END Multimedia H1 banner */
+
+
+/* ===START Centers: Specific H1 banner for Capacity Center */
+/* should be able to replace general with specific images in 1/2009 */
+.ctr_adv_sci_eng_capacity td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/centers_all/centers_general_icons_top.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.ctr_adv_sci_eng_capacity td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/centers_all/centers_general_icons_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/* ===END Centers: Specific H1 banner for Capacity Center */
+
+
+/* ===START Portals: Specific H1 banner */
+.portal_policy td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/portals/policy_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.portal_policy td #page_hed_lvl_1_block {
+	background-image: url(../images/banners/portals/policy_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.portal_educators td#page_hed_lvl_1_block_top,
+.portal_students td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/portals/educators_top.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.portal_educators td #page_hed_lvl_1_block,
+.portal_students td #page_hed_lvl_1_block{
+	background-image: url(../images/banners/portals/educators_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+.portal_kid td#page_hed_lvl_1_block_top {
+	background-image: url(../images/banners/portals/kid_top.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.portal_kid td #page_hed_lvl_1_block{
+	background-image: url(../images/banners/portals/kid_btm.jpg); background-repeat: no-repeat;
+	background-position: right top;
+}
+/* ===END Portals: Specific H1 banner */
+
+
+/* ===START page-header, level 2=== */
+/*
+	The banner-like section title on a colored background
+      Also called "subsection"
+*/
+
+#page_hed_lvl_2_block {
+/*
+	Contains entire row;
+	controls color of left-most rectangle
+*/
+	vertical-align: center;
+	background: #91b8d9;
+}
+#page_hed_lvl_2 {
+	margin-left: 173px;
+	background: #f2f2f2; /* std lt-grey */
+	height: 48px;
+}
+#page_hed_lvl_1_block h1 {
+	margin: 0;
+}
+#page_hed_lvl_2 h2 {
+	margin: 0 0 0 30px;
+	padding: 0;
+	color: #c33; /* std red */
+	font-size: 24px;
+	line-height: 48px;
+	font-style: normal;
+	font-weight: bold;
+}
+#page_hed_lvl_2 h2 img {
+	/*Image of "Q:"*/
+margin: 13px 10px 0 0;
+float: left;
+}
+#page_hed_lvl_2 h2.question {
+background: url(../images/subheader_q_small_b.gif) no-repeat 4px 13px;
+padding-left: 52px; /* 38px width + 14px margin */
+}
+
+/* ===START SPP-specific styling=== */
+.spp #page_hed_lvl_2,
+.portal_policy #page_hed_lvl_2 {
+	/* set the background color for the color-field (H2) header */
+	background: #0c9939;
+}
+.spp #page_hed_lvl_2 h2,
+.portal_policy #page_hed_lvl_2 h2 {
+	color: white;
+	font-family: Times serif;
+}
+
+/* ===END SPP-specific styling=== */
+
+/* ===START Center of Science, Policy and Social Programs (CSPSP)-specific styling=== */
+.cspsp #page_hed_lvl_2,
+.doser #page_hed_lvl_2,
+.rcp #page_hed_lvl_2,
+.rd #page_hed_lvl_2 {
+	/* set the background color for the color-field (H2) header */
+	background: #0c9939;
+}
+.cspsp #page_hed_lvl_2 h2,
+.doser #page_hed_lvl_2 h2,
+.rcp #page_hed_lvl_2 h2,
+.rd #page_hed_lvl_2 h2 {
+	color: white;
+	font-family: Times serif;
+}
+/* ===END Center of Science, Policy and Social Programs (CSPSP)-specific styling=== */
+
+/* ===START Office of Government Relations (GR)-specific styling=== */
+.gr #page_hed_lvl_2 {
+	/* set the background color for the color-field (H2) header */
+/*	background: #0c9939;*/
+	background: rgb(121,121,121);
+
+}
+.gr #page_hed_lvl_2 h2 {
+	color: white;
+	font-family: Times serif;
+}
+/* ===END Office of Government Relations (GR)-specific styling=== */
+
+/* ===START Centers-specific styling=== */
+.centers #page_hed_lvl_2,
+.ctr_public_engagement #page_hed_lvl_2,
+.ctr_cstsp #page_hed_lvl_2,
+.ctr_curriculum_materials #page_hed_lvl_2,
+.ctr_sci_tech_sustainability #page_hed_lvl_2,
+.adv_sci_eng_capacity #page_hed_lvl_2 {
+	/* set the background color for the color-field (H2) header */
+	background: #92278f;
+}
+.centers #page_hed_lvl_2 h2,
+.ctr_public_engagement #page_hed_lvl_2 h2,
+.ctr_cstsp #page_hed_lvl_2 h2,
+.ctr_curriculum_materials #page_hed_lvl_2 h2,
+.ctr_sci_tech_sustainability #page_hed_lvl_2 h2,
+.adv_sci_eng_capacity #page_hed_lvl_2 h2 {
+	color: white;
+	font-family: Times, serif;
+	font-size: 30px;
+}
+/* ===END Centers-specific styling=== */
+
+/* ===START Education-specific styling=== */
+.edu #page_hed_lvl_2,
+.edu_massmedia #page_hed_lvl_2,
+.edu_sse #page_hed_lvl_2,
+.edu_p2061 #page_hed_lvl_2 {
+	/* set the background color for the color-field (H2) header */
+	background: #d52c2f; /* measured from the screen */
+}
+
+/* ===END Education-specific styling=== */
+
+/* ===START International-specific styling=== */
+.intl #page_hed_lvl_2,
+.intl_general #page_hed_lvl_2 {
+	/* set the background color for the color-field (H2) header */
+	background: #22ACAE; /* measured from the screen */
+}
+
+/* ===END International-specific styling=== */
+
+/* ===START Portals-specific styling=== */
+.portal_educators #page_hed_lvl_2,
+.portal_students #page_hed_lvl_2{
+	/* set the background color for the color-field (H2) header */
+	background: #0A599B;	/* measured from the screen */
+}
+/*overrule styles to allow full-size banner image */
+.portal_educators #page_hed_lvl_2 h2,
+.portal_students #page_hed_lvl_2 h2,
+.portal_kid #page_hed_lvl_2 h2 {
+	margin-left: 0;
+}
+.portal_educators #page_hed_lvl_2 h2 img,
+.portal_students #page_hed_lvl_2 h2 img,
+.portal_kid #page_hed_lvl_2 h2 img {
+	float: none;
+	margin: 0;
+}
+/* ===END Portals-specific styling=== */
+
+/* ===END page-header, level 2=== */
+/* ===END Heading Banners === */
+
+/* ===START search/quicklink block=== */
+/* I think the original "search_block" style, below, didn't get used.
+		Probably because some other table-based styling broke it. */
+/*	For normal pages, not the AAAS homepage:*/
+#site_search_jump_box, 
+#navigation_column #search_and_quicklinks_box {
+	background-color: #3483C5;
+	padding-bottom: 11px;
+	vertical-align: top;
+}
+#search_and_quicklinks_box {
+	padding: 0 9px 11px 10px;
+	width: 154px;
+}
+/*	For the AAAS homepage:*/
+#navigation_column #search_and_quicklinks_box {
+	padding: 0 9px 11px 10px;
+	width: 155px;
+}
+
+#search_box form {
+	margin: 0;
+}
+#search_box .text_query {
+	width: 120px; 
+/*	height:20px; */
+	margin: 0; 
+	vertical-align: middle;
+	font-size: 12px;
+	border: 1px solid black;
+}
+#search_box .submit {
+	margin: 0 0 0 7px; width: 20px; height: 20px; vertical-align: middle; border: 0;
+}
+
+
+
+#search_box {
+	padding-top: 7px;
+}
+#advanced_search_box {
+	text-align: right;
+}
+
+
+
+
+#quicklinks_menu {
+	margin: 7px 0 0 0;
+}
+#quicklinks_menu select {
+	width: 140px;
+	font-size: 10px;
+}
+#quicklinks_menu option:hover {
+	text-decoration: underline;
+}
+div#search_block {
+	margin: 0 9px 0 10px;
+	padding: 7px 0;
+	background: #3483c5;
+}
+form#simple_search, form#quick_link_menu {
+	margin: 0;
+	padding: 0;
+}
+div#search_block div.simple {
+	width: 154px;
+}
+div#search_block div.simple input {
+	width: 20px; height: 20px; border: 0; vertical-align: bottom; margin: 0 0 0 9px; padding: 0 0 1px 0;
+}
+div#search_block div.simple input#text {
+	width: 118px; height: 18px; margin: 0; border: 1px solid black; padding: 0;
+}
+div#search_block div.advanced {
+text-align: right;
+width: 100%;
+}
+div#quick_link_menu_block {
+	margin: 0 9px 0 10px;
+	padding: 0 0 1em 0;
+}
+div#quick_link_menu_block select {
+	width: 140px;
+}
+/* ===END search/quicklink block=== */
+
+/* ===START nav-column=== */
+/* Modify nav column styles to work w/ new styles */
+#divCont, #divCont .subLevelMenuBg {
+	background-image: none;
+}
+#divCont table, #divCont .clTopFirst, #divCont .clTop, #divCont .clSub {
+		background-image: url(../images/submenu3_bg.gif);
+/*border-left: 1px solid #757575;*/
+}
+.clTopFirst {
+	line-height: 19px;
+}
+#divCont .clTopBlank, #divCont .clTopBlank img {
+	height: 4px;
+	vertical-align: top;
+}
+/* navcol menu main items are black: */
+#divCont a {
+	color: black;
+}
+/* submenu items are blue */
+#divCont .clSub a {
+	color: #0A599B;
+}
+/* ===END nav-column=== */
+
+/* ===START content_block=== */
+/* Why 3 blocks? To avoid lt-rt padding,
+	avoiding box-model hacks for fixing IE.
+*/
+div#main_content_block {
+	margin: 0 0 0 174px;
+	width: 577px;
+	border-right: 1px solid #757575;
+}
+div#main_content_inner_block {
+/* Why padding? Top for IE layout. Bottom for Firefox bordering. */
+	padding: 1.3em 0 1px 0;
+	border-left: 1px solid #757575;
+	border-bottom: 1px solid #757575;
+}
+div#main_content {
+	margin: 0 29px 1px 30px;
+	width: 516px;
+	border-top: 1px solid white; /* fixes page_tools placement */
+}
+/* ===START page-type specific === */
+/*
+.page_typical div#main_content,
+.page_port div#main_content {
+	margin-right: 35px;
+	width: 510px;
+}
+*/
+/*
+	* the 'article' type was based on existing styles in 2006.
+	* I now suspect that was a mistake carried forwards without consistency
+	* from the past, and it is interfering with efforts to present content
+	* consistently and (thinking forwards) automatically. I'm nixing it.
+	* -- MG, 2/2012
+
+.page_article div#main_content {
+	margin: 0 70px 1px 30px;
+	width: 475px;
+}
+*/
+
+/* ===END page-type specific === */
+/* ===END content_block=== */
+
+/* ===START left-hand vertical menu=== */
+
+/*	for left-hand parent items that are too long for 1 line
+*/
+.clTopFirst .multiline_chunk,
+.clTop .multiline_chunk,
+.clTop .too_long {
+	padding-right: 19px;
+}
+
+/* ===END left-hand vertical menu=== */
+
+/* ===START bottom horizontal menu=== */
+#btm_horiz_menu,
+#btm_copyright_line {
+	margin: 4px 0 15px 174px;
+	width: 579px;
+}
+#btm_copyright_line {
+	text-align: center;
+}
+/* ===END bottom horizontal menu=== */
+
+/* ===START print-friendly=== */
+.print_friendly_contents {
+/*	Only for ez-print display*/
+	display: none;
+}
+#printable_info {
+	display: none;
+}
+/* ===END print-friendly=== */
+
+/* ===START page_tools appearance=== */
+/* for page-related tools like
+	"print", "e-mail", and "bookmark"
+*/
+#page_tools {
+	width: 150px;
+	float: right;
+	margin: 1em 0 10px 10px;
+}
+#page_tools_print {
+	margin-top: 0;
+}
+#page_tools_print p {
+	margin: 0;
+	height: 33px; /* to fit the bgrnd's height */
+	background-image: url(../images/printer_icon_sh.jpg);
+	/* Image (c) David Vignoni, 2005;
+		released under GNU Lesser General Public License.
+		From GNOME version of Nuvola
+	*/
+	background-repeat: no-repeat;
+	line-height: 33px;
+}
+#page_tools_print p a {
+/* Makes the bgrnd icon "clickable" */
+	padding: 0 0 0 26px;
+	display: block;
+	height: 33px;
+}
+/* ===END page_tools appearance=== */
+
+/* ===START standard headings=== */
+/*	.pre_heading_shift marks content of pages upgraded
+		to new HTML but not yet to new banners.
+		Heading levels have been moved up, but that shouldn't
+		be apparent yet. After upgrade, remove pre_heading_shift
+		class from main_content, and all will appear good.
+		When the upgrade is done across entire site, you can
+		remove pre_heading_shift from this stylesheet. --MG
+		
+		.promotional_event_details is a way for people to make their info as noticeable as headings. Use this class for a block of paragraphs of location & date information. As of 5/1/2012, it should like an H5 heading with no space between lines (paragraphs). That's the only reason why it's (mis)placed here, within the headings section.
+*/
+#main_content_block .headerLarge,
+#main_content_block h3,
+#main_content_block .headerMedium,
+#main_content_block h4,
+#main_content_block .headerSmall,
+#main_content_block  h5,
+#main_content_block .subHeader,
+#main_content_block h6,
+#main_content .promotional_event_details {
+	font: bold 18px Arial, Helvetica, sans-serif;
+	color: #3483c5;
+	margin: 1em 0;
+}
+#main_content_block .headerLarge,
+#main_content_block h3,
+#main_content_block .pre_heading_shift h3.pre_heading_shift {
+	color: #0a599b;
+	margin: 0; /*Main heading was normally applied with a SPAN*/
+}
+#main_content_block .headerMedium,
+#main_content_block h4,
+#main_content_block .pre_heading_shift h3 {
+	font-size: 16px;
+	clear: left;
+}
+#main_content_block .headerSmall,
+#main_content_block h5,
+#main_content_block .pre_heading_shift h4,
+#main_content .promotional_event_details {
+	font-size: 14px;
+	clear: left;
+}
+#main_content_block .subHeader,
+#main_content_block h6,
+#main_content_block .pre_heading_shift h5 {
+	margin: 1em 0;
+	font-size: 12px;
+	color: #069;
+	clear: left;
+}
+
+#main_content_block .pre_heading_shift h3 {
+	color: #3483c5;
+	margin: 1em 0;
+}
+#main_content_block .pre_heading_shift h3.pre_heading_shift {
+	font-size: 18px;
+}
+
+#main_content_block th {
+	vertical-align: bottom;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+#main_content_block dt {
+  font-weight: bold;
+}
+/* ===END standard headings=== */
+
+/* ===START More promotional_event_details styling=== */
+
+#main_content .promotional_event_details {
+	margin: 1em 0;
+}
+#main_content .promotional_event_details p {
+	margin: 0;
+}
+
+
+/* ===END More promotional_event_details styling=== */
+
+/* ===START Call to action (rounded bubble) buttons=== */
+.call_to_action div {
+	margin-bottom: 1em;
+}
+.call_to_action div.action_btn {
+	margin: 1em 0 0 0;
+}
+.call_to_action div.action_btn a {
+	display: block;
+	width: 98px;
+	height: 28px;
+	background:  url(../images/action_button_bubbles/red_bubble_btn.gif);
+	color: white;
+	text-decoration: none;
+}
+.call_to_action div.action_btn a span {
+	display: block;
+	padding: 4px 0 0 16px;
+}
+/* ===END Call to action (rounded bubble) buttons=== */
+
+/* ===START standard side images=== */
+/*	standard size and positioning of images floating beside text
+*/
+#main_content_block .std_side_image,
+#main_content_block .std_side_image_other {
+  float: right;
+  clear: right;
+  margin: 10px 0 10px 10px;
+  text-align: center;
+}
+#main_content_block .std_side_image_other {
+  /* for rare occasions when you need to put image on other side */
+  float: left;
+  clear: left;
+  margin: 10px 10px 10px 0;
+}
+#main_content_block div.full_width_media {
+	float: none;
+	clear: none;
+	width: 100%;
+	margin: 10px auto;
+}
+
+.std_side_image p,
+#main_content_block .std_side_image p,
+#main_content_block .std_side_image_other p {
+  /* captions */
+  margin: 0.25em 0.5em;
+/*  font-size: smaller;*/
+  font-size: 10px;
+}
+#main_content_block .image_credit {
+  font-size: 10px;
+}
+#main_content_block .std_side_image p a {
+  font-size: inherit;
+}
+.image_needs_border {
+	border: 1px solid #ccc;
+}
+
+/* ===START stand-alone media=== */
+/* For images, movies, etc. that you want to appear in
+ * a blank window of their own
+ * even though they're ACTUALLY in a normal web page
+*/
+#main_content_block #main_content .standalone_media_background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300%;
+	height: 300%;
+	background: white;
+	z-index: 1000
+}
+
+#main_content_block #main_content .standalone_media_box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 20px;
+	width: auto;
+}
+/* ===END stand-alone media=== */
+
+/* ===END standard side images=== */
+
+/* ===START standard side box=== */
+/*	side_box is usually for TOC;
+ * for add'l text material on side of main content,
+ * in the standard grey box with grey bar across top
+*/
+#main_content_block .side_box,
+#main_content_block .side_calls_to_action {
+  float: right;
+  clear: right;
+  width: 150px;
+  margin: 0 0 10px 10px;
+  padding: 0;
+  border: 1px solid #bbb;
+}
+#main_content_block .side_calls_to_action {
+	border: 0;
+}
+/* I prefer you use h4 */
+#main_content_block .side_box h2,
+#main_content_block .side_box h4 {
+  margin: 0 0 0.5em 0;
+  padding: 4px;
+  border-bottom: 2px solid #bbb;
+  color: black;
+  background: #ccc;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+#main_content_block .side_box h2 span.bullet,
+#main_content_block .side_box h4 span.bullet {
+/*  display: none;*/    /*In my dreams.*/
+  color: #c33;
+}
+#main_content_block .side_calls_to_action p,
+#main_content_block .side_box p,
+#main_content_block .side_box ul,
+#main_content_block .side_box ol, 
+#main_content_block .side_box dl {
+  margin: 0 4px 1em 4px;
+  padding: 0; /* for the ul */
+}
+/* ===END standard side box=== */
+
+/* ===START additional materials=== */
+/* block of links to additional material */
+#main_content_block .addl_material_links {
+  font-style: italic;
+}
+#main_content_block .addl_material_links em,
+#main_content_block .addl_material_links i {
+	/*emphasize with the opposite style*/
+	font-style: normal;
+}
+#main_content_block .addl_material_attachments {
+  margin-top: 2em;
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
+/* ===END additional materials=== */
+
+/* ===START highlighted call-out text=== */
+/* What Ed calls "the blue box of power."
+  Highlighted box is for material that you really want to stand out.
+  Must have interior div to get lines top & bottom
+*/
+#main_content_block .highlighted_box,
+#main_content_block .highlighted_box_other {
+  background: #e4e4e4;
+/*  background: #b7d8ec;*/
+  padding: 15px 10px;
+  margin: 10px; /* left margin prevents overlap bug in FF 1.5, 2 & Safari 2 */
+}
+#main_content_block .highlighted_box div,
+#main_content_block .highlighted_box_other div {
+  border: 1px solid #c4c5c1;
+  border-width: 1px 0;
+}
+#main_content_block .highlighted_box div div,
+#main_content_block .highlighted_box_other div div {
+/*  Stop adding borders! */
+  border: 0;
+}
+#main_content_block .highlighted_box .addl_material_links,
+#main_content_block .highlighted_box_other .addl_material_links {
+  font-style: normal;
+}
+#main_content_block .highlighted_box .addl_material_links em,
+#main_content_block .highlighted_box .addl_material_links i,
+#main_content_block .highlighted_box .addl_material_links cite,
+#main_content_block .highlighted_box_other .addl_material_links em,
+#main_content_block .highlighted_box_other .addl_material_links i,
+#main_content_block .highlighted_box_other .addl_material_links cite {
+	font-style: italic;
+}
+#main_content_block .highlighted_box .addl_material_links ul,
+#main_content_block .highlighted_box .addl_material_links ol {
+	margin-left: 20px;
+	padding-left: 0;
+	margin-top: 0;
+}
+/* ===END highlighted call-out text=== */
+
+/* ===START info about articles=== */
+.page_article #main_content_block .article_data {
+/* For article's author  & publication date */
+  clear: both;
+  text-align: center;
+}
+/* ===END info about articles=== */
+
+/* ===START address block=== */
+#main_content_block .address_block {
+  margin: 1em 0 1em 20px;
+}
+#main_content_block .address_block  p {
+  margin: 0;
+}
+#main_content_block .address_block  ul,
+#main_content_block .address_block  ol,
+#main_content_block .address_block  dl {
+	/* so, what was it doing before? */
+  margin-left: inherit;
+  padding-left: 0;
+}
+#main_content_block .address_block .zip_code {
+	margin-left: 0.5em;
+}
+/* ===END address block=== */
+
+/* ===START standard separator=== */
+/*  standard line to separate 2 related pieces of text within a page */
+/*  As of 02/2007, an HR */
+/*	As of  3/23/09, any HR in main_content. */
+#main_content_block .std_separator,
+#main_content hr {
+  width: 50%;
+  clear: both;
+}
+#main_content_block hr.std_separator,
+#main_content hr {
+  text-align: center;
+	margin: 1em auto;
+}
+/* ===END standard separator=== */
+
+/* ===START page end symbol=== */
+#main_content_block div.page_end_symbol {
+  clear: both;
+  margin: 5em 0 2em 0;
+  background: url(../meetings/Annual_Meeting/images/pageend_square.gif%3Fincl_by=general_2006a.css) no-repeat 0 0;
+}
+/* ===END page end symbol=== */
+
+/* === START text stylings === */
+/* instead of using odd headings & classes with bad names, as in past */
+
+/* Replaces old red headings; I still find this annoying
+	but haven't stopped it yet. We must YELL OUR INFO! */
+.add_emphasis {
+	color: #b4291c;
+}
+
+/* === END text stylings === */
+
+/* === START Simple lists of links ===  */
+/* to resources, no explanation, with bullets */
+
+/*	Replaces "blacklinksubmenu" class */
+.link_submenu, .link_label, .link_submenus a, .link_labels a {
+	color: #000;
+	text-decoration: none;
+}
+.link_submenu:hover, .link_label:hover, .link_submenus a:hover, .link_labels a:hover	{
+	color: #c53;
+	text-decoration: underline;
+}
+
+/*	Replaces "blacklinkbold" class */
+ul.link_list_simple, ul.link_list_simple * {
+	margin: 0;
+	padding-left: 0;
+}
+ul.link_list_simple {
+	padding-left: 0;
+	margin-left: 15px; /* don't indent the bullets*/
+}
+
+ul.link_list_simple li {
+	line-height: 1.25em;
+	/* yes, really, the bullets are blue */
+	color: #2c4978;
+}
+ul.link_list_simple a {
+	color: black;
+	font-weight: bold;
+}
+ul.link_list_simple li a:hover {
+	color: #cc5533;
+}
+/* END === Simple lists of links === */
+
+/* Call to action (red rounded) buttons */
+.call_to_action div {
+	margin-bottom: 1em;
+}
+.call_to_action div.action_btn {
+	margin: 1em 0 0 0;
+}
+.call_to_action div.action_btn a {
+	display: block;
+	width: 98px;
+	height: 28px;
+	background:  url(../meetings/images/red_button.gif);
+	color: white;
+	text-decoration: none;
+}
+.call_to_action div.action_btn a span {
+	display: block;
+	padding: 4px 0 0 16px;
+}
+/* END Call to action (red rounded) buttons */
+
+/* ===START standardize ScienceNow appearance */
+/* ScienceNow or ScienceNOW ? Wrap a span around <i>Science</i>Now */
+.snow_name {
+	text-transform: uppercase;
+}
+.snow_name i, .snow_name em, .snow_name cite {
+	text-transform: capitalize;
+}
+/* ===END standardize ScienceNow appearance */
+
+/* ===START Lists of speakers or lecturers=== */
+/*  "speaker_box" is MG's preferred class */
+
+.lecture_block,
+.speaker_box {
+	clear: left;
+	margin-bottom: 2em;
+}
+
+.lecture_block .lecture_nameplate,
+.speaker_box .lecture_nameplate
+{
+/*	text-transform: uppercase;*/
+	font-variant: small-caps;
+}
+.lecture_block .named_lecture_desc,
+.speaker_box .named_lecture_desc {
+	font-style: italic;
+}
+
+.lecture_block .lecture_topic,
+.speaker_box .lecture_topic {
+	font-style: italic;
+}
+.lecture_block .lecturer_title,
+.speaker_box .lecturer_title {
+
+}
+.lecture_block .lecturer,
+.speaker_box .lecturer {
+	font-weight: bold;
+}
+.lecture_block div.place_time,
+.speaker_box div.place_time {
+	margin: 1em 0;
+}
+.lecture_block div.place_time p,
+.speaker_box div.place_time p {
+	margin: 0;
+}
+
+.lecture_block .text,
+.speaker_box .text {
+	margin-left: 130px; /* assumes 120px img to left, + 10px margin */
+}
+.lecture_block p,
+.speaker_box p {
+	margin-bottom: 1em; /*as opposed to whatever old aaas styles set */
+}
+.lecture_block .media,
+.speaker_box .media {
+	margin-left: 20px;
+	margin-top: -1em;
+	font-style: italic;
+}
+.lecture_block div.media em,
+.speaker_box div.media em,
+.lecture_block div.media i,
+.speaker_box div.media i,
+.lecture_block div.media cite,
+.speaker_box div.media cite {
+	font-style: normal;
+}
+.lecture_block p,
+.speaker_box p {
+	margin-bottom: 1em; /*as opposed to whatever old aaas styles set */
+}
+.lecture_block .media,
+.speaker_box .media {
+	margin-top: -1em;
+	font-style: italic;
+}
+.lecture_block div.media *,
+.speaker_box div.media * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.lecture_block div.media p,
+.speaker_box div.media p {
+	margin-left: 20px;
+}
+.lecture_block div.media ul,
+.speaker_box div.media ul {
+	list-style-type: none;
+}
+
+.lecture_block div.media ul ul,
+.speaker_box div.media ul ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+}
+/* ===END Lists of speakers or lecturers=== */
+/* ===START AV links=== */
+/*	For lists of AV materials available,
+	after the subject's description
+*/
+.av_list li p {
+	margin: 1em 0 0 0;
+}
+.av_list li p.materials {
+	margin: 0 0 1em 10px;
+}
+/* ===END AV links=== */
+
+/* ===START email addresses=== */
+.obscured_email span {
+	color: #333;
+}
+/* ===END email addresses=== */
+
+/* ===START FAQ=== */
+/* Formatted FAQ, with outdented "Q" and "A" */
+.faq_labeled_1 p {
+	position: relative;
+	margin-left: 40px;
+}
+.faq_labeled_1 span.q, .faq_labeled_1 span.a {
+	position: absolute;
+	font-weight: bold;
+	left: -40px;
+}
+/* ===END FAQ=== */
+
+/* ===START BACKUP LINK=== */
+/* For "back-to-top" & "return to previous page" links */
+.back_to_top, .return_home {
+	text-align: right;
+}
+/* ===END BACKUP LINK=== */
+
+/* italicized text within italics should be normal.
+repeat that too much, it won't work. Not worried. */
+i i, i em,
+em em,  em i {
+	font-style: normal;
+}
+
+/*Disallowed by Ed*/
+/*
+abbr, acronym {
+  border-bottom: 1px dotted inherit;
+}
+*/
+
+#main_content_block div.paragraph {
+  /*
+Make a div act like a P paragraph element for layout purposes
+  -- so you can float an image in the middle, which can't be
+  legally done with paragraphs.
+*/
+  margin: 1em 0;
+}
+
+/* ===START agenda/schedule formatting== */
+/* For schedules or agendas of events & meetings */
+
+.agenda_list .event_group {
+	/* optional grouping of events,
+		usually for different buildings or subjects */
+	margin-left: 40px;
+}
+.agenda_list h3,
+.agenda_list h4,
+.agenda_list h5 {
+	margin-left: -40px;
+}
+.agenda_list .event_group .event_group_title {
+	/* Title of the grouping */
+	font-style: italic;
+	margin-left: -40px;
+}
+
+.agenda_list .event {
+	margin-bottom: 1em;
+}
+.agenda_list .event .time,
+.agenda_list .event .category {
+	margin: 0;
+}
+.agenda_list .event .category {
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+}
+
+.agenda_list .event p {
+	margin: 0 0 0 40px;
+}
+.agenda_list .event ul {
+	margin: 0.5em 0 0 40px;
+}
+.agenda_list .event ul li {
+	margin-left: 20px;
+	padding-left: 0;
+	margin-bottom: 0.5em;
+}
+
+.agenda_list .title {
+	font-weight: bold;
+}
+
+.agenda_list  .event .admittance {
+	font-style: italic;
+}
+
+.agenda_list .page a {
+	color: black;
+	text-decoration: none;
+}
+/* ===END agenda/schedule formatting== */
+
+/* ===START Add a shadow=== */
+/*	Shadow has 1px space (lightly shaded) to left & top of image
+		so position img at (1,1)
+*/
+.shadow_sq_120x162 {
+	position: relative;
+	width: 130px;
+	height: 172px;
+	background-image: url(../images/shadows/shadow_squared_120x162.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.shadow_sq_120x162 img {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+/* ===END Add a shadow=== */
+
+/* ===START article tease  === */
+#main_content_block .tease_list .std_side_image {
+	clear: left;
+	float: left;
+	margin: 0 18px 10px 0;
+}
+.page_aaas_front .tease_list .tease .headline,
+.page_aaas_front .tease_list .tease .headline a {
+	font-weight: bold;
+	color: black;
+}
+#tease_lists_block .tease .headline,
+.page_aaas_front #featured_events_content_block .tease .headline {
+	font-size: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+	clear: none;
+}
+/* ===END article tease  === */
+
+
+.std_form_01 {
+	margin-left: 20px;
+}
+.required_field {
+	padding-left: 0.25em;
+	color: #b4291c;
+}
+
+.clingy_child {
+	/* a child element that stays close to the parent element
+			-- remove standard margin between the two
+	*/
+	margin-top: -1em;
+}
+
+.ssi_error {
+	display: none;
+}
+
+/* ===START standard list of new fellows  === */
+
+.fellows_lists li {
+	font-weight: bold;
+}
+.fellows_lists em,
+.fellows_lists .institution {
+	font-weight: normal;
+	font-style: italic;
+}
+	/*
+		By default, don't show citation (the reason why they were elected). 
+		Allow individual section (atmos, section w) to show at will.
+	*/
+.fellows_lists .citation {
+	font-weight: normal;
+	display: none;
+}
+/* ===END standard list of new fellows  === */
+
+/* ===START wide tables  === */
+/* For wide tables that might be wider than the actual page */
+/*
+	wide_table_gr is specifically wide tables in Office of Government Relations. Let other classes use the same CSS rules, too.
+*/
+table.wide_table_gr {
+	background: white;
+	z-index: 100;
+	width: 99%;
+}
+
+.page_update_date {
+	clear: both;
+	font-style: italic;
+	margin-top: 5em;
+}
+
+
+
+/* ===START deprecated styles for backwards compatibility  === */
+
+/*
+	Deprecated: .header is Deprecated.
+	I can think of no reason for this .header class. Do not use.
+	I redefined it here just for backwards-compatibility.
+*/
+#main_content_block .header {
+	font-weight: bold;
+}
+/*
+	Deprecated: .italic is Deprecated.
+	What, really? Did the 2004 designers even work in HTML? Do not use.
+	I redefined it here just for backwards-compatibility.
+*/
+#main_content_block .italic {
+	font-style: italic;
+}
+

@@ -1,0 +1,111 @@
+/*--------------results submit-----------------*/
+html > body .browse form label {
+position: relative;
+margin-top: 3px;
+height: 21px;
+top:0;
+} /* Fix browse form label position in Safari and Chrome */
+
+html > body .browse select {
+position: relative;
+margin-top: 3px;
+height: 21px;
+top:0;
+} /* Fix results submit button position in Safari and Chrome */
+
+.results-submit {vertical-align:bottom; top:0; cursor:pointer;} /* hand pointer cursor to show when hovering over submit button */
+
+/*--------------footer-----------------*/
+
+#footer img {
+    vertical-align: bottom; /* Show/Hide icon fix */
+}
+
+html>/**/body #footer .footer-hidden {margin: -1px 0px 1px;} /* Fix Hairline Top Spacing for Hidden Footer */
+
+#footer h6, #footer .type, #footer h6.ital, #footer .type-red, #footer h5 {text-transform: uppercase; font-size: 0.916em; color: #333333; font-weight: bold;} /* Fix Section Titles! */
+
+.breadcrumb-first, .breadcrumb-second, .breadcrumb-last {background:transparent url(../../wb/images/cache30/homepage/background-images/breadcrumb-wbg.png) no-repeat right center;
+float: left;
+margin-bottom:2px; /* White Gutter Fix - 2px */
+padding:0 20px 0 14px; 
+font-size:11px; font-weight:bold; /* Breadcrumb font fix */
+}
+
+.breadcrumb-last {background: none; padding-left: 8px;} /* Fix Breadcrumb Padding */
+
+h3#bobcontent2-title{
+cursor:pointer;
+float:right;
+margin:8px 10px 0 0;
+left:auto;
+top:auto;
+}  /* Fix Show/Hide Icon Padding */
+
+h3#bobcontent2-title .status img {vertical-align:top;} /* Fix Show/Hide Icon Position */
+
+#footer #ext-footer {margin-top:0;} /* Fix Ext-Footer Position */
+
+#footer h6.resources{text-transform:none; padding-top:20px;} /* Fix Resources Position */
+
+#footer .open-footer {margin-top: 0px;} /* White Gutter Fix */
+
+#footer .footer-hidden {float: left;
+background: #F3F4EC;
+width:924px;
+padding: 20px 8px 20px 16px;
+margin: -1px 0 1px;
+} /* Fix Hidden Footer Width, Hairline Margin and Side Padding*/
+
+#footer .footer-hidden h6 {line-height: 1.16em; margin-top: 10px; margin-bottom:0px;}  /* Fix Section Title Position */
+
+#footer .footer-hidden .columns {float: left;
+width:122px;
+margin-right: 12px; 
+} /* Fix Section Spacing */
+
+#footer .footer-hidden .publications {margin:0 0 0 -2px;} /* Fix Publications Section Spacing */
+#footer .footer-hidden .border-vert {border-left: 1px solid #c6c9bd; padding-left: 3px; padding-left: 18px; float:right; margin:0; width:110px;} /* Fix Last Section Column and Divider */
+
+#footer .footer-hidden .columns ul li {padding: 0px 0px 8px 0px;
+line-height: 1.16em;} /* Fix List Spacing */
+
+#footer .footer-hidden .columns ul li a,
+#footer .footer-hidden .columns ul li a:visited {color: #666666; font-size:0.916em; } /* Fix Section Links Color */
+
+#footer .footer-visible {background: #5d6056; clear: both;
+padding: 11px 12px 11px;
+height: 35px;
+margin: 0px;
+color: #fff;} /* Fix Gray Footer */
+
+#footer .footer-visibleleft {
+    float: left;
+    padding: 0 0 3px;
+	width: auto;
+	line-height: normal;
+}  /* Fix Visible Left */
+
+#footer div.theworldbankgroup a.glbe {
+    background: url("../../wb/images/cache30/homepage/footer-white-wbicon.png") no-repeat scroll transparent;
+    padding: 6px 0 7px 33px;
+	line-height:25px;
+}  /* Fix logo 25px x 25px */
+
+#footer .footer-visibleleft div.theworldbankgroup {
+    background: url("../../etc/designs/worldbank/images/sprite.png") no-repeat scroll right -128px transparent;
+    float: left;
+    height: 35px;
+    padding: 5px 30px 0 2px;
+} /* Fix Divider */ 
+
+#footer .footer-visible .partner {margin-left: 28px; margin-top:9px; float:left; padding:0; border:0;} /* Fix Partners Padding */
+
+#footer .footer-left {float: left; width: 600px; margin: 0 0 30px 6px;} /* Fix Copyright Padding */
+
+#footer .footer-right {float: right; width: 172px; text-align: right; margin-right: 6px;} /* Fix Hotline Padding */
+
+
+/*----------------end footer------------------------------------ */
+
+

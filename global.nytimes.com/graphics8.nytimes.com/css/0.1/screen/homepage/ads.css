@@ -1,0 +1,205 @@
+/*$Id: ads.css 117308 2012-12-05 01:50:22Z surya.sanagavarapu $
+/css/0.1/screen/homepage/ads.css 
+(c)2006 - 2009 The New York Times Company */
+
+
+/* BEGIN Homepage Ads */
+
+/*.homeMediumAdGroup is deprecated, 
+keeping in for stray editorial code. 
+daypartAd is its replacement. */
+
+#home #HPHalf,
+#home #HPBig-ATF,
+#home #HPMiddle,
+#home #Top,
+#home #Middle,
+#home #Middle4,
+#home #Middle5, 
+#home #Box1,
+#home #Bottom3,
+#home #Spon1,
+#home .homeMediumAdGroup,
+#home .daypartAd {
+  text-align: center;
+}
+
+#home #Top {
+	margin-bottom: 8px;
+	padding-top: 8px;
+	border-top: 1px solid #ccc;
+}
+
+#TopLeft a,
+#TopLeft a img,
+#TopRight a,
+#TopRight a img {
+  display: block;
+}
+
+#HPTopNav {
+  border-bottom:1px solid #d3d3d3;
+  clear: both;
+  padding: 1em 0;
+  text-align: center;
+  background: #faf9dc;
+}
+
+#HPTopNav h4 {
+  color: #333;
+  font-weight: normal;
+}
+
+#HPTopNav h4 em {
+  font-style: normal;
+  color: #c33338;
+}
+
+#HPTopNav .pipe {
+  margin: 0 5px;
+}
+
+#home #Middle {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 9px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#home #HPHalf,
+#home #HPBig-ATF {
+  margin: 4px 9px 12px 5px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+  border-top: none;
+}
+
+#home #HPMiddle {
+  padding-top: 12px;
+  border-top: 1px solid #ccc;
+}
+
+#home #HPMiddle3,
+#home #HPmodule-RE2 {
+  padding-top: 12px;
+  border-top: 1px solid #ccc;
+}
+
+#home #Middle1 {
+  float: left;
+  margin-right: 10px;
+}
+
+#home #toolbar #Middle1C {
+  float: left;
+  margin-right: 10px;
+  text-align: left;
+  width: auto;
+}
+
+#toolbarSearch #Middle1C {
+  float: right !important;
+}
+
+#toolbarSearch #HPSiteSearch {
+  position: absolute;
+  top: 45px;
+  right: 8px;
+}
+
+#home #toolbar #TopRight2 {
+  float: right;
+  margin-left: 10px;
+  text-align: left;
+  width: auto;
+}
+
+#marketsRegion #Middle4 {
+  margin-bottom: 0;
+}
+
+#marketsRegion #Middle5 {
+  margin-top: 3px;
+}
+
+#home #Bottom1 {
+  font-size: 1.1em;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#home #Bottom3 {
+  margin-top: 2px;
+}
+
+/* for cases when the classifieds module ad is served outside of the classifieds module (HPMiddle3) */
+
+#HPMiddle3 .story,
+#HPmodule-RE2 .story {
+  margin-bottom: 0;
+}
+
+#HPMiddle3 .story .callout,
+#HPmodule-RE2 .story .callout {
+  width: 171px;
+  height: 96px;
+  float: left;
+  display:inline;
+  margin-left: 0;
+  margin-right: 13px; 
+  padding: 0;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+#HPMiddle3 .story h5,
+#HPMiddle3 .story .summary,
+#HPmodule-RE2 .story h5,
+#HPmodule-RE2 .story .summary {
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1.166em; /* 14px */
+}
+
+#HPMiddle3 .story .summary,
+#HPmodule-RE2 .story .summary {
+  letter-spacing: -0.01em;
+  word-spacing: -0.15em;
+  color: #000;
+}
+
+#HPMiddle3 .story .adCreative,
+#HPmodule-RE2 .story .adCreative {
+  float: left;
+}
+
+#home .nav .singleAd {
+  margin-bottom: 12px;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1.3em;
+}
+
+#home .nav .singleAd img {
+  margin-left: -2px;
+  display: block;
+}
+
+#home .nav.belowFold .singleAd,
+#home .nav.belowFold .singleAd a:link,
+#home .nav.belowFold .singleAd a:visited,
+#home .nav.belowFold .singleAd a:hover,
+#home .nav.belowFold .singleAd a:active {
+  color: #808080;
+}
+
+#home #Spon1 {
+	margin: 10px 7px 5px 5px;
+	padding: 0;
+	border: none;
+}
+
+.trackingImg {
+  display: none;
+}
+/* END Homepage Ads */

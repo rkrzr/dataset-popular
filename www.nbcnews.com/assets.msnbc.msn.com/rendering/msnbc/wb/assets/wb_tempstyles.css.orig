@@ -1,0 +1,971 @@
+﻿#xfinity_bg { background:url(http://xfinity.comcast.net/cimspire/images/components/xpbar/xpbar_3.png) repeat-x #F1F1F18); height:44px; width:100%; }
+.comcast #network .content #msn {display:none;}
+/*________temp styles________*/
+.IE  #siteHeader .main #upscroll-grid .grid h6 {font-size:14px !important;}
+.IE  #siteHeader ul.breadcrumbs {padding-top:3px;}
+#sliderAdHolder, body #AdBanner_S {background:#ddd;z-index:1;}
+#siteHeader .grid h6 .media {display:none;}
+#siteHeader #msn-more {z-index:9999;}
+#siteHeader .grid .img img {background:none !important;}
+#siteHeader .grid .label {color:#fff;}
+#siteHeader #breadcrumbs {width:auto;}
+#todayShow #siteHeader #breadcrumbs {width:50%;}
+#siteHeader #site #breadcrumbs #timeStamp, #siteHeader #site #breadcrumbs #udtD {display:none;}
+ 
+#siteHeader.cover #site #breadcrumbs #coverLogo,
+#siteHeader.cover #site #breadcrumbs #timeStamp {display:block;float:left;text-align:left;}
+ .IE .cover #site #breadcrumbs #timeStamp, .IE .cover #site #breadcrumbs #udtD {display:block;}
+#siteHeader.cover #site #breadcrumbs #udtD {visibility:hidden;display:block;font-size:10px;line-height:1.2;padding-top:15px;padding-left:10px;width:86px;}
+#siteHeader.cover #site #breadcrumbs #udtD .date {display:block;}
+/*___________________________*/
+
+
+/*________overwriting current styles________*/
+/*msn network header*/
+#siteHeader #msn ul {text-align: left; margin: 0;}
+#siteHeader #msn li {display: inherit; font:inherit; color:inherit; margin: 0;}
+#siteHeader #msn li a {color:inherit; text-decoration:inherit; font-weight:inherit;}
+#siteHeader #msn ul img {border: none; padding-bottom: 0; vertical-align: middle;}
+#siteHeader #msn .link a:hover {color: inherit; text-decoration: underline;}
+#siteHeader #msn .more a {margin: 0; padding: 0; width: auto; height: auto; background: none;}
+#siteHeader #msn .more a:hover {text-decoration: inherit;}
+
+#siteHeader .grid .w0-5, #siteHeader .grid .w1, #siteHeader .grid .w1-5, #siteHeader .grid .w1, #siteHeader .grid .w2, #siteHeader .grid .w2-5, #siteHeader .grid .w3, #siteHeader .grid .w4, 
+
+#siteHeader .grid .w5, #siteHeader .grid .x1, #siteHeader .grid .x2, #siteHeader .grid .x2-5, #siteHeader .grid .x3, #siteHeader .grid .x4, #siteHeader .grid .x5, #siteHeader .grid .y1, 
+
+#siteHeader .grid .y2, #siteHeader .grid .y3, #siteHeader .grid .y4, #siteHeader .grid .y5 {position: static; left: auto; top: auto;}
+
+#siteHeader .grid h6 {font-size: inherit;}
+
+#siteHeader #upscroll-grid .grid .label {border: 0;color:#fff;color:rgba(255, 255, 255, 0.5);}
+
+#siteHeader #marqueeContainer #marquee-site, #siteHeader #marqueeContainer #marquee-section {height:auto !important; background:inherit; border-bottom: inherit;}
+.IE #siteHeader #marqueeContainer #marquee-site, .IE #siteHeader #marqueeContainer #marquee-section {height: auto; background: inherit; border-bottom: none;}
+.Firefox #siteHeader #marqueeContainer #marquee-site, .Firefox #siteHeader #marqueeContainer #marquee-section {height:auto !important; min-height: auto;}
+#siteHeader #marqueeContainer #marquee .breaking {background:none !important; border-top: inherit;}
+#siteHeader #marqueeContainer #marquee .developing {background:none !important; border-top: inherit;}
+#siteHeader #marqueeContainer #marquee .breakingupdated {background:none !important; border-top: inherit;}
+#siteHeader #marqueeContainer #marquee .comingup {background:none !important; border-top: inherit;}
+#siteHeader #marqueeContainer #marquee .continuing {background:none !important; border-top: inherit;}
+#siteHeader #marqueeContainer #marquee .ticker {background:none !important; border-top: inherit; height: auto;}
+#siteHeader #marqueeContainer #marquee .ticker h1 {font-family:inherit; font-weight:inherit; font-size:inherit; color: inherit; margin-top:inherit;}
+#siteHeader #marqueeContainer #marquee .ticker h1 a, #siteHeader #marqueeContainer #marquee .ticker h1 a:visited {text-transform: none; font-weight: normal; text-decoration: none; color: #FFF; border-bottom: 1px dotted #FFF;}
+#siteHeader #marqueeContainer #marquee .ticker h1 a:hover {text-decoration: none; border-bottom: 1px solid #FFF;}
+
+#siteHeader #marqueeContainer #marquee h1{text-align:inherit !important; font-family: inherit !important; font-weight:inherit; font-size:inherit !important; color: inherit; padding-left: inherit 
+
+!important;}
+#siteHeader #marqueeContainer #marquee h1 a, #siteHeader #marqueeContainer #marquee h1 a:visited {text-transform: inherit; font-weight: normal !important; text-decoration:inherit; color: 
+
+inherit; border-bottom: inherit;}
+#siteHeader #marqueeContainer #marquee h1 a:hover{border-bottom: inherit; text-decoration: inherit;}
+  .IE-6 #siteHeader #marqueeContainer #marquee h1 a {border-bottom: inherit; background: inherit; padding-bottom: inherit;}
+  .IE-6 #siteHeader #marqueeContainer #marquee h1 a:hover {background: inherit; padding-bottom: inherit;}
+#todayShow #siteHeader #marqueeContainer #marquee h1 a {color: #b00;}
+
+.cover #breadcrumbs, #coverbadge .front #breadcrumbs, .business-front #breadcrumbs {width:auto !important;}
+
+#siteHeader .grid #cell2.content {border:0;}
+#siteHeader .Firefox .grid .img div, #siteHeader .Safari .grid .img div, .grid .img {display:block;}
+/*#siteHeader #cell2 .story{margin-top:10px;margin-bottom:0;clear:inherit;}*/
+#siteHeader .grid .img {margin-bottom: 0px;}
+
+.IE #siteHeader .grid #cell2,
+.IE #siteHeader .grid #cell3 {padding-top:0;}
+
+
+/*________/overwriting current styles________*/
+
+#siteHeader .focus {position: relative;}
+#siteHeader .focus span {display: none; cursor: pointer;}
+#siteHeader .focus:focus span {display: inline; text-decoration: underline;}
+#siteHeader #network .focus {left: 5px; position: absolute; top: 5px;}
+
+#siteHeader .grid h4, #siteHeader .grid h5 {padding-bottom:0;}
+#siteHeader .grid .img img {border: 0;}
+
+/*________msnbc baseline________*/
+#siteHeader p, #siteHeader ul, #siteHeader ol {padding: 0.8em 0;}
+
+ /* fixes for ie centering */
+ #siteHeader #site, #siteHeader #network {text-align:center;}
+ #siteHeader .content {text-align:left;}
+
+#siteHeader .content {margin:0 auto;width:996px;*position: relative;}
+#siteHeader .grid .content {height: auto; width: auto; float: left; background: none; margin: 0;}
+
+
+/*Site-wide*/
+ #siteHeader #navigation:after {content: "."; clear: both; display: block; height: 0; visibility: hidden;}
+ #siteHeader #network:after {content: "."; clear: both; display: block; height: 0; visibility: hidden;}
+
+ 
+/*_______adapted widths_______*/
+ #siteHeader .std {width: 996px;}
+ #siteHeader .grid .w0-5 {width: 82px;}
+.IE #siteHeader .grid .w0-5 {width: 83px;}
+ #siteHeader .grid .w1 {width: 166px;}
+ #siteHeader .grid .w1-5 {width: 248px;}
+ #siteHeader .grid .w2 {width: 332px;}
+
+ 
+/*_______Lists_______*/
+ /*horiz list*/
+ #siteHeader .hlist li,
+     #siteHeader #brands li,
+     #siteHeader #sitemap li,
+     /*#sections li,*/
+     #siteHeader #msn li,
+     #siteHeader #sites-shows li,
+     #siteHeader #today-sites li {list-style: none; float: left; padding-right: 6px;}
+
+/*_______layout rules_______*/
+ /*site header*/
+ #siteHeader {position: relative; z-index: 1300;}
+ #siteHeader #site {height: 47px;position: relative;/*overflow:hidden;*/}
+     #siteHeader #site .main {position: relative; /*margin-top: -3px;*/}
+/*     #siteHeader #site .search {margin-right: -6px;}*/
+ #siteHeader #breadcrumbs, .cover #siteHeader #topsearch {float: left; margin: 15px 0 0 9px;}
+ #siteHeader.cover #breadcrumbs, .cover #siteHeader #topsearch {float: left; margin: 3px 0 0 9px;}
+     #siteHeader #breadcrumbs a {margin: 0px 2px;font-size: 28px !important;}
+     #siteHeader #breadcrumbs .badge {margin-left: 0px;}
+     #siteHeader #breadcrumbs .logo {margin-right: 0px;}
+     .IE-6 #siteHeader #breadcrumbs {margin-left:0;}
+     .IE-6#todayShow #siteHeader #breadcrumbs {margin-left:5px;}
+     
+ #siteHeader #sections {
+  margin:0px 0px 0px -3px;
+  padding:7px 0px 0px;
+     position: relative; 
+     width: 996px; 
+  height:34px;
+     background: transparent;
+ }
+
+
+
+
+   .IE #site #sections {padding-bottom:2px !important;margin-bottom:10px;}
+   .IE .cover #site #sections {margin-bottom:0 !important;}
+   
+     #siteHeader #sections li {margin: 0 11px 0; padding:5px 0 10px 1px;}
+         #siteHeader #sections li.i1 {margin-left: 0px; padding-left: 7px;}
+         #siteHeader #sections li.i12 {margin-right: 0px;}
+         /*UpScroll selection persistance*/
+         #siteHeader .s1 #sections li.i1,
+         #siteHeader .s2 #sections li.i2,
+         #siteHeader .s3 #sections li.i3,
+         #siteHeader .s4 #sections li.i4,
+         #siteHeader .s5 #sections li.i5,
+         #siteHeader .s6 #sections li.i6,
+         #siteHeader .s7 #sections li.i7,
+         #siteHeader .s8 #sections li.i8,
+         #siteHeader .s9 #sections li.i9,
+         #siteHeader .s10 #sections li.i10,
+         #siteHeader .s11 #sections li.i11,
+         #siteHeader .s12 #sections li.i12,
+         #siteHeader .s13 #sections li.i13,
+         #siteHeader .s14 #sections li.i14
+             {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/sectionArrow.png') no-repeat center top;} 
+        
+        #siteHeader #sections li.i11, #siteHeader #sections li.i12 {background: none;}  
+        #siteHeader #sections li.i11 a:hover, #siteHeader #sections li.i12 a:hover {background: none; color: #FC3; border-bottom: 1px dotted;}
+        #siteHeader #sections li a:hover {background: none; color: #FC3}
+/*        #todayShow #siteHeader #sections li.i11 a:hover, #todayShow #siteHeader #sections li.i12 a:hover {color: #FFF; background: transparent 
+
+url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/20p.png') repeat; background: rgba(205,205,205,0.4); border-bottom:0;}
+*/        
+        #todayShow #siteHeader #sections li.i15 {background:none;}  
+        #todayShow #siteHeader #sections li.i15 a:hover {background: none; color: #FC3; border-bottom: 1px dotted;}
+         #todayShow #siteHeader #sections li.i11 a:hover,
+   #todayShow #siteHeader #sections li.i12 a:hover {
+   border:none; 
+  }
+ #siteHeader #network {height: 24px; position: relative; width: 100%; z-index: 1200;}
+    #siteHeader #network .content {display:none;}
+     #siteHeader #network {height:30px;padding-top:5px;}
+     #siteHeader #sites-shows {float: right; margin: 8px 10px 0px 0px; padding: 0px;}
+     #siteHeader #msn {float: left; height: auto; margin: 8px 0px 0px 10px; padding: 0px; width: auto; z-index: 1100;}
+     #siteHeader #msn-more {display: none;}
+     #siteHeader #msn li {margin-right: 7px; padding-right:6px;}
+     #siteHeader #msn li.more:hover #msn-more, .IE #siteHeader #msn li.moreOut #msn-more {display: block; float: left; position: absolute; height: auto; top: 20px; *left: 110px; width: 465px; 
+
+padding: 25px 21px 20px 20px; z-index: 1000;}
+
+
+/*_______presentation rules_______*/
+.cover #site .content #breadcrumbs .logo {
+background:url("http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/nbcnews-cover-logo-top.png") no-repeat scroll 0 8px transparent;
+padding-right:0;
+width:245px;
+height:41px;
+display:block;
+}
+ .IE-6 .cover #site .content #breadcrumbs .logo {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/nbcnews-cover-logo-top.png', sizingMethod='crop'); 
+  background-image: none;
+ }
+
+ .IE-6 #siteHeader #breadcrumbs .logo {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/nbcnews.png', sizingMethod='crop'); 
+  background-image: none; zoom: 1;
+ }#siteHeader #breadcrumbs .logo
+
+/*#siteHeader.cover #sections {margin-bottom:16px;}*/
+/*#siteHeader.cover #site .search {margin-top:11px;}*/
+#breadcrumbs, #site .search {
+ float:left;
+ margin:5px 0 0 9px;
+}
+#site .search { margin-top:10px !important;}
+
+/*site header*/
+#siteHeader #site {border-bottom: 1px solid #000; border-top: 0px; color: #000;}
+#siteHeader #breadcrumbs .logo span {visibility: hidden;}
+#siteHeader #network {background: transparent; border-bottom: 1px solid #CCC; border-bottom: 1px solid rgba(205,205,205,0.5);}
+    #siteHeader #msn li.msnLogo a {width: 37px; height: 17px; margin-top: -7px; background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnLogo.png') left top 
+
+no-repeat; text-indent: -5000px; float: left;}
+        .IE-6 #siteHeader #msn li.msnLogo a {
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnLogo.png', sizingMethod='crop'); 
+   background-image: none;
+  }
+    #siteHeader #msn li.msnLogo a:hover, #siteHeader #msn li.msnLogo a:focus {background-position: left bottom;}
+        #siteHeader #msn li.more {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msndn.gif') right no-repeat; *background-position: right 53%; 
+
+padding: 0 9px 0 3px;}
+         .IE-6 #siteHeader #msn li.more {display:none;}
+            #siteHeader #msn li.more:hover #msn-more, .IE #siteHeader #msn li.moreOut #msn-more {margin-left: -19px; background: transparent 
+
+url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msn-rolloverBgd.png') no-repeat  left -2px;}
+            #siteHeader #msn-more li {display: inline-block; float:left; line-height: 18px; width: 135px;}
+            #siteHeader #msn-more li a {font-size: 11px; color: #147;}
+            #siteHeader #msn-more li a:hover, #siteHeader #msn-more li a:focus {color: #147; text-decoration: underline;}
+            
+        .IE #siteHeader #msn {margin-top:0 !important;}
+         .IE #siteHeader #msn li.hotmail, .IE #siteHeader #msn li.more {margin-top:8px;}
+         .IE #siteHeader #msn li.bing {margin-top:10px;}
+          .IE #siteHeader #msn li.bing a {height:10px; overflow:hidden;}
+        .IE #siteHeader #msn, .IE #siteHeader #msn li {overflow:visible;}
+      .IE #siteHeader #msn li a {margin-top:0;}
+      .IE #siteHeader #msn .more a {top: auto !important;}
+      .IE #siteHeader #msn li.msnLogo {margin-top:2px !important;}
+            
+        #siteHeader .bing a {margin: 3px 0 0 7px; width: 30px; height: 10px; background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/bing.png');text-indent: 
+
+-5000px; float: left;}
+        .IE-6 #siteHeader .bing a {
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/bing.png', sizingMethod='crop'); 
+   background-image: none;
+  }
+            #siteHeader .bing a:hover {background-position: left bottom; text-decoration: none;}
+             .IE #siteHeader .bing a:hover {background-position:0 10px;}
+             #siteHeader #shows {border-left: 1px dotted #CCC;}
+    #siteHeader #sections li a {padding: 2px 4px; border-bottom: 0px;}
+    #siteHeader #sections  li a:hover, #siteHeader #sections li.parent a {
+/*  background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/20p.png') repeat; 
+  background:rgba(205,205,205,0.4); 
+  border-radius: 2px; 
+  -moz-border-radius: 2px; 
+  -webkit-border-radius: 2px; 
+*/  padding: 2px 4px;}
+/*     .IE #siteHeader #sections li a:hover, .IE #siteHeader #sections .parent a {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/20p.png') repeat !important;}
+*/     .IE-6 #siteHeader #sections li a:hover, .IE-6 #siteHeader #sections .parent a {background:none !important;}
+    
+#siteHeader #sites-shows li {padding: 0 8px;}
+.comcast #siteHeader #network #sites-shows {margin-left:0 !important;}
+.comcast #siteHeader #network #sites-shows .i1 {padding-left:9px !important;}
+.comcast #siteHeader #network #sites-shows li {padding:0 15px !important;}
+    #siteHeader #sites-shows .i1 a {text-indent: -5000px; float: left;}
+/*    #siteHeader #sites-shows li.i10 {padding-right: 0;}*/
+    
+
+/*_______typography_______*/
+ /*site header*/
+ #siteHeader #sections li a {color: #DEF;}
+ #siteHeader #sections li.parent a {color: #FFF !important; display: block; font-size: 16px; font-weight: bold; margin: -4px 2px; padding: 1px 5px;} 
+/* #siteHeader #sections li a:hover {color: #FFF;}*/
+ #siteHeader a {color: #FFF; text-decoration: none; font-weight: normal;}
+ #siteHeader a:hover, #siteHeader a:focus {color: #FC3; text-decoration: none;}
+   #siteHeader #upscroll-grid a:hover, #siteHeader #upscroll-grid a:focus {color: #CC0000 !important;}
+  #siteHeader #upscroll-grid #cell1 .story a:hover font, #siteHeader #upscroll-grid #cell2 .story a:hover font, #siteHeader #upscroll-grid #cell1 .story a:focus font, #siteHeader #upscroll-grid #cell2 .story a:focus font {color: #FC3 !important;}
+ #siteHeader #navigation li {font-size: 14px; font-weight: bold;}
+     #siteHeader #navigation #shows li li {font-size: 8px; font-weight: normal; white-space: nowrap;}
+ #siteHeader #sections li {color: #999; font-size: 15px;}
+ #todayShow #siteHeader #sections li {font-size: 14px;}
+     #siteHeader #sections li a:hover, #siteHeader #sections li a:hover {color: #FFF; text-decoration: none;}
+ #siteHeader #network li {color: #FFF; font-size: 10px;}
+ #siteHeader #breadcrumbs {font: normal 10px/28px Arial, sans-serif; color: #EEE;}
+  #siteHeader ul.breadcrumbs {padding-top:0;width:auto;}
+     #siteHeader #breadcrumbs .badge, #siteHeader #breadcrumbs .logo {font-size: 28px;}
+     #siteHeader #breadcrumbs a {color: #FFF; text-decoration: none;}
+  #siteHeader #upscroll-grid #cell1 .story a font, #siteHeader #upscroll-grid #cell2 .story a font {color: #FFF; text-decoration: none;}
+#siteHeader .grid h5 a { font-weight:bold;}
+
+/*_______GRIDS_______*/
+ #siteHeader .cf:after {/*add clearfix*/ content: "."; clear: both; display: block; height: 0; visibility: hidden;}
+ #siteHeader .grid:after {/*add clearfix*/ content: "."; clear: both; display: block; height: 0; visibility: hidden;}
+ #siteHeader .nowrap:after {/*add clearfix*/ content: "."; clear: both; display: block; height: 0; visibility: hidden;}
+ #siteHeader .grid .col ol:after {/*add clearfix*/ content: "."; clear: both; display: block; height: 0; visibility: hidden;}
+ 
+ /*grids in general*/
+ #siteHeader .grid {font-size: 14px; height: auto; list-style: none; margin: 0px;}
+     #siteHeader .grid .col {float: left; height: 100%; list-style: none; margin: 0px 0px 0px -1px; padding: 0px;}
+     #siteHeader .grid li {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/fade-vr.gif') bottom right no-repeat;}
+         #siteHeader .grid li li {background: transparent url(''); float: none;} /*negate border/float for inner stories*/
+         /*column/item layout*/
+         #siteHeader .col ol li {margin: 10px; padding: 0px;}
+         #siteHeader .grid ol {padding: 1px 0px;} /*counters reset.css padding*/
+         #siteHeader .grid .art {margin: 0px; padding: 0px;}
+         #siteHeader .grid .art img {background: none;}
+             #siteHeader .grid .media .left {margin: 0px 14px 1px 0px;}
+             #siteHeader .grid .media .right {margin: 0px 0px 1px 10px;}
+             #siteHeader .grid .media .top {margin: 0 auto;}
+             #siteHeader .grid .none {display: none;} /*insurance from server-side check*/
+             #siteHeader .grid .art .credit {font-size: 9px; line-height: 9px; margin-top: 0;}
+             #siteHeader .grid .img a {border-bottom: none;}
+             #siteHeader .grid .tease .credit {display: none;}
+             #siteHeader .grid .tease {color: #999; font: bold Tahoma,'Lucida Grande',sans-serif; letter-spacing: 0.2em; margin: 4px 0px; padding-top: 2px;}
+             #siteHeader .grid .source a {color: #69C; font-size: 100%; font-weight: bold; margin: 3px 0px;}
+         #siteHeader .grid .abstr {font: normal 1.0em Arial, sans-serif; margin: 5px 0px 5px 0px; padding: 0px;}
+         /*column/item effects*/
+         #siteHeader .grid li.last, #siteHeader .grid li.no-border, #siteHeader .grid li.inner-div {background-color: lime; background: transparent url('');}
+         #siteHeader .grid li.inner-rule {background-position: top right; border-bottom: 1px solid pink;}
+         #siteHeader .grid .stories {background: transparent url('');}
+         #siteHeader .grid li.inner-div .stories {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/dash-vr.gif') right -20px no-repeat;}
+         #siteHeader .grid .rule {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/dash-hr.gif') bottom 80% repeat-x; margin-bottom: 8px; 
+
+padding-bottom: 8px;}
+         #siteHeader .grid .nowrap {clear: both;}
+         #siteHeader .grid .remove-border .art .img, #siteHeader .grid .remove-border img, 
+         #siteHeader .grid .flat .art .img, #siteHeader .grid .flat img {border: none;}
+         
+ /*basic grid library from old site, minor modifications*/
+ /*grid globals*/
+ #siteHeader .grid .h1, #siteHeader .grid .h2, #siteHeader .grid .h3, #siteHeader .grid .h4, #siteHeader .grid .h5, #siteHeader .grid .h6, #siteHeader .grid p, #siteHeader .grid cite {color: 
+
+#aaa; font-family: Arial, Helvetica, sans-serif; margin: 7px 0px;}
+  #siteHeader .grid cite {font-size:9px;margin:2px 0;}
+  #todayShow #siteHeader .grid cite {color: #ECB;}
+     #siteHeader .grid a, .page #siteHeader .grid a, #siteHeader .grid .h1, #siteHeader .grid .h2, #siteHeader .grid .h3, #siteHeader .grid .h4, #siteHeader .grid .h5, #siteHeader .grid .h6 
+
+{color: #147; text-decoration: none;} /*must come after non-a-tag declaration */
+     #siteHeader .grid .caption {letter-spacing: 0; color: #999; text-align: right; margin-top: 3px; margin-bottom: 3px; font-size: 9px;}
+ #siteHeader .grid .abstr, #siteHeader .grid .source {font-size: 80%; line-height: 135%;}
+     #siteHeader .grid .abstr a, #siteHeader .grid .abstr .readmore {font-size: 100%; font-weight: normal; white-space: nowrap;}
+ #siteHeader .grid .flag, #siteHeader .grid .icon {display: inline-block; border: none; vertical-align: baseline;}
+#siteHeader .grid .w0-5 .flag, #siteHeader .grid .w0-5 .icon, #siteHeader .grid .img-left .flag, #siteHeader .grid .img-left .icon {display: none;}
+
+ #siteHeader .grid .tease .icon span {height: 12px;}
+ 
+ /*grid labels*/
+ #siteHeader .grid .title {visibility: hidden;}
+ #siteHeader .grid span.label {
+     background: #E8E8E8;
+     background: rgba(0, 0, 0, 0.08);
+     color:#fff;
+     color:rgba(255, 255, 255, 0.5);
+     font: bold 10px/180% 'Lucida Grande', Tahoma, sans-serif; 
+     height: 20px; 
+     padding: 0 10px 0 10px;
+     visibility: visible;
+ }
+     #siteHeader .grid span.label a {font: bold 10px/180% 'Lucida Grande', Tahoma, sans-serif;}
+     #siteHeader .grid .breaking .title {color: #C44; border-bottom: 1px solid #C44;}
+         #siteHeader .grid .breaking .title a, #siteHeader .grid .breaking .title a:visited {color:#C44; border-bottom: 1px dotted #C44;}
+         #siteHeader .grid .breaking .title a:hover {text-decoration: none; border-bottom: 1px solid #C44;}
+     #siteHeader .grid .sublabel, #siteHeader .grid li li.label {border-bottom: 1px solid #CCC; clear: left; margin: 2px 0px; padding: 3px 10px;}
+     #siteHeader .grid .sublabel {border-top: 1px solid #CCC; font-size: 75%; margin: 10px 0px;}
+         #siteHeader .grid .sublabel a {font-size: 105%;}
+     #siteHeader .grid .tease .label {color: #999; font-weight: bold; font-size: 60%; font-family: Tahoma, 'Lucida Grande', sans-serif; letter-spacing: .2em;}
+     /*not used?*/ #siteHeader .grid .sublabel-small .title {background: none; margin: 10px 0 -10px 0;}
+ /*label-forced widths*/
+ #siteHeader .grid .lbl-2col .title {background-color: lime;}
+ #siteHeader .grid .label-an-3 {width: 498px;}/*x3*/
+ 
+ /*grid headlines*/
+ #siteHeader .grid h1 {font-size: 210%; font-weight: bold; text-transform:uppercase; border-bottom: none;}
+ #siteHeader .grid h2 {font-size: 190%; border-bottom: none;}
+ #siteHeader .grid h3 {font-size: 170%; line-height: 1.2em; *line-height: 1.0em; border-bottom: none;}
+ #siteHeader .grid h4 {font-size: 143%; font-weight: normal; line-height: 1.10em; border-bottom: none;}
+ #siteHeader .grid h5 {font-size: 80%; font-weight: normal; line-height: 1.25em; border-bottom: none;}
+     #siteHeader .grid h4, #siteHeader .grid h5 {font-family: Georgia, serif; margin-bottom: 5px;}
+#siteHeader .grid h5 {font-family: Arial,Helvetica,sans-serif;}
+ #siteHeader .grid h6 a {font-size: 95%; font-weight: bold; margin-bottom: 1px; /* line-height: 1.0em; */ display: block;}
+
+ #siteHeader .grid h1:hover, #siteHeader .grid h1:visited:hover, #siteHeader .grid h2:hover, #siteHeader .grid h2:visited:hover {text-decoration: none;}
+ #siteHeader .grid h6 {}
+ #siteHeader .grid h6:hover, #siteHeader .grid h6:visited:hover {text-decoration:none;}
+ #siteHeader .grid h6:hover, #siteHeader .grid h6:visited:hover {text-decoration:none;}
+ 
+ /* icon styles */
+ #siteHeader .grid h6 .video, #siteHeader .grid h6 .photos, #siteHeader .grid h6 .photo, #siteHeader .grid h6 .data, 
+ #siteHeader .grid p .video, #siteHeader .grid p .photos, #siteHeader .grid p .photo, #siteHeader .grid p .data
+ #siteHeader .grid .tease .video, #siteHeader .grid .tease .photos, #siteHeader .grid .tease .photo, #siteHeader .grid .tease .data,
+ #siteHeader .grid .new .timestamp, #siteHeader .grid .updated .timestamp
+         {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/story-chrome.gif') top left no-repeat; display: inline; padding-left: 20px;}
+
+.IE #siteHeader .grid h6 .video, .IE #siteHeader .grid h6 .photos, .IE #siteHeader .grid h6 .photo, .IE #siteHeader .grid h6 .data, 
+ .IE #siteHeader .grid p .video, .IE #siteHeader .grid p .photos, .IE #siteHeader .grid p .photo, .IE #siteHeader .grid p .data
+ .IE #siteHeader .grid .tease .video, .IE #siteHeader .grid .tease .photos, .IE #siteHeader .grid .tease .photo, .IE #siteHeader .grid .tease .data,
+ .IE #siteHeader .grid .new .timestamp, .IE #siteHeader .grid .updated .timestamp
+         {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/story-chrome.gif') top left no-repeat; display: inline-block;}
+
+ #siteHeader .grid h6 .video, #siteHeader .grid p .video, #siteHeader .grid .tease .video {background-position: -701px -92px;}
+ #siteHeader .grid h6 .photos, #siteHeader .grid p .photos, #siteHeader .grid h6 .photo, #siteHeader .grid p .photo, #siteHeader .grid .tease .photos, #siteHeader .grid .tease .photo 
+
+{background-position: -701px -130px}
+ #siteHeader .grid h6 .data, #siteHeader .grid p .data, #siteHeader .grid .tease .data {background-position: -702px -206px;}  
+ #siteHeader .grid .timestamp {display: inline; border-bottom: 0px}
+     #siteHeader .grid .timestamp:hover {text-decoration: none;}
+ #siteHeader .grid .timestamp abbr, #siteHeader .grid time, #siteHeader .grid .time {display: none;}
+ #siteHeader .grid .new .timestamp, #siteHeader .grid .new p .timestamp {background-position: -619px -3px; padding-left: 27px;}
+ #siteHeader .grid .updated .timestamp, #siteHeader .grid .updated p .timestamp {background-position: -570px -3px; padding-left: 43px;}
+     #siteHeader .grid .new .timestamp:hover, #siteHeader .grid .updated .timestamp:hover {border-bottom: 0px; text-decoration: none;}
+     
+     
+ /*upscroll icon styles*/
+ #siteHeader .main .grid h5 .video {background-position:-702px -108px; height:12px; width:16px; top:0;}
+ #siteHeader .main .grid h5 .photos {background-position:-702px -146px; height:12px; width:16px; top:0;}
+ #siteHeader .main .grid h5 .data {background-position:-702px -224px; height:12px; width:16px; top:0;}  
+ #siteHeader .main .grid h6 .video, #siteHeader .main .grid p .video, #siteHeader .main .grid .tease .video {background-position: -702px -91px; padding-bottom: 1px; top:0px;}
+ #siteHeader .main .grid h6 .photos, #siteHeader .main .grid p .photos, #siteHeader .main .grid h6 .photo, #siteHeader .main .grid p .photo, #siteHeader .main .grid .tease .photos, #siteHeader 
+
+.main .grid .tease .photo {background-position: -702px -129px; position:inherit;}
+ #siteHeader .main .grid h6 .data, #siteHeader .grid p .data, #siteHeader .grid .tease .data {background-position: -702px -224px; position:inherit;}
+ #siteHeader .main .grid .new .timestamp, #siteHeader .main .grid .new p .timestamp {background-position: -619px -22px; padding-left: 27px;}
+ #siteHeader .main .grid .updated .timestamp, #siteHeader .main .grid .updated p .timestamp {background-position: -570px -22px; padding-left: 43px;}
+ 
+ /*grid text effects*/
+ #siteHeader .grid .textFX-center h1, #siteHeader .grid .textFX-center h2, #siteHeader .grid .textFX-center h3, #siteHeader .grid .textFX-center h4, #siteHeader .grid .textFX-center h5, 
+
+#siteHeader .grid .textFX-center h6 {text-align: center;}
+ #siteHeader .grid .textFX-up1 h6 {font-size: 80%;}
+ #siteHeader .grid .textFX-up2 .h6 {font-size: 90%;}
+ #siteHeader .grid .textFX-up1 .h5 {font-size: 110%;}
+ #siteHeader .grid .textFX-up2 .h5 {font-size: 120%;}
+ #siteHeader .grid .textFX-up1 .h4 {font-size: 135%;}
+ #siteHeader .grid .textFX-up2 .h4 {font-size: 145%;}
+ #siteHeader .grid .textFX-up1 .h3 {font-size: 160%;}
+ #siteHeader .grid .textFX-up2 .h3 {font-size: 165%;}
+ #siteHeader .grid .textFX-up1 .h2 {font-size: 185%;}
+ #siteHeader .grid .textFX-up2 .h2 {font-size: 220%;}
+ #siteHeader .grid .textFX-up1 .h1 {font-size: 225%;}
+ #siteHeader .grid .textFX-up2 .h1 {font-size: 250%;}
+ #siteHeader .grid .textFX-up3 .h1 {font-size: 300%;}
+ #siteHeader .grid .textFX-up4 .h1 {font-size:425%;}
+ 
+ /*grid layout effects*/
+ #siteHeader .grid .sideBySide, #siteHeader .grid .layoutFX-1col, #siteHeader .grid .layoutFX-1col-thumb-s {float: left; width: 144px;padding:0;}
+ #siteHeader .grid .layoutFX-1col-thumb-m {float: left; width: 96px;}
+ #siteHeader .grid .sideBySide #siteHeader .grid-2x2, #siteHeader .grid .layoutFX-1col #siteHeader .grid-2x2 {height: 122px;}
+ #siteHeader .grid .thumbs-m-rows .stories li {float: left; height: 160px; text-align: center;}
+     #siteHeader .grid .thumbs-m-rows .stories .icon {display: none;}
+ 
+ 
+ /*UpScroll Grids (behind .main)*/
+ #siteHeader .main .grid { font-size: 14px; margin-left: 0; padding: 5px 0px 0px 10px;}
+
+ #siteHeader .main .grid .title {border: 0px;}
+
+/* #siteHeader .main .grid div.w2, #todayShow #siteHeader .main #upscroll-grid .grid div.x3-5 {background: url("http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/fade-hdr-vr.png") */
+
+no-repeat scroll right top transparent; margin: 0;}
+     #siteHeader .main .grid .last {background: transparent url('');} /*kill border for columns*/
+     #siteHeader .main .w0-5 {width: 82px;} /*fixes last column overlap*/
+     #todayShow #siteHeader .main #upscroll-grid .grid div.x4 {background:none;}
+ #siteHeader .main .grid li li {height: auto;}
+ #siteHeader .main .grid a, #siteHeader .main .grid a:visited {color: #114477; border-bottom: none; }
+  #siteHeader .grid a:hover {color: #CC0000; text-decoration: none;}
+#todayShow #siteHeader .grid a:hover { /*color:#FC3 !important; */text-decoration: none;}
+ #siteHeader .main .grid p {color: #444; padding-top: 4px;}
+ #siteHeader .main .grid .art img {border-color: #FFF; border: 1px solid rgba(255,255,255,0.7); *background-color: transparent; *border: 1px solid #FFF; *padding: 0px;}
+ #siteHeader.main .art .credit {color: #999; margin: 2px -2px 4px;}
+ #siteHeader .main .grid .art .img {border: 0px; vertical-align: top; margin-left: -2px;}
+ #siteHeader .main .grid .remove-border .art .img, #siteHeader .main .grid .remove-border img, 
+         #siteHeader .main .grid .flat .art .img, #siteHeader .main .grid .flat img 
+             {border: none;}
+ #siteHeader .main .grid span.label {
+     background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/20p.png') top left repeat;
+     color:rgba(255,255,255, 0.5);
+ }
+  .IE #todayShow  #siteHeader .main .grid span.label, .IE #todayShow  #siteHeader .main .grid cite {color: #ECB;}
+ #siteHeader .main .grid .inner-div, #todayShow #siteHeader .main #upscroll-grid div.inner-div {background: transparent 
+
+url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/dash-hdr-vr.png') right top no-repeat;}
+ #siteHeader .main .grid .inner-div .stories {background: transparent url('');}
+ 
+ 
+/*________BRANDING________*/
+#siteHeader {background: #04162E url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnbc-hdr-bg.jpg') bottom no-repeat;}
+ #todayShow #siteHeader {background:url("http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-hdr-bg.jpg") repeat-y scroll center bottom #86150D;}
+#siteHeader #article {background: white url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnbc-article-bg.jpg') top repeat-x;}
+#siteHeader #sites-shows .site-msnbc {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/peacock.png') left 1px no-repeat; padding-right: 16px; 
+
+cursor:pointer;}
+ .IE #siteHeader #sites-shows .site-msnbc {width:18px;height:12px;}
+ .IE-6 #siteHeader #sites-shows .site-msnbc {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/peacock.png', 
+
+sizingMethod='crop');background-image: none;}
+#todayShow #siteHeader #sites-shows .i1 a {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/sites-shows-nbcnews.png') no-repeat scroll left 0; 
+
+padding-right: 79px; text-indent: -5000px; float: left;}
+ #todayShow.IE #siteHeader #sites-shows .i1 a {width:80px;height:12px;}
+ .IE-6#todayShow #siteHeader #sites-shows .i1 a {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/sites-shows-nbcnews.png', 
+
+sizingMethod='crop');background-image: none !important;}
+
+#siteHeader #sites-shows .sitesShows {display: none;}
+ #todayShow #siteHeader #sites-shows .sitesShows {display:block;float:left;}
+
+#siteHeader #breadcrumbs .logo {
+    padding-right: 41px;
+    background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/nbcnews.png') no-repeat -4px 6px;
+}
+#todayShow #siteHeader #breadcrumbs .logo {background: url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-hdr-logo.png') center left no-repeat; display:inline-block; padding-right:10px; position:absolute;left:10px; }
+#todayShow #siteHeader ul.breadcrumbs {position:relative; left:160px;}
+ .IE-6#todayShow #siteHeader #breadcrumbs .logo {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-hdr-logo.png', sizingMethod='crop'); 
+  background-image: none !important; zoom: 1;
+ }
+
+.IE#todayShow #siteHeader #breadcrumbs .logo {top:4px; left:0px;}
+
+.IE-6#todayShow #siteHeader ul.breadcrumbs {left:165px;}
+
+#todayShow #siteHeader #breadcrumbs #coverLogo {margin-top:5px;}
+ .IE#todayShow #siteHeader #breadcrumbs #coverLogo {position:relative !important;}
+
+ .IE-6 .todayCover #site #breadcrumbs #coverLogo {background-image: none;}
+ .IE-6 .todayCover #site .content #breadcrumbs .logo  {filter: 
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-hdr-logo.png', sizingMethod='crop');background-image: none;}
+ .IE-6 .todayCover #site .content #breadcrumbs .logo {position:relative !important;margin-top:10px;left:-15px;}
+
+#siteHeader #breadcrumbs a {text-decoration: none;}
+#siteHeader #breadcrumbs a:hover, #siteHeader #breadcrumbs a:focus {color: #FC3;}
+#siteHeader #legal {background: black url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnbc-ftr-bg.jpg') top no-repeat; height: 81px;}
+#siteHeader #footer {height: 2em;}
+#siteHeader #legal {background: black url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/msnbc-ftr-bg.jpg') top no-repeat; height: 119px;}
+#siteHeader #brands .brand, #siteHeader #brands .rel {display: none;}
+
+#siteHeader #breadcrumbs .breadcrumbs li.item2, #siteHeader #breadcrumbs .breadcrumbs li.item3 {display:none;}
+#siteHeader #breadcrumbs .breadcrumbs li.item2 a, #siteHeader #breadcrumbs .breadcrumbs li.item3 a {background:none;padding-left:0;}
+ 
+ 
+ 
+/**********
+* Search boxes [widen to search results?]
+***********/
+
+/*_______layout rules_______*/
+#siteHeader .search {float: left; position: relative !important; width:305px; left:1px; *position: static; *top: -3px /*IE*/;}
+#siteHeader .search fieldset {padding: 0; height: 26px;line-height: 1.4;text-align: left; overflow:hidden;}
+.IE #siteHeader .search fieldset {height: 28px;}
+#siteHeader .search input, #siteHeader .search button {margin: 0px; padding: 0px;}
+ #siteHeader .search input.q {color: #aaa; font-size: 14px; width: 177px; vertical-align: middle; padding-top: 2px; margin-top: -3px;}
+#siteHeader .search input.q {color: #aaa; font-size: 14px; width: 177px; vertical-align: middle; padding-top: 2px; margin-top: -3px;}
+ #siteHeader .search input:focus {color:666 !important;}
+.IE #siteHeader .search input.q {padding-left: 5px; margin-top: -12px;
+} 
+#siteHeader .search .bing{
+ margin:0;
+ position:relative;
+ left:1px;
+ color:#FFF;
+ font-size:12px;
+ font-weight:bold;
+ padding-left:55px;
+ }
+.Firefox #siteheader .search .bing {
+ padding-bottom:5px; 
+}
+
+ 
+/*_______presentation rules_______*/
+#siteHeader .search fieldset {background: #FFF; border: 1px solid #AAA;}
+ #siteHeader .search input, .search button {border: 0px; padding: 4px;}
+ #siteHeader .search input.bing {
+background: url('http://media1.s-nbcnews.com/j/MSNBC/Components/CSS/img/bing_color_web_51.standard.png') no-repeat right top transparent;
+ width:123px;
+ height:26px;
+  cursor: pointer;
+ }
+ 
+/*_______typography rules_______*/
+#siteHeader .search .likeinput a {font-size: 12px; text-decoration: none;}
+
+
+
+
+
+/*_______marquee_______*/
+#siteHeader #marqueeContainer {width:100%;}
+#siteHeader #marqueeContainer #marquee {position: relative; width: 100%; height: 36px;}
+ .IE #siteHeader #marqueeContainer #marquee, .IE #siteHeader #marqueeContainer #marquee h1 {position:static !important;}
+#siteHeader #marqueeContainer #marquee h1 {background-color: #b00; color: #FFF; font: bold 20px/18px Arial, sans-serif; padding: 8px 7px 7px 7px; width: 972px; text-align: center;margin:0 
+
+auto;font-size:20px !important;padding-left: 7px !important;}
+ #siteHeader #marqueeContainer #marquee-section {border-bottom:0 !important;}
+ #siteHeader #marqueeContainer #marquee span {text-align: center;display:block;margin-right:10px;}
+#siteHeader #marqueeContainer h1 a {font-size: 20px; font-weight: normal; color: inherit;border-bottom:0;color:#fff;}
+#siteHeader #marqueeContainer h1 a:hover {text-decoration: underline !important; color: inherit !important;}
+
+
+#siteHeader #marqueeContainer #marquee .breaking,
+#siteHeader #marqueeContainer #marquee .breakingupdated {border-top: 1px solid #B00; color:#fff;}
+    #siteHeader #marqueeContainer #marquee .breaking h1,
+    #siteHeader #marqueeContainer #marquee .breakingupdated h1 {background-color: #B00;color:#fff;}
+
+#siteHeader #marqueeContainer #marquee .comingup,
+#siteHeader #marqueeContainer #marquee .continuing,
+#siteHeader #marqueeContainer #marquee .ticker,
+#siteHeader #marqueeContainer #marquee .developing {border-top: 1px solid #59D;}
+    #siteHeader #marqueeContainer #marquee .comingup h1,
+    #siteHeader #marqueeContainer #marquee .continuing h1,
+    #siteHeader #marqueeContainer #marquee .developing h1 {background-color: #59D;}
+    
+    
+#todayShow #siteHeader #marqueeContainer #marquee {color: #B00;}
+#todayShow #siteHeader #marqueeContainer #marquee h1, #todayShow #siteHeader #marquee h1 a {background-color: #FFF;}
+
+#todayShow #siteHeader #marqueeContainer #marquee .breaking,
+#todayShow #siteHeader #marqueeContainer #marquee .breakingupdated {border-top: 1px solid #FFF;}
+    #todayShow #siteHeader #marqueeContainer #marquee .breaking h1,
+    #todayShow #siteHeader #marqueeContainer #marquee .breakingupdated h1 {background-color: #FFF;color:#B00 !important;}
+
+#todayShow #siteHeader #marqueeContainer #marquee .comingup,
+#todayShow #siteHeader #marqueeContainer #marquee .continuing,
+#todayShow #siteHeader #marqueeContainer #marquee .ticker,
+#todayShow #siteHeader #marqueeContainer #marquee .developing {border-top: 1px solid #FFF;}
+    #todayShow #siteHeader #marqueeContainer #marquee .comingup h1,
+    #todayShow #siteHeader #marqueeContainer #marquee .continuing h1,
+    #todayShow #siteHeader #marqueeContainer #marquee .developing h1 {background-color: #FFF;}
+
+#todayShow #siteHeader #marqueeContainer #marquee .comingup h1,
+#todayShow #siteHeader #marqueeContainer #marquee .continuing h1,
+#todayShow #siteHeader #marqueeContainer #marquee .ticker h1,
+#todayShow #siteHeader #marqueeContainer #marquee .developing h1 {color: #59D !important;} 
+#todayShow #siteHeader #marqueeContainer #marquee .comingup h1 a,
+#todayShow #siteHeader #marqueeContainer #marquee .continuing h1 a,
+#todayShow #siteHeader #marqueeContainer #marquee .developing h1 a {color: #59D !important;}
+
+
+/*________weather widget________*/
+#siteHeader #coverbadge {float:left;width:335px;display:block;}
+#siteHeader #coverbadge #wx-badge, #siteHeader #coverbadge div.weatherbadge {display:block;height:50px;top:auto;padding:0 0 0 170px;text-align:left;}
+ .IE #siteHeader #site .main #coverbadge #wx-badge, .IE #siteHeader #site .main #coverbadge div.weatherbadge {padding-top:0 !important;}
+ .IE #siteHeader #site .main #coverbadge #wx-badge, .IE #siteHeader #site .main #coverbadge div.weatherbadge, .IE #siteHeader #site .main #coverbadge {width:335px !important;height:50px 
+
+!important;}
+ #siteHeader #coverbadge div.weatherbadger span.loc {display:block;margin:0;width:auto !important;text-align:left !important;padding-top:10px;}
+  #siteHeader #coverbadge div.weatherbadger span.loc a {font-weight:bold;font-size:12px;text-decoration:none;border-bottom:0;}
+   #siteHeader #coverbadge div.weatherbadger span.loc a:hover {text-decoration:none;}
+  #siteHeader #coverbadge div.weatherbadger span.forecast, #siteHeader #coverbadge div.weatherbadger span.edit {font-weight:normal;font-size:12px;color:#fff;}
+   #siteHeader #coverbadge div.weatherbadger span.edit {font-size:10px;}
+   #siteHeader #coverbadge div.weatherbadger span.edit a, #siteHeader #coverbadge div.weatherbadger span.edit a:link {padding-left:5px;padding-right:0;font-size:100%;}
+  #siteHeader #coverbadge div.weatherbadger .forecast span.img {padding:0;}
+   .IE #siteHeader #coverbadge div.weatherbadger .forecast span.img {position:static;top:auto;}
+  
+ .IE #siteHeader #coverbadge div.weatherbadger {padding: inherit; width:inherit; z-index:inherit;}
+ .IE-6 #siteHeader #coverbadge div.weatherbadger {margin-top: inherit; padding-top: inherit; font-size:inherit;}
+ .IE #siteHeader #coverbadge div.weatherbadger .forecast span.img {position:inherit; top:inherit; white-space:inherit;}
+ .IE-6 #siteHeader #coverbadge div.weatherbadger .forecast span.img {padding-top:inherit; top:inherit;}
+ 
+ /*Local hub fixes*/
+ .IE #siteHeader #coverbadge div#bantopBadge div.weatherbadger {padding-top: inherit;}
+ .IE-7  #siteHeader #coverbadge div#bantopBadge div.weatherbadger {top: inherit;}
+ .IE #siteHeader #coverbadge div#bantopBadge div.weatherbadger span.loc {display:inherit;}
+ 
+ .IE #siteHeader #coverbadge div.weatherbadger span.forecast {float:left !important;}
+ .IE #siteHeader #coverbadge div.weatherbadger span.edit {float:left !important;}
+ 
+/*________stock widget________*/
+body.business-sub #siteHeader #site #breadcrumbs, body.business-sub #siteHeader #site #breadcrumbs ul.breadcrumbs, body.business-sub #siteHeader #site #bantopBadge div.marketticker form, 
+
+body.business-sub #siteHeader #site #bantopBadge div#mkt-tickr, body.business-front #siteHeader #site #breadcrumbs, body.business-front #siteHeader #site #breadcrumbs ul.breadcrumbs, 
+
+body.business-front #siteHeader #site #bantopBadge div.marketticker form, body.business-front #siteHeader #site #bantopBadge div#mkt-tickr {width:auto !important;}
+body.business-sub #siteHeader #site #bantopBadge, body.business-front #siteHeader #site #bantopBadge {width:312px !important;float:right;}
+body.business-sub #siteHeader #site #bantopBadge div#mkt-quote, body.business-front #siteHeader #site #bantopBadge div#mkt-quote {padding-top:2px;}
+ body.IE #site #bantopBadge div#mkt-quote {line-height:60px !important;}
+ body.IE #site #bantopBadge div.marketbadge {margin-top:-30px !important;}
+ 
+#siteHeader #site #bantopBadge div.marketbadge .mktup, #siteHeader #site #bantopBadge div.marketbadge .mktdown, #siteHeader #site #bantopBadge div.marketbadge .mktunch {color:#fff;}
+
+
+/**********
+* TODAY show branding -- don't preface these rules with 'body.'
+***********/
+/*________BRANDING________*/
+#todayShow #siteHeader #upscroll-grid .grid .label .title, #todayShow #siteHeader #upscroll-grid .grid p {color: #ECB; color: rgba(255, 255, 255, 0.65);}
+ .IE #todayShow #siteHeader #upscroll-grid .grid .art .credit, .IE #todayShow #siteHeader #upscroll-grid .grid cite {color: #ECB !important;}
+#todayShow #siteHeader #siteheader {background: #86150D url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-hdr-bg.jpg') center top repeat-y;}
+#todayShow #siteHeader #article {background: #FFF url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-article-bg.jpg') top repeat-x;}
+#todayShow #siteHeader #sites-shows .show-today {display: none;}
+#todayShow #siteHeader #sites-shows .i1 a:hover, #todayShow #siteHeader #sites-shows .i1 a:focus {background-position: 0px -14px;}
+#todayShow #siteHeader #network {border-bottom: 1px solid #C97;}
+#todayShow #siteHeader #sections {border-top: 0 none; margin-left: -2px;}
+#todayShow #siteHeader #sections li {margin: 0 8px 0 8px; padding: 7px 0 10px; /*_padding: 22px 5px 2px 5px;*/}
+#todayShow #siteHeader #sections li a, #todayShow #siteHeader #brands li a, #todayShow #siteHeader #today-sites li a {color: #FFC; text-shadow: 1px 1px 1px #888; text-shadow: 1px 1px 1px 
+
+rgba(0,0,0,0.1);}
+#todayShow #siteHeader #sitemap li a {color: #FFF;}
+#todayShow #siteHeader #sitemap li a:hover, #todayShow #siteHeader #brands li a:hover, #todayShow #siteHeader #today-sites li a:hover {color: #FC3;}
+#todayShow #siteHeader #sections li a:hover, #todayShow #siteHeader #sections li a:focus {color: #FFF; background: rgba(255, 255, 255, 0.2) none url('') repeat scroll 0 0;}
+#todayShow #siteHeader #legal {background: #86150D url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-ftr-bg.jpg') top no-repeat; height: 98px;}
+#todayShow #siteHeader .logo span {padding-right: 60px; visibility: hidden; font-weight: bold;}
+
+#todayShow #siteHeader #today-sites {font-size: 13px; padding-top: 5px; margin: 13px auto; width: 710px;}
+#todayShow #siteHeader #today-sites li a {padding: 0 15px 0 0;}
+#todayShow #siteHeader #today-sites li.i1 a {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/today-ftr-logo.png') no-repeat 0 2px; padding:0 69px 0 0; 
+
+display: inline-block; text-indent: -5000px;}
+#todayShow #siteHeader #today-sites li.i1 {padding-right: 19px;}
+
+
+/* UPSCROLL - MORE GRID*/
+#todayShow #siteHeader .todayMore h4, #todayShow #siteHeader .todayMore h5 {font-family:Arial,Helvetica,sans-serif; font-size: 17px; font-weight: bold; display:inline; padding-right:5px;}
+#todayShow #siteHeader .todayMore .abstr {display: inline; color:#444 !important;}
+#todayShow #siteHeader .todayMore h5 {line-height: 19px;}
+#todayShow #siteHeader .todayMore .i2 .stories a, #todayShow #siteHeader .todayMore .i3 .stories a {color: #FFC;}
+    #todayShow #siteHeader .todayMore .i2 .stories a:hover, #todayShow #siteHeader .todayMore .i3 .stories a:hover { color: #FC3;}
+#todayShow #siteHeader .todayMore .i4 .stories li, #todayShow #siteHeader .todayMore #cell4 .host h5 {display: inline; margin: 0px; padding-left: 30px; float:left;}
+ #todayShow #siteHeader .todayMore .grid .sR .story {display:inline;}
+#todayShow #siteHeader .todayMore .i4 .stories .i1 {padding-left: 0px; float: none;}
+    #todayShow #siteHeader .todayMore .i4 .stories li a, #todayShow #siteHeader .todayMore #cell4 .host h5 a {font-size: 13px;}
+    #todayShow #siteHeader .todayMore .i4 .stories .art {margin: 13px 0 0 24px;}
+
+
+/*________show styles________*/
+#dateline_nbc #front .container, #dateline_nbc #story .container, #dateline_nbc #subSectionFront .container {background:none;}
+#dateline_nbc #siteHeader {background-image:url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/Dateline-hdr-bg.jpg');}
+#dateline_nbc #footer {background-image:url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/Dateline-ftrLOGO-bg.jpg');}
+#dateline_nbc #siteHeader #breadcrumbs .logo 
+
+{background-image:url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/Dateline-badgeHDR.png');padding-bottom:8px;padding-right:98px;display:inline-block;}
+ .IE-6 #dateline_nbc #siteHeader #breadcrumbs .logo {filter: 
+
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/Dateline-badgeHDR.png', sizingMethod='crop') !important ;background-image: none !important;}
+#dateline_nbc #front {background-image:url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/dateline-grid-bkg.jpg');}
+
+#dateline_nbc #subSectionFront {background-image:url('http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/Dateline-article-bg.jpg');background-repeat:repeat-x;}
+#dateline_nbc #siteHeader ul.breadcrumbs {padding-top:4px;}
+ #dateline_nbc.IE #siteHeader ul.breadcrumbs {padding-top:8px;}
+
+
+
+ /*NEW upscroll grid*/
+
+#siteHeader .main .grid .source {display: none;}
+#todayShow #siteHeader .main .grid .source {display: block;}
+
+#siteHeader #upscroll-grid .grid .label {display: none;}
+#todayShow #siteHeader #upscroll-grid .grid .label {display: none;}
+
+#siteHeader .main .grid .sublabel-tease {padding: 0; color: #999; margin-top:0px; margin-bottom:4px; font-size:65%;}
+#todayShow #siteHeader .main .grid .sublabel-tease {padding:0 0; margin: 0 0 5px;}
+
+/*#siteHeader .grid #cell4 h6 a {font-size: 90%;}*/
+
+#siteHeader #grid_36812195 #cell4 h6 a {font-size: 80%;}
+#todayShow #siteHeader .grid #cell4 h6 a {font-size: 80%;}
+
+/*#siteHeader .main .grid div.w2, #siteHeader .main .grid div.w1-5 {background:url("http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/fade-hdr-vr.png") no-repeat scroll right 10px transparent;}*/
+#todayShow #siteHeader .main .grid div.w2 {background:url("http://media1.s-nbcnews.com/i/MSNBC/Templates/z_Story_Hybrid/img/fade-hdr-vr.png") no-repeat scroll right top transparent;}
+
+#siteHeader .main #upscroll-grid .grid .inner-div {background: url("http://media1.s-nbcnews.com/i/MSNBC/Templates/cccTemplatesHeaderUpscroll/upscroll/upscroll/img/dottedLine.png") no-repeat scroll right -5px transparent;}
+#todayShow #siteHeader .main #upscroll-grid .grid .inner-div {background: url("http://media1.s-nbcnews.com/i/MSNBC/Templates/cccTemplatesHeaderUpscroll/upscroll/upscroll/img/dottedLine.png") no-repeat scroll right -5px transparent !important;}
+/*#todayShow #siteHeader .main #upscroll-grid .grid div.x4 {background:none;}*/
+#todayShow #siteHeader .grid .sideBySide .img {height:125px;}
+#todayShow #siteHeader .grid .img div {border:1px solid #CC9977;}
+#todayShow #siteHeader .grid .remove-border .img div {border:none;}
+#todayShow #siteHeader #breadcrumbs {width:656px !important;}
+.IE #siteHeader .grid .w1-5 .img-thumb-m .text {width:215px;}
+
+ #siteHeader .main .grid div.content {height: 185px;overflow:hidden;}
+#todayShow #siteHeader .main .grid div.content {height: 185px;overflow:hidden;}
+
+/* .IE #siteHeader .main .grid {padding-top: 0px;}*/
+/* .IE#todayShow #siteHeader .main .grid {padding-top: 0px;}*/
+.Safari #siteHeader .grid .nowrap, .Mozilla #siteHeader .grid .nowrap {margin-bottom: -5px;}
+
+#coverbadge .weatherbadger .error {color: white; display: block; margin-left: -80px; margin-top: 20px;}
+
+#siteHeader #upscroll-grid .grid #cell2 p, #todayShow #siteHeader #upscroll-grid .grid #cell3 p {display: none;} 
+
+.main .main-grid {
+ background:none repeat scroll 0 0 transparent;
+ margin-bottom:0px;
+ /*visibility:hidden;*/
+}
+
+.main .active {
+ background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/cccTemplatesHeaderUpscroll/upscroll/upscroll/img/background.png') no-repeat;
+ margin-bottom:5px;
+}
+
+
+#sections .selected {background: transparent url('http://media1.s-nbcnews.com/i/MSNBC/Templates/cccTemplatesHeaderUpscroll/upscroll/upscroll/img/sectionArrow.png') no-repeat center bottom;}
+
+
+.IE #mainNav {
+ text-align: center; 
+ width: 100%; 
+ zoom: 1; 
+ position: static; 
+ clear: both;
+}
+
+
+.IE-6 #bantopBadge #mkt-tickr {
+ margin-top:65px !important;
+}
+
+#breadcrumbs { height:37px;}
+.IE-7 #breadcrumbs { height:42px;}
+
+
+#siteHeader #breadcrumbs { width:656px;}
+.cover #breadcrumbs { width:330px !important;}
+.IE .cover #breadcrumbs { width:333px !important; zoom:1}
+
+.IE #siteHeader #sections { margin-bottom:-5px;}
+
+#siteHeader .grid .w2-5 {
+ width: 400px !important;
+}
+#siteHeader .grid .sublabel-tease { display:block !important;}
+#siteHeader #cell2 h6 a { font-size:80%; }
+#siteHeader #cell3 h6 a,
+#siteHeader #cell4 h6 a { font-weight:normal; } 
+#siteHeader .grid .story {margin-top:9px;}
+
+#todayShow #siteHeader #upscroll-grid .grid .sublabel-tease {color:#666 !important;}
+
+.IE.#todayShow #site { margin-top:-1px;}
+
+#siteHeader #sections li a:hover {
+ color:#FFCC33;
+}
+
+.IE-6 #siteHeader #breadcrumbs a.logo { margin-top:5px;}
+
+#todayShow #siteHeader #cell3 h6 a { font-weight:bold; font-size:80%;}
+
+#siteHeader .main .grid p.abstr { padding-top:0px;}
+
+#siteHeader .story.img-left {
+ margin-bottom:0px !important;
+}
+
+/*.Mozilla #siteHeader .story.img-left {
+ margin-bottom:-5px !important;
+}
+
+.Safari #siteHeader .story.img-left {
+ margin-bottom:0px !important;
+}
+
+.Firefox #siteHeader .story.img-left {margin-bottom:0px !important;}
+*/ 
+.IE #siteHeader .main .grid { padding-top:10px; margin-bottom:-10px;}
+
+.IE-8 #breadcrumbs { height:40px;}
+
+.IE #siteHeader .todayMore #cell1 {
+ width:322px !important;
+}
+
+#todayShow #siteHeader .todayMore h5 a {
+ font-weight:normal;
+}
+
+#siteHeader .main .grid #cell1 .story {
+ height:19px;
+ overflow:hidden;
+}
+
+.IE #siteHeader .main .grid #cell1 .story {
+ height:17px;
+}
+
+#siteHeader .grid .layoutFX-1col cite { 
+ display:none;
+}
+
+#siteHeader .grid .layoutFX-1col {
+ margin-top:11px;
+}
+
+#siteHeader .grid .layoutFX-1col .img {
+ margin-bottom:6px;
+}
+
+#siteHeader .grid .img-thumb-m {
+ display:block !important; 
+ height:73px;
+ overflow:hidden;
+}
+
+.IE #siteHeader .grid .img-thumb-m {
+ display:block !important; 
+}
+
+.IE #siteHeader .grid .img-thumb-m .text {
+ display:block !important; 
+ margin-top:0px !important;
+ position:relative;
+ top:-70px;
+ left:104px;
+}
+
+.IE #siteHeader .grid .img-thumb-m .text div{
+ position:static !important;
+ top:0px !important;
+}
+
+#siteHeader #timeStamp {
+ width:70px;
+}
+
+#siteHeader #cell2 .story {
+ clear:none;
+}
+/*___________________________*/
+/* FIX FOR WEATHER BADGE HEADER ISSUE */
+
+body.Firefox #siteHeader #coverbadge {  height: 46px; }
+body#todayShow.Firefox #siteHeader #breadcrumbs { margin-bottom:-4px; }
+
+/* Marqueelette ads */
+/*bnm*/
+
+#AdBnmLeft, #AdBnmRight {display:none;position:absolute;top:2px;}
+ .adBnm #AdBnmLeft, .adBnm #AdBnmRight {display:block;}
+#AdBnmLeft {left:-90px;}
+#AdBnmRight {right:-90px;}
+
+#siteHeader #marqueeContainer {text-align:center;}
+
+#siteHeader #marqueeContainer #marquee {position:relative !important;margin:0 auto;width:986px !important;}
+#siteHeader #marqueeContainer #marquee #marquee-site,
+#siteHeader #marqueeContainer #marquee .breaking,
+#siteHeader #marqueeContainer #marquee .developing,
+#siteHeader #marqueeContainer #marquee .breakingupdated,
+#siteHeader #marqueeContainer #marquee .comingup,
+#siteHeader #marqueeContainer #marquee .continuing,
+#siteHeader #marqueeContainer #marquee .ticker {border-top:0 !important;}
+ .IE #siteHeader #marqueeContainer #marquee #marquee-site {float:none !important;}
+
+.IE-6 #siteHeader #marqueeContainer #marquee.adBnm,
+.IE-7 #siteHeader #marqueeContainer #marquee.adBnm,
+.IE-8 #siteHeader #marqueeContainer #marquee.adBnm {width:1158px !important;top:auto;}
+ .IE-6 #AdBnmLeft, .IE-7 #AdBnmLeft, .IE-8 #AdBnmLeft {float:left !important;top:auto;left:auto;position:static;margin-top:2px;}
+ .IE-6 #AdBnmRight, .IE-7 #AdBnmRight, .IE-8 #AdBnmRight {float:right !important;top:auto;right:auto;position:static;margin-top:2px;}
+
+#siteHeader #marqueeContainer #marquee span {margin-right:0 !important;}
+
+#siteHeader #marqueeContainer #marquee .comingup, #siteHeader #marqueeContainer #marquee .continuing, #siteHeader #marqueeContainer #marquee .ticker, #siteHeader #marqueeContainer #marquee .developing {border-top:0;}
+
+/*bnm*/

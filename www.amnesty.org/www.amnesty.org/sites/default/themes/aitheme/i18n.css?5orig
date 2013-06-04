@@ -1,0 +1,1052 @@
+/*******************************
+  HEADER
+*******************************/
+body.ar h1.title {
+  text-align: right;
+}
+
+body.ar h2 {
+  font-size: 1.3em;
+}
+
+.logo-en,
+.en #logo {
+  background: url(images/header-logo-en.gif) no-repeat center left;
+}
+
+/* FR uses EN logo (ticket #640) */
+.logo-fr,
+.fr #logo {
+  background: url(images/header-logo-en.gif) no-repeat center left;
+}
+.logo-es,
+.es #logo {
+  background: url(images/header-logo-es.gif) no-repeat center left;
+}
+
+.logo-ar,
+.ar #logo {
+  background: url(images/header-logo-ar.gif) no-repeat center right;
+  left: auto;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 290px;
+}
+
+.rtl #logo a {
+  width: 290px;
+}
+
+.rtl #header-last-menus {
+  clear: both;
+  float: left;
+  text-align: left;
+  width: 400px;
+}
+
+.rtl #secondary {
+  float: left;
+}
+
+body.fr #header-country-dropdown {
+  right: 240px;
+}
+
+.rtl #header-country-dropdown {
+  right: auto;
+  left: 190px;
+}
+
+.rtl #header-country-dropdown #header-country-select-form {
+  text-align: right;
+  float: left;
+  width: 250px;
+}
+
+.rtl #header-country-dropdown #amnesty-header-country-select-form .form-item,
+.rtl #header-country-dropdown #amnesty-header-country-select-form .form-item label {
+  float: left;
+}
+
+.rtl #header-country-dropdown #amnesty-header-country-select-form .form-item label {
+  display: none; /* needed to prevent lots of display issues */
+}
+
+body.ar .content {
+  text-align: right;
+}
+
+body.ar #container,
+body.ar #footer {
+  font-family: "Simplified Arabic", "Arabic Transparent", "Traditional Arabic", Arial, Helvetica, sans-serif;
+}
+
+
+/*moves background column to the left for arabic/rtl */
+
+body.rtl #container{
+  background-position: 0%;
+}
+
+
+.rtl .not-front #container {
+  background:white url(images/amnesty-sidebar.bg.solid.210.png) repeat-y scroll 0% 0 !important;
+}
+
+body.rtl #content-top-first {
+  padding-bottom: 9em;
+} 
+
+.rtl #main {
+  background-position: 1% 0% !important;
+}
+
+.rtl #page {
+  position: relative;
+  text-align: right;
+}
+
+.rtl #switch-language {
+  direction: ltr;
+  margin-left: -5px;
+  text-align: left;
+}
+
+* html .rtl #switch-language ul li {
+  display: inline;
+}
+
+#switch-language {
+  margin-right: -5px;
+  text-align: right;
+}
+
+body #switch-language ul li {
+  border-left: 1px solid #fff;
+  border-right: 0;
+  display: inline;
+  margin: 0;
+  padding: 0 5px;
+}
+
+body.rtl #switch-language ul li {
+  border-right: 1px solid #fff;
+  border-left: 0;
+}
+
+#switch-language ul li a:hover {
+  text-decoration: underline;
+}
+
+body.ltr #switch-language ul li.first,
+.rtl #switch-language ul li.last {
+  border: 0;
+}
+
+#switch-language ul li a {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.fr #primary a {
+  font-size: 1em;
+}
+
+body.es #primary a {
+  font-size: 1em;
+}
+
+body.rtl #primary a .menu-link {
+  padding: 3px 10px 3px 0;
+}
+
+/* RTL primary menu */
+
+.rtl #primary a {
+  float: right;
+  margin-right: 0;
+  text-align: right;
+}
+
+/* Arabic primary menu */
+body.ar #primary #primary-0 a {
+  width: 11.78%;
+  min-width: 0;
+  border: 0;
+}
+
+body.ar #primary #primary-1 a {
+  min-width: 0;
+}
+
+body.ar #primary #primary-2 a {
+  min-width: 0;
+}
+
+body.ar #primary #primary-3 a {
+  min-width: 0;
+}
+
+body.ar #primary #primary-4 a {
+  min-width: 0;
+}
+
+body.ar #primary #primary-5 a {
+  border-right: 1px solid white;
+  width: 12.8%;
+}
+
+/* French primary menu */
+body.fr #primary #primary-0 a {
+
+}
+
+body.fr #primary #primary-1 a {
+
+}
+
+body.fr #primary #primary-2 a {
+
+}
+
+body.fr #primary #primary-3 a {
+
+}
+
+body.fr #primary #primary-4 a {
+
+}
+
+body.fr #primary #primary-5 a {
+  margin-right: 0;
+
+}
+
+/* Spanish primary menu */
+body.es #primary #primary-0 a {
+
+}
+
+body.es #primary #primary-1 a {
+
+}
+
+body.es #primary #primary-2 a {
+
+}
+
+body.es #primary #primary-3 a {
+
+}
+
+body.es #primary #primary-4 a {
+
+}
+
+body.es #primary #primary-5 a {
+
+
+}
+
+.rtl #secondary {
+
+}
+
+.rtl #secondary li a {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0 2px 1px 5px;
+}
+
+.rtl .breadcrumb .menu {
+  text-align: right;
+}
+
+.rtl .breadcrumb .menu li .breadcrumb-text {
+  float: right;
+  margin: 0 0 0 5px;
+}
+
+.rtl #search {
+  text-align: left;
+}
+
+#aitheme-advanced-search-form .form-submit {
+  margin-right: 0px;
+  margin-left: -4px;
+  padding-right: 7px;
+}
+
+.rtl #recommended-links .recommended-title {
+  float: left;
+}
+
+.rtl #recommended-links ul.links {
+  text-align: right;
+}
+
+/* boosting fonts in AR */
+.rtl #container {
+  font-size: 1.25em;
+}
+
+/* removing illegible italics in AR
+.rtl em,
+.rtl i {
+  font-style: normal;
+}  */
+
+/*******************************
+  FOOTER
+*******************************/
+
+.rtl #footer ul li {
+  display: inline;
+}
+
+.rtl #footer {
+  float: left;
+}
+
+.rtl #footer ul.menu {
+  text-align: left;
+}
+
+.rtl #footer ul li.first {
+  border-left: 1px solid #D8D8D8;
+}
+
+.rtl #footer ul li.last {
+  border-left: 0;
+}
+
+/*******************************
+  PAGER
+*******************************/
+
+.rtl .pager a,
+.rtl .pager .pager-list a,
+.rtl .pager .pager-current,
+.rtl .pager .pager-ellipsis {
+  display: inline-block; /* fix for mozilla rtl padding bug */
+  margin: 5px 0;
+  padding: 0 0.3em;
+}
+
+/* snug up the ellipses */
+.rtl .pager .pager-ellipsis {
+  padding: 0;
+}
+
+/* float elements right to maintain order of numbers */
+.rtl .pager a,
+.rtl .pager .pager-ellipsis,
+.rtl .pager .pager-current {
+  float: right;
+}
+
+/* force numbers to display correctly in Safari */
+.rtl .pager .pager-list .pager-previous,
+.rtl .pager .pager-list .pager-current,
+.rtl .pager .pager-list .pager-next {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+
+/*******************************
+  BLOCKS
+*******************************/
+
+
+.rtl #how-you-can-help-home {
+  line-height: 150%;
+}
+
+.rtl #how-you-can-help-home .pane-content a {
+  background-image: url('images/amnesty-sidebar-arrow-inverted.png') !important;
+  padding-right: .5em !important;
+  background-position: 5% 50%;
+}
+
+
+/* undo mozilla rtl padding bug fix for IE */
+* html .rtl .pane-amnestyblocks-print-email ul li {
+  display: inline;
+}
+
+.rtl #container #sidebar-last {
+  padding: 0 1em 0 0.5em;
+}
+
+.rtl #ai-sidebar-first ul.menu li {
+  padding: 5px 25px 0 0;
+  margin: 3px 5px 3px 0;
+}
+
+.rtl #block-i18nblocks-51 .blockinner img {
+  display: block;
+  float: right;
+  margin-left: 0.5em;
+  border: 1px solid #fff;
+}
+
+.not-front .rtl #block-i18nblocks-20 a {
+  background-position: 5% .6em;
+  padding-left: 1em;
+}
+
+.rtl #block-i18nblocks-30 {
+  margin-left: 0;
+}
+
+.rtl #block-i18nblocks-29 {
+  margin-right: 20px;
+}
+
+.rtl .block h2.title {
+  text-align: right;
+}
+
+.rtl .content .image-float {
+  float: right;
+  height: 150px;
+  padding: 0 0 0 15px;
+}
+
+.rtl .ntype-subsection {
+  float: right;
+}
+
+body.ar .ntype-subsection {
+  height: 20em;
+}
+
+body.es .ntype-subsection {
+  height: 25.5em;
+}
+
+body.fr .ntype-subsection {
+  height: 26em;
+}
+
+.rtl .content .subsection-unit .subsection-image {
+  float: right;
+}
+
+.rtl .content ul.related_items li {
+  padding-right: 30px;
+}
+
+.rtl .icon-teaser h2.title {
+  float: right;
+  margin-right: 31px;
+}
+
+.rtl .strapline {
+  margin-right: 40px;
+  text-align: right;
+}
+
+.rtl #sidebar-first .block-menu ul li {
+  padding: 5px 25px 0px 0px;
+}
+
+.rtl #sidebar-first .block-menu ul.links-menu li.active ul.links-menu li {
+  font-size: 90%;
+  padding-right: 10px;
+  text-indent: -10px;
+}
+
+.rtl .panel-layout-sidebar3col #ai-sidebar-squeeze,
+.rtl .panel-layout-landing_page #ai-sidebar-squeeze,
+.rtl .panel-layout-twocol_stacked_2sidebars #ai-sidebar-squeeze {
+  border: none;
+  border-right: 1px solid #D8D8D8;
+}
+
+.rtl .teaser-image,
+.rtl .asset-asset-image,
+.rtl .asset-imagecache-thumbsize {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.rtl .image-teaser {
+  margin-left: 10px;
+  margin-right: 75px;
+}
+
+.rtl .view-homepage-campaigns .image-teaser {
+  margin-right: 0px;
+}
+
+.features-teaser-people .image-teaser {
+  margin-right: 0;
+}
+
+.rtl #block-i18nblocks-23 .asset-asset-image,
+.rtl #block-i18nblocks-24 .asset-asset-image {
+  clear: both;
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.rtl .appeal-block-link {
+  text-align: left;
+}
+
+.rtl .ntype-story,
+.rtl .ntype-page {
+  position: relative;
+}
+
+.rtl .ntype-story #story-images,
+.rtl .ntype-page #story-images,
+.rtl .ntype-report-abstract #story-images {
+  float: left;
+  margin: 0 25px;
+  left: 0;
+}
+
+/* fixes to disappearing lists and bullets in rtl, skewed list float bug in firefox */
+.rtl .ntype-story .content ul,
+.rtl .ntype-page .content ul {
+  position: relative;
+}
+
+/* undo the above skewed list fix in firefox with full-width class if not needed */
+.rtl .ntype-story .content ul.full-width,
+.rtl .ntype-page .content ul.full-width {
+  width: auto;
+}
+
+.rtl .service-links,
+.rtl .tag-links {
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.rtl .service-links ul.links li,
+.rtl .tag-links ul.links li {
+  border-left: 0;
+  border-right: 1px solid #999999;
+  display: inline;
+  float: right;
+}
+
+.rtl #main {
+  float: right;
+}
+
+.rtl ul.links li.first {
+  border: medium none;
+  padding-left: 3px;
+  padding-right: 0pt;
+}
+
+.rtl .service-links ul.links li img {
+  margin: 0 0 1px 2px;
+}
+
+.rtl .column li.service_links_whatsthis {
+  background-position: 83% 50%;
+  padding: 0 25px 0 0;
+}
+
+.rtl #block-amnesty-related_nodes .tag-links {
+  clear: both;
+  float: none;
+  margin: 2px 0 7px 0;
+  white-space: normal;
+  width: 96%;
+}
+
+
+.rtl #block-views-country_block select,
+.rtl #block-amnesty-learn_about_front_page select,
+.rtl #block-amnesty-select_country_front_page select,
+.rtl #block-amnesty-learn_about_region_country select,
+.rtl #block-views-topics select,
+.rtl .view-content-jobs-by-country select {
+  clear: right;
+  float: right;
+  margin-right: 5px;
+}
+
+.rtl #block-views-country_block #edit-submit,
+.rtl #block-amnesty-learn_about_front_page #edit-submit,
+.rtl #block-amnesty-select_country_front_page #edit-submit,
+.rtl #learn-about-region-country-form #edit-submit,
+.rtl #block-amnesty-learn_about_region_country #edit-submit,
+.rtl #block-views-topics #edit-submit,
+.rtl #block-views-jobs_by_country #edit-submit,
+.rtl #civicrm-membership-donate-form #edit-submit {
+  float: right;
+  margin-right: 5px;
+}
+
+
+/* Front page */
+
+.rtl .front #container {
+  background-position: 0 !important;
+}
+
+.rtl .front #ai-sidebar-last {
+  margin-right: 0 !important;
+  margin-left: -17px;
+}
+
+.rtl .front #ai-sidebar-main {
+  margin: 0 0 0 -257px;
+}
+
+.rtl .front #ai-sidebar-squeeze {
+  margin: 0 0 0 280px;
+}
+
+.rtl .front #ai-sidebar-main .panel-col-last {
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+/* "Go" buttons */
+.rtl .front #ai-sidebar-last .form-submit {
+  float: right;
+  margin: 2px 6px 0 0;
+}
+
+/* sidebar links */
+
+.rtl .front #ai-sidebar-last .pane-block-163 img {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+
+.rtl .front .pane-block-163 img {
+  float: right;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+
+
+.rtl .front .pane-amnestyblocks-appeals-for-action-count {
+  background: #FF0;
+  padding: 1.5em 1em;
+}
+
+.rtl .front .pane-amnestyblocks-appeals-for-action-count strong {
+  font-size: 1.7em;
+}
+
+/* CiviCRM */
+
+.rtl #civicrm-membership-donate-form .form-item {
+  text-align: right;
+}
+
+.rtl #civicrm-membership-donate-form select {
+  float: right;
+  margin: 1em 0 0 0.5em;
+}
+
+.rtl #node-1808 #civicrm-membership-form select,   /* ar */
+.rtl #node-1750 #civicrm-membership-form select {  /* ar join page*/
+  float: right;
+  margin: 1em 0 1em 0.5em;
+  width: 164.7px;
+}
+
+.rtl #node-1808 #civicrm-membership-form #edit-submit,   /* ar */
+.rtl #node-1750 #civicrm-membership-form #edit-submit {  /* ar join page*/
+  float: right;
+}
+
+.rtl #block-views-country_block #edit-submit {
+  float: right;
+  margin: -5px 10px 0 0;
+}
+
+.rtl #block-views-jobs_by_country #edit-submit {
+  float: left;
+  margin: -30px 5px 5px 0;
+}
+
+.rtl #block-amnesty-select_country_front_page select {
+  margin: 0.5em 8px 0 0;
+}
+
+.rtl #block-amnesty-select_country_front_page #edit-submit {
+  margin: 0.3em 11px 0 0;
+}
+
+.rtl .read-more,
+.appeal-block-link {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.rtl .sidebar .block-views .image-teaser {
+  margin-right: 0;
+}
+
+.rtl .sidebar .block-views .read-more {
+  text-align: right;
+}
+
+/*******************************
+  CAMPAIGNS
+*******************************/
+.rtl .panel-2col-stacked .panel-col-first {
+  float: right;
+}
+
+.rtl .panel-2col-stacked .panel-col-last {
+  float: left;
+}
+
+.rtl #campaign-assets .pager {
+  float: none;
+  width: auto;
+}
+
+.rtl #campaign-assets .pager a,
+.rtl #campaign-assets .pager .pager-list a,
+.rtl #campaign-assets .pager .pager-current {
+  float: none;
+}
+
+.rtl .campaign .content { display:inline-block; width:556px;}
+.rtl .campaign .content .content-left { float:right; width:415px; margin:0; margin-left:8px; display:inline}
+.rtl .campaign .content .content-right  { float:right; width:133px;  }
+.rtl .campaign .content .content-right .halfwidth { float:right; width:58px; padding-left:8px;}
+.rtl #edit-activism-signup-mail-wrapper, .rtl #edit-activism-signup-mail-wrapper input{width:390px}
+
+/*******************************
+  REPORT ABSTRACTS
+*******************************/
+
+.rtl .report-info {
+  float: right;
+}
+
+.rtl .report-files {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.rtl .report-files strong {
+  float: right;
+}
+
+.rtl .report-files ul.files li {
+  border-right: none;
+  border-left: 1px solid #CCCCCC;
+  float: right;
+  display: block;
+}
+
+/*******************************
+  LISTING / LANDING PAGES
+*******************************/
+.rtl .icon-teaser {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.rtl #feed-footer {
+  text-align: right;
+}
+
+/* align the "more" link in the grey RSS bar */
+.rtl .rss-more-link {
+  text-align: left;
+  padding-right: 12em;
+}
+
+
+/*******************************
+  NEWS & UPDATES
+*******************************/
+
+.rtl .news-story #story-date {
+  text-align: right;
+}
+
+.rtl .news-story #story-images {
+  float: left;
+  left: 0;
+  margin: 0 35px 15px 0;
+}
+
+.rtl .panel-1col div.features-teaser {
+  text-align: right;
+}
+
+.rtl  .story-expand-icon {
+  right: 519px;
+  top: 131px;
+}
+
+/*******************************
+  REGION THEMING
+*******************************/
+
+.rtl #country-contact .field-label-inline-first {
+  float: right;
+}
+
+.rtl #country-contact .field-field-address .field-item {
+  margin-left: 0;
+  margin-right: 130px;
+  margin-top: -24px;
+}
+
+
+/*******************************
+  ADVANCED SEARCH & ALFRESCO
+*******************************/
+
+.rtl .advsearch-region .form-item,
+.rtl .advsearch-issue .form-item {
+  float: right;
+}
+
+.rtl .search-filters {
+  float: right;
+}
+
+.rtl .search-filters label {
+  float: right;
+  padding-left: 3px;
+  text-align: left;
+  width: 95px;
+}
+
+.rtl .search-filters .form-item {
+  float: right;
+  text-align: right;
+}
+
+.rtl .search-filters .tips {
+  text-align: left;
+  padding-left: 0.5em;
+}
+
+.rtl .search-filters .form-text,
+.rtl .search-filters .form-select {
+  font-size: 0.8em;
+}
+
+.rtl .search-filters .form-checkboxes,
+.rtl .search-filters .form-radios {
+  float: right;
+  text-align: right;
+  width: 75%;
+}
+
+.rtl .search-filters .form-checkboxes .form-item,
+.rtl .search-filters .form-radios .form-item {
+  float: right;
+  text-align: right;
+  padding-right: 0;
+  padding-left: 1em;
+}
+
+.rtl .search-filters .form-radios .form-item {
+  padding-left: 5px;
+}
+
+.rtl .search-filters #edit-submit {
+  margin: 1em 10px 10px 0;
+  float: right;
+}
+
+.rtl .search-filters #advanced-search-link {
+  margin: 11px 10px 0 0;
+  float: right;
+}
+
+.rtl .search-filters .advanced-search,
+.rtl .search-filters .advanced-search .adv-search-subcontainer {
+  float: right;
+}
+
+.rtl #adv-search-filters .form-item .description {
+  padding-left: 0;
+  padding-right: 0.5em;
+} 
+
+.rtl .search-filters .form-buttons {
+  margin-left: 1em;
+}
+
+.rtl .search-filters select {
+  float: right;
+}
+
+.rtl input.form-text.jscalendar {
+  float: right;
+}
+
+.rtl .search-filters .jscalendar-icon {
+  float: left;
+  display: block;
+  color: #FFF;
+}
+
+.rtl .result-count {
+  float: left !important;
+}
+
+.report-files {
+  float: left;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* civicrm */
+
+.rtl #crm-container .form-layout td.label,
+.rtl #crm-container .form-layout-compressed td.label,
+.rtl #crm-container .selector td.label,
+.rtl #crm-container .form-layout-compressed th.label,
+.rtl #crm-container .form-layout-compressed td.option-label {
+  text-align: right !important;
+}
+
+.rtl #crm-container .form-layout-compressed select#birth_date[M] {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* display english numbers ltr for safari  */
+.rtl #user-register select#birth_date_d option,
+.rtl #user-register select#birth_date_Y option {
+  direction: ltr;
+}
+
+/* jump menu theming */
+
+.rtl #jump-menu-select-form div div.form-item {
+  float: right;
+  margin: 0 0 0.25em 0.5em;
+}
+
+.rtl #jump-menu-select-form div div.form-item label {
+  float: right;
+  margin: 0 0 0 4px;
+}
+
+/*making tabs in reports and other pages float right*/
+.ar .anchors li{
+  float: right;
+}
+
+.rtl .view-human-rights-by-country #edit-go {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+/***************************************/
+/* activism centre event pages general */
+/***************************************/
+
+.rtl .panel-gac_3col_centre_rtl .pane-page-title {
+	float:right;
+}
+
+.panel-gac_3col_centre_rtl h1 {
+	margin: 5px 0 5px 0;
+}
+
+.rtl #event_calendar_rss {
+	text-align: left;
+}
+
+.rtl #ai-sidebar-squeeze > .panel-panel > .inside > #gac-event-filter > h2.pane-title {
+	margin: 0 0 5px 10px;
+	float: right;
+}
+
+.rtl #gac-event-filter .views-exposed-form label {
+	float: right;
+}
+
+.rtl #gac-event-filter .views-exposed-widget {
+	padding: 5px 5px 5px 0;
+	float: right;	
+}
+
+.rtl #gac-event-filter .views-widget {
+	float: right;
+}
+
+.rtl #event-teaser-left {
+	float: right;
+	margin: 0 0 70px 10px;
+}
+
+.rtl .page-activism-center-calendar .views-field-title-2 {
+	float: left;
+}
+
+.rtl #community-quickguide-events {
+	margin: 0 50px 0 0;
+	float: right;	
+}
+
+.rtl #community-quickguide-comments {
+	margin: 0 20px 0 20px;
+	float: right;	
+}
+
+.rtl .pane-gac-calendar-month-panel-pane-1 .views-field-title-2 {
+	float: left;	
+}
+
+/********************************************/
+/* activism centre event full view specific */
+/********************************************/
+
+.rtl .pane-gac-calendar-event-panel-pane-1 .views-field-body {
+	margin: 0 95px 0 0	
+}
+.rtl .pane-gac-calendar-event-panel-pane-1 .views-field-upload-fid {
+	margin: 0 95px 0 0;	
+}
+
+.rtl .pane-gac-calendar-event-panel-pane-1 .views-field-address {
+	margin: 0 95px 0 0;	
+}
+
+/*************************/
+/* activism centre fixes */
+/*************************/
+
+.fr .page-activism-center-community-forum .item-list ul.pager li.pager-next,
+.es .page-activism-center-community-forum .item-list ul.pager li.pager-next {
+position:absolute;
+right:70px;
+}
+
+/* RJ Fixes */
+
+.es .page-rightsjourney .rj-home-mapintro {
+	min-height: 168px;	
+}
+
+.fr .page-rightsjourney .rj-home-mapintro {
+	min-height: 150px;	
+}
+

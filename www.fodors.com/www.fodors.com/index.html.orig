@@ -1,0 +1,1016 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Fodor's Travel Guides - Plan Your Trip Online</title>
+		<meta name="description" content="Read Fodor's reviews to find the best travel destinations, hotels and restaurants. Plan your trip online with Fodor's.">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	
+		<!--[if !IE]><!-->
+		<link rel="stylesheet" type="text/css" href="/css/main.css?date=05072013" media="screen and (min-width:601px)"/>
+		<link rel="stylesheet" type="text/css" href="/css/homepage-main.css?date=05072013" media="screen and (min-width:601px)"/>
+		<link rel="stylesheet" type="text/css" href="/css/mobile.css?date=05072013" media="screen and (max-width:600px)"/>
+		<!--<![endif]-->
+		<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/main.css?date=05072013">
+		<link rel="stylesheet" type="text/css" href="/css/homepage-main.css?date=05072013">
+		<![endif]-->
+	
+		<link rel="image_src" href="http://www.fodors.com/images/new_fodors_logo.gif" />
+		<META name="y_key" content="33303f65f97ca4c8" >
+		<meta name="verify-v1" content="EoaQFHPi/KBM01aQYR5+pYcsE+1qRon2tzsziuGy3bk=" />
+		<meta name="p:domain_verify" content="c1eca76f9848c5656b68933934bca86a" >
+		<meta property="fb:admins" content="27630567432" />
+		<meta property="fb:app_id" content="131261190345537" />
+		<meta name="google-translate-customization" content="a96a0e9fce0e37df-b653fd842599cd6a-g86fc44c6fd16daf3-e"></meta>
+		
+
+<script type="text/javascript">
+var ie = (function(){
+    var undef,
+        v = 3,
+        div = document.createElement('div'),
+        all = div.getElementsByTagName('i');
+    while (
+        div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
+        all[0]
+    );
+    return v > 4 ? v : undef;
+}());
+</script>
+<script type="text/javascript">
+if(window.innerWidth <= 600) {
+//MOBILE GPT
+	(function() {
+	var useSSL = 'https:' == document.location.protocol;
+	var src = (useSSL ? 'https:' : 'http:') +
+	'//www.googletagservices.com/tag/js/gpt_mobile.js';
+	document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+	})();
+} else {
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +       '//www.googletagservices.com/tag/js/gpt.js';
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+}
+</script>
+
+<script type='text/javascript'>
+if(ie < 10){
+googletag.pubads().setTargeting("t","n");
+googletag.defineSlot('/3739/fdrs.homepage', [[728, 90],[970, 90],[980, 70],[980, 30],[970, 250]], 'div-gpt-ad-72890-0').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [200, 35], 'div-gpt-ad-20035-0').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [980, 30], 'div-gpt-ad-98030-0').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [160, 600], 'div-gpt-ad-160600-0').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [400, 90], 'div-gpt-ad-40090-1').setTargeting('pos', '1').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [400, 90], 'div-gpt-ad-40090-2').setTargeting('pos', '2').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [[300, 250],[300, 600],[300, 1050]], 'div-gpt-ad-3001050-1').setTargeting('pos', '1').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [[300, 250],[300, 600]], 'div-gpt-ad-300600-1').setTargeting('pos', '1').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [[300, 250],[300, 600]], 'div-gpt-ad-300600-2').setTargeting('pos', '2').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [300, 250], 'div-gpt-ad-300250-1').setTargeting('pos', '1').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [300, 250], 'div-gpt-ad-300250-2').setTargeting('pos', '2').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [550, 480], 'div-gpt-ad-550480-0').addService(googletag.pubads());
+googletag.defineSlot('/3739/fdrs.homepage', [980, 65], 'div-gpt-ad-98065-0').addService(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+} else if (window.innerWidth <= 600) {
+	googletag.pubads().setTargeting("t","n");
+	googletag.defineSlot('/3739/mobile', [320,50], 'div-gpt-ad-72890-0').setTargeting('pos', '1').addService(googletag.pubads());
+	googletag.defineSlot('/3739/mobile', [320,50], 'div-gpt-ad-32050-2').setTargeting('pos', '2').addService(googletag.pubads());
+	googletag.enableServices();
+} else {
+		googletag.pubads().setTargeting("t","n");
+		googletag.pubads().enableSyncRendering();
+		googletag.pubads().collapseEmptyDivs();
+		googletag.enableServices();
+}
+</script>
+
+
+	</head>
+	<body>
+	
+<div class="header-wrapper">
+	<div class="header clearfix">
+		
+			<div class="fodors-logo"><h1><a href="/"><img src="/images/fodors-logo-90.png" alt="Fodor's | Travel Intelligence" width="435" height="45" border="0"/></a></h1></div>
+		
+	<form id="social-login-form" method="post" action="/login/social-login.html" class="hidden">
+		<input id="social-login-hidden" type="hidden" name="json" />
+	</form>
+	
+			<div class="login-status">
+				<a href="/login/register.html?url_certified=8ab34eb5983554010e0ce78e0f4dff78-http%3A%2F%2Fwww.fodors.com%2F&label_certified=3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com" rel="nofollow" class="register">Register</a><a href="/login/?url_certified=8ab34eb5983554010e0ce78e0f4dff78-http%3A%2F%2Fwww.fodors.com%2F&label_certified=3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com" rel="nofollow" class="login-link">Login</a>
+			</div>
+			
+		<div class="site-search">
+			<form name="search" action="/search/results.html" method="get">
+				<input type="text" name="search" id="search-q" size="30" autocomplete="off" placeholder="Search">
+				<input id="search-input" type="submit" value="" name="submit" class="top-search">
+			</form>
+			<div id="search-hints"></div>
+		</div>
+	</div>
+</div>
+<div class="site-nav-wrapper header-nav normal">	
+	<ul class="site-nav clearfix">
+	
+		<li class="site-nav-item sub-nav first"><a href="/world/">Destinations<span></span></a>
+			<div>
+			<ul class="world">
+				<li class="africa-and-middle-east"><a href="/world/africa-and-middle-east/">Africa &amp; The Middle East</a></li>
+				<li class="asia"><a href="/world/asia/">Asia</a></li>
+				<li class="australia-and-the-pacific"><a href="/world/australia-and-the-pacific/">Australia &amp; The Pacific</a></li>
+				<li class="canada"><a href="/world/north-america/canada/">Canada</a></li>
+				<li class="caribbean"><a href="/world/caribbean/">Caribbean</a></li>
+				<li class="europe"><a href="/world/europe/">Europe</a></li>
+				<li class="mexico-and-central-america"><a href="/world/mexico-and-central-america/">Mexico &amp; Central America</a></li>
+				<li class="south-america"><a href="/world/south-america/">South America</a></li>
+				<li class="usa"><a href="/world/north-america/usa/">USA</a></li>
+				<li class="view-all-dests"><a href="/world/">View All &raquo;</a></li>
+			</ul>
+			</div>
+		</li>
+		<li class="site-nav-item sub-nav"><a href="/cruises/">Cruises<span></span></a>
+			<div class="cruise">
+			<ul>
+				<li><a href="/cruises/azamara-club-cruises-689517/">Azamara Club Cruises</a></li>
+				<li><a href="/cruises/carnival-cruise-lines-676515/">Carnival Cruise Lines</a></li>
+				<li><a href="/cruises/celebrity-cruises-676542/">Celebrity Cruises</a></li>
+				<li><a href="/cruises/costa-cruises-676555/">Costa Cruises</a></li>
+				<li><a href="/cruises/crystal-cruises-676570/">Crystal Cruises</a></li>
+				<li><a href="/cruises/cunard-line-695745/">Cunard Line</a></li>
+				<li><a href="/cruises/disney-cruise-line-676576/">Disney Cruise Line</a></li>
+				<li><a href="/cruises/fred-olsen-cruise-lines-676582/">Fred. Olsen Cruise Lines</a></li>
+				<li><a href="/cruises/holland-america-line-676587/">Holland America Line</a></li>
+				<li><a href="/cruises/hurtigruten-676605/">Hurtigruten</a></li>
+				<li><a href="/cruises/lindblad-expeditions-676616/">Lindblad Expeditions</a></li>
+				<li><a href="/cruises/msc-cruises-676619/">MSC Cruises</a></li>
+				</ul><ul> 
+				<li><a href="/cruises/norwegian-cruise-line-676632/">Norwegian Cruise Line</a></li>
+				<li><a href="/cruises/oceania-cruises-676648/">Oceania Cruises</a></li>
+				<li><a href="/cruises/po-cruises-676653/">P&amp;O Cruises</a></li>
+				<li><a href="/cruises/princess-cruises-676659/">Princess Cruises</a></li>
+				<li><a href="/cruises/regent-seven-seas-cruises-676680/">Regent Seven Seas Cruises</a></li>
+				<li><a href="/cruises/royal-caribbean-international-676685/">Royal Caribbean International</a></li>
+				<li><a href="/cruises/saga-676713/">Saga</a></li>
+				<li><a href="/cruises/seabourn-cruise-line-676716/">Seabourn Cruise Line</a></li>
+				<li><a href="/cruises/seadream-yacht-club-676721/">SeaDream Yacht Club</a></li>
+				<li><a href="/cruises/silversea-cruises-676725/">Silversea Cruises</a></li>
+				<li><a href="/cruises/star-clippers-676732/">Star Clippers</a></li>
+				<li><a href="/cruises/windstar-cruises-676735/">Windstar Cruises</a></li>
+				<li class="view-all-dests"><a href="/cruises/">View All &raquo;</a></li>
+			</ul>
+			</div>
+		</li>		
+		<li class="site-nav-item"><a href="/news/">News &amp; Features</a>
+		</li>
+		<li class="site-nav-item sub-nav"><a href="/guidebooks/">Store<span></span></a>
+			<div>
+			<ul>
+				<li><a href="/guidebooks/">Guidebooks</a></li>
+				<li><a href="/mobile-apps/">City Guide App</a></li>
+				<li><a href="/mobile-apps/travel-phrases/">Travel Phrase App</a></li>
+			</ul>
+			</div>
+		</li>
+		<li class="site-nav-item sub-nav"><a href="/deals/">Deals<span></span></a>
+			<div>
+			<ul>
+				<li><a href="/deals/hotel-deals/" title="Hotel Deals">Hotel Deals</a></li>
+				<li><a href="/deals/airfare-deals/" title="Airfare Deals">Airfare Deals</a></li>
+				<li><a href="/deals/vacation-package-deals/" title="Package Deals">Package Deals</a></li>
+				<li><a href="/deals/car-rental-deals/" title="Car Rental Deals">Car Rental Deals</a></li>
+				<li><a href="/deals/family-travel-deals/" title="Family Travel Deals">Family Travel Deals</a></li>
+				<li><a href="/cruises/deals/" title="Cruise Deals">Cruise Deals</a></li>
+				<li class="view-all-dests"><a href="/deals/">View All &raquo;</a></li>
+			</ul>
+			</div>
+		</li>
+		<li class="site-nav-item"><a href="/community/">Forums</a></li>
+		<li class="site-nav-item sub-nav-new last"><a href="##">New!<span></span></a>
+			<div>
+				<ul>
+					<li><a href="/news/features/great-american-vacation/"><img src="/images/hp-new-gat.jpg" width="96" border="0" /></a><a href="/news/features/great-american-vacation/">Great American Vacation</a><p>Find Your Next U.S. Trip with Fodor's</p></li>
+					<li><a href="/mobile-apps/"><img src="/images/hp-new-mobile.jpg" width="96" border="0" /></a><a href="/mobile-apps/">Free Fodor's City Guide Apps</a><p>Las Vegas, Miami, New Orleans, and Seattle now available!</p></li>
+				</ul>
+			</div>
+		</li>
+	
+		
+	</ul>
+</div>
+
+<div class="advertisement"><div id="div-gpt-ad-72890-0">
+    <script type="text/javascript">
+    if(ie < 10){
+	    googletag.display("div-gpt-ad-72890-0");
+    } else {
+	    if (window.innerWidth > 600) {
+	    		googletag.defineSlot('/3739/fdrs.homepage', [[728, 90],[970, 90],[980, 70],[980, 30],[970, 250]], 'div-gpt-ad-72890-0').addService(googletag.pubads());
+	      		googletag.display("div-gpt-ad-72890-0");
+		} else {
+			//Mobile Header Ad
+			googletag.cmd.push(function() {
+      		googletag.display("div-gpt-ad-72890-0");
+      		});
+		}
+    }
+    </script>
+</div>
+</div>
+
+<div class="main-content clearfix">	
+	<div class="col-628 gutter">
+		<div class="hp-lead clearfix">
+			<div class="col-400 clearfix">
+				 
+<div id="hp-slides" class="hp-slides">
+
+
+	
+	<div class="hp-slide">
+		<div class="hp-slide-float">
+		<a href="http://www.fodors.com/news/tips-luxury-trip-to-paris-6769.html"><img src="/images/hp/paris right.jpg" width="400" height="266" alt=""/></a>
+		
+		<h2><a href="http://www.fodors.com/news/tips-luxury-trip-to-paris-6769.html"> Tips from the Jet Set: How to Do Paris Right<br/><span class="hp-slide-action">Check out our top tips</span></a></h2>
+		</div>
+	</div>
+	
+	
+	
+	<div class="hp-slide">
+		<div class="hp-slide-float">
+		<a href="http://www.fodors.com/news/5-reasons-to-go-to-colorado-this-summer-6773.html"><img src="/images/hp/colorado.jpg" width="400" height="266" alt=""/></a>
+		
+		<h2><a href="http://www.fodors.com/news/5-reasons-to-go-to-colorado-this-summer-6773.html"> 5 Reasons to Go to Colorado this Summer<br/><span class="hp-slide-action">Start planning now</span></a></h2>
+		</div>
+	</div>
+	
+	
+	
+	<div class="hp-slide">
+		<div class="hp-slide-float">
+		<a href="http://www.fodors.com/news/5-new-james-beard-award-winners-to-try-6762.html"><img src="/images/hp/james-beard-winners.jpg" width="400" height="266" alt=""/></a>
+		
+		<h2><a href="http://www.fodors.com/news/5-new-james-beard-award-winners-to-try-6762.html">5 New James Beard Award Winners to Try<br/><span class="hp-slide-action">Book a top table</span></a></h2>
+		</div>
+	</div>
+	
+	
+	
+	<div class="hp-slide">
+		<div class="hp-slide-float">
+		<a href="http://www.fodors.com/news/5-reasons-to-visit-baja-now-6764.html"><img src="/images/hp/baja-reasons.jpg" width="400" height="266" alt=""/></a>
+		
+		<h2><a href="http://www.fodors.com/news/5-reasons-to-visit-baja-now-6764.html">5 Reasons to Visit Baja<br/><span class="hp-slide-action">Hit the beach</span></a></h2>
+		</div>
+	</div>
+	
+	
+	
+	<div class="hp-slide">
+		<div class="hp-slide-float">
+		<a href="http://www.fodors.com/news/what-to-pack-stockholm-6748.html"><img src="/images/hp/what to pack stockholm.jpg" width="400" height="266" alt=""/></a>
+		
+		<h2><a href="http://www.fodors.com/news/what-to-pack-stockholm-6748.html">What to Pack: Stockholm<br/><span class="hp-slide-action">Look chic</span></a></h2>
+		</div>
+	</div>
+	
+	
+	
+	<div class="hp-slide">
+		<div class="hp-slide-float">
+		<a href="http://www.fodors.com/news/locals-guide-to-dc-san-francisco-la-nyc-and-chicago-6739.html"><img src="/images/hp/hidden gems.jpg" width="400" height="266" alt=""/></a>
+		
+		<h2><a href="http://www.fodors.com/news/locals-guide-to-dc-san-francisco-la-nyc-and-chicago-6739.html"> 12 Hidden Gems in DC, San Francisco, LA, NYC, and Chicago<br/><span class="hp-slide-action">Escape the tourists</span></a></h2>
+		</div>
+	</div>
+	
+	
+	
+	<div class="hp-slide">
+		<div class="hp-slide-float">
+		<a href="http://www.fodors.com/world/north-america/usa/hawaii/"><img src="/images/hp/hawaii.png" width="400" height="266" alt=""/></a>
+		
+		<h2><a href="http://www.fodors.com/world/north-america/usa/hawaii/">Discover Your Hawaii<br/><span class="hp-slide-action">Soak up the sun</span></a></h2>
+		</div>
+	</div>
+	
+	
+</div>
+<ul class="hp-buttons" id="fnav"></ul>
+
+			</div>
+			<div class="hp-social col-dv">
+				<a href="/news/features/great-american-vacation/"><img src="/images/homepage-usa-trip-finder.jpg" alt="The Great American Trip Finder" border="0" width="214" height="358" /></a>
+			</div>
+
+		</div>
+		<div class="col-628 col-dv">
+			 
+
+<div class="content-block browse-dests clearfix">
+	<div class="col-400 pop-dests clearfix">
+		<h2>Popular Destinations</h2>
+		<div class="map-nav"><a href="/world/" id="mapholder"></a></div>
+	<ul class="col-112 gutter">
+		<li><a href="/world/europe/france/paris/">Paris</a></li>
+		<li><a href="/world/north-america/usa/new-york/new-york-city/">New York City</a></li>
+		<li><a href="/world/caribbean/puerto-rico/">Puerto Rico</a></li>
+		<li><a href="/world/europe/italy/rome/">Rome</a></li>
+		<li><a href="/world/north-america/usa/nevada/las-vegas/">Las Vegas</a></li>
+		<li><a href="/world/north-america/usa/louisiana/new-orleans/">New Orleans</a></li>
+		<li><a href="/world/north-america/usa/district-of-columbia/washington-dc/">Washington, D.C.</a></li>
+		<li><a href="/world/north-america/usa/california/san-francisco/">San Francisco</a></li>
+		<li><a href="/world/north-america/usa/hawaii/maui/">Maui</a></li>
+		<li><a href="/world/europe/england/london/">London</a></li>
+		<li><a href="/world/north-america/usa/florida/walt-disney-world-orlando/">Walt Disney World</a></li>
+		<li><a href="/world/north-america/usa/florida/the-florida-keys/">The Florida Keys</a></li>
+		<li><a href="/world/caribbean/turks-and-caicos-islands/">Turks and Caicos Islands</a></li>
+	</ul>
+	<ul class="col-112 gutter">
+		<li><a href="/world/north-america/usa/hawaii/big-island/">Big Island</a></li>
+		<li><a href="/world/caribbean/bermuda/">Bermuda</a></li>
+		<li><a href="/world/europe/spain/barcelona/">Barcelona</a></li>
+		<li><a href="/world/caribbean/st-martin-and-st-maarten/">St. Martin and St. Maarten</a></li>
+		<li><a href="/world/south-america/argentina/buenos-aires/">Buenos Aires</a></li>
+		<li><a href="/world/north-america/usa/hawaii/kauai/">Kauai</a></li>
+	</ul>
+	<ul class="col-112 gutter">
+		<li><a href="/world/caribbean/st-lucia/">St. Lucia</a></li>
+		<li><a href="/world/north-america/usa/hawaii/honolulu-and-oahu/">Honolulu and Oahu</a></li>
+		<li><a href="/world/asia/china/hong-kong/">Hong Kong</a></li>
+		<li><a href="/world/north-america/usa/california/los-angeles/">Los Angeles</a></li>
+		<li><a href="/world/north-america/usa/illinois/chicago/">Chicago</a></li>
+		<li><a href="/world/europe/netherlands/amsterdam/">Amsterdam</a></li>
+	</ul>
+	</div>
+
+	<ul class="seasonal">
+	
+		<h2>Spring Picks</h2>
+			<li><a href="/world/europe/italy/florence/">Florence</a></li>
+			<li><a href="/world/europe/italy/venice/">Venice</a></li>
+			<li><a href="/world/north-america/usa/massachusetts/boston/">Boston</a></li>
+			<li><a href="/world/europe/italy/naples-and-campania/">Amalfi Coast and Capri</a></li>
+			<li><a href="/world/north-america/usa/florida/miami/">Miami</a></li>
+			<li><a href="/world/north-america/usa/washington/seattle/">Seattle</a></li>
+			<li><a href="/world/north-america/canada/quebec/montreal/">Montreal</a></li>
+			<li><a href="/world/north-america/usa/california/california-wine-country/">California Wine Country</a></li>
+			<li><a href="/world/north-america/usa/new-mexico/santa-fe/">Santa Fe</a></li>
+			<li><a href="/world/north-america/usa/california/san-diego/">San Diego</a></li>
+			<li><a href="/world/europe/spain/madrid/">Madrid</a></li>
+			<li><a href="/world/north-america/usa/south-carolina/charleston/">Charleston</a></li>
+			<li><a href="/world/north-america/usa/georgia/savannah/">Savannah</a></li>
+			<li><a href="/world/europe/turkey/istanbul/">Istanbul</a></li>
+			<li><a href="/world/north-america/usa/pennsylvania/philadelphia/">Philadelphia</a></li>
+	
+	</ul>
+	<div class="color-block"></div>
+</div>
+
+		</div>
+		<div class="col-400 col-dv gutter">
+			
+<div class="content-block blog-posts">
+	<h2><a href="/news/">Fodor's News &amp; Features</a></h2>
+	
+	<ul>
+	
+		<li class="blog-post clearfix">
+			<div class="blog-post-cats">
+				<a href="/news/all_where-to-stay.html">Hotels</a>, 
+				<a href="/news/all_deals.html">Deals</a></div>
+			
+			<div class="blog-post-text">
+			<div class="blog-post-title"><a href="/news/5-last-minute-memorial-day-deals-6780.html">5 Last-Minute Memorial Day Deals</a></div>
+				<p>
+				If you feel like getting out of town for Memorial Day but haven't made plans yet, don't fret&mdash;there are still deals to be had! Check out five of our favorites. 
+				<a href="/news/5-last-minute-memorial-day-deals-6780.html">Read more</a></p>
+			</div>
+			
+				<div class="blog-post-image">
+					<a href="/news/5-last-minute-memorial-day-deals-6780.html"><img src="/wire/6780.jpg" alt="5 Last-Minute Memorial Day Deals" border="0" /></a>
+				</div>
+			
+			<div class="blog-post-meta">
+				Posted by <a href="/news/news-by-erin_giffored.html">Erin Gifford</a> on May 16, 2013 at 8:56:33 AM EDT <span class="item-tags">
+					Tagged: <a href="/news/tagged_Hotels.html">Hotels</a>, <a href="/news/tagged_Deals.html">Deals</a>, <a href="/news/tagged_Holidays.html">Holidays</a></span>
+				</div>
+		</li>
+	
+		<li class="blog-post clearfix">
+			<div class="blog-post-cats">
+				<a href="/news/all_where-to-eat.html">Restaurants</a></div>
+			
+			<div class="blog-post-text">
+			<div class="blog-post-title"><a href="/news/where-to-eat-near-yankee-stadium-6779.html">Best Eats Near Yankee Stadium</a></div>
+				<p>
+				You've got a ticket and a hat. But did you know that by going to Yankee Stadium, you're within blocks of some of the best Jamaican, Dominican, and diner food in NYC? And you can bring it into the park, too. 
+				<a href="/news/where-to-eat-near-yankee-stadium-6779.html">Read more</a></p>
+			</div>
+			
+				<div class="blog-post-image">
+					<a href="/news/where-to-eat-near-yankee-stadium-6779.html"><img src="/wire/6779.jpg" alt="Best Eats Near Yankee Stadium" border="0" /></a>
+				</div>
+			
+			<div class="blog-post-meta">
+				Posted by <a href="/news/news-by-graham_kates.html">Graham Kates</a> on May 15, 2013 at 1:41:44 PM EDT <span class="item-tags">
+					Tagged: <a href="/news/tagged_Sports.html">Sports</a>, <a href="/news/tagged_Baseball.html">Baseball</a>, <a href="/news/tagged_Food.html">Food</a>, <a href="/news/tagged_Food-and-Wine.html">Food and Wine</a>, <a href="/news/tagged_Tips.html">Tips</a>, <a href="/news/tagged_New-York-City.html">New York City</a></span>
+				</div>
+		</li>
+	
+		<li class="blog-post clearfix">
+			<div class="blog-post-cats">
+				<a href="/news/all_cruises.html">Cruises</a>, 
+				<a href="/news/all_news.html">News</a></div>
+			
+			<div class="blog-post-text">
+			<div class="blog-post-title"><a href="/news/cruise-lines-launch-more-celebchef-itineraries-6778.html">Cruise Lines Launch More Celeb-Chef Itineraries</a></div>
+				<p>
+				A trifecta of celebrity chefs including Cat Cora, Jason Atherton, and Chantal Coady are set to head out to sea this year with Holland America and Silversea. 
+				<a href="/news/cruise-lines-launch-more-celebchef-itineraries-6778.html">Read more</a></p>
+			</div>
+			
+				<div class="blog-post-image">
+					<a href="/news/cruise-lines-launch-more-celebchef-itineraries-6778.html"><img src="/wire/6778.jpg" alt="Cruise Lines Launch More Celeb-Chef Itineraries" border="0" /></a>
+				</div>
+			
+			<div class="blog-post-meta">
+				Posted by <a href="/news/news-by-andrea_rotondo.html">Andrea M. Rotondo</a> on May 15, 2013 at 11:36:47 AM EDT <span class="item-tags">
+					Tagged: <a href="/news/tagged_Cruise-Lines.html">Cruise Lines</a>, <a href="/news/tagged_Cruises.html">Cruises</a>, <a href="/news/tagged_Chefs.html">Chefs</a>, <a href="/news/tagged_Food.html">Food</a>, <a href="/news/tagged_Food-and-Wine.html">Food and Wine</a>, <a href="/news/tagged_News.html">News</a></span>
+				</div>
+		</li>
+	
+	<p class="view-all"><a href="/news/"><strong>More News</strong></a></p>
+</div>
+
+		</div>
+		<div class="col-212 col-dv">
+			 
+<div>
+	<h2><a href="/travel-photography/galleries.html">Photo Galleries</a></h2>
+	<ul class="hp-galleries clearfix">
+	 
+		<li class="hp-gallery">
+			
+			<a href="/news/photos/europes-best-boutique-hotels-for-under-250-per-night"><img src="http://www.fodors.com/images/experiences/london-hoxton2.jpg" alt="europes-best-boutique-hotels-for-under-250night (Photos)" border="0" class="hp-gallery-image" /></a>
+			
+			<div class="hp-gallery-title"><a href="/news/photos/europes-best-boutique-hotels-for-under-250-per-night">Europe's Best Boutique Hotels for Under $250 Per Night</a></div>
+		</li>
+		
+		<li class="hp-gallery">
+			
+			<a href="/news/photos/20-best-hotel-pools-in-the-world"><img src="http://www.fodors.com/images/experiences/hotel-caruso-pool.jpg" alt="20-best-hotel-pools-in-the-world (Photos)" border="0" class="hp-gallery-image" /></a>
+			
+			<div class="hp-gallery-title"><a href="/news/photos/20-best-hotel-pools-in-the-world">20 Best Hotel Pools in the World</a></div>
+		</li>
+		
+		<li class="hp-gallery">
+			
+			<a href="/news/photos/top-12-things-to-do-in-switzerland"><img src="http://www.fodors.com/images/experiences/Engelberg-Hiking.jpg" alt="top-12-things-to-do-in-switzerland (Photos)" border="0" class="hp-gallery-image" /></a>
+			
+			<div class="hp-gallery-title"><a href="/news/photos/top-12-things-to-do-in-switzerland">Top 12 Things to Do in Switzerland</a></div>
+		</li>
+		
+		<li class="hp-gallery">
+			
+			<a href="/news/photos/10-great-scuba-diving-locations"><img src="http://www.fodors.com/images/experiences/Red-Sea.jpg" alt="10-great-scuba-diving-locations (Photos)" border="0" class="hp-gallery-image" /></a>
+			
+			<div class="hp-gallery-title"><a href="/news/photos/10-great-scuba-diving-locations">10 Great Scuba Diving Locations</a></div>
+		</li>
+		
+	</ul>
+	<p class="view-all"><a href="/travel-photography/galleries.html" class="view-all">More Photo Galleries</a></p>
+</div> 
+			
+		</div>
+	
+	</div>
+	
+	<div class="col-336 col-dv">
+		
+<div class="news-sub-mod">
+	<h2>Free Fodor's Newsletter</h2>
+	<p>Subscribe today for weekly travel inspiration, tips, and special offers.</p>
+	
+	<form name="signup_list" action="http://www.randomhouse.com/cgi-bin/newsletters/index.php" onsubmit="return emvSubmit(this);" method="POST" target="_top" class="clearfix">
+
+		<input type="hidden" name="EXACTTARGET_EMAIL_CUSTOMER_KEY_FIELD" value="1297"/>
+		<input type="hidden" name="EXACTTARGET_EMAIL_TEMPLATE_ID_FIELD" value="1297"/>
+		
+		<input type="hidden" value="FODORS" name="RH_REQUEST_SUBCODES[]">
+		<input type="hidden" value="FODORS_DEALS" name="RH_REQUEST_SUBCODES[]">		
+		
+		<input type="hidden" name="ERROR_PAGE_FIELD" value="http://www.fodors.com/newsletter/error.html"/>
+		<input type="hidden" name="REDIRECT_URI" value="http://www.fodors.com/newsletter/subscribe.html"/>
+		
+		<fieldset class="email">
+		<label>Enter your email</label>
+		<input type="text" id="EMAIL_FIELD" name="EMAIL_FIELD" maxlength="64" placeholder="Enter your email">
+		</fieldset>
+		<fieldset class="zip">
+		<label>Zipcode</label>
+		<input type="text" id="ZIPCODE_FIELD" name="ZIP_CODE_FIELD" maxlength="10" placeholder="Zipcode">
+		</fieldset>
+		</fieldset class="submit">
+		<input type="submit" value="Subscribe" class="btn blue">
+		</fieldset>
+	</form>
+	
+</div>
+		<div class="content-block external ad">
+			<div id="div-gpt-ad-3001050-1">
+    <script type="text/javascript">
+    if(ie < 10){
+	    googletag.display("div-gpt-ad-3001050-1");
+    } else {
+		if(window.innerWidth > 600) {
+	    	googletag.defineSlot('/3739/fdrs.homepage', [[300, 250],[300, 600],[300, 1050]], 'div-gpt-ad-3001050-1').setTargeting('pos', '1').addService(googletag.pubads());
+			googletag.display("div-gpt-ad-3001050-1");
+	    }
+    }
+    </script>
+</div>
+		</div>
+		<div class="forums">
+			<h2><span class="square">&#183;</span> <a href="/community/">Recent Forums Threads</a></h2>
+			<!-- cached ({
+	category_id--1:2013-05-16T10:42:09.988-0400-0.9516947529228648,
+	label-community_recent_topics_for_homepage:null,
+	forbid_lounge-true:null
+}: 1589 {ts '2013-05-16 10:42:18'}) --><!-- Saved 18 ms (memcache version) --> 
+<ul>
+
+	<li>
+		<h3><a href="/community/europe/united-kingdom/" rel="tag" title="United Kingdom">United Kingdom</a></h3>
+		<div class="blog-post-title"><a href="/community/europe/good-and-cheap-restaurants-on-queens-way-in-london.cfm?0">Good and Cheap - restaurants on Queens Way in London</a></div>
+<p> We recently came back from a one week trip to London and found it thrilling.  <a href="/community/europe/good-and-cheap-restaurants-on-queens-way-in-london.cfm?0">Read more</a></p>
+			</li>
+		
+	<li>
+		<h3><a href="/community/united-states/oregon/" rel="tag" title="Oregon">Oregon</a></h3>
+		<div class="blog-post-title"><a href="/community/united-states/crater-lake-north-entrance-open.cfm?0">Crater Lake-North entrance open</a></div>
+<p> For the first time in 20+ years, The North entrance of Crater Lake NP has opened before Memorial Day.<br /> By no means is all of the snow in the park melted. The East Rim and Pinnacles roads will remain closed, <a href="/community/united-states/crater-lake-north-entrance-open.cfm?0">Read more</a></p>
+			</li>
+		
+	<li>
+		<h3><a href="/community/europe/austria/" rel="tag" title="Austria">Austria</a></h3>
+		<div class="blog-post-title"><a href="/community/europe/vienna-state-opera-confused-about-standby-tickets.cfm?0">Vienna State Opera - confused about standby tickets?</a></div>
+<p> My mother is coming to Europe for the first time and she'd like to go to the Vienna State Opera. <a href="/community/europe/vienna-state-opera-confused-about-standby-tickets.cfm?0">Read more</a></p>
+			</li>
+		
+	</ul>
+
+		</div>
+		<div class="supplemental clearfix">
+	<div class="section clearfix">
+	<h2><span class="square">&nbsp;</span>Fodor's Trip Planning Ideas</h2>
+	<ul>
+		<li style="padding-bottom:4px;"><a href="/news/features/great-american-vacation/"><strong>Great American Vacation</strong>: Find Your Next U.S. Trip with Fodor's</a></li>
+		<li style="padding-bottom:4px;"><a href="/80degrees/"><strong>80 Degrees</strong>: Fodor's Helps You Find Your Best Beach Vacation Spots</a></li>
+		<li style="padding-bottom:4px;"><a href="/go-list/2013/"><strong>Go List</strong>: Fodor's Top 25 Places to Go in 2013</a></li>
+		<li style="padding-bottom:4px;"><a href="/hotel-awards/2012/"><strong>Hotel Awards 2012</strong>: Fodor's 100 Top Hotels</a></li>
+		<li style="padding-bottom:4px;"><a href="/weekend-getaways/"><strong>Weekend Getaways</strong>: Fodor's Recommends the Best Weekend Escapes in the US</a></li>	
+		<li style="padding-bottom:4px;"><a href="/world/europe/"><strong>Best of Europe</strong>: Fodor's Picks the Best Places to Visit in Europe</a></li>	
+	</ul>
+	</div>
+</div>
+
+	</div>
+</div>
+
+<div style="clear:both;"></div>
+<div class="footer-wrapper">
+	<div class="footer clearfix">
+		<ul class="col-142 gutter-38">
+			<li class="footer-nav-item"><a href="/world/">Destinations</a></li>
+			<li><a href="/world/africa-and-middle-east/">Africa &amp; The Middle East</a></li>
+			<li><a href="/world/asia/">Asia</a></li>
+			<li><a href="/world/australia-and-the-pacific/">Australia &amp; The Pacific</a></li>
+			<li><a href="/world/north-america/canada/">Canada</a></li>
+			<li><a href="/world/caribbean/">Caribbean</a></li>
+			<li><a href="/world/europe/">Europe</a></li>
+			<li><a href="/world/mexico-and-central-america/">Mexico &amp; Central America</a></li>
+			<li><a href="/world/south-america/">South America</a></li>
+			<li><a href="/world/north-america/usa/">USA</a></li>
+		</ul>
+		<ul class="col-142 gutter-38 border-col">
+			<li class="footer-nav-item"><a href="/community/">Forums</a></li>
+			<li><a href="/community/africa-the-middle-east/">Africa &amp; the Middle East</a></li>
+			<li><a href="/community/asia/">Asia</a></li>
+			<li><a href="/community/australia-the-pacific/">Australia &amp; the Pacific</a></li>
+			<li><a href="/community/canada/">Canada</a></li>
+			<li><a href="/community/caribbean-islands/">Caribbean</a></li>
+			<li><a href="/community/europe/">Europe</a></li>	
+			<li><a href="/community/mexico-central-america/">Mexico &amp; Central America</a></li>
+			<li><a href="/community/south-america/">South America</a></li>
+			<li><a href="/community/united-states/">United States</a></li>
+			<li><a href="/community/air-travel/">Air Travel</a></li>
+			<li><a href="/community/cruises/">Cruises</a></li>
+			<li><a href="/community/travel-tips-trip-ideas/">Travel Tips &amp; Trip Ideas</a></li>
+			<li><a href="/community/forums-help/">Forums Help</a></li>
+		</ul>
+		<ul class="col-142 gutter-38 border-col">
+			<li class="footer-nav-item"><a href="/news/">News &amp; Features</a></li>
+			<li><a href="/news/all_airlines.html">Airlines</a></li>
+			<li><a href="/news/all_arts-culture.html">Arts &amp; Culture</a></li>
+			<li><a href="/news/all_cruises.html">Cruises</a></li>
+			
+			
+			<li><a href="/news/all_family.html">Family</a></li>
+			<li><a href="/news/all_where-to-stay.html">Hotels</a></li>
+			<li><a href="/news/all_news.html">News</a></li>	
+			
+			
+			<li><a href="/news/all_where-to-eat.html">Restaurants</a></li>
+			<li><a href="/news/all_rewards-programs.html">Rewards Programs</a></li>
+			<li><a href="/news/all_shopping.html">Shopping</a></li>
+			
+			<li><a href="/news/all_style.html">Style</a></li>
+			<li><a href="/news/all_travel-tech.html">Travel Tech</a></li>
+			<li><a href="/news/all_travel-tips.html">Travel Tips</a></li>
+			<li><a href="/news/all_trip-ideas.html">Trip Ideas</a></li>
+			<li><a href="/news/all_wine-cocktails.html">Wine &amp; Cocktails</a></li>
+			
+		</ul>
+		<ul class="col-142 gutter-38 border-col" style="height:430px;">
+			<li class="footer-nav-item"><a href="/about-us/">About Us</a></li>
+			<li><a href="/about/us/meet-the-editors.cfm">Meet the Editors</a></li>
+			<li><a href="/contact-us/">Contact Us</a></li>
+			<li><a href="/faq/" target="_top">FAQ</a></li>
+			<li><a href="/about/us/ftp_affiliate.cfm">Affiliate Program</a></li>
+			
+			<li><a href="/about/terms-of-use/">Terms of Use</a></li>
+			<li><a href="/about/privacy/">Privacy Policy</a></li>
+			<li><a href="/siteindex/">Site Map</a></li>
+			<p class="copyright">Copyright &copy; 2013 <a href="/">Fodor's Travel</a>, a division of Random House, Inc.</p>
+		</ul>
+		<div class="col-240 gutter">
+			<div class="footer-social">
+				<h4>Follow Fodor's</h4>
+<a href="http://www.facebook.com/pages/Fodors/27630567432"><img src="/images/facebookx2.png" alt="Facebook" width="25" height="25" border="0" /></a>
+<a href="http://pinterest.com/fodorstravel/"><img src="/images/pinterestx2.png" alt="Pinterest" width="25" height="25" border="0" /></a>
+<a href="http://twitter.com/fodorstravel/"><img src="/images/twitterx2.png" alt="Twitter" width="25" height="25" border="0" /></a>
+<a href="http://www.youtube.com/fodorstravel"><img src="/images/youtubex2.png" alt="YouTube" width="25" height="25" border="0" /></a>
+<a href="http://instagram.com/fodorstravel/"><img src="/images/instagramx2.png" alt="Instagram" width="25" height="25" border="0" /></a>
+<a href="https://plus.google.com/108452718529387453410" rel="publisher"><img src="/images/googleplusx2.png" alt="Google+" width="25" height="25" border="0" /></a>
+<a href="http://feeds.feedburner.com/fodors/travel-news"><img src="/images/rssx2.png" alt="RSS Feed" width="25" height="25" border="0" /></a>
+<a href="/newsletter/signup.html"><img src="/images/mailx2.png" alt="Newsletter" width="25" height="25" border="0" /></a>
+
+
+			</div>
+			<div class="translate" style="position:absolute;top:120px;left:100px;">
+				<h4 style="margin-bottom: 16px;color: #55554E;font: bold 12px/16px Arial, Helvetica, sans-serif;text-transform: none;">Select Your Language</h4>
+				<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-4500675-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			</div>
+
+		</div>
+
+		
+	</div>
+
+	<div class="copyright-wrapper">
+		<div class="footer">
+			<a href="/" class="footer-logo"><img src="/images/fodors-logo-60.png" alt="Fodor's | Travel Intelligence" width="290" height="30" border="0"/></a>
+		
+		
+	<form id="social-login-form" method="post" action="/login/social-login.html" class="hidden">
+		<input id="social-login-hidden" type="hidden" name="json" />
+	</form>
+	
+			<div class="login-status">
+				<a href="/login/register.html?url_certified=8ab34eb5983554010e0ce78e0f4dff78-http%3A%2F%2Fwww.fodors.com%2F&label_certified=3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com" rel="nofollow" class="register">Register</a><a href="/login/?url_certified=8ab34eb5983554010e0ce78e0f4dff78-http%3A%2F%2Fwww.fodors.com%2F&label_certified=3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com" rel="nofollow" class="login-link">Login</a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<style>	
+#fb-login {
+	float:left;
+	cursor: pointer;
+}
+
+#twitter-login-button {
+	float: left;
+	margin: 0px 20px;
+}
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script> 
+<script type="text/javascript" src="/js/social_api.js"></script> 
+	<form id="social-login-form" method="post" action="/login/social-login.html" class="hidden">
+		<input id="social-login-hidden" type="hidden" name="json" />
+	</form>
+	
+				<div class="logged-out clearfix">
+				<a href="#" rel="nofollow" class="close-link">X</a>
+				
+				<div class="login-option">
+				<form id="nav-login" method="post" action="/login/login_catch.html" margin="0px;" padding="0px;">
+					<input type="hidden" name="url_certified" value="8ab34eb5983554010e0ce78e0f4dff78-http://www.fodors.com/">
+					<input type="hidden" name="label_certified" value="3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com">
+					Member Name or Email Address:<br /><input id="login-member" type="text" name="member_id" value="" size="15"><br />
+					Password:<br /><input id="login-pw" type="password" name="password" size="15"><br />
+					<input name="permanent_cookie" type="checkbox" value="true" checked> Remember Me<br />
+					<input id="login-submit" class="btn" type="submit" name="Submit" value="Sign in"><br />
+					<a href="/login/forgot_password.html?url_certified=8ab34eb5983554010e0ce78e0f4dff78-http%3A%2F%2Fwww.fodors.com%2F&label_certified=3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com">Forgot password?</a>
+				</form>
+				</div>
+				<div class="login-option">
+				<h3>&mdash;OR&mdash;</h3>
+				<h2>Sign In Using:</h2>
+		<div id="componentDiv">
+			<table width="100%" cellspacing="0" cellpadding="0" style="margin:0px;padding:0px;border:0px;line-height: normal;font-family:arial;background-color:transparent;vertical-align: middle; width: 75px; height: 35px;">
+				<tbody>
+					<tr>
+						<td style="vertical-align:middle;margin:0px;padding:0px;border:0px;">
+							<center>
+								<table style="margin:0px;padding:0px;border:0px;vertical-align:middle; height: 35px;width:100%" align="center" cellspacing="0" cellpadding="0">
+									<tbody>
+										<tr style="height:99%">
+											<td align="right" style="margin:0px;padding:0px;border:0px;vertical-align:middle;width:48%;text-align:right">
+												<div align="right" style="text-align:right;width:auto">
+												</div>
+											</td>
+											<td align="center" style="width:55px;margin:0px;padding:0px;border:0px;vertical-align:middle;white-space:nowrap" id="componentDiv_page">
+												<table align="center" cellspacing="0" cellpadding="0" style="margin: 0px; padding: 0px; border: 0px;" id="componentDiv_p0">
+													<tbody>
+														<tr>
+															<td align="center" style="margin:0px;padding:0px;border:0px;vertical-align:middle">
+																<table align="left" cellspacing="0" cellpadding="0" style="margin:0px;padding:0px;border:0px;">
+																	<tbody>
+																		<tr>
+																			<td style="margin:0px;padding:0px;border:0px;line-height: normal;font-family:arial;font-size:11px;color:#9b9b9b;padding-right:5px;text-align:center;vertical-align:top">
+																				<center>
+																					<div onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" id="fb-login" class="fb-login"  title="Facebook" alt="Facebook" style="zoom:1;cursor:pointer; width:25px;">
+																						<div style="width:25px; height:25px">
+																							<div style="background-image:url('/images/socialsprite.png');background-position:-0px 0px;width: 25px;height: 25px;line-height: 25px;background-repeat:no-repeat;font-size:1px;position:static;">
+																							</div>
+																						</div>
+																					</div>
+																				</center>
+																			</td>
+																			<td style="margin:0px;padding:0px;border:0px;line-height: normal;font-family:arial;font-size:11px;color:#9b9b9b;text-align:center;vertical-align:top">
+																				<center>
+																					<div onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';"  id="twitter-login" class="twitter-login" title="Twitter" alt="Twitter" style="zoom:1;cursor:pointer; width:25px;">
+																						<div gigid="twitter" style="width:25px; height:25px">
+																							<div style="background-image:url('/images/socialsprite.png');background-position:-25px 0px;width: 25px;height: 25px;line-height: 25px;background-repeat:no-repeat;font-size:1px;position:static;">
+																							</div>
+																						</div>
+																					</div>
+																				</center>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+											<td align="left" style="margin:0px;padding:0px;border:0px;vertical-align:middle;width:48%">
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+				
+				<p>Due to a recent upgrade, if you have been using a social sign on prior to 2/28/13, you will need to create a Fodor's password and link your new and old accounts.  If you don't have a Fodor's password, please request one by emailing us at <a href="mailto:registration@fodors.com">registration@fodors.com</a>.  We apologize for any inconvenience.</p>
+				</div>
+				</div>
+			
+<div id="div-gpt-ad-32050-2">
+    <script type="text/javascript">
+	    if(window.innerWidth <= 600) {
+			//Mobile Footer Ad
+      		googletag.display("div-gpt-ad-32050-2");
+    	}
+    </script>
+</div>
+<div class="mobile-footer clearfix">
+	<ul>
+	
+		<li><a href="/login/?url_certified=8ab34eb5983554010e0ce78e0f4dff78-http%3A%2F%2Fwww.fodors.com%2F&label_certified=3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com">Sign In</a> / <a href="/login/register.html?url_certified=8ab34eb5983554010e0ce78e0f4dff78-http%3A%2F%2Fwww.fodors.com%2F&label_certified=3d15bac2d2d7dfda2781cb1ccf8f9873-Fodors.com">Register</a></li>
+	
+		
+		<li><a href="#" id="full-site">View the full site</a></li>
+		<li><a href="/contact-us/">Send Feedback</a></li>
+	</ul>
+	<ul>
+		<li><a href="/faq/">Site Help</a></li>
+		<li><a href="/about/privacy/">Privacy</a></li>
+	</ul>
+</div>
+
+<script language="JavaScript" type="text/javascript" src="/js/s_config.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/s_code.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+	s.pageName="homepage";
+	s.server=window.location.hostname;
+	s.channel="homepage";
+	
+	s.prop15=""; 
+	s.prop16=""; 
+	s.prop17= document.title; 
+	s.prop18=""; 
+	 
+	
+	s.prop20="homepage";
+	
+	s.prop21="homepage";
+	
+	s.prop22="homepage";
+	
+	s.prop23="homepage";
+	
+	s.prop24="homepage";
+	
+	s.prop25="none"; 
+	s.prop29="none"; 
+	s.prop30="none"; 
+	
+	s.hier1 = "home";
+	s.campaign="";
+	s.events="";
+	s.products="";
+	
+	/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	var s_code=s.t();if(s_code)document.write(s_code);
+//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+src="http://randomhouse.122.2o7.net/b/ss/ranhdev/1/H.17--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+
+<script type="text/javascript" src="/js/jquery/jquery-min-020613.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/site-nav.js"></script>
+
+<script type="text/javascript">if(window.innerWidth <= 600) {$.getScript('/js/mobile.js');}</script>
+
+
+<!--[if lt IE 7]><script type="text/javascript" src="#request.root_href#js/pngfix.js"></script><![endif]-->
+
+
+
+<script type="text/javascript">
+if(window.innerWidth > 500 && $(".hfe-widget").attr("id")) {
+	var hfe = $(".hfe-widget").attr("id");
+	$.getScript('http://fodors.hotels-for-everyone.com/widgets/all-widgets-min.js');
+	window.onload = function() { 
+		HFE_Widget('450-150-1',hfe, 515, hfe);
+	};
+} else if(navigator.appVersion.indexOf('MSIE')>=0 && $(".hfe-widget").attr("id")) {
+
+	var hfe = $(".hfe-widget").attr("id");
+	//alert(hfe);
+	$.getScript('http://fodors.hotels-for-everyone.com/widgets/all-widgets-min.js');
+	window.onload = function() { 
+		HFE_Widget('450-150-1',hfe, 515, hfe);
+	};
+}
+</script>
+
+
+
+		<div id="div-gpt-ad-98065-0">
+	    		<script type="text/javascript">
+				if(ie < 10){
+				    googletag.display("div-gpt-ad-98065-0");
+    			} else {
+		   		    if(window.innerWidth > 600) {
+						googletag.defineSlot('/3739/fdrs.homepage', [980, 65], 'div-gpt-ad-98065-0').addService(googletag.pubads());
+	    	  			googletag.display("div-gpt-ad-98065-0");
+					}
+			    }
+	    		</script>
+		</div>
+	
+
+<script type="text/javascript">
+	//Google Analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4500675-1']);
+  _gaq.push(['_setCustomVar',
+      1,                
+      'Logged In',
+      'No',
+      1
+	]);
+  _gaq.push(['_trackPageview']);
+ 
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+	$("a").click(function(){
+		var linktext = $(this).text();
+		var link = $(this).attr("href");
+		_gaq.push(['_trackEvent', 'link', linktext, link]);
+	});
+	
+	
+	
+	var staticMap = $("#map-block").size();
+		if(staticMap > 0) {
+			var mapname = $("#map-block h2").text();
+			_gaq.push(['_trackEvent', 'staticmap', mapname]);
+			$("#static-map").click(function(){
+				_gaq.push(['_trackEvent', 'dynamicmap', mapname]);
+				linkCode(this,'event26');
+			});
+			$("#static-map a").click(function(){
+				var linktext = $(this).text();
+				var link = $(this).attr("href");
+				_gaq.push(['_trackEvent', 'maplinks', linktext, link]);
+			});
+		}
+	var websiteLink = $(".website a").size();
+		if(websiteLink > 0) {
+			$(".website a").click(function(){
+				var website = $(this).text();
+				_gaq.push(['_trackEvent', 'review_website', website]);
+			});
+		}
+	var subnav = $(".sub-nav div a").size();
+		if(subnav > 0) {
+			$(".sub-nav div a").click(function(){
+				var subnavtext = $(this).text();
+				_gaq.push(['_trackEvent', 'top_nav', subnavtext]);
+			});
+
+			$(".sub-nav div a").live('click',function(){
+				var subnavtext = $(this).text();
+				_gaq.push(['_trackEvent', 'top_nav_generated', subnavtext]);
+			});
+		}
+
+
+	//Quantcast
+	_qoptions={
+	qacct:"p-d0i2EbAMl-wE2"
+	};
+
+	$(document).ready(function() {
+		$.getScript('http://edge.quantserve.com/quant.js');
+	});
+	
+<!-- End Quantcast tag -->
+
+<!-- Begin comScore Tag -->
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "15350589" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=15350589&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script type="text/javascript">
+	$(".hp-slide-float a").click(function(){
+		var linkText = $(this).text();
+		s.tl(this,'o',linkText);
+	});
+	
+	
+</script>
+<script src="/js/jquery/jquery-ui-1.9.2.js"></script>
+<script src="/js/jquery/jquery.total-storage.min.js"></script>
+<script src="/js/jquery/jquery.mousewheel.js"></script>	
+<script src="/js/predictivesearch.js"></script>	
+<script src="/js/jquery/jquery.jscrollpane.js"></script>
+
+<script type="text/javascript" src="/js/homepage.js"></script>
+<script type="text/javascript">
+	$(".hp-slide-float a").click(function(){
+		var linkText = $(this).text();
+		s.tl(this,'o',linkText);
+	});
+</script>
+	</body>
+</html> 

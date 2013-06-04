@@ -1,0 +1,269 @@
+* { padding: 0px; margin: 0px;}
+
+body {
+ font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ background: #e7e7e7;
+ text-align:center;
+}
+
+li{ color:#000; margin-bottom:4px; }
+li a{ color:#000; text-decoration:none; }
+li a:hover{ color:#000; text-decoration:underline; }
+
+ul{ list-style-position:outside; /* list-style:square; */ list-style-image:url(/images/bullet-gray.gif); color:#000; margin-left:12px; font-size:12px; margin-bottom:7px; padding-left:8px; }
+ul a{ color:#000; text-decoration:none; }
+ul a:hover{ color:#000; text-decoration:underline; }
+
+ul ul {margin-top:5px;}
+
+#news li {margin-bottom:10px;}
+
+.more{ font-size:8pt; font-weight:bold; color:#000; }
+.more a{ color:#000; }
+.more a:hover{ color:#000; }
+
+#container { height:auto;}
+
+#wrapper {
+ margin: 0px auto;
+ width: 1000px;
+ border: #454545 solid 1px;
+ border-width: 0px 1px 1px 1px;
+ background: #e5e5e5;
+ text-align:left;
+}
+
+#redbanner {
+ height:70px;
+ background:#a70b0b url(/images/redbannerbg.png) repeat-x;
+  color:white;
+ }
+
+ #dollogo {
+  padding:3px;
+  position:relative;
+  top:3px;
+}
+
+#leftside {
+	float:left;
+	width:500px;
+	text-align:left;
+}
+
+#rightside {
+  float:right;
+  width: 450px;
+  text-align:right;
+}
+
+#search {
+  float:right;
+  width:450px;
+  height:55px;
+  position:relative;
+}
+
+.searchfield {
+  width:250px;
+  height: 22px;
+  font-size:120%;
+  text-align:left;
+  position:relative;
+  top:10px;
+}
+
+.advsearch {
+float:right;
+position:relative;
+height:10px;
+}
+
+.advsearch a {color:white;}
+.advsearch a:hover {color:white;}
+
+.searchbutton {position:relative; top:15px; margin-right: 15px;}
+
+#linkstop {clear:right; position:relative; top:-6px; margin-right: 15px;}
+#linkstop a:link {color:#FFFFFF; text-decoration:none; font-weight: bold;}
+#linkstop a:hover {color:#FFFFFF; text-decoration:none; font-weight: bold;}
+#linkstop a:visited {color:#FFFFFF; text-decoration:none; font-weight: bold;}
+
+#grayline {
+background: #ffffff url(/images/graylinebg.png) no-repeat;
+ padding: 7px 16px 3px 16px;
+ height: 39px;
+}
+
+#grayleft {float:left; position:relative; top:2px; font-weight:bold;}
+#grayleft a:link {color:black; text-decoration:none; font-size:115%;}
+#grayleft a:hover {text-decoration:underline; font-size:115%;}
+#grayleft a:visited {color:black; text-decoration:none; font-size:115%;}
+
+#grayright {float:right;}
+#grayright img {position:relative; top:4px;}
+#grayright a:link {color:#000; text-decoration:none; font-size:95%;}
+#grayright a:hover {color:#000; text-decoration:underline; font-size:95%;}
+#grayright a:visited {color:#000; text-decoration:none; font-size:95%;}
+
+
+#whitebanner {
+/*  background: white url(/images/redbanner-shadow.png) repeat-x top; */
+  background-color:white;
+  border-bottom: #810808 solid 3px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+	}
+
+#whitebanner ul {
+	margin:0px;
+	margin-left:5px;
+	padding:0px;
+ }
+
+#whitebanner li {
+    float:left;
+  border: #c6c6c6 solid 1px;
+  padding:3px 17px 4px 17px;
+  margin:0px 2px 0px 2px;
+  background: #dfdfdf url(/images/tab-shade.png) repeat-x top;
+  font-size:97%;
+  position:relative;
+  top:0px;
+  }
+
+#whitebanner li a { color:black; font-weight:normal;}
+#whitebanner a { color:#000; text-decoration:none; font-weight:bold;}
+
+#whitebanner .active {
+display:inline;
+  float:left;
+  border: #810808 solid 1px;
+  padding:3px 17px 4px 17px;
+  margin:0px 2px 0px 2px;
+  background: #810808 url(/images/active-tab-shade.png) repeat-x top;
+  font-size:97%;
+  position:relative;
+  top:0px;
+}
+
+#whitebanner .active a{
+	color:white;
+	font-weight:normal;
+}
+
+#whitebanner ul {list-style-type:none; list-style-image:url();}
+
+
+#main {
+ width:100%;
+ padding:10px;
+ padding-top:0px;
+}
+
+#leftcolumn {
+ color: #333;
+ background: #e5e5e5;
+ width: 420px;
+ float: left;
+  }
+
+#rightcolumn {
+ color: #333;
+ background: #e5e5e5;
+ width: 540px;
+ float: left;
+  margin-left:10px;
+}
+
+#rightcolumn-left {
+ color: #000;
+ background: #e5e5e5;
+ width: 265px;
+ float: left;
+   margin-left:10px;
+  }
+
+#rightcolumn-right {
+ color: #000;
+ background: #e5e5e5;
+ width: 265px;
+ float: left;
+  margin-left:10px;
+}
+
+#leftcolumn .box {width:420px;}
+#rightcolumn .box {width:540px;}
+
+#rightcolumn-left .box {width:265px;}
+#rightcolumn-right .box {width:265px;}
+
+.imgbox {
+ margin-top:10px;
+ background-color:black;
+ padding:0px;
+}
+
+.box {
+ margin-top:28px;
+ background-color:white;
+}
+
+.box h1 {
+font-weight: bold;
+font-size: 100%;
+margin: 0 5px 5px 5px;
+padding: 0 0 3px 0;
+position:relative;
+top:-18px;
+color: #990000;
+
+}
+
+#date {float:right; position:relative; top:11px;}
+#infocus {background-color:#e5e5e5; margin-top:11px;}
+#infocus h1 {position:relative; top:-1px;}
+#toolbox a {position:relative; top:-7px; left:15px; color:#000; text-decoration:none;}
+#toolbox a:hover{ color:#000; text-decoration:underline; }
+#audiences {background:white url(/images/audiences.jpg) no-repeat top center;}
+#menu {position:relative; z-index:99;}
+#jobopportunities {height:60px; margin-bottom:10px; margin-top:10px;}
+
+#news {font-size:95%; padding: 0px 0px 5px 0px; }
+
+#footer {
+ clear:both;
+}
+
+#redfooter {
+padding:7px;
+ text-align:center;
+ background:#a70b0b url(/images/redfooterbg.png) repeat-x top left;
+ color:white;
+ cursor:default;
+}
+
+#redfooter a {font-size:100%; font-weight:bold;}
+#redfooter a:link {cursor:hand;color:white; text-decoration:none;}
+#redfooter a:hover {cursor:hand;color:white; text-decoration:underline;}
+#redfooter a:visited {cursor:hand;color:white; text-decoration:none;}
+
+#dolinfofooter {
+ text-align:center;
+ background-color:#a5a5a5;
+ border-top: #616161 solid 1px;
+ font-size:100%;
+ padding:7px 0px 4px 0px;
+ color:#000;
+}
+
+#dolinfofooter a {font-size:15px; line-height:25px;}
+#dolinfofooter a:link {cursor:hand;color:black; text-decoration:none;}
+#dolinfofooter a:hover {cursor:hand;color:black; text-decoration:underline;}
+#dolinfofooter a:visited {cursor:hand;color:black; text-decoration:none;}
+
+#belowfooter {
+ height:156px;
+ background:#dbdbdb;
+}

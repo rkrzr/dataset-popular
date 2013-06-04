@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora'), url(http://themes.googleusercontent.com/static/fonts/lora/v5/4A-myfZX6oDr9CtSTkTGig.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lora Bold'), local('Lora-Bold'), url(http://themes.googleusercontent.com/static/fonts/lora/v5/rapsGf8n-DpRu9kcmAAciA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lora Italic'), local('Lora-Italic'), url(http://themes.googleusercontent.com/static/fonts/lora/v5/DeoOq1kX9ExfArSHppos_g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lora Bold Italic'), local('Lora-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/lora/v5/_IxjUs2lbQSu0MyFEAfa7aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}

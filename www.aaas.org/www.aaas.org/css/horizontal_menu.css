@@ -1,0 +1,107 @@
+header,
+div.html5_header {
+	width: 752px;
+}
+#organizational_nav {
+	margin: 27px 0 6px 0
+}
+header#organizational_banners {
+
+}
+#aaas_logo {
+	float: left;
+	width: 196px;
+}
+#organizational_nav #organizational_menus,
+#organizational_nav #service_menu {
+	margin: 0 0 0 196px;
+}
+#organizational_nav #service_menu {
+	text-align: right;
+	line-height: 39px;
+}
+#service_menu a:link, #service_menu a:visited {
+	color: black;
+}
+#organizational_nav #organizational_menus {
+}
+
+#organizational_menus .horizontal_menus ul {
+	list-style-type: none;
+}
+.horizontal_menus li {
+	float: left;
+	display: block;
+	list-style-type: none;
+	color: white;
+}
+
+ul#organizational_menu {
+  list-style-type: none;
+  margin: 0 0 0 33px;
+	padding: 0;
+	/*define the height so overflow can be hidden:*/
+	height: 2.09em;
+	overflow: hidden;
+}
+#organizational_menu li {
+	margin: 0 1px 0 0;
+	padding: 0 0.5em;
+	/*about 23px:*/
+	height: 2.09em;
+	border-radius: 6px 6px 0 0;
+	background: #307ec0;
+	line-height: 2.09em;
+	font-weight: bold;
+}
+#organizational_menu li.active {
+	background: #0a599b;
+}
+.horizontal_menus li a {
+	color: #ececec;
+	font-size: 11px;
+}
+/*
+Replace rounded borders with images in IE 6 & IE 7, via jquery run within conditional comment within article_html_start.inc.
+.hack on both boxes in case there are honest divs in some complex tab.
+*/
+#organizational_menu li.hack
+{
+	background-image: url(http://www.aaas.org/images/hacks/tab_upper_left_6x6.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+#organizational_menu li.hack div.hack {
+	/* margin expands div to fill li;
+			padding replaces the li padding: */
+	margin: 0 -0.5em;
+	padding: 0 0.5em;
+	background-image: url(http://www.aaas.org/images/hacks/tab_upper_right_6x6.gif);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+#organizational_submenu_box {
+	height: 2.27em;
+	background: #0a599b;
+	border-radius: 6px 6px 0 0;
+	clear: both;
+/*	width: 752px;*/
+	margin-left: -196px;
+}
+ul#organizational_submenu {
+	margin: 0;
+	padding: 0 1.5em 0 0;
+	float: right;
+}
+ul#organizational_submenu li {
+	padding: 0;
+}
+ul#organizational_submenu li a {
+	line-height: 2.27em;
+	padding: 0 0.55em 0 0.55em;
+	border-left: 1px solid white;
+}
+ul#organizational_submenu li:first-child a {
+	border: none;
+}

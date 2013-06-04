@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Stylesheet for the "Earth Day" Banner */
+
+.extreme_banner h1{
+	text-indent:-100000px;
+	background:url('earthday_banner.jpg') no-repeat;
+	width:960px;
+	height:95px;
+	position:relative; 
+	margin-bottom:10px; 
+	cursor:pointer;
+	
+}

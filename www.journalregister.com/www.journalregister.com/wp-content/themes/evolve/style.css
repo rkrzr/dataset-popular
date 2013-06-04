@@ -1,0 +1,85 @@
+/* 
+Theme Name: EvoLve
+Theme URI: http://theme4press.com/evolve
+Version: 1.1.2
+Description: EvoLve is a premium WordPress theme with advanced features including lots of options. It features a modern design with up to 14 color variants, fully customizable layout, post excerpts with thumbnails, post boxes, author gravatar support, up to 9 subscribe/social customizable buttons, custom logo, header widgets, recent posts slideshow, footer widgets, custom footer, customizable font styles, custom CSS, ads spaces. The EvoLve theme also comes with custom Menus support and other cool features. 
+Author: Blogatize
+Author URI: http://blogatize.net
+Tags: two-columns, flexible-width, sticky-post, threaded-comments, microformats, custom-menu, black, blue, white, dark, right-sidebar, custom-header, custom-menu, theme-options
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+
+/*-------- Changelog -------- 
+
+Version:         1.1.2  -  Initial release
+Date:         11/1/11
+
+*/
+
+/* Reset Browser Defaults */
+@import url( 'library/media/css/reset.css' );
+
+/* Apply base theme styles and colors */
+@import url( 'library/media/css/base.css' );
+
+/* Basic 2 Column Layout */
+@import url( 'library/media/layouts/2col-r.css' );
+
+.alignleft { float: left; margin: 5px 20px 10px 0; }
+.alignright { float: right; margin: 5px 0 10px 20px; }
+.aligncenter { margin: 5px auto 10px auto; display: block; clear: both; }
+
+
+
+/* TEMPORARY STYLES */
+#jrc-menu-back {
+    background: url("library/media/images/menu_background2.jpg") repeat scroll 0 0 transparent !important;
+    width: 502px !important;
+}
+
+#jrc-menu-wrap {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.bio-info a, .bio-info .entry-content a:link, .bio-info .entry-content a:active, .bio-info .entry-content a:visited {
+color:#fff !important;
+}
+
+.tweet .tweet_list li, .query .tweet_list li, .tweet li, .tweet .tweet_list .tweet_even, .query .tweet_list .tweet_even  {
+border-bottom: 1px solid #d7d7d7 !important;
+}
+
+.tweet .tweet_list li a, .query .tweet_list li a {
+    color: #94cdfd !important;
+}
+.tweet .tweet_list .tweet_avatar {vertical-align:middle;}
+
+.tweet_text {   
+	display: block;
+    	margin-left: 50px;
+}
+
+.tweet {
+    margin-left: 8px;
+}
+
+
+#follow-share,#subnav {z-index:1000;}
+
+.nivo-controlNav {display:none !important;}
+#preloader {position:absolute; margin-left: 350px;margin-top: 150px;}
+#press-release-wrap {border-left: 10px solid #084e8b;border-right: 10px solid #084e8b;border-bottom: 10px solid #084e8b;}
+ul#press-release-feed {margin:0;list-style:none !important;list-style-image:none !important;color:#fff;background:#063f71}
+#press-release-feed li.header-list {background:#084e8b}
+#press-release-feed li.header-list .press-title {border-left:0}
+#press-release-feed .press-date {width:200px;float:left;margin:5px;padding-left:10px}
+#press-release-feed .press-title {padding:5px;margin-left:210px;border-left: 1px solid #05335c;}
+#press-release-feed .odd .press-title {background:#084e8b}
+#press-release-feed li {border-bottom: 1px solid #05335c;}
+#press-release-feed .header-list .press-date, #press-release-feed .header-list .press-title {padding-left:10px;font-size:16px;font-weight:bold;}
+
+ul#press-release-feed a, ul#press-release-feed .entry-content a:link, ul#press-release-feed .entry-content a:active, ul#press-release-feed .entry-content a:visited {color:#fff}

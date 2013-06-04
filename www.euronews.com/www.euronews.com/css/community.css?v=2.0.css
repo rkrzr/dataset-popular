@@ -1,0 +1,670 @@
+
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; overflow:hidden;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+
+#cboxOverlay{background:#fff;}
+
+#community-bar 
+        {
+        border-bottom:1px solid #555;
+		background-color:#333;
+        }
+#community-bar a
+        {
+        color:#DDD;
+        text-shadow:0 1px 0 #000;
+		font-size:11px;
+        }
+#community-bar a:hover{
+	color:white;
+}
+#community-bar-inner
+        {
+        text-align:right;
+		height:38px;
+		overflow:hidden;
+		padding-top:1px;
+        }
+		
+#community-bar-inner #cummunityLinks{
+	float:right;
+	line-height: 39px;
+}
+#community-bar-inner #topHeaderShareButtons{
+	float:right;
+	margin-right:9px;
+	*display:none; /* Hack <ie7 */
+}
+#community-bar-inner #topHeaderShareButtons .title{
+	float:left;
+	line-height:40px;
+	color:#DDD;
+	margin-right:10px;
+	font-size:11px;
+}
+#community-bar-inner #topHeaderShareButtons .facebook{
+	float: left;
+	margin-top: 9px;
+	margin-right: 10px;
+	width: 44px;
+	overflow:hidden;
+	width:46px\0/; /* Hack ie8 */
+}
+#community-bar-inner #topHeaderShareButtons .twitter{
+	margin-top:9px;
+	margin-right: 10px;
+	float:left;
+	*display:none;
+}
+#community-bar-inner #topHeaderShareButtons .google{
+	margin-top:9px;
+	float:left;
+	overflow:hidden;
+	width:auto;
+	height:auto;
+	*display:none;
+}
+.rtl #community-bar-inner #cummunityLinks{
+	float:left;
+}
+.rtl #community-bar-inner #topHeaderShareButtons{
+	float:left;
+	margin-right: 0;
+}
+.rtl #community-bar-inner #topHeaderShareButtons .title{
+	float:right;
+	margin-right:0;
+	margin-left:10px;
+}
+.rtl #community-bar-inner #topHeaderShareButtons .facebook{
+	float:right;
+	margin-right:0;
+	margin-left:10px;
+	padding-left:0;
+	width:auto;
+}
+.rtl #community-bar-inner #topHeaderShareButtons .facebook iframe{
+	position:relative;
+}
+.rtl #community-bar-inner #topHeaderShareButtons .twitter{
+	float:right;
+	margin-right:0;
+	margin-left:10px;
+}
+.rtl #community-bar-inner #topHeaderShareButtons .google{
+	float:right;
+}
+#radioPreviewTmp{
+	position: absolute;
+	margin-top: -25px;
+	width: 820px;
+	text-align:center;
+	display:none;
+}
+#radioPreviewTmp a{
+	color:white;
+	font-size:14px;
+}
+#logoutTopFrame{
+	float:right;
+}
+#logoutTopFrame span{
+	background:transparent url(../../www.gravatar.com/avatar/f22be35d296e3cc16aee9046fb388016%3Fs=20) no-repeat left center;
+	padding-left:20px;
+}
+#logoutTopFrame p.last{
+	line-height:40px; 
+	margin-right:10px;
+}
+#logoutTopFrame a#logout-b{
+	border-right:1px solid #CCC; 
+	padding-right:10px;
+}
+.rtl #logoutTopFrame{
+	float:left;
+}
+.rtl #logoutTopFrame span{
+	background-position:right center;
+	padding-right:20px;
+	padding-left:10px;
+}
+.rtl #logoutTopFrame p.last{
+	margin-right:0;
+	margin-left:10px;
+}
+.rtl #logoutTopFrame a#logout-b{
+	border-right:none; 
+	padding-right:0;
+	border-left:1px solid #CCC; 
+	padding-left:10px;
+	float:none;
+}
+.rtl #logoutTopFrame span a{
+	float:none;
+}
+#signup-message,
+#login-message
+        {
+        font-style:italic;
+        margin-bottom:10px;
+        }
+#signup-description
+        {
+        color: #444444;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        }
+.col1, .col2
+        {
+        float:left;
+        width:270px;
+        padding:0 5px 0 0;
+        }
+.col2
+        {
+        padding:0 0 0 5px;
+        }
+.col1
+        {
+        clear:both;
+        }
+#signup label.ins
+        {
+        display:inline;
+        text-transform:none;
+        }
+label span.hint
+        {
+        color:#777;
+        font-style:italic;
+        font-size:11px;
+        font-weight:normal;
+        }
+span.hint:before
+        {
+        content:"(";
+        }
+span.hint:after
+        {
+        content:")";
+        }
+#signup .col1
+        {
+        width:280px;
+        background:#fff url(../../static.euronews.com/media/colorbox/arrow-right.gif) no-repeat 100% 100%;
+        padding:0 10px 0 0;
+        }
+#signup .col2
+        {
+        width:260px;
+        padding:0;
+        }
+#signup .col2 .com
+        {
+        width:244px;
+        }
+#signup .col1,
+#signup .col2
+        {
+        width:295px;
+        margin-bottom:1.5em;
+        }
+input.com
+        {
+        color:#222;
+        background: -webkit-gradient(linear, left top, left bottom, from(#ececee), to(#ffffff));  
+        background: -moz-linear-gradient(top,  #ececee,  #ffffff); 
+        border:1px solid #aaa;        
+        -webkit-border-radius:3px;
+           -moz-border-radius:3px;
+                border-radius:3px;
+        }
+#signup-init, #login-init,
+#logout p span, #cummunityLinks .rss
+        {
+        padding:0 10px 0 0;
+        margin:0 10px 0 0;
+        border-right:1px solid #ccc;
+        color:#DDD;
+        }
+#logout p span {
+	padding-left:25px;
+	font-size: 11px;
+}
+.rtl #signup-init, .rtl #login-init,
+.rtl #logout p span, .rtl #cummunityLinks .rss
+        {
+        padding:0  0  0 10px ;
+        margin:0 0 0 10px  ;
+        border-right:none;
+        }
+.rtl #cummunityLinks .rss {
+	border-left:1px solid #CCC;
+}
+.rtl #cummunityLinks #login-init {
+	border-left:1px solid #CCC;
+}
+.rtl #logout p span{
+	padding-right: 25px;
+padding-left: 0;
+border-left:none;}
+.rtl #logout p span a{
+        border-left:1px solid #ccc;
+		padding-left:10px;}
+.rtl #cummunityLinks a{
+	*float:left;
+}
+.rtl #cummunityLinks{
+	*float:left;
+	*width:300px;
+	*position:absolute;
+}
+.rtl #logoutTopFrame a{
+	*float:none;
+}
+.rtl #logoutTopFrame {
+	*width:300px;
+}
+.rtl #logoutTopFrame a#logout-b{
+	*position:absolute;
+	*left:10px;
+	*line-height:auto;
+	*border-left:0;
+}
+.rtl #logoutTopFrame span{
+	*position:absolute;
+	*left:70px;
+	*border:0;
+}
+.rtl #logoutTopFrame span a{
+	*border:0;
+}
+.rtl #logoutTopFrame a{
+	*border:0;
+}
+#login
+        {
+        display:none;
+        width:550px;
+        padding:0; 
+        color:#666;
+        text-align:left;       
+        }
+#login
+        {
+        width:270px;          
+        }
+#login.isloading,
+#signup.isloading
+        {
+        background:#fff url(../../static.euronews.com/media/ajax-loader.gif) no-repeat 100% 0;
+        }
+#login label,
+#signup label,
+#recover label,
+#update label
+        {
+        display:block;
+        text-transform:none;
+        font-size:12px;
+        letter-spacing:normal;
+        color:#444;
+        text-align:left;
+        }
+.err
+        {
+        color:#a42222;
+        }
+#login label.inl,
+#signup label.inl
+        {
+        display:inline;
+        font-weight:normal;
+        text-align:left;
+        }
+.inl:before
+        {
+        content:" :";
+        }
+lang("fr") .inl:before
+        {
+        content:" : ";
+        }
+#login p,
+#recover p,
+#update p
+        {
+        margin:0 0 4px 0;
+        }
+#recover-message
+        {
+        margin:0 0 1.5em 0;
+        }
+#login input.com,
+#signup input.com
+        {
+        border:1px solid #aaa;
+        padding:2px;
+        width:264px;
+        }
+#signup input.com
+        {
+        width: 280px;
+        }
+        
+#login input.err,
+#signup input.err,
+#recover input.err,
+#update input.err
+        {
+        border:1px solid #a84444;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fcecee), to(#ffffff));  
+        background: -moz-linear-gradient(top,  #fcecee,  #ffffff); 
+        }
+#login p.last,
+#signup p.last,
+#recover p.last,
+#update p.last
+        {
+        padding-top:10px;
+        }
+#login strong,
+#signup h1,
+#recover h2,
+#update h2
+        {
+        display:block;
+        font-weight:bold;
+        font-size:22px;
+        margin:0 0 10px 0;
+        line-height:28px;
+        color:#222; 
+        text-align:left;
+        }
+#logout img
+        {
+        float:none;
+        border:1px solid #444;
+        vertical-align:middle;
+        }
+#logout p
+        {
+        line-height:20px;
+        }
+.noMargin
+        {
+        margin:0;
+        }
+#fpw
+        {
+        padding-top:10px;
+        }
+#fpw a
+        {
+        font-weight:normal;
+        color:#888;
+        font-size:11px;
+        }
+.b-gen,
+a.b-gen:link,
+a.b-gen:visited,
+a.b-gen:hover,
+a.b-gen:active {
+	font-family: "FreightSansBold", Helvetica, sans-serif;
+	clear: both;
+	text-decoration:none;
+	padding: 6px 14px;
+	border: 1px solid #666;
+	border-radius: 8px;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	background-color: #999;
+	background-image:   -webkit-gradient(
+	            linear,
+	            left top,
+	            left bottom,
+	            color-stop(.1, rgba(66, 66, 66,0)),
+	            color-stop(1, #666)
+	          );
+	background-image: -moz-linear-gradient(
+          	  rgba(66, 66, 66,0),
+          	  #666
+          	);
+	box-shadow: inset 0 1px 2px rgba(255,255,255,1),
+              inset 0 -1px 1px rgba(255,255,255,.3),
+                    0 1px 1px rgba(0,0,0,.08);                                                   
+	-webkit-font-smoothing: antialiased;
+	transition: background-color .3s;
+	cursor:pointer;
+}
+.b-gen:hover,
+a.b-gen:hover
+        {
+        text-decoration:none;
+        background-color: #ccc;
+        transition-duration: .1s;
+        }  
+.b-gen:active,
+a.b-gen:active
+        {
+        text-decoration:none;
+        position: relative;
+        top: 1px;
+        box-shadow: 
+                  inset 0 -1px 1px rgba(255,255,255,.45),
+                  inset 0 1px 2px rgba(0,0,0,.18),
+                        0 1px 0 rgba(255,255,255,1);                                       
+        background-color: #aaa;
+        transition-duration: 0s !important;
+        }
+.eb-bu-talk,
+a.eb-bu-talk:link,
+a.eb-bu-talk:visited,
+a.eb-bu-talk:hover,
+a.eb-bu-talk:active
+        {
+        background-color: #fa7204;
+        background-image:   -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(.1, rgba(212,134,72,0)),
+                    color-stop(1, #fea054)
+                  );
+        background-image: -moz-linear-gradient(
+                	  rgba(212,134,72,0),
+                	  #fea054
+                	);
+	      border-color: #fa7204;
+	      color:#000;
+        }
+button.eb-bu-talk:hover,
+a.eb-bu-talk:hover
+        {
+        background-color: #e96b05;
+        }
+.eb-bi-talk,
+a.eb-bi-talk:link,
+a.eb-bi-talk:visited,
+a.eb-bi-talk:hover,
+a.eb-bi-talk:active
+        {
+        background-color: #C80002;
+        background-image:   -webkit-gradient(
+                    linear,
+                    left top,
+                    left bottom,
+                    color-stop(.1, rgba(200,0,2,0)),
+                    color-stop(1, #A20002)
+                  );
+        background-image: -moz-linear-gradient(
+                	  rgba(200,0,2,0),
+                	  #A20002
+                	);
+	      border-color: #C80002;
+	      color:#fff;
+        }
+button.eb-bi-talk:hover,
+a.eb-bi-talk:hover
+        {
+        background-color: #A27676;
+        }
+  
+.primary
+        {
+        font-family: "FreightSansBold", Helvetica, sans-serif;
+	clear: both;
+	text-decoration:none;
+	padding: 6px 11px 5px;
+	border-color: #ce5c60;
+	color: white;
+	text-shadow: 0 1px 0 #e6464f;
+	background-color: #ec7d87;
+	background-image:   -webkit-gradient(
+	            linear,
+	            left top,
+	            left bottom,
+	            color-stop(.1, rgba(235,124,134,0)),
+	            color-stop(1, #e54f5b)
+	          );
+	background-image: -moz-linear-gradient(
+          	  rgba(235,124,134,0),
+          	  #e54f5b
+          	);
+	-webkit-box-shadow: inset 0 1px 2px rgba(255,255,255,.7),
+	                    inset 0 0 1px rgba(255,255,255,1),
+	                    inset 0 -1px 1px rgba(255,255,255,.2),
+	                          0 1px 2px rgba(0,0,0,.2),
+	                          0 0 7px #ffd1d6;
+	-moz-box-shadow: inset 0 1px 2px rgba(255,255,255,.7),
+                   inset 0 -1px 1px rgba(255,255,255,.3),
+                         0 1px 1px rgba(0,0,0,.15),
+                         0 0 7px #ffd1d6; 
+	box-shadow: inset 0 1px 2px rgba(255,255,255,.7),
+              inset 0 -1px 1px rgba(255,255,255,.3),
+                    0 1px 1px rgba(0,0,0,.2),
+                    0 0 7px #ffd1d6;   
+        -webkit-animation-name: glow;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes glow {
+    from {
+      background-color: #ec7d87;
+      text-shadow: 0 1px 0 #e6464f,
+                   0 0 0 #f5abb5;
+    }
+    35% {
+      background-color: #ff8a96;
+      text-shadow: 0 1px 0 #e6464f,
+                   0 0 8px #ffd7dc;
+    }
+    to {
+      background-color: #ec7d87;
+      text-shadow: 0 1px 0 #e6464f,
+                   0 0 0 #f5abb5;          
+    }
+}                                                
+  
+.primary:hover
+        {
+        background-color: #ff8a96;
+        -webkit-animation-name: none;
+        }
+.primary:active
+ {
+    -webkit-box-shadow: 
+                        inset 0 -1px 1px rgba(255,255,255,.35),
+                        inset 0 1px 2px rgba(0,0,0,.28),
+                              0 1px 0 rgba(255,255,255,1);
+    -moz-box-shadow: 
+                        inset 0 -1px 1px rgba(255,255,255,.45),
+                        inset 0 1px 2px rgba(0,0,0,.28),
+                              0 1px 0 rgba(255,255,255,1);     
+    box-shadow: 
+                  inset 0 -1px 1px rgba(255,255,255,.45),
+                  inset 0 1px 2px rgba(0,0,0,.28),
+                        0 1px 0 rgba(255,255,255,1);                                              
+    background-color: #ec7d87;
+    color: rgba(255,255,255,.9);
+    -webkit-animation-name: none;
+  } 
+button[disabled], 
+button.disabled,
+.disabled 
+        {
+        -webkit-box-shadow:   0 1px 0 rgba(255,255,255,.8),
+                          inset 0 1px 2px rgba(0,0,0,.07) !important;
+        -moz-box-shadow:   0 1px 0 rgba(255,255,255,1),
+                       inset 0 1px 2px rgba(0,0,0,.07) !important;
+        box-shadow: 0 1px 0 rgba(255,255,255,1),
+                inset 0 1px 2px rgba(0,0,0,.07) !important;
+        -webkit-animation-name: none  !important;
+        background: #f8f3eb !important;
+        border-color: #e3d7ca  !important;
+        color: #d3c4b4  !important;
+        text-shadow: none  !important;
+        position: static;
+        cursor: not-allowed;
+        }
+
+#colorBox{}
+
+    #cboxTopLeft{width:25px; height:25px; background:url(../../static.euronews.com/media/colorbox/border1.png) no-repeat 0 0;}
+    #cboxTopCenter{height:25px; background:url(../../static.euronews.com/media/colorbox/border1.png) repeat-x 0 -50px;}
+    #cboxTopRight{width:25px; height:25px; background:url(../../static.euronews.com/media/colorbox/border1.png) no-repeat -25px 0;}
+    #cboxBottomLeft{width:25px; height:25px; background:url(../../static.euronews.com/media/colorbox/border1.png) no-repeat 0 -25px;}
+    #cboxBottomCenter{height:25px; background:url(../../static.euronews.com/media/colorbox/border1.png) repeat-x 0 -75px;}
+    #cboxBottomRight{width:25px; height:25px; background:url(../../static.euronews.com/media/colorbox/border1.png) no-repeat -25px -25px;}
+    #cboxMiddleLeft{width:25px; background:url(../../static.euronews.com/media/colorbox/border2.png) repeat-y 0 0;}
+    #cboxMiddleRight{width:25px; background:url(../../static.euronews.com/media/colorbox/border2.png) repeat-y -25px 0;}
+
+    #cboxClose{text-indent:-9999px; width:20px; height:20px; position:absolute; top:0; background:url(../../static.euronews.com/media/colorbox/controls.png) no-repeat 0 0;}
+    #cboxContent{background:#fff;}
+        #cboxLoadedContent{margin-bottom:0;}
+        #cboxTitle{position:absolute; bottom:0px; left:0; text-align:center; width:100%; color:#999;}
+        #cboxCurrent{position:absolute; bottom:0px; left:100px; color:#999;}
+        #cboxSlideshow{position:absolute; bottom:0px; right:42px; color:#444;}
+        #cboxPrevious{position:absolute; bottom:0px; left:0; color:#444;}
+        #cboxNext{position:absolute; bottom:0px; left:63px; color:#444;}
+        #cboxLoadingOverlay{background:#fff url(images/loading.gif) no-repeat 5px 5px;}
+        #cboxClose{background-position:-50px 0px; right:0;}
+        #cboxClose.hover{background-position:-50px -25px;}
+
+.cboxIE #cboxTopLeft            {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderTopLeft.png, sizingMethod='scale')";     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderTopLeft.png, sizingMethod='scale');}
+.cboxIE #cboxTopCenter          {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderTopCenter.png, sizingMethod='scale')";   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderTopCenter.png, sizingMethod='scale');}
+.cboxIE #cboxTopRight           {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderTopRight.png, sizingMethod='scale')";    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderTopRight.png, sizingMethod='scale');}
+.cboxIE #cboxBottomLeft         {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderBottomLeft.png, sizingMethod='scale')";  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderBottomLeft.png, sizingMethod='scale');}
+.cboxIE #cboxBottomCenter       {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderBottomCenter.png, sizingMethod='scale')";filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderBottomCenter.png, sizingMethod='scale');}
+.cboxIE #cboxBottomRight        {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderBottomRight.png, sizingMethod='scale')"; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderBottomRight.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleLeft         {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderMiddleLeft.png, sizingMethod='scale')";  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderMiddleLeft.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleRight        {background:transparent; -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderMiddleRight.png, sizingMethod='scale')"; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://static.euronews.com/media/colorbox/internet_explorer/borderMiddleRight.png, sizingMethod='scale');}
+
+.articleAlert div
+        {
+        font-size: 14px;
+        font-weight: bold;
+        }
+
+.big-or
+        {
+        color:#666;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 22px;
+        margin: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        }

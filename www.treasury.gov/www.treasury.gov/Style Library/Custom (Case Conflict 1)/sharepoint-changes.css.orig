@@ -1,0 +1,223 @@
+﻿
+/* fix scrolling on list pages */
+#s4-bodyContainer {	position: relative; height: 100%;}
+#ctl00_MSO_ContentDiv {height: 100%;}
+/* hide body scrolling (SharePoint will handle) */
+body {	height:100%; overflow:hidden; width:100%;}
+		
+/* popout breadcrumb menu needs background color for firefox */
+.s4-breadcrumb-menu {background:#F2F2F2;}
+
+#t-search {float:right;}
+#t-search #SRSB .ms-sbtable-ex {float: right;}
+
+/* content query web part edits */
+.dfwp-column { float: none; }
+.dfwp-list { margin: 0px; padding: 0px; list-style: none; }
+
+.ms-WPTitle {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/*********** Top Nav CSS ***********/
+
+#zz1_TopNavigationMenuV4 table img {display: none; }
+
+#t-menu #zz1_TopNavigationMenuV4 {
+	margin: 0px 0 0 5px;
+	text-align:center;
+	float: left;}
+	
+	/* Adding the Separator line in the Navigation */
+	td#zz1_TopNavigationMenuV4n1,
+	td#zz1_TopNavigationMenuV4n2,
+	td#zz1_TopNavigationMenuV4n3,
+	td#zz1_TopNavigationMenuV4n6,
+	td#zz1_TopNavigationMenuV4n7,	
+	td#zz1_TopNavigationMenuV4n8 {vertical-align:middle;background: url('../images/treas/nav-sep.jpg') no-repeat 0px 0px;}
+
+	/* This is for the building in the middle of the navigation */
+	td#zz1_TopNavigationMenuV4n4 table td a  { text-indent:-9999px;
+		 background-color: transparent !important; background-image: none; 
+		 border: none !important;cursor:default !important;}
+	td#zz1_TopNavigationMenuV4n4 table.ms-topNavHover, td#zz1_TopNavigationMenuV4n4 table.ms-topnav a:hover {
+		color: #045d9d;
+		background-color: transparent; background-image: none;
+		cursor:default !important;}
+		
+	td#zz1_TopNavigationMenuV4n4 {width: 148px; } /* Empty Tag - building behind */
+	td#zz1_TopNavigationMenuV4n0 {width: 80px; }/*Home*/
+	td#zz1_TopNavigationMenuV4n5 {width: 100px; }/* Services*/
+	#zz1_TopNavigationMenuV4n8Items {width: 116px;} /* Dropdown width under connect with us */
+	
+	.ms-topNavContainer {border: none;}
+	.ms-topnav {vertical-align: middle !important;}
+	.ms-topnav td {vertical-align:middle;}
+	
+	.ms-topnav a, .ms-topNavHover a, .ms-topnav a:visited, .ms-topNavHover a:visited {
+		display: block;
+		white-space: nowrap;
+		height: 25px;
+		padding: 8px 12px 5px 13px;
+		color: #fff;}
+	
+	.ms-topnav a {font: bold 15px "Times New Roman", Times, serif !important;}
+	.ms-topnav td a:link, .ms-topnav td a:visited {color: #fff; }
+	.ms-topnav td a:hover, .ms-topnav a:active {color: #045d9d; 
+		background: #fff url('../images/treas/t-topheader-hover.jpg') repeat-x left top;	}
+	
+	/* Hover for the top nav */
+	.ms-topNavHover, table.ms-topnav a:hover, .ms-topnavselected a:hover {
+		color: #045d9d !important;
+		background: #fff url('../images/treas/t-topheader-hover.jpg') repeat-x left top;
+		cursor:pointer !important;}
+
+.ms-topnavselected {/* Shows the link selected with a white arrow */
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	background: url('../Images/treas/nav-hover.jpg') no-repeat center bottom;}
+
+.ms-topnavselected a {color: #fff;}
+
+/*.ms-topNavHover {color: #fff;}*/
+.ms-topnav img {display: none;}
+
+/* start of the fly outs */
+.ms-topNavFlyOutsContainer {	}
+table.ms-topNavFlyOuts {background-color: transparent;}
+.ms-topNavFlyOuts {	font: normal 12px Arial, Helvetica, sans-serif;}
+.ms-topNavFlyOuts td {padding: 0px 0px 0px 0px;}
+.ms-topNavFlyOuts img {display: none;}	
+
+.ms-topNavFlyOuts a {
+	display: block; background: transparent;
+	color: #045d9d; text-align: left;
+	padding: 8px 20px 8px 8px;}
+
+.zz1_TopNavigationMenuV4_7 {background-color: transparent !important;}	/*fixing the bold blue*/
+.ms-topNavFlyOutsHover {background-color: transparent; color: #045d9d;}
+.ms-topNavFlyOuts a:hover, .ms-topNavFlyOuts td a:hover  {color: #045d9d !important; text-decoration:underline; }
+
+/***************** Speical Formatting ********************************/
+/* For the Div Sections on the flyouts - this adds padding around the div and padding on the bottom and top*/
+
+.zz1_TopNavigationMenuV4_7 {
+	padding: 10px 8px 5px 8px;
+	background: #fff url('../Images/treas/t-dd-nav-bg.gif') repeat-x left bottom;}
+
+
+#zz1_TopNavigationMenuV4n1Items,
+#zz1_TopNavigationMenuV4n2Items,
+#zz1_TopNavigationMenuV4n3Items,
+#zz1_TopNavigationMenuV4n4Items,
+#zz1_TopNavigationMenuV4n5Items,
+#zz1_TopNavigationMenuV4n6Items,
+#zz1_TopNavigationMenuV4n7Items,
+#zz1_TopNavigationMenuV4n8Items {
+	top: 38px !important;
+	padding: 10px 8px 5px 8px;
+	background: #ffffff url('../Images/treas/t-dd-nav-bg.gif') repeat-x left bottom !important;}
+
+
+
+/* end of the top nav */
+
+/* Search Changes */
+.ms-searchref-count {color: #045d9d !important; font-size: 11px !important;}
+
+.ms-searchref-main {
+	background-image: none !important; 
+	padding-top: 30px;
+	background-color: transparent; 
+	width: 170px !important; 
+	border: none !important;
+	font-family:Arial, Helvetica, sans-serif  !important; 
+	font-size: 12px !important;}
+
+.ms-searchref-filters li.ms-searchref-filtermsg { visibility: hidden;}
+
+.ms-searchref-filters li {
+	padding: 10px 0 0 0 !important; 
+	margin: 0px !important;
+	display: block;
+	border-bottom:1px solid #CFCFCB; 
+	height: 20px;}
+	
+.ms-searchref-filters li a {
+	color:#045D9D !important;
+	font-size:12px;
+	font-weight:normal;
+	padding:8px 5px 8px 10px;}
+
+.ms-searchref-filterlink:hover {text-decoration: underline;	color:#045D9D !important;}
+
+.ms-searchref-selected {
+	background-color: transparent !important; 
+	border-left: none !important; 
+	border-top: none !important;}	
+
+.ms-searchref-filters li.ms-searchref-selected a {font-weight: bold !important;}
+
+.ms-searchref-categoryname {
+	height: 20px; 
+	font-weight:bold; 
+	color: #2a2a2a !important; 
+	padding: 0 0 0 10px !important;}
+	
+.ms-searchref-catseparator {height: 10px !important;}
+#advsearch_buttons {padding-top: 4px !important; height: 30px !important;}
+
+#advsearch_buttons input {padding: 2px 5px; color: #2a2a2a;}
+
+span.expander-text {padding-right: 10px !important;}
+
+.srch-WPBody { font-family:Arial, Helvetica, sans-serif !important; color: #2a2a2a !important; font-size: 12px;}
+.srch-Title2 a, .srch-URL2 {color:#045D9D !important;}
+#SRST {padding: 5px 20px 5px 0px;}
+.srch-stats {float: right; padding: 5px 0px 5px 0px;
+	font-family:Arial, Helvetica, sans-serif !important; 
+	color: #2a2a2a !important; font-size: 12px;	}
+.ms-searchref-more {text-transform:capitalize; color:#045D9D !important; font-weight: bold;}
+
+#SRP .srch-Page {padding: 0px;}
+.srch-Page strong {
+	background: transparent;
+	border: none;
+	display:block;
+	float:left;
+	font-size:1.1em;
+	font-weight:normal;
+	margin:0 3px;
+	padding:0px;
+	text-decoration:none;
+	color: #045D9D ;
+	}
+	
+.srch-Page a:link {
+	background: transparent;
+	border: none;
+	color:#2a2a2a !important;
+	display:block;
+	float:left;
+	font-size:1.1em;
+	font-weight:normal;
+	margin:0 3px;
+	padding:0px;
+	text-decoration:none;
+	}	
+.srch-Page a:visited {
+	background: transparent;
+	border: none;
+	color:#555 !important;
+	display:block;
+	float:left;
+	font-size:1.1em;
+	font-weight:normal;
+	margin:0 3px;
+	padding:0px;
+	text-decoration:none;
+	}	
+	
+#CSR_NO_RESULTS h3 {display: none !important;}	
+#CSR_NO_RESULTS ul {display: none !important;}	

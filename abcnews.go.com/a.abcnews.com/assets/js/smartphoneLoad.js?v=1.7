@@ -1,0 +1,222 @@
+function readSPCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+var redLoc = false;
+
+
+//create custom global properties for iOS & Android Use
+var iOSUser = new Object();
+iOSUser.userAgentMatch = navigator.userAgent.match(/iPhone|iPod\//i);
+iOSUser.is_uiwebview = /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(navigator.userAgent);
+
+var androidUser = new Object();
+androidUser.supportsVideo = false;
+androidUser.userAgentMatch = navigator.userAgent.match(/Android/);
+if(androidUser.userAgentMatch!=null) {
+	androidUser.userAgentVersion = new RegExp("Android (\\d+(?:\\.\\d+)?)(?:\\.\\d+)?;").exec(navigator.userAgent);
+	androidUser.osVersionNum = androidUser.userAgentVersion[1];
+	androidUser.supportsVideo = (parseFloat(androidUser.osVersionNum) >= 2.2)?true:false;//2.2 Froyo or higher
+}
+
+function docRef(loc) {
+
+	var mw_r = document.referrer;
+	
+	if (mw_r != "") {
+			if (loc.indexOf("?") >= 0) {
+			loc += "&ref="+encodeURIComponent(mw_r);
+		}
+		else {
+			loc += "?ref="+encodeURIComponent(mw_r);
+		}
+	}
+
+	return loc;
+}
+
+function getAppRedirect(url){
+	if(androidUser.userAgentMatch!=null) { //Android OS less than 2.2 Froyo
+		var device = 'Android';
+		var c = confirm("Video is not currently available on this version of our mobile website. Would you like to download the ABC News app for your " +device+ " device so you can watch videos?");
+		if (c==true){
+		 	redLoc = 'market://details?id=com.abc.abcnews&hl=en';
+		} else if(document.referrer.indexOf(url)==0) {
+		  	redLoc = document.referrer;
+		} else {
+			redLoc = url+'/m/';
+		}
+	} else {//WAP traffic
+		alert('Video is not currently available on this version of our mobile website.');
+		if(document.referrer.indexOf(url)==0){
+			redLoc = document.referrer;
+		} else {
+			redLoc = url+'/m/';
+		}
+	}
+	if(redLoc){
+		window.location.replace(docRef(redLoc));	
+	}
+}
+
+function smartPhoneLoad() {
+	var checkCookie = readSPCookie('abcnews_sp');
+	var isVideo = false;
+	
+	//sniff out android mobile, avoid tablets
+	var isAndroidMobile = false;
+	if(androidUser.userAgentMatch!=null) {
+		if(navigator.userAgent.match(/Mobile/)!=null){
+			isAndroidMobile = true;
+		}
+	}
+	
+	if(checkCookie == null || checkCookie == 'null' || typeof checkCookie == 'undefined') {
+		if(navigator.userAgent.match(/Blackberry|iPhone|iPod\//i) || isAndroidMobile) {//revisit with modernizr
+			var url = window.location.toString();
+			if(url.indexOf('/m/')==-1){
+			//var matchUrl = new RegExp("(http://[^/]+)(/m)?(/[^?/]+/?)?[^?]*[?]?.*?(?:id=([^&]+))?").exec(url);
+			var matchUrl = new RegExp("(http://[^/]+)(/m)?(/[^?/]+/?)?(?:-(\\d{6,})[^?]*|[^?])*[?]?.*?(?:id=(\\d+))?").exec(url);
+			var storyDetect = url.search(/story/i);
+			var ssDetect = url.search(/slideshow/i);
+			var videoDetect = url.search(/video/i);
+			var blogsDetect = url.search(/blogs/i);
+
+			if(storyDetect!=-1) {
+				var objId = (matchUrl[5]!=undefined)?matchUrl[5]:matchUrl[4];
+				if(objId==null) {
+					redLoc = matchUrl[1]+'/m/';
+				} else {	
+					redLoc = matchUrl[1]+'/m/story?id=' + objId;
+				}
+			}else if(blogsDetect!=-1){
+				var objId = (window.postId!=undefined)?window.postId:null;
+				if(objId==null){
+					redLoc = false;
+				} else {	
+					redLoc = matchUrl[1]+'/m/blogEntry?id=' + objId;
+				}
+			} else if(ssDetect!=-1) {
+				var objId = (matchUrl[4]!=undefined)?matchUrl[4]:matchUrl[5];
+				if(objId==null) {
+					redLoc = matchUrl[1]+'/m/slideshow';
+				} else {	
+					redLoc = matchUrl[1]+'/m/slideshow?id=' + objId;
+				}
+			} else if (videoDetect!=-1) {
+				if(iOSUser.userAgentMatch || androidUser.supportsVideo){
+					
+					var objId = (matchUrl[5]!=undefined)?matchUrl[5]:matchUrl[4];
+					if(objId==null) {
+						redLoc = matchUrl[1]+'/m/videoindex';
+					} else {	
+						redLoc = matchUrl[1]+'/m/video?id=' + objId;
+					}
+				} else {
+					isVideo = true;
+					getAppRedirect(matchUrl[1]);
+				}	
+			} else if (matchUrl[3]!=null){
+				redLoc = matchUrl[1]+'/m/index?pk=' + matchUrl[3];
+			}else {
+				redLoc = matchUrl[1]+'/m/';
+			}
+		
+			if(typeof(redLocM) != 'undefined'){
+				if(redLocM != ''){
+					window.location.replace(redLocM);
+				}
+				}else if(redLoc && !isVideo){
+					redLoc = docRef(redLoc);
+					window.location.replace(redLoc);	
+				}
+			}
+		}
+		else if(navigator.userAgent.match(/iPad|Silk\//i)) {
+			//REDIRECT W/ SPLASH SCREEN LOGIC
+			/*
+			var url = window.location.toString();
+			var nurl = url;
+			if(url.indexOf('/t/')==-1){
+				nurl = rewriteT(url);
+			}
+			if(localStorage.getItem('ipadPromoViewed') != 'true' && window.location.href.indexOf('app=true')==-1 && !iOSUser.is_uiwebview){
+				window.location.href='/ipad?url='+encodeURIComponent(nurl);
+			}
+			else if(nurl!=url){
+					window.location.href=nurl;
+			}
+			*/
+
+            //REPLACE THIS BLOCK WITH THE ONE ABOVE IF REACTIVATING SPLASH SCREEN
+			var url = window.location.toString();
+            if(url.indexOf('/t/')==-1){
+                if(typeof(redLocM) != 'undefined'){
+                    if(typeof(redLocT) != 'undefined' && redLocT != ''){
+                        window.location.href=redLocT;
+                    }
+			    }else{
+                    var nurl = rewriteT(url);
+
+                    if(nurl!=url){
+                    	nurl = docRef(nurl);
+                        window.location.href=nurl;
+                    }
+			    }
+            }
+		}
+	}
+}
+
+var tStoryExp = new RegExp("(/wirestory|/story)","i");
+var tSlideshowExp = new RegExp("(/popup|/slideshow)","i");
+var tVideoExp = new RegExp("(/video/videoLogin|/video/playerIndex|/video)","i");
+var tRecipeExp = new RegExp("/recipe([?/])","i");
+var tSearchExp = new RegExp("/search\\?searchtext","i");
+var tIndexExp = new RegExp("/index","i");
+var tBlogExp = new RegExp("/blogs/","i");
+var otherNonIndex = new RegExp("/page|/fullpage|/mailform|/recipeSearch|/watch|/author|/blogs|.pdf|.doc");
+var nwsExternal = new RegExp("(health|topics)\\.abcnews","i");
+
+function rewriteT(url){
+	if(url!=null && url.indexOf('/t/')==-1){
+		if(tStoryExp.test(url)){
+			return url.replace(tStoryExp, "/t/story");
+		} else if(tSlideshowExp.test(url)){
+			return url.replace(tSlideshowExp, "/t/slideshow");
+		} else if(tVideoExp.test(url)){
+			return url.replace(tVideoExp, "/t/video");
+		} else if(tRecipeExp.test(url)){
+			return url.replace(tRecipeExp, "/t/recipe$1");
+		} else if(tSearchExp.test(url)){
+			return url.replace(tSearchExp, "/t/search?searchtext");
+		} else if(tIndexExp.test(url)){
+			return url.replace(tIndexExp, "/t/index");
+		} else if(tBlogExp.test(url)){
+			var matchUrl = new RegExp("(http://[^/]+)(/blogs)?(/[^?/]+/?)?(?:-(\\d{6,})[^?]*|[^?])*[?]?.*?(?:id=(\\d+))?").exec(url);
+			var postSection = (window.postSec != undefined)?"/"+window.postSec:"";
+			if(window.postId != undefined){	
+				url = matchUrl[1] + postSection +  "/t/blogEntry?id=" + window.postId;
+			}
+			return url;
+		} else if((url.indexOf('abcnews.')!=-1 || url.indexOf('http://')==-1)
+			&& !nwsExternal.test(url)
+			&& !otherNonIndex.test(url) 
+			&& url.indexOf('?')==-1
+			&& url.indexOf('#')==-1){
+				url = (url.lastIndexOf('/')==(url.length-1)) ? url : url+"/";
+				url = url+"t/index";
+				return url;
+		}
+	}
+	return url;
+}
+
+smartPhoneLoad();

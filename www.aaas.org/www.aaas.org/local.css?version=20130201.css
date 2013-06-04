@@ -1,0 +1,51 @@
+body#site_map dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+body#site_map dd dt {
+	margin-top: 0.5em;
+}
+body#site_map dd {
+		margin: 0;
+		padding-left: 2em;
+}
+body#site_map .blacklinkbold {
+	color: inherit;
+}
+
+body#aaas_privacy_policy .page_title h3 {
+	margin-bottom: 0;
+}
+body#aaas_privacy_policy .page_title h4 {
+	margin-top: 0;
+}
+
+/* for rotating ad on AAAS home page */
+.page_aaas_front .rotating_ad .caption_a {
+	height: 2.5em;
+	vertical-align: bottom;
+}
+.page_aaas_front .rotating_ad .caption_b {
+	margin-top: 7px;
+}
+.page_aaas_front .rotating_ad p {
+	margin: 0;
+}
+
+
+.black_links_for_no_reason a {
+	color: black;
+}
+
+.black_links_for_no_reason a:hover	{
+	color: #c53;
+}
+#port_policy .link_list_simple {
+	margin-bottom: 1em;
+}
+#port_policy .link_list_simple a {
+	font-weight: normal;
+}
+#port_policy .position_statement_list .pub_date {
+	display: none;
+}

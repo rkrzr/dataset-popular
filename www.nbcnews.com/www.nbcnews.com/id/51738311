@@ -1,0 +1,7 @@
+try {
+    (function () {
+        if (_nbcnewsPixelman && _nbcnewsPixelman.AppendBodyHeader) {
+            _nbcnewsPixelman.AppendBodyHeader();
+        }
+    } ());
+} catch (e) { }

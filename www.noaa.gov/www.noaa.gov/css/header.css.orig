@@ -1,0 +1,35 @@
+/** Header **/
+
+
+	#header { 
+		margin-bottom: 8px;
+		width: inherit;
+	}	
+	
+	#headTitle img { margin: 3px;  border: 0px; }
+	#headTitle {
+		display: block;
+		position: relative;
+		width: inherit;
+		height: 76px;
+		background: url('/images/head_commerce.png') no-repeat right top ;
+		vertical-align: middle;
+		margin: 0px;
+	}
+	#headDOC {
+		display: inline;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding: 0px;
+		margin: 0px;
+		width: 50px;
+		height: 50px;
+	}
+
+/* HOME PAGE: EARTH DAY BACKGROUND */
+
+	body.home #headTitle {
+		border-radius: 5px 5px 0px 0px; 
+		-webkit-border-radius: 5px 5px 0px 0px;
+	}

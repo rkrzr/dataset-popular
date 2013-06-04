@@ -1,0 +1,78 @@
+
+/* Stacked section */
+
+#ai-sidebar-main {
+/*  overflow: hidden;  */
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#ai-sidebar-main .panel-col-top,
+#ai-sidebar-main .panel-col-bottom {
+  width: 99.9%; 
+  clear: both;
+}
+
+#ai-sidebar-main .panel-col-top .inside {
+  margin-bottom: .5em;
+}
+
+#ai-sidebar-main .panel-col-first {
+  float: left; 
+  width: 50%; 
+}
+* html #ai-sidebar-main .panel-col-first {
+  width: 49.9%;
+}
+
+#ai-sidebar-main .panel-col-first .inside {
+  margin: 0 .5em 1em 0;
+}
+
+#ai-sidebar-main .panel-col-last {
+  float: left; 
+  width: 49.9%; 
+}
+
+#ai-sidebar-main .panel-col-last .inside {
+  margin: 0 0 1em .5em;
+}
+
+#ai-sidebar-main .panel-region-separator {
+  margin: 0 0 1em 0;
+}
+
+/* Sidebars */
+
+#ai-sidebar-main {
+  margin: 0 -210px 0 0;
+  float: left;
+  width: 100%;
+}
+
+#ai-sidebar-squeeze {
+  margin: 0 210px 0 0;
+}
+
+#ai-sidebar-last {
+  width: 180px;
+  float: left;
+}
+
+/* Arabic */
+
+.rtl #ai-sidebar-main {
+  margin: 0 0 0 -210px;
+  float: right;
+}
+
+.rtl #ai-sidebar-squeeze {
+  margin: 0 0 0 210px;
+}
+
+.rtl #ai-sidebar-last {
+  float: right;
+  padding: 0 1em;
+}
+
+

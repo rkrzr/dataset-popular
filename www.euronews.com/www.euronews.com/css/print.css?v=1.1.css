@@ -1,0 +1,141 @@
+body {
+  line-height: 1.5;
+  font-family: arial, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;   
+  color:#000;
+  background: none;
+  font-size: 10pt;
+}
+.container {
+  background: none;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: arial, "Helvetica Neue", Arial, "Lucida Grande", sans-serif; }
+code { font:.9em "Courier New", Monaco, Courier, monospace; } 
+
+img { float:left; margin:1.5em 1.5em 1.5em 0; }
+a img { border:none; }
+p img.top { margin-top: 0; }
+
+hr { 
+  background:#ccc; 
+  color:#ccc;
+  width:100%;
+  height:2px;
+  margin:2em 0;
+  padding:0;
+  border:none;
+}
+
+blockquote {
+  margin:1.5em;
+  padding:1em;
+  font-style:italic;
+  font-size:.9em;
+}
+
+.small  { font-size: .9em; }
+.large  { font-size: 1.1em; }
+.quiet  { color: #999; }
+.hide   { display:none; }
+
+a:link, a:visited {
+        background: transparent;
+        font-weight:700;
+        text-decoration: none;
+        color:#222;
+}
+        
+ol, ul
+        {
+        padding-left:0;
+        margin-left:25pt;
+        }
+iframe,
+form,
+#header,
+.noPrint,
+#footer,
+#current-time,
+#article-tools,
+#related-stories,
+#article-player,
+#breadcrumb,
+#subMenu,
+#rs-down-wrap,
+#rs-up-wrap,
+#article-player,
+#player h2,
+.poll,
+.page-block-submenu,
+#sidebar, 
+#sideBar, 
+#keywordRelated, 
+.google-banner, 
+.top-banner, 
+.topStories, 
+.keywordList, 
+#title-wrap p.cet, 
+#player h3
+        {
+        display:none;
+        }
+#player h4
+        {
+        margin:0 !important;        
+        }
+span.cet
+        {
+        display:block;
+        font-size:50%;
+        }
+span.location
+        {
+        display:block;
+        font-size:80%;
+        }
+#logo a
+        {
+        text-decoration:none;
+        color:#000;
+        font-size:300%;
+        }
+a.topStory img,
+#topStoryImg
+        {
+        border:1px solid #000;
+        float:none;
+        margin-bottom:1pt;
+        }
+a.topStory span.inner-overlay-wrap,
+#player h1 a strong
+        {
+        display:block;
+        min-height:2em;
+        text-decoration:none;
+        color:#222;
+        position:static;
+        float:none;
+        }
+hr
+        {
+        clear:both;
+        }
+.block-title
+        {
+        color:#000;
+        font-size:200%;
+        }
+#main-content .span-16,
+#article-text
+        {
+        width:100%;
+        }
+#title-wrap,
+#title-wrap h1,
+#article-text
+        {
+        text-shadow:0px 0px 0px transparent;
+        float:none;
+        margin:0 !important;
+        width:100% !important;
+        }

@@ -1,0 +1,3583 @@
+
+
+
+
+	
+	
+	
+		
+		
+	
+		
+		
+			
+				
+				
+				
+			
+				
+				
+				
+					
+						
+					
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	
+	
+	
+	
+    
+	
+	
+	<head>
+		
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+			<META NAME="Description" CONTENT="Learn more about the American Heart Association's efforts to reduce death caused by heart disease and stroke. Also learn about cardiovascular conditions, ECC and CPR, donating, heart disease information for healthcare professionals, caregivers, and educators and healthy living.">
+			<META NAME="Keywords" CONTENT="heart disease, hypertension, cholesterol, high blood pressure, CPR, ECC, emergency cardiovascular care, cardiopulmonary resuscitation, arrhythmia, atrial fibrillation, afib, AF, heart attack, cardiac rehabilitation, cardiac arrest, diabetes, congenital heart defects, peripheral artery disease, PAD, metabolic syndrome, children's heart conditions, heart failure, stroke, weight loss, weight management, obesity, nutrition, heart health, stress management, quitting smoking, tobacco cessation, exercise, physical activity, caregiving, caregivers, healthcare membership, statements, guidelines, clinical updates, research, sessions, scientific council, professional education, Get With the Guidelines, Hoops for Heart, Jump Rope for Heart, NFL Play 60, Power to end Stroke, Go Red for Women, Go Red Por Tu Corazon, My Heart My Life.">
+		
+		
+	
+	
+		
+		
+	
+
+ 
+		<title>American Heart Association – Building healthier lives, free of cardiovascular diseases and stroke.</title>
+		
+		<!-- START: For RSS FEED in the url -->
+		
+		
+		
+		<!-- END: For RSS FEED in the url -->
+		
+		<link rel="shortcut icon" href="http://static.heart.org/ahaanywhere/images/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" href="http://static.heart.org/ahaanywhere/css/headerv2.css" type="text/css" />
+		<link rel="stylesheet" href="http://static.heart.org/ahaanywhere/css/nav.css" type="text/css" />
+		<link type="text/css" href="http://static.heart.org/ahaanywhere/css/custom-theme/jquery-ui-1.7.1.custom.css" rel="stylesheet" />
+		<link rel="stylesheet" href="http://static.heart.org/ahaanywhere/css/ahaCore.css" type="text/css"/>
+		<!-- Colorbox Style Sheet - Gallery -->
+		<link type="text/css" rel="stylesheet" href="http://static.heart.org/ahaanywhere/css/colorbox.css" />
+
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+			
+			
+		
+			
+			
+				<link rel="stylesheet" href="http://static.heart.org/ahaanywhere/css/aha_home.css" type="text/css" />
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+			
+			
+		
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/jquery-1.3.2.min.js"></script>
+		<!-- jQuery UI -->
+		<!--  script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/jquery-ui-1.7.2.custom.min.js"></script -->
+		<!-- jQuery UI Dialog 2Click - Added 8/16/2011 -->
+		<link type="text/css" href="http://static.heart.org/ahaanywhere/css/custom-theme/jquery-ui.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/jquery-ui.custom.min.js"></script>
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/2clickscript.js"></script>
+		<!-- /End New 8/16/2011 -->
+		
+		
+		<!-- Nav JS -->
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/jsddm.js"></script>
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/dropdownconditional.js"></script>
+		<!-- Colorbox JS & Calls -->
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/colorbox/jquery.colorbox-min.js"></script>
+		<!-- jwPlayer -->
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/jquery.cycle.all.min.js"></script>
+		<script type="text/javascript" src="http://media.heart.org/player/player.js"></script>
+
+
+		
+			
+			
+			
+					
+			
+		
+
+		<!--  Call for Tabs and Accordion and Roundies  -->
+		<script src="http://static.heart.org/ahaanywhere/js/ui_call.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Colorbox JS function -->
+		<!--  script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$(".twoclick").colorbox({width:"550px",height:"355px",iframe:"true",href:function(){
+				//$("a[rel='colorbox']").colorbox({width:"550px",height:"355px",iframe:"true",href:function(){
+					var theURL = $(this).attr("href");
+					var theNewURL = "/HEARTORG/common/aha-2click-colorbox.html?"+theURL;
+					return theNewURL;
+				}});
+			});
+		</script -->
+		<!-- END COPY -->
+		
+		
+		<!--  Custom js file for ahaweb application -->
+		<script src="/HEARTORG/js/ahaweb.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="/HEARTORG/js/search/ss.js"></script>
+		<script type="text/javascript" src='/HEARTORG/js/search/common.js'></script>
+		<script type="text/javascript" src='/HEARTORG/js/search/xmlhttp.js'></script>
+		<script type="text/javascript" src='/HEARTORG/js/search/uri.js'></script>
+		<script type="text/javascript" src='/HEARTORG/js/search/cluster.js'></script>
+		
+		<!--  START: Home feature js call -->
+		<script type="text/javascript">
+	          $(function() {
+	                 var featureHomeTabs=$('#homeFeature').tabs({collapsible:false,fx:{opacity:'toggle'}});
+	                 featureHomeTabs.tabs();
+	          });
+	    </script>
+	    <!-- END:  Home feature js call -->
+	    
+		<!-- Google Analytics Customizations -->
+		<script type="text/javascript" src="http://static.heart.org/ahaanywhere/js/ga-custom.js"></script>
+		<!-- This code is used for Google Analytics Asynchronous Tracking -->
+		
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+				<script type="text/javascript">
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', 'UA-12551341-7']);
+				  _gaq.push(['_trackPageview']);
+				  (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+				</script>
+			
+		
+		<link rel="stylesheet" href="http://static.heart.org/ahaanywhere/css/lbm_global.css" type="text/css" />
+	
+		</head>
+	
+ 
+
+	<body id="ahahomepage" class="Home">
+		
+ 
+ 
+
+	
+	
+
+	
+						
+		
+			
+			
+		
+	
+
+<!-- END Droplet -->
+
+
+		
+
+
+
+
+
+
+
+
+
+
+		
+	<!-- Header -->
+	<div id="headerWrapper">
+		<div class="width960 headerDesign">
+		<!-- Logo Region 300w + 10px margin -->
+			<div class="leftRegion">
+				<a class="ahaLogo" href="/HEARTORG/"><span>American Heart Association</span></a><br class="clrit"/>
+			</div>
+			<div class="rightRegion">
+				<!-- Languages + Donate -->
+				<span class="buttonDonate"><a href="https://www.kintera.org/site/c.fmJUKcOZJkI8G/b.8077571/k.6133/Donate_to_American_Heart_Association/apps/ka/sd/donorcustom.asp?msource=2013DOBUTTON" class="displayDonate roundBottom">Donate</a></span>
+				<div class="additionalHeaderLinks">
+					<!-- Localization - Drop Down -->
+					<span class="linkLocal">
+						
+									
+							
+							
+							
+							
+		         				
+						
+									
+							
+							
+							
+							
+		         			 
+								<a href="#">Local Info</a>
+		         				
+						
+					</span> 
+					<!-- Languages - Drop Down -->
+					<span class="linkLanguages"><a href="#">Languages</a></span> 
+					<!-- Careers - No Drop Down -->
+					<span class="linkCareers"><a href="/HEARTORG/General/Careers_UCM_303455_SubHomePage.jsp">Careers</a></span> 
+					<!-- Volunteer - No Drop Down -->
+					<span class="linkVolunteer"><a href="/HEARTORG/volunteer/volunteerForm.jsp">Volunteer</a></span> 
+				</div>
+					
+
+				
+				<!-- Search -->
+				<div class="searchWrap clrit">
+				
+				<form action="/HEARTORG/search/searchResults.jsp" class="clrfix" name="suggestion_form" method="get" id="suggestion_form"><input value="ISO-8859-1" type="hidden" name="_dyncharset"></input>
+
+<style type="text/css">
+.social {
+     float: left;
+    height: 33px;
+    line-height: 33px;
+    margin-right: 5px;
+    width: 150px;
+    }
+.social .socialOne, .social .socialTwo, .social .socialThree, .social .socialFour {
+display: block;
+    float: left;
+    height: 35px;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 32px;
+}
+
+.socialOne {
+background: url("http://static.heart.org/ahaanywhere/images/socialsIcons/colors/facebook.png") no-repeat scroll 0 0 transparent;
+}
+.socialTwo {
+background: url("http://static.heart.org/ahaanywhere/images/socialsIcons/colors/twitter.png") no-repeat scroll 0 0 transparent;
+}
+
+.socialThree {
+background: url("http://static.heart.org/ahaanywhere/images/socialsIcons/colors/youtube.png") no-repeat scroll 0 0 transparent;
+}
+
+.socialFour {
+background: url("http://static.heart.org/ahaanywhere/images/socialsIcons/colors/g-plus.png") no-repeat scroll 0 0 transparent;
+}
+
+
+/***************/
+
+.searchWrap {
+    height: 35px;
+    margin: 0 0 10px 0px;
+    width: 614px;
+    
+}
+
+</style>
+<div class="social">
+        <a href="http://www.facebook.com/americanheart" class="socialOne" target="_blank"></a>
+        <a href="http://www.twitter.com/american_heart" class="socialTwo" target="_blank"></a>
+
+    <a href="http://www.youtube.com/americanheartassoc" class="socialThree" target="_blank" alt=""></a>
+<a alt="Google Plus Posts" title="Google Plus Posts" href="https://plus.google.com/113039015676247823650#113039015676247823650/posts" class="socialFour" target="_blank"></a>
+</div> 
+
+
+					<div class="input"><input type="text" onkeyup="ss_handleKey(event)" onfocus="if (this.value == 'How Can We Help Your Heart?') {this.value = '';}" onblur="ss_hide('');if (this.value == '') {this.value = 'How Can We Help Your Heart?';}" value="How Can We Help Your Heart?" class="inputhint ac_input" name="q" id="q" autocomplete="off"/></div>
+					<button type="submit" title="Search" id="hd-search-submit" onclick="return checkSearchKeyValid();"><span class="round">Search</span></button><br/><br/>
+					<table cellpadding="0" border="0" cellspacing="0" class="ss-gac-m roundBottom" style="width: 460px; visibility:hidden;margin-top:-3px;" id="search_suggest"></table>
+				</form>
+				
+				</div>
+			</div>
+			<!-- Search Region -->
+			<br class="clrit"/>
+		</div><!-- End -->
+	</div>
+	<!-- headWrapper -->
+
+	<!-- ! Start Localization Note===========================================================================  -->
+		<div class="width960" style="position:relative;z-index:99999;">
+
+		<!-- ===The localization and languages should be placed right after the div class content wrapper == -->
+			
+    		<div>
+    		<!-- Start Search Localization Pop Up -->
+			<div id="localizationWrapper" class="localWrapperLeftPosition">
+				<!-- top tab -->
+				<div class="topTabContainer"><img src="http://static.heart.org/ahaanywhere/images/header_tabbox_top2.gif" alt="header_tabbox_top2" width="192" height="12" /></div>
+				<div class="localizationContainer">
+				<!-- Title -->
+
+				<div class="padding5px">
+					<div class="round tabBoxTitle">
+						
+									
+							
+							
+							
+							
+		         				
+						
+									
+							
+							
+							
+							
+		         			 
+								Get Your Local Info 
+		         				
+						
+					</div>
+				</div>
+				<div class="padding5px">
+				<span class="tabBoxDisplayMap"><img src="http://static.heart.org/ahaanywhere/images/usmap.png" alt="usmap" width="68" height="42" /></span>
+				<span class="tabBoxTextSnippet">Find out what is happening at your local American Heart area</span>
+				</div>
+				<!-- <hr class="dottedHR"/> -->
+				<!-- Search by Zip Code -->
+				<!-- Form -->
+
+				<div class="padding5px">
+				
+				<form action="/HEARTORG/index.jsp?null&_DARGS=/HEARTORG/common/grfwHeader.jsp.1" class="formZipCode" name="registerForm" method="post"><input value="ISO-8859-1" type="hidden" name="_dyncharset"></input>
+					<table class="localSearchTable">
+						<tbody>
+							<tr>
+								<td width="75%">
+									<input value="SEARCH BY ZIPCODE" autocomplete="off" maxlength="8" type="text" class="inputField" onfocus="if (this.value == 'SEARCH BY ZIPCODE') {this.value = '';}" name="/org/heart/localization/ZipFinderFormHandler.zipCode" onblur="if (this.value == '') {this.value = 'SEARCH BY ZIPCODE';}"><input value=" " type="hidden" name="_D:/org/heart/localization/ZipFinderFormHandler.zipCode">
+								</td>
+								<td width="25%" align="right">
+									<input value="Go" type="submit" class="submitButton leftPositionSubmitBtn round" name="/org/heart/localization/ZipFinderFormHandler.action"><input value=" " type="hidden" name="_D:/org/heart/localization/ZipFinderFormHandler.action">									
+								</td>
+							</tr>
+							<tr>
+
+								<td colspan="2" align="center">
+									<!-- Search by State -->					
+									<div class="searchStateButton round"><a href="/HEARTORG/localization/chooseState.jsp">Search by State</a></div>
+								</td>
+							</tr>
+						</tbody>
+					</table><input type="text" style="display:none"/>				    		
+				<input value="/HEARTORG/common/grfwHeader.jsp.1" type="hidden" name="_DARGS"></input></form>
+				</div>
+
+				</div>
+				<!-- bottom tab -->
+				<div class="bottomTabContainer"><img src="http://static.heart.org/ahaanywhere/images/header_tabbox_bottom.gif" alt="header_tabbox_top" width="192" height="6" /></div>
+			</div>
+		<!-- End Search Localization Pop Up -->
+			
+			<!-- Start Language Pop Up -->
+				<div id="languagesWrapper" class="languageWrapperLeftPosition" style="z-index:999;">
+					<!-- top tab -->
+					<div class="topTabContainerLanguages"><img src="http://static.heart.org/ahaanywhere/images/header_tabbox_top2.gif" alt="header_tabbox_top2" width="192" height="12" /></div>
+
+					<div class="localizationContainer">
+					<!-- Title -->
+					<div class="padding5px"><div class="round tabBoxTitle">SELECT YOUR LANGUAGE</div></div>
+					<div class="padding5px">
+						<!-- Spanish -->
+						<div class="displayLanguagesSlots">
+						<span class="displayLanguageFlag"><img src="http://static.heart.org/ahaanywhere/images/us.png" alt="mx" width="16" height="11" /></span>
+						<a href="http://es.heart.org/dheart/HEARTORG/Conditions/Answers-by-Heart-Fact-Sheets-Multi-language-Information_UCM_314158_Article.jsp" class="">Espa&#241;ol</a>
+
+						</div>
+						<!-- Cantonese &#31616;&#20307;&#20013;&#25991; -->
+						<div class="displayLanguagesSlots">
+						<span class="displayLanguageFlag">
+						<img src="http://static.heart.org/ahaanywhere/images/cn.png" alt="cn" width="16" height="11" />
+						</span>
+						<a href="http://zh.heart.org/dheart/HEARTORG/Conditions/Answers-by-Heart-Fact-Sheets-Multi-language-Information_UCM_314158_Article.jsp" class="cnChar1">&#31616;&#20307;&#20013;&#25991;</a>
+
+						</div>
+						<!-- Mandarin &#32321;&#20307;&#20013;&#25991; -->
+						<div class="displayLanguagesSlots">
+						<span class="displayLanguageFlag"><img src="http://static.heart.org/ahaanywhere/images/cn.png" alt="cn" width="16" height="11" /></span>
+						<a href="http://zs.heart.org/dheart/HEARTORG/Conditions/Answers-by-Heart-Fact-Sheets-Multi-language-Information_UCM_314158_Article.jsp" class="cnChar2">&#32321;&#20307;&#20013;&#25991;</a></div>
+						<!-- Vietnamese -->
+						<div class="displayLanguagesSlots">
+						<span class="displayLanguageFlag"><img src="http://static.heart.org/ahaanywhere/images/vn.png" alt="vn" width="16" height="11" /></span>
+
+						<a href="http://vi.heart.org/dheart/HEARTORG/Conditions/Answers-by-Heart-Fact-Sheets-Multi-language-Information_UCM_314158_Article.jsp" class="">&#84;&#105;&#7871;&#110;&#103;&#32;&#86;&#105;&#7879;&#116;</a>
+						</div>
+					</div>
+					</div>
+					<!-- bottom tab -->
+					<div class="bottomTabContainer"><img src="http://static.heart.org/ahaanywhere/images/header_tabbox_bottom.gif" alt="header_tabbox_top" width="192" height="6" /></div>
+				</div><!-- End id languagesWrapper -->
+			<!-- End Language Pop Up -->
+
+			</div>
+
+	</div>
+    <!-- End Localization -->
+	
+					
+		<div id="wrapper">
+			<!-- ! Navigation Start ====================================================================  -->
+			<!-- Start Droplet -->
+
+	
+	
+	
+
+
+	
+	
+		<!--Start of Navigation-->
+
+
+
+<!-- *** Logic for highlighting the current Nav Node ***-->
+<!-- *** End Logic for highlighting the current Nav Node ***-->
+
+
+
+
+<!-- Start CacheInclude Code -->
+	<!-- The cache lenght is an environment variable.-->
+<!-- BDT Comment out this line to use the old cache method-->
+	
+
+
+
+<!-- CACHE NAME 1:  cacheInclude(HEARTORG_T0, application, 86400, navigation:HEARTORG:nodeId:T0) -->
+		<!-- BDT NAV DEBUG - got my cache - display it.  -->
+	<!-- autogenerated on 05/16/2013 03:02:45 AM CDT-->
+<!-- ENTER Global Vars-->  <!--Already have DOC_INFO I'm looking for but needs renaming - rename and make no service call-->
+<!-- BDT VALID website section- -->
+<!--if wssId-->
+<!--colonIndex = strIndexOf(wssId, :)-->
+<!--nodeId = strSubstring(wssId, colonIndex+1)-->
+<!--elseif (myDocType like Widget and (xSubType like 13 or xSubType like 48 or xSubType like 49))-->
+<!--c = The 'Query Widget' (13) and 'List' (48) and 'RSS Feed' (49) are View All widgets that do not have a Web Site Section so we provide a default value of the 'General' section-->
+<!--nodeId = 1053-->
+<!--endif--><!-- cache cust_navigation_all_levels_bryan_test created on 005, 16 005 2013 3:02:45  CST-->
+<div id="navWrapper" class="clrit">
+<div class="width960 navDesign">
+<ul class="infoList">
+<li id="li_tier1_2" name="li_tier1_2">
+<a href="/HEARTORG/GettingHealthy/GettingHealthy_UCM_001078_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Getting Healthy']);" title="Getting Healthy">
+<span name="span_tier1_2" id="span_tier1_2">Getting Healthy</span>
+</a>
+</li>
+<li id="li_tier1_3" name="li_tier1_3">
+<a href="/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Conditions']);" title="Conditions">
+<span name="span_tier1_3" id="span_tier1_3">Conditions</span>
+</a>
+</li>
+<li id="li_tier1_19" name="li_tier1_19">
+<a href="/HEARTORG/HealthcareResearch/Healthcare-Research_UCM_001093_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Healthcare / Research']);" title="Healthcare / Research">
+<span name="span_tier1_19" id="span_tier1_19">Healthcare / Research</span>
+</a>
+</li>
+<li id="li_tier1_20" name="li_tier1_20">
+<a href="/HEARTORG/Caregiver/Caregiver_UCM_001103_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Caregiver']);" title="Caregiver">
+<span name="span_tier1_20" id="span_tier1_20">Caregiver</span>
+</a>
+</li>
+<li id="li_tier1_21" name="li_tier1_21">
+<a href="/HEARTORG/Educator/Educator_UCM_001113_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Educator']);" title="Educator">
+<span name="span_tier1_21" id="span_tier1_21">Educator</span>
+</a>
+</li>
+<li id="li_tier1_22" name="li_tier1_22">
+<a href="/HEARTORG/CPRAndECC/CPR_UCM_001118_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'CPR & ECC']);" title="CPR & ECC">
+<span name="span_tier1_22" id="span_tier1_22">CPR & ECC</span>
+</a>
+</li>
+</ul>
+<ul class="orgList roundTopCorners">
+<li id="li_tier1_23" name="li_tier1_23">
+<a href="http://shopheart.org" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Shop']);" title="Shop">
+<span name="span_tier1_23" id="span_tier1_23">Shop</span>
+</a>
+</li>
+<li id="li_tier1_24" name="li_tier1_24">
+<a href="/HEARTORG/Causes/Causes_UCM_001128_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Causes']);" title="Causes">
+<span name="span_tier1_24" id="span_tier1_24">Causes</span>
+</a>
+</li>
+<li id="li_tier1_91" name="li_tier1_91">
+<a href="/HEARTORG/Advocate/Advocate_UCM_001133_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Advocate']);" title="Advocate">
+<span name="span_tier1_91" id="span_tier1_91">Advocate</span>
+</a>
+</li>
+<li id="li_tier1_92" name="li_tier1_92">
+<a href="/HEARTORG/Giving/Giving_UCM_001137_SubHomePage.jsp" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'Giving']);" title="Giving">
+<span name="span_tier1_92" id="span_tier1_92">Giving</span>
+</a>
+</li>
+<li id="li_tier1_93" name="li_tier1_93">
+<a href="http://newsroom.heart.org" onClick="_gaq.push(['_trackEvent', 'HeaderNav', 'Click', 'News']);" title="News">
+<span name="span_tier1_93" id="span_tier1_93">News</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Generate Tier 2, 3 and 4 for UCM_001058 [nodeId='1';rootNodeId='1']-->
+
+<!-- End CacheInclude Code -->
+
+
+<script type="text/javascript">
+ $(function() {
+ $("div#navWrapper span#span_tier1_0").addClass("topNavSelected");
+ $("div#navWrapper li#li_tier1_0").addClass("topNavSelectedArrow");
+ });
+</script>
+
+
+
+			
+<!--End of Navigation-->
+	
+	
+
+
+<!-- END Droplet -->
+ 
+			<!-- ! Navigation Ends ====================================================================  -->
+			
+			<!-- Start Droplet for display the Home Feature Content-->
+			
+				
+				
+			
+				
+				
+							<div class="homefeature">
+			<div class="homefeature"><style type="text/css" media="all">
+    
+    
+    body#asahomepage {
+    	background: #492c9a;
+    }
+    
+   
+   #wrapper {
+   	background: url("http://static.heart.org/ahaanywhere/AHAhomepage/stroke/may2013/may2013.hyperesources/asaweb_bkgrd.png") repeat-x scroll center 40px transparent !important;
+   }
+   
+    
+     .content_wrapper {
+        margin-bottom: 10px;
+        margin: 0 auto;
+        background: #fff !important;
+        position: relative;
+        padding-top: 10px;
+        top: 0;
+        
+		/*top and bottom Radius*/
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+        
+        
+        /*
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;*/
+        
+        -webkit-box-shadow: 0px 1px 1px 0.3px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 1px 1px 0.3px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 1px 0.3px rgba(0, 0, 0, 0.2);
+        
+        
+    	/**border-left: 1px solid #3c0000 ;*/ /* IE7 and below 1px fix */
+       	}
+    
+
+   /** 	
+    div#footer_wrapper {
+    	border-top: 0 none !important;
+    	margin-top: 0px;
+    }
+*/
+    
+    #footer_buff {
+        margin: 0 auto;
+        padding: 30px 0 !important;
+        width: 940px;
+        }
+    
+    .about, .sites, .causes, .contact {
+    	/*border-left: 1px solid #5D5D5D !important;*/
+    }
+    
+    
+    /*@media screen and (-webkit-min-device-pixel-ratio:0) {/* webkit 1px hack*!/
+        #footer_wrapper, #wrapper { margin-left: -1px;}
+        
+    }*/
+    
+    
+    
+    .homefeature {
+    	height: 390px;
+        margin: 0 auto;
+        width: 940px;
+        margin-top: 25px;
+    	position: relative;
+        text-indent: -9999px;
+    /*    overflow: hidden;*/
+        
+    }
+        
+     
+    
+    
+    </style>  <!-- The Buttons --> <div style="position:relative;overflow:hidden;width:940px;height:356px;" id="may2013_hype_container"><script type="text/javascript" charset="utf-8" src="http://static.heart.org/ahaanywhere/AHAhomepage/stroke/may2013/may2013.hyperesources/may2013_hype_generated_script.js?44089"></script></div></div>
+		</div>
+
+				
+			
+			<!-- END Droplet Home Feature content-->
+		
+			<div class="content_wrapper">
+				<!--Start Tabs-->
+				<div id="ahatabs">
+					<!-- The Warning Sign -->
+					<a href="/HEARTORG/Conditions/Conditions_UCM_305346_SubHomePage.jsp" id="theWarningSign" class="roundTopCorners">
+					  <span>The Warning Signs</span>
+					</a>
+					<!-- End The Warning Sign -->
+                    <!-- Encyclopedia -->
+                    <a href="http://www.heart.org/HEARTORG/Conditions/The-Heart-and-Stroke-Encyclopedia_UCM_445688_SubHomePage.jsp" id="heartEncyclopedia" class="roundTopCorners">HEART AND STROKE ENCYCLOPEDIA</a>
+					<!-- End Encyclopedia -->
+				    <ul>
+				        <li class=""><a href="#whatsnew">WHAT'S NEW</a></li>
+						<li class=""><a href="#mostviewed">MOST POPULAR</a></li>
+						<li class=""><a href="#mostsearched">MOST SEARCHED</a></li>
+						<li class=""><a href="#explore">EXPLORE</a></li>
+				    </ul>
+					<!-- Start Droplet for What's new tab content-->
+					
+						
+						
+					
+						
+						
+										
+	
+
+	
+	
+
+				
+			
+
+<!-- The cache length is an environment variable.-->
+
+
+		
+
+	    
+    <div id="whatsnew">
+  		<ol class="whatsnewlist">
+	      <li>
+	        <div class="listcontent">
+	          <a href="http://newsroom.heart.org/news/new-iom-report-an-incomplete-review-of-sodiums-impact-says-american-heart-association<br />">
+
+	          <div class="numberitem">
+	            1
+	          </div>
+
+	          <p class="itemtitle">New IOM report an incomplete review of sodium&rsquo;s impact, says American Heart Association. <br /></p>
+	          <div class="clearit"></div>
+		  		</a>
+
+	        </div>
+	      <li>
+	        <div class="listcontent">
+	          <a href="http://www.heart.org/HEARTORG/Conditions/HighBloodPressure/WhyBloodPressureMatters/Sex-and-High-Blood-Pressure_UCM_451787_Article.jsp">
+
+	          <div class="numberitem">
+	            2
+	          </div>
+
+	          <p class="itemtitle">High blood pressure could hurt your sex life! Find out how..</p>
+	          <div class="clearit"></div>
+		  		</a>
+
+	        </div>
+	      <li>
+	        <div class="listcontent">
+	          <a href="http://www.heart.org/HEARTORG/HealthcareResearch/MissionLifelineHomePage/My-Hospital---AHA-Hospital-Accreditation_UCM_436922_SubHomePage.jsp">
+
+	          <div class="numberitem">
+	            3
+	          </div>
+
+	          <p class="itemtitle">Do you know what the Heart-Check mark says about your hospital?</p>
+	          <div class="clearit"></div>
+		  		</a>
+
+	        </div>
+	      <li>
+	        <div class="listcontent">
+	          <a href="http://my.americanheart.org/professional/Research/FundingOpportunities/Funding-Opportunities_UCM_316909_SubHomePage.jsp">
+
+	          <div class="numberitem">
+	            4
+	          </div>
+
+	          <p class="itemtitle">Apply for Summer 2013 Research Awards Today!</p>
+	          <div class="clearit"></div>
+		  		</a>
+
+	        </div>
+	      <li>
+	        <div class="listcontent">
+	          <a href="http://www.goredforwomen.org/get-involved/show-support-for-go-red/multicultural-scholarship-fund/">
+
+	          <div class="numberitem">
+	            5
+	          </div>
+
+	          <p class="itemtitle">Go Red For Women announces the 2013 Go Red &trade; Multicultural Scholarship recipients. Registration for 2014 is now open!</p>
+	          <div class="clearit"></div>
+		  		</a>
+
+	        </div>
+	      </li>
+	    </ol>
+	  </div>
+      
+      	
+<!-- BEGIN temporary Most Viewed Today (HEARTORG)-->
+<!-- cust_heartorg_whatsnew_homepage-->
+		
+	
+	<!-- BDT : Will only cache image widgets as well as query widgets-->
+	
+           <!--The home page - use home page formatting--><div id="mostviewed"><ol class="whatsnewlist"><li><div class="listcontent"><a href="/HEARTORG/Conditions/HighBloodPressure/AboutHighBloodPressure/Understanding-Blood-Pressure-Readings_UCM_301764_Article.jsp"><div class="numberitem">1</div><p class="itemtitle">Understanding Blood Pressure Readings</p><div class="clearit">&nbsp;</div></a></div></li><li><div class="listcontent"><a href="/HEARTORG/Conditions/HeartAttack/WarningSignsofaHeartAttack/Heart-Attack-Symptoms-in-Women_UCM_436448_Article.jsp"><div class="numberitem">2</div><p class="itemtitle">Heart Attack Symptoms in Women</p><div class="clearit">&nbsp;</div></a></div></li><li><div class="listcontent"><a href="/HEARTORG/Conditions/HighBloodPressure/SymptomsDiagnosisMonitoringofHighBloodPressure/What-are-the-Symptoms-of-High-Blood-Pressure_UCM_301871_Article.jsp"><div class="numberitem">3</div><p class="itemtitle">What are the Symptoms of High Blood Pressure?</p><div class="clearit">&nbsp;</div></a></div></li><li><div class="listcontent"><a href="/HEARTORG/Conditions/HeartAttack/WarningSignsofaHeartAttack/Warning-Signs-of-a-Heart-Attack_UCM_002039_Article.jsp"><div class="numberitem">4</div><p class="itemtitle">Warning Signs of a Heart Attack</p><div class="clearit">&nbsp;</div></a></div></li><li class="removeBorders"><div class="listcontent"><a href="/HEARTORG/Conditions/HighBloodPressure/AboutHighBloodPressure/Low-Blood-Pressure_UCM_301785_Article.jsp"><div class="numberitem">5</div><p class="itemtitle">Low Blood Pressure</p><div class="clearit">&nbsp;</div></a></div></li></ol></div><!--mostviewed-->
+
+<!-- BEGIN temporary Most Viewed Today-->
+
+
+
+						
+					
+					<!-- END Droplet for What's new content-->
+
+               		
+
+		            <div id="mostsearched">
+	                  	<ol class="whatsnewlist">
+							
+
+
+	
+		
+	
+
+	
+	
+	
+	  
+	  
+	  
+			
+			
+			
+			
+		
+	  
+	  
+	  
+			
+			
+			
+			
+				
+				
+				
+					
+					
+					<li>
+					
+																	
+				<div class="listcontent">
+					<a href="/HEARTORG/search/searchResults.jsp?q=cholesterol">
+						<div class="numberitem">1</div>
+						<p class="itemtitle">cholesterol</p>
+						<div class="clearit"></div>
+						
+					</a>
+				</div>
+				</li>
+			
+		
+	  
+	  
+	  
+			
+			
+			
+			
+				
+				
+				
+					
+					
+					<li>
+					
+																	
+				<div class="listcontent">
+					<a href="/HEARTORG/search/searchResults.jsp?q=cpr">
+						<div class="numberitem">2</div>
+						<p class="itemtitle">cpr</p>
+						<div class="clearit"></div>
+						
+					</a>
+				</div>
+				</li>
+			
+		
+	  
+	  
+	  
+			
+			
+			
+			
+				
+				
+				
+					
+					
+					<li>
+					
+																	
+				<div class="listcontent">
+					<a href="/HEARTORG/search/searchResults.jsp?q=high+blood+pressure">
+						<div class="numberitem">3</div>
+						<p class="itemtitle">high blood pressure</p>
+						<div class="clearit"></div>
+						
+					</a>
+				</div>
+				</li>
+			
+		
+	  
+	  
+	  
+			
+			
+			
+			
+				
+				
+				
+					
+					
+					<li>
+					
+																	
+				<div class="listcontent">
+					<a href="/HEARTORG/search/searchResults.jsp?q=american+heart+association">
+						<div class="numberitem">4</div>
+						<p class="itemtitle">american heart association</p>
+						<div class="clearit"></div>
+						
+					</a>
+				</div>
+				</li>
+			
+		
+	  
+	  
+	  
+			
+			
+			
+			
+				
+				
+				
+					
+					<li class="removeBorders">
+					
+					
+																	
+				<div class="listcontent">
+					<a href="/HEARTORG/search/searchResults.jsp?q=acls">
+						<div class="numberitem">5</div>
+						<p class="itemtitle">acls</p>
+						<div class="clearit"></div>
+						
+					</a>
+				</div>
+				</li>
+			
+		
+
+		
+	
+
+	
+	                  	</ol>
+		            </div><!--mostsearched-->
+		            
+		            <div id="explore">
+		            	<div class="explore_content">
+		                  	<ol class="whatsnewlist">
+		                  		<li id="TagCloud" class="removeBorders">                  			
+		              	 			
+
+<!-- Clear the browseResults before you set the results to make sure the browseResults is 
+    upto date as QueryResults is a session based component -->
+    
+
+	<!-- Start Droplet -->
+	
+		
+		
+	
+		
+		
+			
+			  	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+pulmonary+valve&amp;pageNum=1&amp;start=1">
+							 pulmonary valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 35.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart&amp;pageNum=1&amp;start=1">
+							 heart
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+epinpam+article&amp;pageNum=1&amp;start=1">
+							 epinpam article
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Ladies+Luncheon&amp;pageNum=1&amp;start=1">
+							Ladies Luncheon
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+arrhythmia&amp;pageNum=1&amp;start=1">
+							 arrhythmia
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 24.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+calcific+valve&amp;pageNum=1&amp;start=1">
+							 calcific valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Go+Red+For+Women&amp;pageNum=1&amp;start=1">
+							Go Red For Women
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+e-newsletter&amp;pageNum=1&amp;start=1">
+							 e-newsletter
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 26.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Gala&amp;pageNum=1&amp;start=1">
+							Gala
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+personal+story&amp;pageNum=1&amp;start=1">
+							 personal story
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+symptoms+of+valve+disease&amp;pageNum=1&amp;start=1">
+							 symptoms of valve disease
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+media&amp;pageNum=1&amp;start=1">
+							 media
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 20.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=heart+disease&amp;pageNum=1&amp;start=1">
+							heart disease
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Go+Red&amp;pageNum=1&amp;start=1">
+							Go Red
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+volunteer+voice&amp;pageNum=1&amp;start=1">
+							 volunteer voice
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 25.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+disease&amp;pageNum=1&amp;start=1">
+							 heart disease
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+attack&amp;pageNum=1&amp;start=1">
+							 heart attack
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+triscuspid+valve&amp;pageNum=1&amp;start=1">
+							 triscuspid valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+hypertension&amp;pageNum=1&amp;start=1">
+							 hypertension
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 46.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Heart&amp;pageNum=1&amp;start=1">
+							 Heart
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 35.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+recipe&amp;pageNum=1&amp;start=1">
+							 recipe
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=heart+valves&amp;pageNum=1&amp;start=1">
+							heart valves
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valvular+disease&amp;pageNum=1&amp;start=1">
+							 valvular disease
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+epinpam+science+news&amp;pageNum=1&amp;start=1">
+							 epinpam science news
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 27.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+ventricles&amp;pageNum=1&amp;start=1">
+							 ventricles
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+valve+problems&amp;pageNum=1&amp;start=1">
+							 heart valve problems
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 60.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+diet&amp;pageNum=1&amp;start=1">
+							 diet
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+e-news&amp;pageNum=1&amp;start=1">
+							 e-news
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+women&amp;pageNum=1&amp;start=1">
+							 women
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 15.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+warning+signs&amp;pageNum=1&amp;start=1">
+							 warning signs
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 51.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+stroke&amp;pageNum=1&amp;start=1">
+							 stroke
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+atria&amp;pageNum=1&amp;start=1">
+							 atria
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 34.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Start!+Heart+Walk&amp;pageNum=1&amp;start=1">
+							Start! Heart Walk
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+mitral+valve&amp;pageNum=1&amp;start=1">
+							 mitral valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Florida&amp;pageNum=1&amp;start=1">
+							Florida
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+disorders+of+the+heart&amp;pageNum=1&amp;start=1">
+							 disorders of the heart
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 31.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+news&amp;pageNum=1&amp;start=1">
+							 news
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 60.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+nutrition&amp;pageNum=1&amp;start=1">
+							 nutrition
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+cpr&amp;pageNum=1&amp;start=1">
+							 cpr
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 25.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+bicuspid+valve&amp;pageNum=1&amp;start=1">
+							 bicuspid valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+epinpam&amp;pageNum=1&amp;start=1">
+							 epinpam
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=GRFW&amp;pageNum=1&amp;start=1">
+							GRFW
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Metabolism&amp;pageNum=1&amp;start=1">
+							 Metabolism
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+circulation&amp;pageNum=1&amp;start=1">
+							 heart circulation
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 33.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+pa&amp;pageNum=1&amp;start=1">
+							 pa
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=staff&amp;pageNum=1&amp;start=1">
+							staff
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 25.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+murmur&amp;pageNum=1&amp;start=1">
+							 heart murmur
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+My&amp;pageNum=1&amp;start=1">
+							 My
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 30.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+walk&amp;pageNum=1&amp;start=1">
+							 heart walk
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 45.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+fat&amp;pageNum=1&amp;start=1">
+							 fat
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 36.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+brochure&amp;pageNum=1&amp;start=1">
+							 brochure
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+oh&amp;pageNum=1&amp;start=1">
+							 oh
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 20.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+smoking&amp;pageNum=1&amp;start=1">
+							 smoking
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 20.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+go+red&amp;pageNum=1&amp;start=1">
+							 go red
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 26.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+abnormalities&amp;pageNum=1&amp;start=1">
+							 heart abnormalities
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 60.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+diabetes&amp;pageNum=1&amp;start=1">
+							 diabetes
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+epi/npam&amp;pageNum=1&amp;start=1">
+							 epi/npam
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Life&amp;pageNum=1&amp;start=1">
+							 Life
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+pain&amp;pageNum=1&amp;start=1">
+							 heart pain
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+PA&amp;pageNum=1&amp;start=1">
+							 PA
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+american+heart+association&amp;pageNum=1&amp;start=1">
+							 american heart association
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Women&amp;pageNum=1&amp;start=1">
+							Women
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+tight+valve&amp;pageNum=1&amp;start=1">
+							 tight valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+mitral+valve+prolapse&amp;pageNum=1&amp;start=1">
+							 mitral valve prolapse
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 31.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=recipe&amp;pageNum=1&amp;start=1">
+							recipe
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+go+red+for+women&amp;pageNum=1&amp;start=1">
+							 go red for women
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+problem&amp;pageNum=1&amp;start=1">
+							 valve problem
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 34.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=cpr&amp;pageNum=1&amp;start=1">
+							cpr
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 42.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Face+the+Fats&amp;pageNum=1&amp;start=1">
+							Face the Fats
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Louisiana&amp;pageNum=1&amp;start=1">
+							Louisiana
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+enews&amp;pageNum=1&amp;start=1">
+							 enews
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=psa&amp;pageNum=1&amp;start=1">
+							psa
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Red&amp;pageNum=1&amp;start=1">
+							 Red
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 33.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Simple+Science&amp;pageNum=1&amp;start=1">
+							Simple Science
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+resources&amp;pageNum=1&amp;start=1">
+							 resources
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 33.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=HW&amp;pageNum=1&amp;start=1">
+							HW
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+congenital+heart+defect&amp;pageNum=1&amp;start=1">
+							 congenital heart defect
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 27.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+essentials&amp;pageNum=1&amp;start=1">
+							 valve essentials
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 15.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=volunteer+voice&amp;pageNum=1&amp;start=1">
+							volunteer voice
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=epi&amp;pageNum=1&amp;start=1">
+							epi
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=healthcare+training&amp;pageNum=1&amp;start=1">
+							healthcare training
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=stroke&amp;pageNum=1&amp;start=1">
+							stroke
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Walk&amp;pageNum=1&amp;start=1">
+							 Walk
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 30.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=2013&amp;pageNum=1&amp;start=1">
+							2013
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+nutrition+center&amp;pageNum=1&amp;start=1">
+							 nutrition center
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 25.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+dangerous+murmur&amp;pageNum=1&amp;start=1">
+							 dangerous murmur
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+function&amp;pageNum=1&amp;start=1">
+							 valve function
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 36.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=ecc&amp;pageNum=1&amp;start=1">
+							ecc
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Heart+Ball&amp;pageNum=1&amp;start=1">
+							Heart Ball
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 43.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+oil&amp;pageNum=1&amp;start=1">
+							 oil
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 15.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+valves&amp;pageNum=1&amp;start=1">
+							 heart valves
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+cessation&amp;pageNum=1&amp;start=1">
+							 cessation
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 46.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+pamphlet&amp;pageNum=1&amp;start=1">
+							 pamphlet
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 27.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=HB&amp;pageNum=1&amp;start=1">
+							HB
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+risk+factors&amp;pageNum=1&amp;start=1">
+							 risk factors
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+science+news&amp;pageNum=1&amp;start=1">
+							 science news
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+listing&amp;pageNum=1&amp;start=1">
+							 listing
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Dictionary+of+Nutrition&amp;pageNum=1&amp;start=1">
+							 Dictionary of Nutrition
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+ohio&amp;pageNum=1&amp;start=1">
+							 ohio
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+get+with+the+guidelines&amp;pageNum=1&amp;start=1">
+							 get with the guidelines
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 25.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+treatment&amp;pageNum=1&amp;start=1">
+							 valve treatment
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+failure&amp;pageNum=1&amp;start=1">
+							 heart failure
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=heart+attack&amp;pageNum=1&amp;start=1">
+							heart attack
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+children&amp;pageNum=1&amp;start=1">
+							 children
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+pulmonary+stenosis&amp;pageNum=1&amp;start=1">
+							 pulmonary stenosis
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+cardiac+arrest&amp;pageNum=1&amp;start=1">
+							 cardiac arrest
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+high+blood+pressure&amp;pageNum=1&amp;start=1">
+							 high blood pressure
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+scans&amp;pageNum=1&amp;start=1">
+							 heart scans
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+exercise&amp;pageNum=1&amp;start=1">
+							 exercise
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+cardiologist&amp;pageNum=1&amp;start=1">
+							 cardiologist
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+echocardiogram&amp;pageNum=1&amp;start=1">
+							 valve echocardiogram
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+enewsletter&amp;pageNum=1&amp;start=1">
+							 enewsletter
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 27.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+malformed+valve&amp;pageNum=1&amp;start=1">
+							 malformed valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 26.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+science&amp;pageNum=1&amp;start=1">
+							 science
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 34.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Start!&amp;pageNum=1&amp;start=1">
+							Start!
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 34.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Walk&amp;pageNum=1&amp;start=1">
+							Walk
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 49.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+repair&amp;pageNum=1&amp;start=1">
+							 valve repair
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+aortic+valve&amp;pageNum=1&amp;start=1">
+							 aortic valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Ladies&amp;pageNum=1&amp;start=1">
+							Ladies
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Luncheon&amp;pageNum=1&amp;start=1">
+							 Luncheon
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+washington&amp;pageNum=1&amp;start=1">
+							 washington
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 33.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+trans+fat&amp;pageNum=1&amp;start=1">
+							 trans fat
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+walk&amp;pageNum=1&amp;start=1">
+							 walk
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Cardiovascular+Disease&amp;pageNum=1&amp;start=1">
+							 Cardiovascular Disease
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+health&amp;pageNum=1&amp;start=1">
+							 health
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+luncheon&amp;pageNum=1&amp;start=1">
+							 luncheon
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 24.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+restaurant&amp;pageNum=1&amp;start=1">
+							 restaurant
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Ball&amp;pageNum=1&amp;start=1">
+							 Ball
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 26.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+health&amp;pageNum=1&amp;start=1">
+							 valve health
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 25.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+aging+heart&amp;pageNum=1&amp;start=1">
+							 aging heart
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 27.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+physical+activity&amp;pageNum=1&amp;start=1">
+							 physical activity
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+aortic+stenosis&amp;pageNum=1&amp;start=1">
+							 aortic stenosis
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 25.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+newsletter&amp;pageNum=1&amp;start=1">
+							 newsletter
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Nutrition&amp;pageNum=1&amp;start=1">
+							 Nutrition
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+mitral+stenosis&amp;pageNum=1&amp;start=1">
+							 mitral stenosis
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 15.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Research&amp;pageNum=1&amp;start=1">
+							 Research
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=pma&amp;pageNum=1&amp;start=1">
+							pma
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+tricuspid+stenosis&amp;pageNum=1&amp;start=1">
+							 tricuspid stenosis
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+salt&amp;pageNum=1&amp;start=1">
+							 salt
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+diabetes-friendly+recipe&amp;pageNum=1&amp;start=1">
+							 diabetes-friendly recipe
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+replacement&amp;pageNum=1&amp;start=1">
+							 valve replacement
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+atrial+fibrillation&amp;pageNum=1&amp;start=1">
+							 atrial fibrillation
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 27.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+atrium&amp;pageNum=1&amp;start=1">
+							 atrium
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valvular+heart+disease&amp;pageNum=1&amp;start=1">
+							 valvular heart disease
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 15.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+print&amp;pageNum=1&amp;start=1">
+							 print
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+fatigue&amp;pageNum=1&amp;start=1">
+							 heart fatigue
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 20.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Tennessee&amp;pageNum=1&amp;start=1">
+							Tennessee
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+leaky+valve&amp;pageNum=1&amp;start=1">
+							 leaky valve
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+attack+tests&amp;pageNum=1&amp;start=1">
+							 heart attack tests
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+2011+Scientific+Sessions&amp;pageNum=1&amp;start=1">
+							 2011 Scientific Sessions
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+blood+pressure&amp;pageNum=1&amp;start=1">
+							 blood pressure
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 35.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=Heart+Walk&amp;pageNum=1&amp;start=1">
+							Heart Walk
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+hbp&amp;pageNum=1&amp;start=1">
+							 hbp
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 46.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=personal+stories&amp;pageNum=1&amp;start=1">
+							personal stories
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+prevention&amp;pageNum=1&amp;start=1">
+							 prevention
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=recipes&amp;pageNum=1&amp;start=1">
+							recipes
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+npam&amp;pageNum=1&amp;start=1">
+							 npam
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+chd&amp;pageNum=1&amp;start=1">
+							 chd
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 23.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+advocacy&amp;pageNum=1&amp;start=1">
+							 advocacy
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 18.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+obesity&amp;pageNum=1&amp;start=1">
+							 obesity
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 34.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+survivor&amp;pageNum=1&amp;start=1">
+							 survivor
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+ventricular+contraction&amp;pageNum=1&amp;start=1">
+							 ventricular contraction
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+valve+surgeon&amp;pageNum=1&amp;start=1">
+							 valve surgeon
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Prevention&amp;pageNum=1&amp;start=1">
+							 Prevention
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 22.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=my+heart.+my+life.&amp;pageNum=1&amp;start=1">
+							my heart. my life.
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+condition&amp;pageNum=1&amp;start=1">
+							 heart condition
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+defect&amp;pageNum=1&amp;start=1">
+							 heart defect
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Day&amp;pageNum=1&amp;start=1">
+							 Day
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+testimonial&amp;pageNum=1&amp;start=1">
+							 testimonial
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+GSA&amp;pageNum=1&amp;start=1">
+							 GSA
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+patient+brochure&amp;pageNum=1&amp;start=1">
+							 patient brochure
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 29.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+stenosis&amp;pageNum=1&amp;start=1">
+							 stenosis
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 19.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+tips&amp;pageNum=1&amp;start=1">
+							 tips
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 26.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+2013&amp;pageNum=1&amp;start=1">
+							 2013
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 28.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+heart+works&amp;pageNum=1&amp;start=1">
+							 heart works
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Epidemiology&amp;pageNum=1&amp;start=1">
+							 Epidemiology
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 21.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=My&amp;pageNum=1&amp;start=1">
+							My
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+dining+out&amp;pageNum=1&amp;start=1">
+							 dining out
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 16.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+juntos+newsletter&amp;pageNum=1&amp;start=1">
+							 juntos newsletter
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.5px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+Physical+Activity&amp;pageNum=1&amp;start=1">
+							 Physical Activity
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 17.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+video&amp;pageNum=1&amp;start=1">
+							 video
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 49.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+cholesterol&amp;pageNum=1&amp;start=1">
+							 cholesterol
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+			  	
+			  	
+					<span style="font-size: 31.0px;">
+						<a href="/HEARTORG/tag/tagResults.jsp?itemsPerPage=10&amp;tagName=+chest+pain&amp;pageNum=1&amp;start=1">
+							 chest pain
+							
+							
+							
+							
+						</a>
+					</span>	
+			  	 
+			
+	
+		
+	
+	<!-- END Droplet --> 
+		                  		</li>
+		                  	</ol>
+		                </div>
+		            </div><!--/explore-->
+
+        		</div>
+				<!-- End #ahaTabs -->
+				<!--End Tabs-->
+
+				<br class="clrit"/>
+				<!-- ****** Widget Wrapper ***** -->
+				<!-- Start Droplet to Display the Widget Wrapper-->
+				
+					
+					
+				
+					
+					
+						<!-- yoda -->
+			
+<div class="body_widgets3">
+  <!-- BDT: Due to binder pollution, we need to get the list of content IDs before we display the widgets.-->
+  
+  
+    
+    
+	    		
+	
+	<!-- BDT : Will only cache image widgets as well as query widgets-->
+	
+		
+			<div class="widgets_container_article">
+				<div class="widget_rightcontainer round">
+					<div class="roundwhitebg">
+					<span class="widget_title round"> Take Charge of Your Blood Pressure </span>
+					<span class="widgetContent">
+						<img alt="Woman checking her blood pressure" src="/idc/groups/heart-public/@wcm/@hcm/documents/image/~extract/UCM_451229~3~staticrendition/medium.jpg" /><br /><br />May is High Blood Pressure Education Month!&nbsp;<br />Untreated HBP damages your arteries, which can have serious health consequences. <br /><a href="/HEARTORG/Conditions/HighBloodPressure/High-Blood-Pressure-or-Hypertension_UCM_002020_SubHomePage.jsp"><strong>Learn how to keep your BP in the healthy range.</strong></a>
+					</span>
+					</div>
+				</div>
+			</div>
+		
+
+	  <!-- BDT Affiliate Performance:  Section 5 (individual widgets) took 29 ms to process-->
+	    		
+	
+	<!-- BDT : Will only cache image widgets as well as query widgets-->
+	
+	
+		<!-- BDT - Occasionally the strGenerateRandom() function returns a blank.  If that's the case, get the milliseconds from the current timestamp as a backup-->
+		<script language="JavaScript" type="text/javascript">
+		$(document).ready(function(){
+			$("#accordionA97AD71F7890FCC").accordion({ header: "h3", autoHeight: false }) ;
+		});
+		</script>
+		
+			<div class="widgets_container_article">
+			<div class="widget_rightcontainer round">
+				<div class="roundwhitebg">
+					<span class="widget_title round">Stories from the Heart </span>
+					<div class="">
+						<div id="accordionA97AD71F7890FCC" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+						
+									<h3 class="ui-accordion-header ui-helper-reset ui-state-active ui-corner-top ui-state-focus" role="tab" aria-expanded="true" tabindex="0">
+										<a href="#" tabindex="-1">Learn and Live</a>
+									</h3>
+									<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: block; padding-top: 10px; padding-bottom: 10px;">
+										<p><div style="text-align: center"><img alt="Eugene A. Brown " src="/idc/groups/heart-public/@wcm/@cmc/documents/image/~extract/UCM_452348~1~staticrendition/small.jpg" />&nbsp;&nbsp;&nbsp;</div><div style="text-align: left"><span style="font-size: 10pt"><span style="font-size: 9pt"><span style="font-size: 10pt"><span style="font-size: 10pt"><div><div><span style="font-size: 10pt"><div><span style="font-size: 10pt">&nbsp;<div><div><span style="font-size: 10pt">Artist finds new inspiration after stroke.</span></div></div></span></div></span>&nbsp;</div></div></span></span></span></span></div><div style="text-align: left"><a href="/HEARTORG/General/Stories-From-The-Heart_UCM_001809_Article.jsp">Read&nbsp;his story</a>.&nbsp;</div></p>
+									</div>
+								<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: none; padding-top: 10px; padding-bottom: 10px;">
+									<p><div style="text-align: center"><img alt="Eugene A. Brown " src="/idc/groups/heart-public/@wcm/@cmc/documents/image/~extract/UCM_452348~1~staticrendition/small.jpg" />&nbsp;&nbsp;&nbsp;</div><div style="text-align: left"><span style="font-size: 10pt"><span style="font-size: 9pt"><span style="font-size: 10pt"><span style="font-size: 10pt"><div><div><span style="font-size: 10pt"><div><span style="font-size: 10pt">&nbsp;<div><div><span style="font-size: 10pt">Artist finds new inspiration after stroke.</span></div></div></span></div></span>&nbsp;</div></div></span></span></span></span></div><div style="text-align: left"><a href="/HEARTORG/General/Stories-From-The-Heart_UCM_001809_Article.jsp">Read&nbsp;his story</a>.&nbsp;</div></p>
+								</div>
+									<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" tabindex="-1">
+										<a href="#" tabindex="-1">How Can I Help?</a>
+									</h3>
+								<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: none; padding-top: 10px; padding-bottom: 10px;">
+									<p><ul><li><a href="/HEARTORG/Giving/Giving_UCM_001137_SubHomePage.jsp">Donate</a></li><li><a href="http://www.heart.org/HEARTORG/localization/chooseState.jsp">Volunteer</a> in your area</li><li><a href="/HEARTORG/CPRAndECC/CPR_UCM_001118_SubHomePage.jsp">Take&nbsp;a CPR class</a></li><li>Join <a href="/HEARTORG/Advocate/Advocate_UCM_001133_SubHomePage.jsp">You're The Cure</a> and be an advocate</li><li>Get involved with <a href="http://www.goredforwomen.org/">Go Red For Women</a></li><li>Learn about <a href="http://www.powertoendstroke.org/">Power to End Stroke</a></li></ul></p>
+								</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+	  <!-- BDT Affiliate Performance:  Section 5 (individual widgets) took 24 ms to process-->
+	    		
+	
+	<!-- BDT : Will only cache image widgets as well as query widgets-->
+	
+	
+		<!-- BDT - Occasionally the strGenerateRandom() function returns a blank.  If that's the case, get the milliseconds from the current timestamp as a backup-->
+		<script language="JavaScript" type="text/javascript">
+		$(document).ready(function(){
+			$("#accordion7F22AF5D0B50BF4").accordion({ header: "h3", autoHeight: false }) ;
+		});
+		</script>
+		
+			<div class="widgets_container_article">
+			<div class="widget_rightcontainer round">
+				<div class="roundwhitebg">
+					<span class="widget_title round">Giving </span>
+					<div class="">
+						<div id="accordion7F22AF5D0B50BF4" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+						
+									<h3 class="ui-accordion-header ui-helper-reset ui-state-active ui-corner-top ui-state-focus" role="tab" aria-expanded="true" tabindex="0">
+										<a href="#" tabindex="-1">Support the American Heart Association</a>
+									</h3>
+									<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: block; padding-top: 10px; padding-bottom: 10px;">
+										<p><div style="text-align: center"><a href="https://www.kintera.org/site/c.fmJUKcOZJkI8G/b.8077571/k.6133/Donate_to_American_Heart_Association/apps/ka/sd/donorcustom.asp?msource=2013HOMWIDG"><img src="/idc/groups/heart-public/@wcm/@fdr/documents/image/~extract/UCM_446999~2~staticrendition/medium.png" alt="Who Will You Give For" /></a>&nbsp;</div></p>
+									</div>
+								<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: none; padding-top: 10px; padding-bottom: 10px;">
+									<p><div style="text-align: center"><a href="https://www.kintera.org/site/c.fmJUKcOZJkI8G/b.8077571/k.6133/Donate_to_American_Heart_Association/apps/ka/sd/donorcustom.asp?msource=2013HOMWIDG"><img src="/idc/groups/heart-public/@wcm/@fdr/documents/image/~extract/UCM_446999~2~staticrendition/medium.png" alt="Who Will You Give For" /></a>&nbsp;</div></p>
+								</div>
+									<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" tabindex="-1">
+										<a href="#" tabindex="-1">Find an Event</a>
+									</h3>
+								<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: none; padding-top: 10px; padding-bottom: 10px;">
+									<p><a href="http://www.heart.org/HEARTORG/localization/chooseState.jsp" target="_blank"><img src="/idc/groups/heart-public/@wcm/@global/documents/image/ucm_309518@z_extracted~1/medium.jpg" alt="US Map - Local" /></a> <br /> <a href="http://www.heart.org/HEARTORG/localization/chooseState.jsp" target="_blank">Find out</a> what is happening at your local American Heart</p>
+								</div>
+									<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" tabindex="-1">
+										<a href="#" tabindex="-1">Your Dollars At Work</a>
+									</h3>
+								<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: none; padding-top: 10px; padding-bottom: 10px;">
+									<p><a href="/HEARTORG/Giving/YourDollarsatWork/Your-Dollars-at-Work_UCM_303641_SubHomePage.jsp">Learn about</a> what you make possible when you support the American Heart Association.</p>
+								</div>
+									<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" tabindex="-1">
+										<a href="#" tabindex="-1">Planned Giving</a>
+									</h3>
+								<div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="overflow: auto; display: none; padding-top: 10px; padding-bottom: 10px;">
+									<p><a href="/HEARTORG/Giving/WillsTrustsandAnnuities/Wills-Trusts-and-Annuities_UCM_001139_SubHomePage.jsp"><img alt="Planning Giving Donation " src="/idc/groups/heart-public/@wcm/@fdr/documents/image/ucm_447066@z_extracted~1/medium.jpg" /></a><br /><br /><a href="/HEARTORG/Giving/WillsTrustsandAnnuities/Wills-Trusts-and-Annuities_UCM_001139_SubHomePage.jsp">Plan your gift</a> to make a lasting impact on the world <br /></p>
+								</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+	  <!-- BDT Affiliate Performance:  Section 5 (individual widgets) took 37 ms to process-->
+</div>
+				
+			
+<div class="clrit"> </div>
+					
+				
+				<!-- END Droplet to Display the Widget Wrapper-->
+			</div><!-- content_wrapper END -->
+		</div> <!-- Wrapper End -->
+    	<!-- Footer Start -->
+		
+
+ 	
+	<script>
+		// ***** VENDOR CONFIGURATIONS ***** //
+		// ***** Initialize javascript object (hash) ***** //
+		var footerContactUs = new Object();
+		// ***** create a hash key (associative arrays) and assign a new Array as its value ***** //
+		footerContactUs['Address'] = new Array("7272 Greenville Ave.","Dallas, Tx 75231");
+		footerContactUs['Customer Service'] = new Array("1-800-AHA-USA-1","1-800-242-8721","1-888-474-VIVE");
+		footerContactUs['<a href="/HEARTORG/localization/chooseState.jsp">Local Info</a><br/><br/><a href="/HEARTORG/General/RSSFeed-page-datafile_UCM_003860_RSSFeed.jsp"><img src="http://static.heart.org/ahaanywhere/images/rss_icon.gif" alt="RSS"/>&nbsp;RSS</a>'] = new Array("");
+		
+		// ***** This variable is used to display the brand and secure images in the footer  ***** //
+		footerSealHTML="<a href=\"http://www.nationalhealthcouncil.org/pages/standards.php\" title=\"NHC\"><img src=\"http://static.heart.org/ahaanywhere/images/nhc_optimized.png\" alt=\"NHC\" width=\"100\" height=\"102\"/></a><a href=\"http://charityreports.bbb.org/public/seal.aspx?ID=379302003\" title=\"BBB\"><img src=\"http://static.heart.org/ahaanywhere/images/bbb_seal.gif\" alt=\"BBB\" width=\"40\" height=\"67\"/></a><a href=\"http://www.verisign.com/ssl/secured-seal/index.html?tid=a_box\" title=\"VeriSign Secured\"><img src=\"http://static.heart.org/ahaanywhere/images/seal_s.gif\" alt=\"VeriSign Secured\" width=\"93\" height=\"47\"/></a>"
+footerNavHTML = '<a href="http://www.heart.org/HEARTORG/GettingHealthy/GettingHealthy_UCM_001078_SubHomePage.jsp" title="Getting Healthy" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Getting Healthy\']);">Getting Healthy</a> | <a href="http://www.heart.org/HEARTORG/Conditions/Conditions_UCM_001087_SubHomePage.jsp" title="Conditions" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Conditions\']);">Conditions</a> | <a href="http://www.heart.org/HEARTORG/HealthcareResearch/Healthcare-Research_UCM_001093_SubHomePage.jsp" title="Healthcare / Research" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Healthcare / Research\']);">Healthcare / Research</a> | <a href="http://www.heart.org/HEARTORG/Caregiver/Caregiver_UCM_001103_SubHomePage.jsp" title="Caregiver" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Caregiver\']);">Caregiver</a> | <a href="http://www.heart.org/HEARTORG/Educator/Educator_UCM_001113_SubHomePage.jsp" title="Educator" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Educator\']);">Educator</a> | <a href="http://www.heart.org/HEARTORG/CPRAndECC/CPR_UCM_001118_SubHomePage.jsp" title="CPR &amp; ECC" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'CPR &amp; ECC\']);">CPR &amp; ECC</a> | <a href="http://shopheart.org" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Shop\']);" title="Shop">Shop</a> | <a href="http://www.heart.org/HEARTORG/Causes/Causes_UCM_001128_SubHomePage.jsp" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Causes\']);" title="Causes">Causes</a> | <a href="http://www.heart.org/HEARTORG/Advocate/Advocate_UCM_001133_SubHomePage.jsp" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Advocate\']);" title="Advocate">Advocate</a> | <a href="http://www.heart.org/HEARTORG/Giving/Giving_UCM_001137_SubHomePage.jsp" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Giving\']);" title="Giving">Giving</a> | <a href="http://newsroom.heart.org" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'News\']);" title="News">News</a> | <a href="http://www.heart.org/HEARTORG/volunteer/volunteerForm.jsp" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Volunteer\']);" title="Volunteer">Volunteer</a> | <a href="https://donate.americanheart.org/ecommerce/donation/donation_info.jsp?campaignId=101&site=Heart&itemId=prod20008" onClick="_gaq.push([\'_trackEvent\', \'FooterNav\', \'Click\', \'Donate\']);" title="Donate">Donate</a>';
+			
+	</script>
+	
+	<script src="http://static.heart.org/aha_footer.js" type="text/javascript"></script>
+    <div id="footer_wrapper"><p class="legal">*Red Dress &trade; DHHS, Go Red &trade; AHA ; National Wear Red Day&reg; is a registered trademark.</p></div>
+    <div class="hon">
+    <p><a href="https://www.healthonnet.org/HONcode/Conduct.html?HONConduct517595" onclick="window.open(this.href); return false;" > <div class="hon-logo"><img src="https://www.honcode.ch/HONcode/Seal/HONConduct517595_s1.gif" hspace="2" vspace="2" align="left" width="43" height="60" style="border:0px" title="This website is certified by Health On the Net Foundation. Click to verify." alt="This website is certified by Health On the Net Foundation. Click to verify." /></div></a> This site complies with the <a href="http://www.healthonnet.org/HONcode/Conduct.html" onclick="window.open(this.href); return false;"> HONcode standard for trustworthy health</a> information: <br /><a href="https://www.healthonnet.org/HONcode/Conduct.html?HONConduct517595" onclick="window.open(this.href); return false;">verify here.</a> </p>
+    </div>
+	
+  
+	</body>
+</html>
+
+	
+
+
+				
+			
+		
+	
+	
+	

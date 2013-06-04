@@ -1,0 +1,3253 @@
+﻿/* -----------------------------------------------------------------------
+
+[Introduction]
+Geocaching Top-Level Navigation Main CSS File
+This file provides CSS styles for all media types, to most of Geocaching Web site, except for pages using either the Common.Master or the Branding.Master.  Please contact webdesign@groundspeak.com with questions.
+Last Updated: 6 May 2013 by JS
+
+[Layout]
+*  Layouts can vary by functionality.  There are basic widgets used throughout the site that follow this pattern:
+*  Widget
+	+  Widget Header (div.WidgetHeader or hx.WidgetHeader)
+		-  Widget Header Content
+	+  Widget Body (div.WidgetBody)
+		-  Widget Body Content
+	+  Widget Footer (div.WidgetFooter)
+		-  Widget Footer Content
+	
+[Colors]
+*  #000
+    -  This is only used sparingly for some border colors.
+*  #004961
+	-  Used as a background-color on the home page, background-color for the Seek page and Premium Upsell border-color.
+*  #13b5ea
+    -  The link hover color, overwritten when necessary.
+*  #2880fc
+	-  Favorites rank background-color
+*  #35598e
+	-  Used as a border and background-color for the Promotional Widget on Track pages only.
+*  #448e35
+	-  Used as a border and background-color for the Travel Bug Widget on Track pages only.
+*  #495829
+	-  This color is used as a background-color for some Statistics table cells.
+*  #547740
+	-  This color is only used for the Premium Upsell background-color.
+*  #594a42
+    -  The standard text color used across the site and for some borders.
+*  #60713c
+	-  Used as a background-color for the Seek page.
+*  #697d3e
+	-  This color is used as a background-color for some Statistics table cells.
+*  #717073
+    -  The alternate text color used across the site and for some background-colors and border-colors.
+*  #8c0b0b
+    -  This is our standard warning color, used when displaying a warning or error message to the end user.
+*  #8c9e65
+	-  This color is used as the background-color for the Statistics table cells, and for some border-colors.
+*  #992a2a
+	-  This is the background-color of the Cache Disclaimer Widget only.
+*  #992a2a
+	-  Used as a border and background-color for the Geocoin Widget on Track pages only.
+*  #a27d35
+	-  qTip text color.
+*  #b0b0b0
+	-  Commonly used (and preferred) border-color.
+*  #b1d0fd
+	-  Favorites rank background-color
+*  #b8c694
+	-  This color is used as a background-color for some Statistics table cells.
+*  #bfd1d7
+	-  Link hover color used on the home page only.
+*  #c0cee3
+	-  Cache Information Widget border-color.
+*  #cc2d5d
+	-  Background-color for the Geocrush Banner only.
+*  #ced7e5
+	-  qTip border color.
+*  #d6dfbf
+	-  This color is used as a background-color for some Statistics table cells.
+*  #d7d7d7
+	-  Commonly used background-color.
+*  #d8d9da
+	-  Used as a background-color for the Seek page.
+*  #d8dbab
+	-  Used as a background-color for the Seek page.
+*  #dbe0dc
+	-  Status Information Widget gradient color.
+*  #def9f4
+	-  Testimonial Widget background-color.
+*  #dfe1d2
+	-  The table header color used across the site and used for background-colors.
+*  #e2c2c2
+	-  Border color for pending field notes notice only.
+*  #e7e7e7
+	-  Commonly used background-color.
+*  #e9a24c
+	-  Cache notes border-color; statistics warning message border-color and favorites border color.
+*  #ebeced
+	-  The alternating row color used across the site and used for background-colors.
+*  #edf1f8
+	-  Something plus Statistics Section Header background-color.
+*  #eff0f0
+	-  Status Information Widget gradient color.
+*  #eff4f9
+	-  Status Information Widget background-color.
+*  #f1f1f1
+	-  Commonly used background-color.
+*  #f2dddd
+	-  Cache disclaimer widget background-color.
+*  #f9e98e
+	-  qTip border-color.
+*  #fbf7aa
+	-  qTip background-color.
+*  #fce6a4
+	-  Favorites background-color
+*  #fdefc3
+	-  Testimonial Widget Call Out background-color.
+*  #fee
+	-  Background-color for pending field notes notice only.
+*  #fff
+	-  The color used on dark backgrounds and as a background-color when necessary.
+*  #ffffde
+	-  Cache notes background-color and statistics warning message background-color.
+
+[Typography]
+*  Default Font
+    -  Verdana, Arial, Helvetica, Geneva, sans-serif is our primary font stack.
+    -  Blueprint's "typography.css" file handles most of the heavy lifting for us.
+
+[Hacking]
+*  USE ONLY WHEN ABSOLUTELY NECESSARY
+    -  Please try to avoide the use of hacks unless you need to make core functionality appear the same in all browsers.
+    -  When using a hack, please comment the code with "{Browser} Hack".
+    +  IE6
+        -  * html {selector}
+    +  IE7
+        -  *+html {selector}
+    +  Firefox
+        -  @-moz-document url-prefix(){Selector(s){Attribute(s)}}
+    +  Safari / Chrome
+        -  @media screen and (-webkit-min-device-pixel-ratio:0){Selector(s){Attribute(s)}}
+    +  Opera
+        -  @media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){Selector(s){Attribute(s)}}
+        
+----------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------
+Begin Home Page Styles
+----------------------------------------------------------------------- */
+
+.HomePageWidget,.SideBarWidget{
+margin:10px 0 1.5em 0;
+font-size:11px;
+}
+.HomePageWidget{
+color:#fff;
+background:#004961 url(../images/home/bg_home.png) no-repeat 0 0;
+border-bottom:1px solid #004961;
+}
+#Content .HomePageWidget a,#Content .HomePageWidget a:link,#Content .HomePageWidget a:visited{
+color:#fff;
+}
+#Content .HomePageWidget a:hover,#Content .HomePageWidget a:active,#Content .HomePageWidget a:focus{
+color:#bfd1d7;
+text-decoration:none;
+}
+.HomePageWidget abbr{
+border-bottom:1px dotted #fff;
+}
+p.WelcomeWidget{
+margin-bottom:0;
+}
+p.WelcomeWidget{
+padding:1.5em 1.5em 0 1.5em;
+}
+p.WelcomeWidget strong{
+color:#f9a13a;
+font-size:12px;
+text-transform:uppercase;
+}
+.WatchIconLink{
+float:left;
+padding-right:10px;
+}
+.Step1Widget{
+margin:220px 0 0 1.5em
+}
+.Step2Widget{
+margin:220px 1.5em 0 1.5em;
+}
+.Step3Widget{
+margin:220px 1.5em 0 0;
+}
+.Step1Number,.Step2Number,.Step3Number{
+float:left;
+}
+.Step1Number p,.Step2Number p,.Step3Number p{
+display:block;
+height:24px;
+width:24px;
+text-indent:-999999px;
+background:url(../images/home/sprite_numbers.png) no-repeat;
+}
+.Step1Number p{
+background-position:-24px -24px;
+}
+.Step2Number p{
+background-position:-72px -72px;
+}
+.Step3Number p{
+background-position:-120px -120px;
+}
+.Step1Text,.Step2Text,.Step3Text{
+padding-left:32px;
+}
+.HomeSearchWidget,.UnpublishedCacheSearchWidget .SearchWidget{
+display:block;
+position:relative;
+height:24px;
+background-color:#fff;
+border:1px solid #13b5ea;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+.HomeSearchWidget input.Search,.UnpublishedCacheSearchWidget input.Search{
+margin:2px 0 4px 4px;
+border:none;
+border-color:transparent;
+width:83%;
+height:16px;
+color:#594a42;
+font-size:11px;
+line-height:16px;
+vertical-align:middle;
+}
+.HomeSearchWidget .ImageButton,.UnpublishedCacheSearchWidget .ImageButton{
+position:absolute;
+top:4px;
+right:4px;
+}
+*+html .HomeSearchWidget input.Search{
+/* IE7 Hack */
+margin:1px 10px 0 -11px;
+}
+.HomeSearchWidget input.Watermark,.UnpublishedCacheSearchWidget input.Watermark{
+color:#717073 !important;
+}
+.HomeSearchWidget input.DialogOpen{
+-webkit-border-bottom-left-radius:0;
+-webkit-border-bottom-right-radius:0;
+-moz-border-radius-bottomleft:0;
+-moz-border-radius-bottomright:0;
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+}
+.SideBarWidget{
+background:#004961 url(../images/home/banner_sidebar.png) no-repeat 0 0;
+overflow-y:hidden !important;
+}
+.SideBarWidget p{
+margin:1.25em 1.5em 0 1.5em;
+padding-bottom:1.25em;
+}
+.SideBarWidget a{
+display:block;
+}
+.HomeBanner{
+margin:10px;
+border-bottom:1px solid #fff;
+}
+.HomeBanner + .HomeBanner{
+margin-top:0;
+}
+.HomeBanner a{
+color:#fff !important;
+text-decoration:none;
+display:table-cell;
+height:80px;
+vertical-align:middle;
+}
+.HomeBanner.Last{
+border-bottom:none;
+}
+.HomeBanner a[href*="premium"]{
+background:url(../images/home/icons/banner_premium.png) no-repeat 7px 16px;
+}
+.HomeBanner a[href*="premium"] strong,.HomeBanner a[href*="geotours"] strong{
+display:block;
+}
+.HomeBanner a[href*="live"]{
+background:url(../images/home/icons/banner_geoapps.png) no-repeat 13px 15px;
+}
+.HomeBanner a[href*="shop"]{
+background:url(../images/home/icons/banner_shop.png) no-repeat 9px 15px;
+}
+.HomeBanner a[href*="cito"]{
+background:url(../images/home/icons/banner_cito.png) no-repeat 5px 15px;
+}
+.HomeBanner a[href*="coord.info"]{
+background:url(../images/home/icons/banner_gpsmaze.png) no-repeat 5px 10px;
+}
+.HomeBanner a[href*="geotours"]{
+background:url(../images/home/icons/banner_geotours.png) no-repeat 7px 20px;
+}
+.HomeBanner a[href*="gift"]{
+background:url(../images/home/icons/banner_gift.png) no-repeat 9px 15px;
+}
+.HomeBanner a span{
+display:block;
+min-height:40px;
+padding:0 0 5px 60px;
+}
+* + html .HomeBanner a{ /* IE7 Hack */
+min-height:80px;
+height:auto;
+}
+* + html .HomeBanner a span{ /* IE7 Hack */
+padding-top:15px;
+}
+*+html .ActivityContainer h3{
+/* IE7 Hack */
+margin-top:1.5em;
+}
+.ActivityContainer h4,.ActivityContainer h5{
+font-size:11px;
+}
+.ActivityContainer h4{
+padding-bottom:3px;
+}
+.ActivityContainer h5{
+margin-bottom:0;
+font-weight:normal !important;
+}
+.ActivityContainer p{
+margin:0;
+font-size:11px;
+}
+.items{
+margin:10px 0 0 !important;
+padding:0 !important;
+list-style-type:none;
+}
+.feed-item{
+width:301px;
+min-height:48px;
+padding-right:9px;
+margin-right:10px;
+overflow:hidden;
+border-right:1px solid #b0b0b0;
+}
+.feed-item p{
+margin-bottom:0;
+}
+.feed-item .item-content{
+float:left;
+}
+.feed-item .item-avatar{
+float:left;
+width:48px;
+height:48px;
+overflow:hidden;
+border:1px solid #b0b0b0;
+}
+.feed-item .item-avatar img,.feed-item .item-logimage img{
+width:48px;
+height:48px;
+}
+.feed-item .item-text{
+padding-left:54px;
+width:194px;
+}
+*+html .feed-item .item-text{
+/* IE7 Hack */
+padding-left:5px;
+}
+p.item-time{
+margin-top:-5px !important;
+}
+*+html p.item-time{
+/* IE7 Hack */
+margin-top:0 !important;
+}
+p.item-time{
+/* IE8 Hack */
+margin-top:-2px\0/;
+}
+.feed-item .item-logimage{
+margin-top:16px;
+float:right;
+width:48px;
+height:48px;
+}
+a.RACacheIconLink img{
+position:relative;
+top:2px;
+}
+.WidgetGeocodeResults{
+position:absolute;
+z-index:1001;
+background-color:#fff;
+border:1px solid #13b5ea;
+-webkit-border-radius:0 5px 5px;
+-moz-border-radius:0 5px 5px;
+border-radius:0 5px 5px;
+}
+*+html .WidgetGeocodeResults{
+/* IE7 Hack */
+margin-left:1px;
+}
+.WidgetGeocodeResults .WidgetBody{
+text-align:left;
+padding:1.5em;
+}
+.WidgetGeocodeResults .WidgetHeader,.WidgetGeocodeResults .WidgetFooter{
+margin-bottom:0;
+}
+.WidgetGeocodeResults ol{
+margin-right:0 !important;
+}
+
+/* -----------------------------------------------------------------------
+End Home Page Styles
+
+Begin Resources and Guide Styles
+----------------------------------------------------------------------- */
+
+.VideoLinkIcon img{
+width:16px;
+height:16px;
+position:relative;
+top:2px;
+}
+.ResourcesWidget{
+border:1px solid #dfe1d2;
+background-color:#ebeced;
+margin-bottom:1.5em;
+}
+.ResourcesWidget .WidgetBody{
+padding:1.5em 1.5em 0;
+}
+
+/* -----------------------------------------------------------------------
+End Resources and Guide Styles
+
+Begin Information Widget
+----------------------------------------------------------------------- */
+
+.InformationWidget{
+margin:1.5em 0;
+padding:1em;
+background-color:#ebeced;
+border:1px solid #dfe1d2;
+}
+.InformationWidget table td{
+background-color:#ebeced;
+}
+.SecondaryInformationWidget{
+margin-top:1.5em;
+padding:1em;
+border:1px solid #b0b0b0;
+background-color:#e7e7e7;
+}
+.SecondaryInformationWidget.right,SecondaryInformationWidget.FloatRight{
+margin-left:.5em;
+}
+.InformationWidget h3,.SecondaryInformationWidget h3{
+margin-top:0;
+}
+.SecondaryInformationWidget ul{
+margin-bottom:0;
+margin-left:0 !important;
+}
+.InformationWidget .NoBolding label{
+font-weight:normal !important;
+}
+
+/* -----------------------------------------------------------------------
+End Information Widget
+
+Begin Multi-Part Form Widget
+----------------------------------------------------------------------- */
+
+.MultiPartFormWidget{
+margin-top:1.5em;
+border:1px solid #b0b0b0;
+zoom:1;
+}
+.MultiPartFormWidget .WidgetHeader{
+margin-top:0 !important;
+padding:.5em 1em;
+border-bottom:1px solid #b0b0b0;
+}
+.MultiPartFormWidget .WidgetBody{
+padding:1em;
+}
+
+/* -----------------------------------------------------------------------
+End Multi-Part Form Widget
+
+Begin Book
+----------------------------------------------------------------------- */
+
+.BookWidget{
+margin:0 0 1.5em 1.5em;
+padding:1.5em 1.5em 0;
+width:200px;
+float:right;
+text-align:center;
+background-color:#f1f1f1;
+border:1px solid #b0b0b0;
+}
+.BookWidget p{
+line-height:normal;
+}
+
+/* -----------------------------------------------------------------------
+End Book
+
+Begin Callouts
+----------------------------------------------------------------------- */
+
+.CalloutWidget{
+margin-bottom:1.5em;
+padding:1.5em 225px 1.5em 1.5em;
+border:1px solid #b0b0b0;
+}
+.CalloutWidget h3{
+margin-top:0;
+}
+.CalloutWidget.RailsToTrailsWidget{
+padding:1.5em !important;
+}
+
+/* -----------------------------------------------------------------------
+End Callouts
+
+Begin Screenshots and Images
+----------------------------------------------------------------------- */
+
+.ScreenshotsWidget{
+text-align:center;
+}
+.ScreenshotsWidget img{
+margin-left:3em;
+}
+.ScreenshotsWidget img:first-child{
+margin-left:0;
+}
+.StaticPageImage{
+padding-left:1em;
+float:right;
+}
+.LeftFloatedImage{
+float:left;
+padding:0.5em 1.5em 0.5em 0;
+}
+
+/* -----------------------------------------------------------------------
+End Screenshots and Images
+
+Begin Cache Types, FAQs, Address
+----------------------------------------------------------------------- */
+
+dl.CacheTypesList dt{
+width:10em;
+float:left;
+clear:both;
+padding-bottom:0;
+}
+dl.CacheTypesList dd{
+margin-left:10em;
+padding-bottom:5em;
+}
+dl.CacheTypesList dd h4{
+margin-top:0;
+}
+dl.CacheTypesList dt.First,dl.CacheTypesList dd.First{
+padding-top:1.5em;
+}
+dl.CacheTypesList dt.Last,dl.CacheTypesList dd.Last{
+padding-bottom:0;
+}
+dl.AttributesList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:30px;
+height:30px;
+}
+dl.AttributesList dd{
+margin-left:40px;
+height:30px;
+padding-bottom:1em;
+}
+dl.SubscriptionList dt{
+margin:1em 0 0;
+padding:1em 1em 0;
+}
+dl.SubscriptionList dd{
+margin:0;
+padding:0 1em 1em;
+}
+dl.SubscriptionList dt.AlternatingRow,dl.SubscriptionList dd.AlternatingRow{
+background-color:#edf1f8;
+}
+
+/* -----------------------------------------------------------------------
+End FAQs, Address
+
+Begin Decryption Key
+----------------------------------------------------------------------- */
+
+.DecryptionKeyWidget{
+font-family:"Courier New",courier,mono;
+}
+.DecryptionKeyWidget p{
+margin:0 !important;
+}
+
+/* -----------------------------------------------------------------------
+End Decryption Key
+
+Begin Calendar
+----------------------------------------------------------------------- */
+
+.ProfileCalendarTable{
+border-color:#b0b0b0;
+margin-top:1.5em;
+margin-bottom:0;
+}
+.ProfileCalendarTable th,.ProfileCalendarTable td{
+font-size:90%;
+padding:1px;
+}
+.ProfileCalendarTable tr:first-child td{
+background-color:#fff !important;
+}
+.ProfileCalendarTable .DayHeaderStyle{
+border-top:1px solid #b0b0b0 !important;
+text-align:center;
+}
+table.EventCalendarTable{
+width:100%;
+background-color:transparent !important;
+border-collapse:collapse;
+border:1px solid #b0b0b0; 
+}
+table.EventCalendarTable th,table.EventCalendarTable td{
+border:1px solid #b0b0b0;
+padding:.5em;
+vertical-align:top;
+}
+table.EventCalendarTable tr:first-child td{
+background-color:#b0b0b0 !important;
+padding:5px !important;
+}
+.DayHeaderStyle{
+text-align:center;
+}
+.DayStyle,.OtherMonthDayStyle,.WeekendDayStyle{
+border-top:1px solid #b0b0b0 !important;
+border-bottom:1px solid #b0b0b0 !important;
+}
+.SelectedDayStyle,.SelectorStyle{
+color:#594a42 !important;
+background-color:#dfe1d2 !important;
+border-top:1px solid #b0b0b0 !important;
+border-bottom:1px solid #b0b0b0 !important;
+}
+.TodayDayStyle{
+color:#594a42 !important;
+background-color:#d7d7d7 !important;
+border-top:1px solid #b0b0b0 !important;
+border-bottom:1px solid #b0b0b0 !important;
+}
+table.TitleStyle,table.TitleStyle td{
+background-color:#fff !important;
+border:none !important;
+font-weight:bold !important;
+margin-bottom:0;
+padding:3px 5px;
+text-align:center;
+}
+td.NextPrevStyle{
+width:5% !important;
+}
+table.EventCalendarTable table.TitleStyle td{
+background-color:#fff !important;
+}
+table.CacheCalendarTable,table.CacheCalendarTable td{
+margin-bottom:1.5em;
+border:none !important;
+}
+.ReportCacheCalendar table,.ReportCacheCalendar table td,.SiteAnnouncementCalendar table,.SiteAnnouncementCalendar table td{
+margin:0 !important;
+padding:0 !important;
+border:none !important;
+}
+
+/* -----------------------------------------------------------------------
+End Calendar
+
+Begin LatLong and Waypoint Tables
+----------------------------------------------------------------------- */
+
+table.LatLongTable{
+border:none !important;
+width:300px;
+margin-bottom:0;
+}
+table.LatLongTable td{
+border-left:none !important;
+border-right:none !important;
+}
+
+/* -----------------------------------------------------------------------
+End LatLong and Waypoint Tables
+
+Begin Bookmarks
+----------------------------------------------------------------------- */
+
+.QuickAddWidget{
+float:right;
+margin-bottom:1.5em;
+margin-top:0;
+}
+p.ResultsDropdown{
+margin:0;
+padding-bottom:3px;
+float:right;
+}
+
+/* -----------------------------------------------------------------------
+End Bookmarks
+
+Begin Press
+----------------------------------------------------------------------- */
+
+table.PressTable{
+margin-top:1.5em;
+}
+table.PressEditTable tr{
+display:none;
+}
+table.PressEditTable tr.Data{
+display:table-row;
+*display:block; /* IE6/7 Hack */
+}
+table.PressTable td,table.PressEditTable td{
+border-color:#fff !important;
+}
+
+/* -----------------------------------------------------------------------
+End Press
+
+Begin Private Profile
+----------------------------------------------------------------------- */
+
+.YourProfileWidget{
+border:1px solid #ebeced;
+}
+.YourProfileWidget .WidgetBody{
+padding:1em;
+}
+.YourProfileWidget h3{
+margin:0;
+padding:.5em 1em;
+font-size:90%;
+background-color:#ebeced;
+}
+.YourProfileWidget p{
+font-size:90%;
+margin-top:0;
+line-height:normal !important;
+}
+.YourProfileWidget ul{
+margin-left:0 !important;
+}
+.YourProfileWidget .AvatarLeft{
+float:left;
+margin-right:.75em;
+}
+.YourProfileWidget p.WidgetFooter{
+margin-top:0 !important;
+}
+.PublicProfile .tabBody{ 
+padding:1em; 
+}
+.PublicProfile table.Table,.ProfileStats table.Table{
+border-width:1px 0;
+margin-top:1em;
+}
+.PublicProfile table.Table th,.ProfileStats table.Table th{
+border:none;
+font-size:1.2em;
+font-weight:normal;
+padding:0.25em 0.5em;
+}
+.PublicProfile table.Table tfoot td,.ProfileStats table.Table tfoot td{
+background-color:#e3ddc2 !important;
+}
+.PublicProfile table.Table th.AlignRight,.PublicProfile table.Table td.AlignRight{
+padding-right:1em;
+}
+.PublicProfile table.Table tbody,.ProfileStats table.Table tbody{
+border:1px solid #c6b2a8;
+border-width:1px 0;
+}
+.GeocacheStats table.Table tbody tr:first-child td{
+padding-top:1em;
+}
+.GeocacheStats table.Table tbody tr:last-child td{
+padding-bottom:1em;
+}
+.PublicProfile table.Table td,.ProfileStats table.Table td{
+border:none;
+}
+table.Table tr.InsetRow td,.InsetRow,table.Table tr td.InsetRow{
+background-color:#f2f3f4;
+padding-left:30px;
+}
+.PublicProfile table.Table tfoot{
+font-style:normal;
+}
+tr.InsetRow .AlignRight{
+color:#717073;
+}
+.mxStats{
+margin-left:3px;
+padding:10px 0 5px 0;
+}
+.statbox{
+min-width:64px;
+float:left;
+margin:4px 4px 0 0;
+text-align:center;
+font-family:Arial,Helvetica,Sans-Serif;
+padding:5px;
+background-color:#ebeced;
+}
+.statbox strong{
+display:block;
+text-transform:uppercase;
+font-size:80%;
+}
+.statbox .statcount{
+font-size:150%;
+font-weight:bold;
+}
+.cxUpgradeLink{
+display:block;
+width:200px;
+word-wrap:break-word;
+}
+.HomeLocationSearch{
+background-color:#f2f4f5;
+padding:1em;
+}
+.ProfileMapImage{
+float:right;
+margin:0 1em;
+border:2px solid #fff !important;
+background-color:#fff;
+box-shadow:0 1px 2px #ccc;
+}
+/* -----------------------------------------------------------------------
+End Private Profile
+
+Begin My Friends
+----------------------------------------------------------------------- */
+
+.FriendWidget{
+display:-moz-inline-stack;
+display:inline-block;
+*display:inline; /* IE6/7 Hack */
+zoom:1;
+vertical-align:top;
+width:338px;
+margin:0 1em 1.5em 0;
+padding:1em;
+border:1px solid #d7d7d7;
+}
+.FriendAvatar{
+float:left;
+}
+.FriendAvatar img{
+height:48px;
+width:48px;
+}
+.FriendText{
+margin-left:68px;
+}
+.FriendWidget h4{
+margin-top:0;
+}
+dl.FriendList{
+float:left;
+}
+dl.FriendList dt{
+float:left;
+width:9em;
+padding-bottom:0;
+clear:both;
+}
+dl.FriendList dd{
+float:left;
+margin-left:0;
+padding-bottom:0;
+max-width:162px;
+}
+* + html dl.FriendList dd{
+float:none;
+width:162px;
+}
+img[src*="icon_admin"],img[src*="icon_reviewer"],img[src*="reg_user"],img[src*="ch_user"],img[src*="prem_user"]{
+margin-right:2px;
+}
+
+/* -----------------------------------------------------------------------
+End My Friends
+
+Begin Email Form
+----------------------------------------------------------------------- */
+
+dl.SendEmailForm input.Text,dl.SendEmailForm textarea.Textarea{
+width:95% !important;
+}
+dl.SendEmailForm textarea.Textarea{
+height:250px;
+}
+/* -----------------------------------------------------------------------
+End Email Form
+
+Begin My Applications
+----------------------------------------------------------------------- */
+
+dl.ManageApplications dt{
+font-weight:normal;
+padding:1em;
+background-color:#ebeced;
+border:1px solid #dfe1d2;
+}
+dl.ManageApplications dd p.Approved{
+font-style:italic;
+color:#717073;
+}
+
+/* -----------------------------------------------------------------------
+End My Applications
+
+Begin Field Notes
+----------------------------------------------------------------------- */
+
+.FieldNotesYourProfileWidget{
+margin-bottom:2em;
+padding:1em;
+display:block;
+border:1px solid #e2c2c2;
+background-color:#fee;
+}
+.FieldNotesYourProfileWidget p{
+margin:0;
+padding:0;
+}
+.FieldNotesYourProfileWidget .DismissIcon{
+margin:0;
+padding:0;
+width:16px;
+height:16px;
+float:right;
+text-indent:-999999px;
+background:url(../images/icons/16/close.png) no-repeat top right;
+cursor:pointer;
+}
+
+/* -----------------------------------------------------------------------
+End Field Notes
+
+Begin User Routes
+----------------------------------------------------------------------- */
+
+.RandomRouteWidget h3.WidgetHeader{
+margin:0;
+padding:10px;
+background-color:#8c0b0b;
+color:#fff;
+}
+.RandomRouteWidget .WidgetBody{
+padding:10px;
+border:1px solid #8c0b0b;
+}
+.LatestRoutesWidget{
+margin-top:1.5em;
+}
+dl.UserRoutesStatisticsList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:8em;
+}
+dl.UserRoutesStatisticsList dd{
+margin-left:8em;
+}
+
+/* -----------------------------------------------------------------------
+End User Routes
+
+Begin Trackable Items
+----------------------------------------------------------------------- */
+
+.TravelBugHeaderIcon{
+position:relative;
+top:7px;
+}
+dl.BugDetailsList{
+margin-top:1.5em;
+}
+dl.BugDetailsList dt{
+float:left;
+padding-bottom:1em;
+clear:none;
+width:10em;
+}
+dl.BugDetailsList dd{
+margin-left:11em;
+}
+.TrackableCalloutWidget{
+margin-bottom:1.5em;
+width:32.4%;
+}
+.TrackableCalloutWidget .WidgetHeader{
+margin-top:0;
+padding:.5em 1em;
+color:#fff;
+}
+.TrackableCalloutWidget .WidgetHeader a,.TrackableCalloutWidget .WidgetHeader a:link,.TrackableCalloutWidget .WidgetHeader a:active,.TrackableCalloutWidget .WidgetHeader a:hover,.TrackableCalloutWidget .WidgetHeader a:focus,.TrackableCalloutWidget .WidgetHeader a:visited{
+color:#fff !important;
+text-decoration:none;
+}
+.TrackableCalloutWidget .WidgetBody{
+padding:1em;
+}
+.TrackableCalloutWidget .WidgetBody p{
+margin-top:0;
+}
+.TrackableCalloutWidget .WidgetBody ul{
+margin-left:0 !important;
+margin-top:1em;
+}
+.PageBuilderWidget table{
+margin-bottom:0;
+}
+div.GeocoinWidget{
+border:1px solid #992a2a;
+float:left;
+margin-right:8px;
+}
+.GeocoinWidget h3.WidgetHeader{
+background:#992a2a url(../images/tabs/geocoin.jpg) no-repeat right center;
+border-bottom:1px solid #922a2a;
+}
+div.TravelBugWidget{
+border:1px solid #448e35;
+float:left;
+margin-right:8px;
+}
+.TravelBugWidget h3.WidgetHeader{
+background:#448e35 url(../images/tabs/tbug.jpg) no-repeat right center;
+border-bottom:1px solid #448e35;
+}
+div.PromotionalsWidget{
+border:1px solid #35598e;
+float:left;
+margin-right:0;
+}
+.PromotionalsWidget h3.WidgetHeader{
+background:#35598e url(../images/tabs/jeep.jpg) no-repeat right center;
+border-bottom:1px solid #35598e;
+}
+.TrackableSearchWidget .Button{
+position:relative;
+top:5px;
+}
+table.TrackableItemLogTable{
+border-top:1px solid #d7d7d7;
+}
+table.TrackableItemLogTable td{
+border-left:none;
+border-right:none;
+}
+table.TrackableItemLogTable div{
+max-width:790px;
+word-wrap:break-word;
+}
+table.TrackableItemLogTable tr.BorderTop td{
+border-top:1px solid #d7d7d7;
+}
+table.TrackableItemLogTable tr.BorderBottom td{
+border-bottom:1px solid #d7d7d7;
+}
+.TrackableItemDetailsImage{
+float:right;
+clear:right;
+padding:0 0 1em 1em;
+}
+.GeocoinInformationWidget{
+height:250px;
+overflow:scroll;
+overflow-x:hidden;
+overflow-y:auto;
+border:1px solid #b0b0b0;
+}
+.GeocoinInformationWidget > ul{
+margin-left:0 !important;
+padding-top:1.5em;
+}
+.GeocoinInformationWidget > ul li{
+list-style:none;
+padding-bottom:1.5em;
+}
+.GeocoinInformationWidget > ul img{
+padding-top:5px;
+padding-right:1em;
+vertical-align:middle;
+}
+.GeocoinInformationWidget > ul li:first-child{
+font-weight:bold;
+}
+table.GeocoinTable{
+border:none !important;
+}
+table.GeocoinTable td{
+border-left:none !important;
+border-right:none !important;
+}
+.GeocoinIconList li{
+list-style:none;
+margin:0.25em 0;
+}
+.GeocoinIconList img,.GeocoinIconList a.lnk img{
+vertical-align:middle;
+margin-right:0.5em;
+}
+.TBSearchSortButtons input{
+vertical-align:middle;
+}
+.TBSearchSortButtons input[src*="up"],.TBSearchSortButtons input[src*="down"]{
+padding:5px 9px;
+}
+.Recent{
+background-color:#097dc3;
+color:#fff;
+text-shadow:-1px 1px #00447c;
+padding:3px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+font-size:.8em;
+font-weight:bold;
+font-variant:small-caps;
+white-space:nowrap;
+display:inline-block;
+}
+
+/* -----------------------------------------------------------------------
+End Trackable Items
+
+Begin Log a Cache
+----------------------------------------------------------------------- */
+
+dl.PostLogList{
+margin-bottom:0;
+}
+.PostLogList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:10em;
+}
+.PostLogList dd{
+margin-left:10em;
+}
+.PostLogList .Textarea{
+width:99% !important;
+height:250px;
+}
+.LogOptionsWidget{
+background-color:#f1f1f1;
+border:1px solid #b0b0b0;
+padding:1em;
+margin:0 0 2em 0;
+overflow:hidden;
+}
+.LogOptionsWidget p{
+margin-bottom:0;
+}
+.LogTrackablesTable tr.TableFooter td{
+border-top:2px solid #fff;
+background-color:#f1f1f1;
+}
+.LogsTable{
+table-layout:fixed;
+border-collapse:collapse;
+background-color:#fff;
+width:100%;
+}
+.LogsTable td{
+border-top:1px solid #d7d7d7;
+border-bottom:1px solid #d7d7d7;
+width:100%;
+}
+.LogsTable table td {
+border:none;
+}
+.WrapFix,.LogsTable td{
+word-wrap:break-word;
+}
+ul#UtilityNav{
+margin:0;
+padding:0;
+display:block;
+}
+ul#UtilityNav li{
+margin-left:0;
+padding:4px 7px;
+/*background:#f1f1f1;*/
+list-style:none;
+display:inline-block;
+}
+ul#UtilityNav li a{
+background-repeat:no-repeat;
+display:inline-block;
+text-indent:9999px;
+width:16px;
+height:16px;
+overflow:hidden;
+}
+*+html ul#UtilityNav li{ /* IE7 Hack */
+display:inline;
+}
+*+html ul#UtilityNav li a{ /* IE7 Hack */
+text-indent:0;
+line-height:0;
+}
+*+html .InformationWidget ul#UtilityNav li a{ /* IE7 Hack */
+line-height:normal;
+overflow:visible;
+width:auto;
+}
+*+html ul#UtilityNav li a[class*="Log"],*+html ul#UtilityNav li a[id$="Upload"]{
+padding:0;
+background-position:0 0;
+}
+ul#UtilityNav li a[class*="Log"],ul#UtilityNav li a[id$="Upload"]{
+padding:4px;
+background-position:4px 4px;
+}
+ul#UtilityNav li a[class*="Log"]:hover,ul#UtilityNav li a[id$="Upload"]:hover{
+background-color:#ebeced;
+}
+ul#UtilityNav li a.LogEdit{
+background-image:url('../images/icons/16/edit.png');
+}
+ul#UtilityNav li a.LogEditDisabled{
+background-image:url('../images/icons/16/edit_disabled.png');
+}
+ul#UtilityNav li a.LogDelete{
+background-image:url('../images/icons/16/delete.png');
+}
+ul#UtilityNav li a.LogEncrypt{
+background-image:url('../images/icons/16/lock.png');
+}
+ul#UtilityNav li a.LogDecrypt{
+background-image:url('../images/icons/16/unlock.png');
+}
+ul#UtilityNav li a.LogRestore{
+background-image:url('../images/icons/16/restore_log.png');
+}
+ul#UtilityNav li a[id$="Upload"]{
+background-image:url('../images/icons/16/upload_photo.png');
+}
+.InformationWidget ul#UtilityNav li a{
+display:inline;
+padding-left:1em;
+border-left:1px solid #594a42;
+}
+.InformationWidget ul#UtilityNav li.first a{
+border-left:none;
+}
+.LogEntryText{
+background-color:#f1f1f1;
+margin:0 0 0.5em;
+padding:1.5em 1em 0.5em;
+}
+.LogEntryImage .InformationWidget{
+margin-top:0;
+}
+.minorDetails,.minorDetails a{
+color:#717073;
+font-size:85%;
+}
+.minorDetails + .minorDetails{
+border-left:1px solid #717073;
+padding-left:.8em;
+margin-left:.5em;
+}
+.minorDetails + .minorDetails:empty{
+border-left:none;
+}
+
+/* -----------------------------------------------------------------------
+End Log a Cache
+
+Begin Gallery
+----------------------------------------------------------------------- */
+
+table.GalleryTable{
+border:none !important;
+}
+table.GalleryTable td{
+border-left:none;
+border-right:none;
+vertical-align:top;
+width:25%;
+}
+
+/* -----------------------------------------------------------------------
+End Gallery
+
+Begin Log Images
+----------------------------------------------------------------------- */
+
+.LogImagesTable{
+width:90%;
+background-color:#dfe1d2;
+border:1px solid #8c9e65;
+padding:6px;
+margin:0 0 0 10px;
+}
+.LogImagesTable tr td{
+background-color:#dfe1d2 !important;
+}
+span.LogImgTitle{
+font-weight:bold;
+text-align:left;
+font-size:120%;
+}
+.LogImgLink{
+font-weight:normal;
+}
+.LogImgLink a{
+color:#000;
+}
+.LogImgLink a:hover{
+color:#13b5ea !important;
+}
+p.LogImgDescription{
+text-align:left;
+line-height:normal;
+margin-top:1em;
+clear:both;
+}
+.fancybox-title-inside{
+text-align:left !important;
+}
+a.PrevImg{
+padding:2px 0 2px 20px;
+background:url("../images/icons/16/arrow_l.png") no-repeat 0 50%;
+}
+a.NextImg{
+padding:2px 20px 2px 0;
+background:url("../images/icons/16/arrow_r.png") no-repeat 100% 50%;
+}
+/* -----------------------------------------------------------------------
+End Log Images
+
+Begin Benchmarks
+----------------------------------------------------------------------- */
+
+.BenchmarkHomeSearchWidget{
+margin-left:1em;
+float:right;
+}
+
+/* -----------------------------------------------------------------------
+End Benchmarks
+
+Begin Pocket Queries
+----------------------------------------------------------------------- */
+
+.PocketQueryListTable tr.TableFooter td{
+background-color:#f1f1f1;
+}
+.PQInfomationWidget{
+margin-bottom:1.5em;
+padding:1em;
+border:1px solid #b0b0b0;
+background-color:#e7e7e7;
+}
+.PQInfomationWidget p{
+margin-bottom:0;
+text-align:center;
+}
+.PQInfomationWidget a{
+padding-left:20px;
+}
+.SetHalfWidth td{
+width:49%;
+}
+.PocketQueryForm table.RadioButtonsTable,.PocketQueryForm table.CheckboxTable{
+width:100% !important;
+}
+.PocketQueryForm table.RadioButtonsTable label,.PocketQueryForm table.CheckboxTable label,.PocketQueryForm span.NoBolding label{
+font-weight:normal !important;
+}
+.PocketQueryForm table.RadioButtonsTable td,.PocketQueryForm table.CheckboxTable td{
+padding:.5em 0 !important;
+}
+.PocketQueryForm table.AttributeTable,.PocketQueryForm table.AttributeTable td{
+border:none;
+text-align:center;
+}
+dl.PQOutputList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:6em;
+word-wrap:break-word;
+}
+dl.PQOutputList dd{
+margin-left:6em;
+}
+.dateWarn{
+font-weight:bold;
+font-style:italic;
+color:#8c0b0b;
+}
+ul.pq-legend{
+padding:0;
+margin-top:1.5em;
+}
+.pq-legend li{
+float:left;
+list-style:none;
+margin-right:1em;
+}
+.pq-legend li:last-child{
+margin-bottom:1.5em;
+}
+a.NewQuery{
+background:url('../images/icons/16/pocket_query.png') no-repeat 0 0;
+}
+a.NewRoute{
+background:url('../images/icons/16/driving_directions.png') no-repeat 0 0;
+}
+a.HowToQuery{
+background:url('../images/icons/16/watch_video.png') no-repeat 0 0;
+}
+
+/* -----------------------------------------------------------------------
+End Pocket Queries
+
+Begin Hide and Seek a Cache
+----------------------------------------------------------------------- */
+
+dl.RatingQuestionList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:1em;
+}
+dl.RatingQuestionList dd{
+margin-left:2em;
+}
+dl.RatingAnswerList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:5em;
+}
+dl.RatingAnswerList dd{
+margin-left:6em;
+}
+.ReportCacheForm dt:not(:empty){
+padding-bottom:0.5em;
+}
+.ReportCacheForm dd{
+padding-bottom:.75em;
+}
+.ReportCacheForm .NoBolding label{
+font-weight:normal !important;
+}
+.ReportCacheForm .RadioButtonsTable{
+width:100%;
+margin-bottom:0;
+}
+.ReportCacheForm .Aside{
+margin-bottom:1.5em;
+background-color:#f1eee1;
+border:1px solid #e3ddc2;
+display:inline-block;
+padding:5px;
+width:60%;
+}
+.ReportCacheForm input,.ReportCacheForm select,.ReportCacheForm textarea,.LatLongTable input,.LatLongTable select{
+padding:4px;
+}
+.ReportCacheForm select[name$="Country"]{
+margin-bottom:.5em;
+}
+.ReportCacheForm img.ui-datepicker-trigger{
+vertical-align:middle;
+margin-left:0.75em;
+}
+table.AttributesEditTable th{
+border-top:1px solid #d7d7d7;
+}
+.WaypointsEditForm .NoBolding label{
+font-weight:normal !important;
+}
+.SeekCacheWidget,.HideCacheWidget{
+margin-top:1em;
+}
+.SeekCacheWidget h3.WidgetHeader,.HideCacheWidget h3.WidgetHeader{
+margin-top:0;
+padding:.5em;
+color:#fff;
+}
+.SeekCacheWidget .WidgetBody h4,.HideCacheWidget .WidgetBody h4{
+margin-top:0;
+padding:.5em;
+font-size:100%;
+}
+.SeekCacheWidget .WidgetBody h5,.HideCacheWidget .WidgetBody h5{
+margin-top:0;
+padding:.5em;
+}
+.SeekCacheWidget .WidgetBody dl,.HideCacheWidget .WidgetBody dl,.SeekCacheWidget .WidgetBody p,.HideCacheWidget .WidgetBody p{
+margin:1em;
+}
+.SeekCacheWidget .WidgetBody{
+border:1px solid #b0b0b0;
+}
+.SeekCacheWidget h3.WidgetHeader{
+background-color:#f9a13a;
+}
+.SeekCacheWidget .WidgetBody h4{
+background-color:#b0b0b0;
+}
+.SeekCacheWidget .WidgetBody h5{
+background-color:#ebeced;
+}
+.SeekCacheWidget .WidgetBody dl dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:12em;
+}
+.SeekCacheWidget .WidgetBody dl dd{
+margin-left:13em;
+}
+.HideCacheWidget .WidgetBody{
+border:1px solid #b0b0b0;
+}
+.HideCacheWidget h3.WidgetHeader{
+background-color:#00447c;
+}
+.HideCacheWidget .WidgetBody h4{
+background-color:#b0b0b0;
+}
+.HideCacheWidget .WidgetBody h5{
+background-color:#ebeced;
+}
+.HideCacheWidget .WidgetBody dl dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:8em;
+}
+.HideCacheWidget .WidgetBody dl dd{
+margin-left:8em;
+}
+table.SearchResultsTable tr td .tblist+img{
+margin:3px 3px 0 0;
+}
+table.SearchResultsTable a.favoriteTotal{
+display:block !important; /*IE7+qTip*/
+text-decoration:none;
+text-align:center;
+}
+table.SearchResultsTable .ui-tooltip-light .ui-tooltip-titlebar,table.SearchResultsTable .ui-tooltip-light .ui-tooltip-content{
+border-color:#ced7e5 !important;
+}
+.SearchResultsTable .IconButton{
+display:block;
+height:16px;
+width:16px;
+}
+.SearchResultsTable .IconButton:hover{
+background-color:rgba(0,0,0,0.1);
+}
+.CacheInformationTable{
+width:100%;
+border:1px solid #c0cee3;
+margin:1.5em 0;
+background-color:#fff;
+}
+.CacheInformationTable div{
+padding:.5em;
+}
+.CacheInformationTable .LocationData{
+background-color:#eff4f9; 
+border-bottom:1px solid #c0cee3;
+}
+.DisclaimerWidget{
+background-color:#fae8e9;
+border:1px solid #bf0b13;
+}
+.NotesWidget{
+background-color:#ffffde;
+border:1px solid #e9a24c;
+}
+.ReviewerNotesWidget p{
+background:url('../images/icons/sprite_form_icons.png') no-repeat -64px -16px;
+font-size:100%;
+font-weight:bold;
+padding-left:1.75em;
+margin:0;
+}
+.DisclaimerWidget,.NotesWidget{
+padding:.5em 1em 1em;
+margin-bottom:1.5em;
+}
+.CacheDetailNavigationWidget h3.WidgetHeader{
+margin-bottom:.5em;
+font-size:100%;
+}
+.CacheDetailNavigationWidget + .CacheDetailNavigationWidget{
+margin-top:1.5em;
+}
+.CacheDetailNavigationWidget .WidgetBody{
+padding:1em;
+border:1px solid #b0b0b0;
+background-color:#fff;
+}
+#Content .CacheDetailNavigationWidget .WidgetBody ul{
+margin:0;
+padding:0;
+}
+#Content .CacheDetailNavigationWidget .WidgetBody ul li{
+margin-left:0;
+margin-bottom:2px;
+list-style:none;
+list-style-type:none;
+}
+#Content .CacheDetailNavigationWidget .WidgetBody ul li a img,table.SearchResultsTable .small img{
+vertical-align:middle;
+margin-right:2px;
+}
+.TryBetaCSPWidget{
+background:#f1eee1;
+border:1px solid #e3ddc2;
+padding:1em;
+margin-left:3em;
+width:200px;
+}
+input + img.ui-datepicker-trigger{
+margin-left:.4em;
+}
+/* -----------------------------------------------------------------------
+End Hide and Seek a Cache
+
+Begin Cache Code Widget
+----------------------------------------------------------------------- */
+
+.CoordInfoLinkWidget{
+margin-right:-15px;
+margin-top:-38px;
+float:right;
+font-weight:bold;
+}
+.csp .CoordInfoLinkWidget{
+margin-top:0;
+}
+a.CoordInfoLink,a.CoordInfoLink span{
+text-decoration:none;
+color:#717073 !important;
+font-size:123.1%;
+}
+a.CoordInfoLink:hover span,a.CoordInfoLink:active span{
+color:#717073 !important;
+}
+span.arrow{
+color:#717073;
+cursor:pointer;
+font-size:0.7em;
+font-weight:bold;
+margin-right:0.5em;
+}
+#dlgClipboard{
+-moz-box-shadow:0 3px 0 #d7d7d7;
+-webkit-box-shadow:0 3px 0 #d7d7d7;
+box-shadow:0 3px 0 #d7d7d7;
+border:solid 1px #b0b0b0;
+background:#fff;
+width:250px;
+height:20px;
+display:none;
+position:absolute;
+padding:4px;
+text-align:center;
+-moz-border-radius:7px 0 7px 7px;
+-webkit-border-radius:7px 0 7px 7px;
+border-radius:7px 0 7px 7px;
+z-index:1000;
+}
+#dlgClipboard input{
+border:0;
+}
+.TextFormat{
+width:230px;
+border:none;
+float:left;
+height:20px;
+text-indent:2px;
+outline:none;
+}
+.GCCode{
+padding:0;
+margin:0;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Code Widget
+
+Begin Cache Details Page Summary Header
+----------------------------------------------------------------------- */
+
+p.cacheImage{
+width:35px;
+float:left;
+margin:0 10px 0 0;
+}
+.minorCacheDetails{
+display:table;
+color:#594a42;
+font-size:85%;
+}
+.minorCacheDetails > div{
+display:table-cell;
+padding-right:15px
+}
+* + html .minorCacheDetails > div{ /* IE7 Hack */
+float:left;
+width:30%;
+}
+.CacheSize .minorCacheDetails{
+display:inline;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Details Page Summary Header
+
+Begin Cache Details Map
+----------------------------------------------------------------------- */
+
+.CDMapWidget .WidgetHeader,.CDMapWidget #map_canvas,#map_preview_canvas{
+border:1px solid #b0b0b0;
+}
+.CDMapWidget .WidgetHeader,.CDMapWidget .WidgetFooter{
+margin-top:0 !important;
+}
+.CDMapWidget .WidgetHeader{
+padding:.5em;
+border-bottom:none;
+}
+.CDMapWidget .WidgetFooter{
+padding:.5em 0;
+text-align:center;
+font-size:77%;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Details Map
+
+Begin Cache Details Logs
+----------------------------------------------------------------------- */
+.LogsTable tr:nth-child(even) td{
+background-color:#ebeced;
+}
+.LogDisplayLeft{
+width:125px; 
+}
+.LogDisplayLeft p{
+margin-bottom:0;
+}
+.LogDisplayRight{
+padding-left:1em;
+width:790px;
+}
+.LogDisplayRight .LogType{
+padding-left:1em;
+}
+.LogType img,.logOwnerBadge img,.LogTotals img,.logOwnerStats img{
+vertical-align:middle;
+}
+.LogDisplayRight .LogContent{
+padding-left:1em;
+border-left:1px solid #d7d7d7;
+}
+.LogDisplayRight .LogDate{
+font-weight:normal !important;
+}
+.LogDisplayRight .LogText{
+padding-top:.5em;
+min-height:40px;
+margin-bottom:0;
+}
+.logOwnerBadge{
+font-size:80%;
+}
+.logOwnerBadge img{
+height:11px;
+width:11px;
+}
+p.logOwnerAvatar{
+margin:5px 0;
+}
+p.logOwnerAvatar img{
+display:block;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Details Logs
+
+Begin Cache Logbook
+----------------------------------------------------------------------- */
+.PaginationWidget{
+margin:1.5em 0;
+font-size:10px;
+}
+.pagination a{
+text-decoration:none;
+border:1px solid #00447c;
+color:#00447c;
+}
+.pagination a,.pagination span{
+display:block;
+float:left;
+padding:3px 5px;
+margin-right:5px;
+min-width:1em;
+text-align:center;
+}
+.pagination .current{
+background:#13b5ea;
+color:#fff;
+border:1px solid #13b5ea;
+}
+.pagination .current.prev,.pagination .current.next{
+color:#b0b0b0;
+border-color:#b0b0b0;
+background:#fff;
+}
+.EncryptDecrypt{
+float:right;
+}
+#log_tabs .LogDisplayRight{
+width:595px;
+}
+a.MobileButton{
+color:#594a42 !important;
+font-style:normal;
+}
+a.MobileButton:hover{
+border:1px solid #c5c7b9 !important;
+}
+a.MobileButton.Phone{
+font-size:1.5em !important;
+width:100%;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Logbook
+
+Begin Cache Details User Content
+----------------------------------------------------------------------- */
+
+*+html .UserSuppliedContent img[align=right],*+html .UserSuppliedContent table[align=right]{ /* IE7 Hack */
+float:right;
+}
+*+html .UserSuppliedContent img[align=left],*+html .UserSuppliedContent table[align=left]{ /* IE7 Hack */
+float:left;
+}
+/* reset reset and typography styles for UserSuppliedContent */
+.UserSuppliedContent table,.UserSuppliedContent tbody,.UserSuppliedContent tfoot,.UserSuppliedContent thead,.UserSuppliedContent tr,.UserSuppliedContent th,.UserSuppliedContent td,.UserSuppliedContent td img{
+vertical-align:top;
+}
+/* let html attributes override css reset styles */
+.UserSuppliedContent table[valign="top"],.UserSuppliedContent table[valign="top"] th,.UserSuppliedContent tr[valign="top"] th,.UserSuppliedContent th[valign="top"],.UserSuppliedContent table[valign="top"] td,.UserSuppliedContent tr[valign="top"] td,.UserSuppliedContent tr[valign="top"] img,.UserSuppliedContent td[valign="top"]{
+vertical-align:top; 
+}
+.UserSuppliedContent table[valign="middle"],.UserSuppliedContent tr[valign="middle"] th,.UserSuppliedContent th[valign="middle"],.UserSuppliedContent table[valign="middle"] td,.UserSuppliedContent table[valign="middle"] table,.UserSuppliedContent tr[valign="middle"] td,.UserSuppliedContent tr[valign="middle"] img,.UserSuppliedContent td[valign="middle"]{
+vertical-align:middle; 
+}
+.UserSuppliedContent table[valign="center"],.UserSuppliedContent tr[valign="center"] th,.UserSuppliedContent th[valign="center"],.UserSuppliedContent table[valign="center"] td,.UserSuppliedContent table[valign="center"] table,.UserSuppliedContent tr[valign="center"] td,.UserSuppliedContent tr[valign="center"] img,.UserSuppliedContent td[valign="center"]{
+vertical-align:middle; 
+}
+.UserSuppliedContent table[valign="bottom"],.UserSuppliedContent table[valign="bottom"] th,.UserSuppliedContent tr[valign="bottom"] th,.UserSuppliedContent th[valign="bottom"],.UserSuppliedContent table[valign="bottom"] td,.UserSuppliedContent tr[valign="bottom"] td,.UserSuppliedContent tr[valign="bottom"] img,.UserSuppliedContent td[valign="bottom"]{
+vertical-align:bottom; 
+}
+.UserSuppliedContent table,.UserSuppliedContent table td{
+margin-bottom:auto; 
+}
+.UserSuppliedContent table th,.UserSuppliedContent table td{
+padding:0;
+}
+.UserSuppliedContent table td a{
+margin:0 !important;
+}
+.UserSuppliedContent img.Pointer{
+background:url(../images/magnifying-glass.png) bottom right no-repeat;
+cursor:pointer;
+padding-bottom:18px;
+}
+.UserSuppliedContent blockquote{
+color:inherit;
+font-style:normal;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Details User Content
+
+Begin Cache Details Status Information Widget
+----------------------------------------------------------------------- */
+
+.StatusInformationWidget{
+border:1px solid #b0b0b0;
+border-top:none;
+padding:0 .5em 1em 1em;
+background-color:#eff4f9;
+zoom:1;
+}
+.StatusInformationWidget p{
+margin-bottom:0;
+padding-top:1em;
+font-size:85%;
+}
+.StatusInformationWidget img{
+float:left;
+padding-right:5px;
+}
+.WatchIcon{
+background:url(../images/icons/16/watch.png) no-repeat 0 1em;
+padding-left:21px;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Details Status Information Widget
+
+Begin Profile
+----------------------------------------------------------------------- */
+
+dl.ProfileDataList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:11em;
+}
+dl.ProfileDataList dd{
+float:left;
+margin-left:0;
+max-width:298px;
+}
+* + html dl.ProfileDataList dd{
+float:none;
+width:298px;
+}
+dl.ProfileDataList dd + dd{
+margin-left:11em;
+}
+.tabBody .mxStats{
+margin-left:0;
+padding:0;
+}
+.tabBody .mxStats .statbox{
+min-height:50px;
+min-width:120px;
+margin:0 4px 4px 0;
+}
+.tabBody .mxStats .statcount{
+font-size:175%;
+}
+.statbox img{
+vertical-align:middle;
+}
+.EditProfileLink{
+font-size:12px;
+font-weight:normal;
+margin-left:15px;
+background:url(../images/icons/16/edit_profile.png) no-repeat 0 0;
+padding-left:20px;
+}
+p.ReviewerNote{
+margin:-1.5em 0 0;
+}
+p.ReviewerNote a{
+background:url(../images/icons/16/user_note.png) no-repeat 0 0;
+padding-left:20px;
+}
+
+/* -----------------------------------------------------------------------
+End Profile
+
+Begin Testimonials
+----------------------------------------------------------------------- */
+
+h2.TestimonialHeader{
+height:141px;
+display:block;
+text-indent:-999999px;
+background:url(../images/testimonials/header.png) no-repeat 0 0;
+}
+.TestimonialWidget{
+margin:1.5em 0;
+}
+.TestimonialWidget .WidgetBody{
+padding:1.5em;
+font-size:93%;
+line-height:1.5em;
+background-color:#def9f4;
+}
+.TestimonialWidget .WidgetFooter{
+margin:0;
+background:url(../images/testimonials/point.png) no-repeat 1.5em 0;
+}
+.TestimonialWidget .WidgetFooter a,.TestimonialWidget .WidgetFooter a:link,.TestimonialWidget .WidgetFooter a:visited,.TestimonialCallout a,.TestimonialCallout a:link,.TestimonialCallout a:visited{
+color:#594a42 !important;
+font-weight:bold;
+text-decoration:underline;
+}
+.TestimonialWidget .WidgetFooter p{
+margin-top:0 !important;
+padding:1.5em 0 0 3em;
+font-size:85%;
+}
+.TestimonialCallout{
+margin:1.5em 0;
+padding:1.5em;
+background-color:#fdefc3;
+text-align:center;
+}
+.TestimonialCallout p.Photo{
+margin-top:0;
+}
+.TestimonialCallout p.Quote{
+font-size:93%;
+line-height:1.5em;
+font-style:italic;
+}
+.TestimonialCallout p.Author{
+font-size:85%;
+}
+
+/* -----------------------------------------------------------------------
+End Testimonials
+
+Begin iCalendar jQuery Plugin Fix
+----------------------------------------------------------------------- */
+
+#calLinks{
+display:inline-block;
+}
+*+html #calLinks{ /* IE7 Hack */
+display:inline;
+}
+.icalendar_popup_text{
+font-size:85%;
+color:#00447c !important;
+}
+.icalendar_popup_text:hover,.icalendar_popup_text:focus,.icalendar_popup_text:active{
+color:#13b5ea !important;
+}
+.icalendar_popup{
+margin-top:2px;
+}
+.icalendar_popup ul{
+background-color:#f1f1f1 !important;
+border:1px solid #594a42 !important;
+padding:0 5px 5px 5px !important;
+}
+*:first-child+html .icalendar_popup ul{
+padding:2px 5px 5px 5px !important;
+}
+.icalendar_list{
+font-size:85% !important;
+}
+.icalendar_list span{
+position:relative !important;
+top:4px !important;
+}
+*:first-child+html .icalendar_list span{
+position:relative !important;
+top:2px !important;
+}
+
+/* -----------------------------------------------------------------------
+End iCalendar jQuery Plugin Fix
+
+Begin PM Cache Details Page
+----------------------------------------------------------------------- */
+
+#pmUpsellBanner{
+background:url(../images/membership/PMcaches_750.jpg) no-repeat 0 0;
+background-color:#547740;
+height:144px;
+}
+.PMBannerWrapper{
+border:1px solid #004961;
+padding:0.75em;
+}
+.PMCacheInfoSpacing{
+margin:0.75em 0 1.5em;
+}
+.PMOWarning{
+background:url(../images/icons/16/warning.png) no-repeat 0 2px;
+padding-left:22px;
+}
+
+/* -----------------------------------------------------------------------
+End PM Cache Details Page
+
+Begin Geocrush
+----------------------------------------------------------------------- */
+
+.GeocrushBanner{
+background:url('../images/geocrush/GeoCrush_Banner.png') no-repeat 0 0;
+background-color:#cc2d5d;
+height:100px;
+}
+.GeocrushBanner p{
+margin-left:480px;
+padding:30px 10px 0 0;
+color:#fff;
+}
+.Geocrush{
+width:100%;
+border-bottom:1px solid #b0b0b0;
+}
+
+/* -----------------------------------------------------------------------
+End Geocrush
+
+Begin Souvenirs
+----------------------------------------------------------------------- */
+
+.ProfileSouvenirsList div{
+float:left;
+margin:0 1em 1em 0;
+padding:10px;
+width:155px;
+height:160px;
+text-align:center;
+overflow:hidden;
+}
+.ProfileSouvenirsList p.Warning,p.ErrorIcon{
+background:url('../images/icons/16/take_note.png') no-repeat 0 0;
+padding-left:20px;
+}
+.ProfileSouvenirsList .SouvenirThumb{
+margin-bottom:0.5em;
+}
+.SouvenirThumb{
+border:1px solid #717073 !important;
+-moz-box-shadow:-1px 2px 2px;
+-webkit-box-shadow:#717073 -1px 2px 2px;
+box-shadow:-1px 2px 2px;
+}
+a .SouvenirThumb{
+color:#717073;
+}
+.SouvenirsWidget{
+padding:1em;
+margin:1em 1em 1em 0;
+border:1px solid #b0b0b0;
+float:left;
+width:45%;
+}
+.SouvenirListing{
+margin-top:1em;
+}
+.SouvenirListing img{
+margin-right:1em;
+}
+.SouvenirListing div{
+display:table-cell;
+vertical-align:middle;
+}
+.More{
+display:none;
+}
+#lnkMoreSouvenirs{
+clear:left;
+padding-top:1em;
+}
+#lnkMoreSouvenirs a{
+cursor:pointer;
+text-decoration:underline;
+}
+#SouvenirDetails h2 img{
+margin:0 0.5em 1.5em 0;
+vertical-align:text-top;
+}
+#SouvenirDetails .InformationWidget{
+overflow:auto;
+margin:0;
+}
+#SouvenirDetails dl dt{
+padding-bottom:0.5em;
+}
+div.SouvenirInfo{
+margin-bottom:1.5em;
+}
+div.SouvenirInfo strong{
+display:block;
+}
+
+/* -----------------------------------------------------------------------
+End Souvenirs
+
+Begin Statistics
+----------------------------------------------------------------------- */
+
+.StatisticsEditWidget{
+margin-top:1.5em;
+border:1px solid #b0b0b0;
+zoom:1;
+}
+.StatisticsEditWidget .WidgetHeader{
+margin-top:0 !important;
+padding:.5em 1em;
+border-bottom:1px solid #b0b0b0;
+}
+.StatisticsEditWidget .WidgetBody{
+padding:1em;
+}
+.StatisticsEditWidget .WidgetBody p,.Indent{
+margin-left:1.5em;
+}
+.StatisticsEditWidget .WidgetBody label{
+font-weight:normal;
+margin-left:2px;
+}
+.StatisticsSuccess{
+margin-top:1.5em;
+padding-left:20px;
+background:url('../images/icons/16/success.png') no-repeat 0 0;
+}
+.StatisticsWarning{
+margin:1.5em 0;
+background:#ffffde url('../images/icons/16/information.png') no-repeat 1em 50%;
+border:1px solid #e9a24c;
+padding:1em 1em 1em 3em;
+}
+.StatsSectionHeader{
+color:#717073;
+border:1px solid #beccd7;
+border-bottom:0;
+font-size:140%;
+-moz-border-radius:10px 10px 0 0;
+-webkit-border-radius:10px 10px 0 0;
+border-radius:10px 10px 0 0;
+background-color:#edf1f8;
+margin-top:1.5em;
+padding:0.25em;
+}
+p.StatsIndent,#BasicFinds p{
+margin:0.25em 0 0 1em;
+}
+.StatisticsWrapper{
+border:1px solid #beccd7;
+border-top:none;
+}
+.StatisticsWrapper dl.ProfileDataList dd{
+float:left;
+margin-left:0.5em;
+width:50em;
+}
+*+html .StatisticsWrapper dl.ProfileDataList dd{ /* IE7 Hack */
+float:none;
+}
+.ProfileStats{
+padding:1em;
+overflow-x:auto;
+overflow-y:hidden;
+_width:95%;
+}
+.ProfileStats h3{
+font-size:125%;
+margin:0;
+}
+.ProfileStats dl.ProfileDataList dd{
+width:48em;
+}
+.StatsButtons .ui-state-default{
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+}
+.StatsButtons .ui-tabs .ui-tabs-nav,.StatsButtons .ui-widget-content{
+border:none;
+background:none;
+padding:0;
+}
+.StatsButtons .ui-tabs .ui-tabs-nav li{
+border-bottom:1px solid #c8c9ca !important;
+margin-right:1em;
+}
+.StatsButtons .ui-tabs .ui-tabs-nav li.ui-tabs-selected{
+border-bottom:1px solid #999 !important;
+}
+.StatsButtons .ui-tabs .ui-tabs-panel,#stats_tabs.ui-tabs .ui-tabs-nav,.CacheTypesTable td{
+padding:0;
+}
+#stats_tabs{
+border-width:0;
+}
+#stats_tabs .ui-widget-header{
+background:none;
+}
+#stats_tabs.ui-tabs .ui-tabs-panel{
+border-width:0 1px 1px;
+border-color:#999;
+}
+.StatsTable,.StatsTable th{
+text-align:center;
+width:700px !important;
+}
+.DTGrid th{
+text-align:center;
+}
+.DTGrid td{
+margin:0;
+text-align:center;
+padding:3px;
+border:1px solid #000;
+}
+.DailyFindsTable,.DTGrid{
+border-collapse:collapse;
+width:auto;
+}
+.DailyFindsTable tr td{
+margin:0;
+text-align:center;
+font-size:80%;
+border:1px solid #000;
+padding:0;
+}
+.DailyFindsTable tr td.stats_cellheader,.DailyFindsTable tr td.stats_cellheaderempty,.DailyFindsTable tr td.stats_cellmonth,.DailyFindsTable tr td.stats_cellfooterempty,.DTGrid tr td.stats_cellheader,.DTGrid tr td.stats_cellheaderempty,.DTGrid tr td.stats_cellmonth,.DTGrid tr td.stats_cellfooterempty{
+border:none;
+}
+.stats_cellheader,.stats_celltotal{
+width:20px;
+}
+.stats_cellzero{
+background-color:#fff;
+color:#594a42;
+}
+.stats_cellX{
+background:#d7d7d7;
+color:#717073;
+}
+.stats_celltotal,.stats_cellfooter,.stats_celltotal_bold,.stats_cellfooter_bold{
+background:#d7d7d7;
+color:#594a42;
+}
+.stats_celltotal_bold,.stats_cellfooter_bold{
+font-weight:bold;
+}
+.stats_cellfooter_grandtotal{
+background:#594a42;
+color:#fff;
+font-weight:bold;
+}
+.stats_cell_lots{ /* > 250 */
+background:#495829;
+color:#fff;
+}
+.stats_cell_many{ /* > 100 */
+background:#697d3e;
+color:#fff;
+}
+.stats_cell_some{ /* > 25 */
+background:#8c9e65;
+color:#fff;
+}
+.stats_cell_few{ /* > 10 */
+background:#b8c694;
+color:#fff;
+}
+.stats_cell_couple{ /* > 0 */
+background:#d6dfbf;
+color:#8c9e65;
+}
+ul.CacheTypeDataList{
+width:300px;
+margin:0;
+padding:0;
+}
+ul.ContainerTypeDataList,ul.CacheTypeDataList,ul.LocationDataList{
+text-align:right;
+}
+ul.ContainerTypeDataList li,ul.CacheTypeDataList li,ul.LocationDataList li{
+list-style-type:none !important;
+margin-left:0 !important;
+line-height:16px;
+margin-bottom:6px;
+}
+.StatsIcon,.StatusIcon,.CacheTypeIcon,a.lnk img.CacheTypeIcon,ul.CacheTypeDataList li img,ul.ContainerTypeDataList li img,ul.pq-legend li img{
+vertical-align:middle;
+margin-right:5px;
+}
+ul.CacheTypeDataList li img,.LocationTable td{
+vertical-align:top;
+}
+#statButtonWrap p,#buttonWrap span#uxProcessing{
+margin-top:1em;
+display:block;
+}
+#statButtonWrap p:first-child,#buttonWrap span#uxProcessing{
+font-size:85%;
+font-weight:bold;
+}
+.RightGraph{
+position:relative;
+top:-5px;
+}
+p.DifficultyHeader{
+float:left;
+height:270px;
+line-height:270px;
+font-weight:bold;
+margin:0 0.25em 0 0;
+}
+.StatsHelpIcon{
+float:right;
+margin-right:0.25em;
+*margin:-1.25em 0.5em 0 0; /* IE6/7 Hack */
+}
+dl.StatsHelpList dt,dl.StatsHelpList dd{
+float:left;
+clear:both;
+margin:0!important;
+padding:0.5em 0 0 0 !important;
+}
+dl.StatsHelpList dt{
+margin-right:0.5em !important;
+}
+dl.StatsLocationList dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:16em;
+}
+dl.StatsLocationList dd{
+margin-left:16em;
+}
+dl.StatsLocationList span.Warning{
+font-weight:bold;
+font-size:80%;
+}
+#MilestoneOverrides table.Table td.MilestoneEditRow,#MilestoneOverrides table.Table tr.MilestoneEditRow td{
+background-color:#edf1f8 !important;
+}
+#MilestoneOverrides table td.Edit input{
+margin-right:1em;
+}
+#MilestoneOverrides table tr td img,#Milestones table tr td img{
+margin-right:5px;
+vertical-align:middle;
+}
+.StatisticsWrapper #Milestones table.Table tr:nth-child(odd) td,#StatsFlagLists table tr:nth-child(odd) td{
+background-color:#f0f0f0;
+}
+#MilestoneOverrides .WidgetBody .StatsHelpIcon{
+margin-top:-3em;
+}
+#MilestoneOverrides .WidgetBody h5{
+margin-top:0;
+}
+#MilestoneOverrides table.Table tbody tr:last-child{
+display:none;
+}
+#StatsFlagLists{
+max-height:312px;
+overflow-x:hidden;
+overflow-y:auto;
+max-width:380px;
+*padding-right:1.5em; /* IE6/7 Hack */
+}
+#StatsFlagLists table{
+border-collapse:collapse;
+border:none;
+margin-right:1.5em;
+_width:380px;
+}
+#StatsFlagLists table tr td{
+text-align:center;
+padding:0.25em;
+border:none;
+}
+#StatsFlagLists table tr td img{
+margin-right:5px;
+}
+#StatsFlagLists table tr td:first-child{
+text-align:left;
+}
+
+/* -----------------------------------------------------------------------
+End Statistics
+
+Begin qTip
+----------------------------------------------------------------------- */
+
+.ui-tooltip .ui-tooltip-content{
+border-width:3px;
+background-color:#fbf7aa;
+border-color:#f9e98e;
+color:#a27d35;
+max-width:350px;
+}
+
+/* -----------------------------------------------------------------------
+End qTip
+
+Begin Favorite Points
+----------------------------------------------------------------------- */
+
+span.FavoriteScorePopUp{
+line-height:20px;
+vertical-align:middle;
+}
+span.FavoriteScorePopUp img{
+line-height:20px;
+vertical-align:middle;
+position:relative;
+top:-2px;
+}
+div.favorite{ /*cache details*/
+float:right;
+position:relative; 
+}
+.favorite a,.favorite a div{
+color:#000; 
+text-decoration:none; 
+}
+div.StatusInformationWidget.FavoriteWidget{ 
+/* old browsers */
+background-position:0% 0%;
+zoom:1;
+background-color:#fce6a4;
+background-repeat:repeat;
+background-attachment:scroll;
+}
+.StatusInformationWidget.FavoriteWidget p{ 
+font-size:100%;
+margin-bottom:0;
+}
+.StatusInformationWidget.FavoriteWidget div#pnlNonfavoriteCache + p{
+padding-top:.5em;
+}
+div.favorite-container,div.favorite-container-open{
+border:1px solid #e9a24c;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+padding:2px 4px 7px 4px;
+text-align:center;
+font-size:80%;
+text-decoration:none !important;
+height:35px;
+cursor:pointer;
+background-color:#fce6a4;
+background-repeat:repeat;
+background-attachment:scroll;
+}
+div.favorite-container-open{
+border-bottom:none;
+-moz-border-radius:10px 10px 0 0;
+-webkit-border-radius:10px 10px 0 0;
+border-radius:10px 10px 0 0;
+height:36px;
+position:relative;
+z-index:1000;
+}
+div.favorite-dropdown{
+border:1px solid #e9a24c;
+width:175px;
+-moz-box-shadow:-2px 2px rgba(0,0,0,0.2);
+-webkit-box-shadow:-2px 2px rgba(0,0,0,0.2);
+box-shadow:-2px 2px rgba(0,0,0,0.2);
+font-size:77%;
+padding:1em 1em 0;
+position:absolute;
+display:none;
+text-align:left;
+background:#fff;
+top:45px;
+right:0;
+z-index:1;
+}
+.favorite-dropdown dl.bottom{
+border-top:1px solid #e9a24c;
+padding-top:1em;
+}
+.favorite-dropdown dl dt{
+float:left;
+clear:both;
+padding-bottom:1em;
+width:3em;
+}
+.favorite-dropdown dl dd{
+margin-left:3em;
+}
+.favorite-dropdown dl.top dt img{
+position:relative;
+left:-2px;
+}
+span.favorite-value{
+font-size:174%;
+font-weight:bold;
+background:url(../images/icons/icon_fav.png) no-repeat left center;
+padding-left:18px;
+}
+span.favorite-rank[title="0"]{
+background-color:#b1d0fd;
+}
+span.favorite-rank{
+padding:2px 5px 2px 4px;
+margin-right:4px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+background-color:#2880fc;
+color:#fff;
+font-size:.9em;
+font-weight:bold;
+}
+.ListManagementFavoritesWidget,.ListsManagemntWatchlistWidget{
+margin:1.5em;
+padding:1.5em;
+border:1px solid #b0b0b0;
+background-color:#edf1f8;
+}
+.ListManagementFavoritesWidget img,.ListsManagemntWatchlistWidget img{
+position:relative;
+top:3px;
+}
+.FavoritesStatusWidget{ /*logged cache page*/
+padding:1em;
+margin:1em 0;
+border:1px solid #b0b0b0;
+float:left;
+width:45%;
+}
+dl.FavoritesStatusList{
+font-size:80%;
+*width:90%; /*IE7*/
+}
+dl.FavoritesStatusList dt{
+float:left;
+clear:both;
+padding-bottom:.2em;
+line-height:20px;
+vertical-align:middle;
+}
+dl.FavoritesStatusList dd{
+margin-left:4em;
+padding-bottom:.2em;
+line-height:20px;
+vertical-align:middle;
+}
+.FavoritesStatusText{
+display:table-cell;
+}
+#uxFavoritePointProgressBar{
+float:right;
+margin-left:10px;
+}
+.FavoritesStatusWidget .ui-progressbar .ui-progressbar-value{ 
+margin:0;
+}
+.FavoritesStatusWidget .ui-widget-header{
+background:url(../images/bg_ProgressGrey.jpg) repeat-y center top; 
+}
+.FavoritesStatusWidget .ui-widget-content{
+background:url(../images/bg_ProgressBlue.jpg) repeat-y center top; 
+}
+.ui-state-default.ui-tooltip-close{
+ /*qtip ui fix*/
+background:none;
+border:none;
+}
+
+/* -----------------------------------------------------------------------
+End Favorite Points
+
+Begin Videos
+----------------------------------------------------------------------- */
+
+.videoWrapper #videoPlayer{
+height:577px;
+margin:0.5em 0 1.5em;
+}
+.videoWrapper .videoListContainer,.WidgetAPIPartnersWrapper .appListContainer{
+margin-top:10px;
+margin:0 0 1.5em;
+overflow:hidden;
+}
+.videoWrapper #videoCategories,.WidgetAPIPartnersWrapper #appCategories{
+cursor:pointer;
+color:#594a42;
+margin:0;
+padding:0;
+width:120px;
+float:left;
+}
+.videoWrapper #videoCategories li,.WidgetAPIPartnersWrapper #appCategories li{
+list-style:none !important;
+margin:0 0 1px !important;
+padding:5px;
+background-color:#d7d7d7;
+border-right:1px solid #fff;
+line-height:16px;
+}
+.videoWrapper #videoCategories li.selected,.WidgetAPIPartnersWrapper #appCategories li.selected{
+background-color:#b0b0b0;
+border-right-color:#b0b0b0;
+}
+.videoWrapper #videoList li{
+cursor:pointer;
+width:130px;
+float:left;
+padding:5px 10px;
+height:180px;
+position:relative;
+margin-right:5px;
+}
+.videoWrapper #videoList li:hover{
+background-color:#c4c4c4;
+border-radius:4px;
+}
+.videoWrapper #videoList li img{
+width:120px;
+display:block;
+position:absolute;
+bottom:20px;
+border:1px solid #c4c4c4;
+}
+.videoWrapper #videoList li div{
+font-size:12px;
+margin-left:10px;
+text-align:left;
+width:140px;
+}
+.videoWrapper .loading{
+display:none;
+width:200px;
+text-align:center;
+margin:50px auto 0;
+}
+.videoWrapper .videoList,.WidgetAPIPartnersWrapper .appList{
+background-color:#b0b0b0;
+width:650px;
+float:left;
+padding:10px;
+overflow:scroll;
+height:371px;
+overflow-x:hidden;
+}
+.videoWrapper .videoList #VideoListTitle{
+display:block;
+font-size:1.2em;
+margin-left:5px;
+margin-bottom:15px;
+}
+.videoWrapper #FBShare{
+float:left;
+display:inline;
+margin:1px 6px 8px 0;
+font-size:0;
+color:#fff;
+}
+.videoWrapper #FBShare a{
+font-size:12px;
+}
+
+/* -----------------------------------------------------------------------
+End Videos
+
+Begin Image View Panel
+----------------------------------------------------------------------- */
+.EditImageTools ul{
+list-style-type:none;
+padding-left:0;
+}
+.EditImageTools li{
+margin:0.25em 0;
+}
+.EditImageTools input{
+padding:3px;
+vertical-align:middle;
+}
+.EditImageTools input:hover{
+background-color:#ebeced;
+}
+.EditImageForm{
+margin:1.5em 0 0 1.5em;
+}
+.EditImageForm .Text,.EditImageForm .Textarea{
+width:90% !important;
+}
+.imageViewPanel img {
+max-width:100%;
+}
+/* -----------------------------------------------------------------------
+End Image View Panel
+
+Begin Beginner Cache Widget
+----------------------------------------------------------------------- */
+
+.BeginnerCachesWidget{
+float:right;
+}
+.BeginnerCachesWidget label{
+background:#d7e57c;
+}
+.ui-tooltip-BeginCache .ui-tooltip-titlebar{
+background:#d7e57c !important;
+border-color:#d7e57c !important;
+border-width:2px;
+color:#594A42;
+text-align:left;
+}
+.ui-tooltip-BeginCache .ui-tooltip-content{
+background:#fff !important;
+border-color:#d7e57c !important;
+border-width:2px;
+color:#594A42;
+}
+.ui-tooltip-BeginCache .ui-tooltip-content ul{
+margin-left:1.5em;
+}
+.ui-tooltip-BeginCache .ui-tooltip-content p{
+width:300px;
+}
+/* -----------------------------------------------------------------------
+End Beginner Cache Widget
+
+Begin Partnering Pages
+----------------------------------------------------------------------- */
+.PartneringInfoWidget{
+padding:10px;
+background:#e3ddc2;
+background:-moz-radial-gradient(50% 50%, #f4f1e7, #e3ddc2);
+background:-webkit-radial-gradient(50% 50%, #f4f1e7, #e3ddc2);
+border:1px solid #e3ddc2;
+} 
+.PartneringInfoWidget ul{
+margin:0 !important;
+}
+.PartneringInfoWidget .VideoWidget{
+position:relative;
+}
+.PartneringInfoWidget .VideoWidget .play-control{
+position:absolute;
+top:70px;
+left:110px;
+}
+.LogosWidget p{
+margin-left:10px;
+}
+.LogosWidget img{
+display:inline-block;
+vertical-align:middle;
+margin-right:10px;
+}
+.PromoTools dd{
+margin-left:0;
+}
+.PartneringInfoWidget .slideshow img{
+display:none;
+}
+.PartneringInfoWidget .slideshow img.first{
+display:block;
+}
+.PurchaseAppWidget img{
+margin-right:10px;
+}
+.AndroidAppPurchaseWidget,.iPhoneAppPurchaseWidget{
+width:180px;
+}
+.WP7AppPurchaseWidget{
+width:220px;
+}
+.PartnerAccreditationWidget img{
+margin:35px 0 0 15px;
+}
+/* -----------------------------------------------------------------------
+End Partnering Pages
+
+Begin API Partner Dashboard
+----------------------------------------------------------------------- */
+.PartnerDashWidget{
+border:1px solid #e3ddc2;
+border-top:none;
+margin-top:1em;
+}
+.PartnerDashWidget dl,.PartnerDashWidget p{
+margin:0;
+padding:1em;
+}
+.PartnerDashWidget dd{
+margin-left:0;
+}
+.PartnerDashWidget .PartnerDashWidgetHeader{
+background:#f4f1e7;
+border-bottom:1px solid #e3ddc2;
+border-top:1px solid #e3ddc2;
+overflow:hidden;
+padding:.5em;
+}
+.PartnerDashWidget .PartnerDashWidgetHeader h3{
+float:left;
+font-size:1.25em;
+line-height:1.25;
+}
+.PartnerDashWidget .PartnerDashWidgetHeader p{
+float:right;
+padding:0;
+}
+.PartnerDashWidget #newsArticles{
+padding:1em;
+}
+.PartnerDashWidget .NewsArticleItem{
+border:1px solid #e3ddc2;
+margin-bottom:1em;
+}
+.PartnerDashWidget .NewsArticleItem p{
+padding:0 .5em .5em;
+}
+.PartnerDashWidget .NewsArticleItem .NewsArticleItemHeader{
+background:none;
+border:none;
+overflow:hidden;
+padding:.5em;
+}
+.PartnerDashWidget .NewsArticleItem .NewsArticleItemHeader h4{
+float:left;
+width:94%
+}
+.PartnerDashWidget .NewsArticleItem .NewsArticleItemHeader p{
+float:right;
+padding:0;
+}
+.PartnerDashWidget #Table_AuthorizedDevelopers{
+margin:1em;
+width:97%;
+}
+.PartnerFormWidget{
+background:#f4f1e7;
+border:1px solid #e3ddc2;
+margin-top:1em;
+padding:1em;
+}
+.PartnerFormWidget dd{
+margin:0;
+}
+.PartnerFormWidget .Textbox {
+width:96%;
+}
+.PartnerFormWidget .Textarea {
+min-height:10em;
+width:96% !important;
+}
+.PartnerHeaderList dd{
+float:left;
+}
+.PartnerHeaderList dt{
+clear:left;
+float:left;
+width:90px;
+}
+.PartnerHeaderList dt{
+font-size:1.2em;
+line-height:1.2;
+}
+.PartnerHeaderList select{
+width:280px;
+}
+/* -----------------------------------------------------------------------
+End API Partner Dashboard
+
+Begin Maps
+----------------------------------------------------------------------- */
+.leaflet-control-attribution{
+font-size:.8em !important;
+line-height:1.3em !important;
+}
+/* -----------------------------------------------------------------------
+End Maps
+
+Begin Cache Page HTML Guide
+----------------------------------------------------------------------- */
+#HtmlGuide ul{
+width:150px;
+float:left;
+list-style-type:none; 
+padding-left:0;
+}
+#HtmlGuide ul div{
+padding-left:1em;
+margin-bottom:.5em;
+}
+#HtmlGuide .NoAttributes span{
+cursor:pointer;
+color:#00447c;
+text-decoration:underline;
+}
+#HtmlGuide .NoAttributes span:hover{
+color:#f89728;
+}
+#HtmlGuide .expando{
+display:inline-block;
+width:1em;
+cursor:pointer;
+}
+* + html #HtmlGuide .NoAttributes .expando{ /* IE7 Hack */
+display:none;
+}
+/* -----------------------------------------------------------------------
+End Cache Page HTML Guide
+
+Begin Cache Page Preview
+----------------------------------------------------------------------- */
+#cspMessage p{
+margin:0 0 1.5em;
+font-size:100%;
+}
+#cspMessage p.NoBottomSpacing{
+margin-bottom:0;
+}
+#cspMessage label{
+font-weight:bold !important;
+}
+.cspPrimaryButton[disabled]{
+background-color:#ededed !important;
+border-color:#ccc !important;
+text-shadow:none !important;
+color:#b0b0b0 !important;
+cursor:default;
+}
+.cspPrimaryButton[disabled]:hover{
+background-color:#ededed !important;
+}
+.cspPrimaryButton[disabled]:active{
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+}
+/* -----------------------------------------------------------------------
+End Cache Page Preview
+
+Begin Logged-Out Cache Details
+----------------------------------------------------------------------- */
+.lus-container{
+width:640px;
+background-color:#e5ddb7;
+border:solid 1px #b0b0b0;
+padding:15px;
+margin:0 auto 1.5em;
+position:relative;
+}
+.lus-header,.lus-footer{
+display:table;
+font-weight:bold;
+width:100%;
+}
+.lus-header span,.lus-footer > span{
+display:table-cell;
+vertical-align:middle;
+}
+.lus-header{
+background-color:#fff;
+margin-bottom:7px;
+}
+.lus-header span{
+padding:10px;
+}
+.lus-signup{
+white-space:nowrap;
+text-align:right;
+}
+.lus-signup a,.lus-signup a:link,.lus-signup a:visited{
+font-size:.9em;
+}
+div.lus-video{
+height:257px;
+background:#fff url('../images/seek/locdp_family.jpg') no-repeat;
+cursor:pointer;
+}
+div.lus-image{
+position:absolute;
+top:0;
+right:0;
+border-left:7px solid #e5ddb7;
+}
+.lus-textblock{
+padding:50px 387px 0 10px;
+color:#717073;
+}
+.lus-textblock h4{
+font-size:1.5em;
+text-transform:uppercase;
+color:#8ba059;
+font-weight:bold;
+}
+.lus-textblock:hover,.lus-textblock:hover .play-control,.VideoWidget:hover .play-control{
+-webkit-transition:all .25s ease-in-out;
+-moz-transition:all .25s ease-in-out;
+transition:all .25s ease-in-out;
+}
+.lus-textblock .play-control,.VideoWidget .play-control{
+width:76px;
+margin:0 auto 80px;
+font-size:40px;
+background-color:#717073;
+background-color:rgba(0,0,0,0.3);
+-moz-border-radius:32px / 56px;
+-webkit-border-radius:32px / 56px;
+border-radius:32px / 56px;
+}
+.lus-textblock .play-control a,.VideoWidget .play-control a{
+color:#fff !important;
+color:rgba(255,255,255,0.8) !important;
+text-decoration:none;
+}
+.lus-textblock:hover,.VideoWidget:hover{
+background-color:rgba(255,255,255,0.3);
+}
+.lus-textblock:hover .play-control,.VideoWidget:hover .play-control{
+background-color:#000;
+background-color:rgba(0,0,0,0.5);
+}
+.lus-footer{
+margin-top:15px;
+}
+.lus-footer .AlignRight{
+font-size:1.2em;
+}
+.lus-footer .AlignRight span{
+text-align:left;
+display:inline-block;
+}
+.lus-findacache input{
+background:#556039 url('../images/seek/icon_reticle_white_20.png') no-repeat 96% 50%;
+border:1px solid #394027;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+-moz-box-shadow:0 1px 1px #594a42;
+-webkit-box-shadow:0 1px 1px #594a42;
+box-shadow:0 1px 1px #594a42;
+font-size:1em;
+cursor:pointer;
+color:#fff;
+padding:10px 30px 10px 10px;
+margin:0 1.5em;
+font-family:Verdana, Arial, Geneva, Helvetica, Sans-Serif;
+}
+.lus-findacache input:hover{
+border-color:#556039;
+background-color:#8ba059;
+text-shadow:1px 1px #556039;
+-moz-box-shadow:0 1px 1px #9b8579;
+-webkit-box-shadow:0 1px 1px #9b8579;
+box-shadow:0 1px 1px #9b8579;
+}
+.lus-findacache input span{
+background:url('../images/seek/icon_reticle_white_20.png') no-repeat 100% 50%;
+padding-right:30px;
+}
+
+/* IE7 Hacks */
+*+html .lus-header,*+html .lus-footer{
+display:block;
+}
+*+html .lus-header span,*+html .lus-footer span{
+display:inline;
+float:left;
+}
+*+html .lus-footer .AlignRight{
+margin-left:1.5em;
+max-width:50%;
+}
+*+html .lus-signup,*+html .lus-findacache{
+float:right !important;
+}
+*+html .lus-textblock .play-control a,*+html .VideoWidget .play-control a{
+color:#fff !important;
+}
+
+/* -----------------------------------------------------------------------
+End Logged-Out Cache Details
+
+Begin Cache Saturation Table
+----------------------------------------------------------------------- */
+
+.CacheSaturationTable,.CacheSaturationTable th,.CacheSaturationTable td,.CacheSaturationLegend{
+border:2px solid #000;
+border-collapse:collapse;
+}
+.CacheSaturationTable thead th{
+background:#39b54a;
+color:#fff;
+font-size:1.5em;
+}
+.CacheSaturationTable thead th+th{
+background:#ed1c24;
+}
+.CacheSaturationTable td{
+padding:1em;
+vertical-align:top;
+}
+.CacheSaturationTable img{
+display:block;
+margin:.5em 0;
+}
+.CacheSaturationLegend ul{
+list-style-type:none;
+padding:0;
+margin:1em;
+line-height:normal;
+}
+.CacheSaturationLegend ul li span{
+font-size:32px;
+margin-right:4px;
+line-height:1.4rem;
+vertical-align:sub;
+}
+.CacheSaturationLegend span.black{
+color:#000;
+}
+.CacheSaturationLegend span.blue{
+color:#34c6f4;
+}
+.CacheSaturationLegend span.green{
+color:#8cc63f !important;
+}
+
+/* -----------------------------------------------------------------------
+End Cache Saturation Table
+----------------------------------------------------------------------- */

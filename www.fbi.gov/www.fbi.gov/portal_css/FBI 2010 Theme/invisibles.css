@@ -1,0 +1,78 @@
+
+/* - invisibles.css - */
+@media screen {
+/* http://www.fbi.gov/portal_css/invisibles.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+ul.visualNoMarker,
+ol.visualNoMarker {
+list-style-type: none;
+list-style-image: none;
+margin: 0.5em 0 0 0;
+}
+.visualOverflow {
+overflow: auto;
+margin: 0 0 1em 0;
+}
+.visualOverflow pre,
+.visualOverflow table,
+.visualOverflow img {
+margin: 0;
+}
+/* */
+.hiddenStructure {
+display: block;
+background: transparent;
+background-image: none; /* */
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+.contentViews .hiddenStructure,
+.contentActions .hiddenStructure {
+position: absolute;
+top: -200px;
+left: -200px;
+}
+.hiddenLabel {
+display: block;
+background: transparent;
+background-image: none; /* */
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+/* */
+.visualClear {
+display: block;
+clear: both;
+}
+/* */
+.netscape4 {
+display: none;
+}
+/* */
+tr.dragging td {
+background-color: #ff6 !important;
+}
+.draggingHook {
+cursor: move;
+}
+.notDraggable {
+}
+/* */
+}
+

@@ -1,0 +1,201 @@
+﻿#wrap { width:950px; }
+
+#header .topbar { background: #CCCCFF; }
+#footer { clear:both; background:#CCCCFF; }
+.main-content { float:left; width:100%; background:#efefef; }
+.main-content.slim { width:720px; }
+/*.rightrail { float:left; width:200px; border-left:1px solid #ccc; }*/
+
+/**** Global */
+.hidden {display: none;}
+.show {display:block;}
+.main .content {padding-bottom:20px;}
+a.more {background:transparent url(../images/arrows.png) no-repeat scroll 100% -61px;padding:0 12px 0 0;float:right;}
+/**** Carousel */
+.carousel { width: 630px; height: 348px; overflow: hidden;position: relative; margin: 0 0 20px; padding-bottom: 6px; border-bottom: 5px solid #e5e5e5;float:left;}
+.carousel ul {border: 1px solid #999999;}
+.carousel ul.slides {height: 351px; position: relative;}
+.carousel ul.slides li {height: 100%;}
+.carousel ul li img { z-index: 9}
+.carousel ul li .body {background: url(../images/feature-opacity.png) repeat-x scroll 0 0; bottom:0px; color:#FFFFFF; padding:13px 19px; position:absolute; z-index: 9999;width: 94%}
+.carousel ul li .body h3 { font-size: 22px; margin: 0 0 9px;color:#fefefe;}
+.carousel ul li .body p { font-size: 14px; line-height: 18px; margin:0 0 9px; color: #fefefe;}
+.carousel ul li .body p a {background: 0;padding: 0;font-size: 14px; color: #fefefe;}
+.carousel ul li .body a { background:transparent url(../images/arrow-white-right.png) no-repeat scroll 100% 2px;color:#FFFFFF;font-size:13px;font-weight:bold;padding:0 9px 0 0;text-transform:uppercase;}
+
+.carousel .pagination {border:0 none; float:left}
+.carousel .pagination li {display: block; float: left;}
+.carousel .pagination li a {background: url(../images/pagination.png.html) no-repeat 0 0; display:block; float:left; height:12px; margin:0 5px 0 0; text-indent:-99999px; width:12px;}
+.carousel .pagination li a:hover,
+.carousel .pagination li.activeSlide a{background-position: -12px 0;} 
+.carousel .controls {bottom:10px;position:absolute;right:10px;border: 0;z-index:5;}
+.carousel .toggle {display: block; float:left; background: url(../images/carousel-controls.png.html) 0 0 no-repeat;height: 14px; width: 14px; text-indent:-9999px;margin-top:-1px;}
+.carousel .toggle.play {background-position: 0 -14px;}
+
+.carousel ul.slides div {font-size: 14px; line-height: 18px; margin:0 0 9px; color: #fefefe;width:592px;}
+.carousel ul.slides div a {background: 0;padding: 0;font-size: 14px; color: #fefefe;}
+.carousel ul.slides ul {border:none;}
+.carousel ul.slides ul li {float:left;display:inline;}
+
+/**** Tabs */
+.tabs {background: url(../images/tabs-gradient-border.png) 0 0 no-repeat; width: 473px; margin: 0 0 20px 9px; padding: 2px;}
+.tabs .tab-nav { background: url(../images/gradient-blue.png.html) repeat-x scroll 0 0; clear:both; float:left; width:100%; border-bottom: 1px solid #bec7cf; margin: 0 0 20px}
+.tabs .tab-nav li {float: left; font-size: 15px; padding: 9px 9px 8px; margin: 0 0 0 4px; }
+.tabs .tab-nav li a {color: #2b3f46}
+.tabs .tab-nav li.active { background: #fff; border: 1px solid #bec7cf; border-bottom: 0; bottom:-3px; padding-bottom:10px; padding-top:6px; position:relative;}
+.tabs .tab-nav li.active a {color: #404040}
+.tabs .tab-container {display: none; padding: 0 0 0 10px}
+.tabs .tab-container.active {display: block;}
+.tabs .view-more {margin: 0 0 20px; font-weight: bold;background-color:#22427b;color:#efefef;}
+.tabs a.more {}
+.tabs #video-tab ul.content-list {clear:both;float:left;margin-bottom:10px;width:100%;}
+
+
+/**** Tabs */
+/*
+.tabs {width:380px;float:left;background-color:#fff;border-right:1px solid silver;}
+.tabs .tab-body {background-color: #fff; width: 375px; height: 310px; overflow: hidden;}
+.tabs .tab-container {background: #fff; padding: 0; width: 343px; padding: 0 0 10px 0;}
+.tabs .tab-container.hidden {display:none;}
+.tabs .tab-container .item {padding: 8px; clear:both;float:left;margin-bottom:10px;width:100%;border-bottom: 1px solid #bec7cf; width: 340px}
+.tabs .tab-container .item .date {display: block; font-size: 0.8em; font-style: italic;}
+.tabs .tab-container .item a {font-size: 0.85em;}
+.tabs .tab-nav {margin: 0;width:375px;}
+.tabs .tab-nav li.active { bottom:-1px;}
+.tabs .tab-container a.more {margin: 10px; display: inline-block; }
+.tabs .tab-container.active .tab-utilities {background:none repeat scroll 0 0 white;bottom:38px;position:absolute;width: 381px;z-index: 1200;}
+.tabs .tab-container a.more {margin:10px 14px 0 0;font-weight:bold;background:#22427b none;color:#efefef;padding:4px 10px;}
+.tabs .tab-container a.tab-navigation-up {margin: 10px 2px 0 2px; font-weight: bold;background: #22427b none;color:#efefef;padding: 4px 10px;display:inline-block;}
+.tabs .tab-container a.tab-navigation-down {margin: 10px 2px 0 2px; font-weight: bold;background: #22427b none;color:#efefef;padding: 4px 10px;display:inline-block;}
+.PagingContainer {float:right; width:25px;}
+*/
+/***   CALENDAR   ***/
+div.calendar {margin: 0 0 28px -8px; border: 1px solid silver; padding: 6px; font-size: 0.8em;float:left;width:930px;}
+div.calendar calendar-wrapper {padding:6px;}
+div.calendar div.calendar-content {float:left; width: 250px;}
+div.calendar div.calendar-content table tr td {padding: 1px;}
+div.calendar div.calendar-pagination {float:left;}
+div.calendar div.calendar-pagination h2 {font-size:1.4em;font-weight:bold;}
+div.calendar div.calendar-pagination div.pagination {margin: 14px 0 0 0;float:left;}
+div.calendar div.calendar-pagination div.pagination a {float:left;}
+div.calendar div.calendar-pagination div.pagination a.prev-week {text-decoration:none;color:#22427b;padding:0 5px 0 12px;margin:2px 1px 0 0;background: url("../images/cpsc-link-sprite.png") no-repeat scroll -6px 2px transparent;}
+div.calendar div.calendar-pagination div.pagination a.next-week {text-decoration:none;color:#22427b;padding:0 12px 0 2px;margin:2px 0 0 1px;background: url("../images/cpsc-link-sprite.png") no-repeat scroll 100% -14px transparent;}
+div.calendar div.calendar-pagination div.pagination ul.pagination-items {float:left;}
+div.calendar div.calendar-pagination div.pagination ul.pagination-items li {float:left; margin: 0 2px 0 0;}
+div.calendar div.calendar-pagination div.pagination ul.pagination-items li a {border:1px solid #22427B;padding:1px 4px;background:transparent;}
+div.calendar div.calendar-pagination div.pagination ul.pagination-items li.active {background-color:#d9e1ed;}
+div.calendar div.calendar-utilities {float:right;}
+div.calendar div.calendar-utilities .view-calendar-by {}
+div.calendar div.calendar-utilities .view-button {border:1px solid #22427b;background: #d9e1ed;}
+div.calendar div.calendar-utilities div.connect {margin: 10px -28px 0 0;float:right;min-width:270px;white-space:nowrap;} 
+div.calendar div.calendar-utilities div.connect a {float:left;text-decoration:none;color:#22427b;margin:2px 24px 0 2px;}
+div.calendar div.calendar-utilities div.connect a.rss-link {background: url("../images/cpsc-link-sprite.png") no-repeat scroll 0 -60px  transparent;margin:0;padding:2px 0 2px 20px;} 
+div.calendar div.calendar-utilities div.connect a.subscribe-email {margin: 2px 12px 0 22px;cursor:pointer;cursor:hand;}  
+div.calendar div.calendar-list {clear:both;width:900px; margin:10px 0 0 0;float:left}
+div.calendar div.calendar-list div.event-list {clear:both;width:928px;margin:0;border: silver 1px solid;}
+div.calendar div.calendar-list div.event-list h3.title {font-size:1.2em;font-weight:bold;color:#fefefe;clear:both;margin:0;padding:6px;background-color:#22427B;width:916px;position:relative;}
+div.calendar div.calendar-list div.event-list div.event {min-height:180px;background:url(../images/event-gradient.png) 0 bottom repeat-x scroll;border-top: silver 1px solid;padding:6px;}
+div.calendar div.calendar-list div.event-list div.event div.event-info {width:175px;float:left;}
+div.calendar div.calendar-list div.event-list div.event div.event-info h3.date {font-size:1.1em;font-weight:bold;}
+div.calendar div.calendar-list div.event-list div.event div.event-info span {display:block;margin:10px 0 0 0;}
+div.calendar div.calendar-list div.event-list div.event div.event-info a {display:block;margin:10px 0 0 0;}
+div.calendar div.calendar-list div.event-list div.event div.event-info a.outlook {text-decoration:none;color:#22427b;background: url("../images/cpsc-link-sprite.png") no-repeat scroll 0 -24px  transparent;margin:8px 0;padding:12px 0 4px 24px;}
+div.calendar div.calendar-list div.event-list div.event div.event-info span.location {font-size:1.25em;font-weight:bold;}
+div.calendar div.calendar-list div.event-list div.event-basics {float:left;}
+div.calendar div.calendar-list div.event-list div.event-basics h2 {font-size:1.45em;}
+div.calendar div.calendar-list div.event-list div.event-basics p {margin: 6px 0 6px 0;}
+div.calendar div.calendar-list div.event-list div.event-basics p.status {margin-top:16px;font-weight:bold;font-size:1.45em;}
+div.calendar div.calendar-list div.event-list div.event-basics p.status span {color: #aaa;font-weight:normal;}
+div.calendar div.calendar-list div.event-list div.event-tools {width:175px;float:right;}
+
+/* Tool Links */
+div.calendar div.calendar-list div.event-list div.event div.event-tools a.tool-link {display:block; padding:4px;margin:1px; width:165px;}
+a.aid {background:#22427b;color:#fefefe;padding: 5px;text-align:center;border:1px solid #e1e9f5;}
+a.briefingpackage, a.log, a.meetingminutes, a.presentation, a.priormeetings, a.transcript{background: url("../images/cpsc-link-sprite.png") no-repeat scroll 140px -76px #e1e9f5;border:1px solid #22427b}
+a.webcast {background: url("../images/cpsc-link-sprite.png") no-repeat scroll 145px -95px #e1e9f5;border:1px solid #22427b}
+div.calendar div.calendar-list div.event-list div.event div.event-tools div.tool-links-container {min-height:140px; position:relative;}
+div.calendar div.calendar-list div.event-list div.event div.event-tools div.aid-container {margin: 8px 0 0 0;position:relative;;}
+
+/* center-module Calendar event */
+div.center-module div.upcoming-event {font-size:0.8em;width:200px;float:right;border: 1px silver solid;margin:0;padding:8px;background-color:#fff;}
+div.center-module div.upcoming-event h2 {font-size:1.25em;margin:0 0 10px 0;}
+div.center-module div.upcoming-event h3.selected-date, div.right-rail-module  a {font-size:1em;margin:0 0 10px 0;}
+div.center-module div.upcoming-event div.event-legend h4 {margin: 8px 0 8px 0;padding:0;}
+div.center-module div.upcoming-event div.event-legend h4 a {font-size:1em;color:#333;}
+div.center-module div.upcoming-event div.event-legend span {font-size:0.9em;display: block;margin:0;}
+div.center-module div.upcoming-event div.event-legend span.intro {font-size:1em;margin:10px 0 10px 0;}
+div.center-module div.upcoming-event a.event {font-style:italic;}
+div.center-module div.more {float:right;border-top:1px #ccc dotted;width:100%;padding:4px 4px 10px 4px;}
+/* right rail calendar */
+div.right-rail div.upcoming-event {font-size:0.8em;width:200px;float:right;border-top: 1px silver solid;margin:0;padding:8px;background-color:#fff;}
+div.right-rail div.upcoming-event h2 {font-size:1.25em; margin:0 0 10px 0;}
+div.right-rail div.upcoming-event h3.selected-date, div.right-rail-module  a {font-size:1em;margin:0 0 10px 0;}
+div.right-rail div.upcoming-event div.event-legend h4 {margin: 8px 0 8px 0;padding:0;}
+div.right-rail div.upcoming-event div.event-legend h4 a {font-size:1em;color:#333;}
+div.right-rail div.upcoming-event div.event-legend span {font-size:0.9em;display: block;margin:0;}
+div.right-rail div.upcoming-event div.event-legend span.intro {font-size:1em;margin:10px 0 10px 0;}
+div.right-rail div.more {float:right;border-top:1px #ccc dotted;width:100%;padding:4px 4px 10px 4px;}
+
+a.webcast-link {margin:0 0 10px 0;display:inline-block;}
+
+/***   HOME   ***/
+div.main-top {clear:both; width:100%;float:left;}
+div.main-top div.main-top-rail {width:340px;float:right;}
+/*.main .home-content {float:left; margin:0 26px;width:680px;}*/
+div.home-sidebar {width:220px;}
+div.content.home-content div.center-module {width:285px;float:right;}
+div.content.home-content div.center-module div.date {display:none;}
+div.content.home-content div.center-module div.main-body ul {margin:4px; list-style:disc none inside;padding:2px 4px 0 4px;}
+div.content.home-content div.center-module div.main-body ul li {color:#3b60af; }
+
+/***   CONNECT WITH US   ***/
+div.connect-container {padding: 12px 10px;background-color:#fff;min-height:100px;min-width:260px;}
+div.connect-container h2 {font-size: 1.25em;}
+div.connect-container div.connect-with-us {clear:both;width:100%;padding:10px 0;}
+div.connect-container div.connect-with-us ul {float:left;clear:right;padding:0;margin:-2px 0 0 12px;}
+div.connect-container div.connect-with-us a.more {float:left;margin:10px 0 0 10px;}
+div.connect-container div.connect-with-us div.links {white-space:nowrap;}
+div.connect-container div.connect-with-us span.social-label {float:left;}
+
+/* Announcements */
+.announcement-wrapper { margin: 6px; border: 1px solid #333; padding: 4px; font-size: 0.8em;float:left; width: 945px; }
+.announcement-buttons { float: right; width: 25px; }
+.feed { float:left; width: 900px; }
+
+.sub-navigation {float:left;width:972px; margin:-3px 0 0 0; position:relative}
+.sub-navigation .first a{border-left:0 none;}
+.sub-navigation .last a{border-right:0 none;}
+.sub-navigation li {float:left; margin:0;white-space:nowrap;min-width:165px;padding:0;}
+.sub-navigation li a {float:left; padding:2pxx;color:#22427b;font-weight:bold;text-align:center;min-width:100%;display:inline-block;padding:4px 12px;}
+.sub-navigation li.first {margin: 0 0 0 4px;}
+.sub-navigation li a:hover {text-decoration:none;}
+.sub-navigation li span.selected {background:url("../images/bg-sub-menu-175x22.png") no-repeat scroll 0 0 transparent;color:#fefefe;padding:3px 4px 4px 4px;text-align:center;min-width:175px;display:inline-block;}
+
+/***   SUBSCRIBE   ***/
+.subscribe-iframe {width:400px;height:240px;}
+#SubscribeEmail {display:none;position: absolute;top: 25%;left: 35%;width:auto;padding: 0px;border: 0px solid #a6c25c;background-color:transparent;z-index:1002;overflow:hidden;}
+div.black_overlay {display:none;position: fixed;top: 0%;left: 0%;width: 100%;height:2000px;background-color:black;z-index:1001;-moz-opacity: 0.8;opacity:.80;filter: alpha(opacity=80);}
+div.subscribe {background-color:#e1e9f5;min-height:250px;width:400px;}
+div.subscribe div.popup-utility {height:24px;padding:4px;background:#22427b;width:395px;clear:both;margin:0;}
+div.subscribe div.popup-utility .close-subscription {height:22px;text-indent:-9999px;float:right;background: url("../images/cpsc-link-sprite.png") no-repeat scroll 100% -114px transparent;padding: 12px;margin:4px 8px 0px 0px;}
+div.subscribe div.container {float:left;width:400px;height:240px;}
+div.subscribe div.container h1 {font-size:1.4em;margin:8px;float:left;}
+div.subscribe div.container #ValidationSummary {margin:0 8px;display:block;color:#c00;float:left;}
+div.subscribe div.container p {margin:8px;display:block;float:left;}
+div.subscribe div.container .text-box {clear:both;margin:8px 10px 8px 8px;display:block;float:left;border: 1px solid #333;font-size:1.3em;width:380px;}
+
+div.container .button {border: 1px solid #22427b;background: #d9e1ed;color:#22427b;clear:both;float:right;margin:0 10px 0 0;}
+/***   Breadcrumbs   ***/
+/**** Bradcrumbs: ul.breadcrumbs */
+.grp ul.breadcrumbs {clear:both;color:#333333;float:left;font-size:0.9em;font-weight:bold;margin:0 0 1.5em;width:100%;}
+.grp ul.breadcrumbs li {float: left; line-height:22px;margin:0;}
+.grp ul.breadcrumbs li a {background: url(../images/general-sprite.png) no-repeat scroll 100% 3px;margin:0 0.5em 0 0;padding:0 0.75em 0 0;color:#22427b;}
+
+/*** RIGHT RAIL RSS FEED   ***/
+div.rss-container {border-bottom: 2px solid #D8DBE0;margin: 0 0 10px;}
+div.rss-container div.item {margin:12px 0;}
+
+div.content ul.social li span {display:inline-block;width:120px;}
+/*img.featured-image {width:160px;height:101px;}*/
+
+img.recall-list-image {float:left;max-width:100px;margin:0 8px;}

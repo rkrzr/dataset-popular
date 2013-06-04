@@ -1,0 +1,388 @@
+/*****************************************************************
+ * CSS global reset stylesheet for HighWire 2.0
+ * Technique for normalizing CSS-applied styles across different browsers
+ *
+ * "Global Whitespace Reset"
+ * From:
+ *   http://meyerweb.com/eric/thoughts/2007/04/14/reworked-reset/
+ * Originally inspired by: 
+ *   http://leftjustified.net/journal/2004/10/19/global-ws-reset/
+ * And apparently based in part on the Yahoo UI group reset.css !
+ *
+ * @author: Ian Brown ibrown@highwire.stanford.edu
+ * April-June 2007
+ *
+ *****************************************************************
+ *
+ *  Use em for padding, margin, border, and font size.
+ *
+ *****************************************************************/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline-style: none;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+	text-align: inherit;
+	vertical-align: baseline;
+}
+a img, :link img, :visited img {
+	border: 0px;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: none;
+}
+/* anchor styles, if defined, should ALWAYS be defined
+   in "link-visited-hover-active" order */
+/*
+  a:link {}
+  a:visited {}
+  a: hover {}
+  a:active {}
+*/
+
+body {
+	line-height: 1.25;
+	color: black;
+	background: white;
+}
+/* default (or reset) list styles? */
+/*
+ol, ul {
+	list-style: none;
+}
+*/
+/* tables may still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+/* allow quotation marks in the text content to be only displayed quotes */
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/*****************************************************************
+ * End of global reset.
+ * Now add back in specific styles for consistency across browsers.
+ *****************************************************************/
+
+/*
+html, body {
+	font-size:1.1em;
+	line-height: 1;
+	text-align:justify;
+}
+*/
+body {
+	font-size: 100%; /* leave as % instead of em due to IE6 bug */
+	line-height: 1;
+	/*text-align: justify;*/
+	background: white none no-repeat fixed;
+	color: black;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+ p, pre, label, ul, ol, dl, fieldset, address {
+	margin: 1em 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px 0px 0.4em 0px;
+}
+
+h1, h2, h3, h4 {
+	text-align:left;
+	font-weight: bold;
+}
+h1 {
+	font-size:1.8em;
+}
+h2 {
+	font-size:1.5em;
+}
+h3 {
+	font-size:1.2em;
+}
+blockquote {
+	margin: 1em 7%;
+}
+li, dd {
+	margin-left: 5%;
+}
+fieldset {
+	padding: .5em;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: 700;
+}
+code, var, kbd, samp, pre {
+	font-family: Courier New, Courier, monospace;
+}
+sup {
+	font-size:.85em;
+	vertical-align: super;
+	line-height:0;
+}
+sub {
+	font-size:.85em;
+	vertical-align: sub;
+	line-height:0;
+}
+
+
+
+/*****************************************************************
+ * Common styling for shared elements
+ *****************************************************************/
+
+div.hw-gen-page {
+	font-size:.8em;
+	padding: .5em 4em 2em 2em;
+}
+
+.hw-gen-page #skip-link {
+	position: absolute;
+	left: -9999px;
+}
+
+#content-block {
+	margin:0;
+	padding:0;
+	border:0;
+	line-height:1.3;
+	overflow: hidden;
+}
+#content-block p {
+	margin:15px 0px 15px 0px;
+	padding:0;
+	border:0;
+	line-height:1.5;
+}
+
+/* for 3-col layout */
+#content-block {
+	float: right;
+	width: 518px; /* 533 */
+	padding: 0px 20px 0px 5px;
+}
+#col-2, #col-3 {
+	width: 210px;
+	overflow: hidden;
+}
+#col-2 {
+	float: left;
+}
+
+#proxied-contents #col-2 {
+	float: left;
+}
+
+#proxied-contents #col-main {
+    float:left;
+    overflow:hidden;
+    padding-right:10px;
+    width:533px;
+}
+
+
+
+#footer {
+	clear: both;
+}
+
+.banner-ads ul {
+	list-style-type: none;
+}
+
+div.hw-gen-page img.adborder0 { border: 0px solid black; }
+div.hw-gen-page img.adborder1 { border: 1px solid black; }
+div.hw-gen-page img.adborder2 { border: 2px solid black; }
+div.hw-gen-page img.adborder3 { border: 3px solid black; }
+div.hw-gen-page img.adborder4 { border: 4px solid black; }
+div.hw-gen-page img.adborder5 { border: 5px solid black; }
+
+/*****************
+ *  variation 1: *
+ *****************
+   |      |C|C|
+   | MAIN |O|O|
+   |      |L|L|
+   |      |2|3|
+ *****************/
+/**/
+#content-block {
+	float: left;
+}
+#col-2 div {
+	margin: 0px 10px 0px 10px;
+	/*padding: .5em 1em .5em 2em;*/
+	padding: 5px;
+}
+#col-3 {
+	float: right;
+}
+/**/
+/*****************
+ *  variation 2: *
+ *****************
+   |C|      |C|
+   |O| MAIN |O|
+   |L|      |L|
+   |2|      |3|
+ *****************/
+/*
+#content-block {
+	float: right;
+	margin-right: 210px;
+}
+#col-2 div {
+	margin: 0px 10px 0px 0px;
+	padding: .5em 2em .5em 1em;
+}
+#col-3 {
+	position: absolute;
+	right: 0px;
+}
+*/
+
+
+#col-3 div {
+	margin: 0px 0px 0px 10px;
+	padding: 5px;
+}
+
+#col-2, #col-3 {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 5px;
+}
+
+#content-block, #col-2, #col-3 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#col-2 { padding-right: 7px; /*padding-bottom: 10px;*/ }
+/*#col-3 { background-color: #D5DABA; }*/
+
+
+/**********************************************************
+ * authstring styles
+ **********************************************************/
+#authstring * {
+	margin: 0px;
+	padding: 0px;
+}
+#authstring {
+	width: 640px;
+	text-align: center;
+	margin-bottom: 1.5em;
+	
+	/* Authstring isn't real yet, so we don't display it */
+
+}
+#authstring ul {
+	list-style: none;
+}
+#authstring li {
+	display: inline;
+	border-left: 1px solid gray;
+	padding: 0em .4em;
+}
+#authstring .subscr-ref {
+	font-weight: bold;
+	border-left: none;
+}
+
+
+
+#authstring-img {
+	padding:0px 0px 1em 0px;
+}
+
+
+
+/*********************************************************
+
+ * content block styles
+ **********************************************************/
+
+
+
+#content-block h1, #content-block h2, #content-block h3,
+#content-block h4, #content-block h5, #content-block h6 {
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+
+/**********************************************************
+ * footer styles
+ **********************************************************/
+
+#footer, #footer * {
+	margin: 0px;
+	padding: 0px;
+}
+#footer {
+	/*width: 640px;*/
+	text-align: center;
+	/*margin-top: 2.5em;*/
+}
+#footer ul {
+	list-style: none;
+	font-size: .8em;
+}
+#footer li {
+	display: inline;
+	border-left: 1px solid gray;
+	padding: 0px .4em;
+}
+#footer li a {
+	color: black;
+}
+#footer .firstitem {
+	border-left: none;
+}
+#footer .copyright {
+	font-size: .8em;
+	margin: 1em auto;
+}
+#footer .copyright a {
+	color: #660033;
+}
+
+.cit span.accesscheck {
+	display: none;
+}
+/* alternative for small-caps handling */
+.sc {
+text-transform:uppercase;
+font-size:.85em;
+}
+

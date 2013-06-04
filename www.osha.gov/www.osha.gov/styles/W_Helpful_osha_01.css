@@ -1,0 +1,113 @@
+#fbcontent {
+	float: right;
+	margin: -14px 0 0 15px;
+	position: relative;
+}
+@-moz-document url-prefix() {
+	#fbcontent {margin-top: 8px;} /* adjust position for Firefox */
+}
+.W_Helpful_message {
+	font-size: 17px;
+}
+.W_Helpful_message img {
+	margin: -7px 3px 0 0;
+}
+.W_Helpful_message label {
+	font-size: 14px;
+}
+
+#W_Helpful_question_Link {
+	text-decoration: none;
+	/*float:left;*/
+	color:#000 !important;
+}
+#W_Helpful_question_Div {
+	/*width:180px;*/
+	font-size: 13px;
+}
+body:first-of-type #W_Helpful_question_Div {font-size: 14px;} /* adjust font-size for Firefox */
+#W_Helpful_Star {
+	background-color: #FFC;
+	float: left;
+}
+#W_Helpful_yesORno {
+	width:200px;
+	padding:10px;
+	background-color:#D9D9D9/*#FAF8CC*/;
+	border: 1px solid #777/*#D8D5D4*/;
+	border-top: none;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+}
+#W_Helpful_yes, 
+#W_Helpful_no {
+	float: left;
+	padding: 2px 8px 2px 4px;
+	background-color: white;	
+	border: 1px solid  #333;
+}
+#W_Helpful_yes {
+	margin-left: 35px;
+}
+#W_Helpful_no {
+	margin-left:15px;
+}
+#W_Helpful_comment {
+	width:200px;
+	padding:10px;
+	background-color:#D9D9D9/*#FAF8CC*/;
+	border: 1px solid #777/*#D8D5D4*/;
+	border-top: none;
+	position:absolute;
+	right: 0;
+	z-index: 2;
+}
+#W_Helpful_helpful-input {
+	height:110px;
+	width:98%;
+	padding:5px;
+	border:1px solid #888;
+	overflow: auto;
+}
+#W_Helpful_comment-submit {
+	width:70px;
+	background-color:white;
+	text-align:center;
+}
+#W_Helpful_comment-skip {
+	width:70px;
+	background-color:white;
+	text-align:center;
+}
+#W_Helpful_confirm {
+	width:170px;
+	padding:10px;
+	background-color:#D9D9D9/*#FAF8CC*/;
+	border: 1px solid #777/*#D8D5D4*/;
+	border-top: none;
+	position:absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+#grayright #W_Helpful_confirm a:link {
+	font-size: 100%;
+}
+#fbcontent hr {width: 150px;}
+#xyzYes {
+	font-size:12px;
+	margin-top:-10px;
+	padding-left:5px;"
+}
+#xyzNo {
+	font-size:12px;
+	margin-top:-10px;
+	padding-left:5px;"
+}
+p.feedback {
+	font-size:12px;
+	text-align:Center
+}
+
+#W_Helpful_accurate-yes, #W_Helpful_accurate-no {vertical-align: middle;}

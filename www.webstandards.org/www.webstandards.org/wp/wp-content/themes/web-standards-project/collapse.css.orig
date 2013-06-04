@@ -1,0 +1,117 @@
+@charset "iso-8859-1";
+
+
+#commentform label.error span {color:#C00;}
+#commentform label.error input, #commentform label.error textarea {border-color:#C00;}
+
+
+/* the styles that do the magic... */
+.collapsed * {
+	display: none;
+	}
+
+@media aural {
+	.collapsed * {
+		display: block;
+		}
+	}
+
+.collapsed .stmjrNoCollapse {
+	display: block;
+	}
+
+.collapsed .stmjrNoCollapse * {
+	display: inline;
+	}
+
+
+/* ...and some additional styles to work around some bugs & add some refinements */
+
+/* collapse-summary base */
+
+#stmjrCollapse-content-summary {
+	display: block;
+	height: 0; /* need to give it layout to get IE/Win to recognise the target area */
+	margin-top: 1.5em;
+	background: #fff url(/files/theme/anchor_arrow_down_000000_base.png) no-repeat 50% 0%;
+	text-indent: -999em;
+	}
+html>body #stmjrCollapse-content-summary {
+	height: auto;
+	}
+
+#stmjrCollapse-content-summary:hover {
+	background-image: url(/files/theme/anchor_arrow_down_000000_hover.png);
+	}
+#stmjrCollapse-content-summary:focus, #stmjrCollapse-content-summary:active {
+	background-image: url(/files/theme/anchor_arrow_down_000000_focus.png);
+	}
+
+/* collapse-summary expanded */
+
+#stmjrCollapse-content-summary.stmjrNoCollapse {
+	background: #000 url(/files/theme/anchor_arrow_up_ffffff_base.png) no-repeat 50% 100%;
+	}
+
+#stmjrCollapse-content-summary.stmjrNoCollapse:hover {
+	background-image: url(/files/theme/anchor_arrow_up_ffffff_hover.png);
+	}
+#stmjrCollapse-content-summary.stmjrNoCollapse:focus, #stmjrCollapse-content-summary.stmjrNoCollapse:active {
+	background-image: url(/files/theme/anchor_arrow_up_ffffff_focus.png);
+	}
+
+/* collapse-summary collapsed */
+
+.collapsed #stmjrCollapse-content-summary.stmjrNoCollapse {
+	background: #fff url(/files/theme/anchor_arrow_down_000000_base.png) no-repeat 50% 0%;
+	}
+
+.collapsed #stmjrCollapse-content-summary.stmjrNoCollapse:hover {
+	background-image: url(/files/theme/anchor_arrow_down_000000_hover.png);
+	}
+.collapsed #stmjrCollapse-content-summary.stmjrNoCollapse:focus, .collapsed #stmjrCollapse-content-summary.stmjrNoCollapse:active {
+	background-image: url(/files/theme/anchor_arrow_down_000000_focus.png);
+	}
+
+
+/* collapse-form base */
+
+#stmjrCollapse-content-sub {
+	display: block;
+	background: #fff  url(/files/theme/anchor_arrow_up_e3b52d_base.png) no-repeat 50% 100%;
+	text-indent: -9999px;
+	}
+
+#stmjrCollapse-content-sub:hover {
+	background-image: url(/files/theme/anchor_arrow_up_e3b52d_hover.png);
+	}
+#stmjrCollapse-content-sub:focus, #stmjrCollapse-form:active {
+	background-image: url(/files/theme/anchor_arow_up_e3b52d_focus.png);
+	}
+
+/* collapse-form expanded */
+
+#stmjrCollapse-content-sub.stmjrNoCollapse {
+	background: #e3b52d  url(/files/theme/anchor_arrow_down_ffffff_base.png) no-repeat 50% 0%;
+	}
+
+#stmjrCollapse-content-sub.stmjrNoCollapse:hover {
+	background-image: url(/files/theme/anchor_arrow_down_ffffff_hover.png);
+	}
+#stmjrCollapse-content-sub.stmjrNoCollapse:focus, #stmjrCollapse-form.stmjrNoCollapse:active {
+	background-image: url(/files/theme/anchor_arrow_down_ffffff_focus.png);
+	}
+
+/* collapse-form collapsed */
+
+.collapsed #stmjrCollapse-content-sub.stmjrNoCollapse {
+	margin-bottom: 1em;
+	background: #fff  url(/files/theme/anchor_arrow_up_e3b52d_base.png) no-repeat 50% 100%;
+	}
+
+.collapsed #stmjrCollapse-content-sub.stmjrNoCollapse:hover {
+	background-image: url(/files/theme/anchor_arrow_up_e3b52d_hover.png);
+	}
+.collapsed #stmjrCollapse-content-sub.stmjrNoCollapse:focus, .collapsed #stmjrCollapse-content-sub.stmjrNoCollapse:active {
+	background-image: url(/files/theme/anchor_arrow_up_e3b52d_focus.png);
+	}

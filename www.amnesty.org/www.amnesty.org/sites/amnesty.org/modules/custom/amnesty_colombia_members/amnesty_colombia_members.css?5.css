@@ -1,0 +1,51 @@
+/* 
+    Document   : amnesty_colombia_members
+    Created on : Mar 9, 2012, 5:51:30 PM
+    Author     : justinhogg
+    Description:
+        Stylesheet for amnesty_colombia_members module.
+*/
+ul.amnesty_colombia_members_ul_alpha li{
+    list-style-type: upper-alpha;
+    font-weight: bold;
+}
+ul.amnesty_colombia_members_ul_decimal li{
+    list-style-type: decimal;
+    font-weight: bold;
+}
+ul.amnesty_colombia_members_ul_none li{
+    list-style-type: none;
+    font-weight: bold;
+}
+ul.amnesty_colombia_members_ul_disc li{
+    list-style-type: disc;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+ul.amnesty_colombia_members_ul_circle li{
+    list-style-type: circle;
+    font-weight: normal;
+}
+ul.amnesty_colombia_members_ul_alpha p, ul.amnesty_colombia_members_ul_roman p{
+    font-weight: normal;
+}
+
+.amnesty_colombia_members_form_terms{
+    height: 100px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.amnesty_colombia_members_page_thanks h1{
+    font-size: 13px;
+}
+
+.amnesty_colombia_members_page_thanks p{
+    margin-bottom: 10px;
+}
+
+.form-radios div {
+    display: block;
+    padding-left: 20px;
+    font-size: 10px;
+}

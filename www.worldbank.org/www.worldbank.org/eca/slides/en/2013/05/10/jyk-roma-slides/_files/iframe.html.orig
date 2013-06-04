@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+			body{
+				margin:0;
+				background-color:#000000;
+			}
+		</style>
+		
+		<script src="jquery_1-7-1-min.js" type="text/javascript"></script>
+		<script src="jquery_ui_1-8-18-min.js" type="text/javascript"></script>
+		<script src="jquery-jplayer.js" type="text/javascript"></script>
+		<script src="soundslides.js" type="text/javascript"></script>
+		<script src="swfobject.js" type="text/javascript"></script>
+
+		<link rel="stylesheet" href="soundslides.css" type="text/css" />
+		
+		
+		<script type="text/javascript">
+
+			$( function(){
+				
+				/* -----------------------------------------------------------------
+				Console fix code
+				----------------------------------------------------------------- */
+
+				if (!window.console || !console.firebug)
+				{
+				    var names = ["log", "debug", "info", "warn", "error", "assert", "dir", "dirxml",
+				    "group", "groupEnd", "time", "timeEnd", "count", "trace", "profile", "profileEnd"];
+
+				    window.console = {};
+				    for (var i = 0; i < names.length; ++i)
+				        window.console[names[i]] = function() {}
+				}
+				
+				/* -----------------------------------------------------------------
+				----------------------------------------------------------------- */
+				
+				
+				var window_obj = $(window)
+				var width = window_obj.width();
+				var height = window_obj.height();
+				var scaling = true;
+				
+				var query = window.location.search.substring(1); 
+				var show_js_version = ( query === "js" );
+				
+				// check for manual width/height
+				if ( query.substring(0, 7) === "noscale" ){
+					var dimensions = query.substring(8).split("x");
+					width = dimensions[0];
+					height = dimensions[1];
+					scaling = false;
+				}
+				
+				
+				if ( swfobject.getFlashPlayerVersion().major <= 9 || show_js_version){
+					
+					// Flash not available, use JS player
+					var _slideshow = SOUNDSLIDES.player;
+									
+					_slideshow.config = {
+						'container_div': 'object',
+						'path': '../',
+						'path_to_jplayer_swf' : '',
+						'width': width,
+						'height': height
+					};
+					
+					_slideshow.init();
+
+				}else{
+
+					// Flash available
+
+					var flashvars = {
+						pathToProject: "../",
+						format: "xml",
+						resize_mode: "AUTOSIZE"
+					};
+					
+					if ( scaling ){
+						flashvars.embed_height = height;
+						flashvars.embed_width = width;
+					}
+					
+					var params = {
+						menu: "false",
+						bgcolor: '#000000',
+						wmode: "transparent",
+						allowfullscreen: "true",
+						allowscriptaccess: "always"
+					};
+					var attributes = {
+						id: "myDynamicContent",
+						name: "myDynamicContent"
+					};
+
+					swfobject.embedSWF("../soundslider.swf", "object", width, height, "9.0.0",false, flashvars, params, attributes);
+				}
+			});
+		</script>
+
+	</head>
+	<body>
+		
+		
+		<div id="slideshow">
+					<div id="object"></div>
+		</div>
+		
+		
+	</body>
+</html>

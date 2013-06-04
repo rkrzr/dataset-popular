@@ -1,0 +1,20 @@
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e8000511c/blank/Blank_091e9c5e806edadb.css */
+
+/* comment */
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005110/Banner Ad/2009 Banner Ad_091e9c5e802af36d.css */
+
+#bannerAd_fmt {
+background: url("../../../consumer_assets/site_images/layout/2009Chrome/bannerAd_trans.gif") no-repeat;
+margin: 0px auto;
+text-align: center;
+width: 755px;
+}
+
+
+
+

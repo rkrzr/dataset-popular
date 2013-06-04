@@ -1,0 +1,32 @@
+/*
+$Id: timescast.css 123338 2013-03-25 21:39:32Z surya.sanagavarapu $
+/css/0.1/screen/homepage/timescast.css
+Controls the look of the "default" case of TimesCast.
+*/
+.timescast .columnGroup {
+  margin-bottom: 0;
+}
+
+.timescastSponsor {
+  display: inline;
+  float: right;
+}
+
+.timescastVideoPlayer {
+  clear: both;
+  height: 190px;
+}
+
+.timescastBody {
+  margin-top: 10px;
+}
+
+.timescastHeader .sectionHeaderHome {
+  margin-bottom: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.timescastHeader .sectionHeaderHome {
+  margin-top: 1px;
+}
+}

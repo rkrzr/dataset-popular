@@ -1,0 +1,1510 @@
+/* FAO stylesheet */
+  body {  background: #E9EEF4 url(images/mainBackground.gif) repeat-x;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    margin: 0px 0px 0px 0px;
+  }
+  p, p.bodytext {
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+  }
+  td.top_banner {
+    height:37px;
+  }
+  .main{
+    width:760px;
+  }
+  a{
+    color:#004673;
+    text-decoration:none;
+    font-family: Arial, sans-serif;
+  }
+  a:hover {
+    color:#004673;
+    text-decoration:underline;
+  }
+  a.linkinfo {
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+    color :  #004673;
+  }
+  a.external-link-new-window  {
+    border: 0px;
+    margin: 0px;
+    text-decoration:none;
+  }
+  a.linkglance {
+    font-size: 0.9em;
+  }
+  a.h2glance, .csc-header-n2 h1 {
+    font-size: 1em;
+  }
+  a.more {
+    font-size: 0.72em;
+    color:  #ff9933;
+  }
+  td.Knowledge {
+    vertical-align: top;
+    text-align: center;
+  }
+  td.Knowledge p.bodytext {
+    vertical-align: top;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+  }
+  .heightcell {
+    padding-top: 15px;
+  }
+  
+  div#pageLinks a {font-size:10px; margin: 5px 7px 0;}
+  div#pageLinks a:hover {text-decoration:underline;}
+  
+
+/* ###############  FOOTER - start - ################  */
+
+        /* td#footer_bg, td#footer_lx_cont, td#footer_rx_cont {
+      background-image:url(http://www.fao.org/fileadmin/templates/faohome/images/bg_footer_frame.gif);
+      background-repeat: repeat-x; 
+  } */
+  
+  td#footer_lx_cont p.bodytext{padding:0px; margin:0 4px;  line-height:20px;}
+  td#footer_rx_cont p.bodytext{margin: 1px; padding: 0px;  line-height:19px; *line-height:16px;}
+  
+  td#footer_lx_cont, td#footer_rx_cont {background-color:#7792BA;}
+
+  td#footer_lx_cont {padding-left: 5px;}
+  td#footer_rx_cont {padding-right: 10px;}
+
+        td#footer_lx_cont p.bodytext, td#footer_lx_cont a, td#footer_rx_cont a {color: #ffffff; font-size: 11px; font-weight: bold;}
+        td#footer_lx_cont p.bodytext a:hover, td#footer_rx_cont p.bodytext a:hover {color: #ffffff; text-decoration: underline; font-weight:bold;}
+        
+/* ###############  FOOTER - end - ################  */       
+ 
+  
+  .maincontent {
+    padding: 0px 0px 0px 15px;
+  }
+  .maincontent_home {
+    padding: 0px 10px 0px 15px;
+  }
+  td.maincontent table#updates_box {
+    background-color: #f7f7f7;
+    padding-bottom: 5px;
+    margin-top: 0px;
+  }
+  td.maincontent table#updates_box td.title_updates {
+    background-color:#f6c360;
+    font-weight: bold;
+    font-size: 0.8em; 
+    color: #222222;
+    padding: 4px;
+    margin-bottom: 0px;
+  }
+  td.maincontent #challenges_box {
+    background-color: #FFF2BF;
+    border-bottom: 1px dotted #666666;
+    padding-bottom: 5px;
+  }
+  td.maincontent h1.csc-firstHeader {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #222222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  td.newsroom h1.csc-firstHeader {
+    font-weight: bold;
+    font-size: 1.1em; 
+    color: #AF0014;
+    padding-bottom: 6px;
+    margin-bottom: 0px;
+    vertical-align: top;
+  }
+  td.newsroom h1.csc-firstHeader a{
+    color: #AF0014;
+  }
+  td.newsroom {
+    margin-top:0px;
+    padding-top:0px;
+  }
+  td.newsroom_2cols {
+    margin-top:0px;
+    padding-top:0px;
+    padding-right: 10px;
+  }
+  td.newsroom_2cols h6 {
+    color:#B91A20;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    font-weight:bold;
+  }
+  td.newsroom_2cols p.bodytext {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    line-height:19px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:19px;}
+  .contenttable h4 {
+    font-weight: bold;
+    font-size: 0.9em; 
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  div.h2glance {
+    font-size: 0.9em;
+  }
+  h2.H2info, h2 {
+    font-size: 1.1em;
+    color: #4269b0;
+    padding-top: 2px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    line-height: 20px;
+    font-weight: lighter;
+  }
+  h2      {font-size: 1em;
+    color: #000;
+    padding-top: 2px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+  h2.red {
+    font-family: Arial,sans-serif;
+    font-size:1.0em;
+    font-weight:bold;
+    line-height:normal;
+    margin: 20px 0pt 10px;
+    color:#B91A20;
+  }
+  h3.amber {
+    font-size:0.9em;
+    border-top:10px solid #E1AC1E;
+    color:black;
+    padding-top:5px;
+    margin-top: 0px;
+  }
+  h3.blue {
+    font-size:0.9em;
+    border-top:10px solid #1D317E;
+    color:black;
+    padding-top:5px;
+    margin-top: 0px;
+  }
+  h3.red {
+    font-size:0.9em;
+    border-top:10px solid #B91A20;
+    color:black;
+    padding-top:5px;
+    margin-top: 0px;
+  }
+  h4.amber {
+    color:#E1AC1E;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  h4.red {
+    color:#B91A20;
+    margin-bottom: 0px;  
+    padding: 0px;
+  }
+  h4.blue {
+    color:#1D317E;
+    margin-bottom: 0px;  
+    padding: 0px;
+  }
+  h4 a{
+    text-decoration: none;
+    }
+  h4 a:hover {
+    text-decoration: underline;
+  }
+  td.newsroom_2cols ul, td.newsroom_2cols ol, td.newsroom ol, td.newsroom ul{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5%;
+    margin-left: 0;
+    padding-left: 1.5em;
+    text-indent: 0em;
+  }
+  td.newsroom_2cols ul li, td.newsroom_2cols ol li, td.newsroom ol li, td.newsroom ul li  {
+    font-size: 0.8em;
+    line-height: 19px;
+  }
+  ul#twrss_table {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 5%;  
+  }
+  li.twrss_bodytext a {
+    line-height: 13px;
+    font-size: 0.8em;
+    color:#004673;
+    text-decoration:none;
+  }
+  li.twrss_bodytext a:hover {
+    line-height: 13px;
+    font-size: 0.8em;
+    color:#af3838;
+    text-decoration:none;
+  }
+  td.mainbar {
+    padding: 0 10px 0 0;
+    margin: 0px;
+    vertical-align:top;
+  }
+  td.mainbar p.bodytext, td.mainbar p {
+    font-family: Arial,sans-serif;
+    line-height:1.5em;
+  }
+  td.maincontent #info_box_top {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/info_box_top.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0.9px;
+    height: 4px;
+  }
+  td.maincontent #info_box {
+    background-image: url(images/bg_info_box.gif);
+    background-repeat: repeat-x;
+    width:149px;
+    background-color: #d0e1f9;
+    border-left: 1px solid #0066a8;
+    border-right: 1px solid #0066a8;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+  }
+  td.maincontent #info_box_bottom {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/info_box_bottom.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size:1px;
+    height: 4px;
+  }
+  dd.csc-textpic-caption {
+    font-size: 0.8em;
+    font-style: italic;
+    padding: 2px;
+  }
+   div.csc-textpic-text {
+    margin-top: 0px;
+  }
+  div.csc-textpic-text p.bodytext{
+    font-size: 0.8em;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* ----- the following is for the text of the main news in the FAO home page ---- */
+  td.newsroom div.csc-textpic-text p.bodytext{
+    font-size: 0.8em;
+    line-height: 17px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /* ----- end ---- */
+  div.csc-textpic-text h3{
+    font-weight: normal;
+    font-size: 0.8em;
+    color: #4269b0;
+    padding: 4px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 15px;
+  }
+  table.contenttable p.bodytext {
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+  td.search {
+     border-top: 4px solid #00418A;
+     border-bottom: 1px solid #d7dfea;
+     background-color:#5079ac;
+  }
+  td.logo {
+    background-image:url(images/bg_logo.gif);
+    background-repeat: repeat-x; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 1px;
+  }
+  td.top_banner {
+    background:#899CC0 url(images/pagetitleBar.gif); 
+    background-repeat: repeat-y; 
+  }
+  td.langs{
+    background: url(images/languagebar.gif) repeat-x;
+    height: 20px;
+    }
+  td.top_banner div#title_topbanner {
+    color:white;
+    font-family: Arial,sans-serif;
+    font-size:1.1em;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:normal;
+    margin:0pt;
+    padding:10px 10px 5px;
+  }
+  td.maincolor{
+    background-color:#1e4387;
+  }
+  
+  td.maincolumn_bg {
+    background-color:#ffffff;
+  }
+
+  table.maincolumn {
+    width:100%;
+  }
+  td.leftcolumn{
+    background-color:#c5d1e2;
+    border-right: 1px solid #ffffff;
+  }
+  td.rightcolumn{
+  border-left:0 none;
+  padding-left:5px;
+  padding-right:12px;
+  }
+  /* # # # # # # # # # # COLOURED BOXES starts # # # # # # # # # # # # # # */
+  td#box_notice {
+    border:1px solid #C4C4C4;
+  }
+  td#box_notice p.bodytext {
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    line-height:16px;
+    letter-spacing:  0.5px;
+    margin: 0px;
+    text-align: center;
+  }
+  td#box_blue_key {
+  background-color:#F6F4EF;
+  }
+  td#box_yellow h4 {
+  border-top: 8px solid #F5DB5C; 
+  }
+  td#box_yellow ul li {
+    background:transparent url(images/arrow.gif) no-repeat scroll left 6px;
+    list-style-type:none;
+    padding: 3px 0px 0px 15px;
+    font-size: 0.8em;
+  }
+  td#box_blue h1.csc-firstHeader {
+    border-top: 8px solid #00418a; 
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  td#box_blue_key h1.csc-firstHeader {
+    border-top:5px solid #F5DB5C;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 0px;
+  }
+  td#box_blue_2cols h3.blue {
+    font-size:0.9em;
+    border-top:10px solid #1D317E;
+    color:black;
+    margin-left:15px;
+    margin-right:10px;
+  }
+  td#box_blue_2cols h5 {
+    font-size:0.9em;
+    color:black;
+    margin-left:15px;
+    margin-right:10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #short_history h3.blue {
+    border-top:10px solid #1D317E;
+    color:black;
+    padding-top:5px;
+    font-family: Arial,sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  #short_history p.blue, td.blue{
+    font-family: Arial,sans-serif;
+    font-size:12px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:19px;
+    margin:5px 0pt 0pt;
+    text-align:left;
+  }
+  
+  div#history_less a {
+    font: 0.8em arial;
+    line-height:19px;
+  }
+  #box_blue_2cols h1.csc-firstHeader, #box_blue_2cols h1 {
+    border-top: 10px solid #1D317E; 
+    font-family: Arial, sans-serif;
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+    padding-top: 5px;
+    padding-left: 2px;
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+  #box_blue_2cols h1.green_subline, h1.green_subline{
+    border-top: 10px solid #4BAA46;
+  }
+   #box_blue_2cols h1.red_subline, h1.red_subline {
+    border-top: 10px solid #AF0014;
+  }
+   #box_blue_2cols h1.yellow_subline, h1.yellow_subline {
+    border-top: 10px solid #F5DB5C;
+  }
+   #box_blue_2cols h1.orange_subline, h1.orange_subline {
+    border-top: 10px solid #FF9933;
+  }
+   
+  #box_blue_2cols h1.blue_subline, h1.blue_subline {
+    border-top: 10px solid #00418A;
+  }
+  #box_blue_2cols h1.grey_subline, h1.grey_subline {
+    border-top: 10px solid #999999;
+  }
+  #box_dg1 li {
+    font: 0.8em Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    line-height:19px;
+  }
+  #box_dg1 ul {  
+    margin: 0;
+    padding: 0 0 0 40pt;
+  }
+  #box_dg1 p {
+    font-size: 0.75em; font-family: arial;
+    padding: 0 0 0 10px;
+    margin: 0 5px 0 0;
+    line-height:1.6em;
+  }
+  #box_dg1 hr {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  td#box_blue_faq {
+    border: 2px solid #1d4573; 
+    border-top: 2px solid #8daacb; 
+    border-left: 2px solid #8daacb; 
+    background-image: url(images/bg_faq.gif); 
+    background-repeat: repeat-x;
+    height: 19px;
+    text-align: center;
+  }
+  td#box_blue_faq p.bodytext {
+    margin: 5px 3px 4px 3px;
+  }
+  td#box_blue_faq p.bodytext a{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #004673;
+    text-decoration: none;
+  }
+  td#box_blue_faq p.bodytext a:hover{
+    color:#af3838;
+    text-decoration:none;
+  }
+  td#box_ylw h1.csc-firstHeader {
+    border-top: 10px solid #00418a; 
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+    padding-top: 4px;
+    padding-left: 3px;
+  }
+  td#box_ylw div#more_news h1.csc-firstHeader {
+    border-top:5px solid #AF0014;
+  }
+  td#box_red h1.csc-firstHeader {
+    border-top: 10px solid #AF0014; 
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #AF0014;
+    margin-bottom: 8px;
+    padding-top: 4px;
+    margin-top: 0px;
+    padding-left: 3px;
+  }
+  /* ------ BROWNBOX IN ABOUT PAGE START ------ */
+  div.image center p {
+    font: 0.8em arial;}
+  #brownBox {
+    background-color:#E1E6EC;
+    border:1px solid #1E4387;
+    color:black;
+    padding: 15px 10px 10px 10px;
+    text-decoration:none;
+    font-family:"Arial",sans-serif;
+    font-size:0.75em;
+    line-height:1.5em;
+  }
+  #brownBox img {
+    border: none;
+  }
+  /* ------ BROWNBOX IN ABOUT PAGE END ------ */ /* ------ BLUBLICATION START ------ */ 
+  .mainbarpubli h2 {
+    font-family:"Arial",sans-serif;
+    font-size:1em;
+    font-weight: bold;  
+  }
+  #publibox{
+    font-family:"Arial",sans-serif;
+    font-size:0.8em;
+    line-height:1.5em;
+  }
+  #grayBox{
+    background-color:#F1EFEF;
+    border:1px solid #C4C4C4;
+    color:black;
+    display:block;
+    padding:5px 10px;
+    text-align:left;
+    text-decoration:none;
+    font-family:"Arial",sans-serif;
+    line-height:1.1em;
+  }
+  #grayBox img {
+    margin-right: 20px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+  }
+  #publilist p {
+    display:block;
+    margin-top:0pt;
+    padding:5px 10px;
+    font-family:"Arial",sans-serif;
+    line-height:1.5em;
+    margin-bottom:0px;
+  }
+  #publilist a.read_more{
+    font: 0.85em arial;
+  }
+  #publilist h2 {
+    font-size: 1em;
+    color: #000;
+    padding-top: 0px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  #publilist a {
+    margin-bottom: 0px;
+  }
+  #publilist img {
+    margin: 8px 8px 0 10px;
+  }
+  #grayBox h4 {
+    color:#1D317E;
+  }
+  #grayBox a { 
+    font-size:0.9em;
+  }
+  /* ------ BLUBLICATION END------ */ 
+  td#box_green h1.csc-firstHeader {
+    border-top: 8px solid #4BAA46; 
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    padding-top: 4px;
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+  /* # # # # # # # # # # # # COLOURED BOXES ends # # # # # # # # # # # */ul   {
+    margin:0pt;
+    padding:2pt 0pt 2pt 3pt;
+  }
+  table.table_menu_right td#box_blue ul, table.table_menu_right td#box_green ul, table.table_menu_right td#box_blue_2cols ul{
+    margin: 0pt 0pt 0pt 0pt;
+    padding: 0pt 8pt 0pt 8pt;  /* this is for the padding effect in the right column */
+  }
+  table.table_menu_right td#box_blue ul li, td#box_blue_key ul li, td#box_red ul li, td#box_ylw ul li, table.table_menu_right td#box_green ul li {
+    background:transparent url(images/arrow.gif) no-repeat scroll left 6px;
+    border-bottom:1px dotted #4071A7;
+    font-size: 0.8em;
+    color:#4071A7;
+    list-style-type:none;
+    padding:2px 0pt 3pt 15px;
+    margin: 2pt;
+  }
+  table.table_menu_right td#box_blue_2cols ul li {
+    background:transparent url(images/arrow.gif) no-repeat scroll left 6px;
+    border-bottom:1px dotted #4071A7;
+    font-size: 0.8em;
+    list-style-type:none;
+    padding:2px 0pt 3pt 15px;
+    margin: 2pt;
+  }
+  #box_blue_2cols p.bodytext {
+    margin: 5px 15px 0 15px;
+    font: 0.75em arial;
+    line-height:17px;
+  }
+  
+  td#box_blue p.bodytext, td#box_blue_key p.bodytext, td#box_green p.bodytext {
+    font-size: 0.8em;
+    margin-top: 0%;
+    margin-bottom: 6px;
+  }
+  td#box_blue li a:hover, td#box_blue_key li a:hover, td#box_green li a:hover {
+    text-decoration: underline;
+  }
+  
+  td#box_red p.bodytext {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    padding-left: 3px;
+  }
+  table.table_menu {
+    margin-top: 8px; 
+    margin-left: 0px;
+  }
+  /* # # # # # # # # # # START TMPL_COUNTRY_TABLE # # # # # # # # # # # # */
+  table.country_table {
+    background: #EEEEEE;
+    margin: 20px 5px 10px 10px;
+  }
+  td.country {
+    font: 0.8em arial;
+  }
+  
+  /* # # # # # # # # # # END TMPL_COUNTRY_TABLE # # # # # # # # # # # # */
+  /* # # # # # # # # # # START TMPL_SUB_BANNER # # # # # # # # # # # # */
+  .whitecell {
+    padding-top: 5px;
+  }
+  h3 {
+    font: 1em arial;
+  }
+  #whitebox {
+    background-color:#fff;
+    border:1px solid #C4C4C4;
+    color:black;
+    display:block;
+    padding:5px 10px;
+    text-align:left;
+    text-decoration:none;
+    font-family:"Arial",sans-serif;
+    line-height:1.1em;
+  }
+  #whitebox a { 
+    font-size:0.9em;
+  }
+  #whitebox img {
+    margin-right: 20px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    }
+  h5.subtitle_publi {
+    padding: 0;
+    margin: 0;  
+  }
+  h4.greenline {
+    border-top: 10px solid #4BAA46; 
+    margin-bottom:8px;
+    margin-top:5px;
+    margin-left:15px;
+    margin-right:5px;
+    padding-left:2px;
+    padding-top:5px;
+  }
+  h4.bluline {
+    border-top: 10px solid #1D317E; 
+    margin-bottom:8px;
+    margin-left:15px;
+    margin-right:5px;
+    margin-top: 0px;
+    padding-left:2px;
+  }
+  table#table_project td, table#about_sfe td {
+    border: 1px solid #4BAA46;
+  }
+  td.subbanner {
+    margin: 0; 
+    border-bottom: 2px solid #336699;
+    border-top: 2px solid #B5CFE2;
+  }
+  td#subtitle_int {
+    background:url(../sfe/images/subtitle_bk.gif) scroll 0% 50%;
+    background-color: #90A8C9;
+  }
+  td#subtitle_lx {
+    background:url(../sfe/images/subtitle_lx.gif);
+    background-repeat: no-repeat;
+    width: 7px; 
+    height: 35px;
+  }
+  td#subtitle_rx {
+    background-image:url(../sfe/images/subtitle_rx.gif);  
+    background-repeat: no-repeat;
+    width: 7px; 
+    height: 35px;
+    padding-right: 5px;
+    margin-right: 5px;
+  }
+  td.subbanner img, td#subtitle_int, td#subtitle_lx {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  div#cont_subbanner {
+    display: inline;
+  }
+  div.subbanner {
+    float: left;
+    width: 70%;
+  }
+  div.right_img {
+    float: right;
+    width: 30%;
+  }
+  td#subtitle_lx p.bodytext, td#subtitle_rx p.bodytext, td#subtitle_int p.bodytext {
+    padding: 0; 
+    margin: 0;
+  }
+  td#subtitle_int p.bodytext {
+    font: 1em arial;
+    text-align: right;
+    letter-spacing: 1px;
+  }
+  td.right_img {
+    border-bottom: 2px solid #336699;
+    border-top: 2px solid #B5CFE2;
+  }
+  td.right_img div.csc-textpic div.csc-textpic-imagewrap dl.csc-textpic-image, div.csc-textpic-center div.csc-textpic-imagewrap .csc-textpic-image {
+    float:none;  
+    padding: 0;
+    margin: 0;
+  }
+  div.csc-textpic div.csc-textpic-imagewrap dl.csc-textpic-image {
+    padding-top: 0;
+  }
+  /* # # # # # # # # # # END SUB_BANNER # # # # # # # # # # # # */
+  /* # # # # # # # # # # ActiveMenuSub # # # # # # # # # # # # */
+  td.menuoff {  
+    border-bottom:1px solid #F8F8F8;
+    background: #E9EEF4;
+    color: #00418A;
+    text-decoration: none;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding:0 0 0 0.25em;
+  }
+  
+  td.menucur {
+    background: #FFFFFF;
+    color: #00418a;
+    text-decoration: none;
+    font-size: 0.75em;  
+    font-weight: bold;
+  }
+  td.menuon {
+    border-bottom:1px solid #F8F8F8;
+    background: #ffffff; 
+    color:#00418a; 
+    font-size: 0.75em;  
+    font-weight: bold;
+    text-decoration: none;
+    padding:0 0 0 0.25em;
+  }
+  td.menuon a:active  {
+    color:#00418a;
+    background: #ffffff; 
+    border-bottom:1px solid #F8F8F8;
+  }
+  td.menuon a:hover {
+    color: #00418A;
+    text-decoration: none;
+  }
+  td.menucursup {
+    border-bottom:1px solid #F8F8F8;
+    background: #ffffff; 
+    color: #00418a;
+    text-decoration: none;
+    font-size: 0.75em;  
+    padding-left: 20px;
+  }
+  td.menuoffsup {
+    border-bottom:1px solid #F8F8F8;
+    background: #E9EEF4; 
+    color: #00418a;
+    text-decoration: none;
+    font-size: 0.75em;  
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+  }
+  td.menuonsup a:hover {
+    color: #00418A;
+    text-decoration: none;
+    border-bottom:1px solid #F8F8F8;
+  }
+  td.menuonsup {
+    border-bottom:1px solid #F8F8F8;
+    background: #ffffff; 
+    color:#00418a; 
+    font-size: 0.75em;  
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+  }
+  td.menuoffsup a:active, td.menuonsup a:active {
+    color:#00418a;
+    padding-bottom: 5px;
+    background: #ffffff; 
+  }
+  /* # # # # # # # # # # ACTIVE MENU ends # # # # # # # # # # # # */
+  
+  /* # # # # # # # # - this is for the third menu level- # # # # # # # # # # # */
+  td.submenuoffsup {
+    border-bottom:1px solid #F8F8F8;
+    background: #E9EEF4; 
+    color: #00418a;
+    text-decoration: none;
+    font-size: 0.7em;  
+    padding-left: 20px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+  }
+  td.submenuonsup a:hover {
+    color: #00418A;
+    text-decoration: none;
+    border-bottom:1px solid #F8F8F8;
+  }
+  td.submenuonsup {
+    border-bottom:1px solid #F8F8F8;
+    background: #ffffff; 
+    color:#00418a; 
+    font-size: 0.7em;  
+    text-decoration: none;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+  }
+  td.submenuoffsup a:active, td.submenuonsup a:active {
+    color:#00418a;
+    padding-bottom: 5px;
+    background: #ffffff; 
+  }
+  /* # # # # # # # # - end of third menu level- # # # # # # # # # # # */
+  
+  /* # # # # # # # # # # START ACTIVE MENU LATEST UPDATE # # # # # # # # # # # # */
+  td.menuon {
+  padding:0 0 0 0.25em;
+  }
+  td.menuoff {
+  padding:0 0 0 0.25em;
+  }
+  td.menuoff_act, td.menuoff_no {  
+    border-bottom:1px solid #F8F8F8;
+    background: #E9EEF4;
+    color: #00418A;
+    text-decoration: none;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding:0 0 0 0.4em;
+  }
+  td.menuon_cur, td.menuon_no, td.menuon_act {
+    border-bottom:1px solid #F8F8F8;
+    background: #ffffff; 
+    color:#00418a; 
+    font-size: 0.75em;  
+    font-weight: bold;
+    text-decoration: none;
+    padding:0 0 0 0.4em;
+  }
+  td.menuon_cur a:active, td.menuoff_act a:active{
+    color:#00418a;
+    background: #ffffff; 
+    border-bottom:1px solid #F8F8F8;
+  }
+  td.menuon_cur a:hover, td.menuon_no a:hover, td.menuon_act a:hover {
+    color: #00418A;
+    text-decoration: none;
+  }
+  /* # # # # # # # # # # END ACTIVE MENU LATEST UPDATE # # # # # # # # # # # # */
+  
+  /*--- ### SEARCH FORM START ### ----*/
+  div#search form {
+    margin:0px;
+    padding:0px;
+    display: inline;
+  }
+  div#search input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:0px;
+  }
+  div#search input.inputbox {
+    font-family: Arial;
+    font-size: 11px;
+    height: 19px;
+  }
+  div#search input.button {
+    height: 18px;
+  }
+  /*--- #### SEARCH FORM END ### ----*/
+  
+  .tx-srlanguagemenu-pi1 {
+    white-space:nowrap;
+    margin: 0px; 
+    border: 0px;
+    padding-left: 161px;
+  }
+  .tx-srlanguagemenu-pi1 a    {
+    text-transform: lowercase; 
+    font-family: Arial;
+    font-size: 11px; 
+    color: #404040;
+    float: left;
+    padding: 2px 20px 2px 20px;
+    line-height: 16px;
+    font-weight: normal;
+  }
+  .tx-srlanguagemenu-pi1 a:hover     {
+    background: url(images/bg_langs_sel.gif) repeat-x; 
+    text-decoration: none;
+    margin: auto;
+  }
+  .tx-srlanguagemenu-pi1 img     {display:none;}
+  .tx-srlanguagemenu-pi1 .CUR, .tx-srlanguagemenu-pi1 .NO a:hover  {
+    background: url(images/bg_langs_sel.gif) repeat-x;
+    color:#ffffff;  
+    margin: auto;
+  }
+  .tx-srlanguagemenu-pi1 .CUR a     {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: normal;
+  }
+  .tx-srlanguagemenu-pi1 .CUR a:focus, .tx-srlanguagemenu-pi1 .CUR a:hover, .tx-srlanguagemenu-pi1 .CUR a:active {
+    color:#ffffff; 
+    text-decoration: none;
+  }
+  .tx-srlanguagemenu-pi1 .NO     {
+    display:block; 
+    line-height: 16px;
+    white-space:nowrap; 
+    text-align: center;
+    font-family: Arial;
+    font-size: 11px; 
+  }
+  .tx-srlanguagemenu-pi1 .NO a   {
+    color: #404040; 
+    text-decoration:none;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 11px; 
+    }
+  .tx-srlanguagemenu-pi1 .NO a:focus, .tx-srlanguagemenu-pi1 .NO a:active {
+    color:#ffffff; 
+    text-decoration: none;}
+  .tx-srlanguagemenu-pi1 .INACT     {display:none;}
+  
+  .tx-srlanguagemenu-pi1 .INACT a   {display:none;}
+  
+  .tx-srlanguagemenu-pi1 .INACT a:focus, .tx-srlanguagemenu-pi1 .INACT a:hover, .tx-srlanguagemenu-pi1 .INACT a:active 
+  {display:none;}
+  .tx-srlanguagemenu-pi1 .SPC   {display:none;}
+  
+  /* ------ ROUND BOXES GRAPHS (start) ------ */ 
+  td.round_top_lx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_top_lx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 6px;
+  }
+  
+  td.round_top_rx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_top_rx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 6px;
+  }
+  td.round_top {
+    background-color: #f7f9ee;
+    border-top: 1px solid #f4c56c;
+    font-size:1px;
+  }
+  td.round_main_lx {
+    background-color: #f7f9ee;
+    border-left: 1px solid #f4c56c;
+    font-size:1px;
+  }
+  td.round_main{
+    background-color: #f7f9ee;
+    text-align: center;
+    padding-top: 8px;
+  }
+  td.round_main table.contenttable p.bodytext {
+    margin: 0px;
+    padding: 0px;  }
+  td.round_main_rx {
+    background-color: #f7f9ee;
+    border-right: 1px solid #f4c56c;
+    font-size:1px;
+  }
+  td.round_bottom {
+    background-color: #f7f9ee;
+    border-bottom: 1px solid #f4c56c;
+    font-size:1px;
+    height:6px;
+  }
+  td.round_bottom_lx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_bottom_lx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 6px;
+  }
+  td.round_bottom_rx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_bottom_rx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 6px;
+  }
+  /* ------ ROUND BOXES GRAPHS (end) ------ */ 
+  /* ------ ROUND BOXES NEWSROOM (start) ------ */ 
+  td.round_top_newsroom_lx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_top_newsroom_lx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 2px;
+  }
+  td.round_top_newsroom_rx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_top_newsroom_rx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 2px;
+  }
+  td.round_top_newsroom {
+    background-color: #ece9e0;
+    border-top: 1px solid #c1b6a0;
+    font-size:1px;
+  }
+  td.round_main_newsroom_lx {
+    background-color: #ece9e0;
+    border-left: 1px solid #c1b6a0;
+    font-size:1px;
+    width:1px;
+    margin: 0px;
+    padding: 0px;
+  }
+  td.round_main_newsroom{
+    background-color: #ece9e0;
+    margin: 0px;
+    padding: 0px;
+  }
+  td.round_main_newsroom_rx {
+    background-color: #ece9e0;
+    border-right: 1px solid #c1b6a0;
+    font-size:1px;
+    width:1px;
+    margin: 0px;
+    padding: 0px;
+  }
+  td.round_bottom_newsroom {
+    background-color: #ece9e0;
+    border-bottom: 1px solid #c1b6a0;
+    font-size:1px;
+    height:2px;
+  }
+  td.round_bottom_newsroom_lx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_bottom_newsroom_lx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 2px;
+  }
+  td.round_bottom_newsroom_rx {
+    background-image: url(http://www.fao.org/fileadmin/templates/faohome/images/round_bottom_newsroom_rx.gif);
+    background-repeat: no-repeat;
+    font-size:1px;
+    width: 2px;
+  }
+  /* ------ ROUND BOXES NEWSROOM (end) ------ */ 
+  /* ------ ROUND INFO_BOX (start) ------ */ 
+  td.round_infobox_bottom_rx, td.round_infobox_bottom_lx, td.round_infobox_top_rx, td.round_infobox_top_lx {
+    background-color: #f0f0f0;
+    font-size:1px;
+    white-space: nowrap;
+  }
+  td.round_infobox_top {
+    background-color: #f0f0f0;
+    border-top: 1px solid #0066a8;
+    font-size:1px;
+    height: 6px;
+  }
+  td.round_infobox_main_lx {
+    background:#f0f0f0;
+    border-left: 1px solid #0066a8;
+    font-size:1px;
+    padding: 0px;
+    margin: 0px;
+  }
+  td.round_infobox_main{
+    border: 1px solid #0066a8;
+    background-color:#f0f0f0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 5px 0px 0px 0px;
+    text-align: left;
+  }
+  td.round_infobox_main p.bodytext {
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 5px;
+  }
+  td.round_infobox_main h5 {
+    border-top: 1px dotted #666666;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding: 3px;
+  }
+  td.round_infobox_main_rx {
+    background:#f0f0f0;
+    border-right: 1px solid #0066a8;
+    font-size:1px;
+  }
+  td.round_infobox_bottom {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #0066a8;
+    font-size:1px;
+    height:6px;
+  }
+  /* ------ ROUND INFO_BOX GRAPHS (end) ------ */ 
+  td.newsdg p {
+    font: 0.75em arial;
+    line-height:19px;}
+  td.newsdg p.bodytext {
+    font: 0.6em arial;
+    text-align: center;
+    color: #404040;
+    padding: 0;
+    margin: 0;
+  }
+  /* ############# SURVEY STYLE starts ############### */
+  div.tx-pbsurvey-pi1 div.pagenumbering, fieldset.survey_item legend.question {
+    display: none;
+  }
+  div.tx-pbsurvey-pi1 div.formbuttons input {
+    font-family: Trebuchet Ms;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+    color: #333333;
+    border-top: 1px solid #f7f7f7;
+    border-left: 1px solid #f7f7f7;
+    border-bottom: 1px solid #333333;
+    border-right: 1px solid #333333;
+  }
+  fieldset.survey_item {
+    border: none;
+  }
+  .tx-pbsurvey-pi1 .survey_item{
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  div.tx-pbsurvey-pi1 {
+    margin: 0px;
+    padding: 0px 4px 4px 4px;
+    background: #f7f7f7;
+  }
+  td.pbsurvey_text   {  
+    font-size: 10px;
+    font-family: Arial;
+    color: #000000;
+  }
+  
+  td.pbsurvey_percentage  {  
+    font-size: 10px;
+    font-family: Arial;
+    text-align: right;
+    color: #3a6ea5;
+  }
+  .tx-ncpbsurveyfesimplestats-pi1 td.answer {
+    font-size: 11px;
+    color: #000000;
+    line-height: 13px;
+    padding-left: 5px;
+    padding-bottom: 5px;}
+  .tx-ncpbsurveyfesimplestats-pi1 .barcontainer {
+    background-color:#ffffff;
+    border:1px solid #000000;
+    position:relative;
+    width:100px;
+    height:15px;
+    top:-10px;
+    z-index:5;
+  }
+  div#percent{
+    position:relative;
+    height:15px;
+    width:auto;
+    left:60px;
+    top:6px;
+    z-index:6;
+  }
+  .tx-ncpbsurveyfesimplestats-pi1 .bar {
+    background-color:#A3B7D2;
+    left:0px;
+    position:absolute;
+    z-index:4;
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: bold;
+  }
+  .tx-pbsurvey-pi1 .survey_error {
+    font-size: 11px;
+    color:#000000;
+    font-weight: bold;
+  }
+  div.questionSubtext p.bodytext {
+    font-size: 12px;
+  }
+  img.hp1photo{
+   visibility:hidden
+  }
+  div.news{
+   visibility:hidden
+  }
+  h2.sharefair{}
+  /* SITEMAP STYLE */
+  .tx-dropdownsitemap-pi1 div.expAll {
+    background-color:#f1f4f8;
+    border-bottom:2px solid #004673;
+    border-top:1px solid #e9eef4;
+    border-left:1px solid #e9eef4;
+    border-right:1px solid #e9eef4;  
+    color:#004673;
+    width:700px;
+    margin-bottom:5px;
+  }
+  .tx-dropdownsitemap-pi1 div.expAll a {
+    color:#004673;
+    padding:5px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:14px;
+  }
+  .tx-dropdownsitemap-pi1 div.expAll a:hover {
+    color:#6a7da2;
+    padding:5px;
+  }
+  .tx-dropdownsitemap-pi1 img {
+    margin-right:5px;
+  }
+  .tx-dropdownsitemap-pi1 a, .tx-dropdownsitemap-pi1 a:link, .tx-dropdownsitemap-pi1 a:visited, .tx-dropdownsitemap-pi1 a:active {
+    color:#004673;
+    text-decoration:none;  
+  }
+  .tx-dropdownsitemap-pi1 a:hover {
+    text-decoration:none;
+    color:#6a7da2;
+  }
+  .level_2 a {
+    font-size:12px;
+  }
+  .level_2 a:hover {
+    text-decoration:none;
+    color:#6a7da2;
+  }
+  /* END OF SITEMAP STYLE */
+  div.dev_area {
+    background-color:#dbd421;
+    color:#232323;
+    font-family:"Arial",sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    line-height:14px;
+    padding:2px 10px 1px 10px;
+    margin-left: 20px;
+    width:100px;
+    white-space: nowrap;
+    float: left; 
+  }
+  /* ---- START RIGHT BOX 2009 --- */
+  #box_right1 {
+  border-bottom:3px solid #FFFFFF;
+  }
+  #box_right2 {
+  background: #006497 url(images/bk_summit.jpg) repeat-x;
+  padding: 5px;
+  }
+  #box_right2 p.bodytext {
+  color: #ffffff;
+  font-size: 11px;
+  margin: 5px 3px 0 3px;
+  line-height: 18px;
+  }
+  h1.path_summit {
+  margin: 0;
+  color: #f8af00;
+  font-size: 14px;
+  }
+  #box_right4 {
+  background: #005f8f url(images/bk_high_level.jpg) repeat-x;
+  /*padding: 5px;*/
+  }
+  #box_right4 .indent {
+  color: #ffffff;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  }
+  #box_right6 {
+  background: #014f80 url(images/bk_food_security.jpg) repeat-x;
+  padding: 5px;
+  }
+  #box_right6 .indent {
+  color: #ffffff;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  }
+  /*
+  #box_right8 {
+  background: #084574 url(http://www.fao.org/fileadmin/templates/faohome/images/bk_wfd.jpg) repeat-x;
+  padding: 5px;
+  }
+  #box_right8 .indent {
+  color: #ffffff;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  }
+  */
+  /* ---- ENDRIGHT BOX 2009 --- */
+  /* --- NEW HOME PAGE 2009 --- */
+  td#box_ylw h1.csc-firstHeader a {
+  color: #000000;
+  }
+  #box_ylw_light {
+  background-color:#F6F4EF;
+  }
+  td#box_blue_key {
+  background-color:#fff;
+  }
+  #hp1photo {
+  border: 1pt solid #999999;
+  }
+  td.rightcolumn {
+  border-left:0;
+  padding-left:5px;
+  padding-right:12px;
+  }
+  #greenBox {
+  border-top:5px solid #4BAA46;
+  background-color: #edf8f0;
+  margin-top: 10px;
+  }
+  #blueBox{
+  border-top:5px solid #00418A;
+  background-color: #f0f5f9;
+  padding-bottom: 10px;
+  }
+  #meetings {
+  background-color: #fcf1d5;
+  margin-top: 5px;
+  }
+  #box_red {
+  padding-right: 10px;
+  }
+  td#box_ylw h1.csc-firstHeader {
+  border-top:5px solid #efad00;
+  }
+  td#box_red h1.csc-firstHeader {
+  border-top:0;
+  color:#000000;
+  font-size:0.9em;
+  font-weight:bold;
+  margin-bottom:8px;
+  margin-top:0;
+  padding-left:3px;
+  padding-top:4px;
+  }
+  td#box_ylw h1.csc-firstHeader {
+  margin-top: 0;
+  }
+  #donate_now {
+  margin-top: 40px;
+  }
+  .align-center{
+  	text-align: center;
+  }
+  .align-left{
+  	text-align: left;
+  }
+  .align-right{
+  	text-align: right;
+  }
+    /* # # # # # # # # # # # # # # #   L O G I N - s t a r t - # # # # # # # # # # # # # # # # # # # # # # # # # # # # # */
+    
+  div.tx-loginboxmacmade-pi1  {font-size:13px; font-weight: bold; padding-top: 14px;}
+
+  table.tx-loginboxmacmade-pi1-loginTable {margin-top: 20px;}
+
+  td.tx-loginboxmacmade-pi1-labelCell {text-align: right; font-size: 13px; padding-right: 3px;}
+
+  td.tx-loginboxmacmade-pi1-fieldCell input {background-color:#f7f7f7; border:1px solid #999999; padding-left:3px; width:202px;}
+
+  td.tx-loginboxmacmade-pi1-fieldCell input.submit {background-color:#cccccc; border:1px solid #f0f0f0; border-right: 1px solid #333333; border-bottom: 1px solid #333333; font-weight: normal; color: #000000; font-size: 11px; padding:3px; width:70px; text-transform: uppercase; font-family: Tahoma;}
+
+  h2.tx-loginboxmacmade-pi1-header {display: none;}
+
+  
+    /* # # # # # # # # # # # # # # # # L O G I N - e n d - # # # # # # # # # # # # # # # # # # # # # # # # # # # # */  

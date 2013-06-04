@@ -1,0 +1,1686 @@
+@CHARSET "UTF-8";
+
+/*Stuff common to all (most) pages */
+
+body.section-media-centre,
+body.section-for-media {
+  background-color: #fff;
+  padding-top: 0;
+}
+
+
+body.section-media-centre #footer a, 
+body.section-for-media #footer a, 
+body.page-media-centre #footer a {
+ color:black;    
+    
+}
+
+.ltr #media-centre #ai-sidebar-squeeze {
+  padding-top: 0 !important;
+}
+
+#media-centre,
+#media-centre h2,
+.section-media-centre {
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+#media-centre .ntype-page, 
+.section-media-centre .ntype-page {
+  margin-bottom: 20px;
+  padding-bottom: 0;  
+}
+
+.ltr #media-centre #ai-sidebar-squeeze {
+  margin-right: 240px !important;
+}
+
+.rtl #media-centre #ai-sidebar-squeeze {
+  margin-left: 233px !important;
+}
+
+.ltr #media-centre #ai-sidebar-main {
+  margin-right: -242px;
+}
+
+.rtl #media-centre #ai-sidebar-main {
+  margin-left: -242px;
+}
+
+#media-centre #ai-sidebar-small,
+.section-experts #ai-sidebar-small {
+  padding-left: 10px;
+  padding-right: 2px;
+  width: 230px;
+}
+
+#media-centre h2 {
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/* All links (exceptions below) */
+#media-centre a,
+#media-centre a:link, 
+#media-centre a:hover,
+#media-centre a:visited {
+  text-decoration: none;
+  color: #369;
+}
+
+/* Contact IPO */
+#media-centre div.ipo-contact {
+  padding-left: 10x;
+  padding-top: 10px;  
+  background-color: #FF0;
+  padding-bottom: 9px;
+}
+
+/* Primary links menu */
+#media-centre #ai-rowbar-top ul.menu {
+  position: relative;
+  left: 0;
+  background-color: #eee;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 0;  
+  height: 40px;
+  clear: both;
+}
+
+.section-media-centre .media-contacts-nav {
+  background-color: #eee;
+  position: relative;
+  width: 100%;
+}
+
+#media-centre #ai-rowbar-top ul.menu li,
+.section-media-centre .media-contacts-nav .media-contacts-link {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 40px;
+    background-color: #eee;
+}
+
+#media-centre #ai-rowbar-top ul.menu li.active {
+  background-color: #ccc;
+}
+
+.ltr #media-centre #ai-rowbar-top ul.menu li {
+  float: left;
+}
+
+.rtl #media-centre #ai-rowbar-top ul.menu li {
+  float: right;
+}
+
+#media-centre .pr-location .section-link, 
+#media-centre .pr-tags .section-link {
+  margin-top: 10px;
+}
+
+/* Media Contacts submenu */
+.section-media-centre .media-contacts-nav .media-contacts-link {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px;    
+  font-weight: bold;
+  background-color: #eee;
+}
+
+.ltr .section-media-centre .media-contacts-nav .media-contacts-link {
+  float: left;
+}
+
+.rtl .section-media-centre .media-contacts-nav .media-contacts-link {
+  float: right;
+}
+
+/*
+.section-media-centre .pane-boxes-media-contacts-submenu div.media-contacts-link a {
+  color: #aaa !important;
+}
+*/
+
+#media-centre #ai-rowbar-top ul.menu li a {
+  font-size: 11px;
+  height: 29px;
+}
+
+#media-centre #ai-rowbar-top ul.menu li a,
+.section-media-centre .pane-boxes-media-contacts-submenu div.media-contacts-link a {
+  font-family: Helvetica, Arial, sans-serif !important;
+  display: block;
+  text-decoration: none;
+  width: auto;
+  text-align: center; 
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;    
+}
+
+#media-centre #ai-rowbar-top ul.menu li a {
+  height: 27px;
+  padding-top: 13px;
+}
+
+.section-media-centre .pane-boxes-media-contacts-submenu div.media-contacts-link a {
+  height: 30px;
+  padding-top: 10px;
+}
+
+.ltr #media-centre #ai-rowbar-top ul.menu li,
+.ltr .section-media-centre .media-contacts-nav .media-contacts-link {
+  border-right: 1px solid #fff;
+}
+
+.rtl #media-centre #ai-rowbar-top ul.menu li,
+.rtl .section-media-centre .media-contacts-nav .media-contacts-link {
+  border-left: 1px solid #fff;
+}
+
+
+/*#media-centre #ai-rowbar-top ul.menu li a.active-trail,*/
+#media-centre #ai-rowbar-top ul.menu li a.active,
+#media-centre #ai-rowbar-top ul.menu li:hover,
+.section-media-centre .media-contacts-nav .media-contacts-link a.active {
+  background-color: #ccc;
+}
+
+#media-centre #ai-rowbar-top ul.menu li span.menu-arrow {
+  display: none;
+}
+
+#media-centre ul.menu a:link, 
+#media-centre ul.menu a:hover,
+#media-centre ul.menu a:visited,
+#media-centre .media-contacts-nav .media-contacts-link a,  
+#media-centre .media-contacts-nav .media-contacts-link a:link, 
+#media-centre .media-contacts-nav .media-contacts-link a:hover, 
+#media-centre .media-contacts-nav .media-contacts-link a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Priority PR */
+#media-centre .priority {
+  background-color: #eee;
+  color: #888;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#media-centre .press-release .pr-date   {
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#media-centre #story-images .story-image-wrapper a {
+  padding: 0;
+}
+
+.rtl #media-centre .node #story-images {
+  margin-left: 0;
+}
+
+#media-centre #story-images p.attribution {
+  font-size: 1em;
+}
+
+#media-centre .priority-banner {
+  color: #f80;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#media-centre .priority img {
+  margin-top: 5px;
+} 
+
+.ltr #media-centre .priority img {
+  float: right;
+} 
+
+.rtl #media-centre .priority img {
+  float: left;
+}
+
+#media-centre #story-images {
+  font-size: 10px;
+  width: 300px;
+}
+
+/*Tactical language switcher */
+#media-centre .tactical-picker-list {
+  margin-top: 0;
+  font-size: 11px;
+}
+
+#media-centre span.tactical-picker-list-title,
+#media-centre div.tactical-picker-node-title {
+  display: none;
+}
+.ltr #media-centre .tactical-picker-list-item,
+.ltr #media-centre .tactical-picker-node-item {
+  float: left;
+}
+
+.rtl #media-centre .tactical-picker-list-item,
+.rtl #media-centre .tactical-picker-node-item {
+  float: right;
+}
+
+/* International Press Office block */
+div.pane-boxes-amnesty-media-center-ipo {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 11px;
+  margin-top: -10px;
+}
+
+#ai-sidebar-small #amnesty-media-center-ipo h2,
+#ai-sidebar-small .adam-link h2 {
+  background-color: #888;
+  color: #fff;
+  padding: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 11px;
+  line-height: 17px; 
+  margin-bottom: 0; 
+}
+
+.ltr #ai-sidebar-small #amnesty-media-center-ipo h2,
+.ltr #ai-sidebar-small .adam-link h2 {
+  text-align: left;
+}
+
+.rtl #ai-sidebar-small #amnesty-media-center-ipo h2,
+.rtl #ai-sidebar-small .adam-link h2 {
+  text-align: right;
+}
+
+#media-centre #ai-sidebar-small .panel-region-separator {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#amnesty-media-center-ipo-avp .label {
+  font-weight: normal;
+  color: #000;
+}
+
+#amnesty-media-center-ipo .phone,
+#amnesty-media-center-ipo-avp .phone {
+  font-weight: bold;
+}
+
+#amnesty-media-center-ipo-avp .requests,
+#amnesty-media-center-ipo .phone-block,
+#amnesty-media-center-ipo-avp .phone-block,
+#amnesty-media-center-ipo-avp .fax-block,	 
+#amnesty-media-center-ipo .fax-block,	 
+#amnesty-media-center-ipo .email-block,
+#amnesty-media-center-ipo-avp .email-block,
+#amnesty-media-center-ipo .address-block,
+#amnesty-media-center-ipo-avp .address-block {
+  margin-bottom: 10px;
+}
+
+#amnesty-media-center-ipo h2,
+#amnesty-media-center-ipo-avp h2 {
+  border-bottom: 1px solid #aaa;
+}
+
+
+#amnesty-media-center-ipo div.label,
+#amnesty-media-center-ipo-avp div.label {
+  font-weight: bold;
+}
+
+#amnesty-media-center-ipo > div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* IPO Twitter block */
+#media-centre .ipo-twitter-caption {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#media-centre .ipo-twitter {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#media-centre .ipo-twitter img {
+  float: left;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#media-centre .ipo-twitter a {
+  float: left;
+  margin-top: 12px;
+}
+
+/* ADAM Links box */
+#boxes-box-inline-ipo_adam_links {
+  font-size: 11px;
+}
+
+div.adam-link p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* Landing page*/
+/* Make titles not be capitalised */
+.page-media-centre .pane-node .pane-title, 
+.page-media-centre .pane-views-panes h2.pane-title	{
+  text-transform: none;
+}
+
+.page-media-centre .pane-views-panes h2.pane-title	{
+  background-color: #ff0;
+  color: #000;
+}
+
+.page-media-centre #ai-sidebar-main .pane-node .content {
+  color: #666;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.ltr .page-media-centre #ai-sidebar-main .pane-node .content {
+  float: right;
+  width: 355px;
+}
+.rtl  .page-media-centre #ai-sidebar-main .pane-node .content {
+  float: left;
+  width: 442px;
+}
+
+.page-media-centre .pane-node .links {
+  display: none;
+}
+
+.page-media-centre .ntype-page .icon-enlarge,
+.page-media-centre .ntype-page .enlarge-note {
+  display: none;
+}
+
+/* Landing page, PR browser */
+#media-centre .view-content .press-release {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+#media-centre .view-content .priority .press-release {
+  border-bottom: none;
+}
+
+#media-centre .view-content .pr-main {
+  width: 530px;
+  margin-right: 5px;
+  float: left;
+}
+
+.rtl #media-centre .view-content .pr-main {
+  width: 460px;
+  float: right;
+}
+
+#media-centre .view-content .pr-main .pr-date {
+  font-weight: bold;
+}
+
+#media-centre .view-content .pr-main h2 {
+  line-height: 100%;
+}
+
+/* Location block for press release */
+#media-centre .pr-location,
+#media-centre .pr-tags {
+  width: 130px;
+  font-size: 10px;
+  line-height: 14px;
+  color: #000;
+}
+
+.ltr #media-centre .pr-location,
+#media-centre .pr-tags {
+  padding-left: 5px;
+  float: left;
+}
+
+.rtl #media-centre .pr-location,
+#media-centre .pr-tags {
+  padding-right: 5px;
+  float: right;
+}
+
+/* Don't display images in teasers */
+.pr-main img {
+  display: none;
+}
+
+/* Those damned exposed filters */
+
+#media-centre .views-exposed-widget-edit-region {
+  width: 160px;
+}
+
+.rtl #media-centre .views-exposed-form .views-exposed-widget {
+  float: right;
+}
+
+.ltr #media-centre .views-exposed-form #edit-region,
+.ltr #media-centre .views-exposed-form #edit-topic {
+  width: 119px;
+}
+
+.rtl #media-centre .views-exposed-form #edit-region,
+.rtl #media-centre .views-exposed-form #edit-topic {
+  width: 106px;
+}
+
+#media-centre #edit-field-date-value-min-datepicker-popup-0,
+#media-centre #edit-field-date-value-max-datepicker-popup-0 {
+  width: 86px;
+}
+
+#media-centre .container-inline-date .description {
+  display: inline-block;
+}
+
+#media-centre .container-inline-date .description img {
+  position: relative;
+  top: 4px;
+}
+
+.ltr #media-centre #edit-region-wrapper label {
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.ltr #media-centre #edit-field-date-value-min-wrapper label {
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.rtl #media-centre #edit-region-wrapper label {
+  float: right;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.rtl #media-centre #edit-field-date-value-min-wrapper label {
+  float: right;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.ltr #media-centre .views-exposed-form #edit-date-filter-min-wrapper .description,
+.ltr #media-centre .views-exposed-form #edit-date-filter-min-wrapper input,
+.ltr #media-centre .views-exposed-form #edit-date-filter-max-wrapper .description,
+.ltr #media-centre .views-exposed-form #edit-date-filter-max-wrapper input {
+  float: left;
+  clear: none;
+}
+
+.rtl #media-centre .views-exposed-form #edit-date-filter-min-wrapper .description,
+.rtl #media-centre .views-exposed-form #edit-date-filter-min-wrapper input,
+.rtl #media-centre .views-exposed-form #edit-date-filter-max-wrapper .description,
+.rtl #media-centre .views-exposed-form #edit-date-filter-max-wrapper input {
+  float: right;
+  clear: none;
+}
+
+#media-centre .views-exposed-form label {
+  font-size: 12px;
+}
+
+.ltr #media-centre .views-exposed-form .asearch-link {
+  clear: both;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Duh - select the div containing the submit button. */
+#views-exposed-form-press-releases-panel-pane-2 .views-exposed-widget +.views-exposed-widget +.views-exposed-widget +.views-exposed-widget {
+  padding: 0;
+  margin-top: 5px;
+}
+
+#media-centre input#edit-submit-media-centre-multimedia,
+#media-centre input#edit-submit-press-releases {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin-top: 5px;
+}
+
+#media-centre .view-media-centre-multimedia .view-filters,
+#media-centre .view-press-releases .view-filters {
+  margin-bottom: 20px;
+}
+
+.ltr #media-centre #edit-field-date-value-max-wrapper {
+  margin-left: 10px;
+}
+
+.rtl #media-centre #edit-field-date-value-max-wrapper {
+  margin-right: 10px;
+}
+
+#media-centre #edit-field-date-value-min-datepicker-popup-0-wrapper,
+#media-centre #edit-field-date-value-max-datepicker-popup-0-wrapper {
+  margin-top: -2px;
+}
+
+.ltr .view-media-centre-multimedia .date-clear-block,
+.ltr #media-centre .views-exposed-form .date-clear-block {
+  float: left;
+  width: auto;
+  clear: none;
+}
+
+.rtl .view-media-centre-multimedia .date-clear-block,
+.rtl #media-centre .views-exposed-form .date-clear-block {
+  float: right;
+  width: 145px;
+  clear: none;
+}
+
+.rtl .view-media-centre-multimedia .date-views-filter-wrapper input,
+.rtl .view-press-releases .date-views-filter-wrapper input {
+  width: 95px;
+}
+
+#media-centre .views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 5px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+#media-centre .views-exposed-form {
+  background-color: #ff0;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  pading-top: 4px;
+}
+
+#media-centre .view-content ul.tags {
+  display:inline;
+  padding-left: 0;
+}
+
+#media-centre .view-content ul.tags li {
+  display: inline;
+  font-size: 11px;
+}
+
+#media-centre .view-content ul.tags li a {
+  color: #369;
+}
+
+.page-media-centre div#media-centre #ai-sidebar-squeeze h2.pane-title {
+  font-size: 11px !important;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+.page-media-centre div#media-centre #ai-sidebar-squeeze #ai50space h2.pane-title {
+  padding-top: 20px;
+  font-size: 16px;
+}
+  
+div#media-centre #ai-sidebar-squeeze h2.pane-title {
+  font-size: 28px !important;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+div#media-centre #ai-sidebar-squeeze .pane-media-contacts-panel-pane-1 h2.pane-title {
+  font-size: 16px !important;
+  background-color: #ff0;
+  padding: 5px;
+}
+
+div#media-centre #ai-sidebar-squeeze div.pane-press-releases-panel-pane-4 h2.pane-title {
+  font-size: 18px !important;
+}
+
+div#media-centre #ai-rowbar-top h2.pane-title {
+  font-size: 38px !important;
+}
+
+#media-centre .pr-date-posted {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#media-centre h2.pr-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ltr #media-centre h2.pr-title {
+  width: 530px;
+}
+
+.rtl #media-centre h2.pr-title {
+  width: 460px;
+}
+
+#media-centre .pr-content h2.pr-subhead {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  
+/* Landing page priority PR */
+.page-media-center .sticky {
+  border: 1px solid #888;
+  padding: 5px;
+}
+
+.page-media-center .priority-banner {
+  background-color: #888;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.page-media-center .priority-banner {
+  background-color: #888;
+  color: #fff;
+  font-weight: bold;
+}
+
+#media-centre #ai-rowbar-top h2 {
+  padding-top: 12px;
+  margin-bottom: 0;
+  clear: both;
+}
+
+.ltr #media-centre #ai-rowbar-top h2 {
+  padding-left: 18px;
+}
+
+.rtl #media-centre #ai-rowbar-top h2 {
+  padding-right: 18px;
+}
+
+.rtl #media-centre #ai-sidebar-main #ai-sidebar-squeeze {
+  padding-top: 0 !important;
+}
+
+#media-centre #ai-sidebar-squeeze > .pane-block {
+  margin-top: 20px;
+}
+
+div.pane-amnesty-media-center-media-center-home {
+  color: #666;
+  font-size: 16px;
+}
+
+#media-centre .view-empty {
+  display: none;
+}
+
+/* RSS Feed and "See all" link */
+#media-centre .feed-and-more {
+  border-bottom: 1px solid #aaa;
+}
+
+#media-centre .rsslinks,
+#media-centre .more-press {
+  width: 50%;
+  font-size: 11px;
+}
+
+#media-centre .rsslinks {
+  color: #ccc;
+}
+
+.ltr #media-centre .rsslinks,
+.ltr #media-centre .more-press {
+  float: left;
+}
+
+.rtl #media-centre .rsslinks,
+.rtl #media-centre .more-press {
+  float: right;
+}
+
+#media-centre .feed-and-more {
+  padding-bottom: 3px;
+}
+
+#media-centre .feed-and-more img {
+  margin-bottom: -3px;
+}
+
+.page-media-centre .feed-and-more {
+  margin-top: -13px;
+}
+
+#media-centre .more-press {
+  text-align: right;
+}
+
+/* Single Press Release node */
+#media-centre .ntype-press-release .pr-subhead {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#media-centre .ntype-press-release .pr-content {
+  width: 425px;
+}
+
+.ltr #media-centre .ntype-press-release .pr-content {
+  float: left;
+}
+
+.rtl #media-centre .ntype-press-release .pr-content {
+  float: right;
+}
+
+#media-centre .ntype-press-release .pr-ai-index {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#media-centre .ntype-press-release .pr-ai-index  span.label {
+  font-weight: normal;
+  color: #000;
+}
+
+
+#media-centre .ntype-press-release .ipo-contact {
+  background-color: #ff0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#media-centre .ntype-press-release .pr-tags {
+  width: 225px;
+  margin-top: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#media-centre .ntype-press-release .pr-tags span.label {
+  font-weight: bold;
+  color: #888;
+}
+
+.ltr #media-centre .ntype-press-release .pr-tags {
+  float: left;
+}
+
+.rtl #media-centre .ntype-press-release .pr-tags {
+  float: right;
+}
+
+#media-centre .pane-press-releases-panel-pane-4 .views-field-field-date-value {
+  float: left;
+  margin-right: 10px;
+}
+
+#media-centre .pane-press-releases-panel-pane-4 {
+  margin-top: 20px;
+}
+
+
+/* Press releases browser */
+.page-media-centre-multimedia div#ui-datepicker-div,
+.page-media-centre-press-releases div#ui-datepicker-div {
+  background-color: #fff;
+}
+
+.page-media-centre-press-releases .container-inline-date .form-item .form-item {
+  margin-top: 3px;
+}
+
+.page-media-centre-multimedia #ai-sidebar-squeeze h2.pane-title,
+.page-media-centre-press-releases #ai-sidebar-squeeze h2.pane-title {
+  font-size: 24px !important;
+}
+
+.page-media-centre-multimedia #footer-base, 
+.page-media-centre-press-releases #footer-base, 
+.ntype-press-release #footer-base {
+  display: none;
+}
+
+.page-media-centre-press-releases #media-centre .item-list ul.pager {
+  padding-top: 0;
+  border-bottom: 1px solid #aaa;
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 16px;
+  display: inline-block;
+}
+
+/* Clearfix for the pager (which natively doesn't seem to appreciate its contents being floated) 
+*/
+.page-media-centre-press-releases #media-centre .item-list ul.pager:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+html[xmlns] .page-media-centre-press-releases #media-centre .item-list ul.pager {
+	display: block;
+}
+ 
+* html .page-media-centre-press-releases #media-centre .item-list ul.pager {
+	height: 1%;
+}
+
+.page-media-centre-press-releases #media-centre .item-list ul.pager li {
+  padding: 0;
+} 
+
+.ltr .page-media-centre-press-releases #media-centre .item-list ul.pager li {
+  float: left;
+}
+
+.rtl .page-media-centre-press-releases #media-centre .item-list ul.pager li {
+  float: left;
+}
+
+.ltr .page-media-centre-press-releases #media-centre .item-list ul.pager {
+  text-align: left;
+  padding-bottom: 5px;
+  margin-top: -15px;
+}
+
+.rtl .page-media-centre-press-releases #media-centre .item-list ul.pager {
+  text-align: right;
+  margin-top: -21px;
+}
+
+.rtl .page-media-centre-press-releases #media-centre .item-list ul.pager li a, 
+.rtl .page-media-centre-press-releases #media-centre .item-list ul.pager li.pager-current {
+    padding-top: 0;
+}
+
+.page-media-centre-press-releases #media-centre .item-list ul.pager .pager-ellipsis {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.page-media-centre-press-releases div.try-advanced-search {
+  text-align: right;
+}
+
+#media-centre .item-list ul.pager .pager-next,
+#media-centre .item-list ul.pager .pager-last,
+#media-centre .item-list ul.pager .pager-previous,    
+#media-centre .item-list ul.pager .pager-first {
+  text-transform: capitalize;
+}
+
+/* Media Contacts submenu */
+.section-media-centre .press-contact-submenu {
+  margin-bottom: 10px;
+}
+
+/* National Press Offices */
+.page-media-centre-media-contacts-national-press-offices .region-link {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.page-media-centre-media-contacts-national-press-offices .region-name {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 10px;
+}
+
+#media-centre .region-name a,
+#media-centre .topic-name a {
+  color: #000;
+}
+
+#media-centre .topic-name a:hover {
+  color: yellow;
+}
+
+.page-media-centre-media-contacts-national-press-offices .press-contacts {
+  margin-bottom: 20px;
+}
+
+.page-media-centre-media-contacts-national-press-offices .press-country {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fb5;
+}
+
+.page-media-centre-media-contacts-national-press-offices .region {
+  clear: both;
+  width: 50%;
+}
+
+#media-centre .goto-top {
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+
+.ltr #media-centre .goto-top {
+  text-align:right;
+  top: -20px;
+}
+
+.rtl #media-centre .goto-top {
+  text-align:left;
+  top: -20px;
+}
+
+.page-media-centre-media-contacts-international-press-office #media-centre .goto-top {
+  top: -30px;
+}
+
+.page-media-centre-forward-planning .goto-top {
+  top: -25px;
+}
+
+/* Hack to make 'active' the Media Contacts menu for the National Press offices page */
+.page-media-centre-media-contacts-national-press-offices #ai-rowbar-top li.last a {
+  background-color: #ccc !important;
+}
+
+/* International Press Office */
+.page-media-centre-media-contacts-international-press-office .press-officer .name {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fb5;
+}
+
+.page-media-centre-media-contacts-international-press-office .press-officer .phone {
+  font-weight: bold;
+}
+
+.page-media-centre-media-contacts-international-press-office .press-officer .label {
+  font-weight: normal;
+  color: #000;
+}
+
+.page-media-centre-media-contacts-international-press-office .press-officer {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+}
+
+.page-media-centre-media-contacts-international-press-office .press-officer .languages .label {
+  font-weight: bold;
+  color: #aaa;
+}
+
+.page-media-centre-media-contacts-international-press-office .press-officer .language {
+  font-weight: bold;
+}
+
+.page-media-centre-media-contacts-international-press-office .press-officer .languages,
+.page-media-centre-media-contacts-international-press-office .press-officer .phone-days,
+.page-media-centre-media-contacts-international-press-office .press-officer .email {
+  margin-bottom: 10px;
+}
+
+#amnesty-media-center-ipo-avp #amnesty-media-center-ipo,
+#amnesty-media-center-ipo-avp #amnesty-media-center-avp {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 285px;
+}
+
+.ltr #amnesty-media-center-ipo-avp #amnesty-media-center-ipo {
+  margin-right: 25px;
+}
+
+.rtl #amnesty-media-center-ipo-avp #amnesty-media-center-ipo {
+  margin-left: 25px;
+}
+
+/* Addthis/Print at bottom */
+#media-centre .add-print {
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.page-media-centre-media-contacts-international-press-office #media-centre .add-print {
+  margin-top: 0;
+}
+
+#media-centre .add-print .add-print-sep {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #aaa;
+}
+
+.ltr #media-centre .add-print .print,
+.ltr #media-centre .add-print .add-print-sep,
+.ltr #media-centre .add-print .add {
+  float: left;
+}
+
+#media-centre .add-print .add {
+  max-height: 20px;
+}
+
+.ltr #media-centre .add-print .add {
+  padding-right: 3px;
+  border-right: 1px solid #ccc;
+  margin-right: 3px;
+}
+
+.rtl #media-centre .add-print .add {
+  padding-left: 3px;
+  border-left: 1px solid #ccc;
+  margin-left: 3px;
+}
+
+.rtl #media-centre .add-print .print, 
+.rtl #media-centre .add-print .add-print-sep,
+.rtl #media-centre .add-print .add {
+  float: right;
+} 
+
+div.add-print .print {
+  line-height: 160%;
+  margin-top: 3px;
+  color: #aaa;
+}
+
+#media-centre .add-print .print-link {
+  background: url('images/icon_print.gif') no-repeat 0 1px;
+  padding: 0 7px 0 18px;
+  color: #000;
+  font-weight: bold;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+
+/* AI Social Networks box */
+div#media-centre #ai-sidebar-squeeze .pane-boxes-annual-report-2011-aisocnet-box h2.pane-title {
+  font-size: 20px !important;
+  font-weight: bold;
+  padding-left: 0;
+  border-bottom: 1px solid #aaa;
+  margin-top: 0px;
+  margin-bottom:0px;
+  padding-bottom: 5px;
+}
+
+div#media-centre #boxes-box-inline-annual_report_2011_aisocnet_box .boxes-box-controls {
+  display: none;
+}
+
+/* Promo block at bottom */
+#media-centre div#ai-rowbar-bottom div#ai50space {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#media-centre div#container,
+.page-media-centre div#container {
+  padding-bottom: 0;
+  padding-top: 5px;
+}
+
+.page-media-centre #ai-rowbar-bottom {
+  margin-bottom: -1px;
+  margin-left: -1px;
+  padding-left: 0;
+  width: 962px !important;
+}
+
+.page-media-centre #icandle-promo-footer .click-button {
+  background-color: #000;
+  padding: 6px;
+  position: relative; 
+  top: 30px;  
+}
+
+.ltr #icandle-promo-footer .click-button {
+  margin-left: 350px;
+  margin-right: 30px;
+}
+
+.rtl #icandle-promo-footer .click-button {
+  margin-right: 350px;
+  margin-left: 30px;
+}
+
+.page-media-centre #icandle-promo-footer .click-button a {
+  color: #fff;
+}
+  
+
+.page-media-centre-media-contacts-national-press-offices #h2h-footer,
+.page-media-centre-media-contacts-international-press-office #h2h-footer,
+.page-media-centre-forward-planning #h2h-footer,
+.page-media-centre-faq #h2h-footer,
+.page-press-releases #h2h-footer,
+.page-media-centre-key-facts #h2h-footer,
+.media-centre-press-release #h2h-footer {
+  margin-bottom: -16px;
+  margin-left: -1px;
+  padding-left: 0;
+  width: 962px !important;
+  border-bottom: 5px solid #999999;
+}
+
+#media-centre #ai50space #h2h-footer,
+#media-centre #ai50space #footer-base {
+  float: left;
+  width: 962px;
+}
+
+.page-media-centre-media-contacts-national-press-offices #footer-base,
+.page-media-centre-media-contacts-international-press-office #footer-base, 
+.page-media-centre-faq #footer-base, 
+.page-media-centre-forward-planning #footer-base, 
+.page-press-releases #footer-base,
+.page-media-centre-key-facts #footer-base {
+  display: none;
+}
+
+/* Move the yellow flag */
+#media-centre .ai50logo {
+  margin-top: -30px;
+}
+
+/* Experts */
+.section-media-centre .contact-ipo {
+  background-color: #ff0;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.section-media-centre .topic-link {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.section-media-centre .topic-name {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.section-media-centre .label,
+.section-media-centre span.language {
+  font-weight: bold;
+}
+
+.section-media-centre span.label {
+  color: #888;
+}  
+
+.section-media-centre #amnesty-media-center-ipo span.label {
+  color: #000;
+  font-weight: normal;
+}
+
+.section-media-centre .enlarge-note {
+  background-color: #000000;
+  margin-top: -20px;
+  font-size: 12px;
+  line-height: 12px;
+  margin-left: 152px;
+  margin-top: -20px;
+}
+
+.ltr .section-media-centre .enlarge-note {
+  text-align: right;
+}
+
+.rtl .section-media-centre .enlarge-note {
+  text-align: left;
+}
+
+.section-media-centre img.icon-enlarge {
+  bottom: auto;
+  position: relative;
+  right: 0;
+  left: 0;
+}
+
+
+.ltr .section-media-centre .enlarge-note img.icon-enlarge {
+  float: right;
+}
+
+.rtl .section-media-centre .enlarge-note img.icon-enlarge {
+  float: left;
+}
+
+.section-media-centre .enlarge-note .enlarge-text {
+  color: #fff;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+}
+
+.section-media-centre .enlarge-note a.enlarge-link {
+  background-color: #000;
+}
+
+/* Frig the experts menu item for Experts subpages */
+.page-media-centre-experts-regions #ai-rowbar-top .menu li.first +li +li +li, 
+.page-media-centre-experts-topics #ai-rowbar-top .menu li.first +li +li +li,
+.page-media-centre-experts-leadership #ai-rowbar-top .menu li.first +li +li +li {
+    background-color: #ccc !important;
+}
+
+/* Forward Planning */
+.page-media-centre-forward-planning .forward-planning-months {
+  margin-bottom: 40px;
+}
+
+.page-media-centre-forward-planning #media-centre .month-link .month {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  background-color: #ff0;
+}
+
+.page-media-centre-forward-planning #media-centre .month-link .month a {
+  color: #000;
+}
+
+.page-media-centre-forward-planning #media-centre .month-link .fp-date {
+  font-weight: bold;
+}
+
+.page-media-centre-forward-planning #media-centre .month-link .fp-title {
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.page-media-centre-forward-planning #media-centre .month-link .fp-story {
+  border-bottom: 1px solid #aaa;
+}
+
+.page-media-centre-forward-planning #media-centre .month-link .fp-story,  
+.page-media-centre-forward-planning #media-centre .month-link .fp-story-last {
+  margin-top: 20px;
+}
+
+/* FAQ */
+
+.page-media-centre-faq .pane-media-centre-faq-panel-pane-1 {
+  margin-bottom: 20px;
+}
+
+.page-media-centre-faq .pane-media-centre-faq-panel-pane-1 .views-field-title {
+}
+
+.page-media-centre-faq .pane-media-centre-faq-panel-pane-2 .views-field-title {
+  background-color: #ff0;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 15px;
+}
+
+#media-centre .pane-media-centre-faq-panel-pane-2 .views-field-title span.field-content a {
+  color: #000;
+}
+
+.page-media-centre-faq .pane-media-centre-faq-panel-pane-2 .views-field-phpcode {
+  margin-bottom: 10px;
+}
+
+.page-media-centre-faq .view-countryjoin .view-header {
+  font-weight: bold;
+}
+
+.ltr .page-media-centre-faq .pane-media-centre-faq-panel-pane-2 .views-field-phpcode {
+  text-align: right;
+}
+
+.rtl .page-media-centre-faq .pane-media-centre-faq-panel-pane-2 .views-field-phpcode {
+  text-align: left;
+}
+
+
+/* Key Facts */
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-1 .column {
+  width: 310px;
+}
+
+.ltr .page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-1 .column {
+  float: left;
+  margin-right: 25px;
+}
+
+.rtl .page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-1 .column {
+  float: right;
+  margin-left: 25px;
+}
+
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-1 .field-node_title, 
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-2 .field-node_title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-1 .field-node_revisions_body, 
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-2 .field-node_revisions_body {
+  font-size: 12px;
+}
+
+.ltr .page-media-centre-key-facts #boxes-box-inline-media_centre_key_facts_current_campaigns ul {
+  padding-left: 12px;
+}
+
+.rtl .page-media-centre-key-facts #boxes-box-inline-media_centre_key_facts_current_campaigns ul {
+  padding-right: 12px;
+}
+
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-1 .row {
+  margin-bottom: 10px;
+}
+
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-2 .column {
+  width: 210px;
+}
+
+.page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-2 .row {
+  margin-bottom: 10px;
+}
+
+.ltr .page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-2 .column {
+  float: left;
+  margin-right: 16px;
+}
+
+.rtl .page-media-centre-key-facts .pane-media-center-key-facts-panel-pane-2 .column {
+  float: right;
+  margin-left: 16px;
+}
+
+.ltr .page-media-centre-key-facts .view-content .views-row {
+  float: left;
+}
+
+.rtl .page-media-centre-key-facts .view-content .views-row {
+  float: right;
+}
+
+.page-media-centre-key-facts .view-content .views-field-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* MULTIMEDIA */
+
+.view-media-centre-multimedia .views-exposed-form {
+  margin-top: 10px;
+}
+
+.view-media-centre-multimedia .views-multimedia-item {
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.view-media-centre-multimedia .views-multimedia-sticky {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.view-media-centre-multimedia .field-video {
+  float: left;
+  margin-right: 10px;	
+  width: 220px;
+}
+
+.view-media-centre-multimedia .col23 {
+  width: 450px;  
+  float: left;
+}
+
+.view-media-centre-multimedia .views-multimedia-item .clearer {
+  margin-left: 230px;
+  border-bottom: 1px solid #aaa;  
+  padding-bottom: 10px;
+}
+
+.view-media-centre-multimedia .col2 {
+  width: 274px;  
+  float: left;
+}
+
+.view-media-centre-multimedia .views-multimedia-sticky .field-video {
+  float: right;
+  margin-left: 10px;	
+}
+
+.view-media-centre-multimedia .vert-bar {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ltr .view-media-centre-multimedia .amnesty-multimedia-data {
+  width: 240px;
+  float: left;
+}
+
+.view-media-centre-multimedia .field-field_date_value {
+  font-weight: bold;
+}
+
+.view-media-centre-multimedia .field-title {
+  font-size: 20px;
+}
+
+.view-media-centre-multimedia .views-multimedia-item .field-teaser {
+  margin-bottom: 20px;
+  width: 262px;
+  float: left;
+}
+
+.view-media-centre-multimedia .amnesty-multimedia-transcript {
+  float: left;
+}
+
+.promoted-video .view-media-centre-multimedia .views-field-teaser {
+  min-height: 130px;
+}
+
+.view-media-centre-multimedia .links div,
+#media-centre .vc-main .links div {
+  float: left;
+}
+
+.view-media-centre-multimedia .links .field-download,
+#media-centre .vc-main .links-download {
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #000000;
+}
+
+#media-centre .view-media-centre-multimedia .field-download a,
+#media-centre .view-media-centre-multimedia .field-download a:link,
+#media-centre .view-media-centre-multimedia .field-download a:hover,
+#media-centre .view-media-centre-multimedia .field-download a:visited,
+#media-centre .vc-main .links-download a,
+#media-centre .vc-main .links-download a:link,
+#media-centre .vc-main .links-download a:hover,
+#media-centre .vc-main .links-download a:visited {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.view-media-centre-multimedia .views-field-transcript {
+  clear: both;
+}
+
+.view-media-centre-multimedia .field-copyright {
+  clear: both;
+  min-height: 20px;
+}
+
+#media-centre .field-taxonomy {
+  float: left;
+  width: 160px;	
+  font-size: 11px;
+  font-weight: bold;
+  color: #888;
+  margin-top: 16px;
+}
+
+#media-centre .amnesty-taxonomy-label,
+#media-centre .amnesty-taxonomy-terms  {
+  display: inline;
+}
+
+/* Video Clip */
+#media-centre .ntype-video-clip .vc-copyright {
+  color: #888;
+}
+
+#media-centre .ntype-video-clip .vc-main {
+  margin-top: 20px;
+}
+  
+#media-centre .vc-body {
+  width: 490px;
+}
+
+.ltr #media-centre .vc-body {
+  float: left;
+  margin-right: 10px;
+}
+
+.rtl #media-centre .vc-body {
+  float: right;
+  margin-left: 10px;
+}
+
+#media-centre .vc-taxonomies {
+  width: 180px;
+}
+
+.ltr #media-centre .vc-taxonomies {
+  float: left;
+}
+
+.rtl #media-centre .vc-taxonomies {
+  float: right;
+}
+
+#media-centre .pane-boxes-annual-report-2011-aisocnet-box  a.facebook {
+  background-position: -30px top;
+  width: 156px;
+}
+
+#media-centre .pane-boxes-annual-report-2011-aisocnet-box  a.twitter {
+  background-position: -186px 0px;
+  width: 156px;
+}
+
+#media-centre .pane-boxes-annual-report-2011-aisocnet-box  a.flickr {
+  background-position: -350px 0px;
+  width: 110px;
+}
+
+#media-centre .pane-boxes-annual-report-2011-aisocnet-box  a.youtube {
+  background-position: -450px 0px;
+  width: 156px;
+}
+
+.section-media-centre #footer-wrapper {
+  background-color: #fff;
+}
+
+.rtl .section-media-centre #footer {
+  float: none;
+}
+
+.section-media-centre #footer-wrapper #footer-copyright {
+  color: #000;
+}
+
+div.mc-air12-promo {
+  margin-top: -10px;
+}
+
+div.mc-presspack-promo {
+  border: 1px solid #aaa;
+  margin-bottom: 30px;
+  margin-top: -5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+div.mc-presspack-promo a {
+  font-weight: normal;
+}
+
+div.mc-presspack-promo img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ltr div.mc-presspack-promo img {
+  float: left;
+}
+
+.rtl div.mc-presspack-promo img {
+  float: right;
+}
+
+div.mc-presspack-promo #ar {
+  font-weight: bold;
+  margin-top: 15px;
+}

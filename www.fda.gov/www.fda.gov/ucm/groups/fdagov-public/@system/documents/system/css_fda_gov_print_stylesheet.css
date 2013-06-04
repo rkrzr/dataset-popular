@@ -1,0 +1,59 @@
+@charset utf-8;
+/* -------------------------Begin CSS Print Layout page Definition------------------------- *//*
+	Note: The W3C CSS Validation Service is accessible via this website:
+	http://jigsaw.w3.org/css-validator/
+*//* Hide certain div/class */.clearfloat,.more_links,#hhs-masthead,#fda-rightmast,#fda-topmenu,#pagetools_top,.left-column,.right-column,#footer .hmenu,#bottom_corner,.box_top,.box_bottom,.searchlable,a.quicklinks,#sp-main-admin-left,#sp-main-admin-right,.wcm-contributor-page-menu,.wcm-contributor-menu-item,.wcm-contributor-menu-item-icon,#page-options,.section_search,.print-pagetitle,.rss_indicator,.wcm-contributor-banner{display:none}
+/**/body *{height:auto;border:none;background:none;margin:0;padding:0}
+body{font-size:10pt;font-family:Verdana, Arial, Helvetica, sans-serif;color:#484138;background:#fff;line-height:120%;width:100%}
+a{text-decoration:none;color:blue}
+img{behavior:none}
+.head1,.head2,.head3,.head4,h1,h2,h3,h4,h5,h6,.subcontent_head4,.head1_body{width:100%;color:#000;padding:13px 0 0;font-weight:700;font-family:Arial, Helvetica, sans-serif}
+.head1_body{font-size:12pt;color:#484138}
+.head1{color:#BC4804}
+.head1,h1{font-size:13pt}
+.head2,h2{font-size:12pt}
+.head3,h3{font-size:11pt}
+.head4,h4,.subcontent_head4{font-size:10pt;color:#333}
+.headfeature{width:auto;font-weight:700;font-size:12pt;color:#484138;padding:1% 0}
+#feature{height:275px;width:420px}
+#feature #photo{height:225px;padding:13px 0 0}
+.feature{width:31%;float:left;padding:0 1% 2% 0}
+.feature a img{display:block;width:175px;height:113px;margin:0 0 15px}
+#topic_page_title{position:relative;bottom:-25px}
+p{padding:3px 0}
+.blacktext{color:#484138}
+.boldtext{color:#484138;font-weight:700}
+ul,ol{padding:3px 0 3px 5%}
+ul li,ol li{padding:2px 0}
+ul li ol,ul li ul,ol li ul,ol li ol{padding:2px 0 2px 5%}
+/**/.hmenu{width:98%;font-family:Trebuchet MS, Arial, Helvetica, sans-serif;clear:both;padding:.5% 0 1.8% 15px}
+/*.hmenu a:link {
+	color:#12357e;
+}
+.hmenu a:visited {
+	color:#12357e;
+}*/.hmenu ul{color:#484138;margin:0;padding:0}
+.hmenu ul li{display:inline;margin:0;padding:0 0 0 10px}
+#hhs-masthead-print{width:auto;height:50px}
+#FDAlogo img{position:relative;left:-7px}
+#fda-breadcrumbs{width:98%;clear:both;position:relative;top:-19px}
+#fda-breadcrumbs .hmenu a{text-decoration:underline}
+#fda-breadcrumbs .hmenu,#fda-breadcrumbs .hmenu ul li{background:none;margin:0;padding:0}
+/**/.pg_description{font-style:italic}
+.index_list{padding:1%;font-weight:700;background:none;border-bottom:1px #ccc groove}
+.index_list a{color:#12357e;text-transform:uppercase;text-decoration:none}
+.index_list ul{margin:0;padding:0;color:#BC4804}
+.index_list ul li{display:inline;margin:0;padding:1% 3px}
+.middle-column,.middle-column_2,.middle-column_3,.sub-left-column,.sub-right-column,.box{width:100%;margin:1% 0}
+.box .head3,.box h3{margin:0;padding:0}
+.box{clear:both;padding:5px 0}
+#Sub_Content div{padding:0 0 1%}
+#footnote{border-top-width:2px;border-top-style:groove;border-top-color:#000;padding:1%}
+#footnote ol{padding:0 70px}
+* html #footnote ol{padding:0 55px}
+#footnote li{padding:5px 0}
+.footnotes{padding:0 0 0 2px}
+.list-horizontal li{display:inline}
+.list-no-bullets li{display:inline;list-style-type:none}
+#header{background:url(img_fdagov_masthead_base.png) repeat-x scroll left top transparent;margin:0 -20px;padding:0 20px}
+/**//* -----------------------------END CSS Print Layout page Definition------------------------- */

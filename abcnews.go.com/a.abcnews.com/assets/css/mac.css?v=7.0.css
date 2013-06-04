@@ -1,0 +1,119 @@
+#shield #mploading{
+display:none;
+}
+.utilCluster #sharing {padding-right:2px;}
+#results-form #search_categories, #results-form #search_race {top:0;}
+		
+.freeform .wi-item li {background-position:-5px 0;}
+	
+.toolbox .share .redd .tool,.toolbox .share .face .tool, .toolbox .share .twit .tool, .toolbox .share .stum .tool, .toolbox .share .more .tool{
+	padding-top:2px;
+	}
+
+	#blogMain .toolbox .share .more .tool {top:-16px;
+	padding-top:1px;
+	}
+
+.displayName{top:28px;}
+
+.playerContainer .relatedlinks .relatedlabel {
+	margin-left:-15px;
+} 
+
+#mailform .mailform #birthdate, #mailform .mailform #custom-birthdate {width:121px;}
+#mailform .mailform #birthday, .mailform .customNum {width:48px;}
+
+#mailform .mailform #birthdate, #mailform .mailform #custom-birthdate, #mailform .mailform #birthday, .mailform .customNum, #mailform .mailform #gender, #mailform .mailform #addressState {padding:1px;
+height:22px;
+}
+
+#mailform .mailform #data2 input.radiofield, #mailform .mailform #data2 input.checkboxfield{width:20px;height:16px;position:relative;top:2px;}
+#mailform .mailform #swpst10 input.checkboxfield{width:20px;height:16px;position:relative;top:2px;}
+
+.arrow-raquo {top:0;}
+
+	.shabber-solo .widget_head .title {
+		padding-top:8px;
+	}	
+	
+.toolbox {
+	float:none;
+}	
+.toolbox .wrapper .label {
+	padding-top:2px;
+}
+.toolbox .wrapper a {
+	line-height:17px !important;
+}
+.toolbox a.toolbar-more, .toolbox a.toolbar-more-on {
+	margin-left:16px;
+}
+
+.social .socialDock .container {
+	padding-left:10px;
+}
+
+.paginator {position:relative;top:11px;}
+	.paginator a {display:inline-block;}
+
+.story_player_carousel .widget_controls .paginator {position:relative;top:12px;}
+
+	.story_player_carousel .widget_controls a.previous, .story_player_carousel .widget_controls a.next {top:7px;}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0){
+		.paginator {top:12px !important;}
+		.shabber .widget_head .title {padding-top:16px;}
+		.strip-4 .paginator {top:54px !important;}
+	} /*safari,chrome*/
+	
+	@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){
+			.paginator {top:7px;}
+			.strip-4 .paginator {top:50px;}
+			.story_player_carousel .widget_controls .paginator {top:9px;}
+			} /*opera*/
+			
+.abc_wide .strip-4 .paginator {top:33px !important;}
+
+#s7_nav {margin-top:2px;}			
+
+	#s7_nav a {padding:3px 6px 2px;}
+	
+#story_core #more-coverage li {padding:2px 20px 8px 8px;}
+
+#story_core #more-coverage li.relVideo {background-position:0 -1px;
+padding-left:22px;
+}
+
+.share_bottom .share-group-2 .share-btn-2 {line-height:19px;}
+
+.indexv2 .widget_head .title, .widget_head_1 .title, .indexv2 .widget_head_short .title {top:-2px;}
+.widget_head_2 .title {top:5px;}
+
+#chartWrapper #chartData {top:80px;}
+#chartWrapper .chartData_Oscars {top:103px !important;right:204px !important;}
+	#chartWrapper .chartData_Oscars .candidate_data {line-height:14px;}
+
+.oscars_2012 .ld2 {left:228px !important;}
+.oscars_2012 .ld3 {left:249px !important;}
+
+.pcw_more_results {top:23px !important;}
+
+.pcw_more_results .results_arrow {top:9px;}
+
+.races_2012 .ld1 {left:146px !important}
+.races_2012 .ld2 {left:185px !important}
+.races_2012 .ld3 {left:207px !important}
+
+#races_2012 .ld1 {left:161px !important}
+#races_2012 .ld2{left:200px !important}
+#races_2012 .ld3{left:222px !important}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#races_2012 .ld1 {left:160px !important}
+	#races_2012 .ld2{left:197px !important}
+	#races_2012 .ld3{left:219px !important}
+}
+
+
+
+

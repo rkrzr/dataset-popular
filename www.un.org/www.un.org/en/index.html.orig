@@ -1,0 +1,559 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to the United Nations</title>
+<meta name="dc.title" content="United Nations" />
+<meta name="dc.subject" content="UN, United Nations" />
+<meta name="dc.description" content="This is the United Nations homepage. Here you will find related information and links." />
+<meta name="keywords" content="UN, United Nations" />
+<meta name="description" content="This is the United Nations homepage. Here you will find related information and links." />
+<meta name="dc.language" content="EN" />
+<link href="http://static.un.org/css/global_en.css" rel="stylesheet" type="text/css" />
+<link href="http://static.un.org/en/styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.boxSurvey {
+	border: 1px solid #8f8f64;
+	margin-bottom: .6em;
+	/*overflow: auto;*/
+	float: left;
+	width: 100%;
+}
+.boxSurvey h2 {
+	background-color:#eecaaa;
+}
+.boxSurvey p {
+	padding: .1em;
+	margin: .5em;
+}
+.boxSurvey ul li {
+	border-bottom: 1px dotted #8f8f64;
+	background: url(images/bullet.gif) no-repeat 0 6px;
+	padding-top: .2em;
+	padding-right:0;
+	padding-bottom:.3em;
+	padding-left:.8em;
+	margin-top: 0;
+	margin-right:.4em;
+	margin-bottom:0;
+	margin-left:.8em;
+	color: #333;
+	list-style:none;
+}
+#media {position: relative; height: 15.3em; background-color:#EFF2FC;}
+  #media img {position:static; height: 15.3em; }
+  #photo_video {position:absolute; left:0; top: 0;}
+</style>
+<!--include virtual="inc/head_media_player.html" -->
+<script type="text/javascript" src="/common/scripts/swfobject.js"></script>
+<script language="javascript" type="text/javascript" >
+var flashvars = {
+file:"dailyvideo/2013/dv130503.flv",
+image:"http://www.un.org/webcast/dailyvideo/images/dv130503wss.jpg",
+autostart:"false",
+//repeat:"always",
+//controlbar: "none",
+//dock: "false",
+streamer:"rtmp://webcast-flash.un.org/ondemand",
+//streamer:"rtmp://cp8784.edgefcs.net/ondemand",
+//plugins:"/common/swfs/gapro-1.swf",
+plugins:"http://www.un.org/common/swfs/captions-1.swf,http://www.un.org/common/swfs/gapro-1.swf",
+'captions.file':"http://www.un.org/en/captions/dv130503_English.srt",
+'captions.back': true, 
+'gapro.accountid':"UA-4803886-1",
+stretching: "uniform" 
+};
+var params = {};
+params.play = "false" ;
+params.quality = "high" ;
+params.scale = "noborder" ;
+params.bgcolor = "000000" ;
+params.seamlesstabbing = "true" ;
+params.allowfullscreen = "true" ;
+params.allowscriptaccess = "sameDomain" ;
+var attributes = {};
+attributes.id = "photo_video" ;
+attributes.name = "media" ;
+attributes.styleclass = "video";
+attributes.align = "middle";
+swfobject.embedSWF("http://www.un.org/webcast/swfs/player.swf", "photo_video" , "100%", "100%", "9.0.0" ,false , flashvars, params, attributes);
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4803886-1']);
+  _gaq.push(['_setDomainName', 'un.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-LQCS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-LQCS');</script>
+<!-- End Google Tag Manager -->
+<div id="skiplink">
+  <ul>
+    <li><a href="#aboutun">Skip to About the UN</a></li>
+    <li><a href="#unnews">Skip to UN News</a></li>
+    <li><a href="#resources">Skip to resources</a></li>
+  </ul>
+</div>
+<!-- end skip links -->
+<div id="main">
+  <div id="brandbar">
+    
+<img src="/en/images/unicon.jpg" height="18" width="21" alt="" class="unicon" align="left"/>
+<span class="welcome"><a href="/en/index.shtml">Welcome to the United Nations. It's your world.</a></span>
+<div>
+	<form id="searchfrm" name="gs" method="get" action="http://search.un.org/search" >
+    <input type="hidden" name="ie" value="utf8" />
+    <input type="hidden" name="site" value="un_org" />
+    <input type="hidden" name="output" value="xml_no_dtd" />
+    <input type="hidden" name="client" value="UN_Website_en" />
+    <input type="hidden" name="num" value="10" />
+	<input name="lr" type="hidden" value="lang_en" />
+    <input type="hidden" name="proxystylesheet" id="proxystylesheet" value="UN_Website_en" />
+    <input type="hidden" name="oe" value="utf8" />
+    <label for="search">UN Search</label>
+    <input class="textbox" type="text" name="q" id="search" size="22" onfocus="this.value='';" value="Search UN Website" />
+    <input class="button" type="submit" name="Submit" value="Go" />
+ </form>
+</div>
+   
+  </div>
+  <div id="languages">
+    <ul>
+      <li lang="ar" xml:lang="ar" id="arabic"><a href="/ar/">عربي</a></li>
+      <li lang="zh-cn" xml:lang="zh-cn" id="chinese"><a href="/zh/">中文</a></li>
+      <li lang="en"  xml:lang="en" id="english">English</li>
+      <li lang="fr" xml:lang="fr"><a href="/fr/">Fran&ccedil;ais</a></li>
+      <li lang="ru" xml:lang="ru"><a href="/ru/">Русский</a></li>
+      <li lang="es" xml:lang="es"><a href="/es/">Espa&ntilde;ol</a></li>
+    </ul>
+  </div>
+  <!-- end languages -->
+  <div id="topbanner">
+    <h1 id="hiddentitle"><span></span>United Nations: We the peoples... <br />
+      A stronger UN for a better world.</h1>
+  </div>
+  <!-- end topbanner -->
+  <div class="clear">&nbsp;</div>
+  <div id="thematicnav">
+    <!-- Thematic navigation (horizontal) for the UN Homepage -->
+<ul>
+  <li id="peace"><a href="/en/peace/">Peace&nbsp;and&nbsp;Security </a> </li>
+  <li id="development"><a href="/en/development/">Development </a> </li>
+  <li id="rights"><a href="/en/rights/">Human&nbsp;Rights </a> </li>
+  <li id="humanitarian"><a href="/en/humanitarian/">Humanitarian&nbsp;Affairs </a> </li>
+  <li id="law"><a href="/en/law/">International&nbsp;Law </a> </li>
+</ul>
+
+  </div>
+        <!--<div style="font-size: 1.1em; font-weight: bold; padding-top: 8px" align="center">UN to investigate possible use of chemical weapons in Syria, Ban says</div>-->
+
+  <div class="clear">&nbsp;</div>
+  <!-- end thematicnav -->
+  <!-- end thematic navigation -->
+  <!-- end banner -->
+  <div id="homepagecontent">
+    <div id="aboutun">
+      <div class="aboutun1">
+<h2>Your United Nations</h2>
+<ul>
+    <li><a href="../en/aboutun/index.shtml">UN at a Glance </a></li>
+    <li><a href="documents/charter/index.shtml">UN Charter<!-- and History --> </a></li>
+    <li><a href="../en/aboutun/structure/index.shtml">Structure and Organization </a></li>
+    <li><a href="../en/members/index.shtml">Member States</a></li>
+    <li><a href="http://www.un.org/en/strengtheningtheun/">Strengthening the UN</a></li>
+    <li><a href="http://unic.un.org/">UN Information Centres </a></li>
+    <li><a href="http://www.un.org/events/calendar/">Events&nbsp;Calendar</a></li>
+    <li><a href="../en/faq/index.shtml">Frequently Asked Questions </a></li>
+</ul>
+</div>
+<div class="sg">
+<h2><a href="http://www.un.org/sg/">Secretary-General</a></h2>
+<ul>
+    <li><a href="../en/mainbodies/secretariat/index.shtml">Secretariat</a></li>
+    <li class="indent"><a href="http://www.un.org/News/ossg/">Spokesperson</a> <!--<li><a href="http://www.un.org/sg/askthesg/">Ask the Secretary-General</a></li>--></li>
+</ul>
+</div>
+<div class="aboutun2">
+<h2>Main Bodies</h2>
+<ul>
+    <li><a href="http://www.un.org/ga/">General Assembly </a>
+    <ul>
+        <li><a href="http://www.un.org/en/ga/president/67/">President</a></li>
+    </ul>
+    </li>
+    <li><a href="http://www.un.org/en/sc/">Security Council </a>
+    <ul>
+        <li><a href="http://www.un.org/en/sc/presidency/">President </a></li>
+    </ul>
+    </li>
+    <li><a href="http://www.un.org/ecosoc/">Economic &amp; Social Council </a>
+    <ul>
+        <li><a href="http://www.un.org/ecosoc/president/bio.shtml">President </a></li>
+    </ul>
+    </li>
+    <li><a href="../en/mainbodies/trusteeship/">Trusteeship Council </a></li>
+    <li><a href="http://www.icj-cij.org/">International Court of Justice </a></li>
+    <li class="more"><a href="../en/mainbodies/index.shtml">More info &gt;&gt;</a></li>
+</ul>
+</div>
+<div class="aboutun3">
+<h2>The UN and . . .</h2>
+<ul>
+    <li><a href="../en/civilsociety/index.shtml">Civil Society</a></li>
+    <li><a href="http://business.un.org/">Business Partnerships </a></li>
+    <li><a href="http://www.unglobalcompact.org/">Global Compact </a></li>
+    <li><a href="http://www.un.org/partnerships/">Partnerships </a></li>
+    <li><a href="ruleoflaw/index.shtml">Rule of Law </a></li>
+    <li><a href="http://www.un.org/en/sustainability/">Sustainability</a></li>
+    <li><a href="http://www.un.org/gmun/">Global Model UN </a></li>
+    <li><a href="http://www.un.org/Pubs/CyberSchoolBus/">CyberSchoolBus </a></li>
+</ul>
+</div>
+
+    </div>
+    <!-- end aboutun -->
+    <div id="unnews">
+      <div id="latestnewsbox">
+        <!--<div class="headline">This week at the United Nations in photos</div>-->
+
+        <link href="/css/photo_gallery.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="JavaScript"> function hideScriptDisabled() {document.getElementById("scriptDisabled").style.display = "none";}</script><script language="javascript" type="text/javascript" >
+var textFromHeight=30;
+var buttonLineOn="#f60" ;
+var buttonLineOff="#000" ;
+var buttonLineOnStyle="active" ;
+var buttonLineOffStyle=" " ;
+var TimeOut=6000;
+var imgUrl=new Array();
+var imgLink=new Array();
+var imgtext=new Array();
+var imgAlt=new Array();
+var adNum=0;
+var   stop=false;
+ var thisPic = 0;
+imgUrl[1]=' /common/photos/140513-5.jpg ';
+imgtext[1]=' Security Council condemns deadly attack near hospital in Benghazi ';
+imgAlt[1]=' Security Council condemns deadly attack near hospital in Benghazi';
+imgLink[1]=' http://www.un.org/apps/news/story.asp?NewsID=44909 ';
+imgUrl[2]=' /common/photos/140513-1.jpg ';
+imgtext[2]=' UN finds critical shortages of food, other supplies on visit to Syrian village of Houla ';
+imgAlt[2]=' UN finds critical shortages of food, other supplies on visit to Syrian village of Houla';
+imgLink[2]=' http://www.un.org/apps/news/story.asp?NewsID=44904 ';
+imgUrl[3]=' /common/photos/140513-2.jpg ';
+imgtext[3]=' Libya: UN mission strongly condemns deadly bombing in Benghazi ';
+imgAlt[3]=' Libya: UN mission strongly condemns deadly bombing in Benghazi';
+imgLink[3]=' http://www.un.org/apps/news/story.asp?NewsID=44888 ';
+imgUrl[4]=' /common/photos/140513-3.jpg ';
+imgtext[4]=' Bosnia and Herzegovina lags in progress to regional integration, Security Council told ';
+imgAlt[4]=' Bosnia and Herzegovina lags in progress to regional integration, Security Council told';
+imgLink[4]=' http://www.un.org/apps/news/story.asp?NewsID=44906&Cr=bosnia+and+herzegovina&Cr1=#.UZKqskor-Vo ';
+imgUrl[5]=' /common/photos/140513-4.jpg ';
+imgtext[5]=' South Sudan: UN voices deep concern at deteriorating situation in Pibor town ';
+imgAlt[5]=' South Sudan: UN voices deep concern at deteriorating situation in Pibor town';
+imgLink[5]=' http://www.un.org/apps/news/story.asp?NewsID=44900 ';
+function changeimg(n)
+{
+if (n > 0) {    //check if the slideshow is loaded at the first time.
+adNum=n;
+}else {
+adNum=n + 1;	
+}
+thisPic = adNum;   //set the position of the image
+try
+{
+window.clearInterval(theTimer);
+}
+catch (e){}
+adNum=adNum-1;
+nextAd();
+if (n > 0 && stop == false) {   //check if the slideshow is paused already, otherwise, stop it.
+stopTran();
+}
+}
+function goUrl()
+{
+window.open(imgLink[adNum],'_self');
+}
+var count=0;
+for (i=1;i<imgUrl.length;i++)
+{
+if( (imgUrl[i]!="") && (imgLink[i]!="")&&(imgtext[i]!="")&&(imgAlt[i]!="") ) {
+count++;
+} else {
+break;
+}
+}
+function playTran()
+{
+if (document.all)
+imgInit.filters.revealTrans.play();
+}
+function   stopTran()
+{
+if(!stop)
+{
+if   (document.all)
+document.getElementById("imgInit").filters.revealTrans.stop();
+clearTimeout(theTimer);
+stop=true;
+document.getElementById("btnPause").src= "/common/images/icons/play_grey_icon.png";
+document.getElementById("btnPause").alt= "play";
+}
+else
+{
+stop=false;
+document.getElementById("btnPause").src= "/common/images/icons/pause_grey_icon.png";
+document.getElementById("btnPause").alt= "pause";
+nextAd();
+}
+}
+var key=0;
+function nextAd()
+{
+if(adNum<count)adNum++ ;
+else adNum=1;
+if( key==0 ){
+key=1;
+} else if (document.all){
+imgInit.filters.revealTrans.Transition=7;
+imgInit.filters.revealTrans.apply();
+playTran();
+}
+document.images.imgInit.src=imgUrl[adNum];
+document.images.imgInit.alt=imgAlt[adNum];
+//document.getElementById('link'+adNum).style.background=buttonLineOn;
+document.getElementById('link'+adNum).className = buttonLineOnStyle;
+for (var i=1;i<=count;i++)
+{if (i!=adNum){
+//document.getElementById('link'+i).style.background=buttonLineOff;
+document.getElementById('link'+i).className = '';
+}
+}
+document.getElementById('focustext').innerHTML=imgtext[adNum];
+if (!stop) {       //check if the control is set to play.
+theTimer=setTimeout("nextAd()", TimeOut);
+}
+else         //if pause, clear the timer.
+{
+clearTimeout(theTimer);
+}
+}
+document.write('<div id="photo">');
+document.write('<div  class="caption_headline"><a href="javascript:goUrl();" style="cursor:hand" id="focustext">'+imgtext[i]+'</a></div>');
+document.write('<a href="javascript:goUrl();"><img style="FILTER: revealTrans(duration=1,transition=5);" width="100%" name="imgInit" ID="imgInit" class="imgClass" border="0"></a></div>');
+document.write('<div ID="setnum" style="display:Block" >');
+document.write('<div id="controls"><a href="javascript:stopTran();"><img src="/common/images/icons/pause_grey_icon.png" width="20" height="20" border="0" id="btnPause" alt="pause" /></a></div>');
+document.write('<ol ID="new">');
+for(var i=1;i<imgUrl.length;i++)
+{
+var linkID=1+i;
+document.write('<li><a id="link'+i+'"  href="javascript:changeimg('+i+')" style="cursor:hand" title="'+imgAlt[i]+'" onFocus="this.blur()">&#9679;</a></li>');
+}
+document.write('</ol >');
+document.write('</div>');
+
+changeimg('0');
+document.onkeydown = keyHit;
+var imgCt = imgUrl.length - 1;
+if (document.layers) {
+		document.captureEvents(Event.KEYDOWN);
+		ltArrow = 28;
+		rtArrow = 29;
+	}
+	else {
+		ltArrow = 37;
+		rtArrow = 39;
+	}
+	function keyHit(evt) {
+		if (evt) {
+			thisKey = evt.which;
+		}
+		else {
+		thisKey = window.event.keyCode;
+		}
+		if (thisKey == ltArrow) {
+			chgSlide(-1);
+		}
+		else if (thisKey == rtArrow) {
+			chgSlide(1);
+		}
+	}
+	function chgSlide(direction) {
+		if (document.images) {
+			thisPic = thisPic + direction;
+			if (thisPic > imgCt) {
+				thisPic = 1;
+			}
+			if (thisPic < 1) {
+				thisPic = imgCt;
+			}
+			changeimg(thisPic);
+		}
+	}
+</script>
+<noscript>
+<ul id="slideshow"><li><div id="photo"><a href="http://www.un.org/apps/news/story.asp?NewsID=44909"><img src="/common/photos/140513-5.jpg"  alt="Security Council condemns deadly attack near hospital in Benghazi" width="110%"  /></a></div><div class="caption"><a href="http://www.un.org/apps/news/story.asp?NewsID=44909" >Security Council condemns deadly attack near hospital in Benghazi</a></div></li><li><div id="photo"><a href="http://www.un.org/apps/news/story.asp?NewsID=44904"><img src="/common/photos/140513-1.jpg"  alt="UN finds critical shortages of food, other supplies on visit to Syrian village of Houla" width="110%"  /></a></div><div class="caption"><a href="http://www.un.org/apps/news/story.asp?NewsID=44904" >UN finds critical shortages of food, other supplies on visit to Syrian village of Houla</a></div></li><li><div id="photo"><a href="http://www.un.org/apps/news/story.asp?NewsID=44888"><img src="/common/photos/140513-2.jpg"  alt="Libya: UN mission strongly condemns deadly bombing in Benghazi" width="110%"  /></a></div><div class="caption"><a href="http://www.un.org/apps/news/story.asp?NewsID=44888" >Libya: UN mission strongly condemns deadly bombing in Benghazi</a></div></li><li><div id="photo"><a href="http://www.un.org/apps/news/story.asp?NewsID=44906&Cr=bosnia+and+herzegovina&Cr1=#.UZKqskor-Vo"><img src="/common/photos/140513-3.jpg"  alt="Bosnia and Herzegovina lags in progress to regional integration, Security Council told" width="110%"  /></a></div><div class="caption"><a href="http://www.un.org/apps/news/story.asp?NewsID=44906&Cr=bosnia+and+herzegovina&Cr1=#.UZKqskor-Vo" >Bosnia and Herzegovina lags in progress to regional integration, Security Council told</a></div></li><li><div id="photo"><a href="http://www.un.org/apps/news/story.asp?NewsID=44900"><img src="/common/photos/140513-4.jpg"  alt="South Sudan: UN voices deep concern at deteriorating situation in Pibor town" width="110%"  /></a></div><div class="caption"><a href="http://www.un.org/apps/news/story.asp?NewsID=44900" >South Sudan: UN voices deep concern at deteriorating situation in Pibor town</a></div></li></ul></noscript>
+
+
+        <!--<div id="medialinks">
+<h2 style="background-color: rgb(239,242,252)">Related</h2>
+<p><a href="http://www.un.org/News/Press/docs/2013/sgsm14999.doc.htm"><acronym title="Secretary-General">SG</acronym>'s message</a><span class="dot">&bull;</span> <a href="http://www.un.org/News/Press/docs/2013/obv1214.doc.htm">Press Release</a><span class="dot">&bull;</span> <a href="http://www.unmultimedia.org/radio/english/2013/05/journalists-call-for-more-protection-on-world-press-freedom-day/">Radio</a><br />
+<a href="http://www.un.org/en/events/pressfreedomday/">World Press Freedom Day</a></p>
+</div>-->
+
+      </div>
+      <!--<div id="medialinksbox">            
+       </div>-->
+       <div class="box"> 
+		<span class="rss"><a href="http://www.un.org/apps/news/rss/index.asp">RSS</a></span> 
+		
+        <h2>In the News</h2>
+		<ul><li><a href="/apps/news/story.asp?NewsID=44906&Cr=bosnia+and+herzegovina&Cr1=">14/05/2013  Bosnia and Herzegovina lags in progress to regional integration, Security Council told</a></li><li><a href="/apps/news/story.asp?NewsID=44900&Cr=pibor&Cr1=">14/05/2013  South Sudan: UN voices deep concern at deteriorating situation in Pibor town</a></li><li><a href="/apps/news/story.asp?NewsID=44907&Cr=syria&Cr1=">14/05/2013  UN human rights chief urges Syrian rebels to end abuses after gruesome video hits Internet</a></li></ul>
+ 
+        
+	<div class="more" style="border-bottom-color:#999999; border-bottom:dotted 1px; margin-bottom:5px;">
+         <p><a href="http://www.un.org/news">More stories from the <strong>UN News Centre</strong>&gt</a></p>
+  </div>
+  
+	<div class="media1">
+		<ul>
+			<li><a href="http://www.un.org/en/unpress/">Press Releases</a></li>
+            <li><a href="/News/ossg/hilites.shtml">Daily Briefing</a></li>
+            <li><a href="http://www.un.org/en/documents/journal.asp">UN Journal</a></li>
+      </ul>
+  </div>
+<div class="media2">
+		<ul>
+			<li><a href="http://webtv.un.org/">Webcast</a></li>
+          <li><a href="http://www.unmultimedia.org/">Multimedia</a></li>
+          <li><a href="http://www.unmultimedia.org/radio/english/index.html">UN Radio</a></li>
+			
+			<!--<li><a href="http://www.unmultimedia.org/">Multimedia</a></li>-->
+			
+		</ul>
+  </div>
+</div>
+
+    </div>
+    <!-- end news -->
+    <div id="resources">
+      <h2 class="box">In Focus</h2>
+<div class="box">
+<ul class="tb_margins">
+    <li class="noline"><a href="http://www.un.org/apps/news/infocusRel.asp?infocusID=150&amp;Body=+Mali+&amp;Body1=">Mali</a></li>
+    <li class="noline"><a href="http://www.un.org/apps/news/infocusRel.asp?infocusID=70&amp;Body=Palestin&amp;Body1=">Situation in the Middle East/Question of Palestine</a></li>
+    <li class="noline"><a href="http://www.un.org/apps/news/infocusRel.asp?infocusID=146&amp;Body=Syria&amp;Body1=">Syria</a></li>
+    <li class="noline"><a href="http://www.un.org/millenniumgoals/">Millennium Development Goals</a></li>
+    <li class="noline"><a href="http://www.un.org/climatechange">Climate&nbsp;Change</a> <!--<li class="noline"><a href="http://www.un.org/apps/news/infocusRel.asp?infocusID=129&amp;Body=North+Africa&amp;Body1=change">Winds of change: North Africa and the Middle East</a></li>--></li>
+</ul>
+</div>
+<!--<p class="noline"><li class="noline"><a href="http://business.un.org/">UN-Business Partnerships </a></li>-->
+<p></p>
+<div class="box">
+<h2>Global Issues</h2>
+<p><a href="/en/globalissues/">Africa... Environment... Women </a></p>
+</div>
+<div id="social_box" class="box">
+<h2>Social Media</h2>
+<ul>
+    <li><a href="http://www.facebook.com/unitednations"><img alt="Facebook Social Media Icon" width="24" height="24" src="http://www.un.org/common/images/icons/ico_facebook_24.png" /></a></li>
+    <li><a href="http://twitter.com/#!/un"><img alt="Twitter Social Media Icon" width="24" height="24" src="http://www.un.org/common/images/icons/ico_twitter_24.png" /></a></li>
+    <li><a href="http://www.youtube.com/unitednations"><img alt="Youtube Social Media Icon" width="24" height="24" src="http://www.un.org/common/images/icons/ico_youtube_24.png" /></a></li>
+    <li><a href="http://www.flickr.com/photos/un_photo/"><img alt="Flickr Social Media Icon" width="24" height="24" src="http://www.un.org/common/images/icons/ico_flickr_24.png" /></a></li>
+    <li><a href="http://gplus.to/unitednations"><img alt="Google Plus Social Media Icon" width="24" height="24" src="http://www.un.org/common/images/icons/ico_google_24.png" /></a></li>
+    <li><a href="http://www.un.org/social/"><img alt="Link to other UN Social Media " width="24" height="24" src="http://www.un.org/common/images/icons/ico_more_24.png" /></a></li>
+</ul>
+</div>
+<!--
+<div class="boxSurvey">
+<h2 style="background-image:none;background-color: #eecaaa;">UN Website Survey </h2>
+<p><a href="http://unic.un.org/ecru/website/2009/english/">We want to hear from you.<br />
+  Tell us what you think about our website.</a> </p>
+</div>
+-->
+<div class="box">
+<h2>Resources and Services</h2>
+<div class="reslinks">
+<div class="resources1">
+<ul>
+    <li><a href="documents/">Documents </a></li>
+    <li><a href="http://www.un.org/Depts/Cartographic/english/htmain.htm">Maps </a></li>
+    <li><a href="/en/employment/">Employment </a></li>
+    <li><a href="http://www.un.org/Depts/ptd/">Procurement </a></li>
+    <li><a href="http://unstamps.un.org">Stamps</a></li>
+    <li><a href="http://www.un.org/en/media/accreditation/">Media Accreditation </a></li>
+</ul>
+</div>
+<div class="resources2">
+<ul>
+    <li><a href="http://www.un.org/Depts/dhl/">Library</a></li>
+    <li><a href="/en/publications/">Publications</a></li>
+    <li><a href="https://unp.un.org/bookshop/">Bookshop</a></li>
+    <li><a href="http://www.un.org/Depts/OHRM/sds/internsh/index.htm">Internships</a></li>
+    <li><a href="databases/">Databases</a></li>
+    <li><a href="http://visit.un.org">Visiting UN Headquarters</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div></div>
+
+      <div class="box">
+<h2>Conferences, Meetings, Events</h2>
+<ul class="margins">
+    <li class="confitem"><a href="http://www.un.org/en/ga/info/meetings/67schedule.shtml">UN&nbsp;General Assembly 67th session</a></li>
+    <li class="confitem"><a href="http://www.un.org/en/sc/programme/">UN Security Council meetings</a></li>
+</ul>
+<div class="more"><a href="http://www.un.org/en/events">More Conferences, Meetings and Events&gt;<br />
+</a></div>
+</div>
+
+      <div class="box">
+<h2>Recent Additions</h2>
+<ul class="margins">
+    <li class="confitem"><a href="http://www.un.org/en/events/happinessday/">International Day of Happiness (20 March)</a></li>
+    <li class="confitem"><a href="http://www.un.org/en/events/forestsday/">International Day of Forests (21 March)</a></li>
+   </ul>
+<div class="more"><a href="/en/additions">More Recent Additions &gt;</a></div>
+</div>
+
+    </div>
+    <!-- end resources -->
+  </div>
+  <!-- end homepagecontent -->
+  <div id="footer2">
+    <ul>
+        <li><a href="/en/aboutun/copyright/">Copyright </a> | </li> 
+        <li><a href="/en/aboutun/terms/">Terms of Use </a> | </li> 
+        <li><a href="/en/aboutun/privacy/">Privacy Notice </a> | </li> 
+        <li><a href="/en/siteindex/">Site Index </a> | </li> 
+        <li><a href="/en/aboutun/fraudalert/">Fraud Alert </a> | </li> 
+		<li><a href="/en/aboutun/help/">Help </a> | </li> 
+        <li><a href="/en/contactus/">Contact Us </a></li>
+</ul> 
+  </div>
+  <!-- end footer -->
+</div>
+<!-- end main -->
+ 
+</body>
+</html>

@@ -1,0 +1,39 @@
+// http://james.padolsey.com/javascript/regex-selector-for-jquery/
+jQuery.expr[':'].regex = function(elem, index, match) {
+    var matchParams = match[3].split(','),
+        validLabels = /^(data|css):/,
+        attr = {
+            method: matchParams[0].match(validLabels) ? 
+                        matchParams[0].split(':')[0] : 'attr',
+            property: matchParams.shift().replace(validLabels,'')
+        },
+        regexFlags = 'ig',
+        regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g,''), regexFlags);
+    return regex.test(jQuery(elem)[attr.method](attr.property));
+}
+
+$('document').ready(function() {
+	try {
+		$('a:regex(href, \.(doc|docx*|xls|xlsx*|ppt|pptx*|exe|zip)$)').click(function () {
+			_gaq.push(['_trackEvent', 'download', 'click', (this.pathname.substring(0,1)=='/'?this.pathname:'/'+this.pathname)]);
+		});
+
+		$('a:regex(href, \.(pdf)$)').click(function () {
+			_gaq.push(['_trackPageview', (this.pathname.substring(0,1)=='/'?this.pathname:'/'+this.pathname)]);
+		});
+		
+		$('a[href^="mailto:"]').click(function () {
+			_gaq.push(['_trackEvent', 'email', 'click', this.href.replace(/mailto:/, "")]);
+		});
+		
+		$('a[href^="http\\:\\/\\/"]').click(function () {
+			if (location.hostname != this.href.hostname) {
+				_gaq.push(['_trackEvent', 'outbound', 'click', this.href.replace(/http:\/\//, "")]);
+			}
+		});
+	} catch (err) {
+		if (!!(window.console && window.console.log)) {
+			window.console.error(err);
+		}
+	}
+});

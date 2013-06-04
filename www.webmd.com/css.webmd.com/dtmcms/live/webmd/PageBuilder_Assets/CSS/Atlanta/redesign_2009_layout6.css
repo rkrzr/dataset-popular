@@ -1,0 +1,48 @@
+/* START overrides to current layout.css to allow for new site look and design */ 
+#contentBackground_fmt {
+width:968px;
+margin-left:14px;
+}
+#mainBottom_fmt {
+clear:both;
+display:block;
+}
+#mainBottom_fmt img {
+display:none;
+}
+/* START definitions of the areas to get correct placement */
+#navColumn_area {
+margin-left:-659px;
+width:157px;
+}
+#mainContent_area {
+margin-left:157px;
+width:502px;
+}
+#thirdCol_area {
+margin:0px;
+width:308px;
+}
+/* END definitions of the areas to get correct placement */
+
+/* START definitions of the ctrs to get correct left and right gutters */
+#navColumn_ctr {
+margin-left:9px;
+width:148px;
+}
+#mainContent_ctr {
+margin-left:4px;
+width:494px;
+}
+#thirdCol_ctr {
+width:300px;
+}
+/* cwpad is in here to allow old 494 wide modules to fit into the new design. All new cw modules should get this wrapper */
+.cwpad_09 {
+clear:both;
+margin-left:6px;
+width:482px;
+}
+/* END definitions of the ctrs to get correct left and right gutters */
+
+/* END overrides to current layout.css to allow for new site look and design */

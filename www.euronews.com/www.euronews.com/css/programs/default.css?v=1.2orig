@@ -1,0 +1,158 @@
+.programsWrapper
+      {
+      padding:0 10px 0 9px;
+      }
+
+.programsWrapper h1.blockTitle
+      {
+      color: #000000;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: none;
+      }
+
+.programs-listbox-block
+      {
+      background-color: #EEEEEE;
+      font-weight: bold;
+      padding: 6px;
+      }
+
+.programs-listbox-block select
+      {
+      display: inline;
+      margin-left: 10px;
+      width: auto;
+      }
+
+.programsWrapper ul,
+.programsWrapper ul li
+.programsWrapper ul li ul,
+.programsWrapper ul li ul li
+{
+list-style-type:none;
+margin-left:0;
+margin-right:0;
+}
+.programsWrapper ul li span.first-letter,
+.programsWrapper ul li ul li h2.programTitle
+{
+font-size: 30px;
+}
+.programsWrapper ul li ul li h2.programTitle
+{
+font-size: 30px;
+margin: 0;
+}
+.programsWrapper ul li ul li h2.programTitle a
+{
+font-weight:normal;
+}
+.programsWrapper ul li span.first-letter
+{
+border-bottom: 1px solid #999999;
+color: #999999;
+display: block;
+line-height: 30px;
+margin: 20px 0 0;
+padding: 0;
+}
+.programsWrapper ul li ul li
+{
+margin-left:0;
+height:auto;
+	border-bottom:1px solid #eee;
+}
+.programsWrapper ul li ul li a.imgWrap
+{
+/*display:block;
+float:left;
+width:160px;*/
+}
+.programsWrapper ul li ul li div.titleWrap
+{
+display:block;
+margin: 0 0 0 170px;
+position:relative;
+height:90px;
+}
+.programsWrapper ul li ul li div.titleWrap h3.artTitle
+{
+margin: 0;
+}
+.programsWrapper ul li ul li div.titleWrap h3.artTitle a,
+.programsWrapper ul li ul li div.titleWrap p
+{
+font-size:12px;
+margin: 0;
+text-shadow:none;
+}
+
+.programsListTable li ul li a.imgWrap{
+	float:none;
+	font-weight:normal;
+	padding:10px 0;
+	display:block;
+	*height:90px;
+	*margin-top:-8px;
+	
+	-moz-transition-duration: 0.15s, 0.15s;
+	-moz-transition-property: background-color,text-decoration,background-position;
+	-moz-transition-timing-function:ease-in;
+	-moz-transition-delay: 0.15s;
+	
+	-webkit-transition-duration: 0.15s, 0.15s;
+	-webkit-transition-property: background-color,text-decoration,background-position;
+	-webkit-transition-timing-function:ease-in;
+	-webkit-transition-delay: 0.15s;
+	
+	-o-transition-duration: 0.15s, 0.15s;
+	-o-transition-property: background-color,text-decoration,background-position;
+	-o-transition-timing-function:ease-in;
+	-o-transition-delay: 0.15s;
+	
+	transition-duration: 0.15s, 0.15s;
+	transition-property: background-color,text-decoration,background-position;
+	transition-timing-function:ease-in;
+	transition-delay: 0.15s;
+	
+	background-image:url(../../media/top-story-red-dot.gif);
+	background-repeat:no-repeat;
+	background-position:98% 93%;
+}
+.programsListTable li ul li a:active{
+	text-decoration:none;
+}
+.programsListTable li ul li a.imgWrap:hover{
+	text-decoration:none;
+	background-color:#fcf5f9;
+	-moz-transition-delay: 0s;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	transition-delay: 0s;
+	background-position:99% 93%;
+}
+.programsListTable li ul li a.imgWrap:hover h2{
+	color:#525252;
+}
+.programsListTable li ul li a.imgWrap span{
+	font-weight:bold;
+}
+.programsListTable li ul li a.imgWrap img{
+	float:left;
+}
+.programsListTable li ul li a.imgWrap div{
+	float:right;
+	width:435px;
+	height:90px;
+	*cursor:pointer;
+}
+.programsListTable li ul li a.imgWrap div:after{
+	clear:both;
+}
+.programsListTable li ul li a.imgWrap p{
+	margin:2px 0 0 0;
+}
+.programsListTable li ul li a.imgWrap span{
+	font-weight:bold;
+}

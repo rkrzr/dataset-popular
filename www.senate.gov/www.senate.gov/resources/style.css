@@ -1,0 +1,222 @@
+
+	body {
+            font-size: 12px;
+            color: black;
+            font-family: arial;
+            background: #8B8168;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+	
+	a {
+	    color: #990000;
+	    font-family: arial;
+	    text-decoration: underline
+	}	
+	
+	a:visited {
+    color: #666666;
+    text-decoration: underline
+	}
+	
+	.teasertext {
+    font-size: 10px;
+    color: black;
+	line-height: 14px;
+    font-family: arial
+	}
+	
+
+	div#main_pageheader {
+		background: url("images/uss_main_topimage.jpg");
+		height: 116px;
+	}
+	
+	
+	div#main_pageheader form {
+		padding: 0px 0 0 0;
+		margin: 0;
+	
+	}
+	
+
+	div#main_pageheader select {
+		width: 136px;
+		font: 10px arial;		
+		color: #636363;
+	}
+	
+	 .searchBox {
+		width: 127px;
+		font: 10px arial;		
+		color: #636363;
+		margin-right: 2px;		
+		padding: 1px 3px;
+	}
+	
+	.formruler {
+		padding: 0;
+		margin: 8px 0px 4px 0px;
+		width: 160px;
+		border-top: 1px solid #7C93C9;
+	}
+
+	div#main_pageheader_right {
+		margin-left: 580px;
+		padding-right: 15px;
+		padding-top: 15px;
+	}
+	
+	
+	div#main_pageheader_left {
+		padding: 30px 0 0 20px;
+		float:left;		
+	}
+	
+	div#main_pagenav {
+	}
+	
+
+	div#contentArea {
+		clear: left;
+		background: #EBF2FA;
+		overflow: visible;		
+	} 
+	
+	div#leftCol {
+		float: left;
+		width: 174px;
+		background: #EBF2FA;
+	}
+	div#center_rightColumn {
+		background: #F7EDD2;
+		margin-left: 174px;		
+	}
+	div#centerCol {
+		background: #FFF;		
+		margin-right: 174px;
+		padding: 20px 25px 100px 30px;		
+	}
+	div#rightCol {
+		float: right;
+		width: 174px;		
+	}	
+
+	
+	
+	
+	div#floorSchedule {
+		padding: 15px 12px 12px 12px;
+	}
+	
+	div.floorSchedule_date {
+		padding: 10px 0 5px 0;
+		font: 12px arial;
+		line-height: 16px;
+		font-weight: bold;
+		color: #000;
+	}
+	
+	div.floorSchedule_details {
+		font: 10px arial, Helvetica, verdana;
+		line-height: 14px;
+		color: #000
+	}
+	
+	.leftnav_news {
+		padding: 20px 15px 0px 15px;
+	}
+	
+	.leftnav_newsTitle {
+		padding-bottom: 10px;
+	}
+	
+	.photo {
+			float: right;
+			padding: 0 0 4px 5px;			
+		}
+	
+	.leftnav_newsdate {
+		padding: 0px 0 5px 0;
+		font: 12px arial;
+		line-height: 16px;
+		font-weight: bold;
+		color: #000;
+	}
+	
+	p {
+		padding: 0;
+		margin: 0;
+	}
+	
+	h2 {
+		font: 26px georgia, arial, helvetica, verdana;
+		color: #000;
+		line-height: 27px;	
+		padding: 0;
+		margin: 0;
+	}
+	
+	h2 span.c1 {
+		color: #8D1E0C;
+	}
+	h2 span.c2 {
+		color: #2A5792;
+	}	
+
+	.ruler {
+			margin: 10px 0;
+			border-top: 1px dotted #BFBFBF;
+		}			
+	.floorSchedule_ruler {
+			margin: 10px 0;
+			border-top: 1px dotted #8B8168;	
+	}
+	
+	.tour_ruler {
+			margin: 6px 0;
+			border-top: 1px dotted #BFBFBF;
+		}			
+		
+	
+	.bodyCopy {
+		line-height: 20px;
+		color: #000;
+	}
+	
+	.learnmore {
+		text-align: right;
+		padding: 10px 0;
+	}
+	
+	.tour {
+		border: 1px dotted #DFD6BF;
+		padding: 10px;
+		background: #F8F5F4;
+	}
+	
+	#tourPhoto {
+		float: left;
+		width: 119px;
+		height: 82px;
+	}
+	
+	#tourInfo {
+		padding-left: 129px;
+	}	
+	
+	.tourinfoheading {
+		font: 10px arial;
+		line-height: 14px;
+		color: #000;
+	}
+	.tourinfotext {
+		font: 10px arial;
+		line-height: 14px;
+		color: #000;		
+	}
+
+		
+		
+		

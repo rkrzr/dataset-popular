@@ -1,0 +1,96 @@
+/* $Id: alerts.css 100142 2012-05-30 17:17:14Z fisherc $
+   /css/0.1/screen/common/alerts.css
+   (c)2006 - 2008 The New York Times Company  */
+
+.alertsContainer {
+  margin-top: -1px;
+  padding: 0 9px 0 10px;
+  background-color: #fff;
+  border-top: 1px solid #797979;
+  border-bottom: 3px solid #A81817;
+}
+
+.globalEditionHome #alertsRegion {
+  width: 970px;
+}
+
+.newsAlert,
+.breakingNewsAlert {
+  border-collapse: collapse;
+}
+
+.newsAlertSmall {
+  margin-bottom: 2px;
+}
+
+.newsAlert td,
+.breakingNewsAlert tr td {
+  padding: 4px 0 5px 0;
+  vertical-align: top;
+  border-top: 1px solid #ccc;
+}
+
+.newsAlertMeta,
+.breakingNewsAlert td.breakingNewsAlertMeta {
+  padding-top: 7px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.newsAlertMessage,
+.breakingNewsAlert td.breakingNewsAlertMsg {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.newsAlert .newsAlertSmallMessage {
+  padding: 7px 0 5px 10px;
+}
+
+.newsAlert tr:first-child td,
+.breakingNewsAlert tr:first-child td {
+  border-top: none;
+}
+
+.newsAlertSmall tr:first-child td {
+    padding-top: 0;
+}
+
+.newsAlertLabel,
+.breakingNewsAlert .label {
+  margin-right: 2px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.5em; /* 15px 1px less than timestamp due to bold font rendering on pc */
+  text-align: right;
+  white-space: nowrap;
+}
+
+.newsAlertLabel,
+.newsAlertTimestamp,
+.breakingNewsAlert .label,
+.breakingNewsAlert .timestamp {
+  text-transform: uppercase;
+}
+
+.newsAlertTimestamp,
+.breakingNewsAlert .timestamp {
+  line-height: 1.6em; /* 16px */
+  padding-left: 4px;
+}
+
+.newsAlert h2,
+.breakingNewsAlert h2 {
+  color: #000;
+  font-size: 1.4em;
+  line-height: 1.286em; /* 18px */
+}
+
+/* Width adjustment when alert gets displayed in abColumn */
+
+.abColumn .alertsContainer,
+.abColumn .alertsContainer .newsAlert,
+.abColumn .alertsContainer .breakingNewsAlert {
+  width: auto;
+}

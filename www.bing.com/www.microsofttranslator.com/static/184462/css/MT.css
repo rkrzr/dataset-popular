@@ -1,0 +1,20 @@
+﻿
+/* SelectLanguage page styles */
+
+#LangPair
+{
+	font-size: 11px;
+}
+
+/* LanguageSelectMenu control styles */
+
+#LangSelectMenuTable .ImageButton 
+{   
+	cursor: pointer;
+	border: solid 1px white;
+	vertical-align: middle;
+}
+#LangSelectMenuTable .ImageButton:hover 
+{
+    border: dotted 1px #006699;
+}

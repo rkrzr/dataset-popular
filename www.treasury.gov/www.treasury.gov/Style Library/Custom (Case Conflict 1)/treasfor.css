@@ -1,0 +1,224 @@
+﻿/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    #t-treas-for .ui-tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+#t-treas-for .ui-tabs-nav {
+        display: none;
+    }
+}
+
+#t-treas-for #tabs2-1, #t-treas-for #tabs2-2, #t-treas-for #tabs2-3, #t-treas-for #tabs2-4 {}
+#t-treas-for #tabs2right .ui-tabs-panel{background-color: transparent !important; }
+
+#treasfor {
+	display: block;
+	height: 39px;
+	width: 122px;
+}
+#slickbox {
+	width: 976px !important;
+	position:absolute;
+	margin-left: -85px;
+	z-index: 30000;
+	/*display: block !important; */
+}
+a#slick-toggle  {
+	display: block;
+	text-indent: -9999px;
+	height: 39px;
+	width: 122px;
+}
+#t-treas-for #tabs2left {
+	float: left;
+	position: relative;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	background-color: #E0E3E6;
+	height: 320px;
+}
+#t-treas-for #tabs2right {
+	float: right;
+	position:relative;
+	width: 745px;
+	height: 300px;
+	overflow-y: auto;
+	background:transparent; padding: 10px; }
+#t-treas-for #tabs2right p {line-height: 100%; margin-bottom: 0px;}	
+#t-treas-for #tabs2right h2 {margin-bottom: 0px !important;}	
+#t-treas-for #tabs2right h3 {margin-bottom: 0px !important; margin-top: 5px;}	
+#t-treas-for #tabs2right .left {
+	float:left;
+	margin-right:10px;
+	width:350px;
+	}
+
+#t-treas-for #tabs2right .right {
+	float:left;
+	width:360px;
+	}
+	
+#t-treas-for #tabs2right h3 {
+	color:#2A2A2A;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+	}
+
+#t-treas-for #tabs2right .left p a, #t-treas-for #tabs2right .right p a {
+	white-space:normal !important; 
+	font-weight: normal;
+	padding: 0px;
+	color: #045d9d;
+	display:block;
+	line-height: 17px;
+	text-decoration:none;}
+
+#t-treas-for #tabs2right .left p a, #t-treas-for #tabs2right .right p a {background-image: none !important;}
+
+#t-treas-for #tabs2right .left p a:hover, #t-treas-for #tabs2right .right p a:hover {
+	text-decoration:underline;}
+
+#t-treas-for #tabs2right  h2 {
+	color:#2A2A2A;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+	display: none;
+	}
+
+
+#t-treas-for #tabs2left li.link-header  { 
+	height: 20px !important; 
+	font-weight: bold !important; 
+	padding: 0 0 0 10px !important; 
+	margin: 5px 0 0px 0px;
+	width: 190px;
+	color: #045D9D !important; }
+
+#t-treas-for .ui-tabs-vertical { width: 500px; }
+#t-treas-for .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+#t-treas-for .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; /*margin: 0 -1px .2em 0; */}
+#t-treas-for .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+#t-treas-for .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+#t-treas-for .ui-tabs-vertical .ui-tabs-panel { padding: 0; }
+
+/* Skin */
+#t-treas-for .ui-tabs-panel,
+#t-treas-for .ui-tabs-nav {font-family:Arial, Helvetica, sans-serif; font-size: 12px;}
+
+#t-treas-for .ui-tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 0px;
+    display:block;}
+
+#t-treas-for .ui-tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";}
+    
+#t-treas-for #tabs2 {
+	background:url("../Images/treas/t-dd-nav-bg.gif") repeat-x scroll left bottom #FFFFFF; 	padding: 0px;
+	margin: 0px;
+	border: 2px solid #d3d3d3;
+	border-top: none;
+	width: 974px;
+	display:block;}
+	
+#t-treas-for #tabs2 ul {
+	margin: 0;
+	padding: 0px;
+	display:block;
+	width: 200px;
+}
+
+#t-treas-for .ui-tabs-nav li {
+    float: left;
+    margin: 0 0 0 0px;
+    border: none;
+    display: block;
+    list-style-type: none;
+	background-color: #E0E3E6;
+    /*min-width: 155px;  be nice to Opera */
+}
+#t-treas-for .ui-tabs-nav li a { }
+
+#t-treas-for .ui-tabs-nav a, #t-treas-for .ui-tabs-nav a span {
+    /*margin: 1px 0 0;*/ /* position: relative makes opacity fail for disabled tab in IE */
+    color: #045D9D !important;
+    font-weight: normal;
+    line-height: 100%;
+    background-color: transparent;
+    background-image: none;
+    padding: 5px 10px 5px 20px !important;
+   	text-align: left;
+   	height: 10px;
+   	width: 170px;
+    text-decoration: none;
+    white-space: nowrap; /* required in IE 6 */    
+    outline: 0; /* prevent dotted border in Firefox */
+}
+
+
+#t-treas-for .ui-tabs-nav .ui-tabs-selected a:link {
+    position: relative;
+    /*top: 1px;*/
+    z-index: 2;
+    margin-top: 0;
+    color: #045D9D !important;
+    text-decoration: none !important;
+    padding-left: 20px;
+}
+
+#t-treas-for .ui-tabs-nav .ui-tabs-selected a:hover {text-decoration: underline;}
+
+#t-treas-for .ui-tabs-nav a:active,
+#t-treas-for .ui-tabs-nav a:focus,
+#t-treas-for .ui-tabs-nav a:hover,
+#t-treas-for .ui-tabs-nav .ui-tabs-selected a {background-image: none;}
+
+#t-treas-for .ui-tabs-nav li.ui-tabs-selected {background-image: none; background-color: #fff;}
+#t-treas-for .ui-tabs-nav li.ui-tabs-selected a:hover {background-image: none; background-color:#fff;}
+
+#t-treas-for .ui-tabs-nav .ui-tabs-disabled a:visited,
+#t-treas-for .ui-tabs-nav .ui-tabs-disabled a:link,
+#t-treas-for .ui-tabs-nav .ui-tabs-selected a:visited,
+#t-treas-for .ui-tabs-nav .ui-tabs-selected a:link { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text; text-decoration: none;}
+    
+#t-treas-for .ui-tabs-nav .ui-tabs-deselectable a:active,
+#t-treas-for .ui-tabs-nav .ui-tabs-deselectable a:focus,
+#t-treas-for .ui-tabs-nav a:active,
+#t-treas-for .ui-tabs-nav a:focus { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer; text-decoration: none !important;}
+
+#t-treas-for .ui-tabs-nav .ui-tabs-deselectable a:hover,
+#t-treas-for .ui-tabs-nav a:hover { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer; text-decoration: underline;}
+
+    
+#t-treas-for .ui-tabs-disabled {
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+#t-treas-for .ui-tabs-panel {
+	/* declare background color for container to avoid distorted fonts in IE while fading */
+}
+#t-treas-for .ui-tabs-loading em {
+    padding: 0 0 0 0px;
+    background: url('../Images/Treas/loading.gif') no-repeat 0 50%;
+}
+
+/* Additional IE specific bug fixes... */
+* html #t-treas-for .ui-tabs-nav { /* auto clear, @ IE 6 & IE 7 Quirks Mode */
+    display: inline-block;
+}
+*:first-child+html #t-treas-for .ui-tabs-nav  { /* @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)... */
+    display: inline-block;
+}
+
+

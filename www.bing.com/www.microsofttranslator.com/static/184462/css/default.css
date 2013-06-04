@@ -1,0 +1,941 @@
+﻿
+@import "MT.css";
+.Transparent
+{
+    background-color: Transparent !important;
+}
+textarea
+{
+    resize: none;
+    outline: 0;
+}
+
+#dvPageContent
+{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1100px;
+    max-width: 1100px;
+}
+
+#MasterTable
+{
+	width: 100%;
+}
+
+#TransContent
+{
+    table-layout: fixed;
+    min-width: 100%;
+}
+
+#LangSelectTable
+{
+    width: 100%;
+}
+
+#LangSelectTable td
+{
+    padding: 3px;
+}
+
+#ad
+{
+    height: 90px;
+    width: 728px;
+}
+
+#adHeader
+{
+    background-color: #025B93;
+}
+
+#landingForm
+{
+    margin-top: 0px;
+    min-height: 150px;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+#Menu
+{
+    height: 26px;
+    width: 100%;
+}
+
+#MSTNavMenu
+{
+    padding: 8px 4px 8px 4px;
+    border-bottom: solid 1px #E0E0DF;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#TransConainerCell
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.NewsItem
+{
+    margin-bottom: 14px;
+}
+
+#Clear
+{
+    background-color: #D4D4D4;
+    text-align: center;
+    border: 0;
+    padding: 4px 5px;
+    display: inline-block;
+    height: 14px;
+    white-space:nowrap;
+    margin-right: -0.5px;
+    margin-left: -0.5px;
+}
+
+/*Overlap Border Width*/
+#TdTransRating
+{
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+    position: relative;
+    top: -20px;
+}
+
+img.Rating
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 0px;
+}
+
+td.Rating
+{
+    white-space: nowrap;
+    border: 0px;
+    background-color: #D4D4D4;
+    padding: 0 5px !important;
+}
+
+#RateGoodLink, #RatePoorLink, #RateOffensiveLink
+{
+    white-space: nowrap;
+    text-decoration: none !important;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 12px;
+    height: 12px;
+}
+
+#RateRow1, #RateRow2, #RateRow1 td, #RateRow2 td
+{
+    height: 20px;
+}
+
+#RateGoodLink
+{
+    width: 10px !important;
+    background-image: url(../img/good.gif);
+}
+
+#RateGoodLink:hover
+{
+    width: 10px !important;
+    background-image: url(../img/good_select.gif);
+}
+
+#RatePoorLink
+{
+    background-image: url(../img/bad.gif);
+}
+
+#RatePoorLink:hover
+{
+    background-image: url(../img/bad_select.gif);
+}
+
+#RateOffensiveLink
+{
+    background-image: url(../img/offensive.gif);
+}
+
+#RateOffensiveLink:hover
+{
+    background-image: url(../img/offensive_select.gif);
+}
+
+.MenuSep
+{
+    color: #808080;
+}
+
+.CopyClipboardVisible
+{
+    visibility: hidden; /* over-ridden in IE only */
+}
+
+.TransLabel
+{
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 13px;
+    font-family: Arial;
+    vertical-align: middle;
+    height: 30px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.urlinput
+{
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial;
+    width: 99%;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.alert
+{
+    border: 1px solid #e6e6e6;
+    background-color: #ffffaf;
+    margin: 0 0 1.21em 0.2em;
+    font-size: 105%;
+    font-weight: 700;
+    margin: 0 0 1.5em .2em;
+    padding: 0.7em 1.5em;
+}
+
+.th
+{
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial;
+    padding-bottom: 7px;
+}
+
+td, td:focus
+{
+    outline: 0;
+}
+
+.mttextareainit /*partially defined in Resources.SharedStyles.css*/
+{
+}
+
+.mttextarea /*partially defined in Resources.SharedStyles.css*/
+{
+    color: #000000;
+    visibility: visible;
+    cursor: text;
+}
+
+#InputTextHtmlCell, #OutputTextHtmlCell
+{
+    background-color: Transparent;
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px #7F9DB9;
+}
+
+#InputTextHtmlCell[dir=rtl] div.force_dir, #OutputTextHtmlCell[dir=rtl] div.force_dir
+{
+    text-align: right !important;
+    direction: rtl !important;
+}
+
+#InputTextHtmlCell[dir=ltr] div.force_dir, #OutputTextHtmlCell[dir=ltr] div.force_dir
+{
+    text-align: left !important;
+    direction: ltr !important;
+}
+
+#InputText, #InputHighlightDiv
+{
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 188px;
+    height: 188px;
+    padding: 3px;
+    margin: 0px;
+    border: 0px;
+}
+
+#TranslationOutput {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    max-width: 487px;
+    width: 487px;
+    min-width: 487px;
+}
+#TranslationOutput, #InputHighlightDiv
+{
+    padding: 3px;
+    margin: 0 0 23px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+#InputText, #TranslationOutput, #InputHighlightDiv
+{
+    font-size: 12px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#TranslationOutput font, #InputHighlightDiv font
+{
+    font-size: 12px !important;
+}
+#InputText
+{
+    background-color: Transparent;
+    white-space: pre-wrap;
+    color: Black;
+    max-width: 487px;
+    width: 487px;
+    min-width: 487px;
+    /*required for phrase hightlighting to mend browser inconsistency*/
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    overflow-y: hidden;
+    vertical-align: top;
+    margin: 0 0 9px 6px;
+    padding-bottom: 0px;
+}
+#InputHighlightDiv
+{
+    white-space: pre-wrap;
+    z-index: -1;
+    position: absolute;
+    background-color: White;
+    color: Transparent;
+    display: block;
+    word-wrap: break-word;
+    overflow: hidden !important;
+}
+#InputHighlightDiv font
+{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.ScentenceHighlight
+{
+    background-color: #BCD8EF;
+    margin: -1px;
+    padding: 1px;
+}
+#PageTitle
+{
+    color: #549c00;
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+}
+
+#TransTitle
+{
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    margin: 0px 0px 0px 4px;
+}
+
+#Intro
+{
+    width: 450px;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial;
+    display: run-in;
+}
+
+.biView
+{
+    width: 40%;
+    height: 30px;
+    overflow: auto;
+}
+
+.tranTable
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.tranRow
+{
+    height: 168px;
+}
+
+.GoReady
+{
+    color: Black;
+    width: 339px;
+    height: 20px;
+    font-family: Arial;
+    vertical-align: middle;
+}
+
+.GoStart
+{
+    height: 24px;
+    width: 339px;
+    color: Gray;
+    height: 20px;
+    font-family: Arial;
+    vertical-align: middle;
+}
+
+.DDL
+{
+    vertical-align: middle;
+}
+
+.EslNew
+{
+    color: #549C00;
+}
+
+
+.cellTBotIntro
+{
+    vertical-align: middle;
+    padding-right: 6px;
+}
+.cellTBotText
+{
+    vertical-align: middle;
+}
+.TBotHighlight
+{
+    color: #549C00;
+}
+.TBotText
+{
+    white-space: nowrap;
+}
+.TBotLink
+{
+    display: block;
+    width: 104px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 8px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+
+#lblTbotText3
+{
+    display: none;
+}
+#lblTbotText2IE
+{
+    display: none;
+}
+#lblTbotText2Other
+{
+    display: inline;
+}
+
+.MenuPlain
+{
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.MenuColored
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #437BA9;
+    text-decoration: none;
+}
+
+.freeTrans
+{
+    text-align: right;
+    position: relative;
+    white-space: nowrap;
+    color: gray;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.borderFreeTrans
+{
+    text-align: right;
+    width: 50%;
+    position: relative;
+    left: 1px;
+    white-space: nowrap;
+}
+
+.addFav
+{
+    text-align: right;
+    font-size: 11px;
+    position: relative;
+    left: -2px;
+}
+
+.Chevron1
+{
+    position: relative;
+    top: -1px;
+}
+
+.Chevron2
+{
+    position: relative;
+    top: -2px;
+}
+
+#dvPageContent A.navOn
+{
+    color: #437BA9;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#dvPageContent A.navOff
+{
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#ColumnSpacer, .columnSpacer
+{
+    width: 10px;
+}
+
+
+#TranslationOutput HR
+{
+    color: #ffffff;
+    border-top: solid 1px #C5C5C5;
+    border-bottom: solid 1px #ffffff;
+    border-left: 0px;
+    border-right: 0px;
+    width: 98%;
+}
+
+DIV.TranslationHeader
+{
+    font-weight: bold;
+    font-size: 13px;
+    color: #0D649B;
+    margin: 0px 0px 6px 0px;
+}
+
+DIV.DictionaryHeader
+{
+    font-weight: bold;
+    font-size: 13px;
+    color: #0D649B;
+    margin: 12px 0px 6px 0px;
+}
+
+#TranslationOutput .DictHeader
+{
+    font-weight: bold;
+    font-size: 13px;
+    color: #0D649B;
+    margin-bottom: 8px;
+}
+#TranslationOutput .DictContent
+{
+}
+#TranslationOutput .DictContent P
+{
+    margin: 0;
+    padding: 0;
+}
+
+#TranslationOutput .Translation
+{
+    padding-bottom: 10px;
+}
+#TranslationOutput .dictBI
+{
+    font-weight: 800;
+    font-style: italic;
+    color: #2d2d2d;
+}
+#TranslationOutput .dictB
+{
+    font-weight: 800;
+    color: #282828;
+}
+#TranslationOutput .dictI
+{
+    font-style: italic;
+    color: #48486E;
+}
+
+#dvPageContent #TranslateButton
+{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 4px 0px 4px;
+    border: solid 1px #FFA615;
+    padding: 3px 10px 3px 10px;
+    white-space: nowrap;
+    font-family: Arial;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #ED962F;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#dvPageContent #TTSLink, #dvPageContent #TransSearch, #dvPageContent #TransEmail
+{
+    top: -23px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    text-decoration: none;
+    padding: 0 10px;
+    text-align: center;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+
+#dvPageContent #TransSearch
+{
+    background-image: url(../img/search.png);
+}
+
+#dvPageContent #TransEmail
+{
+    background-image: url(../img/email.png);
+}
+
+#dvPageContent #TTSLink
+{
+    background-image: url(../img/speak.png);
+}
+
+#dvPageContent #TransSearch:hover, #dvPageContent #TTSLink:hover, #dvPageContent #TransEmail:hover
+{
+    background-position: center -16px;
+}
+
+#dvPageContent #TTSLink.disabled
+{
+    background-position: center -32px;
+}
+
+#dvPageContent #TranslateButton:Hover
+{
+    text-decoration: underline;
+}
+
+#PartnersRow
+{
+	padding: 0px 30px;
+	height: 15px;
+}
+
+#PartnersRow a
+{
+	display: none;
+}
+
+#AjaxWaitImage
+{
+    position: absolute;
+    z-index: 99;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/AjaxWait.gif);
+    background-repeat: no-repeat;
+}
+#RTTWaitImage {
+    top: -19px;
+    z-index: 99;
+    position: relative;
+    display: block;
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    left: 2px;
+    background-image: url(../img/rtt_loading.gif);
+    background-repeat: no-repeat;
+}
+
+/* vertical menu only */
+#TransFromLabelVert, #TransToLabelVert
+{
+    white-space: nowrap;
+}
+
+#LangSelectMenuTable td
+{
+    padding: 4px 0px 0px 4px;
+}
+
+.smallHeader
+{
+    font-size: 1.1em;
+    color: #ED6F23;
+    white-space: nowrap;
+    font-weight: normal;
+    padding: 4px 0px 8px 0px;
+}
+
+span.HiliteSentence
+{
+    background-color: #B9E4FC;
+}
+
+span.UnHiliteSentence
+{
+    background-color: Transparent;
+}
+#NewsContent {
+    min-width: 988px;   
+}
+#NewsContent tbody
+{
+    border: solid 1px #A1A1A1;
+}
+#NewsContent a
+{
+    text-decoration: none;
+}
+#NewsContent a:hover
+{
+    text-decoration: underline;
+}
+#NewsContent .news-head
+{
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 11px;
+    color: #A1A1A1;
+    padding: 3px 5px;
+}
+#NewsContent .news-header
+{
+    padding: 15px 10px 5px;
+}
+#NewsContent .news-header span
+{
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 15px;
+    color: #FFA615;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#NewsContent .news-header span:hover
+{
+    text-decoration: underline;
+}
+#NewsContent .news-header a:hover
+{
+    text-decoration: none;
+}
+#NewsContent .news-item
+{
+    padding: 0 12px;
+    vertical-align: top;
+    color: #555;
+}
+#NewsContent .news-item p
+{
+    margin: 10px 0;
+    vertical-align: top;
+}
+#NewsContent .group-header
+{
+    width: 17%;
+    text-align: center;
+    padding: 15px 0 5px;
+}
+#NewsContent .group-header span
+{
+    font-family: Arial, Verdana, Sans-Serif;
+    font-size: 13px;
+    color: #FFA615;
+}
+#NewsContent .group-header span:hover
+{
+    text-decoration: underline;
+}
+#NewsContent .group-img, #NewsContent .group-text
+{
+    border-left: solid 1px #A1A1A1;
+    border-right: solid 1px #A1A1A1;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#NewsContent .group-img
+{
+    text-align: center;
+    vertical-align: middle;
+    height: 77px;
+}
+#NewsContent .group-img img
+{
+    max-height: 77px;
+    max-width: 105px;
+    border: solid 1px transparent;
+    padding: 3px;
+}
+#NewsContent .group-text
+{
+    vertical-align: top;
+    height: 78px;
+    padding-bottom: 12px;
+}
+#NewsContent .group-text p
+{
+    font-family: Arial, Verdana, Sans-Serif;
+    color: #000000;
+}
+#NewsContent .news-bottom
+{
+    vertical-align: bottom;
+    height: 29px;
+    background: transparent url(../img/alphabet_header.gif) repeat-x bottom left;
+}
+
+#TranslationOutput div[lang]
+{
+    display: inline;
+}
+
+#TranslationOutput .selected
+{
+    background-color: #BCD8EF;
+    border: solid 0 navy;
+}
+
+#TranslationOutput .selected-other
+{
+    padding-left: 1px;
+    margin-left: -3px;
+    border-left-width: 2px;
+    
+    padding-right: 0;
+    border-right-width: 0;
+    margin-right: 0;
+}
+
+#TranslationOutput[dir=rtl] .selected-other
+{
+    padding-right: 1px;
+    margin-right: -3px;
+    border-right-width: 2px;
+    
+    padding-left: 0;
+    border-left-width: 0;
+    margin-left: 0;
+}
+
+.table , #NewsContent
+{
+    display: table;
+    border-collapse: collapse;
+}
+.row
+{
+    display: table-row;
+}
+.cell
+{
+    display: table-cell;
+}
+
+#TransContent #SLOControls
+{
+    background-color: #EF972E;
+    margin: -1px 2px;
+}
+#TransContent #SLOControls div
+{
+    width: 20px;
+    height: 20px;
+}
+#TransContent #SLOControls.disabled
+{
+    background: #E7E7E8;
+}
+#TransContent #SLOControls .SLOSwitch
+{
+    background: url(../img/ctfonoff.png) no-repeat center 5px;
+    border-bottom: solid 1px white;
+}
+#TransContent #SLOControls .SLORevert
+{
+    background: url(../img/ctfrevert.png) no-repeat center 6px;
+}
+#TransContent #SLOControls.disabled .SLOSwitch, #TransContent #SLOControls.disabled .SLORevert, #TransContent #SLOControls .SLORevert.active
+{
+    background-position: center -26px !important;
+}
+#TransContent #SLOControls div:hover
+{
+    cursor: pointer;
+}
+.bvLink
+{
+    color: blue !important;
+    font-style: italic;
+}
+#InstText 
+{
+    top: -10px;
+    position: relative;
+}
+.mtoverlay {
+    position: absolute;
+    z-index:-1;
+    color: white;
+    white-space: pre-wrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    white-space: pre-wrap;
+    background: transparent;
+    visibility: hidden;
+}
+.mtoverlay div {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+.shighlight {
+    background-color: #bdd7ed;
+    color: #bdd7ed;
+    padding: 2px 0px;
+}
+.dhighlight {
+    background-color: #bdd7ed;
+    padding: 2px 0px;
+}

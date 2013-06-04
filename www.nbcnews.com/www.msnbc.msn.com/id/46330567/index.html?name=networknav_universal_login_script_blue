@@ -1,0 +1,23 @@
+$j.session.ready(function(user) {
+    if(user.isLoggedIn()) {
+        var login_label = 'Account';//'Hello, ' + user.displayName;
+    } else {
+        var login_label = 'Login';
+    }
+    $menu = $('.zinger_login_nav').zinger_login({
+  affiliate: 'msnbc',
+    edition: 'networknav_universal_login_blue',
+  logo: false,
+  target: {
+            avatar_size: 20,
+            label: login_label
+        },
+        zinger: {
+            title: 'Log into your account:'
+        }
+    });
+    user.onLogin(function() {
+        $j.log('User is logged in', user);
+        $menu.find('.j-target span').html('Account');
+    });
+});

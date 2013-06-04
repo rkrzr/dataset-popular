@@ -1,0 +1,773 @@
+html,body,p,ul,ul li,ol,ol li,form,img,.head1,.head2,.head3,.head4,h1,h2,h3,h4,h5,h6,#skipnav,.clearfloat,#topic_page_title,.more_links,#outerwrapper,#wrapper,#header,#content,#footer,#bottom_corner,.hmenu,.sidemenu,.index_list,#hhs-masthead,#hhs-leftmast,#HHSlogo,#hhs-rightmast,#HHSlink,#fda-masthead,#fda-leftmast,#fda-leftmast,#FDAlogo,#fda-rightmast,#fda-rightmast,#search,#searchbox,#go_button,#fda-topmenu,#fda-breadcrumbs,.left-column,.middle-column,.middle-column_2,.middle-column_3,.right-column,.sub-left-column,.sub-right-column,.box,.box_top,.box_bottom,.box_body,#pagetools_top,#pagetools_bottom,.email_page,.print_page,.email_address,.phone_number,.font_size_plus,.font_size_minus,#doc-select-arrow,#doc-select-arrow-two,#footnote{background-image:none;border-style:none;height:auto;margin:0;padding:0;text-align:left}
+body{background:url(img_fdagov_global_background.png) repeat-x scroll left top transparent;color:#000;font:12px Arial, sans-serif;margin:0;padding:0}
+.fda-tooltip,.fda-tooltip-tip,.fda-tooltip-title{background:none repeat scroll 0 0 transparent;border:medium none;margin:0;padding:0}
+.fda-tooltip-content{border:2px solid #B7B7B7;color:#2E2E2E;font-family:Tahoma;font-size:1em;margin:0;padding:3px 6px}
+#outerwrapper,#outerwrapper-topic,#outerwrapper-hp{background:url(img_fdagov_page_background_rep.png) repeat-y scroll left top transparent;margin:0 auto;padding:0 35px;width:960px}
+#site-audience{background:url(img_fdagov_page_background_top.png) repeat-y scroll left top transparent;height:36px;line-height:36px;margin:0 -20px;padding:0 20px}
+#site-audience-links{float:right}
+#site-audience-links li{background:url(img_fdagov_audience_vertical.png) repeat-y scroll right center transparent;margin:0;padding:0 5px}
+#site-audience-links li.first{padding-left:0}
+#site-audience-links li.last{background:none repeat scroll 0 0 transparent;padding-right:0}
+#site-audience a{color:#486387;font-size:1.11em;text-decoration:underline}
+#site-audience a:hover{text-decoration:none}
+A.quicklinks:link{color:#FFF;height:1px;left:-1000px;overflow:hidden;position:absolute;text-align:left;top:-100px;width:1px}
+A.quicklinks:visited{color:#FFF;height:1px;left:-1000px;overflow:hidden;position:absolute;text-align:left;top:-100px;width:1px}
+A.quicklinks:active{background-color:#008ECE;height:auto;left:0;overflow:auto;padding:5px;text-decoration:none;top:0;width:100%;z-index:2}
+A.quicklinks:focus{background-color:#008ECE;height:auto;left:0;overflow:auto;padding:5px;text-decoration:none;top:0;width:100%;z-index:2}
+#hhs-masthead{background:url(img_fdagov_masthead_hhs_base.png) repeat-x scroll left top transparent;height:22px;margin:0 -20px;padding:7px 20px}
+#hhs-leftmast{float:left;padding:0}
+#hhs-leftmast a img{height:23px;width:265px}
+#hhs-rightmast{float:right;padding:0}
+#page-tools{font-size:1.11em;line-height:23px}
+#header{background:url(img_fdagov_masthead_base.png) repeat-x scroll left top transparent;margin:0 -20px;padding:0}
+#fda-masthead{height:37px;padding:40px 0}
+#fda-leftmast{float:left;margin-left:20px;width:570px}
+#fda-leftmast img{height:48px;width:465px}
+.print-pagetitle{display:none}
+#fda-rightmast{float:right;height:52px;margin-right:20px;margin-top:-17px;width:300px}
+#masthead-links a{color:#EEE;font-size:.83em;font-weight:bolder;letter-spacing:-.25px;text-decoration:none}
+#masthead-links a:hover{text-decoration:underline}
+#masthead-links .list-horizontal li{/*background: url("/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_no-repeat-sprite.png") no-repeat top left;  background-position: -1050px -261px; */background:url(img_fdagov_masthead_vertical.png) no-repeat scroll right center transparent;padding-left:7px;padding-right:12px}
+#masthead-links .list-horizontal li.last{background:none repeat scroll 0 0 transparent;padding-right:0}
+#masthead-links .list-horizontal li.first{padding-left:0}
+#search-form{height:34px;line-height:34px}
+#searchbox{}
+#search{border:medium none;font-size:1.33em;height:20px;margin:11px 0 0;width:190px}
+#go_button{left:215px;margin-left:7px;position:relative;text-align:center;top:-22px;width:65px}
+/* Top-Menu styles */#fda-topmenu{color:#FFF;font-size:1em;font-weight:bolder;height:27px/*    position: relative;
+	left: 37px;
+*/}
+#fda-topmenu ul.menu-tabbed{display:table;margin:0 auto;list-style:none/*	float: left;*/}
+#fda-topmenu ul li{float:left;display:inline;/*For ignore double margin in IE6*/margin:0 3px;height:27px;line-height:27px}
+#fda-topmenu ul li a{text-decoration:none;float:left;color:#486387;cursor:pointer;background:url(img_fdagov_topnav_bg.png) no-repeat top right;padding-right:7px}
+#fda-topmenu ul li a span{margin:0 0 0 -7px;padding-left:7px;position:relative;/*To fix IE6 problem (not displaying)*/float:left;background:url(img_fdagov_topnav_bg.png) no-repeat top left}
+#fda-topmenu ul.menu-tabbed li a.selected-tab,#fda-topmenu ul.menu-tabbed li a:hover{background:url(img_fdagov_topnav_bg.png) no-repeat bottom right;color:#0d5f83}
+#fda-topmenu ul.menu-tabbed li a.selected-tab span,#fda-topmenu ul.menu-tabbed li a:hover span{background:url(img_fdagov_topnav_bg.png) no-repeat bottom left}
+#content p{margin:1% 0}
+#outerwrapper-topic #content p,#outerwrapper-hp #content p{margin:0}
+#fda-breadcrumbs{clear:left;color:#818181;font-size:1.11em;font-weight:400;margin-bottom:10px;width:90%;overflow:hidden}
+#fda-breadcrumbs li{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -68px;padding-left:20px;padding-right:9px;float:left}
+#fda-breadcrumbs a{color:#818181;text-decoration:none}
+#fda-breadcrumbs .breadcrumbs-home{color:#486387}
+#fda-breadcrumbs li.breadcrumbs-home{background:none repeat scroll 0 0 transparent;padding-left:0}
+#fda-breadcrumbs .breadcrumbs-home a{color:#486387;text-decoration:none}
+#fda-breadcrumbs .breadcrumbs-home a:hover{text-decoration:underline}
+#page-options{float:right;margin-top:17px}
+#page-options li{margin-left:5px}
+#content{background:url(img_fdagov_page_fade_white.png) no-repeat scroll left top transparent;margin:0 -20px;padding:15px 20px}
+/*#content {
+	background: url("/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_no-repeat-sprite.png") no-repeat top left;  background-position: -1050px -1111px; width: 100%; /
+    margin: 0 -20px;
+    padding: 15px 20px;
+	height: auto;
+}*/#outerwrapper-hp #content{padding:20px}
+h1,#topic_page_title{color:#333;font-size:2em;font-weight:bolder}
+#topic_page_title{float:left;width:670px}
+#page-feature,#Sub_Content{}
+#outerwrapper-topic #page-feature,#outerwrapper-topic #Sub_Content,#outerwrapper-hp #page-feature,#outerwrapper-hp #Sub_Content{margin-bottom:25px}
+#Sub_Content .sub_content_item{}
+#outerwrapper-topic #Sub_Content .box_body div{float:left}
+#outerwrapper-topic #Sub_Content .sub_content_item #outerwrapper-hp #Sub_Content .sub_content_item{float:left;margin-bottom:18px;width:47%!important}
+.subcontent_head4{color:#333;font-size:1em;font-weight:700;padding:1% 0}
+#page-search{height:55px;margin-bottom:25px}
+#sectionsearch{font-size:1.33em;height:20px;left:3px;position:relative;top:3px;width:185px}
+#searchButton{left:38px;position:relative;top:8px}
+#page-search label,.box h2,.head3{color:#333;font-weight:bolder}
+#page-search label{font-size:1.17em}
+.middle-column{float:left;width:600px}
+#outerwrapper-topic .middle-column{width:71%}
+#outerwrapper-hp .middle-column{width:573px}
+.middle-column .sub-left-column{float:left;margin-right:25px;width:230px}
+#outerwrapper-topic .middle-column .sub-left-column{width:31%}
+#outerwrapper-hp .middle-column .sub-left-column{width:275px}
+.middle-column .sub-right-column{float:right;width:320px}
+#outerwrapper-topic .middle-column .sub-right-column{width:65%}
+#outerwrapper-hp .middle-column .sub-right-column{width:275px}
+.right-column{float:right;padding-left:5px;width:340px}
+#outerwrapper-topic .right-column{float:right;padding-left:5px;width:25%}
+#outerwrapper-hp .right-column{float:right;padding-left:5px;width:340px}
+.middle-column_2{padding-right:15px;width:47%}
+#outerwrapper-topic .middle-column_2{padding-right:15px;width:71%}
+.left-column{margin:0 2.5% 0 0}
+.left-column,.right-column{width:24%}
+.left-column,.middle-column,.middle-column_2,.middle-column_3,.right-column,.sub-left-column,.sub-right-column{float:left}
+.wcm-region ul,.middle-column ul,.middle-column_2 ul,.middle-column_3 ul{margin:0 0 0 15px}
+.middle-column a:hover,.middle-column_2 a:hover,.middle-column_3 a:hover{text-decoration:underline}
+.middle-column ol,.middle-column_2 ol,.middle-column_3 ol{padding:0 0 0 25px}
+#rpm_list_format{list-style-type:decimal}
+#rpm_list_format ol{list-style-type:lower-alpha}
+#rpm_list_format ol ol{list-style-type:lower-roman}
+#rpm_list_format ol ol ul ol{list-style-type:decimal}
+ol,ul{}
+ul{list-style-image:url(img_fdagov_orangebullet.gif)}
+ol li{list-style-image:none}
+a:link{color:#0F2A8C;text-decoration:none}
+a:visited{color:purple;text-decoration:none}
+ul.leftnav_child li,.header_bg li{list-style:none outside none}
+a:hover{color:#0C1184;text-decoration:underline}
+a:active{color:#0C1184;text-decoration:none}
+#footer{margin-top:15px;padding-bottom:15px}
+#footer-heading{background:url(img_fdagov_footer_blue.png) repeat-x scroll left top transparent;height:30px;line-height:30px;margin:15px -20px;padding:15px 20px}
+#footer-fdalogo{font-size:2.5em;font-weight:bolder;width:75px}
+#footer-fdalinks{float:right}
+#footer-fdalinks .list-horiztonal{padding:10px 0}
+#footer-fdalinks li{background:url(img_fdagov_footer_vert_onblue.png) repeat-y scroll right center transparent;padding:0 15px}
+#footer-fdalinks li.last{background:none repeat scroll 0 0 transparent;padding-right:0}
+#footer-fdalinks a{color:#E7E7E7;font-size:.92em;font-weight:bolder;text-decoration:none}
+#footer-fdalinks a:hover{color:#FFF;text-decoration:underline}
+#footer-content{background:url(img_fdagov_footer_dash_line.png) repeat-x scroll left top transparent;color:#404040;font-size:1em}
+#footer-fda div{margin-bottom:1.5em}
+#footer-fda .footer-header{margin-bottom:0}
+#footer-audience ul.list-horizontal li.first{margin:0;width:auto}
+#social-links li{margin-right:2px;padding:0 1.5px}
+#footer-audience li{background:url(img_fdagov_footer_vert_press.png) repeat-y scroll right center transparent;margin-right:0;padding:0 20px}
+#footer-audience li.first{padding-left:0}
+#footer-audience li.last{background:none repeat scroll 0 0 transparent;padding-right:0}
+#footer-audience a{color:#486387;font-size:.92em;font-weight:bolder;text-decoration:none}
+#footer-audience a:hover{text-decoration:underline}
+#footer-links{}
+#footer-links div{padding-right:40px;width:100%}
+#footer-links div div{background:none repeat scroll 0 0 transparent}
+#footer-links ul li{margin-bottom:.5em}
+#footer-links a{color:#486387;font-size:.83em;font-weight:bolder;text-decoration:none}
+#footer-links a:hover{text-decoration:underline}
+#footer-hhs{color:#404040;font-size:.92em}
+#footer-hhs .footer-header{margin-bottom:.5em}
+#footer-hhs a{color:#049DD9;text-decoration:none}
+#footer-hhs a:hover{text-decoration:underline}
+ul.list-horiztonal{padding-left:0}
+ul.list-horizontal li{display:inline;padding-right:2px}
+ul.list-horizontal li.first{margin-left:0;padding-left:0}
+ul.list-horizontal li.last{margin-right:0;padding-right:0}
+ul.list-no-bullets,ul.list-no-bullets li,ul.list-horizontal,ul.list-horizontal li{list-style:none outside none}
+ul.menu-tabbed,ul.menu-tabbed li,ul.menu-tabbed li a{height:27px}
+ul.menu-tabbed li div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -320px;height:27px}
+ul.menu-tabbed li div div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -644px;height:27px}
+ul.menu-tabbed li div div div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -567px;height:27px;margin:0 3px}
+ul.menu-tabbed li.hover-tab a,ul.menu-tabbed li.selected-tab a{color:#486387}
+ul.menu-tabbed li.hover-tab div,ul.menu-tabbed li.selected-tab div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -397px}
+ul.menu-tabbed li.hover-tab div div,ul.menu-tabbed li.selected-tab div div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -721px}
+ul.menu-tabbed li.hover-tab div div div,ul.menu-tabbed li.selected-tab div div div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -482px}
+ul.menu-tabbed li div.sub-menu,ul.menu-tabbed li.hover-tab div.sub-menu{background:none repeat scroll 0 0 transparent}
+ul.menu-tabbed li.hover-tab a{color:#486387}
+ul.menu-tabbed li{margin:0 0 0 3px}
+ul.menu-tabbed li#first{margin:0}
+ul.menu-tabbed li,ul.menu-tabbed li#first{float:left;padding:0}
+ul.menu-tabbed li a{display:block;line-height:27px;padding:0 4px;text-align:center}
+ul.menu-tabbed li div.sub-menu{display:none;left:-1000px;position:absolute;top:-1000px;z-index:100}
+ul.menu-tabbed li div.sub-menu div.sub-menu-top{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -966px;float:left;width:100%}
+ul.menu-tabbed li div.sub-menu div.sub-menu-top div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -1031px;float:right;height:15px;margin-right:-18px;width:30px}
+ul.menu-tabbed li div.sub-menu div.sub-menu-content{background:url(img_fdagov_nav_drop_mid_left.png) repeat-y scroll left center transparent;margin-top:15px;width:100%}
+ul.menu-tabbed li div.sub-menu div.sub-menu-content div{background:url(img_fdagov_nav_drop_mid_right.png) repeat-y scroll right center transparent;margin:0;padding:0 10px 0 8px;width:100%}
+ul.menu-tabbed li div.sub-menu div.sub-menu-bottom{background:url(img_fdagov_nav_drop_bot_left.png) no-repeat scroll left bottom transparent;float:left;width:100%}
+ul.menu-tabbed li div.sub-menu div.sub-menu-bottom div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -806px;width:1020px;height:30px;float:right;height:15px;margin-right:-18px;width:30px}
+ul.menu-tabbed li div.sub-menu div.sub-menu-top div.clearfloat,ul.menu-tabbed li div.sub-menu div.sub-menu-bottom div.clearfloat,ul.menu-tabbed li div.sub-menu div.sub-menu-content div.clearfloat{background:none repeat scroll 0 0 transparent;clear:both;margin:0;padding:0;width:100%}
+ul.menu-tabbed li div.sub-menu ul{display:block;float:left;margin-top:0;max-width:300px}
+ul.menu-tabbed li div.sub-menu ul li{float:none;height:auto;margin:0;min-height:1em}
+ul.menu-tabbed li div.sub-menu ul li a{line-height:1em;margin-left:0;padding:10px 5px}
+ul.menu-tabbed li div.sub-menu ul.last{float:left;margin-right:-20px}
+ul.menu-tabbed li div.sub-menu ul.last li a{margin-left:0;margin-right:0;padding:10px 15px;width:auto}
+ul.menu-tabbed li div.sub-menu ul li,ul.menu-tabbed li.selected-tab div.sub-menu ul li,ul.menu-tabbed li.hover-tab div.sub-menu ul li,ul.menu-tabbed li div.sub-menu ul.last li,ul.menu-tabbed li.selected-tab div.sub-menu ul.last li,ul.menu-tabbed li.hover-tab div.sub-menu ul.last li{background:none repeat scroll 0 0 transparent;display:list-item;padding:0 10px}
+ul.menu-tabbed li div.sub-menu ul li:hover,ul.menu-tabbed li.selected-tab div.sub-menu ul li:hover,ul.menu-tabbed li.hover-tab div.sub-menu ul li:hover{background:url(img_fdagov_nav_drop_blue_selec.png) repeat-x scroll left center transparent;color:#FBFBFB}
+ul.menu-tabbed li div.sub-menu ul li a,ul.menu-tabbed li.selected-tab div.sub-menu ul li a,ul.menu-tabbed li.hover-tab div.sub-menu ul li a,ul.menu-tabbed li div.sub-menu ul.last li a,ul.menu-tabbed li.selected-tab div.sub-menu ul.last li a,ul.menu-tabbed li.hover-tab div.sub-menu ul.last li a{background:url(img_fdagov_nav_dropdown_line.png) repeat-x scroll left bottom transparent;color:#486387;padding-right:20px}
+ul.menu-tabbed li div.sub-menu ul li.last a,ul.menu-tabbed li.selected-tab div.sub-menu ul li.last a,ul.menu-tabbed li.hover-tab div.sub-menu ul li.last a{background:none repeat scroll 0 0 transparent}
+ul.menu-tabbed li div.sub-menu ul li a,ul.menu-tabbed li.selected-tab div.sub-menu ul li a,ul.menu-tabbed li.hover-tab div.sub-menu ul li a{height:auto;line-height:1em;text-align:left}
+ul.menu-tabbed li div.sub-menu ul li:hover a,ul.menu-tabbed li.selected-tab div.sub-menu ul li:hover a,ul.menu-tabbed li.hover-tab div.sub-menu ul li:hover a{background:url(img_fdagov_nav_drop_blue_selec.png) repeat-x scroll left center transparent;color:#FBFBFB}
+.three-column .first,.three-column .second,.three-column .second div,.three-column .third{float:left;padding-bottom:15px}
+.three-column .first,.three-column .second,.three-column .third{margin:0 5% 0 0;width:30%}
+.three-column .first{margin-left:0}
+.three-column .third{margin-right:0}
+#footer .three-column .first{width:275px}
+#footer .three-column .second{width:185px}
+#footer .three-column .third{margin-left:40px;width:338px}
+#footer .three-column .first,#footer .three-column .second{margin-right:40px}
+#footer .three-column .second{padding:0 0 0 40px}
+.two-column .first,.two-column .second{float:left;margin:0 2%;width:48%}
+.two-column .first{margin-left:0}
+.two-column .second{margin-right:0}
+.two-column .second .box{margin:auto}
+.flex-column .first,.flex-column .second,.flex-column .third{float:left;width:auto}
+.flex-column .first img,.flex-column .second img,.flex-column .third img,.two-column .first img,.two-column .second img,.three-column .first img,.three-column .second img,.three-column .third img{margin:0}
+.column-footer{float:left;margin-top:1.5em;width:100%}
+.footer-header{color:#404040;font-size:1.33em;font-weight:bolder}
+.box{clear:both;color:#404040;float:left;font-size:1em;margin-bottom:25px;width:100%}
+.box_top{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px -760px;float:left;width:100%}
+.box_top div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px -820px;clear:both;color:#FFF;float:right;text-align:center;width:10px}
+.box_body{background:url(img_fdagov_whitebox_mid_left.png) repeat-y scroll left center transparent;clear:both;float:left;width:100%}
+.box_body div{background:url(img_fdagov_whitebox_mid_right.png) repeat-y scroll right center transparent;padding:0 15px 5px}
+#outerwrapper .middle-column_2 .box_body div{overflow:hidden}
+.box_body div div{background:none repeat scroll 0 0 transparent;padding:0}
+.box_body .left_subtopic{float:left}
+.box_body .right_subtopic{float:right}
+.box_body .left_subtopic,.box_body .right_subtopic{width:48%}
+#outerwrapper-topic .box_body .left_subtopic,#outerwrapper-topic .box_body .right_subtopic{padding:0 15px 0 0;width:47%}
+#outerwrapper-topic #Sub_Content .left_subtopic,#outerwrapper-topic #Sub_Content .sub_content_item{width:47%!important}
+#outerwrapper-topic .box_body .left_subtopic,#outerwrapper-topic .box_body .right_subtopic #outerwrapper-hp .box_body .left_subtopic,#outerwrapper-hp .box_body .right_subtopic{padding:0 15px 0 0;width:47%}
+#outerwrapper-topic .subcontent_head4,#outerwrapper-hp .subcontent_head4{color:#333;font-size:1em;font-weight:700;padding:1% 0}
+.box_body ul,.box_body ol{float:left;margin-left:0;padding-left:20px;width:90%}
+#outerwrapper-topic .box_body ul,#outerwrapper-topic .box_body ol,#outerwrapper-hp .box_body ul,#outerwrapper-hp .box_body ol{float:left;margin-left:2px;padding-left:15px}
+.box_body ul li,.box_body ol li{margin-bottom:1em}
+.box_body img,.two-column .first .box_body img,.two-column .second .box_body img,.two-column .third .box_body img{float:left;margin-right:15px}
+.box_body div div.box-footer{border-top:thin solid #F0F0F0;float:left;margin-top:.5em;padding-top:1em;width:100%}
+.box-footer ul.list-horizontal{padding-left:0}
+.box-footer ul.list-horizontal li{border-right:thin solid silver;padding-left:8px;padding-right:8px}
+.box-footer ul.list-horizontal li.first{padding-left:0}
+.box-footer ul.list-horizontal li.last{border-right:medium none;padding-right:0}
+.box_body div div.no-border{border:medium none}
+.box_bottom{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px -520px;float:left;width:100%}
+.box_bottom div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left #EBEBEB;background-position:-2120px -580px;clear:both;color:#FFF;float:right;height:10px;text-align:center;width:10px}
+.box_top,.box_bottom{clear:both;float:left;height:10px;width:100%}
+.box h2,.box .head3{border-bottom:1px solid silver;font-size:1.5em;margin-bottom:10px;padding:5px 0}
+.three-column .head3{font-size:1.12em}
+.box a{color:#486387;font-weight:bolder;text-decoration:none}
+.box a:hover{text-decoration:underline}
+.fade1 .box_top{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:0 -560px}
+#outerwrapper-hp .fade1 .box_top{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:0 -1260px}
+#outerwrapper-hp .right-column .fade1 .box_top{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px 0}
+#outerwrapper-hp .right-column .fade1 .box_bottom{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2119px -520px}
+#outerwrapper-hp .right-column .fade1 .box_bottom div{background:url(img_fdagov_no-repeat-sprite.png) no-repeat scroll -2121px -580px #EBEBEB}
+.fade1 .box_top div{display:none}
+.fade1 .box_body{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:0 -260px}
+#outerwrapper-hp .fade1 .box_body{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:0 -630px}
+#outerwrapper-topic .right-column .fade1 .box_body,#outerwrapper-hp .right-column .fade1 .box_body{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:0 -1330px}
+.fade1 .box_body div{background:none repeat scroll 0 0 transparent;padding:0 15px 15px}
+.fade1 h2,.fade1 .head3{font-size:1.33em}
+.fade1 .box_body div div{background:none repeat scroll 0 0 transparent;padding:0 0 0 5px}
+/*.fade1 .box_bottom {
+    display: none;
+}*/#outerwrapper-topic .fade1 .box_body div div{background-image:none;padding:0 0 0 10px}
+.div-info{margin-top:1em}
+.div-name{font-weight:bolder}
+.more_links{padding:1% 17px 1% 0;text-align:right;width:60%}
+.more_links a{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -194px;height:22px;line-height:22px;padding-bottom:4px;padding-left:25px;padding-top:2px}
+.next-float{clear:both;padding-top:1em}
+ul.arrow-list{padding:0}
+ul.arrow-list li{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -131px;list-style-type:none;padding-left:15px}
+.more_links a,.fade1 .more_links a{clear:both;color:#214472;float:left;font-size:.92em;font-weight:bolder;line-height:14px;text-decoration:none}
+.more_links a:hover,.fade1 .more_links a:hover{text-decoration:underline}
+.slide_desc{border-color:transparent}
+.slide_desc .slide_desc_in{margin:22px 15px}
+#slide_container{background-color:transparent}
+#slideshow_wrap .ul_nav{padding-top:4px}
+li,ol ul li{list-style-image:url(img_fdagov_bullet.png)}
+.mini-feature-heading{font-size:1.2em;padding-left:15px;position:relative}
+#searchbox input{box-shadow:0 0 3px #000}
+.no-bullet{margin-left:0!important;padding-left:0!important}
+.no-bullet li{list-style:none outside none}
+#left_col_secondary_content .first{margin:0}
+#left_col_secondary_content .second{float:right;margin:0}
+.mini-feature-descr{color:#404040}
+.tabs{margin:0}
+.tab{float:left;height:52px;margin-right:0}
+.tab.last{margin-right:0}
+.tab a h2{color:#486387;font-size:1.15em;position:relative;text-align:center;text-decoration:underline;top:15px}
+.tab a:focus{border:0 none;outline:0 none}
+.curr-tab{min-height:65px}
+.curr-tab div{margin:15px 0 0}
+#outerwrapper-topic .curr-tab div,#outerwrapper-hp .curr-tab div{margin:0;padding:20px 0 0}
+.tabs #tab1{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px 0;width:188px}
+.tabs #tab2{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px -102px;width:195px}
+.tabs #tab3{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px -204px;width:192px}
+.tabs #tab1.current{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -1735px}
+.tabs #tab2.current{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -1837px}
+.tabs #tab3.current{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -1939px}
+.tabs .current a h2{color:#333;text-decoration:none}
+.tabs_box .box_body ul,.tabs_box .box_body ol{float:left;margin-left:35px;padding-left:0}
+#outerwrapper-hp .tabs_box .box_body ul,#outerwrapper-hp .tabs_box .box_body ol{margin-left:33px;padding-left:0;width:auto}
+#outerwrapper-hp .tabs_box .box_body .clearfloat,#outerwrapper-hp .tabs_box .box_body .clearfloat{padding:0}
+.tabs_box .box_body .three_column{max-width:33%}
+#right_col_feature .quarter-box div{}
+#right_col_feature .quarter-box div .vertical-quarter{padding:5px 0}
+#outerwrapper-hp .right-column .fade1,#outerwrapper-hp .right-column #right_col_feature{margin-bottom:10px}
+#outerwrapper-topic #right_col_feature .quarter-box div .vertical-quarter{padding:0 0 5px 10px}
+#outerwrapper-hp .quarter-box div .vertical-quarter{border-bottom:thin solid silver;min-height:60px;margin:0 10px;overflow:hidden;padding:0 0 5px 10px}
+#outerwrapper-hp .quarter-box div .vertical-quarter div{height:auto;padding:8px 0 0}
+#outerwrapper-hp .quarter-box div .vertical-quarter div div{border-bottom:medium none;float:left;margin:0!important;padding:0!important}
+.right-float{float:right;width:40%}
+#outerwrapper-hp #movemeup{padding:0 5px}
+#outerwrapper-hp .mini-feature-image img{margin-right:10px}
+#outerwrapper-hp .mini-feature-descr{font-size:.92em}
+#outerwrapper-hp .mini-feature-heading,#outerwrapper-hp .mini-feature-descr{float:left;margin:0!important;padding:0!important;width:70%}
+#outerwrapper-hp .quarter-box div .last{border:medium none!important}
+#footnote,#hhs-masthead-print{display:none}
+#footnote,.footnote_number{display:none}
+.footnote_number{padding:0 0 0 3px}
+#footnote{border-top:2px groove #000;padding:1%}
+.sortable{margin-bottom:15px}
+.sortable th{background-color:#DBEAF1;font-size:1em;padding:3px}
+.sortable tbody{font-size:11px}
+.alternate_color{background-color:#EEE}
+.sortable td{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:1em;padding:3px}
+.wcm-region a:link{text-decoration:none}
+.head1{color:#BC4804;font-size:1.5em}
+.head1_body{color:#484138;font-size:1.5em}
+.head2{color:#484138;font-size:1.35em}
+.head3{color:#333;font-size:1.2em;margin-top:13px}
+#outerwrapper-topic .head3,#outerwrapper-hp .head3,#outerwrapper .head3{margin-top:0}
+.head4{color:#333;font-size:1em}
+.headfeature{color:#484138;display:inline;font-size:1em;margin:0}
+h1{font-size:1.5em}
+h2{font-size:1.35em}
+h3{font-size:1.25em}
+h4{font-size:1.2em}
+h5{font-size:1.1em}
+h6{font-size:1em}
+#rpm_list_format{list-style-type:decimal}
+#rpm_list_format ol{list-style-type:lower-alpha}
+#rpm_list_format ol ol{list-style-type:lower-roman}
+#rpm_list_format ol ol ul ol{list-style-type:decimal}
+.clearfloat{background-image:none;clear:both;color:#FFF;font-size:0;height:0;line-height:0;text-align:center;width:98%}
+.email_page,.print_page{padding:5px 0 5px 25px}
+span.small{font-size:1em;font-weight:700}
+.manual_toc{list-style:none outside none}
+#first{background-image:none;display:inline;margin:0;padding:0}
+.sidemenu{font-family:Arial, Helvetica, sans-serif;font-size:.95em;margin:0;width:100%}
+.sidemenu ul,.sidemenu li,.sidemenu li ul,.sidemenu li ul li{background-image:none;clear:both;color:#12357E;float:left;list-style:none outside none;margin:0;padding:0;width:100%}
+.sidemenu ul{border-top:1px solid #AAA}
+.sidemenu ul li a:link,.sidemenu ul li a:visited,.sidemenu ul li a:hover,.sidemenu ul li a:focus{background:url(img_fdagov_arrow.gif) no-repeat scroll 17px 10px transparent;border-top:1px solid silver;color:#3D5276;display:block;margin:0;padding:2% 6% 2% 11%}
+#outerwrapper-topic .sidemenu ul li a:link,#outerwrapper-topic .sidemenu ul li a:visited,#outerwrapper-topic .sidemenu ul li a:hover,#outerwrapper-topic .sidemenu ul li a:focus,#outerwrapper-hp .sidemenu ul li a:link,#outerwrapper-hp .sidemenu ul li a:visited,#outerwrapper-hp .sidemenu ul li a:hover,#outerwrapper-hp .sidemenu ul li a:focus{background:none repeat scroll 0 0 transparent;border-bottom:1px solid #AAA;border-left:1px solid #AAA;border-right:1px solid #AAA;display:block;margin:0;padding:2% 6%}
+.sidemenu a:visited{color:#0C2C58}
+.sidemenu ul li a:hover,.sidemenu ul li a:focus{background-color:#D8E8EF;text-decoration:none}
+.sidemenu li ul{border-style:none}
+div.left-nav-box{display:block;font-family:Arial, Helvetica, sans-serif;margin:10px 3px;width:225px}
+#outerwrapper-topic div.left-nav-box{border:1px solid #AAA;padding:4px}
+#doc-select-arrow a{color:#BC4804;font-weight:700;text-decoration:none}
+#doc-select-arrow a{background-color:#FFF}
+#doc-select-arrow-two a{border-top:0 none;float:left;max-width:75%;padding-left:5px;text-decoration:none}
+#doc-select-arrow-two img,#doc-select-arrow img{float:left;padding:7px 0 6px 30px}
+#outerwrapper-topic #doc-select-arrow-two img,#outerwrapper-topic #doc-select-arrow img,#outerwrapper-hp #doc-select-arrow-two img,#outerwrapper-hp #doc-select-arrow img{float:left;margin:6px 0 6px 5px}
+.sidemenu_parent a:link,.sidemenu_parent a:visited{background-color:#17529F;color:#FFF;font-family:Verdana;text-decoration:none}
+.sidemenu_parent a:hover{color:#0C1184}
+.sidemenu_parent a{font-size:100%;font-weight:700;text-align:left}
+.sidemenu_subsection a{font-size:100%;font-weight:700;margin:0;padding:0;text-align:left}
+.sidemenu_subsection a:link,.sidemenu_subsection a:visited{background-color:#EDECEA;font-family:Verdana;text-decoration:none}
+.sidemenu_subsection ul li a:link,.sidemenu_subsection ul li a:visited,.sidemenu_parent ul li a:link,.sidemenu_parent ul li a:visited{background-color:#FFF;color:#0C2C58;font-family:Arial, Helvetica, sans-serif;font-weight:400;text-decoration:none}
+.sidemenu_subsection a:hover,.sidemenu_subsection a:focus,.sidemenu_subsection ul li a:hover,.sidemenu_subsection ul li a:focus{background-color:#D8E8EF;text-decoration:none}
+.index_list{background-image:none;border-bottom:1px groove #CCC;font-weight:700;padding:1%;width:98%}
+.index_list a{text-transform:uppercase}
+.index_list a:link{color:#12357E}
+.index_list a:visited{color:#12357E}
+.index_list ul{color:#BC4804;margin:0;padding:0}
+.index_list ul li{display:inline;margin:0;padding:1% 3px}
+.searchlable{display:none}
+#feature{background-image:url(http://www.fda.gov/ucm/groups/fdagov-public/@system/documents/image/img_feature_bg_png.png);background-repeat:no-repeat;height:275px;margin:0;padding:0;width:420px}
+#feature #photo{height:225px;margin:0;padding:13px 0 0}
+.alphabet-nav{font-family:arial;font-size:123%;font-weight:700}
+.alphabet-nav a:hover,#AtoZElementActive{background-color:#12357E;color:#FFF}
+#Main_Content{background-image:url(img_fdagov_box1_middle.jpg);background-position:right top}
+#Main_Content .box_top{background-image:url(img_fdagov_box1_top.jpg);background-position:0 0;height:21px}
+#Main_Content .box_top div{background-image:url(img_fdagov_box1_top.jpg);background-position:right top;padding:10px 0;width:96%}
+#Main_Content .box_bottom{background-image:url(img_fdagov_box1_bottom.jpg);background-position:left bottom;height:21px}
+#Main_Content .box_bottom div{background-image:url(img_fdagov_box1_bottom.jpg);background-position:right bottom;height:21px;padding:0;width:96%}
+#outerwrapper-topic-hp #Main_Content .box_body{background-image:url(img_fdagov_box1_middle.jpg);background-position:0 0;padding:0;width:98%}
+#outerwrapper-topic #Main_Content{background-image:none;width:682px}
+#outerwrapper-topic #Main_Content .box_top{background-image:url(http://www.fda.gov/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_box6_top.png);background-position:0 0;height:20px}
+#outerwrapper-topic #Main_Content .box_body{background-image:url(http://www.fda.gov/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_box6_middle.png);background-repeat:repeat-y}
+#outerwrapper-topic #Main_Content .box_bottom{background-image:url(http://www.fda.gov/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_box6_bottom.png);background-position:0 0;display:block;height:20px}
+#outerwrapper-topic #Main_Content .box_bottom div{background-image:none;display:none}
+#outerwrapper-topic .fade1 .box_body div div{background:none repeat scroll 0 0 transparent;padding:0 0 0 10px}
+#outerwrapper-topic #Main_Content .box_body{padding:1% 0 0 4.5%;width:95%}
+#Main_Content .box_body div img{background-color:#CCC}
+.feature{float:left;margin:0;padding:0 25px 0 5px;width:175px}
+.feature h1 a{border-width:0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:1.1em}
+.feature p{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:.95em}
+.feature a img{border-style:none;border-width:0;display:block;height:113px;margin-bottom:15px;width:175px}
+#Sub_Content .box_body table{width:97%}
+#Sub_Content .box_body table tr td{padding:0 1%;width:49%}
+.topic-site-map{margin:0 0 13px 15px!important}
+.indent1{margin:0;padding:0 0 0 2em}
+.indent2{margin:0;padding:0 0 0 4em}
+.indent3{margin:0;padding:0 0 0 6em}
+.indent4{margin:0;padding:0 0 0 8em}
+.indent5{margin:0;padding:0 0 0 10em}
+.indent6{margin:0;padding:0 0 0 12em}
+.indent7{margin:0;padding:0 0 0 14em}
+.wcm-contributor-page-menu,.wcm-contributor-menu-item,.wcm-contributor-menu-item-icon{display:none}
+ul.pagination-clean{float:left;margin-top:-15px!important}
+.pagination-clean li{border:0 none;float:left;font-size:.9em;list-style:none outside none;margin:0;padding:3px 1px}
+.pagination-clean .previous-off,.pagination-clean .next-off{color:#888;display:block;float:left;font-weight:700;padding:3px 4px}
+.pagination-clean .next a,.pagination-clean .previous a{border:1px solid #FFF;font-weight:700}
+.pagination-clean .active{color:#000;display:block;float:left;font-weight:700;padding:4px 6px}
+.pagination-clean a:link,.pagination-clean a:visited{color:#03C;display:block;float:left;padding:3px 6px;text-decoration:none}
+.pagination-clean a:hover{text-decoration:none}
+#pagination-digg li{border:0 none;font-size:.9em;list-style:none outside none;margin:0 2px 0 0;padding:0}
+#pagination-digg a{border:1px solid #9AAFE5;margin-right:2px}
+#pagination-digg .previous-off,#pagination-digg .next-off{border:1px solid #DEDEDE;color:#888;display:block;float:left;font-weight:700;margin-right:2px;padding:3px 4px}
+#pagination-digg .next a,#pagination-digg .previous a{font-weight:700}
+#pagination-digg .active{background:none repeat scroll 0 0 #2E6AB1;color:#FFF;display:block;float:left;font-weight:700;padding:4px 6px}
+#pagination-digg a:link,#pagination-digg a:visited{color:#0E509E;display:block;float:left;padding:3px 6px;text-decoration:none}
+#pagination-digg a:hover{border:1px solid #0E509E}
+#pagination-flickr li{border:0 none;margin:0;padding:0}
+#pagination-flickr a{border:1px solid #DDD;margin-right:2px}
+#pagination-flickr .previous-off,#pagination-flickr .next-off{color:#666;display:block;float:left;font-weight:700;padding:3px 4px}
+#pagination-flickr .next a,#pagination-flickr .previous a{border:1px solid #FFF;font-weight:700}
+#pagination-flickr .active{color:#FF0084;display:block;float:left;font-weight:700;padding:4px 6px}
+#pagination-flickr a:link,#pagination-flickr a:visited{color:#0063E3;display:block;float:left;padding:3px 6px;text-decoration:none}
+#pagination-flickr a:hover{border:1px solid #666}
+div#recall-wrapper{padding:0;width:100%}
+div#recall-text{float:left;margin-left:0;margin-top:1px;padding:1px;width:70%}
+div#recall-pagination{float:left;margin-left:7px;margin-top:1px;padding:1px;width:30%}
+.pagination-clean .count{padding:3px 4px}
+table.tablesorter{font-family:arial;font-size:1em;margin:10px 0 15px;text-align:left;width:96%}
+table.tablesorter thead tr th,table.tablesorter tfoot tr th{background-color:#E6EEEE;border:1px solid #FFF;font-size:1em;padding:4px}
+table.tablesorter tbody td{color:#3D3D3D;padding:4px;vertical-align:top}
+table.tablesorter thead tr th.header{/*    background: url("/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_no-repeat-sprite.png") no-repeat top left;  background-position: -2120px -934px; 
+*/background-image:url(img_tsort_bg.gif);background-position:right center;background-repeat:no-repeat;border-right:1px solid #DAD9C7;cursor:pointer;font-weight:700;margin-left:-1px;padding-left:6px;padding-right:1em}
+table.tablesorter thead tr th.headerSortUp{background-color:#8DBDD8;/*   background: url("/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_no-repeat-sprite.png") no-repeat top left;  background-position: -2120px -880px; */background-image:url(img_tsort_asc.gif)}
+table.tablesorter thead tr th.headerSortDown{background-color:#8DBDD8;/*    background: url("/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_no-repeat-sprite.png") no-repeat top left;  background-position: -2120px -993px; 
+*/background-image:url(img_tsort_dsc.gif)}
+table.tablesorter tbody tr.odd{background-color:#F0F0F6}
+table.tablesorter tbody tr.even{background-color:#FFF}
+#proposal,#proposal1,#proposal2,#proposal3,#proposal4{display:none}
+.rss_indicator{float:none;font-weight:700}
+.rss_indicator br{display:none}
+.feat-small{list-style:none outside none}
+.feat-small-alt{height:88px;list-style:none outside none}
+#basics_left{float:left;width:25%}
+#headLink{background:none repeat scroll 0 0 #17539E;border-top:1px solid #B0B1A5}
+#headLink a{color:#FFF;margin-left:3px}
+#basics_right{float:left;margin-left:3%;width:71%}
+#basics_contact{background:none repeat scroll 0 0 #F4F3F2;border:1px solid #B0B1A5;border-radius:5px 5px 5px 5px;font-family:Verdana, Arial, Helvetica, sans-serif;margin-top:10px;padding:10px;width:auto}
+#basics_contact_top{border-bottom:2px solid #000;padding-bottom:5px}
+#basics_contact_bottom{margin-top:10px}
+#basics_contact_bottom p{margin:0;padding:0}
+#basics_content_wrapper{padding:20px}
+#basics_tabs a{text-decoration:none}
+#mainTopicsLink a{color:#006;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:700;text-decoration:none}
+#mainTopicsLink a:hover{text-decoration:underline}
+.basics_tab_h3{margin:0;padding:0}
+#basics_wrapper{float:right;width:100%}
+#basics_tabs{margin:10px 0 0;padding:0;position:relative;top:1px;z-index:50}
+#basics_tabs li{display:block;float:left;font-family:Verdana, Arial, Helvetica, sans-serif;margin:0 15px 0 0;padding:5px 33px;position:relative;top:0;z-index:1000}
+#basics_tabs li h3{font-size:1em}
+#basics_t1,#basics_t2,#basics_t3{background:none repeat scroll 0 0 #E6F0F5;border:1px solid #CEDBD9;border-radius:5px 5px 0 0}
+#basics_content{background:none repeat scroll 0 0 #FFF;border:1px solid #CEDBD9;border-radius:0 5px 5px 5px;height:170px;margin:0;width:auto}
+#t_txt1,#t_txt2,#t_txt3{color:#90918F}
+#basics_mainTopicsLeft{width:auto}
+#basics_mainTopicsRight{margin-right:30px;width:auto}
+#basics_whatsNewLink a{color:#006;font-family:Verdana, Arial, Helvetica, sans-serif;margin-left:10px;text-decoration:none}
+#basics_whatsNewLink a:hover{text-decoration:underline}
+#basics_stayConnectedLink a{color:#006;font-family:Verdana, Arial, Helvetica, sans-serif;margin-left:10px;text-decoration:none}
+#basics_stayConnectedLink a:hover{text-decoration:underline}
+.clearfloat{clear:both}
+#basics_slideshowWrap{background:none repeat scroll 0 0 #F1F1EF;border:1px solid #DCDDD8;border-radius:5px 5px 5px 5px;color:#38322B;float:left;height:250px;overflow:auto;width:auto}
+#basics_currSlide{height:250px}
+.basics_slideText{float:left;font-family:Arial, Helvetica, sans-serif;margin:10px;padding-bottom:10px;width:44%}
+.basics_slideImg{float:left;height:225px;margin:10px;padding-bottom:10px;width:335px}
+.basics_slideLink{float:right;font-weight:700;text-decoration:none}
+#basics_slide_nav{bottom:60px;position:relative;width:200px}
+#basics_slide_nav img{border:1px double #FFF}
+#basics_slide_nav ul li{display:block;float:left;list-style:none outside none;position:relative}
+#basics_counter{color:#17529F;font-family:Arial, Helvetica, sans-serif;font-weight:700;margin-left:3px;margin-right:3px;position:relative;top:3px}
+#basics_Search{float:left;font-family:Arial, Helvetica, sans-serif;font-weight:700;margin-top:10px;width:auto}
+#basics_accordion{margin-top:15px}
+#basics_accordion .basics_acc_head{background:url(img_fdagov_footer_blue.png) repeat-x scroll left top transparent;border:1px solid #CEDBD9;padding:10px 0;width:100%}
+#basics_accordion .basics_acc_head a{color:#FFF;font-family:Verdana, Arial, Helvetica, sans-serif;margin-left:10px;text-decoration:none}
+#basics_acc1,#basics_acc2{background:none repeat scroll 0 0 #FFF;border-left:1px solid #CEDBD9;border-right:1px solid #CEDBD9;width:100%}
+#basics_acc2{border-bottom:1px solid #CEDBD9}
+.basics_acc_head{margin:0;padding:0}
+.basics_acc_wrap{padding:10px}
+#basics_acc1 a,#basics_acc2 a{color:#006;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none}
+#basics_acc1 a:hover,#basics_acc2 a:hover{text-decoration:underline}
+.basics_acc_more{float:right;font-weight:700;width:auto}
+.basics_acc1_more_arrow{color:#C00C10;font-family:Geneva, Arial, Helvetica, sans-serif}
+#basics_acc1 h4{font-family:Verdana, Arial, Helvetica, sans-serif;margin:0;padding:0}
+#basics_acc2 img{float:left;width:auto}
+#basics_acc2 #basics_video_desc{float:right;font-family:Arial, Helvetica, sans-serif;width:65%}
+#bm_tabs h2{font-size:100%}
+#bm_wrap h2{margin:10px 0}
+#bm_wrap{width:630px}
+#bm_wrap div{float:left}
+#bm_wrap div div{float:left}
+#bm_wrap_1,#bm_wrap_2,#bm_wrap_3{margin-bottom:10px;margin-top:10px;width:100%}
+#bm_currContent{border:1px solid #CEDBD9;border-radius:5px 5px 5px 5px;margin-bottom:10px;padding:10px;width:100%}
+.bm_ns_error{font-family:"Franklin Gothic Medium Cond", Arial, Helvetica, sans-serif;font-size:2em;margin:0;text-align:center}
+#bm_tabs{font-family:Verdana, Arial, Helvetica, sans-serif}
+#bm_tabs h2{margin:5px}
+#bm_tabs a{color:#333;margin:0;padding:0;text-decoration:none}
+#bm_tabs ul{margin:0;padding:0}
+#bm_tabs li{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background:none repeat scroll 0 0 #E0E0E0;border-color:#CEDBD9 #CEDBD9 0;border-radius:5px 5px 0 0;border-style:solid solid none;border-width:1px 1px 0;display:block;float:left;margin:0 0 0 10px;padding:0 10px;position:relative;top:0}
+#bm_wrap table{border-collapse:collapse;border-radius:4px 4px 4px 4px;font-family:Arial, Helvetica, sans-serif;padding:3px;width:100%}
+#bm_wrap table tbody tr{background:none repeat scroll 0 0 #FFF;border-top:1px solid #999;font-size:.9em}
+#bm_wrap table thead tr th{border-bottom:2px solid #000}
+#bm_wrap table tbody tr:hover{background:none repeat scroll 0 0 #E8F0FF}
+#bm_wrap table tbody .e{background:none repeat scroll 0 0 #FFF}
+#bm_wrap table tbody tr th{border-right:1px solid #666;padding-left:3px;text-align:center}
+#bm_wrap table tbody tr td{text-align:center}
+#bm_months_list{margin-bottom:10px;width:650px}
+#bm_months_list ul{margin:10px 0 0 35px}
+#bm_months_list h3{margin:0;padding:0}
+#bm_months_list h3 a{margin:0;padding:0}
+#bm_months_2010{height:auto;overflow:hidden}
+#bm_months_2011{height:auto;overflow:hidden}
+.bm_months_container{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;border-color:0 #CEDBD9 #CEDBD9;border-right:1px solid #CEDBD9;border-style:none solid solid;border-width:0 1px 1px;height:auto;width:100%}
+.bm_months_title{background:none repeat scroll 0 0 #E6F0F5;border:1px solid #CEDBD9;padding:5px;width:640px}
+.tabi_menu{padding:0;width:100%}
+.tabi_menu li{display:inline;z-index:1000}
+.tabi_menu li a{background:url(img_fdagov_footer_blue.png) repeat-x scroll left top transparent;border-color:#CEDBD9 #CEDBD9 0;border-radius:5px 5px 0 0;border-style:solid solid none;border-width:1px 1px medium;color:#FFF;float:left;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:700;margin:0 5px 0 0;padding:5px;position:relative;text-decoration:none}
+.tabi_menu li.active a{background:none repeat scroll 0 0 #FFF;border-bottom:1px solid #FFF;color:#000;position:relative;top:1px;z-index:100}
+.tabi_content{background:none repeat scroll 0 0 #FFF;border:1px solid #CEDBD9;border-radius:0 5px 5px 5px;clear:both;height:auto;padding:10px;position:relative;z-index:10}
+#tablePagination{font-size:.9em;height:20px;padding:0 5px}
+#tablePagination_rowsPerPage{margin-right:6px}
+#tablePagination_perPage{margin-right:8px}
+#tablePagination_nextPage{margin-bottom:1px;margin-left:4px;vertical-align:bottom}
+#tablePagination_prevPage{margin-bottom:1px;margin-right:4px;vertical-align:bottom}
+#tablePagination_paginater{margin-bottom:2px}
+#tablePaginationtop{font-size:.9em;margin:0;padding:0}
+#tablePagination_rowsPerPagetop{margin-right:6px}
+#tablePagination_perPagetop{margin-right:8px}
+#tablePagination_nextPagetop{margin-bottom:1px;margin-left:4px;vertical-align:bottom}
+#tablePagination_prevPagetop{margin-bottom:1px;margin-right:4px;vertical-align:bottom}
+#tablePagination_paginatertop{margin-bottom:2px}
+#b4i_topics_list_wrap{font-size:90%;margin:20px auto;text-align:center;white-space:normal;width:100%}
+#b4i_topics_list_wrap ul{margin:0;padding:0;text-align:center}
+#b4i_topics_list_wrap ul li{display:inline;list-style:none outside none}
+#b4i_topics_list_wrap ul .b4i_list_sep{color:#494138;font-weight:bolder;margin-left:5px;margin-right:5px}
+#b4i_az{border:1px solid #C6C6BE;border-radius:10px 10px 10px 10px;font-size:80%;margin:20px auto;max-width:100%;padding:10px;text-align:center;white-space:normal}
+#b4i_az h3{margin:0;text-align:center}
+#b4i_az ul{margin:5px 0;padding:0;text-align:center}
+#b4i_az ul li{display:inline;list-style:none outside none}
+#b4i_az ul .b4i_list_sep{color:#494138;font-weight:bolder;margin-left:1px;margin-right:1px}
+#b4i_video_box{border:1px solid #C6C6BE;border-radius:10px 10px 10px 10px;max-width:100%;padding:10px}
+#b4i_video_box_left{float:left;width:65%}
+#b4i_video_box_right{float:left;width:33%}
+#b4iflow_content{border:2px solid #999;border-radius:5px 5px 5px 5px;display:block;margin:10px auto;width:95%}
+#b4iflow_content #flow_top{background:none repeat scroll 0 0 #17529F;border-bottom:1px solid #999;height:30px;margin-bottom:10px;width:100%}
+#b4iflow_content #flow_top img{border:0 none;bottom:9px;float:left;height:46px;position:relative;width:auto}
+#b4iflow_content #flow_top p{clear:right;color:#FFF;float:left;font-weight:700;margin:10px}
+#b4iflow_content #content_in{padding:10px}
+#b4iflow_content #content_in *{text-align:center}
+#b4iflow_content .b4i_flowbold{font-weight:700}
+#nodisp{display:none}
+.nodisp{display:none}
+#preview{background:none repeat scroll 0 0 #333;border:1px solid #CCC;color:#FFF;padding:5px;position:absolute}
+div.rating-cancel,div.star-rating{background:none repeat scroll 0 0 transparent;cursor:pointer;display:block;float:left;height:15px;overflow:hidden;text-indent:-999em;width:17px}
+div.rating-cancel,div.rating-cancel a{background:url(http://www.fda.gov/ucm/groups/fdagov-public/@system/documents/system/delete.gif) no-repeat scroll 0 -16px transparent}
+div.star-rating,div.star-rating a{background:url(img_fdagov_star_rating.gif) no-repeat scroll 0 0 transparent}
+div.rating-cancel a,div.star-rating a{background-position:0 0;border:0 none;display:block;height:100%;width:16px}
+div.star-rating-on a{background-position:0 -16px!important}
+div.star-rating-hover a{background-position:0 -32px}
+div.star-rating-readonly a{cursor:default!important}
+div.star-rating{background:none repeat scroll 0 0 transparent!important;overflow:hidden!important}
+div.light_rounded .pp_top .pp_left{}
+div.light_rounded .pp_top .pp_middle{background:none repeat scroll 0 0 #FFF}
+div.light_rounded .pp_top .pp_right{}
+div.light_rounded .pp_content .ppt{color:#000}
+div.light_rounded .pp_content_container .pp_left,div.light_rounded .pp_content_container .pp_right{background-color:#FFF}
+div.light_rounded .pp_content{background-color:#FFF}
+div.light_rounded .pp_next:hover{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -1493px;cursor:pointer}
+div.light_rounded .pp_previous:hover{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-1050px -1565px;cursor:pointer}
+div.light_rounded .pp_expand{cursor:pointer}
+div.light_rounded .pp_expand:hover{cursor:pointer}
+div.light_rounded .pp_contract{cursor:pointer}
+div.light_rounded .pp_contract:hover{cursor:pointer}
+div.light_rounded .pp_close{cursor:pointer;height:22px;width:75px}
+div.light_rounded #pp_full_res .pp_inline{color:#000}
+div.light_rounded .pp_arrow_previous{}
+div.light_rounded .pp_arrow_previous.disabled{background-position:0 -87px;cursor:default}
+div.light_rounded .pp_arrow_next{}
+div.light_rounded .pp_arrow_next.disabled{background-position:-22px -87px;cursor:default}
+div.light_rounded .pp_bottom .pp_left{}
+div.light_rounded .pp_bottom .pp_middle{background:none repeat scroll 0 0 #FFF}
+div.light_rounded .pp_bottom .pp_right{}
+.owh_slideshow{position:relative;width:100%}
+.owh_slideshow #slideshow{width:100%}
+.owh_slideshow #slide_container{background:none repeat scroll 0 0 #000;width:100%}
+.owh_slideshow .curr_slide{width:100%}
+.owh_slideshow .curr_slide a img{border:0 none;width:100%}
+.owh_slideshow .slide_desc{background:url(img_fdagov_owh_bckgrnd.png) repeat scroll 0 0 transparent;border-top:2px solid #E6242D;bottom:77px;color:#FFF;height:76px;position:relative}
+.owh_slideshow #slideshow_wrap ul{margin:0;padding:0}
+.owh_slideshow .slideshow_ul .slide{margin:0;padding:0}
+.owh_slideshow .slideshow_ul li{list-style:none outside none}
+.owh_slideshow .slide_desc .slide_desc_in{margin:10px 14px 14px}
+.owh_slideshow .slide_desc .slide_title{font-family:Arial, Helvetica, sans-serif;font-weight:bolder;text-shadow:0 0 .2em #000;width:70%}
+.owh_slideshow .slide_desc .slide_title h2{font-size:125%;margin:0}
+.owh_slideshow .slide_desc .slide_subtitle{font-family:Arial, helvetica, sans-serif;width:70%}
+.owh_slideshow .slide_desc .slide_subtitle a{color:#FFF}
+.owh_slideshow .slide_desc .slide_subtitle a:hover{color:#FFF;text-decoration:underline}
+.owh_slideshow .nav_wrap{bottom:53px;color:#FFF;margin-right:9px;position:relative}
+.owh_slideshow .ul_nav{float:right;margin:0;padding:0;position:relative;z-index:10}
+.owh_slideshow .ul_nav li{background:url(img_fdagov_slide_nav.png) repeat scroll 0 0 transparent;float:left;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:700;height:24px;list-style:none outside none;margin-left:5px;margin-right:5px;width:24px;z-index:10}
+.owh_slideshow .ul_nav li a{color:#FFF;left:7px;position:relative;text-decoration:none;top:3px}
+.owh_slideshow .ul_nav li a:hover{color:#FFF;text-decoration:underline}
+.owh_slideshow .ul_nav li a img{border:0 none;z-index:10}
+.owh_slideshow .ul_nav li p{margin:0;position:relative;top:2px}
+#featured{background:none repeat scroll 0 0 #FFF;border:5px solid #CCC;height:250px;padding-right:250px;position:relative;width:390px}
+#featured ul.ui-tabs-nav{left:390px;list-style:none outside none;margin:0;padding:0;position:absolute;top:0;width:250px}
+#featured ul.ui-tabs-nav li{color:#666;font-size:1em;list-style:none outside none;padding:1px 0 1px 13px}
+#featured ul.ui-tabs-nav li img{background:none repeat scroll 0 0 #FFF;border:1px solid #EEE;float:left;margin:2px 5px;padding:2px}
+#featured ul.ui-tabs-nav li span{font-family:Verdana;font-size:.9em;line-height:18px}
+#featured li.ui-tabs-nav-item a{background:none repeat scroll 0 0 #FFF;color:#333;display:block;height:60px;line-height:20px}
+#featured li.ui-tabs-nav-item a:hover{background:none repeat scroll 0 0 #F2F2F2}
+#featured li.ui-tabs-selected{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:0 0}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{background:none repeat scroll 0 0 #CCC}
+#featured .ui-tabs-panel{position:relative}
+#featured .ui-tabs-panel .info{background:url(http://www.fda.gov/ucm/groups/fdagov-public/documents/system/img_fda_gov_vfeature_transpare.png) repeat scroll 0 0 transparent;left:0;position:absolute;top:180px}
+#featured .info h2{color:#FFF;font-family:Georgia, serif;font-size:1.8em;margin:0;overflow:hidden;padding:5px}
+#featured .info p{color:#F0F0F0;font-family:Verdana;font-size:.9em;line-height:15px;margin:0 5px}
+#featured .info a{color:#FFF;text-decoration:none}
+#featured .info a:hover{text-decoration:underline}
+#featured .ui-tabs-hide{display:none}
+#featured{border:medium none;float:left;padding:4px;width:328px!important}
+#featured .ui-tabs-panel .info{border-top:2px solid #E6242D;height:78px;top:170px!important;width:328px}
+#featured .ui-tabs-panel{background-color:#F3F3F3;height:251px;overflow:hidden;width:328px}
+#featured .ui-tabs-panel img{height:251px;width:328px}
+#featured ul.ui-tabs-nav{left:342px;list-style:none outside none;padding:4px;width:276px}
+#featured ul.ui-tabs-nav li{margin:0;padding:0!important}
+#featured ul.ui-tabs-nav li img{border:medium none;clear:both;height:50px;margin:0!important;padding:0;width:70px}
+#featured li.ui-tabs-selected{background-image:none}
+#featured li.ui-tabs-nav-item a{background-color:#FFF;border-top:2px solid #FFF;color:#0C2C58;height:50px!important;margin:0 0 14px}
+#featured li.ui-tabs-nav-item a:hover{background-color:#FFF;color:#0C2C58;text-decoration:none}
+#featured .info h2{font-family:Arial, Helvetica, sans-serif;font-size:1.6em;padding:10px 10px 5px}
+#featured .info p{font-family:Arial, Helvetica, sans-serif;font-size:1.1em;margin:0;padding:0 10px}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{background-color:#263540;border-top:2px solid #E6242D;color:#FFF;height:50px}
+#featured li.ui-tabs-nav-item a{font-family:Arial, Helvetica, sans-serif;font-size:1.1em}
+#featured .left_contentHolder{font-family:Arial, Helvetica, sans-serif}
+#featured .left_contentHolder h2{font-size:2em;margin:0;padding:15px 15px 8px}
+#featured .left_contentHolder p{font-size:1.1em;margin:0;padding:0 15px 8px}
+#featured ul.ui-tabs-nav li p{font-family:Arial, Helvetica, sans-serif;font-size:1.1em;line-height:15px;margin:0;padding:8px 15px 0 84px}
+#slideshow_wrap{position:relative;width:100%}
+#slideshow{width:100%}
+.slideshow_table{border-collapse:collapse}
+.slideshow_table img{width:200px}
+.slideshow_table th,.slideshow_table td{border-bottom:1px solid #AAA;border-top:1px solid #AAA;padding:6px}
+#slide_container{background-attachment:scroll;background-color:#000;background-image:none;background-position:0 0;background-repeat:repeat;width:100%}
+#page-feature .curr_slide{width:100%}
+#page-feature .curr_slide a img{border-bottom:0 none;border-top:0 none;width:100%}
+#page-feature .slide_desc{background-attachment:scroll;background-color:transparent;background-image:url(img_fdagov_slide_bg4.png);background-position:0 0;background-repeat:repeat;border-top:2px solid #E6242D;bottom:77px;color:#FFF;height:76px;position:relative}
+#slideshow_wrap ul{margin:0;padding:0}
+#page-feature .slideshow_ul .slide{margin:0;padding:0}
+#page-feature .slideshow_ul li{list-style:none outside none}
+#page-feature .slide_desc .slide_desc_in{margin:10px 14px 14px}
+#page-feature .slide_desc .slide_title{font-family:Arial, Helvetica, sans-serif;font-weight:bolder;text-shadow:0 0 .2em #000;width:70%}
+#page-feature .slide_desc .slide_title h2{font-size:125%;margin:0}
+#slide_container .slide_desc .slide_desc_in .slide_title a,#slide_container .slide_desc .slide_desc_in .slide_title a:visited{color:#FFF;text-decoration:none}
+.slide_desc .slide_subtitle{font-family:Arial, helvetica, sans-serif;width:70%}
+.slide_desc .slide_subtitle a{color:#FFF}
+.slide_desc .slide_subtitle a:hover{color:#FFF;text-decoration:underline}
+.nav_wrap{bottom:53px;color:#FFF;margin-right:9px;position:relative}
+.ul_nav{float:right;margin:0;padding:0;position:relative;z-index:10}
+.ul_nav li{float:left;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:700;list-style:none outside none;margin-left:5px;margin-right:5px;z-index:10}
+.ul_nav li a{text-decoration:none}
+.ul_nav li a img{border-bottom:0 none;border-top:0 none;z-index:10}
+.ul_nav li p{margin:0;position:relative;top:2px}
+.clearfloat{background:none repeat scroll 0 0 transparent;clear:both;width:100%}
+#fsma-slideshow{color:#FFF;list-style:none outside none}
+#fsma-slideshow span{display:none}
+#fsma-wrapper{display:none;margin:0 auto;width:616px}
+#fsma-wrapper *{margin:0;padding:0}
+#fsma-fullsize{background:none repeat scroll 0 0 #F1F1EF;border:1px solid #DCDDD8;height:250px;padding:2px;position:relative;width:615px}
+#fsma-information{background:none repeat scroll 0 0 #FFF;color:#000;margin-left:2px;opacity:0.8;overflow:hidden;position:absolute;top:4px;width:323px;z-index:200}
+#fsma-information h3{font-size:1.2em;padding:4px 8px 3px}
+#fsma-information p{line-height:22px;padding:8px}
+#fsma-image{width:500px}
+#fsma-image img{position:absolute;width:auto;z-index:25}
+.fsma-imgnav{cursor:pointer;height:306px;position:absolute;width:25%;z-index:150}
+#fsma-imgprev{background:url(../../../documents/image/ucm250181.gif) no-repeat scroll left bottom transparent;height:48px!important;left:0;margin-top:204px;width:38px;z-index:999}
+#fsma-imgnext{background:url(../../../documents/image/ucm250182.gif) no-repeat scroll right bottom transparent;height:48px!important;margin-top:204px;right:0;width:38px;z-index:999}
+#fsma-imglink{display:none;height:286px;opacity:0.4;position:absolute;visibility:hidden;width:100%;z-index:100}
+#fsma-thumbnails{display:block;margin-left:-5px;margin-top:5px;visibility:hidden;width:615px}
+#fsma-thumbnails img{height:48px;width:48px}
+#fsma-slideleft{background-color:#222;display:none;float:left;height:81px;visibility:hidden;width:20px}
+#fsma-slideleft:hover{background-color:#333}
+#fsma-slideright{display:none;float:right;height:81px;visibility:hidden;width:20px}
+#fsma-slideright:hover{background-color:#333}
+#fsma-slidearea{float:left;height:81px;margin-left:5px;overflow:hidden;position:relative;width:400px}
+#fsma-slider{height:81px;left:0;position:absolute}
+#fsma-slider img{border:1px solid #666;cursor:pointer;padding:2px}
+#main_left_nav{display:block;float:left;font-family:Arial, Helvetica, sans-serif;margin:10px 12px 10px 0;width:100%}
+#outerwrapper-topic #main_left_nav,#outerwrapper-hp #main_left_nav{display:block;margin:10px;width:265px}
+#main_left_nav h1{color:#FFF;font-size:1em;font-weight:700;padding-bottom:3px;padding-left:14px;padding-right:5px}
+#main_left_nav h1 a{color:#FFF;font-size:1em;font-weight:700;padding-bottom:3px;padding-left:0}
+#main_left_nav h1 a:visited{color:#FFF;font-size:1em;font-weight:700;padding-bottom:3px;padding-left:0}
+#main_left_nav ul{list-style-type:none}
+.leftnav_child li a{border-top:1px solid silver;color:#3D5276;display:block;margin-left:0;margin-right:0;margin-top:0;padding:2% 6% 2% 13%;text-decoration:none}
+.leftnav_child li a:hover{color:#BC4804}
+.leftnav_parent,.leftnav_sub,.leftnav_current{background:none repeat scroll 0 0 #E5E5E5;border-left:1px solid silver;border-right:1px solid silver;font-weight:700}
+.leftnav_child .leftnav_current{border-top:1px solid silver}
+.leftnav_child .leftnav_parent a{padding-left:28px}
+#outerwrapper-topic .leftnav_child li a:hover,#outerwrapper-hp .leftnav_child li a:hover{background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:0 -90px}
+.liquid-round{background:url(img_fdagov_leftside.gif) repeat-y scroll left top #FFF;margin:0 auto;width:100%}
+.top{background:url(img_fdagov_top.gif) no-repeat scroll left top transparent;height:5px;width:100%}
+.top span{background:url(img_fdagov_top_right.gif) no-repeat scroll right top transparent;display:block;height:5px;position:relative}
+.liquid-round-header{background:none repeat scroll 0 0 transparent;position:relative}
+#outerwrapper-topic .liquid-round-header,#outerwrapper-hp .liquid-round-header{background:url(http://www.fda.gov/ucm/groups/fdagov-public/@system/documents/system/img_fdagov_hleftside.gif) repeat-y scroll left top #FFF;position:relative}
+.header_bg{background:url(img_fdagov_hrightside.gif) repeat-y scroll right top #374D85;position:relative}
+.center-content{background:url(img_fdagov_rightside.gif) repeat-y scroll right top transparent;position:relative}
+#section-menu{overflow:hidden}
+.bottom{background:url(img_fdagov_bottom.gif) no-repeat scroll left bottom transparent;height:5px;width:100%}
+.bottom span{background:url(img_fdagov_bottom_right.gif) no-repeat scroll right top transparent;display:block;height:5px;position:relative}
+.sidemenu_parent a:link,.sidemenu_parent a:visited{background-color:#17529F;color:#FFF;font-family:Verdana;text-decoration:none}
+.sidemenu_parent a:hover{color:#0C1184}
+.sidemenu_parent a{font-size:100%;font-weight:700;text-align:left}
+#rss_icon,#govd_icon,#disclaimer{float:none;padding-left:3px}
+#rss_icon{height:13px;width:13px}
+#doc-select-arrow{border-top:1px solid silver;width:100%}
+#doc-select-arrow img{float:left}
+#doc-select-arrow a{border-top:0 none;float:left;max-width:75%;padding-left:5px}
+.cu_slideshow{border:1px solid #AAA;padding:2px;position:relative;width:100%}
+.cu_slideshow #slideshow{width:100%}
+.cu_slideshow #slide_container{background:none repeat scroll 0 0 #000;width:100%}
+.cu_slideshow .curr_slide{background-color:#000;overflow:hidden;text-align:center;width:100%}
+.cu_slideshow .curr_slide a img{border:0 none;image-rendering:optimizequality}
+.cu_slideshow .curr_slide img{border:0 none;image-rendering:optimizequality}
+.cu_slideshow .slide_desc{background:none repeat scroll 0 0 #27333C;border-top:2px solid #E6242D;bottom:0;color:#FFF;height:41px;position:relative}
+.cu_slideshow #slideshow_wrap ul{margin:0;padding:0}
+.cu_slideshow .slideshow_ul .slide{margin:0;padding:0}
+.cu_slideshow .slideshow_ul li{list-style:none outside none}
+.cu_slideshow .slide_desc .slide_desc_in{font-weight:700;margin:10px 0 0;text-shadow:0 0 .2em #000}
+.cu_slideshow .slide_desc .slide_desc_in span{font-size:140%}
+.cu_slideshow .slide_desc .slide_title{font-family:Arial, Helvetica, sans-serif;font-weight:bolder;text-shadow:0 0 .2em #000;width:70%}
+.cu_slideshow .slide_desc .slide_title h2{font-size:125%;margin:0}
+.cu_slideshow .slide_desc .slide_subtitle{float:left;font-family:Arial, helvetica, sans-serif;margin-left:10px;width:auto}
+.cu_slideshow .slide_desc .slide_subtitle a{color:#FFF}
+.cu_slideshow .slide_desc .slide_subtitle a:hover{color:#FFF;text-decoration:underline}
+.cu_slideshow .slide_subtitle{float:right;padding:3px}
+.cu_slideshow .ul_nav{bottom:5px;float:right;margin:0 10px 0 0;padding:0;position:relative;z-index:10}
+.cu_slideshow .ul_nav li{background:url(img_fdagov_slide_nav.png) repeat scroll 0 0 transparent;float:left;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:700;height:24px;list-style:none outside none;margin-left:5px;margin-right:10px;width:24px;z-index:10}
+.cu_slideshow .ul_nav .cu_nav_button{background-image:none}
+.cu_slideshow .ul_nav li a{color:#FFF;left:7px;position:relative;text-decoration:none;top:3px}
+.cu_slideshow .ul_nav li a:hover{color:#FFF;text-decoration:underline}
+.cu_slideshow .ul_nav li a img{border:0 none;z-index:10}
+.cu_slideshow .ul_nav li p{margin:0;position:relative;top:2px}
+.cu_slideshow #caption{font-family:Arial, Helvetica, sans-serif;padding:10px}
+.clearfloat{clear:both;width:100%}
+#toggle-zoom{float:right;height:0;position:relative;right:5px;top:5px;width:auto;z-index:10}
+#pp-left,#pp-right{line-height:40px;margin:0 12px}
+#pp-left a img,#pp-right a img{position:relative;top:8px}
+#pp-left{float:left}
+#pp-right{float:right}
+#pp-thumbs{float:left;height:40px;overflow:hidden;position:relative}
+#pp-thumbs #pp-thumbs-in{margin:0;position:relative}
+#pp-thumbs .thumb{float:left;height:35px;margin:3px;width:50px}
+#pp-thumbs .thumb img{image-rendering:optimizequality}
+#pp-thumbs .thumb .current-thumb{border-bottom:2px solid #E6242D}
+#thumb-preview{border:1px solid #000;box-shadow:0 0 2px 2px #333;position:absolute}
+#thumb-preview img{image-rendering:optimizequality}
+#slideshow a:focus{outline:0 none}
+#slideshow_container .cu_slideshow .nav_wrap .ul_nav{padding-top:20px}
+sup{bottom:.33em;font-size:80%;position:relative;vertical-align:baseline}
+sub{bottom:-.33em;font-size:80%;position:relative;vertical-align:baseline}
+#ph_img{max-width:283px}
+#ph_list{max-width:217px}
+#pager span,#pager a{color:#03C;cursor:pointer;padding:4px 6px}
+#pager .selected{color:#000;font-weight:700}
+/****** Home page Feature Tabs ******/.tabsMenu{margin:0!important}
+.tabsMenu li{position:relative;/*for z-index*/top:1px;display:inline;float:left;font-weight:700;color:#ccc;border-bottom:none;z-index:1 margin-left: 1px}
+.tabsMenu li.current{position:relative;clear:none;/*for ie6*/color:#000;z-index:10}
+.tabsMenu a{float:left;font-size:1.15em;width:191px;height:34px;color:#486387!important;text-decoration:underline!important;background-color:transparent;margin:0;padding-top:18px;border-bottom:none;background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px -1047px;width:191px;text-align:center}
+.tabsMenu a:hover,.tabsMenu a:focus,.tabsMenu a:active{color:#486387;text-decoration:underline}
+.tabsMenu li.current a{color:#333!important;text-decoration:none!important;font-size:1.15em;width:191px;text-align:center;height:34px;padding-top:18px;background:url(img_fdagov_no-repeat-sprite.png) no-repeat top left;background-position:-2120px -1150px;width:191px}
+.tabsMenu li.current a:hover,.tabsMenu li.current a:focus,.tabsMenu li.current a:active{color:#333;border-bottom:none}
+.tabF{position:relative;/*for z-index*/display:block;clear:left;min-height:65px;overflow:auto;border-top:1px solid #d8d8d8;border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;border-bottom:none;z-index:5;background-color:#fff;width:571px;float:left}
+.tabF p{font-size:.9em}
+.tabF h2,.mainH2,.tabsMenu a span{position:absolute;left:-99999px}
+.featuredTab{padding:20px 0 0}
+.featuredTab ul.three_column{margin-left:33px;padding-left:0;width:auto;float:left}
+.featuredTab ul.three_column li{margin-bottom:1em}
+.featuredTab ul.three_column li a{color:#486387;font-weight:bolder}
+.featuredTab .three_column{max-width:27%}
+.featuredTab ul.two_column{margin-left:33px;padding-left:0;width:auto;float:left}
+.featuredTab ul.two_column li{margin-bottom:1em}
+.featuredTab ul.two_column li a{color:#486387;font-weight:bolder}
+.featuredTab .two_column{max-width:43%}

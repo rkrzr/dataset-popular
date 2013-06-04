@@ -1,0 +1,272 @@
+h1 a {color:#03889c}
+h1 a:hover {color:#03889c; text-decoration:underline; font-weight:bold}
+h3 a {color:#333}
+h3 a:hover {color:#0077cc; text-decoration:underline; font-weight:bold}
+h3 {text-transform:uppercase; font-size:1.2em}
+
+.right {float:right}
+.left {float:left}
+.none  {float:none}
+.clear {clear:both}
+
+body#home #container #content {margin:3px 0 0 0; background:url(separator_homepage.gif) repeat-y;}
+
+body#home #infoSources h3 a {color:#333; text-transform:none;}
+body#home #infoSources h3 a:hover {color:#8e8e8e;}
+
+body#home #extendedMapWrap {width:100%; background:#252a2d; clear:both; height:4px}
+body#home #extendedMapWrap .noMapTab {padding-top:0; }
+body#home #mapTab {width:983px; margin:0 auto;  position:relative; top:0; left:-6px; clear:both;}
+body#home #mapTab p.userMessage {color:#fff; float:right; margin-top:10px; font-size:1.4em}
+body#home #extendedMapWrap .noMapTab p.userMessage {margin-top:5px}
+body#home #mapTab p.userMessage a {color:#ff6600}
+body#home #mapTab p.userMessage a :hover{text-decoration:underline}
+
+#headMast {background:#2e3438; padding:8px 0 11px 0; line-height:0; height: 300px;}
+#headMast #headMastWrap {width:965px; margin:0 auto;}
+#headMast #headMastWrap .slideShow {float:left; width:642px; margin-right:7px; }
+#headMast #headMastWrap .destinationsMap {float:right; width: 316px;}
+
+#headMast #destinationMapContainer {line-height:0}
+#headMast .destinationsMap {background:#f1e7d8 url(sprite-misc.gif) 0 -80px no-repeat; height:298px}/*map bottom*/
+#headMast .destinationsMap h1 {background: url(sprite-misc.gif)  0 0 no-repeat; padding:10px 14px 0 16px; text-transform:uppercase; line-height:1.5em; font-size: 1.3em;}/*map top*/
+
+#headMast .destinationsMap .jumpDest {position:relative; top:31px; left:7px; margin:0; padding:0}
+
+#headMast .destinationsMap label {display:none;}
+#headMast .destinationsMap input {width:250px; color:#044288; font-weight:bold; padding:3px 3px 0 3px; margin-right:4px; font-family:Arial, Helvetica, sans-serif; float:left; height:16px}
+
+#headMast .destinationsMap button {height:23px; background: url(sprite-buttons.gif) 100% -487px no-repeat; position:relative; top:0; left:0;  float:left }/*white button right*/
+
+#headMast .destinationsMap button span {color:#044288; font-family:Arial, Helvetica, sans-serif; height:23px; line-height:23px; background: url(sprite-buttons.gif) 0 -436px no-repeat;}/*white button left*/
+#headMast .destinationsMap button:hover {background-position: 100% -510px;}
+#headMast .destinationsMap button:hover span {background-position: 0 -459px;}
+#headMast .destinationsMap p.disabled {width:300px; font-size:0.9em; color:#fff; margin-top:0; line-height:1.2em}
+#headMast .destinationsMap p.disabled a{color:#fff}
+
+#homepage-carousel {width:642px; margin-right:0px; height: 298px; position:relative;}
+.carouselEntry {height: 298px;}
+.carouselEntry a {color: #fff!important; text-decoration: none;}
+.carouselEntry a:hover {text-decoration: none;}
+.carouselEntry .carouselBanner {display: block; color: white; z-index: 10; height: 80px; width: 642px; position: absolute; top: 156px; left:0;}
+.carouselEntry .carouselBanner .carouselBannerBgTransparent {background: #333; display:block; width: 642px; height: 87px; filter:alpha(opacity=85); -webkit-opacity:0.85; opacity: 0.85}
+.carouselEntry .carouselBanner .carouselBannerBgSolid {background: #333; display:block; width: 642px; height: 40px; position: absolute; top: 47px; filter:alpha(opacity=90); -webkit-opacity:0.9; opacity: 0.9}
+.carouselEntry h2 {font-size: 2.5em; font-weight: normal; position: absolute; top: 21px; height: 50px; left:10px; line-height:1em; padding-right:7px;}
+* html .carouselEntry h2 {top:22px;}
+*:first-child+html .carouselEntry h2 {top:22px;}
+.carouselEntry .carouselText {display: block; width: 622px; height: 30px; position: absolute; top: 44px; left:10px;}
+.carouselEntry .carouselText p {position:relative; top: 25px; display: inline}
+.carouselEntry .carouselText p a {position:relative; top: 0; padding: 0; margin: 0; padding-right: 7px; padding-top: 2px; padding-bottom: 2px}
+.carouselEntry .carouselText p span.arrow {position:relative; top: 0; padding-left: 5px; padding-right: 5px; padding-top: 2px; padding-bottom: 2px}
+.carouselEntry .carouselText p.hover a {background: url(carousel-link-bg.png) top right no-repeat;}
+* html .carouselEntry .carouselText p.hover a {background-image: none; text-decoration: underline;}
+.carouselEntry .carouselText p.hover span.arrow {background: url(carousel-link-arrow-bg.png) top left no-repeat;}
+* html .carouselEntry .carouselText p.hover span.arrow {background-image: none} 
+
+#carousel-buttons {position: absolute; top: 268px; z-index: 10; cursor: pointer;}
+#carousel-buttons li {float: left; text-align:center; line-height:2.5em;}
+#carousel-buttons li a {background-color:#000; color:#a9a9a9; height: 30px; width: 30px; font-weight:bold; display:block;}
+#carousel-buttons li a:hover {background-color:#a7adad; color:#fff; text-decoration:none;}
+#carousel-buttons li a:focus {text-decoration:none;}
+#carousel-buttons li a.current-slide {background-color:#fff; color:#000;}
+#carousel-buttons a.carousel-pause { background: url(sprite-buttons.gif) -130px -1128px no-repeat}/*pause button*/
+#carousel-buttons a.carousel-pause:hover { background: url(sprite-buttons.gif) -130px -1162px no-repeat}/*pause button hover*/
+#carousel-buttons a.carousel-resume {background: url(sprite-buttons.gif) -170px -1128px no-repeat;}/*play button*/
+#carousel-buttons a.carousel-resume:hover {background: url(sprite-buttons.gif) -170px -1162px no-repeat}/*play button hover*/
+#carousel-buttons a.carousel-pause.hidden {display: none}
+#carousel-buttons a.carousel-resume.hidden {display: none}
+
+.carouselRed    {background-color: #a92817!important}
+.carouselOrange {background-color: #bf5501!important}
+.carouselYellow {background-color: #b89c02!important}
+.carouselBurntOrange {background-color: #a0462f!important}
+.carouselPurple {background-color: #8d5489!important}
+.carouselPink   {background-color: #ff7fcd!important}
+.carouselBlue   {background-color: #0096ce!important}
+.carouselAqua   {background-color: #058a9d!important}
+.carouselTeal   {background-color: #098a74!important}
+.carouselBrown  {background-color: #794d0f!important}
+.carouselGreen  {background-color: #347b1d!important}
+.carouselOlive  {background-color: #789d02!important}
+
+/*Main Body*/
+ 
+#editorPick {padding:21px 0; border-bottom:7px solid #f3f2e8; width: 641px;}
+#editorPick .author {float:left; width:141px; padding:0 0 0 28px;}
+#editorPick .authorDetails {padding-right:0;}
+#editorPick .authorDetails span.large {background:url(sprite-misc.gif) 52px -420px no-repeat;}/*editors pick logo*/
+#editorPick h2 {font-size:2.4em; font-weight:normal; float:left; line-height:1em; width:450px; display:block; margin:3px 0;}
+#editorPick p {float:left}
+#editorPick p span {font-weight:bold;}
+
+.hpModule {border-bottom:7px solid #f3f2e8; }
+
+.hpSideBar {width:156px; float:left; margin-right:14px; font-size:0.9em}
+.hpSideBar ul {margin-top:21px; list-style:none}
+.hpSideBar li {padding-bottom:7px;}
+.hpSideBar li a {float:none}
+.hpSideBar li.date {padding-bottom:25px; font-weight:bold}
+.hpSideBar li span {font-weight:bold}
+.hpSideBar li a span {text-transform:uppercase}
+.hpSideBar li.sponsor img {margin-top:7px}
+
+.hpModule li.featureRelated {background: url(sprite-misc.gif) 0 -696px no-repeat; padding-left:10px}
+.hpModule li.featureRelated a{color:#333;}
+.hpModule li.featureRelated a:hover{color:#0077cc}
+.hpModule h2 {font-size: 2.5em; font-weight:normal; margin:21px 0 13px 0; line-height:1em;}
+.hpModule h2 a, .hpModule h2 a:active, .hpModule h2 a:focus, .hpModule h2 a:visited {color:#333; font-weight:normal}
+.hpModule h2 a:hover {text-decoration:underline; color:#0077cc;}
+.hpModule img {float:none; clear:both;}
+
+.hpModuleContent {float:left; width:467px; padding-bottom:21px;}
+.hpModuleContent p.type {background:#039bb2; padding:7px 3px 0 3px; font-size:0.9em; font-weight:bold; color:#fff; text-transform:uppercase; line-height:0.8em; display:inline; position:relative; top:10px; left:0}
+.hpModuleContent .hpContentWrap {width:226px;}
+.hpModuleContent p {padding:0 0 10px; clear:left; font-size:100%;}
+.hpModuleContent p a.linkChevron {font-size:0.9em; background-position: 0 -697px; color:#333; font-weight:normal;}
+.hpModuleContent p a.linkChevron:hover {color:#8e8e8e;}
+.hpModuleContent.interests p {float:left; clear:none}
+.hpModuleContent.interests blockquote{float:left;}
+.hpModuleContent blockquote {margin-bottom:0; background:url(http://static.lonelyplanet.com/static-ui/style/quote-open-gray-small.gif) no-repeat 0 5px; font-family:Georgia, "Times New Roman", Times, serif; font-size:1.4em; padding-left:14px; line-height:1.4em; color:#666}
+.hpModuleContent blockquote img {margin-left:3px}
+
+.hpModule.video h2 {margin:21px 0 12px 0;}
+.hpModule.video img {margin-bottom:14px}
+.hpModule.sponsored ul.sponsor {padding:14px 0 0 0; height:52px; float:right;}
+.hpModule.sponsored ul.sponsor li p {color:#666; padding-top:7px; width: 130px; font-size:0.9em; float:left; clear:none}
+.hpModule.sponsored ul.sponsor li img {float:left; margin-right:5px}
+.hpModuleContent .imageGroup1 {float:right; width:226px; }
+.hpModuleContent .imageGroup1 .imageA {margin-bottom:5px}
+.hpModuleContent .imageGroup1 .imageB {margin-right:5px; width:84px; float:left}
+.hpModuleContent .imageGroup1 .imageC {width:137px; float:left}
+.hpModuleContent .imageGroup2 {margin-bottom:14px;}
+.hpModuleContent .imageGroup2 .imageA {margin-bottom:7px}
+.hpModuleContent .imageGroup2 .imageB {float:left; margin-right:6px}
+.hpModuleContent .imageGroup2 .imageC {float:left}
+.hpModuleContent .imageGroup3 {margin:18px 0 14px 0; clear:both}
+.hpModuleContent .imageGroup3 .imageA {float:left; margin-right:5px}
+.hpModuleContent .imageGroup3 .imageB {float:left; margin-right:5px}
+.hpModuleContent a {font-weight:bold; color:#0077cc;}
+.hpModuleContent a:hover {color:#0077cc !important;}
+.hpModuleContent a.reviewer {color:#333;}
+.hpModuleContent a.reviewer:hover {color:#8E8E8E;}
+.hpModuleContent img.comp {margin-top:21px}
+
+/* General editorial hpModule list/link styling */
+.hpModule h2.subsequentArticle {font-size: 1.6em; margin-top:4px;}
+.hpModule h4 {color:#A5A59F; font-size:11px; margin-top:15px; text-transform:uppercase;}
+.hpModule .hpModuleContent li.featureRelated a{font-weight:normal;}
+.hpModule .hpHeading {width:auto;}
+.hpModuleContent ol{list-style:decimal outside none; padding:0 0 8px; margin-left:27px;}
+* html .hpModuleContent ol{margin-left:32px;}
+*+html .hpModuleContent ol{margin-left:32px;}
+.hpModuleContent ol li.featureLinks{display:list-item; float:none; margin:4px 0; font-size:1.1em;}
+.hpModuleContent ol li.featureLinks  a {background:none; color:#333333; font-size:1em; font-weight:normal;}
+.hpModuleContent ul li.featureRelated {font-size:0.9em;}
+.hpModuleContent ul li.noChevron {background:none; padding:0;}
+.hpModuleContent ul.largeFeature li.featureRelated {font-size:1.1em; margin:4px 0; background-position:0 -694px;}
+.hpModuleContent ul.largeFeature {padding-bottom:8px;}
+
+/* Even editorial hpModule */
+.hpEven .hpModuleContent {width:100%;}
+.hpEven .hpModuleContent h2 {font-size:1.6em; margin-top:4px;}
+.hpEven .hpModuleContent li.even {width:48%; padding-right:1%;}
+.hpEven .hpModuleContent img{width:310px; height:175px;}
+.hpEven .hpModuleContent .shopLeft{float:left; width:58%; padding:1%;}
+.hpEven .hpModuleContent .shopRight{float:right; width:38%; padding:1%;}
+.hpEven .hpModuleContent .shop img{width:87px; height:146px; margin:20px 10px 0;}
+
+/* Uneven editorial hpModule */
+.hpUneven .hpModuleContent {width:100%;}
+.hpUneven .hpModuleContent h2 {font-size:1.6em; margin-top:4px;}
+.hpUneven .hpModuleContent .hpHeading.rightSide h2 {margin-left:255px;}
+.hpUneven .hpModuleContent li.largeUneven {width:380px; padding-right:1%;}
+.hpUneven .hpModuleContent li.smallUneven {width:240px; padding-right:1%;}
+.hpUneven .hpModuleContent img{width:380px; height:212px;}
+
+/* Main Feature editorial hpModule */
+.mainFeature .hpModuleContent{float:left;}
+.mainFeature .hpSideBar{float:right; margin-right:8px;}
+.mainFeature .hpSideBar ul {margin-top:2px;}
+.mainFeature .hpSideBar li {font-size:1.1em;}
+.mainFeature .hpModuleContent p {padding:0;}
+* html .mainFeature .hpModuleContent {width:457px; padding-right:10px;}
+* html .mainFeature .hpModuleContent img{width:457px;}
+
+/*.hpModuleContent .author {float:none}
+.hpModuleContent .author .authorDetails {padding:0 20px 12px 0}*/
+.hpModuleContent .author {display:none}
+
+
+/* SEO homepage links */
+div#homepage-deep-site-links {text-align: left; margin: 20px 0 0 0 !important;}
+div#homepage-deep-site-links div.deep-site-links-collection{float: left; width: 25%;} 
+div.deep-site-links-collection {display: block;}
+div.deep-site-links-collection h4 {text-transform: uppercase;} 
+div.deep-site-links-collection h4 a{color: #333; text-decoration: none;} 
+div.deep-site-links-collection ul {padding: 0; margin-bottom: 18px; display: block;}
+div.deep-site-links-collection ul li{font-size: 12px; line-height: 18px;}
+div.deep-site-links-collection ul.deep-site-links-list-inline {overflow: hidden;} 
+div.deep-site-links-collection ul.deep-site-links-list-inline li{float: left; padding-right: 5px;}
+
+/*Right Hand Side Bar Pods*/
+#sidebar {border-top:1px solid #dededc}
+.rhsPods {background:#f3f2e8 url(space-white-vert.gif) bottom left repeat-x; border-bottom:1px solid #dededc; border-top:3px solid #fff; width:303px; padding:14px 7px 21px 7px; clear:both;}
+#sidebar .noBorder {background-color:#f3f2e8; background-image:none; border-bottom:none}
+.rhsPods p.podSub {font-size:1.4em;  font-weight:bold}
+.rhsPods.noPadd {padding:14px 7px 0 7px;}
+
+#shop {padding:14px 7px 7px 7px;}
+
+#favourites h3 {margin-bottom:14px}
+#favourites p{padding-bottom:14px; clear:both;}
+#favourites .favouritesSub{font-size:1.4em; font-weight:bold; line-height:1.2em;}
+#favourites img.save {position:relative; top:3px; left:2px; margin-right:7px}
+#favourites p a.linkChevron {font-size:0.9em}
+
+#mpuPod p {text-transform:uppercase; font-size:0.8em; color:#666; margin-bottom:3px}
+
+#tripplanner h3 {margin-bottom:7px}
+#tripplanner .infoBoxBubble {background:url(bg-tripplanner-top.gif) top left no-repeat; width:295px;  padding:32px 0 0 0; margin:3px 0 0 0}
+#tripplanner .infoBoxBubbleWrap {background:#fff url(bg-tripplanner-bottom.gif) bottom left no-repeat; padding-bottom:10px}
+#tripplanner .author {width:100px;  padding:0 0 0 14px; margin:0 7px 0 0; }
+#tripplanner .authorDetails {padding-right:0;}
+#tripplanner .authorDetails span {margin-right:0;}
+#tripplanner .infoBoxBubble p {text-align:left; padding:0; letter-spacing:0.02em; float:left; width:162px; }
+#tripplanner .infoBoxBubble a {color:#044288; font-weight:bold}
+#tripplanner .infoBoxBubble a:hover {color:#30609e}
+#tripplanner .planTrip button {margin:160px 7px 0 0; float:right}
+/*#tripplanner .planTrip button.TPBttn {height:22px; background:url(btn-green-left.gif) top left no-repeat; border:0; cursor:pointer; font-weight:bold; padding:0; margin:160px 7px 0 0;  text-align:center; font-size:11px; overflow:visible; float:right}
+#tripplanner .planTrip button.TPBttn span {height:22px; background: url(btn-green-right.gif) top right no-repeat; display:block; padding-left:0; padding:5px 7px 0 0;  margin:0 0 0 9px; color:#fff; line-height:1em;}*/
+
+#destinationMonth .destinationsOfMonth p.month {font-size:2.8em; color:#03889c; line-height:1.2em; margin-left:0}
+#destinationMonth .destinationsOfMonth .dest1, #destinationMonth .destinationsOfMonth .dest2, #destinationMonth .destinationsOfMonth .dest3 {position:relative; color:#fff; width:106px; height:80px;}
+#destinationMonth .destinationsOfMonth .dest1 p a, #destinationMonth .destinationsOfMonth .dest2 p a, #destinationMonth .destinationsOfMonth .dest3 p a {color:#fff; text-decoration:underline}
+#destinationMonth .destinationsOfMonth p.destTitle a {font-size:1.8em; line-height:1.03em; padding-bottom:2px; font-weight:bold; color:#fff; text-decoration:none}
+#destinationMonth .destinationsOfMonth p.destTitle a:hover {text-decoration:underline}
+#destinationMonth p a:hover {color:#fff; text-decoration:underline}
+
+#products img {margin:14px 0 0 0}
+#products p {padding:7px 0 0 0}
+#products p a {color:#044288; font-size:0.9em; font-weight:bold;}
+#products p a:hover {color:#30609e}
+#products p.podSub {padding:10px 0 0 0;}
+
+#features .subPod {clear:both; padding-top:21px; }
+#features img.left {margin:0 7px 0 7px}
+#features img.right {margin:0}
+#features p {padding:7px 0 0 0;}
+#features .travelPromo p {padding-bottom:10px; width:55%}
+#features p.podSub {padding:0; font-size:1.2em;}
+#features p.podSub a {color: #333;}
+#features p.podSub a:hover {color: #0077cc;}
+#features a.linkChevron {font-size:0.9em}
+
+#features .travelPromo {background:url(travelPromo-hp.gif) 0 -15px no-repeat; padding-top:0 !important}
+#features .dealsImg {background-position: 0 -165px}
+#features .emailImg {background-position: 0 -330px}
+#features .magBg {background:none;}
+#features .magBg p {padding-bottom:0px;}
+
+.homepageEmbeddedVideo {position:relative; cursor:pointer!important}
+.homepageEmbeddedVideo span{background:url(mediaBlockHero-play.png) top left no-repeat; height:45px; width:62px; position:absolute; top:112px; left:210px; cursor:pointer}
+.homepageEmbeddedVideo img {cursor: pointer;}

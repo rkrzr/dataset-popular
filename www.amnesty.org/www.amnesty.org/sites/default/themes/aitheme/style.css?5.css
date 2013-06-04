@@ -1,0 +1,3179 @@
+/* Donate button */
+
+.page-donate .ui-dialog {
+  padding: 0;
+}
+
+.page-donate .donate-strong {
+  font-weight: bold;
+}
+
+.page-donate #popup {
+  color: #222;
+  background-color: #fff;
+  width: auto !important;
+  text-align: left;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-donate .ui-dialog-titlebar {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-donate .ui-dialog-titlebar,
+.page-donate .ui-dialog-title {
+  background-color: #fff;
+  background-image: none;
+  border: none !important;
+}
+
+.page-donate .ui-dialog-buttonpane button:first-child {
+  color: #00f;
+}
+
+.page-donate .ui-dialog-buttonpane button:first-child > button {
+  background-color: #ff0;
+}
+
+/* landing pages customizations */
+
+.lp-intro {
+  overflow: hidden;
+  height: 240px;
+  border: 1px solid #ccc;
+  border-width: 0px 0px 1px 1px;
+}
+
+.lp-intro p {
+  margin: 1em;
+}
+
+.lp-intro h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  background-color: yellow;
+  color: black;
+  padding: 1em 1em .5em;
+  margin: 0;
+}
+
+.lp-intro .video {
+  float: right;
+  margin-left: 0.25em;
+}
+
+.lp-description {
+  clear: both;
+  padding: .5em 1em;
+}
+
+.lp-list{
+  padding:0 1em;
+  position:relative;
+}
+
+.lp-list h2.title{
+  margin: 0px;
+  padding-top: 1.5em;
+  position:relative;
+  width:10em;
+  font-size: 1.2em;
+}
+
+.panel-landing .tabs .anchors a {
+  border: 0;
+  padding: .25em 1em;
+}
+
+.panel-landing .anchors .tabs-selected a, 
+.panel-landing .anchors a:hover, 
+.panel-landing .anchors a:focus, 
+.panel-landing .anchors a:active, 
+.panel-landing .fragment {
+  
+}
+
+/* rss carousel on homepage */
+body.front .rss-carousel-wrapper {
+  background: url(images/rss-carousel-bg.png) no-repeat top center;
+}
+
+ul.jcarousel-list,
+ul.jcarousel-list li {
+  position: relative !important;
+}
+
+/* embed codes for AV content */
+object, embed { 
+  display: block;
+}
+
+div.share {
+  width: 210px;
+  padding: 5px;
+  background: #e6e6e6;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+div.share .embedcode label {
+  display: inline-block;
+  width: 50px;
+  color: #000;
+  font-weight: bold;
+}
+
+div.share .embedcode input {
+  width: 150px;
+}
+
+body.front div.share {
+  width: 310px;
+}
+
+body.front div.share .embedcode input {
+  width: 250px;
+}
+/* Petitions */
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 .date-display-single,
+body.node-type-campaign .campaign .date-display-single { font-size:10px; font-weight:bold;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1  fieldset,
+body.node-type-campaign .campaign fieldset {
+  border-bottom: solid 1px #ffff00;
+  padding:0px 0px 15px 0px;
+}
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 .activism_appeal_prompt,
+form#activism-appeal-activism-cta-form .activism_appeal_prompt { 
+	background-color:#ffff00;
+	border-right:solid 1px #cccc00;
+	border-bottom:solid 1px #cccc00;
+	margin-bottom:2px;
+	padding: 9px 10px;
+	float:left;
+	width:395px;
+}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 .activism_appeal_prompt h3,
+form#activism-appeal-activism-cta-form .activism_appeal_prompt h3 { margin:0px; font-family:Arial, Helvetica, sans-serif;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 .activism_appeal_letter,
+form#activism-appeal-activism-cta-form .activism_appeal_letter {
+	float:left;
+	width:395px;
+  background-color:#e1e1e1;
+  border-right: solid 1px #cccccc;
+  padding:0px 10px 10px 10px;
+}
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 .activism_appeal_letter h2,
+form#activism-appeal-activism-cta-form .activism_appeal_letter h2 { font-family:Arial, Helvetica, sans-serif; text-transform:none;}
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 .activism_appeal_letter blockquote,
+form#activism-appeal-activism-cta-form .activism_appeal_letter blockquote { background-color:transparent; padding:0px;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 .activism_comment_holder,
+form#activism-appeal-activism-cta-form .activism_comment_holder {
+	float:left;
+	width:395px;
+  background-color:#e1e1e1;
+  border-right: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+  padding:0px 10px 10px 10px;
+  margin-bottom:20px;
+  clear:both;
+}
+
+#action-appeal-action-form fieldset legend,
+body.node-type-campaign .campaign fieldset legend {
+  display: none;
+} 
+
+#action-appeal-action-form label,
+#activism-petition-activism-cta-form label {
+  display: inline;
+}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-first-name-1-wrapper,
+form#activism-appeal-activism-cta-form #edit-activism-signup-first-name-wrapper { display:block; width:203px; margin-right:10px}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-last-name-1-wrapper,
+form#activism-appeal-activism-cta-form #edit-activism-signup-last-name-wrapper { display:block; width:203px; margin-right:0px}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-first-name-1-wrapper input,
+form#activism-appeal-activism-cta-form #edit-activism-signup-first-name-wrapper input,
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-last-name-1-wrapper input,
+form#activism-appeal-activism-cta-form #edit-activism-signup-last-name-wrapper input { width:199px; color:#666666}
+
+#action-appeal-action-form #edit-activism-signup-mail-1-wrapper,
+form#activism-appeal-activism-cta-form #edit-activism-signup-mail-wrapper { display:block; width:415px; margin:6px 0px 6px 0px;}
+
+#action-appeal-action-form #edit-activism-signup-mail-1-wrapper input,
+form#activism-appeal-activism-cta-form #edit-activism-signup-mail-wrapper input { width:412px; color:#666666}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-country-1-wrapper,
+form#activism-appeal-activism-cta-form #edit-activism-signup-country-wrapper { display:block; width:415px; margin:1px 0px 6px 0px;}
+
+#action-appeal-action-form #edit-activism-signup-country-1-wrapper select,
+form#activism-appeal-activism-cta-form #edit-activism-signup-country-wrapper select { width:415px; color:#666666}
+
+#edit-activism-signup-country-1-wrapper label,
+#edit-activism-signup-country-wrapper label { display:block;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-comment-1-wrapper,
+form#activism-appeal-activism-cta-form #edit-activism-signup-comment-wrapper { display:block;width:415px; margin:6px 0px 6px 0px;display:inline;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-comment-1-wrapper .resizable-textarea,
+form#activism-appeal-activism-cta-form #edit-activism-signup-comment-wrapper .resizable-textarea { width:391px; }
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-mail-list-1-wrapper,
+form#activism-appeal-activism-cta-form #edit-activism-signup-mail-list-wrapper  { display:block; width:415px; margin-bottom:10px;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-mail-list-1-wrapper input#edit-activism-signup-mail-list-1,
+form#activism-appeal-activism-cta-form #edit-activism-signup-mail-list-wrapper input#edit-activism-signup-mail-list { float:right; }
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-preview-1,
+form#activism-appeal-activism-cta-form #edit-preview {	float:left; border:none; background-color:transparent; border-bottom:solid 1px #000; margin-left:120px; cursor:pointer;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-submit-1,
+form#activism-appeal-activism-cta-form #edit-submit { float:left; margin-left:10px; cursor:pointer;}
+
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-comment-1-wrapper label,
+form#activism-appeal-activism-cta-form #edit-activism-signup-comment-wrapper label,
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-country-1-wrapper label,
+form#activism-appeal-activism-cta-form #edit-activism-signup-country-wrapper label,
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-first-name-1-wrapper label,
+form#activism-appeal-activism-cta-form #edit-activism-signup-first-name-wrapper label,
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-last-name-1-wrapper label,
+form#activism-appeal-activism-cta-form #edit-activism-signup-last-name-wrapper label,
+#action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-mail-1-wrapper label,
+form#activism-appeal-activism-cta-form #edit-activism-signup-mail-wrapper label{ display:none;}
+
+#action-appeal-action-form #edit-activism-signup-comment-1-wrapper .resizable-textarea textarea,
+form#activism-appeal-activism-cta-form #edit-activism-signup-comment-wrapper .resizable-textarea textarea{ color:#666666} 
+
+#action-appeal-action-form h3 {
+clear:both;
+}
+
+#edit-activism-signup-first-name-1-wrapper,
+#edit-activism-signup-last-name-1-wrapper,
+#edit-activism-signup-first-name-wrapper,
+#edit-activism-signup-last-name-wrapper {
+  float:          left;
+  margin-bottom:  0.2em;
+  margin-right:   1em;
+  margin-top:     0.2em;
+}
+#edit-activism-signup-first-name-1-wrapper input,
+#edit-activism-signup-last-name-1-wrapper input,
+#edit-activism-signup-first-name-1-wrapper input,
+#edit-activism-signup-last-name-1-wrapper input {
+  width:          212px;
+}
+
+
+/* ----------------------------
+ * NEW STYLES FOR D6 THEME
+ * ----------------------------
+ */
+
+
+
+div#admin-menu a:hover {
+  background: #000;
+  color: #ff0 !important;
+}
+
+div.tabs {
+  margin: 0;
+}
+
+div.tabs ul.primary {
+  padding-left: 10px;
+  margin: 0;
+  background-color: #ff0;
+}
+
+body.rtl div.tabs ul.primary {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+/**
+ * Single column
+ */
+
+body.panel-layout-onecol #container {
+  padding: 15px 20px;
+}
+
+/**
+ * Sidebar 3 column
+ */
+
+body.panel-layout-sidebar3col #ai-sidebar-squeeze,
+body.panel-layout-landing_page #ai-sidebar-squeeze,
+body.panel-layout-twocol_stacked_2sidebars #ai-sidebar-squeeze,
+body.panel-layout-nav2col #ai-sidebar-squeeze{
+  border: none;
+  border-left: 1px solid #D8D8D8;
+
+}
+body.panel-layout-sidebar3col.section-activism-center #ai-sidebar-squeeze { float:left;}
+
+body.panel-layout-sidebar3col #container,
+body.panel-layout-sidebar2col #container,
+body.panel-layout-landing_page #container,
+body.panel-layout-twocol_stacked_2sidebars #container,
+body.panel-layout-twocol_stacked_1sidebar #container {
+  background: white url(images/amnesty-sidebar.bg.solid.210.png) repeat-y 100% 0px;
+}
+
+body.panel-layout-sidebar3col #ai-sidebar-last,
+body.panel-layout-sidebar2col #ai-sidebar-last,
+body.panel-layout-landing_page #ai-sidebar-last,
+body.panel-layout-twocol_stacked_2sidebars #ai-sidebar-last,
+body.panel-layout-twocol_stacked_1sidebar #ai-sidebar-last {
+  background: transparent url(images/candle.190.png) no-repeat 50% 2em;
+  padding-top: 1em;
+}
+
+body.panel-layout-landing_page #container div.tabs ul.primary {
+  background-color: #fff;
+  margin: 1em 0;
+}
+
+
+/**
+ * Left sidebar.
+ */
+
+#ai-sidebar-first ul.menu li.expanded li.leaf {
+  font-size: 90%;
+  font-weight: 700;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+#ai-sidebar-first ul.menu li {
+  line-height: 170%;
+  margin: 3px 0 3px 5px;
+  padding: 5px 0 0 25px;
+  text-indent: -20px;
+}
+
+#ai-sidebar-first ul.menu li a {
+  margin: 0;
+  padding: 3px;
+  text-decoration: none !important;
+}
+
+#ai-sidebar-first ul.menu li a.active-trail {
+  color: #fff;
+  background: #000;
+  padding: 5px 3px 4px;
+}
+
+#ai-sidebar-first ul.menu li a.active-trail span.menu-arrow,
+#ai-sidebar-first ul.menu li a.active-trail:hover span.menu-arrow {
+  color: #ff0;
+}
+
+#ai-sidebar-first ul.menu li.expanded ul {
+  margin: 0;
+}
+
+#ai-sidebar-first ul.menu.menu li.expanded ul {
+  margin: 0;
+}
+
+#ai-sidebar-first ul.menu.menu li.expanded li.leaf {
+  font-size: 90%;
+  margin: 0 0 0 15px;
+}
+
+#ai-sidebar-first ul.menu.links-menu li.active ul.links-menu li {
+  font-size: 90%;
+  padding-left: 10px;
+  text-indent: -17px;
+}
+
+#ai-sidebar-first ul.menu li.expanded li.leaf span.menu-arrow {
+  font-size: 1.8em;
+  line-height: 50%;
+  margin-right: 2px;
+}
+
+#ai-sidebar-first ul.menu.menu li.expanded li.leaf span.menu-arrow {
+  font-size: 1.8em;
+  line-height: 50%;
+  margin-right: 2px;
+}
+
+#ai-sidebar-first ul.menu li.expanded li.leaf a,
+#ai-sidebar-first ul.menu.menu li.expanded li.leaf a {
+  padding: 0;
+}
+
+#ai-sidebar-first ul.menu li span.menu-arrow {
+  color: #D8D8D8;
+  font-size: 2em;
+  margin-bottom: -5px;       /* These are for IE. */
+  margin-right: 2px;         /* Leave them in this form */
+  margin-top: -10px;
+  /*vertical-align: -7%;*/
+}
+
+#ai-sidebar-first ul.menu li a:hover span.menu-arrow {
+  color: #000;
+  text-decoration: none;
+}
+
+#ai-sidebar-first ul.menu li a.active,
+#ai-sidebar-first ul.menu.menu li a.active {
+  background-color: #000;
+  color: #fff;
+}
+
+#ai-sidebar-first ul.menu li a.active span.menu-arrow {
+  color: #FFFF00;
+}
+
+#ai-sidebar-first ul.menu li a.active:hover,
+#ai-sidebar-first ul.menu.menu li a.active:hover {
+  text-decoration: none;
+}
+
+
+/**
+ * Sidebar last styles
+ */
+
+#ai-sidebar-last {
+  padding: 0 1.25em;
+  min-height: 30em;
+}
+
+#ai-sidebar-last .panel-pane,
+#ai-sidebar-last .panel-pane h2.pane-title,
+#ai-sidebar-last .pane-content a {
+  color: white;
+}
+
+#ai-sidebar-last .panel-pane a:hover {
+  background: #ff0 !important;
+  color: black !important;
+  text-decoration: none;
+}
+
+#ai-sidebar-last ul li {
+  color: #ff0;
+  list-style: square outside;
+  margin-left: 14px;
+}
+
+
+/**************************
+ * i18n menu styles
+ * @todo See if these need to stay.
+ ***************************/
+
+/* RTL squeeze format for ai-sidebar last.
+   WARNING: May cause layout issues for LTR in IE6.
+   IE6 does not recognize middle elements in
+   chained class selectors.  So, for IE6:
+   body.rtl.ai-sidebar-last = .ai-sidebar-last */
+body.rtl.ai-sidebar-last #ai-sidebar-squeeze {
+  margin: 0 0 0 210px;
+}
+
+/* RTL main format for ai-sidebar last.
+   WARNING: May cause layout issues for LTR in IE6.
+   IE6 does not recognize middle elements in
+   chained class selectors.  So, for IE6:
+   body.rtl.ai-sidebar-last = .ai-sidebar-last */
+body.rtl.ai-sidebar-last #ai-sidebar-main {
+  margin: 0 0 0 -210px;
+}
+
+/**
+ * CiviCRM styles
+ */
+
+#crm-container div.form-item dl,
+#crm-container .section-hidden dl {
+ position: static !important;
+}
+
+/**
+ * Asset styles
+ */
+.asset-align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.asset-align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.asset-align-center {
+  float: none;
+  clear: both;
+  text-align: center;
+}
+
+.asset-asset-link {
+  display: inline;
+}
+
+#lightbox-container-image-data a:hover {
+  border: 0;
+  text-decoration: none;
+}
+
+/* Activism Center styles ********/
+
+#page.section-activism-center #container #ai-sidebar-main #ai-sidebar-squeeze div.headline a{
+font-size:18px;
+color: #336699;
+/*word-spacing:-10px;*/
+text-decoration:none;
+margin-bottom:10px;
+}
+#page.section-activism-center #container #ai-sidebar-main #ai-sidebar-squeeze  div.headline a:hover{
+color:#000; background-color:#fff;
+}
+#page.section-activism-center .activism-tool{
+border-top:1px solid #CCCCCC;
+padding-top:18px;
+margin-bottom:3px;
+clear:both;
+display:inline-block; width:556px;
+}
+#page.section-activism-center .activism-tool-link a, 
+#page.section-activism-center .activism-tool-link,
+#page.section-activism-center .activism-call-link a{
+font-size:18px;
+font-weight:bold;
+text-decoration:none;
+}
+#page.section-activism-center .activism-tool .activism-call-link a,
+#page.section-activism-center .activism-tool-solo .activism-call-link a{
+float:right;
+clear:both;
+}
+
+#page.section-activism-center #join .activism-call-link a,
+#page.section-activism-center #donate .activism-call-link a{
+float:right;
+clear:both;
+}
+
+#page.section-activism-center .activism-tool-image{
+float:left;
+margin:3px 7px 0px 0px;
+background-color:#f1f1f1;
+width:204px;
+height:145px;
+}
+#page.section-activism-center .activism-call-link { float:right; margin-bottom:5px; }
+
+#page.section-activism-center #container #ai-sidebar-main .social-item, 
+#page.section-activism-center #container #ai-sidebar-main .social-twitter{
+overflow:auto;
+margin-bottom:15px;
+}
+
+#page.section-activism-center .social-links { border-top:1px solid #CCC; padding-bottom:10px; }
+#page.section-activism-center .social-links h3 { color:#336699; font-family:Arial, Helvetica, sans-serif;}
+#page.section-activism-center .social-links a { color:#336699; text-decoration:none;}
+#page.section-activism-center .social-links a:hover { color:#000; background:#fff;}
+#page.section-activism-center .social-links .content {font-size:11px; line-height:140%; }
+#page.section-activism-center .social-links .content ul.logos { float:left; width:212px; margin:0px; padding:0px;}
+#page.section-activism-center .social-links .content ul.logos li { float:left; width:65px; height:65px; margin-right:5px; list-style-type:none; background-color:#F1F1F1;}
+
+.activism-appeal-expired-notice { background-color:#cccccc; border-right:solid 1px #999999; border-bottom:solid 1px #999999; padding:10px 10px 20px 10px; margin-bottom:20px;}
+.activism-appeal-expired-notice .headline { font-size:18px; font-weight:bold; padding-bottom:2px;}
+
+.section-activism-center .comment-form-form .terms-conditions {
+  display: inline-block;
+}
+.section-activism-center .comment-form-form .terms-conditions,
+.section-activism-center .comment-form-form .terms-conditions + a {
+  margin-right: 1em;
+}
+
+
+#container #ai-sidebar-main .social-twitter a, #container #ai-sidebar-main .social-item a{
+color: #336699;
+text-decoration:none;
+}
+
+.social-item-body , .social-twitter-body{
+float:right;
+/* width:200px; */
+border:0px solid #000;
+}
+
+.social-item-body{
+/*width:460px;*/
+}
+.social-twitter-body{
+width:510px;
+}
+
+.social-item-icon{
+float:left;
+width:80px; 
+border:1px solid #CCC; 
+min-height:100px; 
+/*background-color:#ff0;*/
+padding-right:10px;
+}
+.social-twitter-icon{
+float:left;
+width:30px; 
+border:1px solid #CCC; 
+min-height:30px; 
+/*background-color:#ff0;*/
+padding-right:10px;
+}
+
+.social-twitter-icon div, .social-item-icon div{
+background-color:#ff0;
+}
+
+
+.social-twitter-group{
+border-top:1px solid #CCC;
+padding-top:14px; 
+}
+.social-item .tile{
+font-weight:bold;
+}
+.social-twitter-group .title{
+font-size:14px;
+font-weight:bold;
+color:#0000000;
+clear:both;
+}
+
+.social-item-list-item { float:left; margin-top:20px;}
+.social-item-list-item .social-list-icon{
+float:left;
+width:66px; 
+min-height:66px; 
+background-color:#F1F1F1;
+margin-right:10px;
+}
+.social-item-list-item .pad { float:left; width:480px;}
+
+.social-country-links { border-top:1px solid #CCC; display:inline-block; width:556px;}
+.social-country-links ul { float:left; width:33%; padding-left:0px; margin-left:0px;}
+.social-country-links ul li { list-style-type:none; padding-left:0px; font-size:11px;}
+.social-country-links ul li a { color:#336699; text-decoration:none; }
+.social-country-links ul li a.twitter { color:#000000; text-decoration:underline; }
+
+.activism-teaser-campaign .image-teaser h3.title a{ color:#336699; text-decoration:none; font-size:18px; font-weight:bold; padding:0px;}
+.activism-teaser-campaign .image-teaser h3.title a:hover { color:#000; background-color:#fff; text-decoration:none;}
+.activism-teaser-campaign h2.title.feature { font-size:24px; padding-bottom:10px; text-transform:none; line-height:100%; width:415px; padding-top:-20px;}
+.activism-teaser-campaign h2.title.feature a { color:#336699; text-decoration:none; padding:0px;}
+.activism-teaser-campaign h2.title.feature a:hover { color:#000; background-color:transparent; text-decoration:none;}
+
+.activism-teaser-campaign .image-teaser.feature { border-bottom:solid 1px #d2d2d2; padding-bottom:6px; padding-left:0px; margin:0px; }
+.activism-teaser-campaign .image-teaser { border-bottom:solid 1px #d2d2d2; padding-bottom:6px; padding-left:73px; margin-left:0px}
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser div.activism-action-line { width:482px; border-bottom:solid 1px #ffff00; padding-bottom:3px;}
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser div.activism-action-line .action-count { font-weight:bold; width:auto}
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser div.activism-action-line .activism-call-link { width:auto}
+.view-nodequeue-featured-actions-en .attachment .view-content .activism-teaser-campaign div p { width:415px; }
+
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser.feature div.activism-action-line { width:100%; }
+
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser h3.title,
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser div{ width:344px; }
+
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .teaser-image{ margin-top:0px;}
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser{ margin-top:28px;}
+.view-nodequeue-featured-actions-en .view-content .activism-teaser-campaign .image-teaser.feature { margin-top:0px;}
+
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser div.activism-action-line { width:482px; border-bottom:solid 1px #ffff00; padding-bottom:3px;}
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser div.activism-action-line .action-count { font-weight:bold; width:auto}
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser div.activism-action-line .activism-call-link { width:auto}
+.view-nodequeue-featured-actions-es .attachment .view-content .activism-teaser-campaign div p { width:415px; }
+--
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser.feature div.activism-action-line { width:100%; }
+
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser h3.title,
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser div{ width:344px; }
+
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .teaser-image{ margin-top:0px;}
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser{ margin-top:28px;}
+.view-nodequeue-featured-actions-es .view-content .activism-teaser-campaign .image-teaser.feature { margin-top:0px;}
+
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser div.activism-action-line { width:482px; border-bottom:solid 1px #ffff00; padding-bottom:3px;}
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser div.activism-action-line .action-count { font-weight:bold; width:auto}
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser div.activism-action-line .activism-call-link { width:auto}
+.view-nodequeue-featured-actions-fr .attachment .view-content .activism-teaser-campaign div p { width:415px; }
+
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser.feature div.activism-action-line { width:100%; }
+
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser h3.title,
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser div{ width:344px; }
+
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .teaser-image{ margin-top:0px;}
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser{ margin-top:28px;}
+.view-nodequeue-featured-actions-fr .view-content .activism-teaser-campaign .image-teaser.feature { margin-top:0px;}
+
+.activism-teaser-campaign .image-teaser .tags,
+.activism-teaser-campaign .image-teaser .activism-campaign-and-tags{ font-size:11px; color:#999999; font-weight:bold; padding-top:1px;}
+.activism-teaser-campaign .image-teaser .tags a,
+.activism-teaser-campaign .image-teaser .activism-campaign-and-tags a { text-decoration:none; color:#336699;}
+.activism-teaser-campaign .image-teaser .tags a:hover,
+.activism-teaser-campaign .image-teaser .activism-campaign-and-tags a:hover { color:#000; background-color:#fff; text-decoration:none;}
+
+/* Activism FAQ*/
+.activism-faq-links{
+border-top:1px solid #CCC;
+border-bottom:1px solid #CCC;
+/* margin:0 0 15px 0; */
+padding:15px 0;
+}
+.activism-faq-item{
+border-bottom:1px solid #CCC;
+padding-bottom:15px;
+/* margin:0 0 15px 0; */
+}
+.activism-faq-links ol { padding-left:20px;}
+.activism-faq-links ol li { margin-left:0;}
+.activism-faq-links ol{ font-weight:bold;}
+.activism-faq-item h3{ margin-bottom:10px; line-height:100%;}
+
+/*
+......... .allActionsBar { float:left; width:556px; border-bottom:solid 1px #d2d2d2; margin-top:20px; padding-bottom:2px; margin-bottom:2px;}
+......... .allActionsBar .rssLink { float:left; margin:0px; font-size: 1.6em; padding-bottom:3px;}
+......... .allActionsBar .rssLink a { color:#336699; text-decoration:none;}
+......... .allActionsBar .viewLink { float:right;}
+......... .allActionsBar .viewLink a { color:#336699; text-decoration:none;}
+*/
+
+/* pane-doing-well-need-support block */
+
+.pane-doing-well-need-support { width:556px; border-bottom:solid 2px #d2d2d2; margin-bottom:2em; }
+
+#ai-sidebar-squeeze > .panel-pane.pane-doing-well-need-support > h2.pane-title { margin:8px 0px 0px 0px; font-size:18px;}
+
+#mini-panel-doing_well_need_support .panel-col-first { width:274px; margin-right:8px;}
+#mini-panel-doing_well_need_support .panel-col-last { width:274px; }
+
+#mini-panel-doing_well_need_support .panel-col-first .inside,
+#mini-panel-doing_well_need_support .panel-col-last .inside { margin-left:0px; margin-right:0px;}
+
+#mini-panel-doing_well_need_support .panel-col-first h2.pane-title { border-bottom:solid 1px #00b260; margin:0px; padding-bottom:2px;}
+#mini-panel-doing_well_need_support .panel-col-last h2.pane-title { border-bottom:solid 1px #ff0000; margin:0px;  padding-bottom:2px;}
+
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support { float:left; width:133px; margin-right:8px; }
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well.last,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support.last { margin-right:0px;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .actioncount {border-bottom:solid 1px #d2d2d2; color:#00b260; font-weight:bold;}
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .actioncount {border-bottom:solid 1px #d2d2d2; color:#ff0000; font-weight:bold;}
+.pane-activism-blocks-related-actions .related_actions .actioncount {border-bottom:solid 1px #d2d2d2;  font-weight:bold;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .title,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .title,
+.pane-activism-blocks-related-actions .related_actions .title{ height:50px; font-weight:bold; color:#336699; line-height:130%; }
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .title a:link,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .title a:link,
+.pane-activism-blocks-related-actions .related_actions .title a:link { color:#336699; text-decoration:none;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .title a:visited,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .title a:visited,
+.pane-activism-blocks-related-actions .related_actions .title a:visited { color:#336699; text-decoration:none;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .title a:hover,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .title a:hover,
+.pane-activism-blocks-related-actions .related_actions .title a:hover { color:#000; background-color:#fff; text-decoration:none;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .title a:active,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .title a:active,
+.pane-activism-blocks-related-actions .related_actions .title a:active { color:#336699; text-decoration:none;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .strapline-teaser,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .strapline-teaser,
+.pane-activism-blocks-related-actions .related_actions .strapline-teaser {  font-size:11px; line-height:140%; padding-bottom:5px; min-height:110px;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .take-action,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .take-action,
+.pane-activism-blocks-related-actions .related_actions .take-action { border-bottom:solid 1px #ffff00;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .take-action a:link,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .take-action a:link,
+.pane-activism-blocks-related-actions .related_actions .take-action a:link { text-decoration:none;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .take-action a:visited,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .take-action a:visited,
+.pane-activism-blocks-related-actions .related_actions .take-action a:visited { text-decoration:none;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .take-action a:hover,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .take-action a:hover,
+.pane-activism-blocks-related-actions .related_actions .take-action a:hover { color:#000; background-color:#fff; text-decoration:none;}
+
+#mini-panel-doing_well_need_support .panel-col-first .pane-content .doing-well .take-action a:active,
+#mini-panel-doing_well_need_support .panel-col-last .pane-content .need-support .take-action a:active,
+.pane-activism-blocks-related-actions .related_actions .take-action a:active { text-decoration:none;}
+
+#mini-panel-doing_well_need_support .doing-well .addthis a:link,
+#mini-panel-doing_well_need_support .need-support .addthis a:link,
+.pane-activism-blocks-related-actions .related_actions .addthis a:link { text-decoration:none; color:#336699;}
+
+#mini-panel-doing_well_need_support .doing-well .addthis a:visited,
+#mini-panel-doing_well_need_support .need-support .addthis a:visited,
+.pane-activism-blocks-related-actions .related_actions .addthis a:visited { text-decoration:none; color:#336699;}
+
+#mini-panel-doing_well_need_support .doing-well .addthis a:hover,
+#mini-panel-doing_well_need_support .need-support .addthis a:hover,
+.pane-activism-blocks-related-actions .related_actions .addthis a:hover { color:#000; background-color:#fff; text-decoration:none;}
+
+#mini-panel-doing_well_need_support .doing-well .addthis a:active,
+#mini-panel-doing_well_need_support .need-support .addthis a:active,
+.pane-activism-blocks-related-actions .related_actions .addthis a:active { text-decoration:none; color:#336699;}
+
+
+/* social links and candle block at bottom of homepage */
+
+#mini-panel-activism_center_social_aicandle .pane-boxes-activism-home-social-small h2,
+#mini-panel-activism_center_social_aicandle .pane-boxes-activism-home-candle-small-en h2{ color:#336699;}
+
+.activism-landing-social .social-text,
+.activism-landing-candle .social-text{ font-size:11px; line-height:140%;}
+
+.activism-landing-social .thumbnail { float:left; margin-right:8px; width:65px; height:65px; background-color:#F1F1F1}
+.activism-landing-candle .thumbnail { float:left; margin-right:8px; width:133px; height:100px; background-color:#F1F1F1}
+
+/* activism FAQ */
+
+body.page-activism-center-faq .content a { color:#336699; text-decoration:none;}
+body.page-activism-center-faq .content h3 a { color:#000;}
+.clear { clear:both;}
+
+/* right bar total actions txt */
+.total-actions .total-actions-count { font-size:28px; color:#ffff00; font-weight:bold;}
+.total-actions .midline { font-size:16px; color:#ffff00; font-weight:bold;}
+.total-actions .lowline { font-size:16px; color:#ffffff;}
+
+/* campaign page */
+/*#story-images {
+  float: left;
+  font-size: 0.95em;
+  line-height: 120%;
+  margin: 0px;
+  right: 0;
+  width: 556px;
+}*/
+.campaign .content { width:556px; display:inline;}
+.campaign .content .content-left { float:left; width:415px; margin:0 8px 0 0; display:inline; }
+* html .campaign .content .content-left {margin:0 6px 0 0;}
+.campaign .content .content-right  { float:left; width:133px; display:inline; }
+.campaign .content .content-right .action-action { background-color:#ffff00; border-right:solid 1px #cccc00; border-bottom:solid 1px #cccc00; margin-bottom:12px; padding:5px}
+.campaign .content .content-right .action-action .total-actions-count {font-size:26px; color:#000; font-weight:bold;}
+.campaign .content .content-right .action-action .midline { font-size:18px; color:#000; font-weight:bold;}
+.campaign .content .content-right .halfwidth { float:left; width:60px; padding-right:6px; display:inline;}
+
+/* thanks page */
+
+.pane-boxes-activism-thankyou-join,
+.pane-boxes-activism-thankyou-donate {border-bottom:1px solid #FFFF00; float:left; width:556px; padding-bottom:5px;}
+
+.pane-boxes-activism-thankyou-join h2.pane-title,
+.pane-boxes-activism-thankyou-donate h2.pane-title { font-size:18px; margin:30px 0px 0px 0px;} 
+
+#ai-sidebar-squeeze > .panel-pane.pane-boxes-activism-thankyou-join > h2.pane-title,
+#ai-sidebar-squeeze > .panel-pane.pane-boxes-activism-thankyou-donate > h2.pane-title{ font-size:18px; margin:30px 0px 0px 0px;}
+
+.calltoAction { float:right; padding-bottom:5px;}
+
+.pane-boxes-activism-thankyou-join .boxes-box-content,
+#boxes-box-inline-activism_thankyou_donate .boxes-box-content { float:left; width:415px; padding-right:141px; }
+
+.pane-boxes-activism-thankyou-join .boxes-box-content .width415,
+.pane-boxes-activism-thankyou-donate .boxes-box-content .width415{ float:left; width:415px; padding-right:141px;}
+
+.pane-boxes-activism-thankyou-join .activism-thankyou-button,
+.pane-boxes-activism-thankyou-donate .activism-thankyou-button{ float:left; width:556px;  margin-top:-21px; }
+
+#boxes-box-inline-activism_thankyou_join .activism-thankyou-button a,
+#boxes-box-inline-activism_thankyou_donate .activism-thankyou-button a { float:right; font-size:18px; font-weight:bold; text-decoration:none;}
+
+.activism-thankyou-button a:link { float:right; font-size:18px; color:#000; text-decoration:none;}
+.activism-thankyou-button a:visited { float:right; font-size:18px; color:#000; text-decoration:none;}
+.activism-thankyou-button a:hover {float:right; font-size:18px;  background-color:#ffff00; color:#000;}
+.activism-thankyou-button a:active {  float:right; font-size:18px; color:#000; text-decoration:none;}
+
+#boxes-box-inline-activism_thankyou_join .boxes-box-controls,
+#boxes-box-inline-activism_thankyou_donate .boxes-box-controls{ clear:both}
+
+.pane-activism-blocks-related-actions { clear:both; padding-top:10px; width:556px; float:left;}
+#ai-sidebar-squeeze .pane-activism-blocks-related-actions h2.pane-title { border-bottom: solid 1px #d2d2d2; margin-bottom:0px;}
+.column .pane-activism-blocks-related-actions .block.related-actions { margin:0px;}
+.pane-activism-blocks-related-actions .related_actions { float:left; display:inline-block; width:133px; margin-right:8px; vertical-align:top;}
+.pane-activism-blocks-related-actions .related_actions.last { margin-right:0px;}
+
+.pane-activism-blocks-related-actions .titleBar { float:left; width:556px; border-bottom:solid 1px #d2d2d2; margin-top:20px; padding-bottom:2px; margin-bottom:2px;}
+.pane-activism-blocks-related-actions .titleBar h3 { float:left; margin:0px; font-size: 1.6em; padding-bottom:3px; font-family:Arial, Helvetica, sans-serif;}
+.pane-activism-blocks-related-actions .titleBar .viewLink { float:right;}
+.pane-activism-blocks-related-actions .titleBar .viewLink a { color:#336699; text-decoration:none;}
+
+.pane-activism-blocks-appeal-thankyou .pane-content h3 { font-size:18px; margin-bottom:4px; font-family:Arial, Helvetica, sans-serif;}
+.pane-activism-blocks-appeal-thankyou .pane-content h3.title a { color:#336699; text-decoration:none; font-size:18px; font-weight:bold;}
+.pane-activism-blocks-appeal-thankyou .pane-content h3.title a:hover { color:#000; background-color:#fff;}
+.pane-activism-blocks-appeal-thankyou .pane-content .content-left { float:left; width:415px; margin-right:8px;}
+
+.pane-activism-blocks-appeal-thankyou .pane-content .content-right { float:left; }
+.pane-activism-blocks-appeal-thankyou .pane-content .content-right .share { float:left; width:60px; border:none; background:none; padding:0px;}
+.pane-activism-blocks-appeal-thankyou .pane-content .content-right .tweetmeme-button { float:left; width:60px;}
+
+.pane-activism-blocks-appeal-thankyou .pane-content .url { clear:both; width:556px; font-size:10px;}
+.pane-activism-blocks-appeal-thankyou .pane-content .url a  { color:#336699; text-decoration:none; }
+.pane-activism-blocks-appeal-thankyou .pane-content .url a:hover { color:#000; background-color:#fff;}
+.pane-activism-blocks-appeal-thankyou .pane-content .shareNetworks { float:left; clear:both; width:556px; border-bottom:solid 1px #d2d2d2; font-weight:bold; padding-bottom:4px;}
+.pane-activism-blocks-appeal-thankyou .pane-content .shareNetworks a { color:#336699; text-decoration:none; }
+.pane-activism-blocks-appeal-thankyou .pane-content .shareNetworks div { float:left; padding-right:6px; padding-top:2px;}
+.pane-activism-blocks-appeal-thankyou .pane-content .shareNetworks p{ float:left; padding-right:6px;}
+
+/* all actions listing */
+
+#all-actions #ai-sidebar-first ul.menu li.first a { background-color:#000; color:#fff;}
+#all-actions #ai-sidebar-first ul.menu li.first span.menu-arrow {color:#FFFF00;}
+
+#all-actions .view-header { clear:both; padding-bottom:10px; width:772px;}
+#all-actions .view-activism-center-all-actions .view-header .activism_date_filter { float:left; padding-right:15px; }
+#all-actions .view-header .activism_date_filter a.active { background-color:#cccccc; color:#333333 !important; padding:1px 3px 1px 3px;}
+
+#all-actions .view-filters { clear:both; border-bottom:solid 2px #d2d2d2; padding-bottom:10px; width:772px;}
+#all-actions .view-filters .views-exposed-widget select#edit-tid-3,
+#all-actions .view-filters .views-exposed-widget select#edit-tid,
+#all-actions .view-filters .views-exposed-widget select#edit-term-node-tid-depth { width:180px;}
+#all-actions .view-filters input.form-submit,
+#gac-event-filter input.form-submit{ 
+	background-color:#ffff00; 
+	border-top:solid 1px #ffff00;
+	border-right:solid 1px #cccc00;
+	border-bottom:solid 1px #cccc00;
+	border-left:solid 1px #ffff00;
+	font-weight:bold;
+}
+
+#all-actions .view-content { clear:both; width:772px;}
+#all-actions .view-content ul { margin-bottom:0px; }
+#all-actions .view-content ul li{ 
+	list-style-type:none; 
+	padding:20px 0px 10px 0px; 
+	border-bottom:solid 1px #d2d2d2;
+	margin:0px;
+	width:772px;
+	display:inline-block;
+	clear:both;
+}
+#all-actions .view-content ul li.views-row-last { border-bottom:0px;}
+#all-actions .view-content ul li .teaser-image { float:left; width:65px; margin-right:8px; height:65px; }
+#all-actions .view-content ul li .image-teaser { float:left; width:699px; margin-left:0px;}
+
+#all-actions .view-content ul li .image-teaser .top { float:left; width:699px; padding-bottom:4px;  }
+#all-actions .view-content ul li .image-teaser .top .content { float:left; width:338px; margin-right:13px; }
+#all-actions .view-content ul li .image-teaser .top .content .date { font-size:10px; color:#000; font-weight:bold; padding-bottom:3px;}
+#all-actions .view-content ul li .image-teaser .top .content .title { font-size:18px; font-weight:bold; padding-bottom:7px; line-height:110%;}
+#all-actions .view-content ul li .image-teaser .top .content .title a { color:#336699; text-decoration:none;}
+#all-actions .view-content ul li .image-teaser .top .content .title a:hover { color:#000; background-color:#fff;}
+#all-actions .view-content ul li .image-teaser .top .content .teaser { font-size:13px;}
+#all-actions .view-content ul li .image-teaser .top .location { float:left; width:133px; font-size:10px; padding-top:16px;}
+#all-actions .view-content ul li .image-teaser .top .location .label { color:#999999;}
+#all-actions .view-content ul li .image-teaser .top .location a { text-decoration:none;}
+
+#all-actions .view-content ul li .image-teaser .mid { float:left; width:699px; text-align:right; border-bottom:solid 1px #ffff00; padding-bottom:4px; font-size:18px; font-weight:bold; margin-top:-21px; }
+#all-actions .view-content ul li .image-teaser .mid a:link { text-decoration:none; background-color:#fff; color:#000;}
+#all-actions .view-content ul li .image-teaser .mid a:visited { text-decoration:none; background-color:#fff; color:#000;}
+#all-actions .view-content ul li .image-teaser .mid a:hover { text-decoration:none; background-color:#ffff00; color:#000;}
+#all-actions .view-content ul li .image-teaser .mid a:active { text-decoration:none; background-color:#fff; color:#000;}
+
+#all-actions .view-content ul li .image-teaser .bottom { float:left; width:485px; padding-top:4px; font-size:10px; color:#999999; font-weight:bold;  }
+#all-actions .view-content ul li .image-teaser .bottom a { font-size:11px; text-decoration:none; color:#336699;}
+#all-actions .view-content ul li .image-teaser .bottom a:hover { color:#000; background-color:#fff;}
+
+#all-actions .item-list { width:772px; clear:both;}
+#all-actions .item-list ul.pager { float:left; width:772px; text-align:left; margin:0px; border-bottom:solid 1px #d2d2d2; border-top:solid 2px #d2d2d2;padding:4px 0px 4px 0px; position:relative; top:0px; left:0px;}
+#all-actions .item-list ul.pager li { font-size:16px; font-weight:bold; }
+#all-actions .item-list ul.pager li a:link { color:#336699; text-decoration:none;}
+#all-actions .item-list ul.pager li a:visited { color:#336699; text-decoration:none;}
+#all-actions .item-list ul.pager li a:hover { color:#000; text-decoration:none; background-color:#fff;}
+#all-actions .item-list ul.pager li a:active { color:#336699; text-decoration:none;}
+
+#all-actions .item-list ul.pager li.pager-current { background-color:transparent; color:#000;}
+
+#all-actions .item-list ul.pager li.pager-next { position:absolute; top:4px; right:48px;}
+#all-actions .item-list ul.pager li.pager-last { position:absolute; top:4px; right:0px;}
+
+
+/* social networks page */
+body.page-activism-center-activism-tools-social-networks .content { display:inline-block; width:556px; }
+
+/* translation switcher */
+.pane-activism-blocks-translation-switcher .translation-links-container { float:left; width:100%; border-bottom:solid 2px #d8d8d8; padding-bottom:5px; margin-bottom:20px; padding-top:0px; margin-top:-5px;}
+.pane-activism-blocks-translation-switcher .translation-links-container .label { float:left; }
+.pane-activism-blocks-translation-switcher .translation-links-container .translation-links ul#languages { float:right; margin:0px; padding:0px;}
+.pane-activism-blocks-translation-switcher .translation-links-container .translation-links ul#languages li { display:inline; list-style-type:none; padding-left:5px;}
+* html .pane-activism-blocks-translation-switcher .translation-links-container .translation-links {float:right;}
+* html .pane-activism-blocks-translation-switcher .translation-links-container .translation-links ul#languages {text-align:right; float:none}
+* html .pane-activism-blocks-translation-switcher .translation-links-container .translation-links ul#languages li {float:left;}
+.pane-activism-blocks-translation-switcher .translation-links-container .translation-links ul#languages li a { color:#336699; text-decoration:none}
+
+#page.node-type-campaign .pane-field-date { font-size:10px; font-weight:bold; margin-bottom:-6px;}
+
+#page.node-type-campaign .pane-node-content .appeal-image-large { margin-bottom:3px;}
+
+#page.node-type-campaign .page-title,
+.section-activism-center .page-title,
+.section-activism-center h2{ text-transform:none; font-family:Arial, Helvetica, sans-serif; font-weight:bold; margin-top:0px;}
+.section-activism-center .pane-forum-topic-views-panel-pane-5 h2 {
+  margin-top: .75em;
+}
+
+
+.campaign.expired fieldset { display:none;}
+
+
+.allActionsBar,
+.pane-activism-event-calendar-rss  { float:left; width:100%; border-bottom:solid 2px #d8d8d8; padding-bottom:5px; margin-bottom:20px; padding-top:0px; margin-top:0px;}
+.allActionsBar .rssLink,
+.pane-activism-event-calendar-rss .rssLink { float:left; }
+.allActionsBar .rssLink img,
+.pane-activism-event-calendar-rss rssLink img { vertical-align: text-top; padding-right:4px;}
+.allActionsBar .viewLink,
+.pane-activism-event-calendar-rss .viewLink { float:right; margin:0px; padding:0px;}
+
+.pane-activism-blocks-all-actions-bar .allActionsBar { border-bottom:0px;}
+.pane-activism-blocks-all-actions-bar .allActionsBar h2.pane-title,
+.panel-gac_3col_centre > .column > #ai-sidebar-squeeze > .panel-panel > .inside > .pane-activism-event-calendar-rss > h2.pane-title { float:left; font-size:18px; margin:0px 0px 0px 0px; }
+.pane-activism-blocks-all-actions-bar .allActionsBar .rssLink,
+.panel-gac_3col_centre .pane-activism-event-calendar-rss .rssLink { float:right; }
+.pane-activism-blocks-all-actions-bar .allActionsBar .rssLink img,
+.panel-gac_3col_centre .pane-activism-event-calendar-rss .rssLink img { vertical-align:text-top; padding-right:4px;}
+
+/* links */
+
+.pane-activism-blocks-related-actions .titleBar .viewLink a:link,
+.allActionsBar .rssLink a:link,
+.allActionsBar .viewLink a:link,
+.activism-landing-social .social-text a:link,
+.activism-landing-candle .social-text a:link,
+.panel-gac_3col_centre .rssLink a:link,
+.view-activism-center-all-actions .view-header .activism_date_filter a:link{ color:#336699; text-decoration:none;}
+
+.pane-activism-blocks-related-actions .titleBar .viewLink a:visited,
+.allActionsBar .rssLink a:visited,
+.allActionsBar .viewLink a:visited,
+.activism-landing-social .social-text a:visited,
+.activism-landing-candle .social-text a:visited,
+.panel-gac_3col_centre .rssLink a:visited,
+.view-activism-center-all-actions .view-header .activism_date_filter a:visited{ color:#336699; text-decoration:none;}
+
+.pane-activism-blocks-related-actions .titleBar .viewLink a:hover,
+.allActionsBar .rssLink a:hover,
+.allActionsBar .viewLink a:hover,
+.activism-landing-social .social-text a:hover,
+.activism-landing-candle .social-text a:hover,
+.panel-gac_3col_centre .rssLink a:hover,
+.view-activism-center-all-actions .view-header .activism_date_filter a:hover{ color:#000; text-decoration:none; background-color:#fff;}
+
+.pane-activism-blocks-related-actions .titleBar .viewLink a:active,
+.allActionsBar .rssLink a:active,
+.allActionsBar .viewLink a:active,
+.activism-landing-social .social-text a:active,
+.activism-landing-candle .social-text a:active,
+.panel-gac_3col_centre .rssLink a:active,
+.view-activism-center-all-actions .view-header .activism_date_filter a:active{ color:#336699; text-decoration:none;}
+
+/* activism centre, top nav item always on */
+.section-activism-center #primary #primary-2 a {
+  min-width: 8.75em;
+  width: 19.69%;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+/************************/
+/* activism centre menu */
+/************************/
+
+
+
+
+/*******************************************/
+/* activism centre community home specific */
+/*******************************************/
+
+.page-activism-center-community .panel-region-separator {
+	display: none;	
+}
+
+.pane-forum-topic-views-panel-pane-3 h2 {
+	line-height: 100%;
+	padding: 10px 0 15px 0;
+	margin: 0;
+}
+
+#community_home_welcome{
+	padding: 0 0 0.5em 0;	
+}
+
+#community_home_welcome p{
+	padding: 0 0 0 0;
+}
+
+#community_home_welcome a,
+#community_home_welcome a:visited,
+#community_home_welcome a:active {
+	text-decoration: none;
+	color:#336699;
+}
+
+#community_home_welcome a:hover {
+	background-color: #ffffff;
+	color:#000000;
+}
+
+
+#community_home_forum_title h2,
+#community_home_calendar_title h2{
+	margin: 0 0 5px 0;
+	color: #336699;
+	line-height: 100%;
+}
+
+#community_home_calendar, #community_home_forum {
+	border-bottom: 1px solid #D8D8D8;
+
+}
+
+.panel-gac_3col_even h3 > a {
+	line-height:100%;
+	padding-bottom:10px;
+	color: #336699;
+	text-decoration: none;	
+}
+
+.panel-gac_3col_even h3 > a:visited,
+.panel-gac_3col_even h3 > a:active {
+	color: #336699;
+	text-decoration: none;	
+}
+
+
+.panel-gac_3col_even h3 > a:hover{
+	color: #000000;
+	background: #ffffff;
+}
+
+
+.panel-gac_3col_even .views-field-title a {
+	font-size:1.3em;
+	line-height:100%;
+	padding-bottom:10px;
+	color: #336699;
+	text-decoration: none;	
+}
+
+
+.panel-gac_3col_even .views-field-title a:visited,
+.panel-gac_3col_even .views-field-title a:active {
+	color: #336699;
+	text-decoration: none;	
+}
+
+
+.panel-gac_3col_even .views-field-title a:hover{
+	color: #000000;
+	background: #ffffff;
+}
+
+/* Forum Column */
+.page-activism-center-community .view-id-forum_topic_views p {
+	padding: 0 3px 0 0;
+	font-size: 10px;
+}
+
+.page-activism-center-community .view-id-forum_topic_views .recent {
+	font-size: 10px;
+}
+
+
+.page-activism-center-community .topic-author {
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+}
+
+.page-activism-center-community .topic-author a,
+.page-activism-center-community .topic-author a:visited,
+.page-activism-center-community .topic-author a:active {
+	color: #336699;
+	text-decoration: none;
+}
+
+.page-activism-center-community .topic-author a:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.page-activism-center-community .forum-topic-body {
+	font-size: 12px;
+	line-height: 120%
+}
+	
+.page-activism-center-community .forum-topic-body p {
+	font-size: 12px;
+}
+
+
+/**************/
+
+/* Events Column */
+
+.page-activism-center-community .pane-forum-topic-views-panel-pane-3,
+.page-activism-center-community .pane-forum-topic-views-panel-pane-5,
+.page-activism-center-community .pane-gac-calendar-upcoming-home-panel-pane-1 {
+  padding-bottom: 1em;
+}
+
+.pane-gac-calendar-upcoming-home-panel-pane-1 {
+	padding: 10px 0 0 0;
+	width: 50%;
+}
+.page-activism-center-community .views-field-phpcode-1,
+.page-activism-center-community .views-field-city-1 .field-content,
+.page-activism-center-community .views-field-country .field-content,
+.page-activism-center-community .views-field-field-eventdate-value-2,
+.page-activism-center-community .views-field-field-eventdate-value-3 {
+	font-size: 10px;
+	font-weight: bold;	
+}
+
+.page-activism-center-community .views-label-city-1,
+.page-activism-center-community .views-label-country,
+.page-activism-center-community .views-label-comment-count,
+.page-activism-center-community .views-label-field-eventattendcount-value {
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+}
+
+.page-activism-center-community .views-field-comment-count .field-content,
+.page-activism-center-community .views-field-field-eventattendcount-value .field-content {
+	font-size: 10px;
+	font-weight: bold;
+	color: #336699;
+}
+
+.page-activism-center-community .views-field-teaser {
+	line-height: 120%;
+}
+
+
+.page-activism-center-community .views-field-field-eventdate-value-2 {
+	float: left;
+	padding: 0 5px 0 0;
+}
+
+.page-activism-center-community .views-field-comment-count {
+	padding: 0 5px 0 0;
+}
+
+.page-activism-center-community .pane-gac-events-calendar {
+	float: right;
+	padding: 10px 0 0 0;
+}
+
+.page-activism-center-community .views-field-city-1,
+.page-activism-center-community .views-field-country,
+.page-activism-center-community .views-field-comment-count,
+.page-activism-center-community .views-field-field-eventattendcount-value {
+  line-height: 125%;
+}
+
+.page-activism-center-community .pane-gac-calendar-featured-panel-pane-1 {
+	border-top: 1px solid #D8D8D8;
+	padding: 1em 0;
+}
+
+.pane-gac-calendar-recently-added-panel-pane-1 {
+	border-top: 1px solid #D8D8D8;
+	padding: 1em 0;
+  min-height: 275px;
+}
+
+.pane-gac-calendar-recently-added-panel-pane-1 .views-row-1,
+.pane-gac-calendar-recently-added-panel-pane-1 .views-row-2 {
+	float: left;
+	width: 48%;
+}
+
+.pane-gac-calendar-recently-added-panel-pane-1 .views-row-2 {
+  margin-left: 2%;
+}
+
+.page-activism-center-community .pane-activism-event-calendar-rss,
+.page-activism-center-community .pane-activism-community-forum-rss{
+	float: left;
+	width: 50%;	
+	padding: 8px 0 5px;
+	border-bottom: none;
+}
+
+.page-activism-center-community .pane-activism-event-calendar-rss img,
+.page-activism-center-community .pane-activism-community-forum-rss img{
+	padding-right: 4px;
+	vertical-align: top;
+}
+
+.page-activism-center-community .pane-activism-event-calendar-rss a,
+.page-activism-center-community .pane-activism-event-calendar-rss a:visited,
+.page-activism-center-community .pane-activism-event-calendar-rss a:active,
+.page-activism-center-community .pane-activism-community-forum-rss a,
+.page-activism-center-community .pane-activism-community-forum-rss a:visited,
+.page-activism-center-community .pane-activism-community-forum-rss a:active,
+.page-activism-center-community .pane-custom a,
+.page-activism-center-community .pane-custom a:visited,
+.page-activism-center-community .pane-custom a:active {
+	color: #336699;
+	text-decoration: none;
+}
+
+.page-activism-center-community .pane-activism-event-calendar-rss a:hover,
+.page-activism-center-community .pane-activism-community-forum-rss a:hover,
+.page-activism-center-community .pane-custom a:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+
+.page-activism-center-community .comm-home-all {
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 2px solid #D2D2D2;
+	padding: 6px 0 5px 0;
+	text-align: right;
+}
+
+.page-activism-center-community .forum-comment-count {
+	font-size: 10px;
+}
+
+
+.page-activism-center-community .forum-comment-count-label {
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+}
+
+.page-activism-center-community .recent-header {
+	font-weight: bold;
+	color: #999999;
+	float: left;
+}
+
+.page-activism-center-community .recent a,
+.page-activism-center-community .recent a:visited,
+.page-activism-center-community .recent a:active {
+	color: #336699;
+	text-decoration: none;
+	padding: 0 0 0 5px;
+	font-size: 10px;
+}
+
+.page-activism-center-community .recent a:hover {
+	color: #000000;
+	background-color: #ffffff;
+	padding: 0 0 0 5px;
+	font-size: 10px;
+}
+
+.page-activism-center-community .pane-forum-topic-views-panel-pane-5 .forum-topic-one-col {
+	width: 48%;
+	float: right;
+}
+
+.page-activism-center-community .pane-forum-topic-views-panel-pane-5 .forum-topic-one-col-first {
+	float: left;
+}
+
+/**************/
+
+	
+
+
+
+#mini-panel-community_forum .pane-forum-topic-views-panel-pane-3 {
+	border-bottom: 1px solid #D8D8D8;
+		
+}
+
+/***************************************/
+/* activism centre event pages general */
+/***************************************/
+
+.panel-layout-gac_3col_centre .panel-col-top .panel-region-separator,
+.panel-layout-gac_3col_even .panel-col-top .panel-region-separator {
+		display: none;	
+}
+
+.panel-gac_3col_centre h1 {
+	margin: 5px 0 5px 0;
+	text-transform: none;
+	line-height: 18px;
+}
+
+.panel-gac_3col_centre .page-title-norm,
+.panel-gac_3col_even .page-title-norm {
+	font-weight: normal;	
+}
+
+.pane-activism-event-calendar-rss {
+	padding: 10px 0 20px 0;
+	margin: 0 0 0 0;
+	border-bottom: 2px solid #D2D2D2;
+}
+
+/* Exposed Filters */
+
+#gac-event-filter {
+	margin: 5px 0 5px 0;
+}
+
+#ai-sidebar-squeeze > .panel-panel > .inside > #gac-event-filter > h2.pane-title {
+	margin: 12px 60px 5px 0;
+	float: left;
+	font-size: 1em;
+}
+
+#ai-sidebar-squeeze > .panel-panel > .inside > #gac-event-filter > .pane-content {
+	margin: 5px 0 10px 0;
+	border-bottom: 2px solid #D2D2D2;
+}
+
+#gac-event-filter .views-exposed-form label {
+	float: left;
+	padding: 0 5px 0 5px;	
+}
+
+#gac-event-filter .views-exposed-widget {
+	padding: 10px 0 5px 5px;	
+}
+
+#gac-event-filter .views-widget {
+	float:left;
+}
+
+#gac-event-filter .views-exposed-form select {
+	width: 150px;
+}
+
+#gac-event-filter .form-submit {
+	margin: 0 0 0 0;	
+}
+
+/*************************/
+
+/* Left hand calendar view */
+
+#event-teaser-left {
+	float: left;
+	margin: 0 0 70px 0;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 110%;
+	width: 140px;
+}
+
+#event-teaser-left-month {
+	text-align: center;
+	color: #ffffff;
+	background-color: #666666;
+	width: 65px;
+	padding: 5px 0 5px 0;
+	font-size: 11px;
+}
+
+#event-teaser-left-day {
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	background-color: #ff3;
+	padding: 15px 0 15px 0;
+	border-top: 1px solid #ffffff;
+	border-bottom: 2px solid #d0d0d0;
+	margin: 0 0 5px 0;
+	width: 65px;
+}
+
+#event-teaser-left-created, #event-teaser-left-by {
+	font-weight: normal;
+	padding: 5px 0 0 0;	
+}
+
+#event-teaser-left-name {
+	font-weight: bold;
+	color: #336699;
+}
+
+#event-teaser-left-att {
+	padding-top: 20px;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+#event-teaser-left-attc {
+	float: left;
+	font-weight: bold;
+	margin: 0 2px 0 0;
+}
+/*************************/
+
+/* Event Listing Style */
+
+.panel-gac_3col_centre .views-field-title-2 {
+	float: right;	
+}
+
+.panel-gac_3col_centre .views-field-title a,
+.panel-gac_3col_centre .views-field-nothing a,
+.panel-gac_3col_centre #event_calendar_ical_all a,
+.panel-gac_3col_centre .views-field-nid-1 a {
+	color: #336699;
+	text-decoration: none;	
+}
+
+.panel-gac_3col_centre .views-field-title a {
+	font-size:18px;
+	line-height:100%;
+	padding-bottom:10px;
+}
+
+.panel-gac_3col_centre .views-field-title a:hover,
+.panel-gac_3col_centre .views-field-nothing a:hover,
+.panel-gac_3col_centre #event_calendar_ical_all a:hover,
+.panel-gac_3col_centre .views-field-nid-1 a:hover {
+	color: #000000;
+	background: #ffffff;
+}
+
+.panel-gac_3col_centre .views-field-title a:visited,
+.panel-gac_3col_centre .views-field-title a:active,
+.panel-gac_3col_centre .views-field-nothing a:visited,
+.panel-gac_3col_centre .views-field-nothing a:active,
+.panel-gac_3col_centre #event_calendar_ical_all a:visited,
+.panel-gac_3col_centre #event_calendar_ical_all a:active,
+.panel-gac_3col_centre .views-field-nid-1 a:visited,
+.panel-gac_3col_centre .views-field-nid-1 a:active {
+	color: #336699;
+	text-decoration: none;
+}
+
+.panel-gac_3col_centre .views-field-field-eventdate-value-2,
+.panel-gac_3col_centre .views-field-field-eventdate-value-3,
+.panel-gac_3col_centre .views-field-phpcode-1,
+.panel-gac_3col_centre .views-field-city-1,
+.panel-gac_3col_centre .views-field-country,
+.panel-gac_3col_centre .views-field-country-1,
+.panel-gac_3col_centre .views-field-nid-1 {
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 120%;	
+}
+
+.panel-gac_3col_centre .views-field-field-eventdate-value-2{
+	float:left;
+	padding: 0 5px 0 0;	
+}
+
+
+.panel-gac_3col_centre .views-field-field-eventdate-value-3{
+	padding: 0 0 5px 0;	
+}
+
+.panel-gac_3col_centre .views-label-city-1,
+.panel-gac_3col_centre .views-label-country,
+.panel-gac_3col_centre .views-label-country-1,
+.panel-gac_3col_centre .views-label-nid-1 {
+	color: #999999;
+}
+
+.panel-gac_3col_centre .views-field-nid-1 {
+	padding: 10px 0 20px 0;	
+}
+
+.panel-gac_3col_centre .views-field-teaser {
+	line-height: 120%;
+	font-size: 13px;	
+}
+
+.panel-gac_3col_centre .views-field-nothing {
+	line-height: 120%;
+	font-size: 13px;	
+	padding: 20px 0 0 0;		
+}
+
+.panel-gac_3col_centre .views-field-comment-count {
+	line-height: 120%;
+	font-size: 13px;
+}
+
+.panel-gac_3col_centre .views-row {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.panel-gac_3col_centre .views-row-last {
+	margin: 0 0 0 0;
+}
+
+.panel-gac_3col_centre .item-list .pager a:hover {
+	background: #ffffff;
+}
+
+.panel-gac_3col_centre #event_calendar_ical_all {
+	font-size: 13px;
+	border-bottom: 2px solid #d0d0d0;
+}
+
+/*************************/
+
+/* Quickguide Footer */
+
+#community-quickguide {
+	font-weight: bold;
+	float: left;	
+	line-height: 110%;
+	font-size: 10px;
+}
+
+#community-quickguide,
+#community-quickguide-events,
+#community-quickguide-comments,
+#community-quickguide-link {
+  padding-top: 1em;
+}
+
+#community-quickguide-events {
+	margin: 0 0 0 50px;
+	float: left;	
+	width: 150px;
+	line-height: 110%;
+	font-size: 10px;
+}
+
+#community-quickguide-comments {
+	margin: 0 50px 0 50px;
+	float: left;	
+	width: 150px;
+	line-height: 110%;
+	font-size: 10px;
+}
+
+#community-quickguide-events-title, #community-quickguide-comments-title {
+	font-weight: bold;	
+	line-height: 110%;
+	font-size: 10px;
+}
+
+#community-quickguide-link {
+	line-height: 120%;
+	font-size: 10px;
+}	
+
+#community-quickguide-link a {
+	color: #336699;
+	text-decoration: none;	
+}
+
+#community-quickguide-link a:hover {
+	color: #000000;
+	background: #ffffff;
+}
+
+#community-quickguide-link a:active,
+#community-quickguide-link a:visited {
+	color: #336699;
+	text-decoration: none;	
+}
+
+/*************************/
+
+
+/* Calendar Block Styling */
+
+.calendar-calendar div.date-nav {
+	font-weight: bold;
+	background-color: #ffffff;
+	border:0px;
+	color: #000000;
+	padding:0.2em;
+	width:auto;
+	font-size: 10px;
+}
+
+.calendar-calendar div.date-nav .date-prev,
+.calendar-calendar div.date-nav .date-next {
+	background-color:#FFFF00;
+	border-color:#EE0 #990 #990 #EE0;
+	border-style:solid;
+	border-width:1px;
+	text-align: center;
+	font-size: 16px;
+	width: 18px;
+	float: left;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+body.rtl .calendar-calendar div.date-nav .date-prev,
+body.rtl .calendar-calendar div.date-nav .date-next {
+	float: right;
+}
+
+.calendar-calendar div.date-nav .date-prev {
+  padding-left: 8px;
+}
+
+.calendar-calendar div.date-nav .date-next {
+  padding-right: 8px;
+}
+
+body.rtl .calendar-calendar div.date-nav .date-next {
+	margin-right:15px;
+}
+
+.calendar-calendar div.date-nav .date-heading{
+	width: 80px;
+	float: left;
+}
+
+body.rtl .calendar-calendar div.date-nav .date-heading{
+  float: right;
+}
+
+body.page-activism-center-calendar .calendar-calendar div.date-nav .date-heading,
+div.node-type-event div.date-nav div.date-heading,
+div.pane-gac-events-calendar div.calendar-calendar div.date-heading {
+  width: 125px;
+}
+
+body.page-activism-center-calendar .rtl .calendar-calendar div.date-nav .date-heading,
+body.rtl div.node-type-event div.date-nav div.date-heading,
+body.rtl div.pane-gac-events-calendar div.calendar-calendar div.date-heading {
+  width: 100px;
+}
+
+.calendar-calendar div.date-nav .date-prev a,
+.calendar-calendar div.date-nav .date-heading a,
+.calendar-calendar div.date-nav .date-next a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.calendar-calendar div.date-nav .date-heading a {
+  text-decoration: underline;
+}
+
+.calendar-calendar div.date-nav .date-heading a:hover {
+	background-color:#ffffff;
+  text-decoration: none;
+}
+
+
+.calendar-calendar th.days {
+	font-weight: bold;
+	border: 1px solid #bbb;
+	background-color: #ffffff;
+	font-size: 10px;
+	color: #000000;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td {
+	font-size: 10px;
+	text-align: center;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.empty {
+  background: #fff;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td div:hover {
+	background-color: #ffff00;
+  border: 1px inset #000;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td a {
+	text-decoration: none;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td a:hover {
+	background-color: #ffff00;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.has-no-events {
+	background-color: #ffffff;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.has-events {
+	background-color: #eee;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.has-events a {
+  color: #000000;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.has-events div:hover {
+  background-color: #ff0;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.has-events a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.today {
+	background-color: #666;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.today a {
+  color: #fff;
+}
+
+.pane-gac-events-calendar .calendar-calendar table.mini td.today a:hover {
+  color: #000;
+}
+
+
+
+/*************************/
+
+/* Calendar Year View */
+	
+.cal-event-year {
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 10px;
+	line-height: 110%;
+}
+
+.cal-event-label {
+	font-size: 13px;
+	margin: 5px 0 5px 0;	
+}
+
+.cal-event-year ul {
+	list-style-type: none;
+	font-weight: normal;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.cal-event-year a {
+	color: #336699;
+	text-decoration: none;	
+}
+
+.cal-event-year a:hover {
+	color: #000000;
+	background: #ffffff;
+}
+
+.cal-event-year a:active,
+.cal-event-year a:visited {
+	color: #336699;
+	text-decoration: none;	
+}
+
+/*************************/
+
+/* event pager */
+
+.panel-gac_3col_centre .item-list ul.pager { 
+	text-align:left; 
+	margin:0px; 
+	border-bottom:solid 1px #d2d2d2; 
+	padding:4px 0px 4px 0px; 
+	top:0px; 
+	left:0px;
+	font-size: 16px;
+}
+
+.panel-gac_3col_centre .item-list ul.pager li a:link {
+	color:#336699;
+	text-decoration:none;
+}
+
+.panel-gac_3col_centre .item-list ul.pager li a:visited {
+	color:#336699;
+	text-decoration:none;
+}
+
+.panel-gac_3col_centre .item-list ul.pager li.pager-current {
+	background-color:transparent;
+	color:#000000;
+	font-weight: bold;
+}
+
+.panel-gac_3col_centre .item-list ul.pager li.pager-next {
+	position: absolute;
+	right: 48px;
+}
+
+.panel-gac_3col_centre .item-list ul.pager li.pager-last {
+	position: absolute;
+	right: 0;
+}
+/********************************************/
+
+
+/********************************************/
+/* activism centre event full view specific */
+/********************************************/
+
+.event-full-rss {
+	margin: 0 0 10px 0;	
+}
+.event-full-attend{
+	background-color:#FFFF00;
+	border-color:#FFFF00 #CCCC00 #CCCC00 #FFFF00;
+	border-style:solid;
+	border-width:1px;
+	margin: 20px 320px 20px 0;
+	text-align: center;
+	font-size: 11px;
+}
+
+.event-full-attend a {
+	text-decoration: none;	
+}
+.event-full-attend-toolate{
+	background-color:#666666;
+	border-color:#666666 #333333 #333333 #666666;
+	border-style:solid;
+	border-width:1px;
+	margin: 20px 220px 20px 0;
+	text-align: center;
+	font-size: 11px;
+}
+.event-full-attend-toolate span {
+	color: white;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 > h2 {
+	display: none;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-title h2 {
+	color: #336699;
+	font-size: 18px;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-addthis {
+	margin: 0 0 20px 0;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-body {
+	line-height: 120%;
+	margin: 0 0 0 170px;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-nid {
+	margin: 0 0 0 170px;	
+	border-bottom: 1px solid #D8D8D8;
+	background-color: #ffffff;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-upload-fid {
+	margin: 20px 0 0 170px;	
+	font-size: 10px;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-label-upload-fid {
+	color: #999999;
+	font-weight: bold;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-phpcode{
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 120%;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-upload-fid a,
+.pane-gac-calendar-event-panel-pane-1 .views-field-upload-fid a:active,
+.pane-gac-calendar-event-panel-pane-1 .views-field-upload-fid a:visited{
+	text-decoration: none;
+	color: #336699;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-upload-fid a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .event-full-attend-loggedout {
+	margin: 20px 0 20px 0;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 .event-full-attend-loggedout a,
+.pane-gac-calendar-event-panel-pane-1 .event-full-attend-loggedout a:visited,
+.pane-gac-calendar-event-panel-pane-1 .event-full-attend-loggedout a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .event-full-attend-loggedout a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-address {
+	margin: 0 0 0 170px;	
+	font-size: 10px;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-label-address {
+	color: #999999;
+	font-weight: bold;
+	float: left;
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-address .vcard{
+	margin: 0 0 0 55px;	
+	line-height: 130%;	
+}
+
+.pane-gac-calendar-event-panel-pane-1 .views-field-address .vcard .adr{
+	padding-top:5px;
+}
+
+.panel-gac_3col_centre .view-gac-calendar-event .views-row {
+	border-bottom: none;
+}
+
+/* Next/Prev Event Block */
+
+#calendar-event-prevnext {
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 120%;		
+}
+
+#calendar-event-next-head, #calendar-event-prev-head {
+	color: #999999;
+	margin: 20px 0 0 0;
+}
+
+#calendar-event-prevnext a,
+#calendar-event-prevnext a:visited,
+#calendar-event-prevnext a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+#calendar-event-prevnext a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#calendar-event-next-date, #calendar-event-next-country,
+#calendar-event-prev-date, #calendar-event-prev-country{
+	font-weight:normal;
+}
+	
+/*************************/
+
+
+/**********************************/
+/* activism centre event comments */
+/**********************************/
+
+.pane-gac-event-comments-panel-pane-1 {
+	background-color: #eeeeee;
+}
+
+.pane-gac-event-comments-panel-pane-1 .views-row {
+	border: none;
+}
+
+
+.event-comment-header {
+	padding: 5px 0 5px 170px;	
+	border-bottom: 1px solid #999999;
+	font-size: 11px;
+	background-color: #D8D8D8;
+}
+
+.event-comment-header-icon {
+	float: left;
+	height: 20px
+}
+
+.event-comment-header-title {
+	float: left;
+	padding: 0 10px 0 10px;
+	border-right: 1px solid #999999;
+	
+}
+
+.event-comment-header-add {
+	float: left;
+	padding: 0 10px 0 10px;
+	border-right: 1px solid #999999;
+	cursor: pointer;
+	color: #336699;
+	font-weight: bold;
+}
+
+	
+.event-comment-header-expand {
+	cursor: pointer;
+	color: #336699;
+	font-weight: bold;
+	padding: 0 10px 0 210px;
+}
+
+div.event-comment-header-add:hover,
+div.event-comment-header-expand:hover {
+		color: #000000;
+}
+
+
+.event-comment-left {
+	float: left;	
+	padding: 5px 0 0 5px;
+	font-size: 11px;
+}
+
+.event-comment-created {
+	font-weight: bold;
+}
+
+.event-comment-body {
+	padding: 5px 5px 5px 120px;
+	min-height: 70px;
+}
+
+.event-comment-teaser {
+	padding: 5px 5px 5px 120px;
+	min-height: 35px;
+	display:none;
+}
+
+.event-comment-flag {
+	border-bottom: 1px solid white;
+	text-align: right;
+	padding: 0 0 10px 0;
+}
+
+.event-comment-by a,
+.event-comment-by a:visited,
+.event-comment-by a:active,
+.event-comment-flag a,
+.event-comment-flag a:visited,
+.event-comment-flag a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+.event-comment-by a:hover,
+.event-comment-flag a:hover {
+	background-color: #eeeeee;
+	color: #000000;
+}
+
+.pane-gac-event-nid-panel-pane-1 .views-field-nid {
+	background-color: #eeeeee;	
+}
+
+.pane-gac-event-nid-panel-pane-1 .views-field-nid a,
+.pane-gac-event-nid-panel-pane-1 .views-field-nid a:visited,
+.pane-gac-event-nid-panel-pane-1 .views-field-nid a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+.pane-gac-event-nid-panel-pane-1 .views-field-nid a:hover {
+	background-color: #eeeeee;
+	color: #000000;
+}
+
+/**************************/
+/* Forums Pages 		  */
+/**************************/
+
+.page-activism-center-community-forum .panel-region-separator {
+		display: none;	
+}
+
+.page-activism-center-community-forum h1 {
+	margin: 5px 0 5px 0;
+	text-transform: none;
+	line-height: 18px;
+}
+
+
+.page-activism-center-community-forum > .page-activism-center-community-forum > #container > .panel-nav2col > #ai-sidebar-main > #ai-sidebar-squeeze > .pane-activism-community-forum-rss > h2.pane-title { 
+	float:left; 
+	font-size:18px; 
+	margin:0px 0px 0px 0px; 
+}
+
+
+.pane-activism-community-forum-rss {
+	margin: 0 0 0 0;
+  text-align: right;
+}
+
+.page-activism-center-community .pane-activism-community-forum-rss {
+  text-align: left;
+}
+
+.pane-activism-community-forum-rss {
+
+}
+
+.pane-activism-community-forum-rss img {
+	vertical-align: text-top;	
+}
+
+.pane-activism-community-forum-rss a,
+.pane-activism-community-forum-rss a:visited,
+.pane-activism-community-forum-rss a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+.pane-activism-community-forum-rss a:hover {
+	background-color: #eeeeee;
+	color: #000000;
+}
+
+.pane-amnesty-date-browser {
+	margin: 20px 0 0 0;	
+}
+
+/* Exposed Filters */
+
+.pane-forum-topic-views-panel-pane-7 {
+	margin: 5px 0 5px 0;
+	vertical-align: center
+}
+
+#ai-sidebar-squeeze > .pane-forum-topic-views-panel-pane-7 > h2.pane-title {
+	font-size: 1em;
+	float: left;
+	margin: 13px 50px 0 0;
+}
+
+#ai-sidebar-main > #ai-sidebar-squeeze > .pane-forum-topic-views-panel-pane-7 > .pane-content {
+	margin: 5px 0 10px 0;
+	border-bottom: 2px solid #D2D2D2;
+}
+
+.pane-forum-topic-views-panel-pane-7 .views-exposed-form label {
+	float: left;
+	padding: 0 5px 0 5px;	
+}
+
+.pane-forum-topic-views-panel-pane-7 .views-exposed-widget {
+	padding: 10px 0 5px 5px;	
+}
+
+.pane-forum-topic-views-panel-pane-7 .views-widget {
+	float:right;
+}
+
+.pane-forum-topic-views-panel-pane-7 .views-exposed-form select {
+	width: 150px;
+}
+
+.pane-forum-topic-views-panel-pane-7 .view-display-id-panel_pane_7 .form-submit {
+	margin: 0 0 0 0;
+	background-color:#FFFF00;
+	border-color:#FFFF00 #CCCC00 #CCCC00 #FFFF00;
+	border-style:solid;
+	border-width:1px;
+	font-weight:bold;	
+}
+
+#ai-sidebar-squeeze > .pane-amnesty-date-browser > h2.pane-title {
+	font-size: 1em;
+	float: left;
+	margin: 3px 50px 0 0;
+}
+
+.pane-amnesty-date-browser ul.links li {
+	border: none;	
+}
+
+.pane-amnesty-date-browser .pane-content a,
+.pane-amnesty-date-browser .pane-content a:visited,
+.pane-amnesty-date-browser .pane-content a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+.pane-amnesty-date-browser .pane-content a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/*************************/
+
+.pane-forum-topic-views-panel-pane-4 h2,
+.pane-forum-topic-views-panel-pane-6 h2 {
+	border-bottom: 1px solid #D8D8D8;
+	padding: 32px 0 0 0;
+}
+
+.forum-topic-two-col {
+	border-bottom: 1px solid #D8D8D8;
+	margin: 10px 0 10px 0;
+}
+
+.forum-post-body a,
+.forum-post-body a:visited,
+.forum-post-body a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+.forum-post-head a,
+.forum-post-head a:visited,
+.forum-post-head a:active {
+	text-decoration: none;
+	color: #336699;
+}
+
+.forum-post-head a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+
+.forum-post-head {
+	line-height: 120%;
+	font-size: 10px;	
+}
+
+.forum-post-head .node-post-head-date {
+	margin-bottom: 4px;	
+}
+
+.forum-post-head .topic-author {
+	margin-bottom: 8px;	
+}
+	
+.forum-post-body {
+	font-size: 10px;
+        margin-left: 10px;
+        width: 395px;
+}
+
+.forum-post-body h3 {
+	font-size: 18px;	
+}
+
+.forum-post-body .forum-topic-body {
+	font-size: 12px;	
+	margin: 0 0 0 120px;	
+}
+
+
+.forum-post-body a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.page-activism-center-community-forum .item-list ul.pager { 
+	text-align:left; 
+	margin:0px; 
+	border-bottom:solid 1px #D8D8D8; 
+	padding:4px 0px 4px 0px; 
+	top:0px; 
+	left:0px;
+	font-size: 16px;
+}
+
+.page-activism-center-community-forum .item-list ul.pager li a:link {
+	color:#336699;
+	text-decoration:none;
+}
+
+.page-activism-center-community-forum .item-list ul.pager li a:visited {
+	color:#336699;
+	text-decoration:none;
+}
+
+.page-activism-center-community-forum .item-list ul.pager li.pager-current {
+	background-color:transparent;
+	color:#000000;
+	font-weight: bold;
+}
+
+.page-activism-center-community-forum .item-list ul.pager li.pager-next {
+	position: absolute;
+	right: 48px;
+}
+
+.page-activism-center-community-forum .item-list ul.pager li.pager-last {
+	position: absolute;
+	right: 0;
+}
+
+.pane-activism-community-quickguide-footerf-en {
+	
+	padding: 10px 0 0 0;
+}
+
+/******************************/
+/* Single Topic View specific */
+/******************************/
+
+.ntype-forum-topic .panel-region-separator {
+	display: none;	
+}
+
+.ntype-forum-topic > .ntype-forum-topic > #container > .panel-nav2col > #ai-sidebar-main > #ai-sidebar-squeeze > .pane-activism-community-forum-rss > h2.pane-title { 
+	float:left; 
+	font-size:18px; 
+	margin:0px 0px 0px 0px; 
+}
+
+.ntype-forum-topic #forum_rss {
+	border-bottom: 2px solid #D2D2D2;
+	padding: 0 0 20px 0;
+	margin: 0 0 10px 0;
+}
+
+
+.ntype-forum-topic .forum-post-body h3 {
+	color:#336699;
+}
+
+.ntype-forum-topic .comment_add a,
+.ntype-forum-topic .comment_add a:visited,
+.ntype-forum-topic .comment_add a:active,
+.ntype-forum-topic .forward_links a,
+.ntype-forum-topic .forward_links a:visited,
+.ntype-forum-topic .forward_links a:active {
+	font-size: 11px;
+	text-decoration: none;	
+}
+
+/* Forum Comments */
+
+.ntype-forum-topic .comments-header {
+	margin: 10px 0 0 0;
+	padding: 5px 0 5px 120px;	
+	border-bottom: 1px solid #999999;
+	font-size: 11px;
+	background-color: #D8D8D8;
+}
+
+.ntype-forum-topic .comment-header-icon {
+	float: left;
+	height: 20px
+}
+
+.ntype-forum-topic .comment-header-title {
+	float: left;
+	padding: 0 10px 0 10px;
+	font-weight: bold;
+}
+
+.ntype-forum-topic .comments-header a,
+.ntype-forum-topic .comments-header a:active,
+.ntype-forum-topic .comments-header a:visited {
+	float: left;
+	padding: 0 10px 0 10px;
+	border-left: 1px solid #999999;
+	cursor: pointer;
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.ntype-forum-topic .comments-header a:hover {
+	color: #000000;
+	background-color: #D8D8D8;	
+}
+
+.ntype-forum-topic .comments-inner .forum-post-head {
+	font-size: 11px;	
+	padding: 3px 0 0 3px;
+}
+
+.ntype-forum-topic .comments-inner .forum-post-body {
+	font-size: 11px;
+	width: 100%	
+}
+
+.ntype-forum-topic .comments-inner .forum-post-body .links {
+	text-align: right;
+	width: 100%
+}
+
+.ntype-forum-topic .forum-links {
+	border-top: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	margin: 10px 0 10px 0;
+  	padding: 3px 0;
+}
+
+.ntype-forum-topic ul.forum-post-links {
+	background-image: url('images/com_icon.png');
+	background-repeat:no-repeat;
+	background-position: 120px;
+	padding-left: 150px;
+}
+
+.ntype-forum-topic ul.forum-post-links a,
+.ntype-forum-topic ul.forum-post-links a:visited,
+.ntype-forum-topic ul.forum-post-links a:active,
+.ntype-forum-topic .forum-links a,
+.ntype-forum-topic .forum-links a:visited,
+.ntype-forum-topic .forum-links a:active {
+	text-decoration: none;		
+}
+
+.ntype-forum-topic ul.forum-post-links a:hover,
+.ntype-forum-topic .forum-links a:hover {
+	background-color: #ffffff;		
+}
+
+.ntype-forum-topic .field-field-amnesty-comments .field-label {
+	display: none;	
+}
+
+.ntype-forum-topic .node-type-comment {
+	border-bottom: 1px solid #ffffff;	
+}
+
+
+/****************/
+/* Comment Form */
+/****************/
+.comment-form-collapsible {
+	background-color: #eeeeee;
+}
+
+.comment-form-user {
+	padding: 5px 0 0 5px;
+	border: none;
+}
+
+.comment-form-user .comment-user-header {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.comment-form-form {
+	background-color: #eeeeee;
+	border: none;
+	padding: 5px 5px 5px 5px;
+}
+
+.comment-form-form a,
+.comment-form-form a:active,
+.comment-form-form a:visited {
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.comment-form-form a:hover {
+	color: #000000;
+	background-color: #eeeeee;	
+}
+
+.view-gac-event-nid .comment-form-form 
+.terms-conditions + a,
+.node-type-forum-topic .comment-form-form 
+.terms-conditions + a {
+	margin-right:1em;
+	margin-left: 130px;
+}
+
+.comment-user-header-user {
+	font-size: 10px;
+}
+
+.comment-user-header-username {
+	color: #336699;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.comment-form-user .location {
+	font-size: 10px;
+}
+
+.panel-layout-gac_3col_centre .panel-col-bottom .panel-region-separator {
+	display: none;
+}
+
+.view-gac-event-nid {
+	border-top: 1px solid #d2d2d2;
+}
+
+/****** Panels tabs *****/
+
+.panel-panel ul.primary li a .tab {
+/*background:url("images/tab_up.png") no-repeat transparent;*/
+background-image:none;
+border-width:0;
+display:block;
+
+height:30px;
+line-height:30px;
+padding:0px 0px 0px 0px;
+width:152px;
+}
+
+.panel-panel ul.primary li.active a .tab, 
+.panel-panel ul.primary li.active a:hover .tab {
+  /*background:url("images/tab_over.png") no-repeat scroll right 0 transparent;*/
+  background-image:none;
+}
+
+.panel-panel ul.primary li.active a, ul.primary li.active a:hover {
+background-image: none;
+}
+.panel-panel ul.primary li a {
+background-image:none;
+height:30px;
+background-color:transparent;
+padding:0;
+}
+
+
+.panel-panel ul.tabs li {
+background:url("images/tab_up.png") no-repeat transparent;
+text-align:center;
+}
+.panel-panel ul.tabs li.active {
+  background:url("images/tab_over.png") no-repeat scroll right 0 transparent;
+}
+
+/* ------------- Action and comment mini-panel --------- */
+
+
+#mini-panel-action_and_comment_tabs .panel-panel ul.tabs li {
+background:none;
+background-color: #bbbbbb;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs .panel-panel ul.tabs li.active {
+background:none;
+background-color: #e3e3e3;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs ul.primary {
+    background: none;
+    border-bottom: 1px solid #e3e3e3;
+    margin:0px;
+    padding:0px;
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs span.clear {
+    clear:both;
+    display:block;
+    font-size: 0px;
+    height: 1px;
+    line-height: 0px;
+    margin-bottom: -1px;
+    color: #ebebeb;
+}
+
+#mini-panel-action_and_comment_tabs div#tabset-tab-2.tabs-tabset.ui-tabs-panel {
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs .forum-post-head {
+    padding-left: 5px;
+
+}
+
+#mini-panel-action_and_comment_tabs .node-post-head-date {
+    margin:0px;
+}
+
+
+
+
+
+
+
+
+
+#mini-panel-action_and_comment_tabs_es .panel-panel ul.tabs li {
+background:none;
+background-color: #bbbbbb;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs_es .panel-panel ul.tabs li.active {
+background:none;
+background-color: #e3e3e3;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs_es ul.primary {
+    background: none;
+    border-bottom: 1px solid #e3e3e3;
+    margin:0px;
+    padding:0px;
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs_es span.clear {
+    clear:both;
+    display:block;
+    font-size: 0px;
+    height: 1px;
+    line-height: 0px;
+    margin-bottom: -1px;
+    color: #ebebeb;
+}
+
+#mini-panel-action_and_comment_tabs_es div#tabset-tab-2.tabs-tabset.ui-tabs-panel {
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs_es .forum-post-head {
+    padding-left: 5px;
+
+}
+
+#mini-panel-action_and_comment_tabs_es .node-post-head-date {
+    margin:0px;
+}
+
+
+
+
+
+
+#mini-panel-action_and_comment_tabs_fr .panel-panel ul.tabs li {
+background:none;
+background-color: #bbbbbb;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs_fr .panel-panel ul.tabs li.active {
+background:none;
+background-color: #e3e3e3;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs_fr ul.primary {
+    background: none;
+    border-bottom: 1px solid #e3e3e3;
+    margin:0px;
+    padding:0px;
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs_fr span.clear {
+    clear:both;
+    display:block;
+    font-size: 0px;
+    height: 1px;
+    line-height: 0px;
+    margin-bottom: -1px;
+    color: #ebebeb;
+}
+
+#mini-panel-action_and_comment_tabs_fr div#tabset-tab-2.tabs-tabset.ui-tabs-panel {
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs_fr .forum-post-head {
+    padding-left: 5px;
+
+}
+
+#mini-panel-action_and_comment_tabs_fr .node-post-head-date {
+    margin:0px;
+}
+
+
+
+#mini-panel-action_and_comment_tabs_ar .panel-panel ul.tabs li {
+background:none;
+background-color: #bbbbbb;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs_ar .panel-panel ul.tabs li.active {
+background:none;
+background-color: #e3e3e3;
+margin-right: 10px;
+text-align:center;
+}
+
+#mini-panel-action_and_comment_tabs_ar ul.primary {
+    background: none;
+    border-bottom: 1px solid #e3e3e3;
+    margin:0px;
+    padding:0px;
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs_ar span.clear {
+    clear:both;
+    display:block;
+    font-size: 0px;
+    height: 1px;
+    line-height: 0px;
+    margin-bottom: -1px;
+    color: #ebebeb;
+}
+
+#mini-panel-action_and_comment_tabs_ar div#tabset-tab-2.tabs-tabset.ui-tabs-panel {
+    width: 415px;
+}
+
+#mini-panel-action_and_comment_tabs_ar .forum-post-head {
+    padding-left: 5px;
+
+}
+
+#mini-panel-action_and_comment_tabs_ar .node-post-head-date {
+    margin:0px;
+}
+
+
+
+#mini-panel-node_comment_and_comment_form  p.date-display-forum {
+    padding:0px;
+}
+
+#mini-panel-node_comment_and_comment_form div.forum-post-author-name {
+    padding:0px;
+    margin:0px;
+}
+
+#mini-panel-node_comment_and_comment_form span.by {
+    float: left;
+    padding-right:3px;
+}
+
+#mini-panel-node_comment_and_comment_form .comment-form-user,
+#mini-panel-node_comment_and_comment_form .forum-post-head {
+    clear:both;
+    float: none;
+    width: 395px;
+    /*margin: 0 0 5px 10px;*/
+}
+
+#mini-panel-node_comment_and_comment_form div.comment-user-header-user,
+#mini-panel-node_comment_and_comment_form span.comment-user-header-username,
+#mini-panel-node_comment_and_comment_form div.location {
+    display:none;
+}
+
+
+#mini-panel-node_comment_and_comment_form div.body-field-wrapper {
+    background-color: #e3e3e3;
+}
+
+#mini-panel-node_comment_and_comment_form div.comment-user-header-user-under {
+    float: left;
+    margin-right: 5px;
+}
+
+#mini-panel-node_comment_and_comment_form input#submit-.form-submit {
+    float: right;
+}
+
+#mini-panel-node_comment_and_comment_form div.views-row {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    line-height: 120%;
+    padding-bottom: 35px;
+}
+
+
+#mini-panel-node_comment_and_comment_form strong.comment-user-post-date {
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    padding:0;
+}
+
+
+#mini-panel-node_comment_and_comment_form div.views-field-name {
+    float: left;
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    color: black;
+    margin-top: 1px;
+}
+
+#mini-panel-node_comment_and_comment_form div.views-field-name div.comment-user-by-name a:link,
+#mini-panel-node_comment_and_comment_form div.views-field-name div.comment-user-by-name a:visited,
+#mini-panel-node_comment_and_comment_form div.views-field-name div.comment-user-by-name a:active {
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    color: #369;
+    text-decoration: none;
+}
+
+#mini-panel-node_comment_and_comment_form div.views-field-name div.comment-user-by-name a:hover {
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#mini-panel-node_comment_and_comment_form div.comment-country-user-location div.location {
+    display: inline;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    color: #369;
+}
+
+
+
+#mini-panel-node_comment_and_comment_form div.field-content {
+    padding-top: 5px;
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+}
+
+#mini-panel-node_comment_and_comment_form div.field-content {
+    padding-bottom: 15px;
+}
+
+#mini-panel-node_comment_and_comment_form span.views-field-ops {
+    float:right;
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    color: #369;
+}
+
+#mini-panel-node_comment_and_comment_form span.views-field-ops a:link,
+#mini-panel-node_comment_and_comment_form span.views-field-ops a:visited,
+#mini-panel-node_comment_and_comment_form span.views-field-ops a:active
+#mini-panel-node_comment_and_comment_form span.flag-wrapper.flag-comment-is-offensive-moderator a:link,
+#mini-panel-node_comment_and_comment_form span.flag-wrapper.flag-comment-is-offensive-moderator a:visited,
+#mini-panel-node_comment_and_comment_form span.flag-wrapper.flag-comment-is-offensive-moderator a:active {
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    color: #369;
+    text-decoration: none;
+}
+#mini-panel-node_comment_and_comment_form a:link.flag.flag-action.flag-link-confirm,
+#mini-panel-node_comment_and_comment_form a:active.flag.flag-action.flag-link-confirm,
+#mini-panel-node_comment_and_comment_form a:visited.flag.flag-action.flag-link-confirm,
+#mini-panel-node_comment_and_comment_form a:link.flag.unflag-action.flag-link-confirm,
+#mini-panel-node_comment_and_comment_form a:active.flag.unflag-action.flag-link-confirm,
+#mini-panel-node_comment_and_comment_form a:visited.flag.unflag-action.flag-link-confirm {
+    font-family: arial,helvetica,sans-serif;
+    color: #369;
+    text-decoration: none;
+}
+
+#mini-panel-node_comment_and_comment_form a:hover.flag.flag-action.flag-link-confirm {
+    font-family: arial,helvetica,sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#mini-panel-node_comment_and_comment_form span.views-field-ops a:hover {
+    font-size: 11px;
+    font-family: arial,helvetica,sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+
+#mini-panel-node_comment_and_comment_form span.flag-message.flag-flagged-message {
+    font-size: 10px;
+    font-family: arial,helvetica,sans-serif;
+    color: black;
+    font-weight: bold;
+}
+/* Fix menus in CiviCRM */
+#switch-language li.active {
+  background: transparent !important;
+}
+
+.smallblock{
+	display: block;
+	float: left;
+	padding-left: 70px;
+    width: 700px;
+    margin-top: 10px;
+    padding-top: 10px;
+	line-height: 120%;
+}
+.smallblock > h2{
+	display: none;
+}
+.smallblock .pane-content{
+	display: block;
+	float: left;
+}
+.smallblock .pane-content div{
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 238px;
+}
+.smallblock .pane-content div h4{
+	float: left;
+	display: block;
+	clear: both;
+	color: #4580AC;
+	margin-top:	0;
+	margin-bottom: 0;
+}
+.smallblock .pane-content div div.inner{
+	float: left;
+	display: block;
+}
+
+
+/* pager for mini panel node_comment_and_comment_form on campaign pages */
+
+#mini-panel-node_comment_and_comment_form .item-list ul.pager { float:left; width:405px; text-align:left; margin:0px; border-top:solid 1px #ffffff; border-bottom:solid 1px #ffffff;padding:4px 0px 4px 10px; position:relative; top:0px; left:0px;}
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li { font-size:12px; font-weight:bold; }
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li a:link { color:#336699; text-decoration:none;}
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li a:visited { color:#336699; text-decoration:none;}
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li a:hover { color:#000; text-decoration:none; background-color:#fff;}
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li a:active { color:#336699; text-decoration:none;}
+
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li.pager-current { background-color:transparent; color:#000;}
+
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li.pager-next { position:absolute; top:4px; right:48px;}
+#mini-panel-node_comment_and_comment_form .item-list ul.pager li.pager-last { position:absolute; top:4px; right:0px;}
+
+/* comments feed for mini panel node_comment_and_comment_form on campaign pages */
+
+a.comments-feed-url { color:#336699; text-decoration:none;}
+#mini-panel-node_comment_and_comment_form .feed-icon { margin-top:35px;margin-left:5px;}
+
+#mini-panel-node_comment_and_comment_form ul.links.inline {
+    width: 395px;
+}
+
+#mini-panel-node_comment_and_comment_form ul.links li {
+    border:0;
+}
+
+#mini-panel-node_comment_and_comment_form li.flag-abusive_comment.first.last {
+    float:right;
+}
+
+/* DCPHELP-112: Petition Configuration */
+
+
+#activism-campaign-cta-form table.sticky-table td:first-child +td input {
+width:300px;
+}
+
+/* GDocs RJSprint5 5.7 */
+div.rj-suitcase-feature-title h2 a:visited, div.rj-suitcase-feature-title h2 a:link {
+color:#336699;
+}
+
+
+/*** ed's additions to sort out inline styles in AICandle 'More' section **/
+.dd-new-class-1 
+{
+margin-top: -20px;
+height: 288px;
+}
+
+.dd-new-class-2
+{
+font-size: 0.92em;
+}
+
+a.dd-new-class-3
+{
+text-decoration:none;
+color:#336699;
+}
+
+.dp-new-class-1
+{
+margin-top: 0px;
+height: 260px;
+}
+
+.lp-intro 
+{
+height: 280px;
+}
+
+.lp-intro-2 
+{
+height:328px;
+}
+
+.about-us
+{
+font-family: Arial; color: black;
+}
+/**
+* widget send button
+*/
+#activism_center_widget #action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-submit-1, #activism_center_widget form#activism-appeal-activism-cta-form #edit-submit {
+    float: right;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+#activism_center_widget #action-appeal-action-form #activism-appeal-activism-cta-form-1 #edit-activism-signup-mail-list-1-wrapper,  #activism_center_widget form#activism-appeal-activism-cta-form #edit-activism-signup-mail-list-wrapper {
+    display: block;
+    width: 349px;
+    margin-bottom: 10px;
+}
+
+.air-tabs-reports-title {
+  padding: 3px 10px 0px 10px;
+}
+
+#boxes-box-inline-air_region_nav_box div.boxes-box-content h3 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#air-report-jump h2.pane-title {
+  text-align: center;
+} 

@@ -1,0 +1,180 @@
+/* User Points Block */
+.rjp-up-cat {
+	float:left;
+}
+
+.rjp-up-cattitle {
+	font-weight: bold;	
+    line-height:100%;
+    width:133px;
+}
+
+.es .rjp-up-cattitle {
+	min-height: 24px;	
+}
+
+.fr .rjp-up-cattitle {
+    min-height: 25px;	
+}
+
+.rjp-up-disp {
+	min-height: 66px;
+	width:132px;
+	background: url('images/profile_rj_action.gif') no-repeat;
+	padding: 10px 0 0 10px;
+	line-height: 120%;
+}
+
+.rjp-up-void {
+	min-height: 66px;
+	width:133px;
+	background: url('images/profile_rj_voidaction.gif') no-repeat;
+	padding: 10px 0 0 5px;
+	line-height: 100%;
+}
+
+.rjp-up-catpoints {
+	font-weight: bold;
+	font-size: 14px;	
+}
+
+.rjp-up-catnosteps {
+	font-weight: bold;
+}
+
+.rjp-up-total {
+	clear: both;
+	font-weight: bold;
+	font-size: 16px;	
+    border-bottom: 1px solid #d8d8d8;
+}
+
+/* Suggested Activity View */
+.rjp-sa-image,
+.view-rjp-suggested-activity .views-field-field-photo-fid {
+    float: left;
+    margin: 22px 10px 0 0;	
+}
+
+.rjp-sa-date,
+.view-rjp-suggested-activity .views-field-field-date-value {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.rjp-sa-title,
+.view-rjp-suggested-activity .views-field-title {
+    font-size: 16px;solid 
+}
+
+.rjp-sa-teaser,
+.view-rjp-suggested-activity .views-field-teaser {
+    float: left;
+	width: 350px;	
+}
+
+.rjp-sa-term,
+.view-rjp-suggested-activity .views-field-name,
+.view-rjp-suggested-activity .views-field-tid {
+    font-size: 10px;
+    margin-left: 400px; 
+    line-height: 110%;
+}
+
+.rjp-sa-termlabel,
+.view-rjp-suggested-activity .views-field-name label,
+.view-rjp-suggested-activity .views-field-tid label{
+    float: left;
+    margin-right: 5px;
+    color: #d8d8d8;
+    font-weight: bold;
+}
+
+.rjp-sa-link,
+.view-rjp-suggested-activity .views-field-nid {
+    color: #000000;
+    font-size: 16px;
+    position: relative;
+    left: 250px;
+}
+
+.fr .rjp-sa-link {
+    left: 220px;
+}
+
+/* Logged out action count */
+
+.rjp-action-count-pic {
+    float: left;	
+    margin-right: 5px;
+    padding-top: 15px;
+}
+
+.rjp-action-count {
+    padding-top: 15px;
+	font-weight: bold;
+    font-size: 16px;	
+}
+
+/* General profile styles */
+
+#amnesty-up .panel-region-separator {
+    margin: 0;	
+}
+
+#amnesty-up .pane-amnesty-user-profile-amnesty-user-profile-edit-links {
+    position: relative;
+    top: 45px;	
+}
+
+#amnesty-up > #ai-sidebar-main > #ai-sidebar-squeeze > .pane-profile-block > h2 {
+    margin: 5px 0 25px 0;
+}
+
+#amnesty-up .profile-forename {
+    float: left;
+    margin-right: 5px;	
+}
+
+
+#amnesty-up .profile-forename,
+#amnesty-up .profile-surname {
+	font-size: 16px;	
+    font-weight:bold;
+}
+
+#amnesty-up .profile-other-info {
+    margin-top: 15px;
+    margin-left: 120px;
+    font-size: 12px;
+}
+
+#amnesty-up .profile-other-info-header {
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+}
+
+#amnesty-up > #ai-sidebar-main > #ai-sidebar-squeeze > .pane-rjp-suggested-activity-panel-pane-1 > h2,
+#amnesty-up > #ai-sidebar-main > #ai-sidebar-squeeze > .rjp-points-intro > h2 {
+    margin: 15px 0 0 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#amnesty-up > #ai-sidebar-main > #ai-sidebar-squeeze > .pane-rj-activity-panel-pane-2 > h2 {
+    margin: 0 0 0 0;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+}
+
+#amnesty-up .profile-nag a {
+	margin-right: 10px;
+}
+
+.pane-rights-journey-profile-rjp-suggestedactivity h2 {
+    border-bottom: 1px solid #d8d8d8;
+	padding-bottom: 10px;
+}

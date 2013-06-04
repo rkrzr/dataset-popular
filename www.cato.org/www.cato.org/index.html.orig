@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7 ie oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8 ie oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" version="XHTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"> <!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8" />
+<meta property="fb:admins" content="5311211" />
+<meta property="og:url" content="http://www.cato.org:80/" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="158687980817033" />
+<meta name="description" content="Promoting an American public policy based on individual liberty, limited government, free markets and peaceful international relations." />
+<link rel="shortcut icon" href="http://www.cato.org:80/sites/cato.org/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:description" content="Promoting an American public policy based on individual liberty, limited government, free markets and peaceful international relations." />
+<meta property="og:title" content="Cato Institute" />
+<meta name="dcterms.title" content="Cato Institute" />
+<meta property="og:site_name" content="Cato Institute" />
+<meta name="dcterms.language" content="en" />
+<link rel="canonical" href="http://www.cato.org:80/" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="robots" content="noodp" />
+<link rel="shortlink" href="http://www.cato.org:80/" />
+<link rel="publisher" href="https://plus.google.com/+TheCatoInstitute" />
+<meta name="dcterms.format" content="text/html" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.publisher" content="Cato Institute" />
+<meta name="dcterms.identifier" content="http://www.cato.org:80/" />
+  <title>Cato Institute | Individual Liberty, Free Markets, and Peace</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+  <link rel="stylesheet" href="http://www.cato.org:80/sites/cato.org/files/css/css_LYss46ysJxRRPkNn97hs6CWd7YXPB2emRjXSSVfLgCU.css" media="all" />
+<link rel="stylesheet" href="http://www.cato.org:80/sites/cato.org/files/css/css_AwyGVOlmCdNdolC0VZoa8oWLNlPzKPCSbdA2ZESRTl0.css" media="all" />
+<link rel="stylesheet" href="http://www.cato.org:80/sites/cato.org/files/css/css_mwEt8a3T9RerwoE9Wtd3lPUAknRbYY7DFNY6kNlVNAY.css" media="all" />
+<link rel="stylesheet" href="http://www.cato.org:80/sites/all/libraries/fontawesome/css/font-awesome.min.css?mn6blt" media="all" />
+<link rel="stylesheet" href="http://www.cato.org:80/sites/cato.org/files/css/css_4Qlq7prG5mINajXYbRYI0Kot5Aasx6bNVACj72idAK8.css" media="all" />
+<link rel="stylesheet" href="http://www.cato.org:80/sites/cato.org/files/css/css_u3LMoPpPWaDXBo-faJs5XM0MmeExU7WF3E6Jjj3YY3M.css" media="all" />
+  <script src="http://www.cato.org:80/sites/cato.org/files/js/js_pv6kENtqozor5Xslh_88iE0GrUaRP0YEnJQQE3AUSpQ.js"></script>
+<script src="http://www.cato.org:80/sites/cato.org/files/js/js_-gWjd_OL0X0f0D3n6_77BPFZm5Etepn85X0hdejimhE.js"></script>
+<script src="http://www.cato.org:80/sites/cato.org/files/js/js_EIuthisJA4gOvhBsN9bLEuGqP4JH7PzgJS47DFEWC8Q.js"></script>
+<script src="http://www.cato.org:80/sites/cato.org/files/js/js_Rjc7p67a_coDLRQpsGYoZP7Qz54Ud4QP_dh0rNOq-MM.js"></script>
+<script>
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-1677831-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+</script>
+<script src="http://www.cato.org:80/sites/cato.org/files/js/js_KxVnzmwAAl_WgYJi_r-PNIyVsJMU3RJNEHAYYms2riI.js"></script>
+<script src="http://www.cato.org:80/sites/cato.org/files/js/js_k4kfp9fqTKxbp2bKT_186kFR0ttB3I_nq5YJTH2LGVc.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cato","theme_token":"GCy5Lx-jqnohB42WVRRogqeJYziS0Yo4_6CzcmLveGs","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/views\/js\/jquery.ui.dialog.patch.js":1,"sites\/all\/libraries\/scrollTo\/jquery.scrollTo-min.js":1,"sites\/all\/libraries\/smooth-scroll\/jquery.localscroll.min.js":1,"misc\/form.js":1,"sites\/all\/modules\/apachesolr_sort\/apachesolr_sort.js":1,"sites\/all\/modules\/resp_img\/picturefill\/matchmedia.js":1,"sites\/all\/modules\/resp_img\/picturefill\/picturefill.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"sites\/all\/modules\/caption_filter\/js\/caption-filter.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/cato\/_js\/libs\/modernizr-2.0.6.min.js":1,"sites\/all\/themes\/cato\/_js\/webfonts.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.sticky.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.fixed-scroll.js":1,"sites\/all\/themes\/cato\/_js\/libs\/wilto-carousel.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.masonry.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.imagesloaded.min.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.hoverIntent.minified.js":1,"sites\/all\/themes\/cato\/_js\/libs\/jquery.getUrlVar.js":1,"sites\/all\/themes\/cato\/_js\/script.js":1,"sites\/all\/themes\/cato\/_js\/smoothScroll.js":1,"sites\/all\/themes\/cato\/_js\/dialog.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/caption_filter\/caption-filter.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.min.css":1,"sites\/all\/modules\/modified\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custompage\/custompage.css":1,"sites\/all\/modules\/oembed\/oembed.base.css":1,"sites\/all\/modules\/oembed\/oembed.theme.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/cato_institute\/responsivevideo\/responsivevideo.css":1,"sites\/all\/modules\/typogrify\/typogrify.css":1,"sites\/all\/modules\/wysiwyg_linebreaks\/wysiwyg_linebreaks.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/all\/themes\/cato\/_css\/screen.css":1,"sites\/all\/themes\/cato\/_css\/jessica.css":1,"sites\/all\/themes\/cato\/_css\/john.css":1,"sites\/all\/themes\/cato\/_css\/scott.css":1}},"custom_search":{"form_target":"_self","solr":1},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+</script>
+  <!-- Do you want IE to work? -->
+  <!--[if lt IE 9 ]>
+  <script src="/sites/all/themes/cato/_js/libs/ieshiv.js"></script>
+  <!--[if lte IE 8 ]>
+  <script src="/sites/all/themes/cato/_js/libs/respond.js"></script>
+  <script src="/sites/all/themes/cato/_js/clearFloats.js"></script>
+  <![endif]-->
+  <!-- PNG fix for IE6 -->
+  <!--[if lt IE 7 ]>
+  <script src="/_js/libs/dd_belatedpng.js"></script>
+  <script>DD_belatedPNG.fix("img, .png_bg");</script>
+  <![endif]-->
+  <link rel="alternate" title="Cato Daily Podcast RSS" href="http://feeds.cato.org/CatoDailyPodcast" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Event Podcast RSS" href="http://feeds.cato.org/CatoEventPodcasts" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Event Videos (Full) RSS" href="http://feeds.cato.org/CatoEventVideos" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Weekly Video RSS" href="http://feeds.cato.org/CatoWeeklyVideo" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Homepage Headlines RSS" href="http://feeds.cato.org/CatoHomepageHeadlines" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Media Updates RSS" href="http://feeds.cato.org/CatoMediaUpdates" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Recent Op-eds RSS" href="http://feeds.cato.org/CatoRecentOpeds" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Studies" href="http://feeds.cato.org/PublicationsFromTheCatoInstitute" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Upcoming Events RSS" href="http://feeds.cato.org/CatoEvents" type="application/rss+xml" />
+  <link rel="alternate" title="Cato@Liberty RSS" href="http://feeds.cato.org/Cato-at-liberty" type="application/rss+xml" />
+  <link rel="alternate" title="Cato Unbound RSS" href="http://feeds.feedburner.com/cato-unbound" type="application/rss+xml" />
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-frontpage homepage" >
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="header" class="header">
+  <div class="wrapper">
+
+        <a href="/" title="Home" rel="home" id="logo" class="hdr-logo">
+      <img src="http://www.cato.org:80/sites/cato.org/files/cato-logo_0.png" alt="Home"/>
+    </a>
+    
+    <div id="block-system-main-menu-trigger"><span class="sprite-hdr-menu-btn"></span></div>
+    <div id="main-search-trigger"><span class="sprite-hdr-search-btn"></span></div>
+
+      <div class="region region-menu">
+    <div id="block-catomegamenu-catomegamenu" class="block block-catomegamenu main-nav">
+
+      
+  <div class="content">
+    <div class="item-list"><ul class="menu"><li class="expanded first"><a href="/research">Research</a><div class="item-list"><ul class="expanded"><li class="first last"><div id="block-panels-mini-research-megamenu-layout" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-display panel-2col clearfix" id="mini-panel-research_megamenu_layout">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-block pane-menu-block-6" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-6 menu-name-main-menu parent-mlid-8026 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-10413"><a href="/publications/archives/studies">Studies</a></li>
+<li class="leaf menu-mlid-10412"><a href="/projects">Centers and Projects</a></li>
+<li class="leaf menu-mlid-10415"><a href="/research">Research by Topic</a></li>
+<li class="last leaf menu-mlid-10414"><a href="/publications/recent-books">Recent Books</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-publications-research-megamenu" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-publications view-id-publications view-display-id-research_megamenu view-dom-id-4d22f369df3e72a56f093a6d531e9627">
+            <div class="view-header">
+      <p class="section-h3">Latest Study</p>    </div>
+  
+  
+  
+      <div class="view-content">
+          <article class="pub-books">
+      
+      <div class="featured-book">
+  
+    
+      <a href="/publications/policy-analysis/move-defend-case-against-constitutional-amendments-seeking-overturn"><picture alt="" title="">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/pubs/covers/pa724.jpg" width="110" height="143" alt=""  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/pubs/covers/pa724.jpg" width="110" height="143" alt=""  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/pubs/covers/pa724.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-15x/public/pubs/covers/pa724.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-2x/public/pubs/covers/pa724.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="110" height="143" alt=""  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/pubs/covers/pa724.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-15x/public/pubs/covers/pa724.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-2x/public/pubs/covers/pa724.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="110" height="143" alt=""  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/pubs/covers/pa724.jpg" width="110" height="143" alt="" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <p class="sans-h4">
+  
+    
+      <a href="/publications/policy-analysis/move-defend-case-against-constitutional-amendments-seeking-overturn">Move to Defend: The Case against the Constitutional Amendments Seeking to Overturn Citizens United</a>
+      </p>
+  
+
+      <p>
+  
+    
+      <a href="/people/john-samples" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">John Samples</a>
+      </p>
+  
+
+      <div class="text-sans">
+  
+    
+      Three years ago the U.S. Supreme Court decided the case of Citizens United v. Federal Election Commission. It found that Congress lacked...
+      </div>
+  
+    </article>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</li>
+</ul></div></li>
+<li class="expanded"><a href="/events">Events</a><div class="item-list"><ul class="expanded"><li class="first last"><div id="block-panels-mini-events-megamenu-layout" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-display panel-2col clearfix" id="mini-panel-events_megamenu_layout">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-block pane-menu-block-2" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-8027 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-9373"><a href="/events/upcoming">Upcoming</a></li>
+<li class="leaf menu-mlid-9374"><a href="/events/archives">Archives</a></li>
+<li class="leaf menu-mlid-9375"><a href="/multimedia/events">Multimedia</a></li>
+<li class="leaf menu-mlid-9376"><a href="/events/faqs">FAQs</a></li>
+<li class="leaf menu-mlid-9377"><a href="http://www.cato.org/cato-university/">Cato University</a></li>
+<li class="leaf menu-mlid-9378"><a href="/events/directions">Directions</a></li>
+<li class="last leaf menu-mlid-10132"><a href="/live">Cato Live</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-events-events-mega" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-events view-id-events view-display-id-events_mega view-dom-id-40078aa71c635e59caec41f7caac5e9f">
+            <div class="view-header">
+      <p class="section-h3">Featured Event</p>    </div>
+  
+  
+  
+      <div class="view-content">
+          <article class="events-megamenu">
+      
+      <p class="overline">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-17T10:00:00-04:00">May 17</span>
+      </p>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/events/implications-expanding-us-drone-program">The Implications of the Expanding U.S. Drone Program</a>
+      </h4>
+  
+
+      <div>
+  
+    
+      <a href="http://www.cato.org/events/implications-expanding-us-drone-program"><picture alt="The Implications of the Expanding U.S. Drone Program" title="The Implications of the Expanding U.S. Drone Program">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default/public/multimedia/2013/chb-05-17-13.jpg" width="275" height="155" alt="The Implications of the Expanding U.S. Drone Program" title="The Implications of the Expanding U.S. Drone Program"  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default/public/multimedia/2013/chb-05-17-13.jpg" width="275" height="155" alt="The Implications of the Expanding U.S. Drone Program" title="The Implications of the Expanding U.S. Drone Program"  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default/public/multimedia/2013/chb-05-17-13.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default-15x/public/multimedia/2013/chb-05-17-13.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default-2x/public/multimedia/2013/chb-05-17-13.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="275" height="155" alt="The Implications of the Expanding U.S. Drone Program" title="The Implications of the Expanding U.S. Drone Program"  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default/public/multimedia/2013/chb-05-17-13.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default-15x/public/multimedia/2013/chb-05-17-13.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default-2x/public/multimedia/2013/chb-05-17-13.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="275" height="155" alt="The Implications of the Expanding U.S. Drone Program" title="The Implications of the Expanding U.S. Drone Program"  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megaevents__default/public/multimedia/2013/chb-05-17-13.jpg" width="275" height="155" alt="The Implications of the Expanding U.S. Drone Program" title="The Implications of the Expanding U.S. Drone Program" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <p class="text-sans">
+  
+    
+      Featuring <strong>Benjamin H. Friedman</strong>, Research Fellow in Defense and Homeland Security Studies, Cato Institute; <strong>Spencer Ackerman</strong>, Senior Writer, <em>WIRED Magazine</em>; and <strong>Julian Sanchez</strong>, Research Fellow, Cato Institute; moderated by <strong>Laura Odato</strong>, Director of Government Affairs, Cato Institute.
+      </p>
+  
+    </article>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</li>
+</ul></div></li>
+<li class="expanded"><a href="/publications">Publications</a><div class="item-list"><ul class="expanded"><li class="first last"><div id="block-panels-mini-publications-megamenu-layout" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-display panel-2col clearfix" id="mini-panel-publications_megamenu_layout">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-block pane-menu-block-5" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-5 menu-name-main-menu parent-mlid-8028 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-10655"><a href="http://store.cato.org/books">Books</a></li>
+<li class="leaf menu-mlid-9641"><a href="/publications/archives/studies">Studies</a></li>
+<li class="leaf menu-mlid-9642"><a href="/publications/archives/public-filings/legal-briefs">Legal Briefs</a></li>
+<li class="leaf menu-mlid-9644"><a href="/cato-handbook-policymakers"><em>Cato Handbook for Policymakers</em></a></li>
+<li class="leaf menu-mlid-9643"><a href="/cato-journal"><em>Cato Journal</em></a></li>
+<li class="leaf menu-mlid-9651"><a href="/catos-letter"><em>Cato's Letter</em></a></li>
+<li class="leaf menu-mlid-9652"><a href="/catos-letters"><em>Cato's Letters</em></a></li>
+<li class="leaf menu-mlid-9645"><a href="/cato-papers-public-policy"><em>Cato Papers on Public Policy</em></a></li>
+<li class="leaf menu-mlid-9646"><a href="/policy-report"><em>Cato Policy Report</em></a></li>
+<li class="leaf menu-mlid-9649"><a href="/state-legislative-guide"><em>Cato State Legislative Guide</em></a></li>
+<li class="leaf menu-mlid-10654"><a href="/economic-freedom-states-india"><em>Economic Freedom of the States of India</em></a></li>
+<li class="leaf menu-mlid-9650"><a href="/economic-freedom-world"><em>Economic Freedom of the World</em></a></li>
+<li class="leaf menu-mlid-9647"><a href="/regulation"><em>Regulation</em></a></li>
+<li class="last leaf menu-mlid-9648"><a href="/supreme-court-review"><em>Supreme Court Review</em></a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-latest-serial-issues-pubs-mega" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-latest-serial-issues view-id-latest_serial_issues view-display-id-pubs_mega view-dom-id-7708e8904c147867ae6800e4c69f087a">
+            <div class="view-header">
+      <p class="section-h3">Featured Publication</p>    </div>
+  
+  
+  
+      <div class="view-content">
+          <div class="recent-issue first last">
+      
+      <h4 class="sans-h4 clearfix">
+  
+    
+      <a href="/cato-journal/springsummer-2013">Spring/Summer 2013</a>
+      </h4>
+  
+
+      <div class="featured-book">
+  
+    
+      <a href="/cato-journal/springsummer-2013"><picture alt="" title="">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default/public/serials/covers/cj33n2-cover.jpg" width="94" height="134" alt=""  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default/public/serials/covers/cj33n2-cover.jpg" width="94" height="134" alt=""  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default/public/serials/covers/cj33n2-cover.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default-15x/public/serials/covers/cj33n2-cover.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default-2x/public/serials/covers/cj33n2-cover.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="94" height="134" alt=""  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default/public/serials/covers/cj33n2-cover.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default-15x/public/serials/covers/cj33n2-cover.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default-2x/public/serials/covers/cj33n2-cover.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="94" height="134" alt=""  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megapubs__default/public/serials/covers/cj33n2-cover.jpg" width="94" height="134" alt="" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      We are grateful to the Harry and Lynde Bradley Foundation and the Carthage Foundation whose support of the October 2012 Cato Conference “Europe&#8217;s Crisis and the Welfare State: Lessons for the United States” made possible this special issue of the <em>Cato Journal</em>.
+      </div>
+  
+    </div>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</li>
+</ul></div></li>
+<li class="expanded reverse-flyout"><a href="/commentary">Commentary</a><div class="item-list"><ul class="expanded reverse-flyout"><li class="first last"><div id="block-panels-mini-commentary-megamenu-layout" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-display panel-2col clearfix" id="mini-panel-commentary_megamenu_layout">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-multimedia-comm-mega" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-multimedia view-id-multimedia view-display-id-comm_mega view-dom-id-d121f9c7c663c64cff92da78d21abad9">
+            <div class="view-header">
+      <p class="section-h3">Latest Multimedia</p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+            
+      <div>
+  
+    
+      <a href="/multimedia/daily-podcast/fda-rules-tobacco"><picture alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/podcast/base_daily_podcast.jpg" width="210" height="118" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/podcast/base_daily_podcast.jpg" width="210" height="118" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/podcast/base_daily_podcast.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-15x/public/multimedia/podcast/base_daily_podcast.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-2x/public/multimedia/podcast/base_daily_podcast.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="210" height="118" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/podcast/base_daily_podcast.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-15x/public/multimedia/podcast/base_daily_podcast.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-2x/public/multimedia/podcast/base_daily_podcast.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="210" height="118" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/podcast/base_daily_podcast.jpg" width="210" height="118" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/multimedia/daily-podcast/fda-rules-tobacco">The FDA Rules Tobacco</a>
+      </h4>
+  
+
+      <p>
+  
+    
+      <a href="/people/jacob-grier" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Jacob Grier</a>
+      </p>
+  
+
+      <p class="text-sans">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-21T15:39:00-04:00">May 21, 2013</span>
+      </p>
+  
+        
+      <div>
+  
+    
+      <a href="/multimedia/cato-video/alex-nowrasteh-debates-heritage-study-documenting-immigrants"><picture alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg" width="210" height="118" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg" width="210" height="118" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-15x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-2x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="210" height="118" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-15x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default-2x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="210" height="118" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megamulti__default/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg" width="210" height="118" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/multimedia/cato-video/alex-nowrasteh-debates-heritage-study-documenting-immigrants">Alex Nowrasteh debates Heritage Study on Documenting Immigrants</a>
+      </h4>
+  
+
+      <p class="text-sans">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-21T10:44:00-04:00">May 21, 2013</span>
+      </p>
+  
+      </div>
+  
+  
+  
+      <h4 class="section-h3 more-link">
+  <a href="/multimedia">
+    More Multimedia  </a>
+</h4>  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-publications-oped-mega" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-publications view-id-publications view-display-id-oped_mega view-dom-id-8021b68736695aaa32ce3bef92b2b6d7">
+            <div class="view-header">
+      <p class="section-h3">Latest Commentary</p>    </div>
+  
+  
+  
+      <div class="view-content">
+            
+      <h4 class="sans-h4">
+  
+    
+      <a href="/publications/commentary/hot-money-cold-credit">Hot Money, Cold Credit</a>
+      </h4>
+  
+
+      <p>
+  
+    
+      <a href="/people/steve-hanke" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Steve H. Hanke</a>
+      </p>
+  
+
+      <div class="text-sans inline">
+  
+    
+      Central bankers in the U.S. and Europe have misdiagnosed the patient.
+      </div>
+  
+      </div>
+  
+  
+  
+      <h4 class="section-h3 more-link">
+  <a href="/publications/archives/commentary">
+    More Commentary  </a>
+</h4>  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-views-panes pane-blog-blog-mega" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-blog view-id-blog view-display-id-blog_mega view-dom-id-852fc59cdbefc2e6f09ecb28541e3a91">
+            <div class="view-header">
+      <p class="section-h3">Latest Blog Post</p>    </div>
+  
+  
+  
+      <div class="view-content">
+          <div class="blog-entry first last odd">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/blog/senators-levin-mccain-two-peas-all-our-ipods">Senators Levin and McCain: Two Peas All Up in our iPods</a>
+      </h4>
+  
+
+      <p>
+  
+    
+      <a href="/people/daniel-ikenson" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Daniel J. Ikenson</a>
+      </p>
+  
+
+      <div class="text-sans inline">
+  
+    
+      <p>Should Apple be blamed for optimizing according to the legal incentives created by the likes of Senators Levin and McCain?</p>
+
+      </div>
+  
+    </div>
+      </div>
+  
+  
+  
+      <h4 class="section-h3 more-link">
+  <a href="/blog">
+    More Blog Posts  </a>
+</h4>  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</li>
+</ul></div></li>
+<li class="expanded reverse-flyout"><a href="http://www.cato.org/store/">Store</a><div class="item-list"><ul class="expanded reverse-flyout"><li class="first last"><div id="block-panels-mini-store-megamenu-layout" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-display panel-2col clearfix" id="mini-panel-store_megamenu_layout">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-block pane-menu-block-3" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-478 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-9613"><a href="http://store.cato.org/books">Books</a></li>
+<li class="leaf menu-mlid-9616"><a href="http://store.cato.org/subscribe">Subscriptions</a></li>
+<li class="leaf menu-mlid-9619"><a href="http://store.cato.org/catalog/merchandise">Merchandise</a></li>
+<li class="leaf menu-mlid-9620"><a href="http://ocs.landsend.com/cd/frontdoor?store_name=Cato&amp;store_type=3" target="_blank">Lands&#039; End Apparel</a></li>
+<li class="last leaf menu-mlid-9625"><a href="http://store.cato.org/cart">My Cart</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-books-book-mega" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-books view-id-books view-display-id-book_mega view-dom-id-1297ff92d16e035b32969d6477a9c8f7">
+            <div class="view-header">
+      <p class="section-h3">Featured Book</p>    </div>
+  
+  
+  
+      <div class="view-content">
+          <article class="pub-books first last odd">
+      
+      <div class="featured-book">
+  
+    
+      <a href="http://store.cato.org/books/poverty-progress-realities-myths-about-global-poverty-hardback"><picture alt="" title="">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/books/povprog_fc.jpg" width="110" height="165" alt=""  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/books/povprog_fc.jpg" width="110" height="165" alt=""  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/books/povprog_fc.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-15x/public/books/povprog_fc.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-2x/public/books/povprog_fc.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="110" height="165" alt=""  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/books/povprog_fc.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-15x/public/books/povprog_fc.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default-2x/public/books/povprog_fc.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="110" height="165" alt=""  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__megabooks__default/public/books/povprog_fc.jpg" width="110" height="165" alt="" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="http://store.cato.org/books/poverty-progress-realities-myths-about-global-poverty-hardback">Poverty and Progress: Realities and Myths About Global Poverty</a>
+      </h4>
+  
+
+      <p>
+  
+    
+      <a href="/people/deepak-lal" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Deepak Lal</a>
+      </p>
+  
+
+      <div class="text-sans">
+  
+    
+      Renowned development economist Deepak Lal draws on  50 years of experience around the globe to describe developing-country realities and rectify misguided notions about economic progress.
+      </div>
+  
+    </article>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</li>
+</ul></div></li>
+<li class="expanded reverse-flyout last"><a href="/support">Support</a><div class="item-list"><ul class="expanded reverse-flyout"><li class="first last"><div id="block-panels-mini-support-megamenu-layout" class="block block-panels-mini">
+
+      
+  <div class="content">
+    <div class="panel-display panel-2col clearfix" id="mini-panel-support_megamenu_layout">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-block pane-menu-block-4" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-8030 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-9639"><a href="/support/gift-planning">Other Ways to Give</a></li>
+<li class="leaf menu-mlid-9638"><a href="/support/matchinggifts">Double Your Donation</a></li>
+<li class="leaf menu-mlid-9698"><a href="/support/levels-of-benefits">Benefits of Cato Sponsorship</a></li>
+<li class="leaf menu-mlid-9637"><a href="https://secure.cato.org/support/renew.html">Renew</a></li>
+<li class="last leaf menu-mlid-9636"><a href="https://secure.cato.org/support/donate.html">Donate Now</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-custom pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <p class="section-h3">More Bang for Your Buck</p>
+
+<div class="featured-book"><a href="https://secure.cato.org/support/donate.html" title="Donate Now"><img src="/sites/cato.org/files/images/of-special-note/eagle_sm.jpg" /></a></div>
+
+<p class="text-sans">The Cato Institute tops a new measure of think tank performance in the United States, according to <a href="http://blogs.cgdev.org/globaldevelopment/2013/01/an-index-of-think-tank-profile.php" title="CGD Report">a recent report</a>. Cato bested all other U.S. think tanks in the main category of “Aggregate Profile per Dollar Spent.” “I’m grateful to the Center for Global Development for showing that Cato gives <a href="https://secure.cato.org/support/donate.html" title="Donate Now">its sponsors</a> something I wish government gave more of to taxpayers: bang for the buck,” said Cato CEO John Allison.</p>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</li>
+</ul></div></li>
+</ul></div>  </div>
+</div>
+<nav id="block-menu-menu-submenu" class="block block-menu nav-sub">
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/about">About Cato</a></li>
+<li class="leaf"><a href="/blog">Blog</a></li>
+<li class="leaf"><a href="/people/policy-scholars">Our Experts</a></li>
+<li class="leaf"><a href="/for-media">For Media</a></li>
+<li class="leaf"><a href="http://www.facebook.com/CatoInstitute" rel="me" target="_blank"><span class="sprite-facebook"></span>Facebook</a></li>
+<li class="last leaf"><a href="http://twitter.com/catoinstitute" rel="me" target="_blank"><span class="sprite-twitter"></span>Twitter</a></li>
+</ul>  </div>
+</nav><div id="block-search-form" class="block block-search hdr-search">
+
+      
+  <div class="content">
+    <form class="search-form" action="/?" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-searchfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search this site </label>
+ <input class="custom-search-default-value custom-search-box form-text form-search" placeholder="Search" type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<fieldset class="custom_search-popup form-wrapper" id="edit-popup"><div class="fieldset-wrapper"></div></fieldset>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-m9WAqjtcVkzp5nGLzmt3hA70gvywGIZJE7s1lDzr9z4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+<input class="default-text" type="hidden" name="default_text" value="" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    
+  </div>
+</header> <!-- /#header -->
+
+<div class="wrapper">
+  <div id="content" role="main">
+
+    
+    <section id="page-area">
+      <a id="main-content"></a>
+                              <div class="tabs"></div>                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-front_page view-dom-id-15a3604f211678f38cb8450971ca6739">
+        
+  
+  
+      <div class="view-content">
+          <article class="story-package-large">
+      
+      <h2 class="page-h1">
+  
+    
+      <a href="http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards">Reversing Course on Common Core</a>
+      </h2>
+  
+
+      <div class="article-meta">
+  
+    
+      <div class="share-tools"><a href="">Share</a>
+    <ul class="share-tools-list">
+        <li class="twitter first"><a href="http://twitter.com/intent/tweet?url=http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards&amp;text=Reversing Course on Common Core&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank"><i class="icon-twitter icon-large"></i>Tweet</a></li>
+        <li class="facebook"><a href="http://www.facebook.com/sharer.php?u=http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards" target="_blank"><i class="icon-facebook-sign icon-large"></i>Like</a></li>
+        <li class="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards" target="_blank"><i class="icon-linkedin icon-large"></i>Share</a></li>
+        <li class="google last"><a href="https://plus.google.com/share?url=http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards" target="_blank"><i class="icon-google-plus icon-large"></i>Plus</a></li>
+    </ul>
+</div>
+      </div>
+  
+
+      <div class="photo-full">
+  
+    
+      <a href="http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards"><picture alt="" title="">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default/public/homepage-images/201305_education_mini.jpg" width="320" height="180" alt=""  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default/public/homepage-images/201305_education_mini.jpg" width="320" height="180" alt=""  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="320" height="180" alt=""  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="320" height="180" alt=""  />
+<!-- <source media="(min-width: 400px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth400/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth400-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth400-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-minwidth400" typeof="foaf:Image"  width="400" height="225" alt=""  /> -->
+<source media="(min-width: 400px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth400/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth400-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth400-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-minwidth400" typeof="foaf:Image"  width="400" height="225" alt=""  />
+<!-- <source media="(min-width: 800px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth800/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth800-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth800-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-minwidth800" typeof="foaf:Image"  width="506" height="285" alt=""  /> -->
+<source media="(min-width: 800px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth800/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth800-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth800-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-minwidth800" typeof="foaf:Image"  width="506" height="285" alt=""  />
+<!-- <source media="(min-width: 1000px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth1000/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth1000-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth1000-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-minwidth1000" typeof="foaf:Image"  width="621" height="350" alt=""  /> -->
+<source media="(min-width: 1000px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth1000/public/homepage-images/201305_education_mini.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth1000-15x/public/homepage-images/201305_education_mini.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__minwidth1000-2x/public/homepage-images/201305_education_mini.jpg 2x"  class="resp-img-picture resp-img-picture-minwidth1000" typeof="foaf:Image"  width="621" height="350" alt=""  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items__default/public/homepage-images/201305_education_mini.jpg" width="320" height="180" alt="" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <div class="text">
+  
+    
+      <p>Three years ago, states sprinted to adopt national curriculum standards – the Common Core – in hopes of getting a chunk of $4.35 billion in federal “stimulus.” Forty-five states ultimately adopted, but over the last few months a firestorm has spread as the standards have hit districts and previously unaware citizens have denounced a federal takeover of their schools. Common Core, which once seemed like a done deal, now seems like anything but.</p>
+<ul>
+<li>“<a href="http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards">Behind the Curtain: Assessing the Case for National Curriculum Standards</a>,” by Neal McCluskey</li>
+<li>“<a href="http://www.cato.org/publications/policy-analysis/behind-curtain-assessing-case-national-curriculum-standards">Common Core Needs More Debate</a>,” by Neal McCluskey</li>
+<li>“<a href="http://www.cato.org/publications/testimony/common-core-threat-state-districts-students">Common Core a Threat to the State, Districts, and Students</a>,” by Neal McCluskey</li>
+<li>“<a href="http://www.cato.org/blog/only-little-people-oppose-common-core">Only the Little People Oppose Common Core</a>,” by Neal McCluskey</li>
+</ul>
+
+      </div>
+  
+    </article>
+      <article class="story-package-large">
+      
+      <h2 class="page-h1">
+  
+    
+      <a href="http://www.cato.org/cato-journal/springsummer-2013">Europe&#8217;s Crisis and the Welfare State: Lessons for America</a>
+      </h2>
+  
+
+      <div class="article-meta">
+  
+    
+      <div class="share-tools"><a href="">Share</a>
+    <ul class="share-tools-list">
+        <li class="twitter first"><a href="http://twitter.com/intent/tweet?url=http://www.cato.org/cato-journal/springsummer-2013&amp;text=Europe&#039;s Crisis and the Welfare State: Lessons for America&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank"><i class="icon-twitter icon-large"></i>Tweet</a></li>
+        <li class="facebook"><a href="http://www.facebook.com/sharer.php?u=http://www.cato.org/cato-journal/springsummer-2013" target="_blank"><i class="icon-facebook-sign icon-large"></i>Like</a></li>
+        <li class="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.cato.org/cato-journal/springsummer-2013" target="_blank"><i class="icon-linkedin icon-large"></i>Share</a></li>
+        <li class="google last"><a href="https://plus.google.com/share?url=http://www.cato.org/cato-journal/springsummer-2013" target="_blank"><i class="icon-google-plus icon-large"></i>Plus</a></li>
+    </ul>
+</div>
+      </div>
+  
+
+      <div class="text">
+  
+    
+      <p>The heavy debt burdens of Greece and other European welfare states are the result of profligate entitlement spending and a lack of fiscal discipline. The United States is facing its own debt problem, driven by the rising costs of Social Security, Medicare, and Medicaid. The so-called social contract between present and future generations cannot be sustained — political promises will be broken. This <a href="http://www.cato.org/cato-journal/springsummer-2013">special issue of the <em>Cato Journal</em></a> examines the influence of the welfare state on Europe’s economic crisis, the reforms necessary to end that crisis, and the lessons America can learn.</p>
+<ul>
+<li><a href="http://www.cato.org/cato-journal/springsummer-2013">Spring/Summer 2013 Issue of <em>Cato Journal</em></a></li>
+</ul>
+
+      </div>
+  
+    </article>
+      <article class="story-package-large">
+      
+      <h2 class="page-h1">
+  
+    
+      <a href="http://www.cato.org/blog/heritages-flawed-immigration-analysis">Scoring Immigration Reform Correctly</a>
+      </h2>
+  
+
+      <div class="article-meta">
+  
+    
+      <div class="share-tools"><a href="">Share</a>
+    <ul class="share-tools-list">
+        <li class="twitter first"><a href="http://twitter.com/intent/tweet?url=http://www.cato.org/blog/heritages-flawed-immigration-analysis&amp;text=Scoring Immigration Reform Correctly&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank"><i class="icon-twitter icon-large"></i>Tweet</a></li>
+        <li class="facebook"><a href="http://www.facebook.com/sharer.php?u=http://www.cato.org/blog/heritages-flawed-immigration-analysis" target="_blank"><i class="icon-facebook-sign icon-large"></i>Like</a></li>
+        <li class="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.cato.org/blog/heritages-flawed-immigration-analysis" target="_blank"><i class="icon-linkedin icon-large"></i>Share</a></li>
+        <li class="google last"><a href="https://plus.google.com/share?url=http://www.cato.org/blog/heritages-flawed-immigration-analysis" target="_blank"><i class="icon-google-plus icon-large"></i>Plus</a></li>
+    </ul>
+</div>
+      </div>
+  
+
+      <div class="photo-thumb">
+  
+    
+      <a href="http://www.cato.org/blog/heritages-flawed-immigration-analysis"><picture alt="" title="">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default/public/right-homepage-images/201001states2.jpg" width="187" height="243" alt=""  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default/public/right-homepage-images/201001states2.jpg" width="187" height="243" alt=""  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default/public/right-homepage-images/201001states2.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default-15x/public/right-homepage-images/201001states2.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default-2x/public/right-homepage-images/201001states2.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="187" height="243" alt=""  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default/public/right-homepage-images/201001states2.jpg 1x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default-15x/public/right-homepage-images/201001states2.jpg 1.5x, http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default-2x/public/right-homepage-images/201001states2.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="187" height="243" alt=""  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org:80/sites/cato.org/files/styles/resp__img__homepage-items-right__default/public/right-homepage-images/201001states2.jpg" width="187" height="243" alt="" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <div class="text">
+  
+    
+      <p>The Senate has turned its attention to the bipartisan “Gang of Eight” immigration reform bill. Recent criticism of the plan has focused on the potential costs to American taxpayers.&nbsp; But Cato scholar <a href="http://www.cato.org/people/alex-nowrasteh">Alex Nowrasteh</a> argues that any credible analysis must employ “dynamic fiscal scoring,” which more accurately measures the total impact of legislation on the economy.&nbsp; “Using dynamic scoring to predict the effects of legislation is as relevant for immigration reform as it is for tax cuts,” <a href="http://www.cato.org/blog/scoring-immigration-reform-correctly">says Nowrasteh</a>. “Any analysis that doesn&#8217;t must be judged as lacking.”</p>
+<ul>
+<li>“<a href="http://www.cato.org/blog/heritages-flawed-immigration-analysis">Heritage’s Flawed Immigration Analysis</a>,” by Alex Nowrasteh</li>
+<li>“<a href="http://www.cato.org/publications/policy-analysis/how-make-guest-worker-visas-work">How to Make Guest Worker Visas Work</a>,” by Alex Nowrasteh</li>
+<li>“<a href="http://www.cato.org/publications/economic-development-bulletin/poor-immigrants-use-public-benefits-lower-rate-poor">Poor Immigrants Use Public Benefits at a Lower Rate than Poor Native-Born Citizens</a>,” by Leighton Ku and Brian Bruen</li>
+<li><a href="http://www.cato.org/research/immigration">Cato Research on Immigration</a></li>
+</ul>
+
+      </div>
+  
+    </article>
+      <article class="story-package-large">
+      
+      <h2 class="page-h1">
+  
+    
+      <a href="http://www.cato.org/blog/libertarian-moment-0">Is This the Libertarian Moment?</a>
+      </h2>
+  
+
+      <div class="article-meta">
+  
+    
+      <div class="share-tools"><a href="">Share</a>
+    <ul class="share-tools-list">
+        <li class="twitter first"><a href="http://twitter.com/intent/tweet?url=http://www.cato.org/blog/libertarian-moment-0&amp;text=Is This the Libertarian Moment?&amp;via=CatoInstitute&amp;related=Libertarianism" target="_blank"><i class="icon-twitter icon-large"></i>Tweet</a></li>
+        <li class="facebook"><a href="http://www.facebook.com/sharer.php?u=http://www.cato.org/blog/libertarian-moment-0" target="_blank"><i class="icon-facebook-sign icon-large"></i>Like</a></li>
+        <li class="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.cato.org/blog/libertarian-moment-0" target="_blank"><i class="icon-linkedin icon-large"></i>Share</a></li>
+        <li class="google last"><a href="https://plus.google.com/share?url=http://www.cato.org/blog/libertarian-moment-0" target="_blank"><i class="icon-google-plus icon-large"></i>Plus</a></li>
+    </ul>
+</div>
+      </div>
+  
+
+      <div class="text">
+  
+    
+      <div class="oembed oembed-video">
+<a href="http://www.youtube.com/watch?v=o7LMZxGzpiI&amp;feature=youtu.be" class="oembed-title">The I.R.S. Abusing Americans Is Nothing New</a><br />
+<div class="oembed-content responsivevideo-wrapper" style="padding-top: 56.25%">
+<iframe src="http://www.youtube.com/embed/o7LMZxGzpiI?feature=oembed&amp;wmode=transparent" frameborder="0" allowfullscreen wmode="transparent"></iframe></div>
+</div>
+<p>President Obama recently warned Ohio State graduates that “you’ve grown up hearing voices that incessantly warn of government as nothing more than some separate, sinister entity that’s at the root of all our problems … that tyranny is always lurking just around the corner. You should reject these voices.” Not so fast.  With the recent IRS scandal and the Justice Department peeking at AP phone records, Cato VP <a href="http://www.cato.org/blog/libertarian-moment-0">David Boaz</a> points out that these abuses of federal power should fuel a healthy skepticism of government, and perhaps even <a href="http://www.cato.org/blog/libertarian-moment-0">a broader shift towards libertarianism</a>.</p>
+<ul>
+<li>“<a href="http://www.cato.org/blog/libertarian-moment-0">Is This the Libertarian Moment?</a>,” by David Boaz</li>
+<li>“<a href="http://www.cato.org/blog/scandals-keep-eroding-our-faith-benevolent-government">Scandals Keep Eroding Our Faith in Benevolent Government</a>,” by David Boaz</li>
+<li>“<a href="http://www.cato.org/publications/commentary/nothing-joke-about-partisan-irs">Nothing to Joke about in a Partisan IRS</a>,” by Gene Healy</li>
+<li>“<a href="http://www.cato.org/blog/conspiracy-not-required">Conspiracy Not Required</a>,” by Trevor Burrus</li>
+</ul>
+
+      </div>
+  
+    </article>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-718004835f9fc0968106965c7200c089" class="block block-views ui-block-2">
+
+      <h3>Recent Commentary</h3>
+    
+  <div class="content">
+    <div class="view view-front-page-commentary view-id-front_page_commentary view-display-id-front_block view-dom-id-8e345e460d048e846021ce923a2b9333">
+        
+  
+  
+      <div class="view-content">
+          <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/blog/apple-defends-itself-against-tax-hungry-senators">Apple Defends Itself against Tax-Hungry Senators</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/chris-edwards" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Chris Edwards</a>
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      <p>Given the U.S. tax disadvantage, it’s not surprising that Apple and every other U.S. multinational have strong incentives to move their real investments and paper profits abroad.</p>
+
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/publications/commentary/impeachment-not-four-letter-word">‘Impeachment’ Is Not a Four-Letter Word</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/gene-healy" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Gene Healy</a> in DC Examiner
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      Given the massive abuses of power and public trust that modern presidents have committed, we&#8217;ve had far too few presidential impeachments.
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/publications/commentary/why-irs-cannot-be-reformed">Why the IRS Cannot Be Reformed</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/richard-rahn" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Richard W. Rahn</a> in Washington Times
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      <p>Imprecise tax laws leave room for agency abuse and corruption.</p>
+
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/blog/whos-afraid-school-profits">Who’s Afraid of School Profits?</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/jason-bedrick" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Jason Bedrick</a>
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      <p>Those who denounce “profits” in education don’t understand the role of profits in a market.</p>
+
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/blog/catos-deepbills-project-advances-government-transparency">Cato&#8217;s “Deepbills” Project Advances Government Transparency</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/jim-harper" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Jim Harper</a>
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      <p>Data can tell a more complete story of what is happening in Congress.</p>
+
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/publications/commentary/denigrating-medicine-obamacare-turns-physicians-assembly-line-workers">Denigrating Medicine: ObamaCare Turns Physicians into Assembly Line Workers</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/jeffrey-singer" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Jeffrey A. Singer</a> in Trib Total Media, in Inc.
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      Medicine, in just one generation, is transforming from a glorious profession into just another rote occupation.
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/blog/apparent-corruption-irs">The Apparent Corruption of the IRS</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/john-samples" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">John Samples</a>
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      <p>The IRS scandal stinks to heaven: there is an unmistakable appearance of corruption in all this.</p>
+
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/publications/commentary/government-spying-reporters-more-often-we-think">Is the Government Spying on Reporters More often than We Think?</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/julian-sanchez" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Julian Sanchez</a> in Mother Jones
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      There&#8217;s evidence that the Justice Department&#8217;s seizure of Associated Press phone records is far from unprecedented.
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/publications/commentary/common-core-needs-more-debate">Common Core Needs More Debate</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/neal-mccluskey" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Neal McCluskey</a> in Detroit News
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      As Common Core continues to be implemented the chorus of opposition is likely to grow.
+      </div>
+  
+    </article>
+      <article class="side-article">
+      
+      <h4 class="sans-h4">
+  
+    
+      <a href="/publications/commentary/hospital-lobby-fears-they-might-not-get-medicaid-subsidies">Hospital Lobby Fears They Might Not Get Medicaid Subsidies</a>
+      </h4>
+  
+
+      <div class="byline">
+  
+    
+      <a href="/people/michael-cannon" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Michael F. Cannon</a> in AzCapitolTimes.com
+      </div>
+  
+
+      <div class="text-sans">
+  
+    
+      Obamacare supporters are dangling an unlimited stream of federal money at the end of their line, yet only 25 states have taken the bait.
+      </div>
+  
+    </article>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-multimedia-home-list" class="block block-views section video-section clearfix">
+
+  <h3 class="section-heading">Multimedia
+    <ul class="section-nav">
+      <li><a href="/multimedia">More</a></li>
+      <li><a href="/multimedia/cato-video">Videos</a></li>
+      <li><a href="/multimedia/daily-podcast">Podcasts</a></li>
+    </ul>
+  </h3>
+
+  <div class="content">
+    <div class="view view-multimedia view-id-multimedia view-display-id-home_list view-dom-id-2cbe706dcb85bdb169fe8b1eb75a2661">
+        
+  
+      <div class="attachment attachment-before">
+      <div class="view view-multimedia view-id-multimedia view-display-id-home_player">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-multimedia view-id-multimedia view-display-id-home_def_p view-dom-id-b63d24402d1f250eac306e5da1bada96">
+        
+  
+  
+      <div class="view-content">
+            
+      <div class="embed-container">
+  
+    
+      <iframe src="http://www.youtube.com/embed/Q7CT0e_yUIc?rel=0&amp;autohide=1&amp;modestbranding=1&amp;showinfo=1&amp;wmode=transparent" width="640" height="360" frameborder="0" wmode="transparent"></iframe>
+      </div>
+  
+
+      <h2 class="page-h2">
+  
+    
+      <a href="/multimedia/cato-video/ohio-liberty-coalition-versus-irs">Ohio Liberty Coalition versus the I.R.S.</a>
+      </h2>
+  
+
+      <p class="text-sans">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-22T00:52:00-04:00">May 22, 2013</span>
+      </p>
+  
+      </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+      <div class="view-empty">
+      <div class="view view-multimedia view-id-multimedia view-display-id-home_def_l view-dom-id-97ff00df3b2aa3d9dac12457d0b880e8">
+        
+  
+  
+      <div class="view-content">
+        <ul class="media-playlist">
+    <li>
+      
+      <div class="media-thumb">
+  
+    
+      <a href="/multimedia/daily-podcast/fda-rules-tobacco"><picture alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/podcast/base_daily_podcast.jpg" width="200" height="113" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/podcast/base_daily_podcast.jpg" width="200" height="113" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/podcast/base_daily_podcast.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-15x/public/multimedia/podcast/base_daily_podcast.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-2x/public/multimedia/podcast/base_daily_podcast.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="200" height="113" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/podcast/base_daily_podcast.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-15x/public/multimedia/podcast/base_daily_podcast.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-2x/public/multimedia/podcast/base_daily_podcast.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="200" height="113" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco"  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/podcast/base_daily_podcast.jpg" width="200" height="113" alt="The FDA Rules Tobacco" title="The FDA Rules Tobacco" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/multimedia/daily-podcast/fda-rules-tobacco">The FDA Rules Tobacco</a>
+      </h4>
+  
+
+      <p class="byline">
+  
+    
+      <a href="/people/jacob-grier" typeof="foaf:Person" property="foaf:name" rel="foaf:publications" html="1">Jacob Grier</a>
+      </p>
+  
+
+      <p class="text-sans">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-21T15:39:00-04:00">May 21, 2013</span>
+      </p>
+  
+    </li>
+      <li>
+      
+      <div class="media-thumb">
+  
+    
+      <a href="/multimedia/cato-video/alex-nowrasteh-debates-heritage-study-documenting-immigrants"><picture alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg" width="200" height="113" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg" width="200" height="113" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-15x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-2x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="200" height="113" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-15x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-2x/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="200" height="113" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants"  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/vlcsnap-2013-05-21-10h47m22s49.jpg" width="200" height="113" alt="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" title="Alex Nowrasteh debates Heritage Study on Documenting Immigrants" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/multimedia/cato-video/alex-nowrasteh-debates-heritage-study-documenting-immigrants">Alex Nowrasteh debates Heritage Study on Documenting Immigrants</a>
+      </h4>
+  
+
+      <p class="text-sans">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-21T10:44:00-04:00">May 21, 2013</span>
+      </p>
+  
+    </li>
+      <li>
+      
+      <div class="media-thumb">
+  
+    
+      <a href="/multimedia/media-highlights-tv/mark-calabria-discusses-jamie-dimon-fbns-money-w-melissa-francis"><picture alt="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis" title="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis">
+<!-- <source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/calabria-fbn-5-20-13.jpg" width="200" height="113" alt="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis" title="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis"  /> -->
+<source  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/calabria-fbn-5-20-13.jpg" width="200" height="113" alt="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis" title="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis"  />
+<!-- <source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/calabria-fbn-5-20-13.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-15x/public/multimedia/2013/calabria-fbn-5-20-13.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-2x/public/multimedia/2013/calabria-fbn-5-20-13.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="200" height="113" alt="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis" title="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis"  /> -->
+<source media="(min-width: 0px)" srcset="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/calabria-fbn-5-20-13.jpg 1x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-15x/public/multimedia/2013/calabria-fbn-5-20-13.jpg 1.5x, http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides-2x/public/multimedia/2013/calabria-fbn-5-20-13.jpg 2x"  class="resp-img-picture resp-img-picture-Default" typeof="foaf:Image"  width="200" height="113" alt="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis" title="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis"  />
+<noscript><img  class="resp-img-picture" typeof="foaf:Image" src="http://www.cato.org/sites/cato.org/files/styles/resp__img__multimedia-sides/public/multimedia/2013/calabria-fbn-5-20-13.jpg" width="200" height="113" alt="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis" title="Mark A. Calabria discusses Jamie Dimon on FBN&amp;#039;s Money w/ Melissa Francis" /></noscript>
+</picture></a>
+      </div>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/multimedia/media-highlights-tv/mark-calabria-discusses-jamie-dimon-fbns-money-w-melissa-francis">Mark A. Calabria discusses Jamie Dimon on FBN&#8217;s <em>Money w/ Melissa Francis</em></a>
+      </h4>
+  
+
+      <p class="text-sans">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-20T17:00:00-04:00">May 20, 2013</span>
+      </p>
+  
+    </li>
+    </ul>
+    </div>
+  
+  
+  
+      <h4 class="section-h3 more-link">
+  <a href="/multimedia">
+    More Multimedia  </a>
+</h4>  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+                      <aside class="region region-sidebar-first">
+    <div id="block-views-research-areas-block-1" class="block block-views sidenav quiet">
+
+      <h3>Research Areas</h3>
+    
+  <div class="content">
+    <div class="view view-research-areas view-id-research_areas view-display-id-block_1 view-dom-id-51e877a5f17a9efebccbee6ebdaaf942">
+        
+  
+  
+      <div class="view-content">
+        <ul>
+    <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/education-child-policy">Education and Child Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/energy-environment">Energy and Environment</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/finance-banking-monetary-policy">Finance, Banking &amp; Monetary Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/foreign-policy-national-security">Foreign Policy and National Security</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/government-politics">Government and Politics</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/health-care">Health Care</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/international-economics-development">International Economics and Development</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/law-civil-liberties">Law and Civil Liberties</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/political-philosophy">Political Philosophy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/regulatory-studies">Regulatory Studies</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/social-security">Social Security</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/tax-budget-policy">Tax and Budget Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/telecom-internet-information-policy">Telecom, Internet &amp; Information Policy</a>
+  
+    </li>
+      <li>
+      
+  
+    
+      <a href="http://www.cato.org/research/trade-immigration">Trade and Immigration</a>
+  
+    </li>
+    </ul>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </aside>
+                            <section class="region region-postscript">
+    <div id="block-views-events-home-main" class="block block-views section clearfix four-across">
+
+  <h3 class="section-heading">Events
+    <ul class="section-nav">
+      <li><a href="/events/archives">Archives</a></li>
+      <li><a href="/events/upcoming">Upcoming</a></li>
+    </ul>
+  </h3>
+
+  <div class="content">
+    <div class="view view-events view-id-events view-display-id-home_main view-dom-id-b4a74e9b9020597a8aa8b99d980598df">
+        
+  
+  
+      <div class="view-content">
+          <article class="col-0">
+      
+  
+    
+      <div class="event-tease">
+  
+
+      <p class="section-h3">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-22T16:30:00-04:00">May 22</span>
+      </p>
+  
+
+      <h3 class="page-h3">
+  
+    
+      <a href="/events/death-corporate-reputation-how-integrity-has-been-destroyed-wall-street"><em>The Death of Corporate Reputation: How Integrity Has Been Destroyed on Wall Street</em></a>
+      </h3>
+  
+
+      <p class="tease-txt">
+  
+    
+      Featuring the author <strong>Jonathan Macey</strong>, Yale Law School and Yale School of Management; with comments by <strong>Damon Silvers</strong>, AFL-CIO; and <strong>Harvey Pitt</strong>, Kalorama Partners, Former Chairman, U.S. Securities and Exchange Commission; moderated by <strong>Mark Calabria</strong>, Cato Institute.
+      </p>
+  
+
+  
+    
+      <a class="event-meta" href="http://www.cato.org/events/death-corporate-reputation-how-integrity-has-been-destroyed-wall-street"><span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-22T16:30:00-04:00">4:30pm</span></span> <span class="place">Hayek Auditorium</span></a>
+  
+
+  
+    
+      </div>
+  
+    </article>
+      <article class="col-1">
+      
+  
+    
+      <div class="event-tease">
+  
+
+      <p class="section-h3">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-23T12:00:00-04:00">May 23</span>
+      </p>
+  
+
+      <h3 class="page-h3">
+  
+    
+      <a href="/events/end-near-its-going-be-awesome-how-going-broke-will-leave-america-richer-happier-more-secure"><em>The End Is Near and It’s Going to Be Awesome: How Going Broke Will Leave America Richer, Happier, and More Secure</em></a>
+      </h3>
+  
+
+      <p class="tease-txt">
+  
+    
+      Featuring the author <strong>Kevin D. Williamson</strong>, <em>National Review</em>; with comments by <strong>Nick Gillespie</strong>, Editor in Chief, Reason.com and Reason TV; and <strong>Michael Tanner</strong>, Cato Institute.
+      </p>
+  
+
+  
+    
+      <a class="event-meta" href="http://www.cato.org/events/end-near-its-going-be-awesome-how-going-broke-will-leave-america-richer-happier-more-secure"><span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-23T12:00:00-04:00">12:00pm</span></span> <span class="place">Hayek Auditorium</span></a>
+  
+
+  
+    
+      </div>
+  
+    </article>
+      <article class="col-2">
+      
+  
+    
+      <div class="event-tease">
+  
+
+      <p class="section-h3">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-30T12:00:00-04:00">May 30</span>
+      </p>
+  
+
+      <h3 class="page-h3">
+  
+    
+      <a href="/events/2013-farm-bill-reducing-economic-environmental-costs">The 2013 Farm Bill:  Reducing the Economic and Environmental Costs</a>
+      </h3>
+  
+
+      <p class="tease-txt">
+  
+    
+      Featuring <strong>Chris Edwards</strong>, Editor, www.DownsizingGovernment.org, Cato Institute; <strong>Scott Faber</strong>, Vice President of Government Affairs, Environmental Working Group; <strong>Andrew Moylan</strong>, Outreach Director and Senior Fellow, R Street Institute; and <strong>Josh Sewell</strong>, Senior Policy Analyst, Taxpayers for Common Sense.
+      </p>
+  
+
+  
+    
+      <a class="event-meta" href="http://www.cato.org/events/2013-farm-bill-reducing-economic-environmental-costs"><span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-05-30T12:00:00-04:00">12:00pm</span></span> <span class="place">B-340 Rayburn House Office Building</span></a>
+  
+
+  
+    
+      </div>
+  
+    </article>
+      </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-events view-id-events view-display-id-home_footer">
+            <div class="view-header">
+      <h4 class="section-h3">More Events</h4>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <ul class="more">
+    <li class="clearfix">
+      
+      <p class="overline">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-06-04T12:00:00-04:00">June 4</span>
+      </p>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/events/heller-ruling-five-years">The <em>Heller</em> Ruling, Five Years On</a>
+      </h4>
+  
+
+      <div>
+  
+    
+      <a class="event-meta" href="http://www.cato.org/events/heller-ruling-five-years"><span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-06-04T12:00:00-04:00">12:00pm</span></span> <span class="place">Hayek Auditorium</span></a>
+      </div>
+  
+    </li>
+      <li class="clearfix">
+      
+      <p class="overline">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-06-04T14:00:00-04:00">June 4</span>
+      </p>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/events/great-biotechnology-debate-food-farming-balance">The Great Biotechnology Debate: Food and Farming in the Balance</a>
+      </h4>
+  
+
+      <div>
+  
+    
+      <a class="event-meta" href="http://www.cato.org/events/great-biotechnology-debate-food-farming-balance"><span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-06-04T14:00:00-04:00">2:00pm</span></span> <span class="place">Hayek Auditorium</span></a>
+      </div>
+  
+    </li>
+      <li class="clearfix">
+      
+      <p class="overline">
+  
+    
+      <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-06-05T12:00:00-04:00">June 5</span>
+      </p>
+  
+
+      <h4 class="sans-h4">
+  
+    
+      <a href="/events/doing-bad-doing-good-why-humanitarian-action-fails"><em>Doing Bad by Doing Good: Why Humanitarian Action Fails</em></a>
+      </h4>
+  
+
+      <div>
+  
+    
+      <a class="event-meta" href="http://www.cato.org/events/doing-bad-doing-good-why-humanitarian-action-fails"><span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2013-06-05T12:00:00-04:00">12:00pm</span></span> <span class="place">Hayek Auditorium</span></a>
+      </div>
+  
+    </li>
+    </ul>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-block-35" class="block block-block section downpage-section special">
+
+      <h3>Of Special Note</h3>
+    
+  <div class="content">
+    <div class="ui-block-1">
+    <h3 class="page-h2"><a href="http://www.cato.org/nookcontest">Win a Free Nook</a></h3>
+
+    <a href="http://www.cato.org/nookcontest"><img src="/sites/cato.org/files/images/nookx144.jpg" alt="Win a Free Nook" style="float: left; margin-right: 10px; margin-bottom: 50px" /></a>
+
+    <p class="text-med">The Cato Institute is giving away free Barnes & Noble Nook e-readers this spring, with a new winner chosen once a month in April, May, and June. All you need to do to get your shot at winning a Nook is provide your email address.</p>
+
+    <div class="special-quarter" style="clear: left">
+        <article class="ui-block-1">
+            <div class="tease">
+                <h4 class="section-h3">Special! 10 Copies for $10</h4>
+                <h3 class="page-h3"><a href="http://store.cato.org/books/declaration-independence-constitution-united-states-pocket-constitution-10-pack">Cato Pocket Constitution</a></h3>
+                <p class="tease-txt">To encourage people everywhere to better understand and appreciate the principles of government that are set forth in America’s founding documents, the Cato Institute published this pocket-size edition.</p>
+            </div>
+        </article>
+
+        <article class="ui-block-2">
+            <div class="event-tease">
+                <h4 class="section-h3">Best Seller!</h4>
+                <h3 class="page-h3"><em><a href="http://www.amazon.com/Financial-Crisis-Free-Market-Cure/dp/0071806776/?tag=catoinstitute-20" target="_blank">The Financial Crisis and the Free Market Cure: Why Pure Capitalism is the World Economy&#8217;s Only Hope</a></em></h3>
+                <p class="tease-txt">Did Wall Street cause the mess we are in? Should Washington place stronger regulations on the entire financial industry? Can we lower unemployment rates by controlling the free market? According to Cato President and CEO <a href="/people/john-allison">John A. Allison</a>, the answer is NO.</p>
+            </div>
+        </article>
+    </div>
+</div>
+
+<div class="ui-block-2">
+    <a href="http://www.cato.org/cato-university/2013"><img src="/sites/cato.org/files/images/of-special-note/201303_catou1.jpg" alt="Cato University 2013" class="img-full"/></a>
+    <h3 class="page-h1"><a href="http://www.cato.org/cato-university/2013">Cato University 2013 * July 28 - August 2</a></h3>
+    <p class="text">Cato University is Cato’s premier educational event of the year. This annual program brings together outstanding faculty and participants from around the country and globe – for sharing experiences and perspectives in a one-of-a-kind, brain-energizing environment.  Above, Senator Rand Paul – who will be giving a presentation at this year’s program – speaks at last year’s Cato University. This year’s program will be held at the Cato Institute, in the heart of Washington, D.C – the perfect setting for examining the roots of our commitment to liberty and limited government and for exploring the ideas and values on which the American republic was founded.<br><a href="http://www.cato.org/cato-university/2013">Details & Registration</a></p>
+</div>
+<!-- cache comment test -->  </div>
+</div>
+  </section>
+          </section>
+    <!-- /#content -->
+
+  </div>
+</div> <!-- /#main -->
+
+<footer class="main-footer">
+  <div class="wrapper">
+      <aside class="region region-footer-fourth col-1">
+    <div id="block-block-27" class="block block-block ftr-signup">
+
+      <h3>Sign Up</h3>
+    
+  <div class="content">
+    <p class="ftr-txt">Receive periodic updates on Cato research and publications.</p>
+<!-- Begin MailChimp Signup Form -->
+
+
+<div id="mc_embed_signup">
+<form action="http://cato.us1.list-manage.com/subscribe/post?u=98c97f42691d5de57bc944822&amp;id=395878584c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"class="ftr-signup-form form-basic" target="_blank" novalidate>
+
+
+<div class="mc-field-group">
+
+	<input type="email" value="" name="EMAIL" placeholder="Email" class="text-input ftr-text-input" id="mce-EMAIL">
+</div>
+
+<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>
+
+
+<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="submit-input ftr-submit-input"></div>
+
+<div class="mc-field-group input-group">
+
+ <input type="hidden" value="67108864" name="group[214][67108864]" id="mce-group[214]-214-0">
+
+<input type="hidden" value="16777216" name="group[214][16777216]" id="mce-group[214]-214-7">
+
+
+
+
+
+</div>
+
+
+
+<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>	
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+<p class="ftr-txt"><a href="/ecommunity" target="_blank">See our full list of email newsletters</a></p>  </div>
+</div>
+  </aside>
+      <aside class="region region-footer-third col-2">
+    <div id="block-menu-menu-also-from-cato" class="block block-menu ftr-list">
+
+      <h3>Also from Cato</h3>
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="http://www.downsizinggovernment.org" rel="me" target="_blank">DownsizingGovernment.org</a></li>
+<li class="leaf"><a href="http://www.libertarianism.org" rel="me" target="_blank">Libertarianism.org</a></li>
+<li class="leaf"><a href="http://www.cato-unbound.org" rel="me" target="_blank">Cato Unbound</a></li>
+<li class="leaf"><a href="http://www.policemisconduct.net" rel="me" target="_blank">PoliceMisconduct.net</a></li>
+<li class="leaf"><a href="http://overlawyered.com/" rel="me" target="_blank">Overlawyered</a></li>
+<li class="leaf"><a href="http://www.elcato.org" rel="me" target="_blank">ElCato.org</a></li>
+<li class="last leaf"><a href="http://www.catooncampus.org/" rel="me" target="_blank">Cato on Campus</a></li>
+</ul>  </div>
+</div>
+  </aside>
+      <aside class="region region-footer-second col-3">
+    <div id="block-menu-menu-social-media" class="block block-menu ftr-list">
+
+      <h3>Social Media</h3>
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="http://www.facebook.com/CatoInstitute" rel="me" class="link-facebook" target="_blank"><span class="sprite sprite-facebook"></span> Facebook</a></li>
+<li class="leaf"><a href="http://twitter.com/catoinstitute" rel="me" class="link-twitter" target="_blank"><span class="sprite sprite-twitter"></span> Twitter</a></li>
+<li class="leaf"><a href="https://plus.google.com/+TheCatoInstitute" rel="me publisher" class="link-googleplus" target="_blank"><span class="sprite sprite-google"></span> Google+</a></li>
+<li class="leaf"><a href="http://www.youtube.com/catoinstitutevideo" rel="me" class="link-youtube" target="_blank"><span class="sprite sprite-youtube"></span> YouTube</a></li>
+<li class="leaf"><a href="http://www.cato.org/mobile" class="link-mobile"><span class="sprite sprite-mobile"></span> Mobile</a></li>
+<li class="last leaf"><a href="http://www.cato.org/ecommunity" class="link-rss"><span class="sprite sprite-rss"></span> RSS</a></li>
+</ul>  </div>
+</div>
+  </aside>
+      <aside class="region region-footer-first col-4">
+    <div id="block-block-1" class="block block-block ftr-info">
+
+      
+  <div class="content">
+    <a href="http://www.cato.org/" class="ftr-logo"><img src="http://www.cato.org/sites/cato.org/files/cato-logo_0.png" alt="image" /></a> 
+<p class="ftr-address">Cato Institute<br />
+1000 Massachusetts Ave, NW<br />
+Washington, DC 20001-5403</p>
+<ul class="ftr-phone">
+ <li>Phone (202) 842 0200</li>
+ <li>Fax (202) 842 3490</li>
+</ul>
+  </div>
+</div>
+  </aside>
+  </div>
+</footer> <!-- /#footer -->
+</body>
+</html>
+
+<!-- Page cached by Boost @ 2013-05-22 05:32:30, expires @ 2013-05-22 06:32:30, lifetime 1 hour -->

@@ -1,0 +1,124 @@
+/* refactor to remove #newsheadlines dependency */
+
+/* flags */
+span.flag {
+	border-right: 1px solid #102f48;
+	color: #373737;
+	font-size: .8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 7px;
+	padding: 0 5px 0 1px;
+}
+
+/* adjusting font size for large and 
+ * standard top story layouts */
+#newsheadlines .large h2 span.flag {
+    line-height: 1.2em;
+}
+  
+#newsheadlines .standard h2 span.flag {
+    font-size: .75em;
+}
+
+/* additional rules are used for resetting 
+ * font sizes of lrg and med classes in the
+ * context of large and standard top story
+ * layouts
+ */
+span.flag.med,
+#newsheadlines .large h2 span.flag.med,
+#newsheadlines .standard h2 span.flag.med {
+	font-size: 14px;
+	padding: 2px 9px;
+}
+span.flag.lrg,
+#newsheadlines .large h2 span.flag.lrg,
+#newsheadlines .standard h2 span.flag.lrg {
+	font-size: 16px;
+	padding: 4px 9px;
+}
+span.flag.breaking {
+	background-color: #e21a21;
+	border: 1px solid #e21a21;
+	color: #fff;
+}
+span.flag.new,
+span.flag.updated,
+span.flag.Exclusive,
+span.flag.exclusive {
+	border-color: #e21a21;
+	color: #e21a21;
+}
+span.flag.live,
+span.flag.liveblog,
+span.flag.livechat,
+span.flag.cominguplive,
+span.flag.Cominguplive {
+	background-color: #f7cc31;
+	border: 1px solid #f7cc31;
+	color: #000;
+}
+span.flag.breaking,
+span.flag.live,
+span.flag.liveblog,
+span.flag.livechat,
+span.flag.cominguplive,
+span.flag.Cominguplive {
+	padding: 1px 5px;
+}
+
+#newsheadlines h2 span.flag {
+	border-right-width: 3px;
+	line-height: 100%;
+	margin-top: 4px;
+	margin-right: 10px;
+	padding-right: 10px;
+	float: left;
+	display: inline;
+}
+
+#newsheadlines .secondary h2 span.flag,
+#newsheadlines .tertiary h2 span.flag {
+	border-right-width: 2px;
+	font-size: 15px;
+	margin-right: 7px;
+	padding-right: 7px;
+    line-height: 100%;
+}
+#newsheadlines .tertiary h2 span.flag {
+	margin-top: 3px;
+}
+
+#newsheadlines h2 span.flag.breaking,
+#newsheadlines h2 span.flag.live,
+#newsheadlines h2 span.flag.liveblog,
+#newsheadlines h2 span.flag.livechat,
+#newsheadlines h2 span.flag.cominguplive,
+#newsheadlines h2 span.flag.Cominguplive {
+	border: none;
+	font-size: 15px;
+	line-height: 100%;
+	padding: 4px 12px;
+}
+#newsheadlines .secondary h2 span.flag.breaking,
+#newsheadlines .secondary h2 span.flag.live,
+#newsheadlines .secondary h2 span.flag.liveblog,
+#newsheadlines .secondary h2 span.flag.livechat,
+#newsheadlines .secondary h2 span.flag.cominguplive,
+#newsheadlines .secondary h2 span.flag.Cominguplive {
+	font-size: 12px;
+	margin-top: 3px;
+	margin-right: 10px;
+	padding: 2px 10px;
+}
+#newsheadlines .tertiary h2 span.flag.breaking,
+#newsheadlines .tertiary h2 span.flag.live,
+#newsheadlines .tertiary h2 span.flag.liveblog,
+#newsheadlines .tertiary h2 span.flag.livechat,
+#newsheadlines .tertiary h2 span.flag.cominguplive,
+#newsheadlines .tertiary h2 span.flag.Cominguplive {
+	font-size: 11px;
+	margin-top: 1px;
+	padding: 2px 10px;
+}

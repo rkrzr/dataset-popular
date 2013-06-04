@@ -1,0 +1,775 @@
+@CHARSET "UTF-8";
+
+/******************************/
+/* Featured Suitcase Specific */
+/******************************/
+
+.rj-suitcase-feature {
+	position: absolute;
+	z-index: 6000;
+	top: 215px;
+	left: 90px;
+	width: 335px;
+	border-bottom: 1px solid #666666;
+	min-height: 335px;
+	background-color: #FFFF00;
+}
+
+.fr .rj-suitcase-feature {
+    top: 233px;
+}
+
+	
+.es .rj-suitcase-feature {
+    top: 250px;
+}
+
+.rj-suitcase-feature-button {
+	position: absolute;
+	z-index: 6000;
+	top: 5px;
+	left: 310px;
+	cursor: pointer;	
+}
+
+.rj-suitcase-feature-theme {
+	margin: 0 0 0 5px;	
+}
+.view-rj-suitcases .rj-suitcase-feature-links a,
+.view-rj-suitcases .rj-suitcase-feature-links a:active,
+.view-rj-suitcases .rj-suitcase-feature-links a:visited,
+.view-rj-suitcases .rj-suitcase-feature-theme a,
+.view-rj-suitcases .rj-suitcase-feature-theme a:active,
+.view-rj-suitcases .rj-suitcase-feature-theme a:visited {
+	color: #369;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.view-rj-suitcases .rj-suitcase-feature-links a:hover,
+.view-rj-suitcases .rj-suitcase-feature-theme a:hover {
+	color: #000000;
+	background-color: #FFFF00;	
+}
+
+.rj-suitcase-feature-title h2 {
+	text-transform: none;
+	font-size: 18px;
+	font-family: Arial,Helvetica,sans-serif;	
+	margin: 5px 0 5px 0;
+}
+
+.rj-suitcase-feature-title {
+	margin: 0 0 0 5px;
+	min-height: 45px;
+	line-height: 130%;
+}
+
+.view-rj-suitcases .rj-suitcase-feature-title a {
+	text-decoration: none;
+}
+
+.rj-suitcase-feature-links-evidence {
+	float: left;
+	padding: 0 5px 0 5px;
+}
+
+.rj-suitcase-feature-links-story {
+	float: left;
+	padding-right: 5px;
+}
+
+.rj-suitcase-feature-label {
+	margin-left: 5px;
+	font-size: 18px;
+	color: #FFFF00;
+	position: absolute;
+	top: 220px;
+	font-weight: bold;
+}
+
+/********************************/
+/* Generic Suitcase List Styles */
+/********************************/
+
+.rj-suitcase-list {
+	float: left;
+	margin: 0 5px 0 5px;
+	width: 224px;
+}
+
+.view-rj-suitcases .rj-suitcase-list a,
+.view-rj-suitcases .rj-suitcase-list a:active,
+.view-rj-suitcases .rj-suitcase-list a:visited {
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.view-rj-suitcases .rj-suitcase-list a:hover {
+	color: #000000;
+	background-color: #ffffff;	
+}
+
+.rj-suitcase-list-title {
+	font-size: 14px;	
+}
+
+.es .rj-suitcase-list-title {
+	min-height: 32px;	
+}
+
+.rj-suitcase-group-break {
+	clear: both;
+	padding: 5px 5px 5px 5px;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.rj-suitcase-list-image {
+	text-align: left;
+	padding-top: 10px;
+}
+
+.rj-suitcase-list-links-evidence {
+	float: left;
+	padding: 0 5px 0 0;
+	border-right: 1px solid #d2d2d2;
+}
+
+.rj-suitcase-list-links-story {
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: 1px solid #d2d2d2;
+	margin-right: 5px;
+}
+
+
+.rj-suitcase-list-tags {
+	font-size: 10px;	
+}
+
+.rj-suitcase-list-tags .rj-suitcase-list-tags-title {
+	float: left;
+	color: #666666;	
+	padding-right: 5px;
+}
+
+.rj-suitcase-list-tags .tag-links {
+	background-color: #ffffff;	
+	border: none;
+	margin: 0;
+	padding: 0;
+	clear: none;
+}
+
+/********************************/
+/* Suitcase Landing List Styles */
+/********************************/
+
+.page-rightsjourney-suitcases .rj-suitcase-thematic {
+	border: 1px solid #d2d2d2;
+}
+
+
+.page-rightsjourney-suitcases .rj-suitcase-list { 
+	padding: 10px 5px 5px 5px;	
+	width: 223px;
+	margin: 0;
+	border-top: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	height: 250px;
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-thematic-oneliner {
+	min-height: 45px;	
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-thematic,
+.page-rightsjourney-suitcases .rj-suitcase-thematic .rj-suitcase-list-tags,
+.page-rightsjourney-suitcases .rj-suitcase-thematic .rj-suitcase-list-tags .rj-suitcase-list-tags-title,
+.page-rightsjourney-suitcases .rj-suitcase-thematic .rj-suitcase-list-tags .tag-links {
+	background-color: #e1e1e1;
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-thematic .rj-suitcase-list-tags {
+	background-color: #e1e1e1;
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-list .rj-suitcase-list-title {
+	min-height: 49px;
+}
+
+
+.page-rightsjourney-suitcases .rj-suitcase-thematic .rj-suitcase-list-title {
+	min-height: 0px;
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-list-links-main {
+	padding-top: 15px;	
+}	
+
+.page-rightsjourney-suitcases .rj-suitcase-group-link {
+	text-align: right;
+	padding: 5px 0 5px 0;
+	margin-right: 5px;
+	clear: both;	
+	border-bottom: 2px solid #d2d2d2;
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-group-link a,
+.page-rightsjourney-suitcases .rj-suitcase-group-link a:active,
+.page-rightsjourney-suitcases .rj-suitcase-group-link a:visited {
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-group-link a:hover {
+	color: #000000;
+	background-color: #ffffff;	
+}
+
+.page-rightsjourney-suitcases .rj-suitcase-thematic a:hover {
+	background-color: #e1e1e1;	
+}
+
+.rj-suitcase-thematic-intro {
+	float: left;
+    margin-right: 5px;
+}
+
+/********************************/
+/* Suitcase Latest List Styles */
+/********************************/
+.rj-suitcase-latest {
+	float: left;
+	margin: 0 6px 0 0;
+	width: 180px;
+}
+
+.view-rj-suitcases .rj-suitcase-lcbt a,
+.view-rj-suitcases .rj-suitcase-lcbt a:active,
+.view-rj-suitcases .rj-suitcase-lcbt a:visited,
+.view-rj-suitcases .rj-suitcase-latest a,
+.view-rj-suitcases .rj-suitcase-latest a:active,
+.view-rj-suitcases .rj-suitcase-latest a:visited {
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.view-rj-suitcases .rj-suitcase-latest a:hover {
+	color: #000000;
+	background-color: #ffffff;	
+}
+
+.view-rj-suitcases .rj-suitcase-lcbt a:hover {
+	color: #000000;
+	background-color: #e1e1e1;	
+}
+.rj-suitcase-latest-title {
+	font-size: 14px;	
+	min-height: 35px;
+}
+
+.rj-suitcase-latest-author {
+	font-size: 12px;	
+}
+
+.rj-suitcase-latest-image {
+	text-align: left;
+	padding-top: 10px;
+}
+
+.rj-suitcase-latest-tags {
+	font-size: 10px;	
+}
+
+.rj-suitcase-latest-tags .rj-suitcase-latest-tags-title {
+	float: left;
+	color: #666666;	
+	padding-right: 5px;
+}
+
+.rj-suitcase-latest-tags .tag-links {
+	background-color: #ffffff;	
+	border: none;
+	margin: 0;
+	padding: 0;
+	clear: none;
+}
+/**************/
+/* Map Styles */
+/**************/
+
+.gmap-gmap {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #666666;
+}
+
+.gmap-popup {
+	width: 300px;	
+	height: 120px;
+/*	background-color: #666666;  Temporary hack MB */
+	padding-top:4px;
+	width:195px;
+}
+
+.view-rj-home-map .views-field-city,
+.view-rj-home-map .views-field-country,
+.view-rj-home-map .views-field-teaser {
+	float:left;
+/*	display: block;   */
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+/*	margin:1px 3px 0 7px;    */
+        margin:0;
+        padding:0;
+        width: auto;
+}
+
+.view-rj-home-map .views-field-city{
+	color: white;
+}
+#opacity_window_contents .gmap-popup > div.views-field-city{
+        width: auto;
+        padding:0px;
+}
+
+
+.view-rj-home-map .views-field-country {
+	color: #FFFF00;
+}
+
+#opacity_window_contents .gmap-popup > div.views-field-country{
+        width: auto;
+        padding:0px;
+}
+
+#opacity_window_contents .gmap-popup > div.views-field-teaser > div.field-content > p{
+    padding:0px;
+    
+}
+.view-rj-home-map .views-field-teaser{
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.view-rj-home-map .views-field-title {
+	margin: 0;
+        padding:0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	clear: both;
+}
+
+
+.view-rj-home-map .views-field-title a,
+.view-rj-home-map .views-field-title a:active,
+.view-rj-home-map .views-field-title a:visited {
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.view-rj-home-map .views-field-title a:hover {
+	color: #000000;
+	background-color: #ffffff;	
+}
+
+#opacity_window_contents .gmap-popup > div.views-field-title {
+        width: auto;
+        padding:0px;
+        margin:0px;
+}
+#opacity_window_contents .gmap-popup > div.views-field-title > span.field-content a:hover {
+	color: black;
+	background-color: yellow;
+}
+#opacity_window_contents .gmap-popup > div.views-field-teaser {
+    padding:0px;
+    margin:0px;
+
+}
+
+#opacity_window_contents .gmap-popup > div.views-field-teaser > div.field-content {
+    padding:0 0 8px 0;
+    margin:0px;
+
+}
+#opacity_window_contents .gmap-popup > div.views-field-phpcode {
+    padding:0px;
+    margin:0px;
+}
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-theme {
+    padding:0px;
+    margin:0px;
+}
+
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-theme a,
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-theme a:visited,
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-theme a:active {
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-theme a:hover {
+        background-color: yellow;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-mdg {
+    padding:0px;
+    margin:0px;
+}
+
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-mdg a,
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-mdg a:visited,
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-mdg a:active {
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+#opacity_window_contents .gmap-popup > div.views-field-phpcode > span.field-content > p.field-mdg a:hover {
+        background-color: yellow;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+#opacity_window_contents .gmap-popup {
+    padding:0px;
+    margin:0px;
+}
+#opacity_window_contents .gmap-popup > div.rightsj-journey-calendar {
+    padding:0px;
+    margin:0px;
+}
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.title, 
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.title a {
+    margin:0px;
+    padding:0px;
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: arial,helvetica,sans-serif;
+}
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.title a:hover {
+	color:#000;
+}	
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.date {
+    margin:0px;
+    padding:0px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: arial,helvetica,sans-serif;
+}
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.location {
+    margin:0px;
+    padding:0px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: arial,helvetica,sans-serif;
+}
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.link {
+    margin:0px;
+    padding:0px;
+}
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.link a,
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.link a:active,
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.link a:visited {
+    color: yellow;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: arial,helvetica,sans-serif;
+    text-decoration: none;
+}
+#opacity_window_contents .gmap-popup > div.rights-journey-calendar > div.link a:hover {
+    color: black;
+    background-color: yellow;
+}
+/**************************/
+/* Latest Activity Footer */
+/**************************/
+
+.view-rj-activity .views-row {
+	float: left;
+	width: 219px;
+	margin: 0 6px 0 0;
+	padding: 5px 0 5px 5px;	
+}
+
+.view-rj-activity .views-field-phpcode {
+	float: left;
+	margin-right: 5px;
+}
+
+.view-rj-activity .views-field-name a,
+.view-rj-activity .views-field-name a:active,
+.view-rj-activity .views-field-name a:visited,
+.view-rj-activity .views-field-title a,
+.view-rj-activity .views-field-title a:active,
+.view-rj-activity .views-field-title a:visited {
+	color: #336699;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.view-rj-activity .views-field-name a:hover,
+.view-rj-activity .views-field-title a:hover {
+	color: #000000;
+	background-color: #ffffff;	
+}
+
+.view-rj-activity .views-field-phpcode-1 {
+    font-size: 16px;
+    font-weight: bold;	
+    min-height: 70px;
+}
+
+.view-rj-activity .views-field-value a,
+.view-rj-activity .views-field-value a:active,
+.view-rj-activity .views-field-value a:visited,
+.view-rj-activity .views-field-phpcode-1 a,
+.view-rj-activity .views-field-phpcode-1 a:active,
+.view-rj-activity .views-field-phpcode-1 a:visited {
+    color: #336699;
+    text-decoration: none;
+}
+
+.view-rj-activity .views-field-value a:hover,
+.view-rj-activity .views-field-phpcode-1 a:hover {
+    color: #000000;
+    background-color: #ffffff;  
+}
+
+/************/
+/* RJ Stats */
+/************/
+
+.rjstats-graph {
+	float: left;
+	width: 185px;
+	background-color: #e1e1e1;
+	
+}
+
+.rj-stats-title {
+    margin: 0 0 5px 0;
+}
+
+.view-content .rjstats-graph a,
+.view-content .rjstats-graph a:active,
+.view-content .rjstats-graph a:visited {
+    color: #336699;
+    font-weight: bold;
+    font-size: 12px;    
+    text-decoration: none;
+}
+
+.view-content .rjstats-graph a:hover {
+    color: #000000;
+    font-size: 12px;    
+    background-color: #e1e1e1;  
+}
+
+.rjstats-graph-line {
+	width: 100px;
+        height:10px;
+	float: left;
+    margin: 0 5px 5px 0;
+}
+
+#rjstats-graph-line-maternal-mortality {
+    background-color: #7e55fb;
+}
+
+#rjstats-graph-line-slums {
+    background-color: #e44fa0;
+}
+
+#rjstats-graph-line-making-rights-law {
+    background-color: #55d5d6;
+}
+
+#rjstats-graph-line-discrimination-and-exclusion {
+    background-color: #fd6456;
+}
+
+#rjstats-graph-line-corporate-accountability {
+	background-color: #5b81fc;	
+}
+
+.rjstats-graph-line-value {
+    height: 10px;
+	background-color: #ffff01;	
+}
+
+.rjstats-graph-txt {
+    margin: 0 0 8px 0;
+    font-size: 9px;
+    font-family: verdana, arial;
+}
+
+.rjstats-graph-subtotal p {
+    padding-bottom: 3px;
+}
+
+.rjstats-graph-subtotal h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.view-display-id-panel_pane_7 .rj-suitcase-group-title {
+	display: none;
+}
+
+.rj-suitcase-lcbt {
+	float: left;
+	width: 185px;
+	background-color: #e1e1e1;
+}
+
+.rj-suitcase-lcbt .rj-suitcase-latest-image {
+	float: left;
+}
+
+.rj-suitcase-lcbt-title {
+	padding: 18px 0 0 100px;
+}
+
+/*** TOOLTIP STYLING ***/
+.rjstats-tooltip {
+	display: none;
+}
+
+.rjstats-tooltip h3 {
+	margin: 0;
+}
+
+.page-rightsjourney #tooltip {
+	text-align: left;	
+	font-size: 12px;
+	width: 200px;
+	color: white;
+	opacity: 0.5;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+#tooltip h3 {
+	color: white;
+}
+
+.rjstats-tooltip-pointer {
+	float: left;
+	background: transparent url('../jquery-tooltip/tooltip_triangle.png') no-repeat scroll left center;
+	position: absolute;
+	height: 100%;
+	width: 10px;
+}
+
+#tooltip .rjstats-tooltip-sub {
+	background-color: #000000;
+	margin-left: 10px;	
+}
+
+.view-footer {
+    margin-top: 14px;
+}
+#cursorMessageDiv > div > div.node-teaaser {
+    margin:0px;
+    padding:0px;
+}
+
+#cursorMessageDiv > div > div.node-teaaser > p {
+    margin:0px;
+    padding:0px;
+}
+
+#cursorMessageDiv > div > div.node-teaaser > p > span.fieldthemetooltip {
+    margin:0px;
+    padding:0px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#cursorMessageDiv > div > div.node-teaaser > p.fieldmdgtooltip {
+    margin:0px;
+    padding:0px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#edit-submit-rj-home-map {
+}
+
+.bef-checkboxes {
+    width: 900px;
+}
+
+.bef-checkboxes .form-item {
+    float:left;
+    padding-right: 20px;
+    padding-left: 22px;
+}
+
+.rjaqua {
+    background:url(../../../../../impact.amnesty.org/files/aimarkers/rj-aqua.png) no-repeat;
+    height: 32px;
+}
+.rjpink {
+    background:url(../../../../../impact.amnesty.org/files/aimarkers/rj-pink.png) no-repeat;
+    height: 32px;
+}
+.rjblue {
+    background:url(../../../../../impact.amnesty.org/files/aimarkers/rj-blue.png) no-repeat;
+    height: 32px;
+}
+.rjred {
+    background:url(../../../../../impact.amnesty.org/files/aimarkers/rj-red.png) no-repeat;
+    height: 32px;
+}
+.rjpurple {
+    background:url(../../../../../impact.amnesty.org/files/aimarkers/rj-purple.png) no-repeat;
+    height: 32px;
+}
+.krumo-root {
+    text-align:left;
+}
+div.views-exposed-widget label[for='edit-tidp'] {
+    float: left;
+    padding-top:10px;
+    padding-right:10px;
+}
+
+.page-rightsjourney div.views-exposed-widget label[for='edit-tid'] {
+    float: left;
+    padding-top:10px;
+    padding-right:10px;
+}
+
+div.form-checkboxes.bef-select-as-checkboxes .form-item {
+	padding-top: 6px;
+}
+
+div.form-checkboxes.bef-select-as-checkboxes {
+	margin:0;
+}
+
+.page-rightsjourney .views-exposed-form .views-exposed-widget {
+    padding:0px;
+    margin-left:50px;
+}

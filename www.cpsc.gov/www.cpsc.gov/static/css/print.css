@@ -1,0 +1,79 @@
+body
+{
+	margin: 0;
+	padding-bottom: 0;
+	font: 76%/1.4 Georgia, serif;
+}
+
+a 
+{
+	color: #006ea0;
+}
+
+h1, h2, h3, h4 
+{
+	font-family: Georgia, serif;
+}
+
+h1 {font-weight: normal; font-size: 1.7em; line-height: 2em; padding: 0; margin: 0; }
+h2 {font-weight: normal; font-style: italic; font-size: 1.5em; padding: 0; margin: 0.2em 0em;}
+h3 {font-weight: bold; font-size: 1em; padding: 0; margin: 0.4em 0em;}
+
+p {margin: 0 0 1em 0; padding: 0; }
+
+hr 
+{
+	margin: 0.5em 0;
+	height: 1px;
+	padding: 0;
+	background:#d7d7d7;
+	color: #d7d7d7;
+	border:0;
+}
+
+label 
+{
+	width: 40%;
+	float: left;
+}
+
+input, textbox 
+{
+	margin: 0 0 1em 0;
+}
+
+fieldset 
+{
+	margin: 2em 0;
+	padding: 1em;
+}
+
+.hidden {display: none;}
+
+.error 
+{
+    color: Red;
+}
+
+/************************/
+/* AREAS                */
+/************************/
+#HeaderArea
+{
+	display: none;
+}
+#MainMenuArea
+{
+	display: none;
+}
+#FooterArea
+{
+	display: none;
+}
+
+.DoNotPrint
+{
+	display: none;
+}
+
+

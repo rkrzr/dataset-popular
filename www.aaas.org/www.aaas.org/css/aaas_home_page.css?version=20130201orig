@@ -1,0 +1,262 @@
+#sectional_table {
+	height: 8px;
+	background: url(http://www.aaas.org/images/homepage/frame_page_top_752x7.gif) no-repeat left bottom;
+}
+div#main_content_table {
+margin-bottom: 1em;
+}
+div#main_content_inner_block {
+	padding-top: 0;
+	padding-bottom: 1.25em;
+}
+div#main_content {
+	margin: 0 0 1px 0;
+	width: 568px;
+}
+div#navigation_column {
+	width: 174px;
+	margin-left: 0;
+	position: absolute;
+	top: 136px;
+	left: 10px;
+}
+#navigation_column_head {
+	border-right: 1px solid #757575;
+}
+div#navigation_column #search_block,
+div#navigation_column #quick_link_menu_block,
+div#navigation_column #supreme_links,
+div#navigation_column #btm_horiz_menu {
+	border-left: 1px solid #757575;
+	background: #3483c5;
+}
+div#navigation_column #supreme_links {
+	width: 170px;
+	padding: 1px 0 1px 3px;
+	margin-bottom: 1em;
+}
+div#navigation_column #supreme_links ul {
+	width: 154px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div#navigation_column #supreme_links li {
+	margin: 7px 0;
+}
+div#navigation_column #supreme_links li,
+div#navigation_column #supreme_links li a {
+	display: block;
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+}
+div#navigation_column #supreme_links li .description {
+	color: #ECECEC;
+	font-size: 9px;
+	font-style: italic;
+}
+
+
+div#search_block {
+	margin: 0;
+	padding: 7px 9px 7px 10px;
+}
+div#quick_link_menu_block {
+	margin: 0;
+	padding: 0 9px 1em 10px;
+}
+#tease_lists_block {
+	width: 421px;
+	margin-left: 8px;
+	margin-right: 17px;
+}
+.tease_list_top {
+	/* probably a heading with margin, so override default large-ness */
+	padding: 4px 0 7px 8px;
+	background: url(http://www.aaas.org/images/frame_newssmall_top.gif) no-repeat left bottom;
+}
+#featured_events_content_block .tease_list_top {
+	height: 5px;
+	padding-bottom: 0;
+	background: url(http://www.aaas.org/images/homepage/frame_top_166x5.gif) no-repeat left bottom;
+}
+.tease_list,
+.tease_lists_group {
+	border: 1px solid #757575;
+	border-width: 0 1px 0 1px;
+}
+.tease {
+	margin: 0 8px;
+	padding: 5px 0;
+	/* fix height for 1-tease boxes. For IE6 & then others. */
+	_height: 66px;
+	min-height: 66px;
+}
+#tease_lists_block .tease .headline,
+#tease_lists_block .tease .meta_data,
+#tease_lists_block .tease .body {
+	margin-left: 86px;
+}
+#tease_lists_block #specials_highlights_content_block .tease * {
+	margin-left: 0;
+}
+#featured_events_content_block .tease_list .tease {
+	margin-bottom: 1em;
+}
+#tease_lists_block .tease_list .parent_portal,
+#featured_events_content_block .tease_list .parent_portal {
+	/* for department's link to their portal page, under their news. */
+	margin-top: 0.25em;
+	margin-left: 94px;
+	padding-bottom: 5px;
+	font-style: italic;
+}
+#featured_events_content_block .tease_list .parent_portal {
+	margin-left: 0;
+	margin-right: 5px;
+	text-align: right;
+}
+.tease_list_btm {
+	clear: left;
+	height: 5px;
+	/*width: 421px;*/
+	background: url(http://www.aaas.org/images/frame_newssmall_bottom.gif) no-repeat left top;
+	margin-bottom: 1em;
+}
+#specials_highlights_content_block .headline .type {
+	/* for useful part of heading that shouldn't be shown 
+			in normal browsers.
+			OR if we ever want these again. */
+	display: none;
+}
+#specials_highlights_content_block #specials_tease_list {
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+	border: 0;
+}
+#specials_highlights_content_block #highlights_tease_list {
+	/*
+	in case highlight's longer than the special,
+	particularly on iphone
+	*/
+	padding-left: 210px;
+	padding-bottom: 0.1em;
+	border: 0;
+}
+/*
+	Initially, hide highlights so you don't get a flash of the whole list
+*/
+#highlights_tease_list .tease {
+		display: none;
+}
+#featured_events_content_block .tease_list_btm {
+	height: 5px;
+	background: url(http://www.aaas.org/images/homepage/frame_btm_166x5.gif) no-repeat left top;
+}
+#featured_events_content_block {
+	width: 166px;
+}
+
+/*	BEGIN IE 6 - only code 
+	The following ugliness should ONLY affect IE 6 
+*/
+/*\*/ * html div#navigation_column .whitelinkbig { padding-left: 4px; } /**/
+/*\*/ * html #featured_events_content_block { 	padding-left: 2px; } /**/
+/*	END IE 6 - only code */
+#featured_events_content_block .tease {
+	width: inherit;
+	_height: 0;
+	min-height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+div#sidebar_1 {
+
+	width: 122px; /* 120px img + 2 px of border */
+	float: right;
+	margin-top: 24px;
+	text-align: center;
+}
+#ad_boxes h3, #ad_boxes h4 {
+	font-size: 1em;
+	margin: 1em 0;
+	padding: 0;
+	color: black;
+}
+#ad_boxes h4 {
+	font-style: italic;
+	margin-bottom: 0;
+}
+#ad_boxes h4 em {
+	font-style: normal;
+}
+#ad_boxes .ad_box {
+	margin-bottom: 2em;
+}
+#ad_science .ad_caption_top {
+	margin-top: 1em;
+	margin-bottom: 3px;
+}
+#ad_science .ad_caption_btm {
+	margin-top: 6px;
+}
+#ad_science .ad_caption_top p {
+	margin: 0;
+}
+#ad_box_trans_med, #ad_box_careers {
+	/*display: none;*/
+}
+#featured_events_content_block h3,
+#tease_lists_block .tease .headline .type {
+	margin: 0 0 0.25em 0;
+	font-size: 13px;
+	color: #0a599b;
+}
+#featured_events_content_block .tease h4.headline,
+#featured_events_content_block .parent_portal {
+	margin-top: 0.25em;
+}
+#tease_lists_block .tease .headline .type .punct {
+	/* punctuation. Only show to screen readers */
+	display: none;
+}
+#featured_events_content_block .tease .body {
+	font-size: 9px;
+}
+#featured_events_content_block .tease .body i, 
+#featured_events_content_block .tease .body em {
+	font-style: normal
+}
+
+div#btm_horiz_menu {
+	margin: 0;
+	border: 1px solid #757575;
+	border-width: 0 1px 1px 1px;
+	width: 750px;
+}
+
+#main_content_block .page_end_symbol,
+#btm_horiz_menu,
+#btm_copyright_line br {
+	display: none;
+}
+
+#btm_copyright_line {
+	width: 751px;
+	margin: 0 1em 1em 1em;
+	/* because margin isn't working for this in IE. */
+	padding-top: 1em;
+	text-align: center;
+}
+
+.sequesterbutton {
+  background: url("/images/homepage/sequester_button_state1.png") no-repeat;
+  display: inline-block;
+  width: 166px;
+  height: 46px;
+  margin-bottom: 7px;
+
+  { 

@@ -1,0 +1,83 @@
+/*$Id: mostpopular.css 31159 2010-02-11 15:57:35Z anjali $
+/css/0.1/screen/common/mostpopular.css 
+(c)2006 - 2008 The New York Times Company */     
+
+#tabsContainer {
+  position: relative;
+  bottom: -1px;
+} 
+
+#mostEmailed {
+  display: block;
+}
+
+#mostBlogged,	
+#mostSearched,
+#mostViewed {
+  display: none;
+}   
+
+#mostEmailed,
+#mostBlogged,
+#mostSearched,
+#mostViewed {
+  overflow: hidden;
+}
+
+#mostPopWidget h4 {
+  font-family: arial, helvetica, sans-serif;  
+  font-size: 1.1em;
+  line-height: 1.2727em; /* 14px*/
+  margin-bottom: 8px;   
+}
+
+#mostPopWidget ul.tabs li:first-child {
+  border-left-width: 1px;
+}  
+
+#mostPopWidget ol {
+  margin-left: 2.6em;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+#mostPopWidget ol li {
+  font-size: 1.2em;
+}
+
+#mostPopWidget .more {
+  float: left;
+  font-size: 1.1em;      
+}
+
+/* CUSTOM HEADLINES */
+
+#mostPopWidget .withCustomHL {
+  margin: -2px 0 0 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+  padding: 1px 5px 5px 5px;
+  position: relative;
+}
+
+#mostPopWidget .withCustomHL .inset {
+  padding: 4px 4px 8px 8px;
+  margin: 0;
+}
+
+#mostPopWidget .withCustomHL .customHeadlines {
+  float: left;
+  text-align: left;
+  width: 220px;
+  margin: 4px 2px 0 0;
+}
+
+#mostPopWidget .withCustomHL .customHeadlines p.caption { color: #909090; }
+
+#mostPopWidget .withCustomHL .customHeadlines h6.kicker {
+  color: #333;
+  background: url(http://graphics8.nytimes.com/images/timeswidgets/homepage/headlines_customize.gif) no-repeat 0 50%;
+  margin: 0 0 2px;
+  padding-left: 18px;
+}

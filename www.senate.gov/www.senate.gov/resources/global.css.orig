@@ -1,0 +1,117 @@
+		div#wrapper {
+			width: 780px;
+			margin: 0 auto;		
+			background: url("/resources/images/uss_bg_white.gif") repeat-y;
+                        padding: 0px 0px 0px 5px;
+		}
+		div#mainWrapper {
+			width: 770px;
+			padding: 4px 0px 4px 3px;
+                        margin: 0px;
+		}	
+		
+		div#container {
+			width: 760px;
+			border: 1px solid #E2E2E2;
+			background: #FFF;
+			margin: 0px;
+			padding: 0px;
+			margin-bottom: 5px;
+		}		
+		
+	
+		/*** Footer navigation ***/
+		div#footer_navigation {
+			clear: both;
+			width: 762px;
+		}
+		
+		#footersection {				
+			background: #95A3C3;	
+			margin: 0; 
+			padding: 11px 10px 11px 15px;							
+		}	
+		
+		ul#footer_nav {
+			list-style-position: outside;
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		ul#footer_nav li {
+			display: inline;
+			border-left: 1px solid #DAD3BF;
+			/*margin: 12px 0px 0px 12px;*/
+			padding: 0px 4px 0px 8px;
+			font-size: 10px;
+			line-height: 14px;
+			font-weight: normal;
+			color: #FFF;
+			text-transform: uppercase;
+		}
+		ul#footer_nav li.first {
+			display: inline;
+			border: none;
+			/*margin: 12px 0px 0px 0px;*/
+			padding: 0px 4px 0px 0px;
+		}
+		ul#footer_nav li a {
+			margin: 0px;
+			padding: 0px;
+			text-decoration: none;
+			color: #FFF;			
+		}
+		ul#footer_nav li a:hover {
+			text-decoration: underline;
+		}			
+
+		
+		
+		/*** Footer Nav 2***/
+		
+		
+		div#footer_navigation_2 {
+			clear: both;
+			width: 762px;
+			margin: 0 auto;
+		}
+		
+		#footersection_2 {				
+			background: #8B8168;	
+			margin: 0; 
+			padding: 0px 10px 5px 15px;							
+		}	
+		
+		ul#footer_nav_2 {
+			list-style-position: outside;
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		ul#footer_nav_2 li {
+			display: inline;
+			border-left: 1px solid #BBB39F;
+			/*margin: 12px 0px 0px 12px;*/
+			padding: 0px 4px 0px 8px;
+			font-size: 10px;
+			line-height: 14px;
+			font-weight: normal;
+			color: #ECE3CD;
+		}
+		ul#footer_nav_2 li.first_2 {
+			display: inline;
+			border: none;
+			/*margin: 12px 0px 0px 0px;*/
+			padding: 0px 4px 0px 0px;
+		}
+		ul#footer_nav_2 li a {
+			margin: 0px;
+			padding: 0px;
+			text-decoration: none;
+			color: #ECE3CD;			
+		}
+		ul#footer_nav_2 li a:hover {
+			text-decoration: underline;
+		}			

@@ -1,0 +1,26 @@
+body{background: white; font-size:8pt; font-family:"Times New Roman", Times, serif;}
+html{margin:0;}
+#mapWrap #map,#mapTab,.leaderboard,#navigation,#breadcrumbWrap,#mpu,#mpuSecondary,#mpuTertiary,.mbThumbs,.sponsoredLinks,#logo form,#footer ul,#footer form,#footer img,#infoSources,#lightBox,.inOurShop,.hotels .linkChevron,.sectionNav,.thingsToDo,#destList,#listingFilter,.poiListing #sidebar,.pagination,form,#home #sidebar,#home .destinationsMap, .poiReviewContainer.noReviews, .noReviewFeatures{display:none !important;}
+
+#container{margin-top:30px;} h1{margin-top:90px; font-size:2.6em;}
+#logo img{position:absolute; top:0; left:0}
+#footer div{margin-top:40px; border-top:1px solid #000;}
+#content,.fastFacts ul{float: none !important;width: auto !important;margin: 0 ! important;padding: 0 !important;border:0;}
+a:link, a:visited {color: #520;font-weight: bold; background:transparent;text-decoration: underline;}
+#logo img a{border:0!important; color:#fff!important}
+
+/*DESTINATIONS*/
+#mediaBlock .mbHero {width:469px; height:264px; overflow:hidden;}
+#pageTitleWrap{border-bottom:7px solid #01899F}
+
+/*HOMEPAGE*/
+#home h1{padding:0; margin:0}
+#home #container{margin: 0 !important;padding: 0 !important;}
+
+/*ABOUT/HELP/JOBS/LEGAL/RSS etc with related links on RHS*/
+#rosGeneral.slm #sidebar .lpComponent, #rosGeneral.lm #sidebar .lpComponent {display:none}
+
+/*Profiles*/
+#profiles #sidebar{display:none}
+#profiles #avatar{padding-top:60px; height:100px; width:100px}
+#profiles h1{margin-top:60px}

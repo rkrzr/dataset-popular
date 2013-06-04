@@ -1,0 +1,54 @@
+// JavaScript Document
+// JavaScript used to search Bill Text of 112th Congress 
+function kH(e) {
+var pK = document.all? window.event.keyCode:e.which;
+if (pK == 13)
+	{
+		submitForm();
+	}
+else
+	{
+		return pK != 13;
+	}
+}
+function actionYesterday()
+{
+	var link = "http://thomas.loc.gov/cgi-bin/bdquery?&Db=d112&querybd=@OR(";
+	var dates = "";
+	var date1;
+	var today = new Date();
+	if ( today.getDay() == 6 || today.getDay() <= 1 )
+	{	date1 = new Date();
+		while ( date1.getDay() != 5 )
+		{
+			date1.setDate( date1.getDate()-1 );
+		}
+	}
+else 
+	{
+		date1 = new Date();
+		date1.setDate( date1.getDate()-1 );
+	}
+date1.setHours( 0, 0, 0 );
+while ( date1.getTime() < today.getTime() )
+	{
+		if ( dates.length > 0 )
+			dates += "+";
+		var day = date1.getDate().toString();
+		if ( day.length == 1 )
+			day = "0" + day;
+		var month = (date1.getMonth()+1).toString();
+		if ( month.length == 1 )
+			month = "0" + month;
+		var year = date1.getYear();
+		if ( year < 1900 )
+			year += 1900;
+		year = year.toString();
+		dates += "@FIELD(FLD961+" + year + month + day + ")"
+		dates += "+@FIELD(FLD010+" + year + month + day + ")";
+		date1.setDate( date1.getDate()+1 );
+}
+document.location.href = link + dates + ")";
+}
+document.onkeypress = kH;
+if (document.layers) document.captureEvents(Event.KEYPRESS);

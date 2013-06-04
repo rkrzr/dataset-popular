@@ -1,0 +1,222 @@
+.slider-container,
+#slider-container {
+	border: 1px solid #b8b8b8;
+	margin: auto;
+}
+
+.slider,
+#slider {}
+
+div.news-slide {
+	padding: 15px;
+}
+
+img.news-slide-image {
+	float: right;
+	padding-top: 10px;
+}
+
+.slider-container #parent-fieldname-title,
+#slider-container #parent-fieldname-title {
+	padding: 6px 10px;
+	border-bottom: 0 none;
+	display: block;
+}
+
+.slider ul.slider-list, .slider li.slide,
+#content .slider ul.slider-list, #content .slider li.slide,
+#slider ul.slider-list, #slider li.slide {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.slider, .slider li.slide,
+#slider, #slider li.slide {
+	overflow: hidden;
+}
+
+#prevBtn, #nextBtn{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:relative;
+	left:-30px;
+	top:-130px;
+}	
+#nextBtn{ 
+    top:-205px;
+}
+
+#prevBtn a, #nextBtn a{  
+	display:block;
+	color: transparent;
+	width:30px;
+	height:77px;
+	background:url(++resource++btn_prev.gif) no-repeat 0 0;
+	border-bottom: medium none !important;
+}	
+#nextBtn a{ 
+	background:url(++resource++btn_next.gif) no-repeat 0 0;	
+}
+
+#smallButtons {
+	position:relative;
+	left:10px;
+	top:-48px;
+	height: 30px;
+	display: inline-block;
+}	
+
+#smallButtons #prevBtn,
+#smallButtons #nextBtn{  
+top:  0;
+left: 0;
+display: block; float: left;
+margin: 0 3px;
+}
+
+#smallButtons #prevBtn a,
+#smallButtons #nextBtn a{  
+	display:block;
+	float: left;
+    color: transparent;
+	margin: 0 5px;
+	width:30px;
+	height:30px;
+	background:url(++resource++arrowl2.gif) no-repeat 0 0;	
+}	
+#smallButtons #nextBtn a{ 
+	background:url(++resource++arrowr2.gif) no-repeat 0 0;	
+}
+
+.slider-text {
+	padding: 10px;
+	float: left;
+	display: block;
+}
+
+.slider-image {
+	float: right;
+	display: block;
+	margin-right: 25px;
+}
+
+#easySlider-goToButtons a.active {
+	background: #494949;
+	border: 1px solid black;
+	color: white;
+}
+
+#easySlider-goToButtons {
+	text-align: center;
+	position: relative;
+	top: -35px;
+	line-height: 35px;
+}
+
+#leftb {
+	margin-right: 4px;
+}
+
+#easySlider-goToButtons #leftb a {
+	background: url(++resource++prevII.gif) no-repeat center center;
+	border: 0 none;
+}
+
+#easySlider-goToButtons #rightb a {
+	background: url(++resource++nextII.gif) no-repeat center center;
+	border: 0 none;
+}
+
+#easySlider-goToButtons a {
+	color: #494949;
+	text-decoration: none;
+	padding: 4px 8px;
+	background: white url(++resource++greynote.jpg) repeat-x;
+	border: 1px solid #b8b8b8;
+	font: bold 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#easySlider-goToButtons.easySlider-goToBullets {
+	text-align: right;
+	padding-right: 30px;
+}
+
+#easySlider-goToButtons.easySlider-goToBullets a {
+	border: none !important;
+	background: none;
+	font-size: 18px;
+	text-decoration: none;
+	color:  #CCC;
+	padding: 0;
+
+}
+
+#easySlider-goToButtons.easySlider-goToBullets a.active  {
+	color: #F7931E !important;
+}
+
+#easySlider-goToButtons.easySlider-goToBullets a:hover {
+	color: #000;
+}
+
+#prevBtn.easybutton  { 
+	left:-52px;
+    top: -300px !important;
+}
+
+#nextBtn.easybutton  { 
+	margin-left:  10px;;
+    top: -380px !important;
+}
+
+#prevBtn.easybutton  a{  
+	background: url(++resource++arrow-left.png) no-repeat 0 top;	
+	width: 45px;
+}	
+#nextBtn.easybutton  a{ 
+	background: url(++resource++arrow-right.png) no-repeat 0 top;	
+	width: 45px;
+}
+
+div#pauseplay{
+    height:20px;
+    position:absolute;
+    right:5px;
+    top:10px;
+    width:20px;
+    cursor: pointer;
+    display:block;
+}
+
+div#pauseplay.pause{
+    background: url(++resource++sliderpause.png) no-repeat;
+}
+
+div#pauseplay.play{
+    background: url(++resource++sliderplay.png) no-repeat;
+}
+
+/* Slider crossfade styling */
+.slider li.slide.crossfade,
+#slider li.slide.crossfade {
+	position: absolute;
+	z-index: 0;
+	background: White;
+}
+
+.slider-container #easySlider-goToButtons.crossfade-navigation,
+.slider-container #smallButtons.crossfade-navigation,
+#slider-container #easySlider-goToButtons.crossfade-navigation,
+#slider-container #smallButtons.crossfade-navigation {
+	z-index: 3;
+}
+.slider li.slide.crossfade-current,
+#slider li.slide.crossfade-current {
+        z-index: 2;
+}
+.slider li.slide.crossfade-next,
+#slider li.slide.crossfade-next {
+        z-index: 1;
+}

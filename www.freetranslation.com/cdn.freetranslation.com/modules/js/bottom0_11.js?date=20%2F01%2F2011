@@ -1,0 +1,2788 @@
+//copy right SDL International 2010
+
+document.domain = window.location.host.substr(window.location.host.indexOf(".")+1);
+
+var textHasChanged = false;
+
+
+if (typeof isPlat =="undefined"){
+	window.isPlat = false;
+}
+
+function onListenPopClose(){
+	document.getElementById("fancy_frame").src="";
+}
+
+//Module SitePal
+
+/**
+ * @author pteare
+ */
+var langToVoice = {
+    Arabic: {
+        Voice: null,
+        Language: null,
+        Engine: null,
+		sex:null
+    },
+    Bulgarian: {
+        Voice: null,
+        Language: null,
+        Engine: null,
+		sex:null
+    },
+    ChineseSimplified: {
+        Voice: 1,
+        Language: 10,
+        Engine: 3,
+		sex: 2
+    },
+    ChineseTraditional: {
+        Voice: 2,
+        Language: 10,
+        Engine: 4,
+		sex: 2
+    },
+    Czech: {
+        Voice: 1,
+        Language: 18,
+        Engine: 4,
+		sex: 2
+    },
+    Danish: {
+        Voice: 1,
+        Language: 19,
+        Engine: 4,
+		sex: 2
+    },
+    Dutch: {
+        Voice: 1,
+        Language: 11,
+        Engine: 2,
+		sex: 1
+    },
+    English: {
+        Voice: 4,
+        Language: 1,
+        Engine: 2,
+		sex: 2
+    },
+    Finnish: {
+        Voice: 1,
+        Language: 23,
+        Engine: 2,
+		sex: 2
+    },
+    French: {
+        Voice: 3,
+        Language: 4,
+        Engine: 2,
+		sex: 2
+    },
+    German: {
+        Voice: 2,
+        Language: 3,
+        Engine: 2,
+		sex: 1
+    },
+    Greek: {
+        Voice: 1,
+        Language: 8,
+        Engine: 2,
+		sex: 2
+    },
+    Hausa: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    },
+    Hebrew: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    },
+    Hindi: {
+        Voice: 1,
+        Language: 24,
+        Engine: 4,
+		sex: 2
+    },
+    Hungarian: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    },
+    Italian: {
+        Voice: 1,
+        Language: 7,
+        Engine: 2,
+		sex: 2
+    },
+    Japanese: {
+        Voice: 1,
+        Language: 12,
+        Engine: 3,
+		sex: 2
+    },
+    Korean: {
+        Voice: 1,
+        Language: 13,
+        Engine: 3,
+		sex: 2
+    },
+    Norwegian: {
+        Voice: 1,
+        Language: 20,
+        Engine: 4,
+		sex: 2
+    },
+    Persian: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    },
+    Polish: {
+        Voice: 1,
+        Language: 14,
+        Engine: 4,
+		sex: 2
+    },
+    PortugueseBrazilian: {
+        Voice: 2,
+        Language: 6,
+        Engine: 4,
+		sex: 2
+    },
+    PortugueseEuropean: {
+        Voice: 1,
+        Language: 6,
+        Engine: 4,
+		sex: 2
+    },
+    Pashto: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    },
+    Romanian: {
+        Voice: 1,
+        Language: 1,
+        Engine: 4,
+		sex: 2
+    },
+    Russian: {
+        Voice: 1,
+        Language: 21,
+        Engine: 4,
+		sex: 2
+    },
+    Somali: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    },
+    SpanishLatinAmerican: {
+        Voice: 5,
+        Language: 2,
+        Engine: 2,
+		sex: 2
+    },
+    SpanishMexican: {
+        Voice: 5,
+        Language: 2,
+        Engine: 2,
+		sex: 2
+    },
+    SpanishEuropean: {
+        Voice: 2,
+        Language: 2,
+        Engine: 4,
+		sex: 2
+    },
+    Serbian: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    },
+    Swedish: {
+        Voice: 1,
+        Language: 9,
+        Engine: 2,
+		sex: 2
+    },
+    Thai: {
+        Voice: 1,
+        Language: 26,
+        Engine: 4,
+		sex: 2
+    },
+    Turkish: {
+        Voice: 1,
+        Language: 16,
+        Engine: 4,
+		sex: 2
+    },
+    Urdu: {
+        Voice: null,
+        Language: null,
+        Engine: null
+    }
+}
+
+var letsceneload = 1000;
+var listencount = 0;
+function listenToTrans(){
+    /*   }*/
+var flashVer =  swfobject.getFlashPlayerVersion().major;
+
+
+
+
+//        if ((nol < 2 && listencount <2) || (typeof isPlat != "undefined" && isPlat==true)) {
+		
+        if ((typeof isPlat != "undefined" && isPlat==true)) {
+
+			//loadScene(2);
+        }
+        else {
+			//loadScene(2);
+	//setTimeout(function(){
+		document.getElementById("listen").href="/platinum_buy_now.html?linkID=listen";
+		$("#listen").fancybox({
+		'zoomSpeedIn': 0,
+		'zoomSpeedOut': 600,
+		'overlayShow': true,
+		'frameWidth': 740,
+		'frameHeight': 570,
+		'titleShow': false,
+		'callbackOnClose': onListenPopClose
+	});
+
+
+						//}, 100);
+           // return;
+            
+        }
+	
+
+
+    var sel = document.getElementById("param_dstLang");
+    var ln = sel[sel.selectedIndex].text.replace(" ", "").replace(" ", "").replace(" ", "").replace("(", "").replace(")", "");
+	
+	if (langToVoice[ln].Language){
+		document.getElementById("VHSS").style.width="50px";
+		document.getElementById("VHSS").style.height="45px";
+		document.getElementById("VHSS").style.left="756px";
+		if (flashVer <=5 ){alert("please install the latest version of Adobe Flash to, in order to use this feature"); return} 
+		loadScene(langToVoice[ln].sex);
+	}
+	else{
+		alert("Sorry, we can't read that selected target language yet");}
+    
+}
+
+function vh_talkStarted(){
+}
+
+function vh_talkEnded(){
+		document.getElementById("VHSS").style.left="-2000px";
+		document.getElementById("VHSS").style.width="2px";
+		document.getElementById("VHSS").style.height="2px";	
+}
+
+
+
+
+
+function vh_sceneLoaded(sceneIndex){
+	    var sel = document.getElementById("param_dstLang");
+	var ln = sel[sel.selectedIndex].text.replace(" ", "").replace("(", "").replace(")", "");
+
+sayText(window.frames["resultsBox1"].document.getElementById("resultText").value, langToVoice[ln].Voice, langToVoice[ln].Language, langToVoice[ln].Engine);
+}
+
+
+
+
+//checkProxy()- Added by Jeff. 12 Aug 2009. If proxy on, the show SDL adv. else show external adv.
+function checkProxy(fn1, param1){
+	var oXMLHTTP=false;
+	if(window.XMLHttpRequest){
+		try{oXMLHTTP=new XMLHttpRequest();}
+		catch(e){oXMLHTTP=false;}
+	}else if(window.ActiveXObject){
+		try{oXMLHTTP=new ActiveXObject("Msxml2.XMLHTTP");}
+		catch(e){
+			try{oXMLHTTP=new ActiveXObject("Microsoft.XMLHTTP");}
+			catch(e){oXMLHTTP=false;}
+		}
+	}
+
+
+	if(oXMLHTTP){
+		
+		var targetServer;
+		targetServer = "http://" + document.domain;
+		
+		oXMLHTTP.open("POST",targetServer,true);
+		oXMLHTTP.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+		oXMLHTTP.send(null);
+		oXMLHTTP.onreadystatechange=function() {
+			if(oXMLHTTP.readyState == 4){
+				var xHeader = oXMLHTTP.getAllResponseHeaders();
+				isProxyOn(xHeader,fn1,param1);
+			}
+		}
+	}
+}
+
+
+function isProxyOn(strHeader,fn1,param1){
+	if (strHeader != ""){
+		if ( strHeader.search(/Proxy/) > -1 || strHeader.search(/proxy/) > -1){
+			window.status = "proxy On";
+			fn1(param1);
+		}else{
+			window.status = "proxy Off";
+		}
+	}else{
+		return true;
+	}
+}
+
+/* LOCALIZED STRINGS *******************************************************/
+var s_Type_or_paste_some_text_here = "Enter text or webpage URL";
+var s_Cut="Cut";
+var s_Copy="Copy";
+var s_Paste="Paste";
+var s_Print="Print";
+var s_Delete="Delete";
+var s_Help="Help";
+var s_Other="Other";
+var s_ReturnURL = "The URL you have entered does not appear to be valid.\nWould you like to perform a Text Translation on this text instead?";
+var s_ReturnFalseURL = "Please add a correctly formatted URL with\n\"http:\/\/\" at the start";
+var s_HowToBookmark="How to add this page to your Bookmarks:\n\nOn your browser's \"Bookmarks\" menu, click \"Bookmark This Page\".\n\nPC Shortcut:\tCtrl+D\n\nMac Shortcut:\tCommand+D";
+var s_HowToCopy="How to copy text to your clipboard:\n\n- Select the text you want to copy.\n- On your browser's \"Edit\" menu, click \"Copy\".\n\nPC Shortcut:\tCtrl+C\n\nMac Shortcut:\tCommand+C";
+var s_HowToCut="How to cut (or move) text to your clipboard:\n\n- Select the text you want to move.\n- On your browser's \"Edit\" menu, click \"Cut\".\n\nPC Shortcut:\tCtrl+X\n\nMac Shortcut:\tCommand+X";
+var s_HowToPaste="How to paste text into our web page:\n\n- Click inside the area where you want the text to appear.\n- On your browser's \"Edit\" menu, click \"Paste\".\n\nPC Shortcut:\tCtrl+V\n\nMac Shortcut:\tCommand+V";
+var s_HowToPrint="How to print this page:\n\n- On your browser's \"Edit\" menu, click \"Print\".\n\nPC Shortcut:\tCtrl+P\n\nMac Shortcut:\tCommand+P";
+var s_FeatureNotAvailable="This feature is not available for your browser. Please refer to your browser's \"Help\".";
+var s_YourOriginalText="Your Original Text";
+var s_YourTranslationResults="Your Translation Results by SDL";
+var s_PleaseWait="Your request is being processed. Please wait.";
+var s_EnterSomeText="Please enter some text to translate.";
+var s_EnterURL="Enter a website address to translate.";
+var s_ExtensionNotSupported="This file extension is not supported. Please enter a different website address.";
+var s_LimitExceededPlatinum="For the Platinum Club, the text to translate cannot exceed 60,000 characters (approximately 10,000 words).\n\nPlease remove some of your text and try again.";
+var s_LimitExceededHuman="The text to translate cannot exceed 102400 bytes.\n\nPlease remove some of your text and try again.";
+var s_Translating="Translating...";
+var s_AdvancedTranslationOptions="Advanced Translation Options";
+var s_HideAdvancedTranslationOptions="Hide Advanced Translation Options";
+var s_ShowAdvancedTranslationOptions="Show Advanced Translation Options";
+var s_TranslationChanged="Your translation has changed.\n\nClick \"OK\" to lose your changes and send the email or \"Cancel\" to close this alert.";
+var s_Loading="Loading...";
+var s_EmailThisTranslation="Email this translation to yourself or friends...";
+var s_FinishedSearching="Finished searching the document.";
+var s_HaveThisTextTranslated="<b>Have this text professionally translated for only [price]</b>";
+var s_TranslationChangedOrder="Your text or language selection has changed.\n\nPlease re-translate your text and then place your order.";
+var s_PlaceOrder="Place Order";
+var s_ProfessionalTranslation="Professional Translation";
+var s_ConfirmLogout="Are you sure you want to logout?";
+/* LOCALIZED VARIABLES *****************************************************/
+var s_TemplateResults="results_en-us.htm";
+var s_TemplateResultsPlatinum="results_en-us_lw_platinum.htm";
+var s_TemplateResultsHuman="results_en-us_humantranslation.htm";
+/* VARIABLES FOR COOKIES, LINKS, POPUPS, FORM ACTIONS, ETC. ****************/
+var sDomain="sdl.com";
+var sRoot="http://www.freetranslation.com/";
+var sRootPlatinum="http://platinum.freetranslation.com/";
+var sDomain=window.location.host.substr(window.location.host.indexOf("."));
+/*var sRoot="http://freetranslation.dev.sdl.com/";*/
+var sRootSecure="https://secure.freetranslation.com/";
+var sExpress="https://www.click2translate.com/ssl/express/default.asp";
+var sETS="http://ets.freetranslation.com/"; // TEXT TRANSLATIONS
+var sETS6="http://ets6.freetranslation.com/"; // CHINESE / RUSSIAN TEXT TRANSLATIONS
+var sETS8="http://sets8.freetranslation.com/"; // PLATINUM TEXT TRANSLATIONS
+var sTETS9="http://tets9.freetranslation.com/"; // JAPANESE TEXT TRANSLATIONS
+/* BROWSER SNIFFING ********************************************************/
+var sBrowser=navigator.appVersion;
+var iBrowser=parseFloat(sBrowser);
+var isWin=(sBrowser.lastIndexOf("Win95")!=-1||sBrowser.lastIndexOf("Win98")!=-1||sBrowser.lastIndexOf("WinNT")!=-1||sBrowser.lastIndexOf("Windows")!=-1);
+var isMac=(sBrowser.indexOf("Mac")!=-1);
+var isUnixLinux=(sBrowser.lastIndexOf('X11')!=-1);
+var isIE=(navigator.appName.indexOf("Microsoft Internet Explorer")!=-1);
+var isIE4=(document.all)&&!(document.getElementById);
+var isIE4M=isIE4&&isMac;
+var isNS=(navigator.appName.indexOf("Netscape")!=-1);
+var isFirefox=(navigator.userAgent.indexOf("Firefox")>-1);
+var isOpera=(navigator.userAgent.indexOf("Opera")!=-1);
+var isKonqueror=(navigator.userAgent.indexOf("Konqueror")!=-1);
+var isXPSP2=(navigator.userAgent.indexOf("SV1")!=-1);
+/* COMMON FUNCTIONS ********************************************************/
+function focusField(oElement){if(oElement.value==oElement.defaultValue)oElement.value="";return true;}
+function blurField(oElement){if(oElement.value=="")oElement.value=oElement.defaultValue;return true;}
+function strTrim(){return this.replace(/^\s+/,"").replace(/\s+$/,"");}
+String.prototype.trim=strTrim;
+function URLEncode(str){
+	str=escape(str);
+	str=str.replace(/[\*]/gi,"%2A");
+	str=str.replace(/[\+]/gi,"%2B");
+	str=str.replace(/[-]/gi,"%2D");
+	str=str.replace(/[\.]/gi,"%2E");
+	str=str.replace(/[\/]/gi,"%2F");
+	str=str.replace(/[@]/gi,"%40");
+	str=str.replace(/[_]/gi,"%5F");
+	return str;
+}
+function isEmpty(str){
+	if(!str)return true;
+	if(str.length==0)return true;
+	if(str.search(/\S/)==-1)return true;
+	return false;
+}
+function isValidURL(sURL){
+	sURL=sURL.trim();
+	var sExtension = sURL.split("/");
+	var regEx=/\.(avi|bmp|class|css|doc|exe|gif|java|jpeg|jpg|js|m3u|mp3|mov|mpg|mpeg|pdf|png|ra|rar|rm|rtf|swf|tif|wav|wma|wmv|zip)$/i;
+	return !regEx.test(sExtension[sExtension.length-1]);
+}
+function setCookie(sName,sValue){
+    deleteCookie(sName); //line added to reduce number of cookies simultaneously stored - jprince
+	var dtmExpires=new Date(2015,9,21,12,0,0);
+	document.cookie=sName+"="+escape(sValue)+"; expires="+dtmExpires.toGMTString()+"; domain="+sDomain+"; path=/";
+	//document.cookie=sName+"="+escape(sValue)+"; expires="+dtmExpires.toGMTString()+"; path=/";
+}
+function deleteCookie(sName){
+	var dtmExpires=new Date(1985,9,26,1,0,0);
+	document.cookie=sName+"=; expires="+dtmExpires.toGMTString()+"; domain="+sDomain+"; path=/";
+}
+function getCookie(sName){
+	var dc=document.cookie;
+	var prefix=sName+"=";
+	var begin=dc.indexOf(";"+" "+prefix);
+	if (begin==-1){
+		begin=dc.indexOf(prefix);
+		if(begin!=0){return null;}
+	}else{
+		begin+=2;
+	}
+	var end=document.cookie.indexOf(";",begin);
+	if(end==-1)end=dc.length;
+	return unescape(dc.substring(begin+prefix.length,end));
+}
+var oPopup;
+function doPopup(sURL,iWidth,iHeight){
+	if(oPopup&&!oPopup.closed)oPopup.close();
+	oPopup=window.open(sURL,"popup","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=1,resizable=1,width="+iWidth+",height="+iHeight+",top="+((screen.height-iHeight)/2-50)+",left="+((screen.width-iWidth)/2));
+	oPopup.focus();
+}
+function selectItem(oElement,sValue){
+	if(oElement&&sValue){
+			for(var i=0;i<oElement.length;i++){
+				if(oElement[i].value.toLowerCase()==sValue.toLowerCase()){
+					oElement[i].selected=true;}
+			}
+	}
+}
+function selectItemByText(oElement,sText){
+	if(oElement&&sText){
+			for(var i=0;i<oElement.length;i++){
+				if(oElement[i].text.toLowerCase()==sText.toLowerCase()){
+					oElement[i].selected=true;}
+			}
+	}
+}
+
+
+function doClipboard(oElement,sCmd){
+	oElement.focus();
+	oElement.select();
+	if(document.all){
+		var oRange=oElement.createTextRange();
+		oRange.execCommand(sCmd);
+	}else{
+		switch(sCmd){
+			case "Copy":
+				alert(s_HowToCopy);
+				break;
+			case "Cut":
+				alert(s_HowToCut);
+				break;
+			case "Paste":
+				alert(s_HowToPaste);
+				break;
+		}
+	}
+}
+function printPage(){
+	window.focus();
+	if(window.print){window.print();}
+	else{alert(s_HowToPrint);}
+}
+function onLoaded(){
+	if(document.referrer&&document.referrer!=""&&isEmpty(getCookie("referrer")))setCookie("referrer",document.referrer);
+}
+function makeHomePage(sURL,oLink){
+	if(isIE){oLink.style.behavior='url(#default#homepage)';oLink.setHomePage(sURL);}
+	else{alert(s_FeatureNotAvailable);}
+}
+function addToFavourites(sURL,sTitle){
+	if(window.external){window.external.AddFavorite(sURL,sTitle);}
+	else if(isNS&&iBrowser>=5){alert(s_HowToBookmark);}
+	else{alert(s_FeatureNotAvailable);}
+}
+function toggleOption(oElement){
+	if(oElement.checked&&getCookie(oElement.id)!="true")setCookie(oElement.id,"true");
+	else deleteCookie(oElement.id);
+}
+function showAdvanced(oForm,sElement,bReload){
+	oForm.project.disabled=true;
+	document.getElementById(sElement+"-off").style.display="none";
+	document.getElementById(sElement+"-on").style.display="block";
+	oForm.sequence.disabled=false;
+	selectItem(oForm.sequence,getCookie("sequence"));
+	for(i=0;i<oForm.option.length;i++){oForm.option[i].disabled=false;if(getCookie(oForm.option[i].id)=="true"){oForm.option[i].checked=true;}}
+	if(getCookie(sElement)!="true")setCookie(sElement,"true");
+	if(bReload&&isNS)history.go(0);
+}
+function hideAdvanced(oForm,sElement,bReload){
+	for(i=0;i<oForm.option.length;i++){oForm.option[i].disable=true;}
+	oForm.sequence.disabled=true;
+	document.getElementById(sElement+"-on").style.display="none";
+	document.getElementById(sElement+"-off").style.display="block";
+	oForm.project.disabled=false;
+	selectItem(oForm.project,getCookie("project"));
+	if(getCookie(sElement)!=null)deleteCookie(sElement);
+	if(bReload&&isNS)history.go(0);
+}
+function toggleAdvanced(oForm,sElement){
+	if(getCookie(sElement)=="true"){showAdvanced(oForm,sElement);}
+	else{hideAdvanced(oForm,sElement);}
+}
+function trk(oL,sQS){
+	var sT; // BUILD LINK TEXT
+	if (document.getElementById){
+		if(oL.innerText){ // FOR INTERNET EXPLORER
+			sT=oL.innerText.replace(/\s+/gi," ");
+		}else if(oL.textContent){ // FOR MOZILLA
+			sT=oL.textContent.replace(/\s+/gi," ");
+		}else if(oL.text){ // FOR NETSCAPE, BUT IT DOESN'T WORK PROPERLY
+			sT=oL.text.replace(/\s+/gi," ");
+		}else if(oL.innerHTML.search(/<img/i) == 0){ // FOR IMAGES
+			sT=oL.firstChild.alt.replace(/\s+/gi," ")+" "+"<"+oL.firstChild.src+">";
+		}
+	}
+	var sQ="p="+URLEncode(window.location)+"&t="+URLEncode(sT); // BUILD QUERY STRING
+	if(oL.href.search(sQ)==-1){ // IF URL NOT ALREADY MODIFIED
+		if(!isEmpty(sQS)){ // IF TRACKING QUERY STRING PASSED TO FUNCTION
+			oL.search=(!isEmpty(oL.search))?oL.search+"&"+sQS:"?"+sQS; // CREATE OR APPEND
+		}
+		if(document.images){(new Image()).src=sRoot+"trk/?r="+URLEncode(oL.href)+"&"+sQ;} // TRACK CLICK
+		if(oL.search&&oL.href.search(/\?/)==-1){oL.href=oL.href+oL.search;} // HACK FOR BROWSERS THAT DON'T INCLUDE THE QUERY STRING IN THE HREF (i.e. OPERA)
+		if(oL.href.search(sRoot)==-1){ // ONLY IF DESTINATION PAGE IS NOT ON THE SAME DOMAIN
+			oL.href=(oL.search)?oL.href+"&"+sQ:oL.href+"?"+sQ; // APPEND QUERY STRING USING AN AMPERSAND IF QUERY STRING ALREADY EXISTS
+		}
+	}
+	return true;
+}
+
+function ToggleMore(e,el){
+	CancelEvent(e);
+	var obj=document.getElementById("more");
+	if(el!=null){
+		obj.style.left=el.offsetLeft+"px";
+		obj.style.top=el.offsetTop+el.offsetHeight+"px";
+	}
+	obj.style.display=(obj.style.display=="")?"none":"";
+	return false;
+}
+function CancelEvent(e){if(!e)e=window.event;e.cancelBubble=true;}
+document.onclick=function(event){if(document.getElementById("more")&&document.getElementById("more").style.display==""){ToggleMore(event);}};
+
+/*
+* Function: gSafeOnLoad, SafeAddOnLoad
+* Modified from: http://javascript.about.com/library/scripts/blsafeonload.htm
+* Last Modified: Tony Ruscoe (10 April 2002)
+* Syntax: SafeAddOnload([String]);
+* Returns: Nothing
+*/
+var gSafeOnload=new Array();
+function SafeAddOnload(f){
+	if (isIE4M){ // IE 4.5 blows out on testing window.onload
+		window.onload=SafeOnload;
+		gSafeOnload[gSafeOnload.length]=f;
+	}else if (window.onload){
+		if (window.onload != SafeOnload){
+			gSafeOnload[0]=window.onload;
+			window.onload=SafeOnload;
+		}
+		gSafeOnload[gSafeOnload.length]=f;
+	} else window.onload=f;
+}
+function SafeOnload(){
+	for (var i=0;i<gSafeOnload.length;i++) gSafeOnload[i]();
+}
+
+function checkRussian()	{
+	if ((getCookie("srcLanguage") == "English" && getCookie("dstLanguage") == "Russian") || (getCookie("srcLanguage") == "Russian" && getCookie("dstLanguage") == "English")){
+		document.getElementById('PromtLink').style.display='block';
+	}
+}
+
+function writeCalls()	{
+	document.getElementById("Calls").style.display="none";
+	document.write("<div class=\"Calls\">" + document.getElementById("Calls").innerHTML + "<\/div>");
+}
+
+function makeRandomNumber(strLength)	{
+	var iRan = Math.floor(strLength*Math.random());
+	return iRan;
+}
+
+function doHomeHiding(str,iHide)	{
+	var iHomeLinks = document.getElementById(str);
+	var iLen = iHomeLinks.getElementsByTagName("a").length-1;
+	var iHomeItems = iHomeLinks.getElementsByTagName("a");
+	var i=0;
+
+	rand1 = makeRandomNumber(iLen);
+	rand2 = makeRandomNumber(iLen);
+	
+	if(rand1==rand2)	{
+			while(rand1==rand2)	{
+				rand2 = makeRandomNumber(iLen)
+			}
+	}
+	while (i<(iLen))	{
+		iHomeItems[i].style.display="block";
+		if(iHide==true)	{
+				if((i==rand1||i==rand2))	{
+					iHomeItems[i].style.display="block";
+				} else	{
+					iHomeItems[i].style.display="none";
+				}
+			}
+	i++;
+	}
+}
+function doPageName(strPage)	{
+	var sPage = strPage.substring(strPage.lastIndexOf('/') + 1);
+	if(sPage.length==0)	{
+			return document.location.href;		
+		}	else	{
+			return sPage;
+		}
+}
+SafeAddOnload(onLoaded);
+
+
+//Added by Jeff : 7 July 2009
+function getObj(name){
+	if (document.getElementById){
+		return document.getElementById(name);
+	}else if(document.all){
+		return document.all[name];
+	}else if(document.layers){
+		return document.layers[name];
+	}
+}
+
+function changeLanguage(oElement,oName){
+	setCookie(oName.id,oElement[oElement.selectedIndex].value); // SET COOKIE
+}
+
+function getRespSupplier(){
+	var supplier = ""
+	if (document.getElementById("respSupplier").value != ""){
+		supplier = document.getElementById("respSupplier").value;
+
+	}
+	return supplier;
+}
+
+function printText(sTitle,sContents){
+ if (document.getElementById("frmPrint")){
+ }else{
+	 makeFrmPrint();
+ }
+ 
+ var frmp = document.getElementById("frmPrint");
+ frmp.title.value=getRespSupplier();
+ frmp.contents.value=window.frames["resultsBox1"].document.getElementById("resultText").value;
+ frmp.submit();
+} 
+
+function makeFrmPrint(){
+ frm = document.createElement("form");
+ frm.innerHTML = "<input type=\"hidden\" value=\"print\" name=\"exec\"/>" +
+ "<input type=\"hidden\" value=\""+getRespSupplier()+"\" name=\"title\"/>" +
+ "<input type=\"hidden\" value=\"Hallo\" name=\"contents\"/>";
+ frm.target = "_blank";
+ frm.action="/view.asp";
+ frm.method="post";
+ frm.name="frmPrint";
+ frm.id="frmPrint";
+ frm = document.body.appendChild(frm);
+} 
+
+function WriteToolbar(sElement,bPrint,sTitle){
+	document.write('<div class="toolbar">');
+	document.write('<img src="/media/iconCut.gif" width="16" height="16" alt="'+s_Cut+'" title="'+s_Cut+'" onclick="doClipboard('+sElement+',\'Cut\');" />');
+	document.write('<img src="/media/iconCopy.gif" width="16" height="16" alt="'+s_Copy+'" title="'+s_Copy+'" onclick="doClipboard('+sElement+',\'Copy\');" />');
+	document.write('<img src="/media/iconPaste.gif" width="16" height="16" alt="'+s_Paste+'" title="'+s_Paste+'" onclick="doClipboard('+sElement+',\'Paste\');" />');
+	document.write('<img src="/media/iconErase.gif" width="16" height="16" alt="'+s_Delete+'" title="'+s_Delete+'" onclick="'+sElement+'.value=\'\';'+sElement+'.focus();" />');
+	if(bPrint)	{document.write('<img src="/media/iconPrint.gif" width="16" height="16" alt="'+s_Print+'" title="'+s_Print+'" onclick="printText(\''+sTitle+'\','+sElement+'.value);" />');}
+	document.write('<img src="/media/iconHelp.gif" width="16" height="16" alt="'+s_Help+'" title="'+s_Help+'" onclick="window.location=\''+sRoot+'help/\';" />');
+	document.write('</div>');
+}
+var bSubmitted=false;
+
+var sETS = "http://ets.freetranslation.com";
+function xl8Txt(oForm,bCheckDefaultText,bPlatinum){
+
+
+if((!textHasChanged)||document.getElementsByName("srctext")[0].value.length==0||document.getElementsByName("srctext")[0].value.search(/\S/)==-1){
+			alert(s_EnterSomeText);
+			document.getElementsByName('resptext')[0].className='complete'
+			return false;
+		}
+
+
+	setTimeout("bSubmittedHuman=false", 2000);
+	oForm.target="resultsBox1";
+	var ETStemplate = "textareaResponse-ETS.asp";
+	var LWpage = "/textareaResponse-LW_01.asp";
+	
+	if (typeof siteversion != 'undefined' && siteversion == 4){
+		ETStemplate = "textareaResponse-ETS.asp";
+		LWpage = "/textareaResponse-LW_01.asp";
+	}
+	
+	
+	with(document.getElementsByName("srctext")[0]){
+		if (typeof isURL != 'undefined' && isURL(value)){
+		myTabs.selectTab(1);
+		document.getElementById("urlTrans").value = value;
+		return false;
+		}
+		
+		//Jeff: Remove the disabled button feature. Because this is not work in some of the browser such as FF in ets server.
+		//if(bSubmitted){
+		//	alert(s_PleaseWait);
+		//	return false;
+		
+		//Jeff: Remove the checking on defaultValue properties. This is nice, but it is not work in Chrome.
+		//}else if((bCheckDefaultText&&value==defaultValue)||value.length==0||value.search(/\S/)==-1){
+		if(document.getElementById("param_srcLang").selectedIndex==0){
+			alert("Please choose a source language");
+			document.getElementById("param_srcLang").focus();
+			return false;
+		}else if(document.getElementById("param_dstLang").selectedIndex==0){
+			alert("Please choose a destination language");
+			document.getElementById("param_dstLang").focus();
+			return false;
+		}else if((typeof isPlat != "undefined" || isPlat) && value.length>60000){ // ~ 10000 WORDS, platinum = true
+			alert(s_LimitExceededPlatinum);
+			return false;
+		}else if((typeof isPlat == "undefined" || !isPlat) && value.length>4500){ // ~ 750 WORDS, platinum = false
+			doPopup(sRoot+"popups/limit-reached.htm",500,350);
+			return false;
+		} else{
+			if(typeof isPlat !="undefined" && isPlat && 1==2){
+				if(document.getElementById("param_transType").value == "LW")	{
+					oForm.action="http://platinum.freetranslation.com/results/";
+				}else{
+					oForm.action=sETS8;
+				}
+				oForm.template.value=s_TemplateResultsPlatinum
+			}else{
+				//oForm.template.value=s_TemplateResults;
+				oForm.template.value=ETStemplate;
+				oForm.username.value = "";
+				oForm.password.value = "";
+				if (oForm.targetServer.value == "ETS"){
+					oForm.action=sETS;
+				}else if(oForm.targetServer.value == "ETS6"){
+					oForm.action=sETS6
+				}else if(oForm.targetServer.value == "TETS9"){
+					oForm.action=sTETS9;
+				}else if(oForm.targetServer.value == "SETS8"){
+					oForm.action=sETS8;
+					oForm.username.value = "newlang";
+					oForm.password.value = "Not_lw!";
+					oForm.template.value=ETStemplate;
+				}else if(oForm.targetServer.value == "LW"){
+					oForm.action = LWpage;
+				}			
+			}
+			
+			//No idea why we need this cookies?...
+			if(!getCookie("translations")||isNaN(getCookie("translations"))){setCookie("translations",1);}
+			else{setCookie("translations",eval(getCookie("translations"))+1);}
+			
+			//bSubmitted=true;
+			//oForm.Submit.value=s_Translating;
+			//oForm.Submit.disabled=true;
+			return true;
+
+		}
+	}
+}
+
+
+function googleTranslate(oForm,bCheckDefaultText){
+	setTimeout("bSubmittedHuman=false", 2000);
+	oForm.target="resultsBox1";
+	var GOOGLEpage = "/textareaResponse-GOOGLE.asp";
+	
+	with(document.getElementsByName("srctext")[0]){
+		if (typeof isURL != 'undefined' && isURL(value)){
+		myTabs.selectTab(1);
+		document.getElementById("urlTrans").value = value;
+		return false;
+		}
+		
+		if((!textHasChanged)||value.length==0||value.search(/\S/)==-1){
+			alert(s_EnterSomeText);
+			return false;
+		}else if(document.getElementById("param_srcLang").selectedIndex==0){
+			alert("Please choose a source language");
+			document.getElementById("param_srcLang").focus();
+			return false;
+		}else if(document.getElementById("param_dstLang").selectedIndex==0){
+			alert("Please choose a destination language");
+			document.getElementById("param_dstLang").focus();
+			return false;
+		}else if(value.length>500){ // ~ 750 WORDS
+			doPopup(sRoot+"popups/limit-reached.htm",500,350);
+			return false;
+		} else{			
+			oForm.action = GOOGLEpage;
+			return true;
+		}
+	}
+}
+
+
+function changeCore()	{
+	var s = document.getElementById("srcLanguage");
+	var d = document.getElementById("dstLanguage");
+	
+	var srcLang = s.options[s.selectedIndex].text;
+	var dstLang = d.options[d.selectedIndex].text;
+		
+	var varSequence = document.getElementById("sequence");
+	var varProject = document.getElementById("project");
+	
+	if(srcLang.indexOf("Latin American")>-1 || dstLang.indexOf("Latin American")>-1)	{
+			varSequence.value='';
+			varProject.value='LatinAmerican';
+	}	else if(srcLang.indexOf("Mexican")>-1 || dstLang.indexOf("Mexican")>-1)	{
+			varSequence.value='';
+			varProject.value='Mexican';
+	}	else if(srcLang.indexOf("European")>-1 || dstLang.indexOf("European")>-1)	{
+			varSequence.value='';
+			varProject.value='European';
+	}	else if(srcLang.indexOf("Brazilian")>-1 || dstLang.indexOf("Brazilian")>-1)	{
+			varSequence.value='';
+			varProject.value='Brazilian';
+	}	else	{
+			varSequence.value='core';
+			varProject.value='';
+	}
+}
+var bSubmittedHuman=false;
+var submitFail = false;
+function xl8Human(oForm,bCheckDefaultText,bPlatinum){
+	
+	if((!textHasChanged)||document.getElementsByName("srctext")[0].value.length==0||document.getElementsByName("srctext")[0].value.search(/\S/)==-1){
+			alert(s_EnterSomeText);
+			return false;
+		}
+	
+	
+	oForm=window.document.getElementsByName("frmTextTranslator")[0];
+	
+	oForm.target="_blank";
+	setTimeout("bSubmittedHuman=false", 2000);
+	with(oForm.srctext){
+		if(bSubmittedHuman){
+			return false;
+		}else if(document.getElementById("param_srcLang").selectedIndex==0){
+			alert("Please choose a source language");
+			document.getElementById("param_srcLang").focus();
+			return false;
+		}else if(document.getElementById("param_dstLang").selectedIndex==0){
+			alert("Please choose a destination language");
+			document.getElementById("param_dstLang").focus();
+			return false;
+		}else if(value.length>=102400){
+			alert(s_LimitExceededHuman);
+		}else{
+			if(typeof isPlat !="undefined" && 1==2){
+				oForm.action=sETS8;
+			}else{
+				
+				oForm.template.value=s_TemplateResultsHuman;
+				
+				if (oForm.targetServer.value == "ETS"){
+					oForm.action=sETS;
+					oForm.sequence.value="core";	
+				}else if(oForm.targetServer.value == "SETS8"){
+					//Since the language dropdown for human translation(without langpair in sets8) is diff from free.
+					//So, in order to make the human translation page appear, we need to mimic some fake value, 
+					oForm.action=sETS; //Still using the same template in ets server instead of setss8. Because we want to show human translation page.
+					oForm.language.value="English/Spanish";
+					oForm.sequence.value="core";	
+				}else if(oForm.targetServer.value == "ETS6"){
+					oForm.action=sETS6
+				}else if(oForm.targetServer.value == "TETS9"){
+					oForm.action=sTETS9;
+				}else if(oForm.targetServer.value == "LW"){
+					//Since the language dropdown for human translation(without LW) is diff from free.
+					//So, in order to make the human translation page appear, we need to mimic some fake values: 
+					oForm.action=sETS;
+					oForm.language.value="English/Spanish"; //We need language pair
+					oForm.sequence.value="core";			//We need dictionary
+				}			
+			}
+			bSubmittedHuman=true;
+			//form.HumanTranslation.disabled=true;
+			
+			form.submit();
+			oForm.target="resultsBox1";
+		}
+	}
+}
+var bWebSubmitted=false;
+function xl8Web(oForm,bCheckDefaultText,bPlatinum){
+	with(oForm.url){
+		if(typeof isPlat =="undefined"&&bWebSubmitted){
+			alert(s_PleaseWait);
+			return false;
+		}else if((bCheckDefaultText&&value==defaultValue)||value.length==0||value.search(/\S/)==-1){
+			alert(s_EnterURL);
+			focus();
+			return false;
+		}else if(!isValidURL(value)){
+			alert(s_ExtensionNotSupported);
+			focus();
+			return false;
+		}else if(!isPlat){
+			bWebSubmitted=true;
+			oForm.Submit.value=s_Translating;
+			oForm.Submit.disabled=true;
+			return true;
+		}
+		return true;
+	}
+}
+
+function isValidURL(){
+	return true;
+	var strin = document.forms.frmWebTranslator.url.value;
+	var regx = /([http:\/\/]|[https:\/\/])[\w|#]([\w|#]*)?\.([\w|#][\w|#]*)[^\s]*/;
+	if (strin.match(regx)!=null && strin.match(regx)[0].length >= strin.length/2){
+		return true;
+	}else{
+		var agree = confirm(s_ReturnURL)
+		if(agree)	{
+			document.forms.frmTextTranslator.srctext.value = document.forms.frmWebTranslator.url.value;
+			document.forms.frmTextTranslator.submit();
+		}else{
+			alert(s_ReturnFalseURL)
+		}
+	}
+	return false;
+}
+
+
+function isValidURL_OLD(){ 
+	//var RegExp = /^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$/; 
+    var RegExp = /^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\/\d\w]|%[a-fA-f\d]{2,2})*)?$/; 
+	//var RegExp = /^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$/; 
+    if(RegExp.test(document.forms.frmWebTranslator.url.value)){ 
+		return true;
+    }else{ 
+		var agree = confirm(s_ReturnURL)
+			if(agree)	{
+				document.forms.frmTextTranslator.srctext.value = document.forms.frmWebTranslator.url.value;
+				//--document.getElementById('frmTextTranslator').click();
+				document.forms.frmTextTranslator.submit();
+				//document.forms.frmWebTranslator.submit();
+			}
+			else
+			{alert(s_ReturnFalseURL)}
+        return false; 
+    } 
+}
+
+//Gentlemen:
+//There is no need for us to make any changes or additions to the system to translate different varieties of Spanish into English. If Mexican Spanish has a different word for computer than European Spanish does, then we simply put both of the words into our core dictionary. As far as the source language goes in a translation, there is only Spanish, not varieties of Spanish.
+//Again, for clarity: There are NO projects (and no need for projects) for translating Spanish (European) into English, Spanish (Mexican) into English, or Spanish (Latin American) into English.
+//If you have any questions, please dont hesitate to ask.
+//--Email from Jay 11-june09
+function writeLanguageCombos()	{
+	document.write(LanguageCombos());
+}
+
+
+function LanguageCombos(){var strVar="";
+strVar += "<select id=\"param_srcLang\" class=\"LanguageOptions srcLang\" name=\"srcLang\" onchange=\"setSubLanguages(this.selectedIndex);\" title=\"Translate from...\">";
+strVar += "<option vals=\"\">From<\/option>";
+strVar += "<option value=\"Arabic\">Arabic<\/option>";
+strVar += "<option value=\"Bulgarian\">Bulgarian<\/option>";
+strVar += "<option value=\"Chinese\">Chinese (Simplified)<\/option>";
+strVar += "<option value=\"Chinese\">Chinese (Traditional)<\/option>";
+strVar += "<option value=\"Czech\">Czech<\/option>";
+strVar += "<option value=\"Danish\">Danish<\/option>";
+strVar += "<option value=\"Dutch\">Dutch<\/option>";
+strVar += "<option value=\"English\">English<\/option>";
+strVar += "<option value=\"Finnish\">Finnish<\/option>";
+strVar += "<option value=\"French\">French<\/option>";
+strVar += "<option value=\"German\">German<\/option>";
+strVar += "<option value=\"Greek\">Greek<\/option>";
+strVar += "<option value=\"Hausa\">Hausa<\/option>";
+strVar += "<option value=\"Hebrew\">Hebrew<\/option>";
+strVar += "<option value=\"Hindi\">Hindi<\/option>";
+strVar += "<option value=\"Hungarian\">Hungarian<\/option>";
+strVar += "<option value=\"Italian\">Italian<\/option>";
+strVar += "<option value=\"Japanese\">Japanese<\/option>";
+strVar += "<option value=\"Korean\">Korean<\/option>";
+strVar += "<option value=\"Norwegian\">Norwegian<\/option>";
+strVar += "<option value=\"Persian\">Persian<\/option>";
+strVar += "<option value=\"Polish\">Polish<\/option>";
+strVar += "<option value=\"Portuguese\">Portuguese (Brazilian)<\/option>";
+strVar += "<option value=\"Portuguese\">Portuguese (European)<\/option>";
+strVar += "<option value=\"Pashto\">Pashto<\/option>";
+strVar += "<option value=\"Romanian\">Romanian<\/option>";
+strVar += "<option value=\"Russian\">Russian<\/option>";
+strVar += "<option value=\"Somali\">Somali<\/option>";
+strVar += "<option value=\"Spanish\">Spanish (Latin American)<\/option>";
+strVar += "<option value=\"Spanish\">Spanish (Mexican)<\/option>";
+strVar += "<option value=\"Spanish\">Spanish (European)<\/option>";
+strVar += "<option value=\"Serbian\">Serbian<\/option>";
+strVar += "<option value=\"Swedish\">Swedish<\/option>";
+strVar += "<option value=\"Thai\">Thai<\/option>";
+strVar += "<option value=\"Turkish\">Turkish<\/option>";
+strVar += "<option value=\"Urdu\">Urdu<\/option>";
+strVar += "<\/select>";
+strVar += "<select id=\"param_dstLang\" class=\"LanguageOptions dstLang\" name=\"dstLang\" onchange=\"setLanguageCombination(this[this.selectedIndex].value);\" title=\"Translate to...\">";
+strVar += "<option value=\"\">To<\/option>";
+strVar += "<\/select>   ";
+return strVar;
+}
+
+function removeOptions(str)	{
+	if(str=="reset")	{
+		getObj("param_language").value = "";
+		getObj("param_lwSrc").value = "";
+		getObj("param_lwDest").value = "";
+		getObj("param_lwPair").value = "";
+		getObj("param_sequence").value = "";
+		getObj("param_Project").value = "";
+		getObj("param_dstLang").value = "";
+		getObj("param_dstLang").options.length = 0;
+		var optDestinationlanguage = document.createElement("option");
+		optDestinationlanguage.text = "To";
+		optDestinationlanguage.value = "";
+		getObj("param_dstLang").options[0] = optDestinationlanguage;
+	}else{
+		getObj("param_language").value = "";
+		getObj("param_lwSrc").value = "";
+		getObj("param_lwDest").value = "";
+		getObj("param_lwPair").value = "";
+		getObj("param_sequence").value = "";
+		getObj("param_Project").value = "";
+	}
+	
+}
+
+function setLanguageCombination(str)	{
+	
+	var sel = document.getElementById("param_dstLang");
+	var ln = sel[sel.selectedIndex].text.replace(" ", "").replace(" ", "").replace(" ", "").replace("(", "").replace(")", "");
+
+	if(document.getElementById("param_transType").value == "LW")	{
+		$(".emailtranslation").fadeTo('slow', 0.5);
+		
+		
+	}
+	else{
+	$(".emailtranslation").fadeTo('fast', 1);
+	
+	}
+    
+	if (langToVoice[ln] && langToVoice[ln].Language){
+		$(".listen").fadeTo('fast', 1);
+		
+		$("#VHSS").show('slow');
+		
+		}
+		else
+	{
+		$(".listen").fadeTo('slow', 0.5, function() {
+      // Animation complete.
+	  $("#VHSS").hide('slow');
+    });
+		
+
+	$("#VHSS").hide('slow');
+
+		}
+setTimeout(function(){
+	var typeHI = document.getElementById("param_transType");	
+	
+	if (typeHI.value=="ETS" && document.getElementById('respSupplier').value != 'GOOGLE'){
+		$(".platinum_options").show('fast');
+		
+	}
+	else {
+		$(".platinum_options").hide('slow');
+
+	}
+					}, 100);
+	
+	setCookie("dstLanguage",getObj("param_dstLang").options[getObj("param_dstLang").selectedIndex].text);   
+
+	if(str=="")	{
+		removeOptions("clear");
+	}
+	var iArray = str.split(":");
+	ets = false;
+	getObj("param_language").value = iArray[0];
+	getObj("param_lwSrc").value = iArray[1];
+	getObj("param_lwDest").value = iArray[2];
+	getObj("param_lwPair").value = iArray[3];
+	getObj("param_sequence").value = iArray[4];
+	getObj("param_Project").value = iArray[5];
+	getObj("param_targetServer").value = iArray[6];
+	
+	if(iArray[4]!="" | iArray[5]!="")	{
+		getObj("param_transType").value  = "ETS";
+	}	else	{
+		getObj("param_transType").value  = "LW";
+	}
+
+}
+
+function appendDropDown(strText, strValue, elementId, elementIndex){
+	var opt = document.createElement("option");
+	opt.value = strValue;
+	opt.text = strText;
+	getObj(elementId).options[elementIndex] = opt;
+}
+
+function setSubLanguages(str)	{
+	
+	/*
+	try{
+		var kbsel = document.getElementById("kbselect");
+		var srcsel = document.getElementById("param_srcLang");
+		var srclang = srcsel.options[parseInt(str)].text;
+		for(var i=0;i<=kbsel.options.length-1;i++){
+			
+			if (kbsel.options[i].text==srclang){
+					kbsel.selectedIndex=i;
+					kbsel.onchange();
+			}
+		}
+	}
+	
+	catch(err){}
+	*/
+	
+	var lasttrg = getObj("param_dstLang").options[getObj("param_dstLang").selectedIndex].text;
+	
+	setCookie("srcLanguage",getObj("param_srcLang").value);  //set selected value into cookies
+	setCookie("srcLanguageTxt",getObj("param_srcLang").options[getObj("param_srcLang").selectedIndex].text);   //set selected text into cookies. (We need text to distinguist local languages: spanish LatinAmerican, Spanish Maxican, etc)
+	
+	removeOptions("reset");
+	
+	//Arabic
+	if(str==1)	{
+		appendDropDown("English", ":ara:eng:56:::LW", "param_dstLang", 1);
+		appendDropDown("French", ":ara:fra:72:::LW", "param_dstLang", 2);
+		appendDropDown("Spanish (European)", ":ara:spa:57:::LW", "param_dstLang", 3);				
+	}
+	
+	//Bulgarian
+	if(str==2)	{
+		appendDropDown("English", ":bul:eng:248:::LW", "param_dstLang", 1);
+	}
+	
+	//Chinese (Simplified)
+	if(str==3)	{
+		appendDropDown("English", ":chi:eng:58:::LW", "param_dstLang", 1);
+	}
+	
+
+	//Chinese (Traditional)
+	if(str==4)	{
+		appendDropDown("English", ":cht:eng:88:::LW", "param_dstLang", 1);
+	}
+	
+	//Czech
+	if(str==5)	{
+		appendDropDown("English", ":cze:eng:89:::LW", "param_dstLang", 1);
+	}
+	
+	//Danish
+	if(str==6)	{
+		appendDropDown("English", ":dan:eng:96:::LW", "param_dstLang", 1);
+	}
+	
+	//Dutch
+	if(str==7)	{
+		appendDropDown("English", "Dutch/English::::core::ETS", "param_dstLang", 1);
+	}
+	
+	//English
+	if(str==8)	{
+		appendDropDown("Arabic", ":eng:ara:59:::LW", "param_dstLang", 1);
+		appendDropDown("Bulgarian", ":eng:bul:249:::LW", "param_dstLang", 2);
+		appendDropDown("Chinese (Simplified)", ":eng:chi:423:::LW", "param_dstLang", 3);
+		appendDropDown("Chinese (Traditional)", ":eng:chi:423:::LW", "param_dstLang", 4);
+		appendDropDown("Czech", ":eng:cze:81:::LW", "param_dstLang", 5);
+		appendDropDown("Danish", "English/Danish::::core::ETS", "param_dstLang", 6);
+		appendDropDown("Dutch", "English/Dutch::::core::ETS", "param_dstLang", 7);
+		appendDropDown("Finnish", "English/Finnish::::core::ETS", "param_dstLang", 8);
+		appendDropDown("French", "English/French::::core::ETS", "param_dstLang", 9);
+		appendDropDown("German", "English/German::::core::ETS", "param_dstLang", 10);
+		appendDropDown("Greek", ":eng:gre:115:::LW", "param_dstLang", 11);
+		appendDropDown("Hausa", ":eng:hau:110:::LW", "param_dstLang", 12);
+		appendDropDown("Hebrew", ":eng:heb:236:::LW", "param_dstLang", 13);
+		appendDropDown("Hindi", ":eng:hin:99:::LW", "param_dstLang", 14);
+		appendDropDown("Hungarian", ":eng:hun:108:::LW", "param_dstLang", 15);
+		appendDropDown("Italian", "English/Italian::::core::ETS", "param_dstLang", 16);
+		appendDropDown("Japanese", "English/Japanese::::core::TETS9", "param_dstLang", 17);
+		appendDropDown("Korean", ":eng:kor:100:::LW", "param_dstLang", 18);
+		appendDropDown("Norwegian", "English/Norwegian::::core::ETS", "param_dstLang", 19);
+		appendDropDown("Persian", ":eng:per:75:::LW", "param_dstLang", 20);
+		appendDropDown("Polish", ":eng:pol:83:::LW", "param_dstLang", 21);
+		appendDropDown("Portuguese (European)", "English/Portuguese:::::European:ETS", "param_dstLang", 22); //Dun put core. Because it use other dictionary.
+		appendDropDown("Portuguese (Brazilian)", "English/Portuguese:::::Brazilian:ETS", "param_dstLang", 23);
+		
+		appendDropDown("Pashto", ":eng:pus:379:::LW", "param_dstLang", 24);
+		appendDropDown("Romanian", ":eng:rum:101:::LW", "param_dstLang", 25);
+		//appendDropDown("Russian", "English/Russian::::core::ETS6", "param_dstLang", 26);
+		appendDropDown("Russian", ":eng:rus:424:::LW", "param_dstLang", 26);
+		appendDropDown("Spanish (European)", "English/Spanish:::::European:ETS", "param_dstLang", 27);
+		appendDropDown("Spanish (Mexican)", "English/Spanish:::::Mexican:ETS", "param_dstLang", 28);
+		appendDropDown("Spanish (Latin American)", "English/Spanish:::::LatinAmerican:ETS", "param_dstLang", 29);
+		appendDropDown("Serbian", ":eng:srp:279:::LW", "param_dstLang", 30);
+		appendDropDown("Swedish", "English/Swedish:eng:swe:102:core::ETS", "param_dstLang", 31);
+		appendDropDown("Thai", ":eng:tha:251:::LW", "param_dstLang", 32);
+		appendDropDown("Turkish", ":eng:tur:238:::LW", "param_dstLang", 33);
+		appendDropDown("Urdu", ":eng:urd:114:::LW", "param_dstLang", 34);
+	}
+	
+	//Finnish
+	if(str==9)	{
+		appendDropDown("English", ":fin:eng:351:::LW", "param_dstLang", 1);
+	}
+	
+	//French
+	if(str==10)	{
+		appendDropDown("Arabic", ":fra:ara:84:::LW", "param_dstLang", 1);
+		appendDropDown("English", "French/English::::core::ETS", "param_dstLang", 2);
+		appendDropDown("German", "French/German::::core::SETS8", "param_dstLang", 3);
+		appendDropDown("Spanish (European)", "French/Spanish:::92:core::SETS8", "param_dstLang", 4);
+		//appendDropDown("Russian", "French/Russian::::core::SETS8", "param_dstLang", 5);
+	}
+	
+	//German
+	if(str==11)	{
+		appendDropDown("English", "German/English::::core::ETS", "param_dstLang", 1);
+		appendDropDown("French", "German/French::::core::SETS8", "param_dstLang", 2);
+		//appendDropDown("Russian", "German/Russian::::core::SETS8", "param_dstLang", 3);
+		appendDropDown("Spanish (European)", ":ger:spa:95:::LW", "param_dstLang", 4);
+	}
+	
+	//Greek
+	if(str==12)	{
+		appendDropDown("English", ":gre:eng:109:::LW", "param_dstLang", 1);
+	}
+	
+	//Hausa
+	if(str==13)	{
+		appendDropDown("English", ":hau:eng:116:::LW", "param_dstLang", 1);
+	}
+	
+	//Hebrew
+	if(str==14)	{
+		appendDropDown("English", ":heb:eng:237:::LW", "param_dstLang", 1);
+	}
+	
+	//Hindi
+	if(str==15)	{
+		appendDropDown("English", ":hin:eng:85:::LW", "param_dstLang", 1);
+	}
+	
+	//Hungarian
+	if(str==16)	{
+		appendDropDown("English", ":hun:eng:112:::LW", "param_dstLang", 1);
+	}
+	
+	//Italian
+	if(str==17)	{
+		appendDropDown("English", "Italian/English::::core::ETS", "param_dstLang", 1);
+		appendDropDown("Spanish (European)", ":ita:spa:107:::LW", "param_dstLang", 2);
+		//appendDropDown("Russian", "Italian/Russian::::core::SETS8", "param_dstLang", 3);
+	}
+	
+	//Japanese
+	if(str==18)	{
+		appendDropDown("English", "Japanese/English:jpn:eng:93:core::TETS9", "param_dstLang", 1);
+	}
+	
+	//Korean
+	if(str==19)	{
+		appendDropDown("English", ":kor:eng:104:::LW", "param_dstLang", 1);
+	}
+	
+	//Norwegian
+	if(str==20)	{
+		appendDropDown("English", ":nor:eng:117:::LW", "param_dstLang", 1);
+	}
+	
+	//Persian
+	if(str==21)	{
+		appendDropDown("English", ":per:eng:105:::LW", "param_dstLang", 1);		
+	}
+	
+	//Polish
+	if(str==22)	{
+		appendDropDown("English", ":pol:eng:79:::LW", "param_dstLang", 1);
+	}
+	
+	//Portuguese (Brazilian)
+	if(str==23)	{
+		appendDropDown("English", "Portuguese/English::::core::ETS", "param_dstLang", 1);
+	}
+	
+	//Portuguese (European)
+	if(str==24)	{
+		appendDropDown("English", "Portuguese/English::::core::ETS", "param_dstLang", 1);
+	}
+	
+	//Pashto
+	if(str==25)	{
+		appendDropDown("English", ":pus:eng:380:::LW", "param_dstLang", 1);
+	}
+	
+	//Romanian
+	if(str==26)	{
+		appendDropDown("English", ":rum:eng:86:::LW", "param_dstLang", 1);
+	}
+
+	//Russian
+	if(str==27)	{
+		appendDropDown("English", ":rus:eng:1451:::LW", "param_dstLang", 1);
+		//appendDropDown("French", "Russian/French::::core::SETS8", "param_dstLang", 2);
+		//appendDropDown("German", "Russian/German::::core::SETS8", "param_dstLang", 3);
+		//appendDropDown("Spanish (European)", "Russian/Spanish::::core::SETS8", "param_dstLang", 4);
+	}
+
+	//Somali
+	if(str==28)	{
+		appendDropDown("English", ":som:eng:94:::LW", "param_dstLang", 1);
+	}
+	
+	//Spanish (Latin American)
+	if(str==29)	{
+		appendDropDown("English", "Spanish/English::::core::ETS", "param_dstLang", 1);
+	}	
+	//Spanish (Mexican)
+	if(str==30)	{
+		appendDropDown("English", "Spanish/English::::core::ETS", "param_dstLang", 1);
+	}
+	//Spanish (European)
+	if(str==31)	{
+		appendDropDown("Arabic", ":spa:ara:68:::LW", "param_dstLang", 1);
+		appendDropDown("English", "Spanish/English::::core::ETS", "param_dstLang", 2);
+		appendDropDown("French", "Spanish/French::::core::SETS8", "param_dstLang", 3);
+		//appendDropDown("Russian", "Spanish/Russian::::core::SETS8", "param_dstLang", 4);		
+	}
+	
+	//Serbian
+	if(str==32)	{
+		appendDropDown("English", ":srp:eng:278:::LW", "param_dstLang", 1);
+	}
+	
+	//Swedish
+	if(str==33)	{
+		appendDropDown("English", ":swe:eng:80:::LW", "param_dstLang", 1);
+	}
+	
+	//Thai
+	if(str==34)	{
+		appendDropDown("English", ":tha:eng:250:::LW", "param_dstLang", 1);
+	}
+	
+	//Turkish
+	if(str==35)	{
+		appendDropDown("English", ":tur:eng:239:::LW", "param_dstLang", 1);
+	}
+	
+	//Urdu
+	if(str==36)	{
+		appendDropDown("English", ":urd:eng:111:::LW", "param_dstLang", 1);
+	}
+	
+	
+	getObj("param_dstLang").options[getObj("param_dstLang").selectedIndex].text
+	
+	
+	for (var i = 0; i < getObj("param_dstLang").options.length; i++){
+		if (getObj("param_dstLang").options[i].text ==  lasttrg){
+		getObj("param_dstLang").selectedIndex = i;
+		}
+	}
+}
+
+function isChecked(oElement){
+var bChecked=false;
+if(isNaN(oElement.length)){if(oElement.checked)bChecked=true;}
+else{for(i=0;i<oElement.length;i++){if(oElement[i].checked)bChecked=true;}}
+return bChecked;
+}
+function ValidateForm(oForm){
+	var oRegEx = new RegExp("\.doc$|\.pdf$|\.rtf$|\.htm$|\.html$|\.txt$", "gi");
+	var val = oForm.FILE001.value + "";
+	var regExResult = oRegEx.test(val);
+	
+	if(oForm.textTypeID&&oForm.textTypeID.type!="hidden"&&!isChecked(oForm.textTypeID)){
+		alert("Please select your type of text.");
+		oForm.textTypeID[0].focus();
+		return false;
+	}
+	if(isEmpty(oForm.FILE001.value)){
+		alert("Please select a document for translation.");
+		oForm.FILE001.focus();
+		return false;
+	}
+	if(!regExResult){
+		alert("Please check that your document is one of the following formats and has the correct file extension:\n\n- Microsoft Word Document (*.doc, *.rtf)\n- Adobe Portable Document Format (*.pdf)\n- Rich Text Format (*.rtf)\n- HTML Document (*.htm, *.html)\n- Text Only (*.txt)\n\nOther file types can be uploaded for a manual estimate at: http://www.click2translate.com/");
+		oForm.FILE001.focus();
+		return false;
+	}
+	if(oForm.FILE001.value.search(/pdf$/gi)>-1){
+		if(!confirm("You have selected a PDF file to upload for translation.\n\nPDF files are usually created from an original editable file format such as:\n\n\t- Microsoft Word\n\t- Quark\n\t- Adobe InDesign\n\t- Microsoft Publisher\n\t- Adobe Illustrator\n\t- etc.\n\nEditable files make the translation process easier, allowing us to return your translations in their original format.\n\nClick \"OK\" if you don\'t have the original file and wish to continue uploading your PDF.\n\nClick \"Cancel\" to select and upload the original file instead.")){
+			oForm.FILE001.focus();
+			return false;
+		}
+	}
+	if(oForm.targetLanguageIDs.selectedIndex==-1){
+		alert("Please select at least one target language.");
+		oForm.targetLanguageIDs.focus();
+		return false;
+	}
+	return true;
+}
+
+var blnDoneUpload=false;
+function DoUpload(oButton){
+	var intUniqueID=(new Date()).getTime()%1000000000;
+	if(!blnDoneUpload){
+		blnDoneUpload=true;
+		oButton.disabled=true;
+		var sUrl="http://www.click2translate.com/quote/upload_progress_bar_en_us.asp?ID="+intUniqueID;
+		var iHeight=isXPSP2?140:120;
+		var iWidth=500;
+		if(window.showModelessDialog){window.showModelessDialog(sUrl,window,"dialogHeight:"+eval(iHeight+20)+"px;dialogWidth:"+eval(iWidth+10)+"px;help:no;scroll:no;status:no;");}
+		else{window.open(sUrl,"progress","directories=no,height="+iHeight+",left="+((screen.width-500)/2)+",location=no,menubar=no,resizable=no,scrollbars=no,status=no,toolbar=no,top="+((screen.height-120)/2-50)+",width="+iWidth);}
+		oButton.form.action+="?ID="+intUniqueID;
+		oButton.form.submit();
+	}
+}
+
+function populateTargetLanguages(oSrc){
+	var bMultiple=(oSrc.form.targetLanguageIDs.type=="select-multiple")?true:false;
+	switch(oSrc[oSrc.selectedIndex].value){
+		case '113':
+			oSrc.form.targetLanguageIDs.length=62;
+			oSrc.form.targetLanguageIDs[0].value=9;
+			oSrc.form.targetLanguageIDs[0].text='Afrikaans';
+			oSrc.form.targetLanguageIDs[1].value=44;
+			oSrc.form.targetLanguageIDs[1].text='Albanian';
+			oSrc.form.targetLanguageIDs[2].value=10;
+			oSrc.form.targetLanguageIDs[2].text='Arabic';
+			oSrc.form.targetLanguageIDs[3].value=123;
+			oSrc.form.targetLanguageIDs[3].text='Armenian';
+			oSrc.form.targetLanguageIDs[4].value=128;
+			oSrc.form.targetLanguageIDs[4].text='Bengali (Bangla)';
+			oSrc.form.targetLanguageIDs[5].value=212;
+			oSrc.form.targetLanguageIDs[5].text='Bosnian';
+			oSrc.form.targetLanguageIDs[6].value=11;
+			oSrc.form.targetLanguageIDs[6].text='Bulgarian';
+			oSrc.form.targetLanguageIDs[7].value=57;
+			oSrc.form.targetLanguageIDs[7].text='Chinese (Simplified)';
+			oSrc.form.targetLanguageIDs[8].value=59;
+			oSrc.form.targetLanguageIDs[8].text='Chinese (Traditional)';
+			oSrc.form.targetLanguageIDs[9].value=13;
+			oSrc.form.targetLanguageIDs[9].text='Croatian';
+			oSrc.form.targetLanguageIDs[10].value=14;
+			oSrc.form.targetLanguageIDs[10].text='Czech';
+			oSrc.form.targetLanguageIDs[11].value=15;
+			oSrc.form.targetLanguageIDs[11].text='Danish';
+			oSrc.form.targetLanguageIDs[12].value=16;
+			oSrc.form.targetLanguageIDs[12].text='Dutch';
+			oSrc.form.targetLanguageIDs[13].value=17;
+			oSrc.form.targetLanguageIDs[13].text='Estonian';
+			oSrc.form.targetLanguageIDs[14].value=18;
+			oSrc.form.targetLanguageIDs[14].text='Farsi';
+			oSrc.form.targetLanguageIDs[15].value=19;
+			oSrc.form.targetLanguageIDs[15].text='Finnish';
+			oSrc.form.targetLanguageIDs[16].value=20;
+			oSrc.form.targetLanguageIDs[16].text='French for Canada';
+			oSrc.form.targetLanguageIDs[17].value=3;
+			oSrc.form.targetLanguageIDs[17].text='French for France';
+			oSrc.form.targetLanguageIDs[18].value=71;
+			oSrc.form.targetLanguageIDs[18].text='German for Austria';
+			oSrc.form.targetLanguageIDs[19].value=4;
+			oSrc.form.targetLanguageIDs[19].text='German for Germany';
+			oSrc.form.targetLanguageIDs[20].value=21;
+			oSrc.form.targetLanguageIDs[20].text='Greek';
+			oSrc.form.targetLanguageIDs[21].value=145;
+			oSrc.form.targetLanguageIDs[21].text='Gujarati';
+			oSrc.form.targetLanguageIDs[22].value=22;
+			oSrc.form.targetLanguageIDs[22].text='Hebrew';
+			oSrc.form.targetLanguageIDs[23].value=23;
+			oSrc.form.targetLanguageIDs[23].text='Hindi';
+			oSrc.form.targetLanguageIDs[24].value=210;
+			oSrc.form.targetLanguageIDs[24].text='Hmong';
+			oSrc.form.targetLanguageIDs[25].value=24;
+			oSrc.form.targetLanguageIDs[25].text='Hungarian';
+			oSrc.form.targetLanguageIDs[26].value=50;
+			oSrc.form.targetLanguageIDs[26].text='Icelandic';
+			oSrc.form.targetLanguageIDs[27].value=51;
+			oSrc.form.targetLanguageIDs[27].text='Indonesian';
+			oSrc.form.targetLanguageIDs[28].value=117;
+			oSrc.form.targetLanguageIDs[28].text='Italian';
+			oSrc.form.targetLanguageIDs[29].value=8;
+			oSrc.form.targetLanguageIDs[29].text='Japanese';
+			oSrc.form.targetLanguageIDs[30].value=155;
+			oSrc.form.targetLanguageIDs[30].text='Kazakh';
+			oSrc.form.targetLanguageIDs[31].value=25;
+			oSrc.form.targetLanguageIDs[31].text='Korean';
+			oSrc.form.targetLanguageIDs[32].value=159;
+			oSrc.form.targetLanguageIDs[32].text='Kurdish';
+			oSrc.form.targetLanguageIDs[33].value=26;
+			oSrc.form.targetLanguageIDs[33].text='Latvian (Lettish)';
+			oSrc.form.targetLanguageIDs[34].value=27;
+			oSrc.form.targetLanguageIDs[34].text='Lithuanian';
+			oSrc.form.targetLanguageIDs[35].value=163;
+			oSrc.form.targetLanguageIDs[35].text='Macedonian';
+			oSrc.form.targetLanguageIDs[36].value=28;
+			oSrc.form.targetLanguageIDs[36].text='Malay';
+			oSrc.form.targetLanguageIDs[37].value=7;
+			oSrc.form.targetLanguageIDs[37].text='Norwegian';
+			oSrc.form.targetLanguageIDs[38].value=29;
+			oSrc.form.targetLanguageIDs[38].text='Polish';
+			oSrc.form.targetLanguageIDs[39].value=30;
+			oSrc.form.targetLanguageIDs[39].text='Portuguese for Brazil';
+			oSrc.form.targetLanguageIDs[40].value=6;
+			oSrc.form.targetLanguageIDs[40].text='Portuguese for Portugal';
+			oSrc.form.targetLanguageIDs[41].value=177;
+			oSrc.form.targetLanguageIDs[41].text='Punjabi';
+			oSrc.form.targetLanguageIDs[42].value=31;
+			oSrc.form.targetLanguageIDs[42].text='Romanian';
+			oSrc.form.targetLanguageIDs[43].value=32;
+			oSrc.form.targetLanguageIDs[43].text='Russian';
+			oSrc.form.targetLanguageIDs[44].value=52;
+			oSrc.form.targetLanguageIDs[44].text='Serbian';
+			oSrc.form.targetLanguageIDs[45].value=184;
+			oSrc.form.targetLanguageIDs[45].text='Sesotho';
+			oSrc.form.targetLanguageIDs[46].value=33;
+			oSrc.form.targetLanguageIDs[46].text='Slovak';
+			oSrc.form.targetLanguageIDs[47].value=53;
+			oSrc.form.targetLanguageIDs[47].text='Slovenian';
+			oSrc.form.targetLanguageIDs[48].value=190;
+			oSrc.form.targetLanguageIDs[48].text='Somali';
+			oSrc.form.targetLanguageIDs[49].value=34;
+			oSrc.form.targetLanguageIDs[49].text='Spanish for Latin America';
+			oSrc.form.targetLanguageIDs[50].value=2;
+			oSrc.form.targetLanguageIDs[50].text='Spanish for Spain';
+			oSrc.form.targetLanguageIDs[51].value=35;
+			oSrc.form.targetLanguageIDs[51].text='Swahili (Kiswahili)';
+			oSrc.form.targetLanguageIDs[52].value=36;
+			oSrc.form.targetLanguageIDs[52].text='Swedish';
+			oSrc.form.targetLanguageIDs[53].value=37;
+			oSrc.form.targetLanguageIDs[53].text='Tagalog';
+			oSrc.form.targetLanguageIDs[54].value=193;
+			oSrc.form.targetLanguageIDs[54].text='Tamil';
+			oSrc.form.targetLanguageIDs[55].value=38;
+			oSrc.form.targetLanguageIDs[55].text='Thai';
+			oSrc.form.targetLanguageIDs[56].value=39;
+			oSrc.form.targetLanguageIDs[56].text='Turkish';
+			oSrc.form.targetLanguageIDs[57].value=40;
+			oSrc.form.targetLanguageIDs[57].text='Ukrainian';
+			oSrc.form.targetLanguageIDs[58].value=41;
+			oSrc.form.targetLanguageIDs[58].text='Urdu';
+			oSrc.form.targetLanguageIDs[59].value=42;
+			oSrc.form.targetLanguageIDs[59].text='Vietnamese';
+			oSrc.form.targetLanguageIDs[60].value=43;
+			oSrc.form.targetLanguageIDs[60].text='Welsh';
+			oSrc.form.targetLanguageIDs[61].value=209;
+			oSrc.form.targetLanguageIDs[61].text='Zulu';
+			oSrc.form.targetLanguageIDs.selectedIndex=(bMultiple)?-1:49;
+			break;
+		default:
+			oSrc.form.targetLanguageIDs.length=2
+			oSrc.form.targetLanguageIDs[0].value=1;
+			oSrc.form.targetLanguageIDs[0].text='English for United States';
+			oSrc.form.targetLanguageIDs[1].value=60;
+			oSrc.form.targetLanguageIDs[1].text='English for United Kingdom';
+			oSrc.form.targetLanguageIDs.selectedIndex=(bMultiple)?-1:0;
+			break;
+	}
+	if(oSrc.form.targetLanguageIDs.length==1){oSrc.form.targetLanguageIDs[0].selected=true;}
+}
+
+function tabChangeHndlr(e){
+	pageTracker._trackEvent('navigation', 'change tab', 'free home page', myTabs.get('activeIndex'))
+	//alert(myTabs.get('activeIndex'))
+	}
+
+var myTabs = new YAHOO.widget.TabView("ContentTabs");
+
+myTabs.addListener('activeTabChange', tabChangeHndlr);
+
+if (document.referrer) {
+    strURL = document.referrer;
+    if (strURL != null) {
+        strURL = strURL.toLowerCase();
+        
+		
+        //Show panel2
+		var keyWords = ['document','quote', 'price', 'cost', 'charge', 'fee', 'file', 'article','certificate','essay', 'report', 'professional', 'pro', 'business', 'enterprise', 'corporate', 'proffesional']
+		
+		for (var i=0; i<keyWords.length; i++){
+			if (strURL.indexOf(keyWords[i]) > -1) {
+	        myTabs.selectTab(2);	
+			}
+        }
+    }
+}
+
+//Tab used in other pages (apart from Free Homa page) is not a Yahoo tab. 
+//Use hyperlink links to the content in free home page, and attach a hash to activate the section you want to display.
+//e.g.http://dev.freetranslation.com/human-translation-version1.asp#professional
+if 	(window.location.hash){
+	strURLHash = window.location.hash;
+	if (strURLHash != null){
+	  strURLHash = strURLHash.toLowerCase();
+	  if (strURLHash == "#texttranslation"){
+		  myTabs.selectTab(0);	
+	  }else if (strURLHash == "#webtranslation"){
+	      myTabs.selectTab(1);	
+	  }else if (strURLHash == "#professional"){
+	      myTabs.selectTab(2);	
+	  }
+	}
+}
+
+
+
+    google.load("language", "1");
+
+if(navigator.userAgent.match(/iPhone/i)) {
+
+    if (getCookie("iPhone") != "false") {
+        var dtmExpires = new Date(2015, 9, 21, 12, 0, 0);
+        document.cookie = "iPhone=true; expires=" + dtmExpires.toGMTString() + ";";
+        document.location.href = "/iphone/";
+    }
+}
+                
+
+        
+function enableSubmitButton(){
+	document.frmTextTranslator.Submit.disabled = false;
+}
+        
+		
+var scrSelectedOnce = false;
+function bodyLoad(){
+	document.getElementById("param_srcLang").onclick = function(){
+		scrSelectedOnce = true;
+	}
+	
+	//detect language. Not in the page yet,.
+	document.getElementById("detectLanguage").onclick = detectLang;
+   
+	document.frmTextTranslator.srctext.onkeyup = function(e){	
+		var evt;
+		if (window.event) {
+			evt = window.event
+		} else {
+			evt = e
+		}
+	
+		if (evt.keyCode == 32 && document.frmTextTranslator.srctext.value.length > 2 && !scrSelectedOnce) {
+			scrSelectedOnce = true;
+			//var text = document.getElementsByName("srctext")[0].value;
+			var text = document.getElementById("srctext").value;
+			if (text.length > 1) {
+				google.language.detect(text, function(result){
+					if (!result.error) {
+						var language = "";
+						for (l in google.language.Languages) {
+							if (google.language.Languages[l] == result.language) {
+								l = l.replace(/_TRADITIONAL/g, "");
+								l = l.replace(/_SIMPLIFIED/g, "");
+								break;
+							}
+						}
+						selectItem(document.frmTextTranslator.srcLang, l);
+						setSubLanguages(document.frmTextTranslator.srcLang.selectedIndex);
+						setLastChoices(true); 
+						
+						
+						
+					}
+				})
+			}
+		}
+	};
+	
+	//document.frmTextTranslator.srctext.onpaste = document.frmTextTranslator.srctext.onkeyup;
+	
+	//detect the language from google
+	function doTrans(iText, iLanguage, iItem){
+		google.language.translate(iText, "", destlangGoog, function(result){
+			if (!result.error) {
+				iItem.val(result.translation);
+			}
+		});
+	}
+};
+
+
+
+	<!--
+	// POPULATES TARGET LANGUAGES FOR WHEN A SOURCE LANGUAGE IS ALREADY SELECTED ONLOAD
+	//populateTargetLanguages(document.frmUpload.sourceLanguageID);
+	//-->
+
+
+
+//There are 3 submit buttons on the page now. 1 main buttons plus 2 result buttons. 
+//Each time user click on the result button (either free or google), set the last result preference into cookies. 
+//The main button should know which function to call according to the last result preference. 
+//If no cookies found, then defaulted to Free's result. 
+function submitButtonBahaviour(btnSource){
+	document.getElementById('resptext').className='progress';
+	document.getElementById('resptext').value="";
+	if (btnSource == "main"){
+		if (already){ 
+			setnag(); 
+			settle(); 
+            // 05-Oct-10 J Prince Removed functionality for Google preference, always start with SDL result
+			/*if (getCookie("resultPreference") == "GOOGLE"){
+				submitFail=!googleTranslate(document.frmTextTranslator,true);
+				document.getElementById('respSupplier').value = 'GOOGLE'; 
+				document.getElementById('resptext').style.backgroundColor = '#B3E4FD';
+				window.document.getElementById('submitbut2').parentNode.className = "free_result free_off";
+				window.document.getElementById('submitbut3').parentNode.className = "google_result google_active";
+				$(".platinum_options").hide('slow');
+               
+
+			}else{*/
+				submitFail=!xl8Txt(document.frmTextTranslator,true, false);
+				document.getElementById('respSupplier').value = 'FREETRANSLATION';
+				document.getElementById('resptext').style.backgroundColor = '#ddffdd';
+				document.getElementById('submitbut2').parentNode.className = "free_result free_active";
+				document.getElementById('submitbut3').parentNode.className = "google_result google_off";
+var typeHI = document.getElementById("param_transType");	
+	if (typeHI.value=="ETS"){
+		$(".platinum_options").show('fast');
+	}
+	else {
+		$(".platinum_options").hide('slow');
+
+
+	}
+			//}
+		} else {return false;} 
+	}else if (btnSource == "freeResult"){
+		if (already){ 
+			setnag(); 
+			settle(); 
+			submitFail=!xl8Txt(document.frmTextTranslator,true, false);
+		} else {return false;} 
+		document.getElementById('respSupplier').value = 'FREETRANSLATION'; 
+		setCookie('resultPreference','FREETRANSLATION');
+		document.getElementById('resptext').style.backgroundColor = '#ddffdd';
+						document.getElementById('submitbut2').parentNode.className = "free_result free_active";
+				document.getElementById('submitbut3').parentNode.className = "google_result google_off";
+	}else if (btnSource == "googleResult"){
+		if (already){ 
+			setnag(); 
+			settle(); 
+			submitFail=!googleTranslate(document.frmTextTranslator,true);
+		} else {return false;} 
+		document.getElementById('respSupplier').value = 'GOOGLE';
+        //setcookie commented out by Ife Adebayo on 03/11/2010 to prevent platinum club setting goole option cookies
+		//setCookie('resultPreference','GOOGLE');
+		document.getElementById('resptext').style.backgroundColor = '#B3E4FD';
+		document.getElementById('submitbut2').parentNode.className = "free_result free_off";
+		document.getElementById('submitbut3').parentNode.className = "google_result google_active";
+
+		$(".platinum_options").hide('slow');
+
+	}		
+}
+
+
+
+<!-- Scripts for feedback box popup -->
+
+var noTranslations = 0;
+var stickyId = Math.floor(Math.random()*5)-1;	
+
+function setnag(){		
+document.getElementById("results_area").className="results_area";
+
+	noTranslations++;
+	if (noTranslations==1){
+		revealeLinks();
+		
+	$(".results_area").get()[0].className = "results_area";
+	//if (!isPlat && getCookie("resultPreference") != "GOOGLE"){$(".google_signpost").fadeIn(700);}
+	}
+	
+	
+	if ((typeof isPlat == "undefined" || !isPlat) && (noTranslations==2 || getCookie('hasnaggedandtransd') != 'y')){
+		setCookie('hasnaggedandtransd', 'y'); 
+		//setTimeout(function(){$('a.iframe').click();}, 1000);
+if (isAOLUser){stickyId=1} else {
+if (stickyId==3){stickyId=1}}
+$(document).ready(function () {
+							
+							var tim = setTimeout(function(){
+															  $(".free_popup:eq(" + stickyId + ")").fadeIn(600)
+								  
+															  }, 4000)
+	
+});
+	}	
+}
+	
+$(document).ready(function(){
+	$("#feedbackButton").fancybox({
+		'zoomSpeedIn': 200,
+		'zoomSpeedOut': 600,
+		'overlayShow': true,
+		'frameWidth': 340,
+		'titleShow': false,
+		'frameHeight': 370
+	});
+	
+	if (!isPlat){
+	$("#listen").fancybox({
+		'zoomSpeedIn': 0,
+		'zoomSpeedOut': 600,
+		'overlayShow': true,
+		'frameWidth': 740,
+		'frameHeight': 570,
+		'titleShow': false,
+		'callbackOnClose': onListenPopClose
+	});
+	}
+
+
+if (!isPlat){
+	$("#email").fancybox({
+		'zoomSpeedIn': 0,
+		'zoomSpeedOut': 600,
+		'overlayShow': true,
+		'frameWidth': 740,
+		'frameHeight': 570,
+		'titleShow': false,
+		'callbackOnClose': onListenPopClose
+	});
+	}
+
+	//SpellCheck();
+
+	already = true;
+	document.getElementById("submitbut").style.cursor="default";
+	
+	setLanguageCombination(document.frmTextTranslator.dstLang[document.frmTextTranslator.dstLang.selectedIndex].value);
+	
+	
+	
+	//document.getElementById("SDLTransIframe").contentWindow.ini()
+
+	
+	
+	
+	//document.getElementById("submitbut2").style.cursor="default";
+	//document.getElementById("submitbut3").style.cursor="default";
+
+	//Pre-set user last translation preferences.
+	/*if (getCookie("resultPreference") == "GOOGLE"){
+		document.getElementById('resptext').style.backgroundColor = '#B3E4FD';
+		window.document.getElementById('submitbut2').parentNode.className = "free_result free_off";
+		window.document.getElementById('submitbut3').parentNode.className = "google_result google_active";
+
+	}else{
+		document.getElementById('resptext').style.backgroundColor = '#ddffdd';
+		document.getElementById('submitbut2').parentNode.className = "free_result free_active";
+		document.getElementById('submitbut3').parentNode.className = "google_result google_off";
+	}
+*/
+});
+    
+	
+/**
+ *
+ *  Javascript trim, ltrim, rtrim
+ *  http://www.webtoolkit.info/
+ *
+ **/
+function trim(str, chars){
+	return ltrim(rtrim(str, chars), chars);
+}
+
+function ltrim(str, chars){
+	chars = chars || "\\s";
+	return str.replace(new RegExp("^[" + chars + "]+", "g"), "");
+}
+
+function rtrim(str, chars){
+	chars = chars || "\\s";
+	return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
+}
+/*****************************************************************/
+
+function isURL(strin){
+	strin = trim(strin);
+	var regx = /([http:\/\/]|[https:\/\/])?[\w|#]([\w|#]*)?\.([\w|#][\w|#]*)[^\s]*/;		
+	if (strin.match(regx) != null && strin.match(regx)[0].length >= strin.length / 2 && strin.indexOf(" ") <= 0) {
+		return true;
+	}
+	return false;
+}
+
+
+/*if (document.referrer) {
+	strURL = document.referrer;
+	if (strURL != null) {
+		strURL = strURL.toLowerCase();			
+		//Show panel2
+		if (strURL.indexOf("professional") > -1 || strURL.indexOf("pro ") > -1 || strURL.indexOf("business") > -1 || strURL.indexOf("corporate") > -1) {
+			TabbedPanels1.showPanel(2);
+		}
+	}
+}*/
+		
+function detectLang(e){	
+	//var text = document.getElementById("keyboardInputInitiator0").value;
+	//var text = document.getElementsByName("srctext")[0].value;		
+	var text = document.getElementById("srctext").value;
+	if (text.length > 1) {
+		google.language.detect(text, function(result){
+			if (!result.error) {
+				var language = "";
+				for (l in google.language.Languages) {
+					if (google.language.Languages[l] == result.language) {
+						l = l.replace(/_TRADITIONAL/g, "");
+						l = l.replace(/_SIMPLIFIED/g, "");
+						break;
+					}
+				}
+				selectItem(document.frmTextTranslator.srcLang, l);
+				setSubLanguages(document.frmTextTranslator.srcLang.selectedIndex);
+				setLanguageCombination(document.frmTextTranslator.dstLang[document.frmTextTranslator.dstLang.selectedIndex].value);
+			}
+		})
+	}
+	
+}
+                
+document.frmTextTranslator.srctext.onkeypress = function(e){	
+var evt;
+if (window.event) {
+	evt = window.event
+} else {
+	evt = e
+}
+	
+if (evt.keyCode == 32 && document.frmTextTranslator.srctext.value.length > 2  && (!scrSelectedOnce || document.getElementById("param_srcLang").selectedIndex == 0)) {
+	scrSelectedOnce = true;
+	//var text = document.getElementsByName("srctext")[0].value;
+	var text = document.getElementById("srctext").value;
+	if (text.length > 1) {
+		google.language.detect(text, function(result){
+			if (!result.error) {
+				var language = "";
+				for (l in google.language.Languages) {
+					if (google.language.Languages[l] == result.language) {
+						l = l.replace(/_TRADITIONAL/g, "");
+						l = l.replace(/_SIMPLIFIED/g, "");
+						break;
+					}
+				}
+				selectItem(document.frmTextTranslator.srcLang, l);
+				setSubLanguages(document.frmTextTranslator.srcLang.selectedIndex);
+				setLanguageCombination(document.frmTextTranslator.dstLang[document.frmTextTranslator.dstLang.selectedIndex].value);
+			}
+		})
+	}
+}
+};
+		
+document.frmTextTranslator.srctext.onkeyup = document.frmTextTranslator.srctext.onkeypress;        
+document.frmTextTranslator.srctext.onpaste = function(){setTimeout(function(){
+	if (document.frmTextTranslator.srctext.value.length > 2) {
+		scrSelectedOnce = true;
+		//var text = document.getElementsByName("srctext")[0].value;
+		var text = document.getElementById("srctext").value;
+		if (text.length > 1) {
+			google.language.detect(text, function(result){
+				if (!result.error) {
+					var language = "";
+					for (l in google.language.Languages) {
+						if (google.language.Languages[l] == result.language) {
+							l = l.replace(/_TRADITIONAL/g, "");
+							l = l.replace(/_SIMPLIFIED/g, "");
+							break;
+						}
+					}
+					selectItem(document.frmTextTranslator.srcLang, l);
+					setSubLanguages(document.frmTextTranslator.srcLang.selectedIndex);
+					setLanguageCombination(document.frmTextTranslator.dstLang[document.frmTextTranslator.dstLang.selectedIndex].value);
+				}
+			})
+		}
+	}
+}, 100);}
+	
+//detect the language from google
+function doTrans(iText, iLanguage, iItem){
+	google.language.translate(iText, "", destlangGoog, function(result){
+		if (!result.error) {
+			iItem.val(result.translation);
+		}
+	});
+}
+setLastChoices();
+
+function setLastChoices(trgOnly){
+	var _trgonly = false;
+	if (typeof trgOnly != "undefined" && trgOnly){_trgonly = true}
+		var trgsel = document.frmTextTranslator.dstLang;
+
+		var srcsel = document.frmTextTranslator.srcLang;
+		var lastSrc = getCookie('srcLanguage');
+		var lastTrg = getCookie('dstLanguage');
+		if (_trgonly == false){
+			for (var i = 0; i < srcsel.length; i++) {
+				if (srcsel.options[i].text == lastSrc) {
+				srcsel.selectedIndex = i;		
+				}
+			};
+			setSubLanguages(srcsel.selectedIndex);
+		}
+		for (var i = 0; i < trgsel.length; i++) {
+			if (trgsel.options[i].text == lastTrg) {
+				trgsel.selectedIndex = i;
+				
+			}
+		};
+		setLanguageCombination(trgsel[trgsel.selectedIndex].value)
+}
+	
+function settle(){
+	var trgsel = document.frmTextTranslator.dstLang;
+	var srcsel = document.frmTextTranslator.srcLang;
+	setSubLanguages(srcsel.selectedIndex);
+	setLanguageCombination(trgsel[trgsel.selectedIndex].value)
+}
+	
+function swap(){
+	var cursrc;
+	var curtrg;
+	var trgsel = document.frmTextTranslator.dstLang;
+	var srcsel = document.frmTextTranslator.srcLang;
+	cursrc = srcsel.options[srcsel.selectedIndex].text;
+	curtrg = trgsel.options[trgsel.selectedIndex].text;
+	
+	for (var i = 0; i < srcsel.length; i++) {
+		if (srcsel.options[i].text == curtrg) {
+			srcsel.selectedIndex = i;
+			
+		}
+	};
+	setSubLanguages(srcsel.selectedIndex);
+	for (var i = 0; i < trgsel.length; i++) {
+		if (trgsel.options[i].text == cursrc) {
+			trgsel.selectedIndex = i;
+			
+		}
+	};
+	setLanguageCombination(trgsel[trgsel.selectedIndex].value)
+}
+var siteversion = 4;
+
+// hideLinks();
+
+function closeThisY(el, levels){
+
+
+	var cont;
+	cont = el;
+	var attributes = {		
+		opacity: {
+			to: 0
+		},
+                height: {
+                        to: 0}
+	};
+var anim1 = new YAHOO.util.Anim(cont.parentNode, attributes);
+anim1.duration = 0.5;
+anim1.animate();
+var anim = new YAHOO.util.Anim(cont.parentNode.parentNode, attributes);
+anim.duration = 0.5;
+anim.animate();
+var tim = setTimeout("document.getElementById('sticky').style.display='none'", 1000);
+
+
+}
+
+
+function closeThis(el, levels){
+$(el.parentNode.parentNode).fadeOut(500, function(){$("#sticky").get()[0].style.display="none";})
+}
+
+
+
+function revealeLinks(){	   
+	var attributes = {		
+		height: {
+			to: 160
+		}
+	};
+	var element;
+	var myAnim;
+	
+	for (var i = 1; i < 5; i++) {
+		element = document.getElementById('hidelist' + i);
+		//element.style.overflow = "hidden";
+		myAnim = new YAHOO.util.Anim('hidelist' + i, attributes);
+		myAnim.duration = 2;
+		myAnim.animate();
+	};
+}
+			
+if (getCookie('reveal') != 'y'){revealeLinks();setCookie('reveal', 'y'); }
+	//if (getCookie('updatenag') != 'y'){setCookie('updatenag', 'y'); setTimeout("$('a.iframe').click();", 30000);}
+function refreshAds(){
+	if(window.frames["bannerAd"]){
+		
+		try {
+	window.frames["bannerAd"].location.reload(true);
+	window.frames["squareAd"].location.reload(true);
+		}
+		catch(err){
+		}
+
+	}
+}
+setInterval("refreshAds()", 500000);
+
+
+
+        
+        demogDataObj = {
+            url: "",
+            student: 0,
+            Business: 0,
+            home: 0
+        }
+        
+        function getStyle(oElm, strCssRule){
+            var strValue = "";
+            if (document.defaultView && document.defaultView.getComputedStyle) {
+                strValue = document.defaultView.getComputedStyle(oElm, "").getPropertyValue(strCssRule);
+            }
+            else 
+                if (oElm.currentStyle) {
+                    strValue = oElm.currentStyle[strCssRule];
+                }
+            return strValue;
+        }
+        
+        
+        var linksData = new Array();
+        
+        linksData = [{
+            url: "http://www.aol.com/",
+            student: 5,
+            Business: -5,
+            home: 5
+        },
+		{
+            url: "http://www.aol.co.uk/",
+            student: 5,
+            Business: -5,
+            home: 5
+        },
+		{
+            url: "http://www.aol.de/",
+            student: 5,
+            Business: -5,
+            home: 5
+        },
+		{
+            url: "http://www.aol.fr/",
+            student: 5,
+            Business: -5,
+            home: 5
+        },
+		{
+            url: "http://www.aim.com/",
+            student: 5,
+            Business: -5,
+            home: 5
+        },{
+            url: "http://products.aim.com/",
+            student: 5,
+            Business: -5,
+            home: 5
+        },
+		{
+            url: "http://www.aol.in/",
+            student: 5,
+            Business: -5,
+            home: 5
+        },
+		{
+            url: "http://www.aolatschool.com/",
+            student: 5,
+            Business: -5,
+            home: 5
+        }]
+        
+        Demogeval = function(){
+        
+        
+        
+        }
+        var isAOLUser = false;
+        var isAppleUser = false;
+        var isFacebookUser = false;
+        
+        createlinks = function(){
+            for (var i = 0; i < linksData.length - 1; i++) {
+            
+                hyper = document.createElement("A");
+                hyper.href = linksData[i].url;
+                hyper.innerHTML = linksData[i].url;
+                hyper.id = "demogeval" + parseInt(i);
+                hyper.className = "demogeval"
+                hyper = document.body.appendChild(hyper);
+            };
+            
+            }
+        
+        function addGlobalStyle(css){
+            var head, style;
+            head = document.getElementsByTagName('head')[0];
+            
+            style = document.createElement('style');
+            style.type = 'text/css';
+            style.innerHTML = css;
+            head.appendChild(style);
+        }
+        
+        //addGlobalStyle('a.demogeval {position:absolute; left:-1000px} a.demogeval:link {color:#FF0000;} a.demogeval:visited {color:#00FF00;}');
+        createlinks();
+        var curstudent = 0;
+        var curbusiness = 0;
+        var curhome = 0;
+        var curDataObj;
+        var hyper = document.getElementById("demogeval");
+
+
+
+        var curcolor = "";
+        for (var i = 0; i < linksData.length - 1; i++) {
+            hyper = document.getElementById("demogeval" + parseInt(i));
+            curDataObj = linksData[i];
+            hyper.href = curDataObj.url;
+            curcolor = getStyle(hyper, "color");
+            if (curcolor == "rgb(0, 255, 0)" || curcolor == "#00ff00") {
+                if (curDataObj.url == "http://www.aol.com/" || curDataObj.url == "http://www.aol.co.uk/"  || curDataObj.url == "http://www.aol.de/" || curDataObj.url == "http://www.aol.fr/" || curDataObj.url == "http://www.aol.in/" || curDataObj.url == "http://www.aim.com/" || curDataObj.url == "http://www.aolatschool.com/" || curDataObj.url == "http://products.aim.com/") {
+                    isAOLUser = true;
+                }
+
+                if (curDataObj.url == "http://www.facebook.com/home.php") {
+                    isFacebookUser = true;
+                }
+                
+                if (curDataObj.url == "http://www.apple.com" || curDataObj.url == "http://www.apple.com/itunes/") {
+                    isAppleUser = true;
+                }
+                curstudent = curstudent + curDataObj.student;
+                curbusiness = curbusiness + curDataObj.Business;
+                curhome = curhome + curDataObj.home;
+            }
+            hyper.parentNode.removeChild(hyper);
+        }
+        
+
+
+/*
+ * jQuery Color Animations
+ * Copyright 2007 John Resig
+ * Released under the MIT and GPL licenses.
+ */
+
+(function(jQuery){
+
+	// We override the animation for all of these color styles
+	jQuery.each(['backgroundColor', 'borderBottomColor', 'borderLeftColor', 'borderRightColor', 'borderTopColor', 'color', 'outlineColor'], function(i,attr){
+		jQuery.fx.step[attr] = function(fx){
+			if ( fx.state == 0 ) {
+				fx.start = getColor( fx.elem, attr );
+				fx.end = getRGB( fx.end );
+			}
+
+			fx.elem.style[attr] = "rgb(" + [
+				Math.max(Math.min( parseInt((fx.pos * (fx.end[0] - fx.start[0])) + fx.start[0]), 255), 0),
+				Math.max(Math.min( parseInt((fx.pos * (fx.end[1] - fx.start[1])) + fx.start[1]), 255), 0),
+				Math.max(Math.min( parseInt((fx.pos * (fx.end[2] - fx.start[2])) + fx.start[2]), 255), 0)
+			].join(",") + ")";
+		}
+	});
+
+	// Color Conversion functions from highlightFade
+	// By Blair Mitchelmore
+	// http://jquery.offput.ca/highlightFade/
+
+	// Parse strings looking for color tuples [255,255,255]
+	function getRGB(color) {
+		var result;
+
+		// Check if we're already dealing with an array of colors
+		if ( color && color.constructor == Array && color.length == 3 )
+			return color;
+
+		// Look for rgb(num,num,num)
+		if (result = /rgb\(\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*\)/.exec(color))
+			return [parseInt(result[1]), parseInt(result[2]), parseInt(result[3])];
+
+		// Look for rgb(num%,num%,num%)
+		if (result = /rgb\(\s*([0-9]+(?:\.[0-9]+)?)\%\s*,\s*([0-9]+(?:\.[0-9]+)?)\%\s*,\s*([0-9]+(?:\.[0-9]+)?)\%\s*\)/.exec(color))
+			return [parseFloat(result[1])*2.55, parseFloat(result[2])*2.55, parseFloat(result[3])*2.55];
+
+
+		// Look for #a0b1c2
+		if (result = /#([a-fA-F0-9]{2})([a-fA-F0-9]{2})([a-fA-F0-9]{2})/.exec(color))
+			return [parseInt(result[1],16), parseInt(result[2],16), parseInt(result[3],16)];
+
+		// Look for #fff
+		if (result = /#([a-fA-F0-9])([a-fA-F0-9])([a-fA-F0-9])/.exec(color))
+			return [parseInt(result[1]+result[1],16), parseInt(result[2]+result[2],16), parseInt(result[3]+result[3],16)];
+
+		// Otherwise, we're most likely dealing with a named color
+		return colors[jQuery.trim(color).toLowerCase()];
+	}
+	
+	function getColor(elem, attr) {
+		var color;
+
+		do {
+			color = jQuery.curCSS(elem, attr);
+
+			// Keep going until we find an element that has color, or we hit the body
+			if ( color != '' && color != 'transparent' || jQuery.nodeName(elem, "body") )
+				break; 
+
+			attr = "backgroundColor";
+		} while ( elem = elem.parentNode );
+
+		return getRGB(color);
+	};
+	
+	// Some named colors to work with
+	// From Interface by Stefan Petre
+	// http://interface.eyecon.ro/
+
+	var colors = {
+		aqua:[0,255,255],
+		azure:[240,255,255],
+		beige:[245,245,220],
+		black:[0,0,0],
+		blue:[0,0,255],
+		brown:[165,42,42],
+		cyan:[0,255,255],
+		darkblue:[0,0,139],
+		darkcyan:[0,139,139],
+		darkgrey:[169,169,169],
+		darkgreen:[0,100,0],
+		darkkhaki:[189,183,107],
+		darkmagenta:[139,0,139],
+		darkolivegreen:[85,107,47],
+		darkorange:[255,140,0],
+		darkorchid:[153,50,204],
+		darkred:[139,0,0],
+		darksalmon:[233,150,122],
+		darkviolet:[148,0,211],
+		fuchsia:[255,0,255],
+		gold:[255,215,0],
+		green:[0,128,0],
+		indigo:[75,0,130],
+		khaki:[240,230,140],
+		lightblue:[173,216,230],
+		lightcyan:[224,255,255],
+		lightgreen:[144,238,144],
+		lightgrey:[211,211,211],
+		lightpink:[255,182,193],
+		lightyellow:[255,255,224],
+		lime:[0,255,0],
+		magenta:[255,0,255],
+		maroon:[128,0,0],
+		navy:[0,0,128],
+		olive:[128,128,0],
+		orange:[255,165,0],
+		pink:[255,192,203],
+		purple:[128,0,128],
+		violet:[128,0,128],
+		red:[255,0,0],
+		silver:[192,192,192],
+		white:[255,255,255],
+		yellow:[255,255,0]
+	};
+	
+})(jQuery);
+
+
+/*
+ * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
+ *
+ * Uses the built in easing capabilities added In jQuery 1.1
+ * to offer multiple easing options
+ *
+ * TERMS OF USE - jQuery Easing
+ * 
+ * Open source under the BSD License. 
+ * 
+ * Copyright © 2008 George McGinley Smith
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
+ * 
+ * Redistributions of source code must retain the above copyright notice, this list of 
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list 
+ * of conditions and the following disclaimer in the documentation and/or other materials 
+ * provided with the distribution.
+ * 
+ * Neither the name of the author nor the names of contributors may be used to endorse 
+ * or promote products derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *
+*/
+
+// t: current time, b: begInnIng value, c: change In value, d: duration
+jQuery.easing['jswing'] = jQuery.easing['swing'];
+
+jQuery.extend( jQuery.easing,
+{
+	def: 'easeOutQuad',
+	swing: function (x, t, b, c, d) {
+		//alert(jQuery.easing.default);
+		return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+	},
+	easeInQuad: function (x, t, b, c, d) {
+		return c*(t/=d)*t + b;
+	},
+	easeOutQuad: function (x, t, b, c, d) {
+		return -c *(t/=d)*(t-2) + b;
+	},
+	easeInOutQuad: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t + b;
+		return -c/2 * ((--t)*(t-2) - 1) + b;
+	},
+	easeInCubic: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t + b;
+	},
+	easeOutCubic: function (x, t, b, c, d) {
+		return c*((t=t/d-1)*t*t + 1) + b;
+	},
+	easeInOutCubic: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t + b;
+		return c/2*((t-=2)*t*t + 2) + b;
+	},
+	easeInQuart: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t*t + b;
+	},
+	easeOutQuart: function (x, t, b, c, d) {
+		return -c * ((t=t/d-1)*t*t*t - 1) + b;
+	},
+	easeInOutQuart: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t*t + b;
+		return -c/2 * ((t-=2)*t*t*t - 2) + b;
+	},
+	easeInQuint: function (x, t, b, c, d) {
+		return c*(t/=d)*t*t*t*t + b;
+	},
+	easeOutQuint: function (x, t, b, c, d) {
+		return c*((t=t/d-1)*t*t*t*t + 1) + b;
+	},
+	easeInOutQuint: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return c/2*t*t*t*t*t + b;
+		return c/2*((t-=2)*t*t*t*t + 2) + b;
+	},
+	easeInSine: function (x, t, b, c, d) {
+		return -c * Math.cos(t/d * (Math.PI/2)) + c + b;
+	},
+	easeOutSine: function (x, t, b, c, d) {
+		return c * Math.sin(t/d * (Math.PI/2)) + b;
+	},
+	easeInOutSine: function (x, t, b, c, d) {
+		return -c/2 * (Math.cos(Math.PI*t/d) - 1) + b;
+	},
+	easeInExpo: function (x, t, b, c, d) {
+		return (t==0) ? b : c * Math.pow(2, 10 * (t/d - 1)) + b;
+	},
+	easeOutExpo: function (x, t, b, c, d) {
+		return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+	},
+	easeInOutExpo: function (x, t, b, c, d) {
+		if (t==0) return b;
+		if (t==d) return b+c;
+		if ((t/=d/2) < 1) return c/2 * Math.pow(2, 10 * (t - 1)) + b;
+		return c/2 * (-Math.pow(2, -10 * --t) + 2) + b;
+	},
+	easeInCirc: function (x, t, b, c, d) {
+		return -c * (Math.sqrt(1 - (t/=d)*t) - 1) + b;
+	},
+	easeOutCirc: function (x, t, b, c, d) {
+		return c * Math.sqrt(1 - (t=t/d-1)*t) + b;
+	},
+	easeInOutCirc: function (x, t, b, c, d) {
+		if ((t/=d/2) < 1) return -c/2 * (Math.sqrt(1 - t*t) - 1) + b;
+		return c/2 * (Math.sqrt(1 - (t-=2)*t) + 1) + b;
+	},
+	easeInElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		return -(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+	},
+	easeOutElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
+	},
+	easeInOutElastic: function (x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d/2)==2) return b+c;  if (!p) p=d*(.3*1.5);
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		if (t < 1) return -.5*(a*Math.pow(2,10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )) + b;
+		return a*Math.pow(2,-10*(t-=1)) * Math.sin( (t*d-s)*(2*Math.PI)/p )*.5 + c + b;
+	},
+	easeInBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158;
+		return c*(t/=d)*t*((s+1)*t - s) + b;
+	},
+	easeOutBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158;
+		return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
+	},
+	easeInOutBack: function (x, t, b, c, d, s) {
+		if (s == undefined) s = 1.70158; 
+		if ((t/=d/2) < 1) return c/2*(t*t*(((s*=(1.525))+1)*t - s)) + b;
+		return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
+	},
+	easeInBounce: function (x, t, b, c, d) {
+		return c - jQuery.easing.easeOutBounce (x, d-t, 0, c, d) + b;
+	},
+	easeOutBounce: function (x, t, b, c, d) {
+		if ((t/=d) < (1/2.75)) {
+			return c*(7.5625*t*t) + b;
+		} else if (t < (2/2.75)) {
+			return c*(7.5625*(t-=(1.5/2.75))*t + .75) + b;
+		} else if (t < (2.5/2.75)) {
+			return c*(7.5625*(t-=(2.25/2.75))*t + .9375) + b;
+		} else {
+			return c*(7.5625*(t-=(2.625/2.75))*t + .984375) + b;
+		}
+	},
+	easeInOutBounce: function (x, t, b, c, d) {
+		if (t < d/2) return jQuery.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
+		return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
+	}
+});
+
+
+function Copy(text){
+		if( window.clipboardData && clipboardData.setData )
+	{
+		clipboardData.setData("Text", text);
+	}
+}
+
+function Paste(){
+	return clipboardData.getData("Text");
+}
+
+
+function toHuman(oForm){
+	
+	if((!textHasChanged)||document.getElementsByName("srctext")[0].value.length==0||document.getElementsByName("srctext")[0].value.search(/\S/)==-1){
+			alert(s_EnterSomeText);
+			return false;
+		}
+	
+	if (oForm.srcLang.value == ""){
+		alert("Please choose a source language");
+	}else if (oForm.dstLang.value == ""){
+		alert("Please choose a destination language");
+	}else if (oForm.srctext.value == ""){
+		alert("Please enter some text to translate");
+	}else if (oForm.srcLang.value == "Hausa" || oForm.srcLang.value == "Persian" ||  oForm.srcLang.value == "Somali"){
+		alert("Sorry, we currently do not support Human translations for this language.");
+	}else if (oForm.dstLang.options[oForm.dstLang.selectedIndex].text == "Hausa" || oForm.dstLang.options[oForm.dstLang.selectedIndex].text == "Persian" ||  oForm.dstLang.options[oForm.dstLang.selectedIndex].text == "Somali"){
+		alert("Sorry, we currently do not support Human translations for this language.");
+	}else{
+		if (typeof oForm.dstLang.value != "undefined"){
+			var array1 = oForm.dstLang.value.split(":");
+			languagePair = array1[0];
+			var array2 = languagePair.split("/");
+			targetLanguageValue = array2[1];
+		}else{
+			targetLanguageValue = oForm.dstLang.value;
+		}
+		
+		//Create a form on the fly, which reduce the chances of sending extra data or causing any conflict with the existing form for normal translation.
+		var submitHumanForm = document.createElement("FORM");
+		submitHumanForm.method = "POST";
+		document.body.appendChild(submitHumanForm);
+		
+		 
+		//Form field Values
+		var human_source_value = document.createElement('input');
+		human_source_value.setAttribute('type', 'hidden');
+		human_source_value.setAttribute('value', oForm.srcLang.value);
+		human_source_value.setAttribute('name', 'human_source_value');
+	
+		var human_target_value = document.createElement('input');
+		human_target_value.setAttribute('type', 'hidden');
+		human_target_value.setAttribute('value', targetLanguageValue);
+		human_target_value.setAttribute('name', 'human_target_value');
+		
+		var human_sourceText_value = document.createElement('input');
+		human_sourceText_value.setAttribute('type', 'hidden');
+		human_sourceText_value.setAttribute('value', oForm.srctext.value);
+		human_sourceText_value.setAttribute('name', 'human_sourceText_value');
+		
+		//Form field Text
+		var human_source_text = document.createElement('input');
+		human_source_text.setAttribute('type', 'hidden');
+		//alert("::" + oForm.srcLang.options[oForm.srcLang.selectedIndex].text);
+		human_source_text.setAttribute('value', oForm.srcLang.options[oForm.srcLang.selectedIndex].text);
+		human_source_text.setAttribute('name', 'human_source_text');
+	
+		var human_target_text = document.createElement('input');
+		//alert(":BB:" + oForm.dstLang.options[oForm.dstLang.selectedIndex].text);
+		human_target_text.setAttribute('type', 'hidden');
+		human_target_text.setAttribute('value', oForm.dstLang.options[oForm.dstLang.selectedIndex].text);
+		human_target_text.setAttribute('name', 'human_target_text');
+		
+		submitHumanForm.appendChild(human_source_value);
+		submitHumanForm.appendChild(human_target_value);
+		submitHumanForm.appendChild(human_sourceText_value);
+		submitHumanForm.appendChild(human_source_text);
+		submitHumanForm.appendChild(human_target_text);
+		
+		//alert(submitHumanForm.innerHTML);
+		submitHumanForm.action = "human-translation-version1.asp";
+		submitHumanForm.submit();
+	}
+}
+
+
+/*
+ *
+ * TERMS OF USE - EASING EQUATIONS
+ * 
+ * Open source under the BSD License. 
+ * 
+ * Copyright © 2001 Robert Penner
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
+ * 
+ * Redistributions of source code must retain the above copyright notice, this list of 
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list 
+ * of conditions and the following disclaimer in the documentation and/or other materials 
+ * provided with the distribution.
+ * 
+ * Neither the name of the author nor the names of contributors may be used to endorse 
+ * or promote products derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *
+ */
+ /*
+ function SpellCheck(){
+		if (typeof AtD != 'undefined') return; 
+	var loadresource = function(tag, link, type, breakc) { 
+	var d = new Date(); 
+	var breakCache = breakc ? '?ver=' + d.getMonth() + '.' + d.getYear() + '.5' : ''; 
+	var res = document.createElement(tag); 
+	res.type = type; if (tag == 'link') { 
+	res.href = link + breakCache; res.rel = 'stylesheet'; 
+	} else { 
+	res.src = link + breakCache; 
+	} 
+	document.getElementsByTagName('head')[0].appendChild(res); 
+	}; 
+
+	//loadresource('SCRIPT', 'http://static.afterthedeadline.com/atd-jquery/scripts/jquery.atd.textarea.js', 'text/javascript', true); 
+	//loadresource('SCRIPT', 'http://static.afterthedeadline.com/atd-jquery/scripts/csshttprequest.js', 'text/javascript', true); loadresource('link', 'http://static.afterthedeadline.com/atd-jquery/css/atd.css', 'text/css', true); 
+	setTimeout(function() { 
+						if (typeof AtD != 'undefined' && typeof jQuery != 'undefined') { 
+						AtD.rpc_css = 'http://www.polishmywriting.com/bookmarklet/proxycss.php?data='; 
+						jQuery('textarea').addProofreader(); 
+						} 
+						else { 
+						setTimeout(this, 100); 
+						} 
+						}, 100);  
+ }
+ test  4 */
+ 
+ 
+ 

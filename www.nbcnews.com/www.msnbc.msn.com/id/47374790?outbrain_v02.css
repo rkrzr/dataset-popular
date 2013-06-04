@@ -1,0 +1,278 @@
+/*
+This document is being used to apply CSS to Outbrain modules on:
+- NBC News Homepage
+- NBC News Story Pages
+- NBC News Blog Pages
+- TODAY Story Pages
+- TODAY Blog Pages
+- Ad Bug Fixes
+*/
+
+#Outbrain_v02 {
+width: 100%;
+clear: both;
+line-height: 1.1em;
+}
+
+#Outbrain_v02 div,
+#Outbrain_v02 p,
+#Outbrain_v02 span,
+#Outbrain_v02 li,
+#Outbrain_v02 ul,
+#Outbrain_v02 a {
+padding: 0;
+margin: 0;
+}
+
+#Outbrain_v02 .ob_dual_left,
+#Outbrain_v02 .ob_dual_right {
+width: 48% !important;
+*width: 47% !important;
+}
+
+#Outbrain_v02 .ob_dual_left {
+padding-right: 4%;
+}
+
+#Outbrain_v02 ul {
+padding: 0px;
+} 
+
+#Outbrain_v02 li {
+list-style-type: none;
+padding: 0 0 0 2px;
+margin-left: 0;
+margin-bottom: 8px !important;
+}
+
+#Outbrain_v02 .ob_org_header,
+#Outbrain_v02 .ob_ads_header {
+display: block;
+border-bottom: 1px solid #dddddd;
+padding-bottom: 3px;
+padding-left: 2px;
+margin-bottom: 5px;
+color: #336699;
+font-weight: bold;
+}
+
+#Outbrain_v02 a:link,
+#outbrain_widget_0 li, 
+#outbrain_widget_1 li, 
+#outbrain_widget_0 li a, 
+#outbrain_widget_1 li a  {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 13px;
+color: #333333 !important;
+font-weight: normal !important;
+border-bottom: none !important;
+line-height: 1.4em;
+}
+
+#Outbrain_v02 a:hover {
+text-decoration: underline !important;
+}
+
+#Outbrain_v02 .ob_source, 
+#Outbrain_v02 .ob_what a {
+color: #777777 !important;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+#Outbrain_v02 .ob_source {
+font-size: 11px;
+}
+
+#Outbrain_v02 .ob_what a {
+font-size: 10px;
+}
+
+#Outbrain_v02 .ob_txtual_Icon {
+    background-image: url("../../msnbcmedia.msn.com/i/MSNBC/SiteManagement/Ads/Custom Solutions/Outbrain/images/video-icon02.gif");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 13px;
+    vertical-align: bottom;
+}
+
+#Outbrain_v02 .ob_txtual_Icon img {
+display: none !important;
+}
+
+#Outbrain_v02 .ob_what {
+top: 4px !important;
+padding-right: 4px;
+position: absolute;
+right: 0;
+}
+
+#Outbrain_v02 .ob_what a {
+vertical-align: top;
+}
+
+/* TODAY story pages */
+
+.today #Outbrain_v02{
+font-family: "museo-sans-1","museo-sans-2","Trebuchet MS","Arial",sans-serif;
+}
+
+.today #Outbrain_v02 .ob_org_header,
+.today #Outbrain_v02 .ob_ads_header {
+color: #B74C11;
+}
+
+.today #Outbrain_v02 a:link {
+font-family: "museo-sans-1","museo-sans-2","Trebuchet MS","Arial",sans-serif;
+line-height: 1.5em;
+}
+
+.today #Outbrain_v02 .ob_source .rec-src-link {
+font-family: "museo-sans-1","museo-sans-2","Trebuchet MS","Arial",sans-serif;
+}
+
+.today #Outbrain_v02 .ob_what {
+top: 2px !important;
+}
+
+.today #Outbrain_v02 .ob_dual_left .ob_source {
+display: none;
+}
+
+.today #Outbrain_v02.outbrain-wrapper {
+top: 30px;
+}
+
+/* blogs */
+
+.chrome_viewport #Outbrain_v02 {
+margin: 20px 0 60px 0;
+font-family: Helvetica, Arial, sans-serif;
+position: relative;
+z-index: 100;
+}
+
+.chrome_viewport #Outbrain_v02 .ob_txtual_Icon {
+height: 15px;
+}
+
+.chrome_viewport #Outbrain_v02 li {
+margin-bottom: 10px !important;
+}
+
+.chrome_viewport #Outbrain_v02 .ob_what {
+top: 2px !important;
+}
+
+#Outbrain_v02.TodayOutbrain .ob_what {
+top: -10px !important;
+text-align: right;
+}
+
+#Outbrain_v02.TodayOutbrain  .ob_org_header,
+#Outbrain_v02.TodayOutbrain  .ob_ads_header {
+color: #B74C11;
+}
+
+#Outbrain_v02.TodayOutbrain .ob_dual_left .ob_source {
+display: none;
+}
+
+/* NBC News */
+
+#Outbrain_v02.NBCNews_Homepage {
+margin-top: -25px;
+}
+
+#Outbrain_v02.NBCNews_Homepage h2 {
+color: #919191;
+font-family: Arial,Helvetica,sans-serif; 
+font-size: 100%;
+margin-left: 5px;
+}
+
+#Outbrain_v02.NBCNews_Homepage .ob_container {
+margin-left: 5px;
+margin-bottom: 40px;
+}
+
+#Outbrain_v02.NBCNews_Homepage .ob_container_shadow_outer {
+height: 0;
+display: none;
+}
+
+#Outbrain_v02.NBCNews_Homepage .item-link-container {
+width: 24%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#Outbrain_v02.NBCNews_Homepage .item-container {
+width: 100%;
+  padding: 10px 0 0 0;
+  height: inherit !important;
+}
+
+#Outbrain_v02.NBCNews_Homepage .ob-rec-link-img {
+border: 1px solid #AAAAAA;
+  height:69px;
+  overflow: hidden;
+  margin-right: 10px;
+  width: 92px;
+  padding: 1px;
+  float: left;
+}
+
+#Outbrain_v02.NBCNews_Homepage .ob-rec-link-img img {
+width: 92px !important;
+height: 69px !important;
+}
+
+#Outbrain_v02.NBCNews_Homepage .ob-text-content {
+float: left;
+  width: 45%;
+  position: relative;
+}
+
+#Outbrain_v02.NBCNews_Homepage .strip-rec-link-title {
+color: #114477;
+  font-size: 85%;
+  font-weight: bold;
+  font-family: Arial,Helvetica,sans-serif; 
+text-indent: 18px;
+  margin-top: 0;
+  line-height: 1.3em;
+}
+
+#Outbrain_v02.NBCNews_Homepage .strip-rec-link-title:hover {
+text-decoration: underline;
+  color: #CC0000;
+}
+
+#Outbrain_v02.NBCNews_Homepage .ob_video {
+display: none;
+}
+
+#Outbrain_v02.NBCNews_Homepage .rec-src-link {
+display: none;
+}
+
+#Outbrain_v02.NBCNews_Homepage .strip-rec-link-source {
+   background: url("../../assets2c.msnbc.msn.com/rendering/img/story-chrome.gif") no-repeat -700px -92px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 50px;
+  height: 15px;
+}
+
+#cover #msnfooter .container {
+height: 22px;
+}
+
+/* Ad Bug Fixes */
+
+/* To remove white bar on top of blogs and story pages in Chrome and Safari caused by Mookie tracking pixel */
+div#_dvR_xT {
+display: none;
+}

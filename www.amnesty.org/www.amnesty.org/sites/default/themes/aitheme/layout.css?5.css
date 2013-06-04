@@ -1,0 +1,200 @@
+/* $Id: layout.css,v 1.5.2.1 2007/01/17 05:28:41 jjeff Exp $ */
+
+/*********************
+  LAYOUT
+**********************/
+
+body {
+  direction: ltr;
+  margin: 0;
+  min-width: 740px;
+  padding: 10px;
+  text-align: center;         /* center #page element for IE */
+  /* 2x (left-side fullwidth + main padding) + right-side fullwidth */
+}
+
+body.rtl {
+  direction: rtl;
+}
+
+#page {
+  min-width: 740px;               /* page width - optional */
+  max-width: 980px;
+  margin: 0 auto;             /* center the page - optional */
+  padding: 0;
+  text-align: left;           /* return text alignment after centering for IE */
+  /*border-left: 2px solid #AAA;*/
+  /*border-right: 2px solid #AAA;*/
+}
+
+/* IE min-width, max-width emulation */
+* html #page {
+  width: 740px; /* in case JS is off, set a fallback width. default is auto */
+  width: expression(Math.max(Math.min((document.documentElement ? document.documentElement.clientWidth : document.body.clientWidth) - 20, 980), 740)+'px');
+}
+
+#container {
+  margin: 0 auto;
+  /*padding: 0 20px;*/
+  max-width: 980px;
+  position: relative;
+}
+
+#ai-sidebar-squeeze {
+  position: relative;
+  padding: 0px 19px 0px 19px;
+}
+
+
+/*********************
+  FRONT PAGE
+**********************/
+
+body.front .column {
+  margin:0 .5em;
+  width: 46%;
+}
+
+#content-top {
+  margin: 0px;
+}
+
+#content-top-first {
+  float: left;
+/*
+  margin: 0 1% 0 0;
+*/
+  width: 66%;
+}
+.rtl #content-top-first {
+  float: right;
+/*
+  margin: 0 1% 0 0;
+*/
+  width: 67%;
+}
+
+#content-top-last {
+  float: left;
+  width: 32%;
+}
+
+body.rtl #content-top-first {
+  float: right;
+}
+
+body.rtl #content-top-last {
+  float: left;
+}
+
+#front-column-first {
+  float: left;
+}
+
+#front-column-middle {
+  float: right;
+}
+
+#front-column-last {
+  float: left;
+  width: 32%;
+}
+
+body.rtl #front-column-first {
+  float: right;
+}
+
+body.rtl #front-column-middle {
+  float: right;
+}
+
+body.rtl #front-column-last {
+  float: right;
+}
+
+/* RTL squeeze format for all # of ai-sidebars */
+body.rtl #squeeze {
+  border-left: 0;
+  border-right: 1px solid #D8D8D8;
+  margin: 0 175px 0 210px;
+}
+
+body.front #squeeze {
+  border-left: 0;
+}
+
+#main {
+  float: left;
+  width: 100%;
+}
+
+body.rtl #main {
+  float: right;
+}
+
+/* RTL main format for all # of ai-sidebars */
+body.rtl #main {
+  margin: 0 -175px 0 -210px;
+}
+
+/* We ensure the ai-sidebars are still clickable using z-index */
+#container .ai-sidebar {
+  margin: 0 0 5em;
+  z-index: 2;
+  position: relative;
+}
+
+.column .block {
+  margin: 0 0 10px 0;
+}
+
+.block .content {
+  margin: 0.5em 0;
+}
+
+#footer {
+  float: none;
+  clear: both;
+  margin: 4em 0 -3em;
+}
+
+#logo-print-only img{
+  display: none;
+}
+
+@media print {
+  #logo-print-only img{
+    display: block;
+  }
+
+  body,
+  #squeeze,
+  .content,
+  p {
+    padding: 0;
+    position: static;
+  }
+
+  body #squeeze {
+    font-size: 11pt;
+    width: 6.75in;
+  }
+    
+  #squeeze #breadcrumb {
+    border-bottom: none;
+  }
+
+  #simplemenu,
+  #secondary,
+  #header-top,
+  #header-last-menus,
+  .tabs,
+  #navigation *,
+  #ai-sidebar-first,
+  #ai-sidebar-last,
+  .service-links,
+  #footer {
+    display: none;
+  }
+
+}

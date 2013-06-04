@@ -1,0 +1,31 @@
+.slideshow {border: 1px solid #959595; width:420px; height: 290px; position: relative; overflow: hidden; margin-top:1px;}
+.slideshow img {border:0px;}
+.slideshow_content { height:70px; position: relative; top:-3px; background:#888; width: 100%;}
+.slideshow_content a {color: #FFFFFF; text-decoration: none; font-size: 12px; cursor:pointer;}
+.slideshow_content a:hover {text-decoration: underline;}
+.slideshow_content p {padding: 2px;}
+.slideshow_content h5 {color: #FFFFFF; text-decoration: none; font-weight: bold;  font-size: 16px;}
+.slideshow_content h6 {color: #FFFFFF; text-decoration: none; font-weight: bold; font-size: 12px;}
+
+.slide { color:#FFFFFF; position: absolute; top: 0; left: 0; z-index: 1; display:none;}
+
+#slideshow_links{position:absolute;right:0;bottom:0;font-size:1em;z-index:20;margin:2px 2px}
+#slideshow_links a{font-weight:bold;color:#666;background:#ccc;font-size:110%;margin-left:3px;text-decoration:none;padding:1px 7px}
+#slideshow_links a:focus,#slideshow_links a:hover{color:#fff;background:#666;outline:1px solid #fff}
+#slideshow_links a.activeSlide{color:#666;background:#FFF}
+
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.tooltip {
+	display:none;
+	background:transparent url(/images/whitePopup.png) no-repeat;
+	font-size:14px;
+	height:109px;
+	width:179px !important; /*moz width*/
+	width:209px; /*IE width*/
+	padding:10px;
+	color:#990000;	
+	font-weight:bold;
+	position: absolute;
+	z-index:100;
+	margin:0px;
+}

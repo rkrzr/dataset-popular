@@ -1,0 +1,521 @@
+/*$Id: layout.css 99285 2012-05-16 00:34:57Z lpierfelice $
+/css/0.1/screen/common/layout.css 
+(c)2006 - 2010 The New York Times Company */
+
+#main {
+  border-top: 1px solid #fff;
+  clear: both;
+  margin-top: 15px;
+  padding: 0 0 7px 0;
+}
+
+/* BEGIN LAYOUTS */
+
+.wideA {
+  background: url(/images/layout/vertical_rule.gif) repeat-y 412px;  
+}
+
+.wideB {
+  background: url(/images/layout/vertical_rule.gif) repeat-y 207px;
+}
+
+.spanAB {
+  background: url(/images/layout/vertical_rule.gif) repeat-y 617px; 
+}
+
+.splitAB {
+  background:url("/images/layout/vertical_rule.gif") repeat-y 310px;
+}
+
+.spanBC {
+  /*  background: url(/images/layout/vertical_rule.gif) repeat-y 617px; */
+}
+
+.subColumns {
+  background: url(/images/layout/vertical_rule.gif) repeat-y 50%;
+}
+
+/* END LAYOUTS */
+
+/* BEGIN Columns */ 
+
+.column,
+.aColumn,
+.bColumn,
+.cColumn,
+.abColumn,
+.bcColumn,
+.abColumn,
+.abcColumn,
+.subColumnA,
+.subColumnB {
+  float: left;
+  display: inline;
+  overflow: visible; /* Fixes column dropping issue in IE */
+}
+
+.column,
+.aColumn,
+.abColumn,
+.subColumnA {
+  margin-right: 1px; 
+}
+
+.lastColumn {
+  margin-right: 0 !important;
+}
+
+/* .last rules below provide backwards compatible support for last columns */
+.wideA div.last,
+.wideB div.last,
+.spanAB div.last,
+.spanBC div.last,
+.subColumn-2 div.last,
+.subColumn-3 div.last {
+  margin-right: 0;
+}
+
+.bColumn {
+  margin-right: 0; 
+}
+
+.cColumn {
+  width: 352px;  
+} 
+
+.wideA .aColumn,
+.spanBC .aColumn {
+  width: 412px;
+}
+
+.wideA .bColumn {
+  width: 204px;
+}
+
+.wideA .aColumn .subColumnA,
+.wideA .aColumn .subColumnB {
+  width: 197px;
+}
+
+.wideB .aColumn {
+  width: 207px;
+}
+
+.wideB .bColumn {
+  width: 409px;
+}
+
+.abColumn {
+  width: 617px;
+}
+
+.splitAB .aColumn {
+  width: 310px;
+}
+
+.splitAB .bColumn {
+  width: 306px;
+}
+
+.bcColumn,
+.spanBC {
+  width: 557px;
+}  
+
+.bcColumn {
+  background: #fff;
+}
+
+/* BEGIN subColumns */
+
+.wideA .aColumn .subColumn-2 div.first,
+.wideA .aColumn .subColumn-2 .firstColumn,
+.abColumn .subColumn-3 div.first,
+.abColumn .subColumn-3 div.firstColumn {
+  width: 207px;
+}
+
+.wideA .aColumn .subColumn-2 div.last,
+.wideA .aColumn .subColumn-2 .lastColumn,
+.wideB .bColumn .subColumn-2 .column,
+.abColumn .subColumn-3 .column {
+  width: 204px;
+}
+
+.wideA .cColumn .subColumn-3 .column { 
+  width: 117px; 
+}
+
+.wideA .cColumn .subColumn-3 div.last,
+.wideA .cColumn .subColumn-3 .lastColumn { 
+  width: 116px; 
+}
+
+.spanAB .subColumn-2 .column {
+  width: 308px;
+}
+
+.cColumn .subColumn-2 .column {
+  width: 175px;
+}
+
+.cColumn .subColumn-2 div.last,
+.cColumn .subColumn-2 .lastColumn {
+  width: 176px;
+}
+
+/* END subColumns */   
+
+/* END Columns*/
+
+/* BEGIN Insets & columnGroups */
+
+.inset {
+  margin: 10px 8px;
+}
+
+.insetV {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.insetH {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.insetHFullWidth { /* gives correct margins on a fullWidth inset (#main) */
+  margin-left: 10px;
+  margin-right: 9px;
+}
+
+div.fullWidth {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.columnGroup .columnGroup {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* abColumn */
+
+.abColumn div.insetH,
+.abColumn div.columnGroup,
+.abColumn div.fullWidth .columnGroup {
+  margin-right: 7px;
+  margin-left: 10px;
+}
+
+/* aColumn */
+
+.aColumn div.insetH,
+.aColumn div.columnGroup,
+.aColumn div.fullWidth .columnGroup,
+.abColumn .aColumn .columnGroup,
+.abColumn .aColumn div.fullWidth .columnGroup  {
+  margin-right: 7px;
+  margin-left: 10px;
+}
+
+.splitAB .aColumn .columnGroup {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bcColumn .aColumn .insetH,
+.bcColumn .aColumn .columnGroup,
+.bcColumn .aColumn div.fullWidth .columnGroup {
+  margin-right: 7px;
+  margin-left: 0;
+} 
+
+/* bColumn */ 
+
+.bColumn div.insetH,
+.bColumn div.columnGroup,
+.bColumn div.fullWidth .columnGroup,
+.abColumn .bColumn .columnGroup,
+.abColumn .bColumn div.fullWidth .columnGroup {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.splitAB .bColumn .columnGroup {
+  margin-right: 7px;
+  margin-left: 10px;
+}
+
+.bcColumn .bColumn .insetH,
+.bcColumn .bColumn .columnGroup,
+.bcColumn .bColumn div.fullWidth .columnGroup {
+  margin-left: 7px;
+} 
+
+/* cColumn */ 
+
+.cColumn div.insetH,
+.cColumn div.columnGroup,
+.cColumn div.fullWidth .columnGroup {
+  margin-right: 9px;
+  margin-left: 7px;
+}        
+
+/* subColumns */
+
+.wideA .aColumn .subColumnA .insetH,
+.wideA .aColumn .subColumnA .columnGroup {
+  margin-right: 7px;
+}
+
+.wideA .aColumn .subColumnB .insetH,
+.wideA .aColumn .subColumnB .columnGroup {
+  margin-left: 7px;
+}
+
+/* misc */
+
+.bcColumn div.insetH,
+.bcColumn div.columnGroup,
+.bcColumn div.fullWidth .columnGroup {
+  margin-right: 9px;
+  margin-left: 7px;
+}
+
+.columnGroup {
+  width: auto !important;
+}
+
+div.opening {
+  padding-top: 10px;
+}
+
+div.closing {
+  padding-bottom: 10px;
+}
+
+/* BEGIN Rules and Dividers */     
+
+.columnGroup,
+.singleRule,
+.doubleRule,
+.module {
+  margin-bottom: 12px; 
+}
+
+.columnGroup,
+.fullWidth,
+.singleRule,
+.singleRuleDivider,
+.doubleRule,
+.doubleRuleDivider,
+.module,
+.inset,
+.insetH,
+.insetV,
+.box,
+hr {
+  clear: both;
+}
+
+.singleRule {
+  border-top: 1px solid #ccc;
+  background-image: none !important;
+  padding-top: 8px;
+}
+
+.doubleRule {
+  padding-top: 12px;
+}
+
+hr,
+.singleRuleDivider {
+  height: 1px;
+  padding: 0;
+  background: #ccc;
+  border: none;
+  line-height: 0;   
+  overflow: hidden;
+}
+
+.doubleRule,
+.doubleRuleDivider {
+  border-width: 0 !important;
+  background: transparent url(/images/global/borders/doubleRule.gif) repeat-x left top;
+}
+
+.doubleRuleDivider {
+  height: 4px;
+  line-height: 0;   
+  overflow: hidden;
+} 
+
+hr,
+.singleRuleDivider,
+.doubleRuleDivider {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+/* Begin Box */
+
+.box {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+div.blue {
+  background-color: #f0f4f5;
+}
+
+div.yellow {
+  background-color: #f8f8d4;
+}
+
+.box .subColumnA {
+  margin-right: -1px !important;
+}
+
+/* END box*/
+
+/* BEGIN Utility */
+
+/* shrinkwrap floats */
+.wideA:after,
+.wideB:after,
+.spanAB:after,
+.spanBC:after,
+.splitAB:after,
+.subColumns:after,
+.subColumn-2:after,
+.subColumn-3:after,
+.story:after,
+.clearfix:after,
+.wrap:after  {
+  content: "."; 
+  display: block; 
+  height: 0;
+  clear: both; 
+  visibility: hidden;
+}   
+
+.clearfix,
+.wrap {
+  display: block;
+}
+
+.containingBlock {
+    position: relative;
+}
+ 
+.noBackground {
+  background: none !important;
+}
+
+.centeredElement {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+/* BEGIN standard widths -use case: use in conjunction with .runarounds*/
+
+.w75, 
+.thumb {
+  width: 75px;
+}
+
+.w190,
+.wideThumb,
+.inlineImage {
+  width: 190px;
+}
+
+.w337,
+.homepageImage {
+  width: 337px;
+}
+
+.w395,
+.sectionfrontSpanImage {
+  width: 395px;
+} 
+
+.w450 {
+  width: 450px;
+}
+
+.w600,
+.articleSpanImage,
+.slideshowHorizontal {
+  width: 600px;
+}
+
+/* END standard widths */ 
+
+.singleRule .wideThumb,
+.doubleRule .wideThumb {
+    margin-top: 4px;
+}
+
+/* use thumb when the image does not need to float */
+
+.thumb {
+  margin-bottom: 4px;
+}
+
+.thumbnail {
+  margin: 0 0 6px 6px;    
+}
+
+/* use runaround when you need to have text runaround something like an image- eg, float behavior */   
+
+.thumbnail,
+.runaroundRight {
+  float: right;
+  clear: right;
+  display: inline;
+}
+
+.runaroundRight {
+  margin: 2px 0 6px 6px;
+}
+
+.runaroundLeft {
+  float: left;
+  clear: left;
+  display: inline;
+  margin: 2px 6px 6px 0;
+}
+
+.horizontalMenu li {
+  display: inline;
+  padding: 0 8px;
+  background-image: none;
+}
+
+.horizontalMenu li:first-child {
+  padding-left: 0;
+}
+
+.horizontalMenu.piped li {
+  border-left: 1px solid #999;
+}
+
+.horizontalMenu.piped li:first-child {
+  border-left: none;
+}
+
+/* BEGIN controls */
+
+.opposingFloatControl .element1 {
+  float: left;
+}
+
+.opposingFloatControl .element2 {
+  float: right;
+}

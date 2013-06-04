@@ -1,0 +1,422 @@
+h2 {
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0.9em;
+	background: none;
+}
+h3 span {
+ 	position: absolute;
+ 	left: -9000px;
+ 	width: 1px;
+ 	height: 1px;
+ 	overflow: hidden;
+}
+p span, h2 span {
+ 	position: absolute;
+ 	left: -9000px;
+ 	width: 1px;
+ 	height: 1px;
+ 	overflow: hidden;
+}
+
+#inthenews {
+	float: left;
+	width: 298px;
+	line-height: 1.4em;
+	min-height: 301px;
+	padding: 17px 11px 10px 19px;
+	margin-bottom: 23px;
+	background: #dfdfdf url(../images/inthenews-bkgnd.jpg) no-repeat left top;
+}
+#inthenews h2 {
+	line-height: 1em;
+	margin-bottom: 0.8em;
+}
+#inthenews .newsitem {
+	clear: both;
+}
+#inthenews .image {
+	float: left;
+	width: 72px;
+	margin-top: 3px;
+	margin-bottom: 7px;
+}
+#inthenews .description {
+	float: left;
+	width: 208px;
+	margin-left: 10px;
+}
+#inthenews .date {
+	float: left;
+	width: 208px;
+	font: italic 0.9em/1.2em Trebuchet MS, Arial, Helvetica, sans-serif;
+	color: #64676a;
+	padding-top: 0.1em;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#inthenews ul {
+	clear: both;
+	padding: 0;
+	padding-top: 1px;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+#inthenews li {
+	float: left;
+	padding: 0 1em 0 0;
+	margin: 0;	
+	background: none;
+}
+#inthenews li.last {     
+	padding-right: 0;
+}
+#inthenews li a {
+	display: block;
+	height: 18px;
+}
+#inthenews li a.press {
+	padding-left: 23px;
+	background: transparent url(../images/icon-press.gif) no-repeat left top;
+}
+#inthenews li a.rss {
+	padding-left: 23px;
+	background: transparent url(../images/icon-rss.gif) no-repeat left top;
+}
+#inthenews li a.nihradio {
+	padding-left: 23px;
+	background: transparent url(../images/icon-nihradio.gif) no-repeat left top;
+}
+#inthenews li a.multimedia {
+	padding-left: 23px;
+	background: transparent url(../images/icon-multimedia.gif) no-repeat left top;
+}
+
+
+#tabbedfeatures {
+	float: left;
+	width: 596px;
+	padding-left: 20px;
+	padding-bottom: 9px;
+	background: #fff url(../images/tabbedfeatures-shadow.jpg) no-repeat 20px bottom;
+}
+#tabbedfeatures ul.tabs {
+	height: 36px;
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+#tabbedfeatures ul.tabs li {
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+#tabbedfeatures ul.tabs li a {
+	display: block;
+	height: 36px;
+}
+#tabbedfeatures ul.tabs li a span {
+ 	position: absolute;
+ 	left: -9000px;
+ 	width: 1px;
+ 	height: 1px;
+ 	overflow: hidden;
+}
+#tabbedfeatures #glancetab a {
+	width: 148px;
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat 0 6px;
+}
+#tabbedfeatures #glancetab a:hover {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat 0 -30px;
+}
+#tabbedfeatures #glancetab a.current {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat 0 -66px;
+}
+#tabbedfeatures #fundingtab a {
+	width: 185px;
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -148px 6px;
+}
+#tabbedfeatures #fundingtab a:hover {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -148px -30px;
+}
+#tabbedfeatures #fundingtab a.current {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -148px -66px;
+}
+#tabbedfeatures #labstab a {
+	width: 120px;
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -333px 6px;
+}
+#tabbedfeatures #labstab a:hover {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -333px -30px;
+}
+#tabbedfeatures #labstab a.current {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -333px -66px;
+}
+#tabbedfeatures #trainingtab a {
+	width: 143px;
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -453px 6px;
+}
+#tabbedfeatures #trainingtab a:hover {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -453px -30px;
+}
+#tabbedfeatures #trainingtab a.current {
+	background: transparent url(../images/tabbedfeatures.gif) no-repeat -453px -66px;
+}
+/* Active tab uses the class name "current." Its highlight is also done by moving the background image. */
+#tabbedfeatures ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	cursor: default; 
+}
+#tabbedfeatures .panes {
+	clear: both;
+	float: left;
+	width: 594px;
+	border: 1px solid #bababa;
+	border-top: 0;
+}
+/* Initially all panes are hidden except glancepane -- we want that one to show when JavaScript is disabled */ 
+#tabbedfeatures .panes .pane {
+	display: none;		
+}
+#tabbedfeatures .panes #glancepane {
+	display: block;		
+}
+#tabbedfeatures .panes div {
+	float: left;
+	width: 557px;
+	display: none;
+	padding: 17px 18px 0 19px;
+	height: 199px;
+}
+#tabbedfeatures .panes #glancepane {
+	background: transparent url(../images/tabbedfeatures-glancepane.jpg) no-repeat left bottom;
+}
+#tabbedfeatures .panes #fundingpane {
+	background: transparent url(../images/tabbedfeatures-fundingpane.jpg) no-repeat left bottom;
+}
+#tabbedfeatures .panes #labspane {
+	background: transparent url(../images/tabbedfeatures-labspane.jpg) no-repeat left bottom;
+}
+#tabbedfeatures .panes #trainingpane {
+	background: transparent url(../images/tabbedfeatures-trainingpane.jpg) no-repeat left bottom;
+}
+
+#tabbedfeatures .panes div h3 {
+	margin-bottom: 0.7em;
+}
+#tabbedfeatures .panes div#fundingpane p {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 0.4em;
+}
+#tabbedfeatures .panes div#fundingpane form {
+	clear: both;
+	float: left;
+	padding-top: 1em;
+	width: 260px;
+}
+#tabbedfeatures .panes div .searchbox {
+	width: 200px;
+	height: 18px;
+	margin-top: 1px;
+	margin-right: 4px;
+	border: 1px solid #bfbfbf;
+}
+#tabbedfeatures .panes div input {
+	float: left;
+	position: relative;
+	top: -0.2em;
+}
+#tabbedfeatures .panes div ul {
+	clear: both;
+	float: left;
+	width: 557px;
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+#tabbedfeatures .panes div#fundingpane ul {
+	padding-bottom: 0;
+}
+#tabbedfeatures .panes div li {
+	float: left;
+	padding: 0 0.8em 0 0;
+	margin: 0 0.8em 0 0;
+	background: none;
+	border-right: 1px solid #bbb;
+}
+#tabbedfeatures .panes div li.last {     
+	border-right: none;
+}
+#tabbedfeatures .searchfundingopps legend {
+ 	position: absolute;
+ 	left: -9000px;
+ 	width: 1px;
+ 	height: 1px;
+ 	overflow: hidden;
+}
+
+
+#nihdirector {
+	float: left;
+	width: 288px;
+	height: 247px; 
+	padding: 4px 0 0 20px;
+	background-color: #fff;
+}
+#nihdirector h2 {
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+#nihdirector .image {
+	float: left;
+	width: 119px;
+	margin-bottom: 7px;
+}
+#nihdirector .description {
+	float: left;
+	width: 154px;
+	margin-left: 15px;
+	margin-bottom: 0;
+}
+#nihdirector ul {
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+#nihdirector ul li {
+	line-height: 1.3em;
+	padding: 0;
+	padding-bottom: 0.8em;
+	margin: 0;
+	background: none;
+}
+#nihdirector a.more span {
+ 	position: absolute;
+ 	left: -9000px;
+ 	width: 1px;
+ 	height: 1px;
+ 	overflow: hidden;
+}
+#nihdirector a.blog {
+	display: block;
+	min-height: 19px;
+	padding-top: 1px;
+	padding-left: 23px;
+	background: transparent url(../images/icon-color-blog.gif) no-repeat left top;
+}
+#nihdirector a.twitter {
+	display: block;
+	min-height: 19px;
+	padding-top: 1px;
+	padding-left: 23px;
+	background: transparent url(../images/icon-color-twitter.gif) no-repeat left top;
+}
+#nihdirector a.email {
+	display: block;
+	min-height: 19px;
+	padding-top: 1px;
+	padding-left: 23px;
+	background: transparent url(../images/icon-color-email.gif) no-repeat left top;
+}
+#nihdirector a.rss {
+	display: block;
+	min-height: 19px;
+	padding-top: 1px;
+	padding-left: 23px;
+	background: transparent url(../images/icon-color-rss.gif) no-repeat left top;
+}
+#nihdirector a.leadership {
+	display: block;
+	height: 18px;
+	padding-top: 2px;
+	padding-left: 23px;
+	background: transparent url(../images/icon-color-leadership.gif) no-repeat left top;
+}
+#nihdirector a.more {
+	position: relative;
+	left: -1px;
+	display: block;
+	width: 56px;
+	height: 24px;
+	margin-top: 4px;
+	background: transparent url(../images/button-more-brown.gif) no-repeat left top;
+	-webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+#nihdirector form {
+	margin-top: 4px;
+}
+#nihdirector legend {
+	color: #444;
+	padding: 0 0 4px 0;
+	margin: 0;
+}
+#nihdirector #email {
+	font: normal 0.9em/1.4em Trebuchet MS, Arial, Helvetica, sans-serif;
+	color: #757575;
+	width: 150px;
+	height: 18px;
+	padding-left: 4px;
+	margin-top: 1px;
+	margin-right: 4px;
+	border: 1px solid #bfbfbe;
+}
+#nihdirector .form_button {
+	margin-top: 4px;
+	-webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+
+#minifeatures {
+	float: left;
+	width: 944px;
+	padding-top: 9px;
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+#minifeatures h2 {
+ 	position: absolute;
+ 	left: -9000px;
+ 	width: 1px;
+ 	height: 1px;
+ 	overflow: hidden;
+}
+#minifeatures .minifeatureitem {
+	float: left;
+	width: 288px;
+	padding-left: 20px;
+}
+#minifeatures .minifeatureitem h3 {
+	line-height: 1.4em;
+	padding-top: 6px;
+	margin-bottom: 0.6em;
+}
+#minifeatures .image {
+	float: left;
+	width: 72px;
+	padding-bottom: 15px;
+	margin-top: 3px;
+}
+#minifeatures .description {
+	float: left;
+	width: 206px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+#minifeatures ul {
+	padding-left: 18px;
+	margin: 0;
+	list-style-image: url(../images/bullet-smallgray.gif);
+}
+#minifeatures li {
+	margin-bottom: 0.3em;
+}

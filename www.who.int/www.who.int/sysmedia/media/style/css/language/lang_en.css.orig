@@ -1,0 +1,16 @@
+/* --- World Health Organization ----------------------------------------------------- */
+/* --- CSS Framework: Language Extension English -------------------------------------- */
+/* --- Versioning ------------------------------------------------------------------- */
+
+/*<![CDATA[*/
+@media screen {
+/* footer */
+#footer {
+	background-image:url('../../img/footer_emblem-en.gif');
+}
+
+
+}
+@media print {
+}
+/*]]>*/

@@ -1,0 +1,12 @@
+﻿/* Firefox specific style sheet */
+#Clear
+{
+    border-width: 0 !important;
+}
+
+#TdTransRating
+{
+    margin-left: -1px !important;
+    margin-right: -1px !important;
+}
+    

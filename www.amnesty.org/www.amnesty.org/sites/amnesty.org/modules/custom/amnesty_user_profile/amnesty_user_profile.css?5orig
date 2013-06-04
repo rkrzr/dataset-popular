@@ -1,0 +1,593 @@
+ibody.section-join h1, 
+body.section-join h2, 
+body.section-join h3, 
+body.section-join h4, 
+body.section-join h5, 
+body.section-join h6, 
+body.section-join .page-title,
+body.section-join legend,
+body.section-user h1, 
+body.section-user h2, 
+body.section-user h3, 
+body.section-user h4, 
+body.section-user h5, 
+body.section-user h6, 
+body.section-user .page-title,
+body.section-user legend{
+	text-transform: none;
+}
+body.section-join #ai-sidebar-squeeze,
+body.section-user #ai-sidebar-squeeze{
+	width:570px;
+	margin-bottom:33px;
+}
+body.section-join #ai-sidebar-squeeze a,
+body.section-user #ai-sidebar-squeeze a{
+	color: #4580ac;
+	text-decoration: none;
+}
+body.section-join #ai-sidebar-squeeze a:hover,
+body.section-user #ai-sidebar-squeeze a:hover{
+	color: #4580ac;
+	background: none;
+	text-decoration: underline;
+}
+body.section-user form > div > input#edit-submit{
+	margin-left:10px;
+	margin-right:10px;
+	border: default !important;
+}
+body.section-user form#user-register .form-radios{
+	float: left;
+	clear: both;
+	display: block;
+	width: 422px;
+}
+body.section-user.rtl form#user-register .form-radios{
+	float: right;
+}
+
+body.section-user form#user-register .form-radios > div{
+	float: left;
+	display: block;
+	width: 150px;
+}
+body.section-user.rtl form#user-register .form-radios > div{
+	float: right;
+}
+
+/*
+Custom bit for various styling issues
+*/
+body.section-user form#user-register div#edit-languages-wrapper{
+	border-bottom: 1px solid #CCCCCC;
+	width:556px;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+}
+
+body.section-user form#user-register fieldset #edit-profile-im-conditions-wrapper,
+body.section-user form#user-register fieldset #edit-profile-col-conditions-wrapper,
+body.section-user form#user-register fieldset #edit-profile-community-guidelines-wrapper,
+body.section-user form#user-register fieldset #edit-profile-tnc-wrapper,
+body.section-user form#user-register fieldset #edit-general-notifications-wrapper{
+	margin-top:6px;
+	padding-top:6px;
+	width:422px;
+}
+body.section-user form#user-register fieldset #edit-profile-im-conditions-wrapper,
+body.section-user form#user-register fieldset #edit-profile-col-conditions-wrapper,
+body.section-user form#user-register fieldset #edit-profile-community-guidelines-wrapper,
+body.section-user form#user-register fieldset #edit-profile-tnc-wrapper{
+	border-top: 1px solid #E1E1E1;
+	
+}
+body.section-user .user-register-block-header{
+	display: block;
+	float:left;
+	margin-left:150px;
+	margin-top:-34px;
+}
+body.section-user form#user-register fieldset div#edit-profile-campaign-activism-alerts-wrapper label,
+body.section-user form#user-register fieldset div#edit-profile-wire-alerts-wrapper label,
+body.section-user form#user-register fieldset div#edit-profile-demand-dignity-wrapper label,
+body.section-user form#user-register fieldset div#edit-profile-security-and-human-rights-wrapper label,
+body.section-user form#user-register fieldset div#edit-profile-control-arms-wrapper label{
+		font-weight: bold;
+} 
+/*
+End custom styling bit
+*/
+
+
+body.section-user.ltr form .form-required{
+	float: left;
+	display: block;
+	margin-right: 5px;
+}
+body.section-user.rtl form .form-required{
+	float: right;
+	display: block;
+	margin-left: 5px;
+}
+
+fieldset{
+	border:0 none !important;
+	margin:20px 0 0;
+	padding:0;
+}
+fieldset legend{
+	padding: 0;
+}
+#user-profile .profile-other-info-header {
+	float:left;
+	width:110px;
+	font-weight:bold;
+}
+#user-profile .profile-other-info-body {
+}
+
+
+#user-profile .pane-amnesty-user-profile-amnesty-user-profile-profile .forum-topic-two-col {
+	min-height:150px;
+	margin-bottom:0;
+}
+
+#user-profile .forum-topic-body {
+	padding-bottom:20px;
+	margin:0 0 0 150px;
+}
+
+#user-profile #profile-edit-block {
+	float:right;
+}
+
+#user-profile #profile-edit-block li a {
+	color:#336699;
+	text-decoration:none;  
+}
+#user-profile  .profile-name {
+	
+}
+#user-profile  .profile-forename {
+	margin-top: 10px;
+}
+
+#user-profile .profile-membership-type {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* #user-profile .section-user h2.pane-title hmmm.. have to get really specific to override the one in style.css without using !important */
+#user-profile #ai-sidebar-squeeze > .pane-amnesty-user-profile-amnesty-user-profile-profile > h2.pane-title{
+	margin:-20px 0 50px;
+}
+
+#user-profile h2.pane-title {
+	text-transform: none;
+}
+
+
+
+#user-profile .profile-language-extra {
+	margin-left:260px;
+}
+
+#user-profile .forum-post-head {
+	padding-right:10px;
+	width:140px;
+	font-weight:bold;
+}
+
+#user-profile #user-recent-activity h2.pane-title {
+	border-bottom:1px solid #D8D8D8;
+	margin-top:0;
+	padding:0 0 10px;
+}
+
+#user-recent-activity p.date-display-forum {
+	padding-bottom:0;
+}
+
+#user-recent-activity .abuse-links {
+	float: right;
+}
+
+/** registration process **/
+.ltr #register-stage-indicator {
+	list-style:				none outside none;
+	margin-top:				22px;
+	margin-left:			2px;
+	margin-bottom:			0px;
+	margin-right:			20px;
+	padding:				0;  
+	width:					575px;
+	display:				block;
+	height:					31px;
+}
+.ltr #register-stage-indicator > li{
+	width:					115px;
+}
+.ltr #register-stage-indicator > li.register-stage-first{
+	width:					113px;
+}
+.ltr #register-stage-indicator > li.register-stage-last{
+	width:					116px;
+}
+.rtl #register-stage-indicator {
+	list-style:				none outside none;
+	margin-top:				22px;
+	margin-left:			2px;
+	margin-bottom:			0px;
+	margin-right:			0px;
+	padding:				0;  
+	width:					580px;
+}
+
+#register-stage-indicator .register-stage {
+	display: 				inline-block;
+	margin:					0;
+	position:				relative;
+	float:					left;
+}
+.rtl #register-stage-indicator .register-stage{
+	float: 					right;
+	margin-right:-11px;
+	padding-right:0;
+}
+#register-stage-indicator .register-stage .inner{
+	width:					128px;
+	height: 				31px;
+	font-size:				10px;
+	color: 					#acacac;
+	background-color:		none;
+	background-repeat:		no-repeat;
+
+	float:					left;
+	display:				block;
+	xmargin-right:			-14px;
+	
+	padding-bottom:			0px;
+	padding-top:			0px;
+	text-align:				center;
+	display:				table; 
+	vertical-align:			middle;
+}
+.ltr #register-stage-indicator .register-stage .inner{
+	background-image:		url("./images/ltr/register-header-section.png");
+}
+.rtl #register-stage-indicator .register-stage .inner{
+	background-image:		url("./images/rtl/register-header-section.png");
+	width:					126px;
+	xpadding-right:			11px;
+}
+.ltr #register-stage-indicator .register-stage-first .inner{}
+.rtl #register-stage-indicator .register-stage-first .inner{
+	margin-right:-4px;
+	padding-right:14px;
+	
+}
+#register-stage-indicator .register-stage .inner p{
+	display:                table-cell;
+	line-height: 			100%;
+    padding-top:            5px;
+    vertical-align:         middle;
+    padding-left:			14px;
+	padding-right:			18px;
+}
+
+.ltr #register-stage-indicator .register-stage-first .inner{
+	background-image:		url("./images/ltr/register-header-leftcap.png");
+	xpadding-left:			10px;
+	xwidth:					103px;
+}
+.rtl #register-stage-indicator .register-stage-first .inner{
+	background-image:		url("./images/rtl/register-header-leftcap.png");
+	padding-left:			10px;
+	width:					109px;
+}
+
+.ltr #register-stage-indicator .register-stage-last .inner{
+	background-image:		url("./images/ltr/register-header-rightcap.png");
+	width:					115px;
+}
+.rtl #register-stage-indicator .register-stage-last .inner{
+	background-image:		url("./images/rtl/register-header-rightcap.png");
+	width:					114px;
+	margin-right:			-14px;
+}
+
+
+#register-stage-indicator .register-stage-complete {}
+#register-stage-indicator .register-stage-complete .inner {}
+
+#register-stage-indicator .register-stage-current {}
+#register-stage-indicator .register-stage-current .inner {
+	color: 					white;
+	font-weight: 			bold;
+}
+.ltr #register-stage-indicator .register-stage-current .inner{
+	background-image:		url("./images/ltr/register-header-section-selected.png");
+}
+.rtl #register-stage-indicator .register-stage-current .inner{
+	background-image:		url("./images/rtl/register-header-section-selected.png");
+}
+
+.ltr #register-stage-indicator .register-stage-current.register-stage-first .inner{
+	background-image:		url("./images/ltr/register-header-leftcap-selected.png");
+}
+.rtl #register-stage-indicator .register-stage-current.register-stage-first .inner{
+	background-image:		url("./images/rtl/register-header-leftcap-selected.png");
+	width:					125px;
+	padding-right:			0;
+}
+
+.ltr #register-stage-indicator .register-stage-current.register-stage-last .inner{
+	background-image:		url("./images/ltr/register-header-rightcap-selected.png");
+	width:					117px;
+}
+.rtl #register-stage-indicator .register-stage-current.register-stage-last .inner{
+	background-image:		url("./images/rtl/register-header-rightcap-selected.png");
+}
+
+.ltr #register-stage-indicator .register-stage-complete .inner{
+	background-image:		url("./images/ltr/register-header-section-completed.png");
+	color:					white;
+}
+.rtl #register-stage-indicator .register-stage-complete .inner{
+	background-image:		url("./images/rtl/register-header-section-completed.png");
+	color:					white;
+}
+
+.ltr #register-stage-indicator .register-stage-complete.register-stage-first .inner{
+	background-image:		url("./images/ltr/register-header-leftcap-completed.png");
+	margin-right:			0;
+	padding-right:			12px;
+}
+.rtl #register-stage-indicator .register-stage-complete.register-stage-first .inner{
+	background-image:		url("./images/rtl/register-header-leftcap-completed.png");
+}
+
+.ltr #register-stage-indicator .register-stage-complete.register-stage-last .inner{
+	background-image:		url("./images/ltr/register-header-rightcap-completed.png");
+}
+.rtl #register-stage-indicator .register-stage-complete.register-stage-last .inner{
+	background-image:		url("./images/rtl/register-header-rightcap-completed.png");
+}
+
+.ltr #register-stage-indicator .register-stage-last {
+
+}
+.rtl #register-stage-indicator .register-stage-last {
+	margin-right:			3px;
+}
+
+#register-stage-indicator .register-stage-todo {}
+#register-stage-indicator .register-stage-todo .inner {}
+
+
+.amnesty-sections-list {
+}
+.sections-block {
+	float: left;
+	width:25%;
+}
+a.sections-country {
+	display: block;
+	color: #4987ba;
+	background-color: none;
+	text-decoration: none;
+}
+a.seconds-country:hover{
+	color: #4987ba;
+	background-color: none;
+	text-decoration: underline;
+}
+
+body form#user-register,
+body form#amnesty-user-profile-edit-form{
+	display:block;
+	overflow:hidden;
+	width:550px;
+}
+body form#user-register fieldset,
+body form#amnesty-user-profile-edit-form fieldset{
+	margin:				0;
+	padding:			0;
+}
+body form#user-register fieldset,
+body form#user-register > div.form-item,
+body form#amnesty-user-profile-edit-form fieldset,
+body form#amnesty-user-profile-edit-form > div.form-item{
+	margin-bottom:		20px;
+	border-bottom:		1px solid #cbcbcb !important;
+	padding-bottom:		20px;
+}
+body form#user-register 					fieldset legend,
+body form#amnesty-user-profile-edit-form 	fieldset legend{
+	margin:				0;
+	padding:			0;
+}
+body form#user-register 					.description,
+body form#amnesty-user-profile-edit-form 	.description{
+	width:				350px;
+	line-height:		13px;
+	clear:				left;
+}
+
+body form#user-register 					div.form-item,
+body form#amnesty-user-profile-edit-form 	div.form-item{
+	width:				422px;
+}
+body form#amnesty-user-profile-edit-form > 	div	> div.form-item{
+	border-bottom:		1px solid #CBCBCB !important;
+	width:				550px;
+	margin-bottom:		10px;
+	padding-bottom:		10px;
+}
+body form#amnesty-user-profile-edit-form > 	div	> div.form-item > div{
+	width:				280px;
+}
+body.ltr form#user-register 					div.form-item label,
+body.ltr form#amnesty-user-profile-edit-form 	div.form-item label{
+	width:				345px;
+	padding-right:		40px;
+}
+body.rtl form#user-register 					div.form-item label,
+body.rtl form#amnesty-user-profile-edit-form 	div.form-item label{
+	width:				345px;
+	padding-right:		0px;
+}
+body form#user-register 					div.form-item input,
+body form#amnesty-user-profile-edit-form 	div.form-item input{
+	width:				345px;
+	height:				18px;
+}
+body form#user-register 					div.form-item select,
+body form#amnesty-user-profile-edit-form 	div.form-item select{
+	width:				345px;
+	height:				20px;
+}
+body form#user-register 					div.form-item input.form-checkbox,
+body form#amnesty-user-profile-edit-form 	div.form-item input.form-checkbox{
+	float: 				right;
+	margin-left:		20px;
+	margin-right:		20px;
+	margin-top:			2px;
+	width:				14px;
+}
+body.rtl form#user-register 					div.form-item input.form-checkbox,
+body.rtl form#amnesty-user-profile-edit-form 	div.form-item input.form-checkbox{
+	float:				left;
+}
+body form#user-register 					div.form-item input.form-radio,
+body form#amnesty-user-profile-edit-form 	div.form-item input.form-radio{
+	float:				left;
+	margin-right:		4px;
+	margin-left:		0px;
+	margin-top:			3px;
+	width:				14px;
+}
+body.rtl form#user-register 					div.form-item input.form-radio,
+body.rtl form#amnesty-user-profile-edit-form 	div.form-item input.form-radio{
+	float:				right;
+	margin-right:		0px;
+	margin-left:		4px;
+}
+
+body form#user-register							div.buttons,
+body form#amnesty-user-profile-edit-form		div.buttons{
+	display:			block;
+	float:				left;
+	width:				345px;
+	height:				16px;
+	padding-top:		14px;
+}
+body form#user-register							div.buttons a,
+body form#amnesty-user-profile-edit-form		div.buttons a{
+	float:				right;
+	display:			block;
+	margin-left:		10px;
+}
+body form#user-register							div.buttons input#edit-submit,
+body form#amnesty-user-profile-edit-form		div.buttons input#edit-submit{
+	float:				right;
+	display:			block;
+	margin-left:		10px;
+}
+
+#amnesty-user-profile-change-password-form .pwd-header {
+	float: 				left;
+	display: 			block;
+	width:				350px;
+	clear: 				both;
+}
+
+#amnesty-user-profile-change-password-form .pwd-footer {
+	clear: 				left;
+	font-size:			18px;
+	font-weight:		bold;
+	float:				left;
+	width:				350px;
+}
+#amnesty-user-profile-change-password-form #edit-pass-wrapper{
+	clear:				both;
+	display:			block;
+	float:				left;
+}
+#amnesty-user-profile-change-password-form #edit-submit{
+	display:			block;
+	float:				left;
+	font-weight:		bold;
+	padding:			5px 15px;
+	
+}
+
+#user-profile-form #edit-mail-wrapper,
+#user-profile-form #edit-pass-wrapper {
+	float: left;
+	width:450px;	
+}
+
+#user-profile-form #enable-edit-mail {
+	float: right;
+	margin: 30px 10px 0 0;
+}
+
+#user-profile-form #enable-edit-pass-pass1 {
+	float: right;
+	margin: 45px 10px 0 0;
+}
+
+/* activity pager */
+
+#amnesty-up .item-list ul.pager { 
+    text-align:left; 
+    margin:0px; 
+    border-bottom:solid 1px #d2d2d2; 
+    padding:4px 0px 4px 0px; 
+    top:0px; 
+    left:0px;
+    font-size: 16px;
+}
+
+#amnesty-up .item-list ul.pager li a:link {
+    color:#336699;
+    text-decoration:none;
+}
+
+#amnesty-up .item-list ul.pager li a:visited {
+    color:#336699;
+    text-decoration:none;
+}
+
+#amnesty-up .item-list ul.pager li.pager-current {
+    background-color:transparent;
+    color:#000000;
+    font-weight: bold;
+}
+
+#amnesty-up .item-list ul.pager li.pager-next {
+    position: absolute;
+    right: 48px;
+}
+
+#amnesty-up .item-list ul.pager li.pager-last {
+    position: absolute;
+    right: 0;
+}
+
+#amnesty-up .forum-topic-two-col {
+    margin-bottom: 0;	
+}
+
+#amnesty-up .forum-post-body {
+	    width: 560px;
+}
+/********************************************/
+
+/*body form#amnesty-user-profile-edit-form #edit-profile-expertregion,
+body form#amnesty-user-profile-edit-form #edit-profile-experttopic,
+body form#amnesty-user-profile-edit-form #edit-profile-expertleadership {
+	height: 100px;
+}*/

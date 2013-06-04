@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+div.report-row, div.report-subhead {
+  clear: both;
+}
+
+div.report-subhead {
+  font-weight: bold;
+}
+
+div.report-row {
+  padding-left: 100px;
+}
+
+.header-row {
+  font-weight: bold;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #ccc;
+}
+
+.header-row .action-title {
+  width: 100px;
+}
+
+.ltr div.report-field, .ltr div.column-title {
+  float: left;
+}
+
+.ltr div.activity-source {
+  width: 355px;
+}
+
+.ltr div.total {
+  width: 100px;
+}

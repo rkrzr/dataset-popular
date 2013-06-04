@@ -1,0 +1,144 @@
+﻿/*  =SLIDER STYLES
+
+Right now the width etc. of the slider needs to be adjusted here.
+it would be nice to make it a web part property...
+-------------------------------------------------------------- */
+
+/* Easy Slider 1.7 */
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width: 635px;
+		height:255px;
+		overflow:hidden; 
+ 	}	
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-30px;
+		top:71px;
+		z-index:1000;
+		}	
+	#nextBtn, #slider1next{ 
+		left:696px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:77px;
+		background:url(http://www.treasury.gov/Style%20Library/images/btn_prev.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(http://www.treasury.gov/Style%20Library/images/btn_next.gif) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	#sliderControls {
+		clear: both;
+		position: absolute;
+		top: 215px;
+		right: 0px;
+		width: 190px;
+		float: left;
+}
+	ol#controls{
+		margin:1em 0;
+		padding:0;
+		right: 36px;
+		height:29px;
+		float: right;
+		position:absolute
+		}
+	ol#controls li{
+		margin:0 2px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:29px;
+		line-height:29px;
+		}
+	ol#controls li a{
+		float:left;
+		height:29px;
+		line-height:29px;
+		background:url('../images/treas/rotator-buttons.jpg') no-repeat 0 0;	
+		color:#2a2a2a !important;
+		padding:0 10px;
+		font-weight:bold;
+		font-family:"Times New Roman", Times, serif;
+		text-decoration:none;
+		}
+	ol#controls li.current a{
+		background:url('../images/treas/rotator-buttons-current.jpg') no-repeat 0 0;	
+		color:#fff!important;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* // Easy Slider */
+
+#slider img {
+	float:left;
+	margin: 0px 10px 5px 0px;
+	padding: 3px;
+}	
+
+#slider {
+	height:255px;
+	width: 625px;
+	overflow:hidden;
+}
+
+/* New Code */
+
+	ul#pauseControls {
+		background:url('../images/treas/pause-play.jpg') no-repeat 0 0;	
+		margin:1em 0;
+		padding:0;
+		height:29px;
+		float: right;
+		position:absolute;
+		width: 36px;
+		top: 0px;
+		right: 0px;
+		}
+	ul#pauseControls li{
+		margin:0 0px 0 0px; 
+		padding:0;
+		display: inline;
+		list-style:none;
+		height:29px;
+		line-height:29px;
+
+		}
+	ul#pauseControls li a{
+		float:left;
+		height:29px;
+		line-height:29px;
+		color:#2a2a2a !important;
+		padding:0 5px;
+		font-weight:bold;
+		width: 8px;
+		font-family:"Times New Roman", Times, serif;
+		text-decoration:none;
+		text-indent: -9999px;
+		}
+
+
+
+

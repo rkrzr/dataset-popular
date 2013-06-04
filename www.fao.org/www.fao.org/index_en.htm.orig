@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="">
+<link rel="shortcut icon" href="fileadmin/images/icons/favicon.ico" type="image/x-ico; charset=binary">
+<link rel="icon" href="fileadmin/images/icons/favicon.ico" type="image/x-ico; charset=binary">
+
+<meta name="generator" content="TYPO3 4.5 CMS">
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_6d7d35b2ce.css%3F1362556434.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/faohome/liMenu.css%3F1307444797.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/faohome/fao_home_default.css%3F1367240784.css" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/faohome/temp_fao_home_print.css%3F1269956814.css" media="print">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/faohome/faohome_rc.css%3F1344236636.css" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/faohome/footer_social_media.css%3F1304521550.css" media="all">
+
+
+
+<script src="fileadmin/scripts/jquery/jquery-1.8.3.min.js%3F1357917426" type="text/javascript"></script>
+
+
+
+
+	
+
+	
+    <META NAME="description" CONTENT="Food and Agriculture Organization of the United Nations: essential documents, statistics, maps and multimedia resources">
+    <META NAME="keywords" CONTENT="agriculture, agricultural, hunger, food security, safety, documents, statistics, maps, multimedia resources, full-text publications, trade, country-specific, Codes of conduct, early warning, disaster prevention,  Biodiversity, Biotechnology, Desertification, Ethics, Gender, Organic, Participation, Integrated Production Systems, Farming, Livestock, Economic Policy, Education, Extension, Environment, Fisheries, Forestry, Genetic Resources, Agro-business, Sustainable Development, Rural, Social, Plant Production, Nutrition, Livestock, Land, Water, Geographic, Regional Info, Capacity Building"><link href='../fonts.googleapis.com/css%3Ffamily=Yanone+Kaffeesatz:200,400,bold.css' rel='stylesheet' type='text/css'/><title>FAO: Food and Agriculture Organization of the United Nations, for a world without hunger</title>
+<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements" />
+
+
+
+<style type="text/css" media="all">
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+  <td class="langs" width="100%" height="21" colspan="2"><div class="tx-srlanguagemenu-pi1"><div class="NO"><a href="http://www.fao.org/index_ar.htm" onfocus="blurLink(this);"  >العربية</a></div><div class="NO"><a href="http://www.fao.org/index_zh.htm" onfocus="blurLink(this);"  >﻿中文</a></div><div class="CUR" id={}><a href="index_en.htm" onfocus="blurLink(this);"  >english</a></div><div class="NO"><a href="http://www.fao.org/index_fr.htm" onfocus="blurLink(this);"  >français</a></div><div class="NO"><a href="http://www.fao.org/index_ru.htm" onfocus="blurLink(this);"  >Русский</a></div><div class="NO"><a href="http://www.fao.org/index_es.htm" onfocus="blurLink(this);"  >Español</a></div></div></td>
+</tr>
+<tr>
+<td colspan="2">
+  <table width="1000" align="left" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td width="160" valign="top" class="leftcolumn">
+      <table cellspacing="0" cellpadding="0" width="100%">
+        <tr><td class="logo"><div id="c6217" class="csc-default" ><a href="http://www.fao.org"><img src="fileadmin/images/faologo/FAO-emblem_en.gif" border="0" alt="Food and Agriculture Organization of the United Nations logo" title="Food and Agriculture Organization of the United Nations logo" /></a></div></td></tr>
+        <tr><td class="search"><div id="c6210" class="csc-default" ><div id="search" align="center">
+<form action="http://www.fao.org/corp/google_result/en/" method="get"  target="_self" id="searchbox_018170620143701104933:qq82jsfba7w">
+<input type="hidden" name="cx" value="018170620143701104933:qq82jsfba7w" />
+
+<input name="q" type="text" class="inputbox" size="18" />
+<input type="image" class="button" src="fileadmin/images/faosites/search_go.gif" alt="Search" title="Search" style="vertical-align: bottom;"/>
+<input type="hidden" name="cof" value="FORID:9" />
+</form>
+</div>
+<script type="text/javascript" src="../www.google.com/coop/cse/brand%3Fform=searchbox_018170620143701104933:qq82jsfba7w"></script>
+
+
+
+
+
+
+
+
+</div></td></tr>
+        <tr><td>
+          <table width="96%" align="right" class="table_menu" cellspacing="0" cellpadding="0"><tr><td colspan="2" class="menuon" onmouseover="className='menuon';" onmouseout="className='menuon';" height="24">&nbsp;<a href="http://www.fao.org/">FAO Home</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8" alt=""></td></tr><tr><td colspan="2" class="menuoff_no" onmouseover="className='menuon_no';" onmouseout="className='menuoff_no';" height="24"><a href="http://www.fao.org/about/en/" onfocus="blurLink(this);"  >About FAO</a></td></tr><tr><td colspan="2" style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr><tr><td colspan="2" class="menuoff" onmouseover="className='menuon';" onmouseout="className='menuoff';" height="24">&nbsp;<a href="http://www.fao.org/knowledge/kfhome/en/" onfocus="blurLink(this);"  >Knowledge Forum</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr><tr><td colspan="2" class="menuoff" onmouseover="className='menuon';" onmouseout="className='menuoff';" height="24">&nbsp;<a href="http://www.fao.org/iee-follow-up-committee/home-iee/en/" onfocus="blurLink(this);"  >FAO Reform</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr><tr><td colspan="2" class="menuoff" onmouseover="className='menuon';" onmouseout="className='menuoff';" height="24">&nbsp;<a href="http://www.fao.org/unfao/govbodies/gsbhome/gsb-home/en/" onfocus="blurLink(this);"  >FAO Governance</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr><tr><td colspan="2" class="menuoff" onmouseover="className='menuon';" onmouseout="className='menuoff';" height="24">&nbsp;<a href="http://www.fao.org/publications/en/" onfocus="blurLink(this);"  >Publications</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr><tr><td colspan="2" class="menuoff" onmouseover="className='menuon';" onmouseout="className='menuoff';" height="24">&nbsp;<a href="http://www.fao.org/corp/statistics/en/" onfocus="blurLink(this);"  >Statistics</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr><tr><td class="menuoff" onmouseover="className='menuon';" onmouseout="className='menuoff';" height="24">&nbsp<a target="_top" href="http://www.fao.org/countryprofiles/default/en/" class="url">Countries</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr><tr><td colspan="2" class="menuoff" onmouseover="className='menuon';" onmouseout="className='menuoff';" height="24">&nbsp;<a href="http://www.fao.org/corp/topics/en/" onfocus="blurLink(this);"  >Topics</a></td></tr><tr><td style="line-height: 8px;"><img src="fileadmin/images/faosites/spacer.gif" width="1" height="8"></td></tr></table>
+            </td>
+        </tr>
+      </table>
+    </td>
+    <td width="100%" valign="top" bgcolor="#ffffff">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <td colspan="2" valign="top" class="top_banner" height="37">
+            <div id="title_topbanner">FAO Home</div>
+          </td>
+        </tr>
+        <tr><td colspan="2">&nbsp; </td></tr>
+        <tr>
+          <td valign="top" width="650" class="maincontent_home">
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr><td class="newsroom"><div id="c38429" class="csc-default" ><div class="csc-header csc-header-n1">
+			<h1 class="csc-firstHeader">
+			<div class="news" id="news1top"></div>
+			<div id="pienews1top"></div>
+			</h1>
+</div>
+<div class="csc-textpic csc-textpic-intext-left">
+<div class="csc-textpic-imagewrap"><dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:300px;"><dt><div id="hp1photo"></div>
+<div id="piehp1photo"></div>
+</dt></dl></div><div class="csc-textpic-text"><div class="news" id="news1topsumm"><p class="bodytext"></p></div>
+			<div id="pienews1topsumm"></div>		
+			</div>
+</div></div><div id="c61052" class="csc-default" ><table width="100%" align="left" cellpadding="0" cellspacing="0" id="more_news_media">
+<tr>
+	<td>
+		<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader"><a href="http://www.fao.org/news/newsroom-home/en/" target="_top" >More news</a></h1></div>
+		<ul><li>									
+									
+			<div class="news" id="news2"><a class="headl" href="http://www.fao.org/news/story/en/item/29219/icode/">FAO initiates debate on declaration for World Summit on Food Security</a></div>
+			<div id="pienews2"></div>
+			
+			</li>
+			
+			<li>
+
+			<div class="news" id="news3"></div>
+			<div id="pienews3"></div>						
+			
+		</li></ul>
+    </td>
+    <td id="media_centre" width="28%">
+    	<ul>
+        	<li class="faoHome_featureLinks" nowrap="true"><h4 class="media_list"><a href="http://www.fao.org/news/newsroom-home/en/" target="_top">Media Centre</a></h4></li>
+            <li class="faoHome_featureLinks" nowrap="true"><h4 class="media_list"><a href="http://www.fao.org/webcast/" target="_top" class="external-link-new-window">Webcasting</a></h4></li>
+            <li class="faoHome_featureLinks" nowrap="true"><h4 class="media_list"><a href="http://www.fao.org/about/photography/en/" target="_top">Photo stories</a></h4></li>
+        </ul>
+    </td>
+</tr>
+</table></div></td></tr>
+            </table>
+                        <br>
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center">
+              <tr>
+                <td class="round_infobox_main"><div id="c44926" class="csc-default" ><table border="0" align="center" width="95%" cellpadding="0" cellspacing="0" class="contenttable" style="visibility: hidden" id="on_contenttable">
+	<tr>
+    	<td width="25%"><p class="bodytext" id="otherNews1Photo"><img src="fileadmin/images/fao1.jpg" border="0" alt="" width="130" height="89" title="" /></p></td>
+        <td width="25%"><p class="bodytext" id="otherNews2Photo"><img src="fileadmin/images/fao1.jpg" border="0" alt="" width="130" height="89" title="" /></p></td>
+        <td width="25%"><p class="bodytext" id="otherNews3Photo"><img src="fileadmin/images/fao1.jpg" border="0" alt="" width="130" height="89" title="" /></p></td>
+        <td width="10%"><p class="bodytext" id="otherNews4Photo"><img src="fileadmin/images/fao1.jpg" border="0" alt="" width="130" height="89" title="" /></p></td>
+    </tr>
+    <tr>
+    	<td valign="top"><p class="bodytext" id="otherNews1Caption"></p></td>
+        <td valign="top"><p class="bodytext" id="otherNews2Caption"></p></td>
+        <td valign="top"><p class="bodytext" id="otherNews3Caption"></p></td>
+        <td valign="top"><p class="bodytext" id="otherNews4Caption"></p></td>
+    </tr>
+</table></div></td>
+              </tr>
+            </table>
+            <br>
+            <table class="box_home" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td width="33%" valign="top" id="box_blue_key" style="padding-right: 10px;"><div id="box_ylw_light"><div id="c6031" class="csc-default" ><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Selected key programmes</h1></div><ul><li><a href="http://www.fao.org/europeanunion/en/" target="_top" class="external-link-new-window" >FAO-EU partnership</a></li><li><a href="http://www.fao.org/emergencies/en/" target="_top" class="external-link-new-window" >FAO in emergencies</a></li><li><a href="http://www.codexalimentarius.net/" target="_top" class="external-link-new-window" >Codex Alimentarius</a></li><li><a href="https://www.ippc.int/" target="_top" class="external-link-new-window" >International Plant Protection Convention</a></li><li><a href="http://www.fao.org/capacitydevelopment/" target="_top" class="external-link-new-window" >Capacity development</a></li><li><a href="http://www.fao.org/investment/en/" target="_top" >Investing in agriculture</a></li><li><a href="http://www.fao.org/foodchain/empres-prevention-and-early-warning/en/" target="_top" class="external-link-new-window" >Emergency Prevention System for Transboundary Animal and Plant Pests and Diseases</a></li><li><a href="http://www.fao.org/giews/english/index.htm" target="_top" class="external-link-new-window" >Global Information and Early Warning System</a></li></ul></div></div><div id="donate_now"></div>
+                <div id="field_box_homepage"></div></td>
+                <td width="33%" valign="top" id="box_red"> <div id="blueBox"><div id="c6055" class="csc-default" ><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Global issues</h1></div><ul><li><a href="http://www.fao.org/avianflu/en/index.html" target="_top" >H7N9 </a></li><li><a href="http://www.fao.org/biodiversity/en/" target="_top" >Biodiversity</a></li><li><a href="http://www.fao.org/energy/en/" target="_top" >Energy/Bioenergy</a></li><li><a href="http://www.fao.org/climatechange/en/" target="_top" >Climate change</a></li><li><a href="http://www.fao.org/food/food-safety-quality/home-page/en/" target="_top" >Food safety</a></li><li><a href="http://www.fao.org/hunger/en/" target="_top" >Hunger</a></li><li><a href="http://www.fao.org/mdg/" target="_top" >Millennium <br />Development Goals</a></li><li><a href="http://www.fao.org/nr/water/index.html" target="_top" >Water</a></li><li><a href="http://www.fao.org/worldfoodsituation/wfs-home/en/?no_cache=1" target="_top" class="internal-link" >World food situation</a></li></ul></div></div><div id="greenBox"><div id="c6067" class="csc-default" ><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Core activities</h1></div><ul><li><a href="http://www.fao.org/ag/portal/ag-home/en/" target="_top" class="internal-link" >Agriculture</a></li><li><a href="http://www.fao.org/economic/es-home/en/" target="_top" class="internal-link" >Economic and social</a></li><li><a href="http://www.fao.org/fishery/en" target="_top" >Fisheries and aquaculture</a></li><li><a href="http://www.fao.org/forestry/en/" target="_top" >Forestry</a></li><li><a href="http://www.fao.org/nr/nr-home/en/" target="_top" >Natural resources</a></li><li><a href="http://www.fao.org/tc/" target="_top" >Technical cooperation</a></li></ul></div></div></td>
+                                <td width="33%" valign="top" id="box_ylw">
+                                <div id="more_news"></div>
+                                <div id="meetings"><div id="c62424" class="csc-default" ><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader"><a href="http://www.fao.org/events/" target="_top" >Upcoming meetings</a></h1></div><ul sab="5981"><li sab="5982"><a sab="5983" href="http://www.fao.org/bodies/conf/c2013/en/"><strong>FAO Conference<br sab="5985" />38th Session</strong><br sab="5986" />Rome, 15-22 June 2013</a></li><li sab="5982"><a sab="5983" href="http://www.fao.org/bodies/fc/fc149/en/"><strong>Finance Committee<br sab="5985" />149th Session</strong><br sab="5986" />Rome, 27–28 May 2013</a></li></ul></div><div id="c22637" class="csc-default" ><div class="csc-header csc-header-n2"><h1>Recent meetings</h1></div><ul sab="21698"><li sab="21699"><a sab="21700" href="http://www.fao.org/bodies/council/cl146/en/"><strong>FAO Council<br sab="21702" />146th Session</strong><br sab="21703" />Rome, 22–26 April 2013</a></li><li sab="21704"><a sab="21705" href="http://www.fao.org/nr/cgrfa/cgrfa-meetings/cgrfa-comm/fourteenth-reg/en/#c160710" class="external-link-new-window"><strong>Commission on Genetic Resources for Food and Agriculture<br sab="21707" />14th Regular Session </strong><br sab="21708" />Rome,&nbsp;15–19 April 2013</a></li><li sab="21709"><a sab="21710" href="http://www.fao.org/bodies/pc/pc113/en/"><strong>Programme Committee <br sab="21712" />113th Session</strong><br sab="21713" />Rome, 18–22 March 2013</a></li></ul></div></div>
+                                &nbsp;
+                </td>
+              </tr>
+            </table>
+                              
+                              <table cellspacing="10" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                      <td id="box_notice"> </td>
+                                    </tr>
+            </table>
+          </td>
+          <td width="190" valign="top" class="rightcolumn">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="table_menu_right">  
+              
+              <tr><td id="box_right1" valign="top"><div id="c197491" class="csc-default"  style="margin-bottom:16px;" ><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:190px;"><a href="http://www.fao.org/quinoa-2013/en/" target="_blank" title="Quinoa 2013"><img src="uploads/pics/Quinoa-HP-en.gif" width="190" height="98" alt="Quinoa 2013" /></a></div></div><div class="csc-textpic-clear"></div></div></td></tr>
+              <tr><td id="box_right1_2" valign="top"><div id="c172282" class="csc-default" ><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:190px;"><a href="http://www.fao.org/worldfoodsituation/wfs-home/en/" target="_blank" title="FAO Food Price Indices - April 2013"><img src="uploads/pics/food-price-april2013-en.jpg" width="190" height="268" alt="FAO Food Price Indices - April 2013" /></a></div></div><div class="csc-textpic-clear"></div></div></td></tr>
+              <tr><td id="box_right2" valign="top"></td></tr>
+              <tr><td id="box_right3" valign="top"><div id="c156186" class="csc-default" ><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:149px;"><a href="http://www.fao.org/crisis/sahel/en/" target="_blank" ><img src="uploads/pics/sahel_logo_en_small_02.png" width="149" height="225" alt="Sahel Crisis banner" /></a></div></div><div class="csc-textpic-clear"></div></div><div id="c156320" class="csc-default" ><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:190px;"><a href="https://secure.my-websites.org/supporter/donatenow.do?n=F6@5Cs&amp;dfdbid=1168944" target="_blank" title="Donate Now"><img src="uploads/pics/Donate_en.png" width="190" height="50" alt="Donate Now" /></a></div></div><div class="csc-textpic-clear"></div></div></td></tr>
+              <tr><td id="box_right4" valign="top"><div id="c205354" class="csc-default" ><style>
+#endingHunger{	width:190px; height:355px; text-align:center; border:1px solid #000; overflow: hidden; position: relative;}
+.endingh-article-image{padding-top:16px;}
+.endingh-article-title {padding:16px; font-size:16px; text-align:left;}
+.endingh-footer{position: absolute; bottom:0px; left:0px; line-height:0;}
+.endingh-article-title a{color:#333; font-size:16px;}
+.endingh-article-title a:hover{color:#000;}
+div.face_en a, .face_es a, .face_fr a, .face_it a{font-family: 'Yanone Kaffeesatz'; font-size:20px;}
+div.face_ar{direction:rtl; text-align: right;}
+</style>
+<script>
+$(document).ready(function() {
+        populate('en');
+});
+function resetContainer(){
+      $('.endingh-article').empty();
+      $('.endingh-article').append('<div class="endingh-article-image"><img src="fileadmin/img/loader.gif" /></div>');
+}
+function populate(language){
+        resetContainer();
+        urlToBeCalled = 'http://www.fao.org/corp/endingHungerJson/en/';
+        $.getJSON(urlToBeCalled, function(data) {
+		$.each(data['items'], function(key, val) {
+                      $('.endingh-article').empty();
+                      $('.endingh-article').append('<div class="endingh-article-image"><a href="http://www.fao.org/'+val.url+'" target="_blank"><img border="0" src="http://www.fao.org/'+val.image+'" width="160" /></a></div>');
+                      $('.endingh-article').append('<div class="endingh-article-title face_'+language+'"><a href="http://www.fao.org/'+val.url+'" target="_blank">'+val.title+'</a></div>');
+		});
+	})
+        .error(function(jqXhr, textStatus, error) { 
+                //alert("ERROR: " + textStatus + ", " + error);
+		$('.endingh-article').empty();
+		$('.endingh-article').append('<div class="endingh-article-title">endinghunger.org <span style="color: red;">error</span>: <br>feed not available</div>');
+        });
+}
+</script>
+<div id="endingHunger">
+<span class="endingh-image"><img src="fileadmin/templates/faohome/end-hunger/logo_eh_ban_190px_EN.jpg.jpg" width="190" /></span>
+<div class="endingh-article"><img src="fileadmin/img/loader.gif" /></div>
+<span class="endingh-footer"><img src="fileadmin/templates/faohome/end-hunger/Footer_EH_ban.gif" width="190" /></span>
+</div></div><div id="c192149" class="csc-default" ><p class="align-center"><a href="http://www.fao.org/getinvolved/worldfoodday/en/" target="_blank" class="external-link-new-window" ><span style="FONT-FAMILY: &quot;Calibri&quot;, &quot;sans-serif&quot;; COLOR: #b90000; FONT-SIZE: 16pt"><strong>World Food Day</strong></span><span style="FONT-FAMILY: &quot;Calibri&quot;, &quot;sans-serif&quot;; FONT-SIZE: 14pt"> </span></a></p></div></td></tr>
+              <tr><td id="box_right5" valign="top"></td></tr>
+                                    <tr><td id="box_right6" valign="top"></td></tr>
+                                    <tr><td id="box_right7" valign="top"></td></tr>
+                                    <tr><td id="box_right8" valign="top"></td></tr>
+            </table>
+          </td>
+        </tr>
+        
+      </table>
+    </td>
+  </tr>
+  <tr><td class="leftcolumn">&nbsp;</td><td valign="top" bgcolor="#ffffff">&nbsp;</td></tr>
+  <tr>  
+      <td valign="top" colspan="2" width="100%"> 
+          
+                    <div id="footer_with_social_media">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">  
+            <tr>
+            <td id="footer_lx_cont" valign="top" align="left"><div id="c55520" class="csc-default" ><div id="footer_left_high"><p class="bodytext"><a href="http://www.fao.org/contact-us/en/" title="Contact us" target="_top" class="internal-link" >Contact us</a></p>
+<p class="bodytext"><a href="http://www.fao.org/contact-us/terms/en/" title="Privacy Policy" target="_top" class="internal-link" >Terms and Conditions</a></p>
+<p class="bodytext"><a href="http://www.fao.org/contact-us/scam-alert/en/" title="Scam Alert" target="_top" class="internal-link" >Scam Alert</a></p></div></div><div id="c55555" class="csc-default" ><div class="follow_us"><p id="follow_us_title" class="bodytext">Follow us on: </p><div id="social_media"><p class="bodytext">  <a href="http://twitter.com/faonews" title="follow us on twitter" target="_blank" ><img src="fileadmin/templates/faohome/images/footer/twitter.jpg" alt="follow us on twitter" border="0" /></a>  <a href="http://www.facebook.com/pages/Food-and-Agriculture-Organization-of-the-United-Nations-FAO/46370758585?ref=mf" target="_blank" ><img src="fileadmin/templates/faohome/images/footer/facebook.jpg" alt="follow us on facebook" title="follow us on facebook" border="0" /></a>  <a href="http://www.flickr.com/photos/faonews/collections/" target="_blank" ><img src="fileadmin/templates/faohome/images/footer/flickr.jpg" alt="follow us on flickr" title="follow us on flickr" border="0" /></a>  <a href="http://www.youtube.com/user/FAOVideo" target="_blank" ><img src="fileadmin/templates/faohome/images/footer/youtube.jpg" alt="follow us on youtube" title="follow us on youtube" border="0" /></a>  <a href="https://plus.google.com/109652448869757338876/" rel="publisher"><img src="fileadmin/templates/faohome/images/footer/google_plus_logo.jpg" alt="follow us on Google+" title="follow us on Google+" border="0" /></a>  <a href="http://www.linkedin.com/company/fao" target="_blank" ><img src="fileadmin/templates/faohome/images/footer/l-in.jpg" alt="follow us on LinkedIn" title="follow us on LinkedIn" border="0" /></a>  <a href="http://www.slideshare.net/FAOoftheUN" target="_blank" ><img src="uploads/RTEmagicC_0349f8f279.png.png" alt="follow us on Slideshare" title="follow us on Slideshare" border="0" width="32" height="32" /></a> </p></div></div></div> </td>
+            <td id="footer_rx_cont" valign="top" align="right"><p class="bodytext"><a href="http://www.fao.org/contact-us/terms/en" target="_blank" class="internal-link">© FAO,&nbsp;2013</a> </p></td>
+            </tr>
+          </table>
+                    </div>
+          
+      </td>
+  </tr>
+  </table>
+</td>
+</tr>
+</table>
+
+
+<script language="Javascript1.2">
+function printWindow(){
+browserVersion = parseInt(navigator.appVersion)
+if (browserVersion >= 4) window.print()
+}
+var language='en';
+</script> 
+
+<script type="text/javascript" src="fileadmin/scripts/labjs/LAB.min.js"></script>
+<script type="text/javascript">
+  $LAB
+    .script("http://www.fao.org/fileadmin/templates/faohome/js/ga_events_tracker.js")
+    .script("http://www.fao.org/homepage/homepage_news2009.js")
+    .script("http://www.fao.org/typo3conf/ext/user_general_relation/json_news.php?L=0")
+    .wait(function() {
+      showNewsJS();
+    })
+    .script("http://www.fao.org/corp/feature_bar/output/en/?type=69")
+    .wait(function() {
+      feedOtherNews();
+      setGoogleTrk();
+    })
+    
+    // .script("http://www.fao.org/corp/1billioncounter11/")
+    // .wait(function() {
+    //   document.getElementById('counter').innerHTML = myCounter;
+    // })
+</script>
+<style type="text/css">
+img.hp1photo{visibility:visible;}
+div.news{visibility:visible;}
+</style>
+
+<script src="fileadmin/javascripts/google_analytics/ga.link.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-16957552-1']);
+  _gaq.push(['_setDomainName', 'fao.org']);
+  _gaq.push(['_trackPageview']);
+  
+  _gaq.push(['_setAccount', 'UA-16796074-1']);
+  _gaq.push(['_setDomainName', 'fao.org']);
+  _gaq.push(['_trackPageview']);
+  
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>

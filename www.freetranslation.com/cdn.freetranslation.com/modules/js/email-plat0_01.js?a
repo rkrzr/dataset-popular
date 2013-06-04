@@ -1,0 +1,31 @@
+var oWin;
+function emailTranslation(){
+	
+	if(document.getElementById("param_transType").value == "LW")	{
+	alert('sorry, email not supported for that language pair');
+	return void(0);
+	}
+	
+	
+	var bEmail=false;
+	if(document.getElementById("resptext").value!=document.getElementById("resptext").defaultValue||document.getElementById("srctext").value!=document.getElementById("srctext").defaultValue){
+
+			//document.getElementById("srctext").value=document.getElementById("srctext").defaultValue;
+			
+			bEmail=true;
+
+	}else{
+		bEmail=true;
+	}
+	if(bEmail){
+		var iHeight=475;
+		var iWidth=600;
+		if(isXPSP2)iHeight+20;
+	
+		document.frmTextTranslator.action=sRootSecure+"account/platinum/email.asp";
+		document.frmTextTranslator.srctext.value=document.getElementById("srctext").value;
+		document.frmTextTranslator.dsttext.value=document.getElementById("resptext").value;
+		document.frmTextTranslator.target="EmailTranslation";
+		document.frmTextTranslator.submit();
+	}
+}

@@ -1,0 +1,230 @@
+/* --- World Health Organization ----------------------------------------------------- */
+/* --- CSS Framework: Layout definitions --------------------------------------------- */
+/* --- Versions 
+
+Version 1.5.2
+- update to #page #title
+
+======================================================================================*/
+
+/*<![CDATA[*/
+@media all {
+
+/* -------------------------------------------------------------------------------------
+ AREAS
+======================================================================================*/
+
+/* body */
+body {
+	background-color:#F5F5F5;
+	padding:0 0 30px 0;
+	margin:0;
+}
+
+/* page */
+#page {
+	width:990px;
+	padding:0 0 10px 0;
+	margin:0 auto;
+	background-color:#F5F5F5;
+	background-image:url('http://www.who.int/sysmedia/media/style/img/who_sprite.gif');
+	background-position: left bottom;
+	background-repeat:no-repeat;
+}
+#wrapper {
+	padding:0 5px;
+	background-color:#F5F5F5;
+	background-image:url('http://www.who.int/sysmedia/media/style/img/shadow.gif');
+	background-position:left top;
+	background-repeat:repeat-y;
+}
+
+/* header */
+#header {
+	position:relative;
+	padding:20px 0 0 0;
+	background-color:#FFFFFF;
+}
+
+/* ticker */
+#ticker {
+	position:relative;
+	padding:0 15px;
+	background-color:#FFFFCC;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	zoom:1;
+}
+
+/* main */
+#main {
+	clear:both;
+	background-color:#FFFFFF;
+}
+
+/* breadcrumb */
+#breadcrumb {
+	width:950px;
+	background-color:#DBEEF9;
+	padding:4px 15px 2px 15px;
+}
+
+/* footer */
+#footer {
+	position:relative;
+	border-top:1px solid #CCCCCC;
+	padding:9px 15px 5px 15px;
+	background-color:#F5F5F5;
+	background-image:url('http://www.who.int/sysmedia/media/style/img/footer_emblem.gif');
+	background-position:10px 15px;
+	background-repeat:no-repeat;
+	zoom:1;
+}
+
+
+/* -------------------------------------------------------------------------------------
+ HEADER
+======================================================================================*/
+
+
+/* branding */
+#branding {
+	height:90px;
+}
+
+/* access */
+#access {
+	position:absolute;
+	left:-10000px;
+	top:-10000px;
+	visibility:hidden;
+	width:0;
+	height:0;
+	line-height:0;
+}
+
+/* language */
+#language {
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:20px;
+	padding:0 5px 0 15px;
+}
+
+/* navigation */
+#navigation {
+	height:35px;
+	padding:0 10px;
+	background-color:#1E7FB8;
+}
+
+/* search */
+#search {
+	padding:12px 0 0 0;
+	background-color:#DBEEF9;
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------
+ MAIN
+======================================================================================*/
+
+/* title */
+#page #title {
+	padding:10px 15px 9px;
+	background-color:#F5F5F5;
+	border-bottom:1px solid #CCCCCC;
+	zoom:1;
+	display:block;
+}
+
+#page.template_sidebar #title, #page.template_sidebar-marginal #title, #page.template_sidebar-special #title   {
+	padding:10px 15px 9px 215px;
+}
+
+/* content */
+#content {
+	padding:15px;
+}
+.template_sidebar #content, .template_sidebar-special #content {
+	float:left;
+	width:750px;
+}
+.template_sidebar-marginal #content {
+	float:left;
+	width:780px;
+	padding:0;
+}
+
+/* sidebar */	
+#sidebar {
+	float:left;
+	width:180px;
+	padding:15px 5px 15px 15px;
+	display:none;
+}
+.template_sidebar #sidebar,
+.template_sidebar-marginal #sidebar, .template_sidebar-special #sidebar{
+	display:block;
+}
+
+/* primary */
+#primary {
+	float:left;
+	width:480px;
+	padding:15px;
+}
+
+/* marginal */
+#marginal {
+	float:right;
+	width:230px;
+	padding:15px 15px 15px 10px;
+	background-color:#fff;
+}
+.template_sidebar-special #marginal {
+	width:140px;
+	padding:30px 0 0;
+
+}
+#marginal .teaser {
+	overflow:hidden;
+}
+
+/* special column width */
+.template_sidebar-special #content p, .template_sidebar-special #content h1.headline, .template_sidebar-special #content h2, .template_sidebar-special #content hr, .template_sidebar-special #content .section_head1, .template_sidebar-special #content .section_head2, .template_sidebar-special #content .section_head3, .template_sidebar-special #content ul {
+	width: 580px;
+}
+.template_sidebar-special #content hr {
+	float: left;
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------
+ FOOTER
+======================================================================================*/
+
+/* doormat */
+#doormat {
+	padding:0 0 0 320px;
+}
+
+/* foot */
+#foot {
+	position:absolute;
+	left:15px;
+	bottom:0px;
+	height:20px;
+	width:300px;
+}
+
+
+
+}
+/*]]>*/
+

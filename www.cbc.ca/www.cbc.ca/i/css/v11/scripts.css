@@ -1,0 +1,1084 @@
+/* This stylesheet defines CBC placeholder widgets styles */
+
+/* CBC CAROUSEL PLACEHOLDER STYLES */
+
+.canvas {
+	position:relative;
+	overflow:hidden;
+	zoom:1;/* for IE */
+}
+
+.cbccarousel {
+/*	background-color:#ececec;*/
+/*	height:294px;*/
+	font-family:arial, sans-serif;
+/*	margin:0 0 10px;*/
+	clear:both;
+	position:relative;
+	overflow:hidden;
+}
+
+.cbccarousel a {
+	text-decoration:none;
+}
+.cbccarousel a:hover, .cbccarousel a:active, .cbccarousel a:focus {
+	text-decoration:underline;
+}
+
+.cbccarousel .slides {
+	/*height:259px;*/
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow:hidden; /*for IE*/
+	list-style:none;
+	zoom:1;
+}
+
+.cbccarousel .slides li {
+	background-color:#fff;
+	/*width:460px;
+		height:259px;*/
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
+	/* DO NOT USE MARGINS ON SLIDES
+	use an internal element within each slide to create the illusion of space between slides
+	slide's width should equal the width of the internal element + padding + margin */
+	overflow:hidden;
+}
+.cbccarousel .slides li.fadeTop {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:9;
+	opacity:1;
+}
+.cbccarousel .slides li.fadeBtm {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+}
+
+.cbccarousel .slides li img {
+	border:none;
+	/*width:460px;
+		height:259px;*/
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:5;
+}
+
+.cbccarousel .slides li dl {
+	background:rgb(0,0,0);
+	background:rgba(0,0,0,.8);
+	color:#fff;
+/*	width:460px;*/
+	position:absolute;
+	left:0;
+	bottom:0;
+	padding:15px 10px 15px 10px;
+	z-index:10;
+}
+/* IE opacity fix */
+.cbccarousel .slides li dl {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+.cbccarousel .slides li dl dt {
+/*	width:440px;*/
+	font-size:16px;
+	margin:0;
+}
+.cbccarousel .slides li dl dt a {
+	color:#fff;
+	display:block;
+}
+.cbccarousel .slides li dl dd {
+	width:440px;
+	font-size:14px;
+	margin:0;
+	padding:3px 0 5px;
+}
+.cbccarousel .slides li dl dd .timestamp {
+	padding:0 10px;
+}
+
+.cbccarousel .slides li dl dd a{
+	color:#ff8400;
+}
+
+/*.cbccarousel .slides li dl a {
+	color:#ff8400;
+	font-weight:bold;
+}*/
+
+.cbccarousel .slides li dl dt a {
+	color:#fff;
+	font-weight:bold;
+}
+
+.cbccarousel .pagination a {
+	background-position:0 -98px;
+}
+
+.cbccarousel a.prev {
+	background-position:2px -18px;
+}
+.cbccarousel a.prev:hover {
+	background-position:2px 2px;
+}
+.cbccarousel a.next {
+	background-position:2px -58px;
+}
+.cbccarousel a.next:hover {
+	background-position:2px -38px;
+}
+
+
+.cbccarousel .pagination a.selected,
+.cbccarousel .pagination a.selected:hover,
+.cbccarousel .pagination a:focus {
+	background-position:0 -78px;
+}
+.cbccarousel .pagination a:hover {
+	background-position:0 -118px;
+}
+.cbccarousel .pagination.preview{
+	position:relative;
+}
+
+
+
+.cbccarousel .controlscontainer, .cbccarousel .pagination.preview a.index{
+	overflow:visible;
+}
+.cbccarousel .pagination.preview a.index .thumb{
+	display:none;
+}
+.cbccarousel .pagination.preview a.index:hover, .cbccarousel .pagination.preview a.index:focus{
+	background-color:#cc0000;
+	text-decoration:none;
+}
+.cbccarousel .pagination.preview a.index:hover .thumb, .cbccarousel .pagination.preview a.index:focus .thumb{
+	display:block;
+	float:none;
+	position:absolute;
+	padding:15px 15px 10px;
+	border:1px solid #444;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width:140px;
+	z-index:-1;
+	top:0px;
+	left:-165px;
+	*left:-171px;
+	background-color:#111;
+	background:rgba(0,0,0,.9);
+	
+}
+.cbccarousel .pagination.preview a.index .hdline{
+	font-size:13px;
+	line-height:1.25em;
+	color:#a0e1ff;
+	text-align:left;
+	height:50px;
+	display:block;
+	overflow:hidden;
+}
+.cbccarousel .pagination.preview a.index.selected:hover, .cbccarousel .pagination.preview a.index.selected:focus{
+	background-color:transparent;
+}
+.cbccarousel .pagination.preview a.index.selected .thumb{
+	display:none;
+}
+.cbccarousel .pagination.preview a.index .thumb img{
+	display:block;
+	border:none;
+	margin-bottom:7px;
+}
+
+/* dimensions */
+/*.cbccarousel.ccol5, .cbccarousel.ccol5 .slides li, .cbccarousel.ccol5 .slides li img{
+	width:380px;
+}
+.cbccarousel.ccol5 .slides li img {
+	height:214px;
+}*/
+
+
+
+
+
+
+/* <standard> */
+
+.cbccarousel.standard .slides li dl{
+	padding:10px;
+}
+
+.cbccarousel.standard.placeholder.ccol4 img { width: 300px; height:169px; }
+.cbccarousel.standard.placeholder.ccol5 img { width: 380px; height:214px; }
+.cbccarousel.standard.placeholder.ccol6 img { width: 460px; height:259px; }
+.cbccarousel.standard.placeholder.ccol7 img { width: 540px; height:304px; }
+.cbccarousel.standard.placeholder.ccol8 img { width: 620px; height:349px; }
+.cbccarousel.standard.placeholder.ccol9 img { width: 700px; height:394px; }
+.cbccarousel.standard.placeholder.ccol10 img { width: 780px; height:439px; }
+.cbccarousel.standard.placeholder.ccol11 img { width: 860px; height:484px; }
+.cbccarousel.standard.placeholder.ccol12 img { width: 940px; height:529px; }
+
+.cbccarousel.standard.placeholder img { border-bottom: 34px solid #ececec; }
+
+/*
+.cbccarousel.placeholder .topstory {
+	background-color: #ececec;
+	padding-bottom: 34px;
+}*/
+
+.cbccarousel.standard.placeholder {
+    background-color: #ECECEC;
+}
+.cbccarousel.standard.placeholder ul.slides li dl {
+    padding: 15px 10px;
+    bottom: 0;
+	/*background:rgb(0,0,0);
+	background:rgba(0,0,0,.8);*/
+	color:#fff;
+	/*width:100%;*/
+	position: absolute;
+	left:0;
+	z-index:10;
+}
+.cbccarousel.standard.placeholder ul.slides dl dd {
+    margin: 0;
+    /*padding: 5px 0;*/
+}
+.cbccarousel.standard.placeholder ul.slides dl dt {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.cbccarousel.standard.placeholder dl dt.social {
+	display: none;
+}
+
+.cbccarousel.standard.placeholder dl dt a {
+	color: #fff;
+	text-decoration: none;
+}
+.cbccarousel.standard.placeholder dl dt a:hover {
+	text-decoration: underline;
+}
+
+.cbccarousel.standard.placeholder dl dd {
+	/*font-size: 14px;*/
+	margin:0;
+	/*padding: 0 10px 20px 10px;*/
+}
+
+.cbccarousel.standard.placeholder dl dd a, .cbccarousel.placeholder dl dd a:hover {
+	text-decoration: none;
+}
+
+
+.cbccarousel.standard.ccol4 { height:203px; }
+.cbccarousel.standard.ccol4, .cbccarousel.standard.ccol4 .slides li, .cbccarousel.standard.ccol4 .slides li img { width:300px; }
+.cbccarousel.standard.ccol4 .slides, .cbccarousel.standard.ccol4 .slides li, .cbccarousel.standard.ccol4 .slides li img { height:169px; }
+.cbccarousel.standard.ccol4 .slides li dl, .cbccarousel.standard.ccol4 .slides li dl dt, .cbccarousel.standard.ccol4 .slides li dl dd { width:280px; }
+
+.cbccarousel.standard.ccol5 { height:248px; }
+.cbccarousel.standard.ccol5, .cbccarousel.standard.ccol5 .slides li, .cbccarousel.standard.ccol5 .slides li img { width:380px; }
+.cbccarousel.standard.ccol5 .slides, .cbccarousel.standard.ccol5 .slides li, .cbccarousel.standard.ccol5 .slides li img { height:214px; }
+.cbccarousel.standard.ccol5 .slides li dl, .cbccarousel.standard.ccol5 .slides li dl dt, .cbccarousel.standard.ccol5 .slides li dl dd { width:360px; }
+
+.cbccarousel.standard.ccol6 {
+    height:293px;
+    background-color: #ECECEC;
+}
+
+.cbccarousel.standard.placeholder.ccol6, .cbccarousel.standard.placeholder.ccol6 .slides li, .cbccarousel.standard.placeholder.ccol6 .slides li img { width:460px; }
+
+.cbccarousel.standard.ccol6, .cbccarousel.standard.ccol6 .slides li, .cbccarousel.standard.ccol6 .slides li img { width:460px; }
+.cbccarousel.standard.ccol6 .slides, .cbccarousel.standard.ccol6 .slides li, .cbccarousel.standard.ccol6 .slides li img { height:259px; }
+.cbccarousel.standard.ccol6 .slides li dl, .cbccarousel.standard.ccol6 .slides li dl dt, .cbccarousel.standard.ccol6 .slides li dl dd {
+    width:440px;
+}
+
+.cbccarousel.standard.ccol7 { height:338px; }
+.cbccarousel.standard.ccol7, .cbccarousel.standard.ccol7 .slides li, .cbccarousel.standard.ccol7 .slides li img { width:540px; }
+.cbccarousel.standard.ccol7 .slides, .cbccarousel.standard.ccol7 .slides li, .cbccarousel.standard.ccol7 .slides li img { height:304px; }
+.cbccarousel.standard.ccol7 .slides li dl, .cbccarousel.standard.ccol7 .slides li dl dt, .cbccarousel.standard.ccol7 .slides li dl dd { width:520px; }
+
+.cbccarousel.standard.ccol8 { height:383px; }
+.cbccarousel.standard.ccol8, .cbccarousel.standard.ccol8 .slides li, .cbccarousel.standard.ccol8 .slides li img { width:620px; }
+.cbccarousel.standard.ccol8 .slides, .cbccarousel.standard.ccol8 .slides li, .cbccarousel.standard.ccol8 .slides li img { height:349px; }
+.cbccarousel.standard.ccol8 .slides li dl, .cbccarousel.standard.ccol8 .slides li dl dt, .cbccarousel.standard.ccol8 .slides li dl dd { width:600px; }
+
+.cbccarousel.standard.ccol9 { height:428px; }
+.cbccarousel.standard.ccol9, .cbccarousel.standard.ccol9 .slides li, .cbccarousel.standard.ccol9 .slides li img { width:700px; }
+.cbccarousel.standard.ccol9 .slides, .cbccarousel.standard.ccol9 .slides li, .cbccarousel.standard.ccol9 .slides li img { height:394px; }
+.cbccarousel.standard.ccol9 .slides li dl, .cbccarousel.standard.ccol9 .slides li dl dt, .cbccarousel.standard.ccol9 .slides li dl dd { width:680px; }
+
+.cbccarousel.standard.ccol10 { height:473px; }
+.cbccarousel.standard.ccol10, .cbccarousel.standard.ccol10 .slides li, .cbccarousel.standard.ccol10 .slides li img { width:780px; }
+.cbccarousel.standard.ccol10 .slides, .cbccarousel.standard.ccol10 .slides li, .cbccarousel.standard.ccol10 .slides li img { height:439px; }
+.cbccarousel.standard.ccol10 .slides li dl, .cbccarousel.standard.ccol10 .slides li dl dt, .cbccarousel.standard.ccol10 .slides li dl dd { width:760px; }
+
+.cbccarousel.standard.ccol11 { height:518px; }
+.cbccarousel.standard.ccol11, .cbccarousel.standard.ccol11 .slides li, .cbccarousel.standard.ccol11 .slides li img { width:860px; }
+.cbccarousel.standard.ccol11 .slides, .cbccarousel.standard.ccol11 .slides li, .cbccarousel.standard.ccol11 .slides li img { height:484px; }
+.cbccarousel.standard.ccol11 .slides li dl, .cbccarousel.standard.ccol11 .slides li dl dt, .cbccarousel.standard.ccol11 .slides li dl dd { width:840px; }
+
+.cbccarousel.standard.ccol12 { height:563px; }
+.cbccarousel.standard.ccol12, .cbccarousel.standard.ccol12 .slides li, .cbccarousel.standard.ccol12 .slides li img { width:940px; }
+.cbccarousel.standard.ccol12 .slides, .cbccarousel.standard.ccol12 .slides li, .cbccarousel.standard.ccol12 .slides li img { height:529px; }
+.cbccarousel.standard.ccol12 .slides li dl, .cbccarousel.standard.ccol12 .slides li dl dt, .cbccarousel.standard.ccol12 .slides li dl dd { width:920px; }
+
+
+
+
+.cbccarousel.standard .controlscontainer {
+	background-color:#ececec;
+	height:20px;
+	margin:0;
+	padding:7px 0;
+	overflow:hidden;
+	/*text-align:center;*/
+	position:relative;
+}
+
+.cbccarousel.standard .controlscontainer a {
+	background-image:url(../../o/carousel/v11/sprite.pngpng);
+	background-repeat:no-repeat;
+	width:15px;
+	height:0;
+	margin:0 5px;
+	padding-top:20px;
+	float:left;
+	overflow:hidden;
+}
+.cbccarousel.standard a.prev,
+.cbccarousel.standard a.next {
+	width:10px;
+	margin:0 35px;
+}
+.cbccarousel.standard a.pause,
+.cbccarousel.standard a.play {
+	background-position:0 -180px;
+	width:20px;
+	position:absolute;
+	top:7px;
+	right: 10px;
+}
+.cbccarousel.standard a.play {
+	background-position:0 -200px;
+}
+.cbccarousel.standard a.play:hover {
+	background-position:0 -160px;
+}
+.cbccarousel.standard a.pause:hover {
+	background-position:0 -140px;
+}
+
+.cbccarousel.standard .controlscontainer h3, .cbccarousel.standard .controlscontainer .status{
+	 position: absolute;
+	 left: -10000px;
+	 top: auto;
+	 width: 1px;
+	 height: 1px;
+	 overflow: hidden;
+}
+
+/* homepage carousel */
+#homepage-carousel.cbccarousel .slides li dl{
+	padding:5px 10px;
+}
+
+/* dd.ctabutton */
+.cbccarousel.standard dl.cta dt{
+	overflow:hidden;
+}
+
+.cbccarousel.standard .slides li dl.cta{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+}
+
+.cbccarousel.standard dl.cta dd {
+	float:none;	
+	padding-top:0;
+}
+
+.cbccarousel.standard dl.cta dd.ctabutton a{
+	border:3px solid #777;
+	border-radius:15px;
+	background-color:#111;
+	color:#c8c8c8;
+	font-weight:bold;
+	font-size:13px;
+	margin:0;
+	padding:3px 5px 3px 12px;
+	position:absolute;
+	top:47px;
+	right:15px;
+	outline:none;
+}
+
+.cbccarousel.standard dl.cta dd.ctabutton a:hover, .cbccarousel.standard dl.cta dd.ctabutton a:active, .cbccarousel.standard dl.cta dd.ctabutton a:focus{
+	text-decoration:none;
+	background-color:#2e2e2e;
+}
+
+.cbccarousel.standard dl.cta dd.ctabutton a span{
+	background: ur../../gfx/cta.pngta.png") no-repeat scroll 0 1px transparent;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 10px;
+    text-indent: -999em;
+	height: 13px;
+    margin-left: 10px;
+    width: 9px;
+}
+
+.cbccarousel.standard dl.cta dd{
+	float:none;
+}
+
+/*~cta different carousel sizes~*/
+/*.ccol4*/
+
+.cbccarousel.standard.ccol4 dl.cta dd.ctabutton a{
+	top:50px;
+}
+
+.cbccarousel.standard.ccol4 dl.cta dd{
+	width:160px !important;
+}
+
+/*.ccol5, ccol6 button*/
+.cbccarousel.standard.ccol5 dl.cta dd.ctabutton a, .cbccarousel.standard.ccol6 dl.cta dd.ctabutton a{
+	top:42px;
+}
+
+.cbccarousel.standard.ccol5 dl.cta dd{
+	width:225px !important;
+}
+
+/*.ccol6*/
+.cbccarousel.standard.ccol6 dl.cta dd{
+	width:304px !important;
+}
+
+/*.ccol7*/
+.cbccarousel.standard.ccol7 dl.cta dd.ctabutton a{
+	top:44px;
+}
+.cbccarousel.standard.ccol7 dl.cta dd{
+	width:386px !important;
+}
+
+/*.ccol8, .ccol9, .ccol10 button*/
+.cbccarousel.standard.ccol8 dl.cta dd.ctabutton a, .cbccarousel.standard.ccol9 dl.cta dd.ctabutton a, .cbccarousel.standard.ccol10 dl.cta dd.ctabutton a, .cbccarousel.standard.ccol11 dl.cta dd.ctabutton a, .cbccarousel.standard.ccol12 dl.cta dd.ctabutton a{
+	top:28px;
+}
+
+/* .ccol8 textbox */
+.cbccarousel.standard.ccol8 dl.cta dd{
+	width:467px !important;
+}
+
+/* .ccol9 textbox */
+.cbccarousel.standard.ccol9 dl.cta dd{
+	width:545px !important;
+}
+
+/* .ccol10 textbox */
+.cbccarousel.standard.ccol10 dl.cta dd{
+	width:625px !important;
+}
+
+/* .ccol11 textbox */
+.cbccarousel.standard.ccol11 dl.cta dd{
+	width:705px !important;
+}
+
+/* .ccol12 textbox */
+.cbccarousel.standard.ccol12 dl.cta dd{
+	width:785px !important;
+}
+
+/* </dd.ctabutton */
+
+/*</standard>*/
+
+
+
+/*<promo collection>*/
+.cbccarousel.promocollection {
+	margin:0;
+}
+
+.cbccarousel.promocollection, .cbccarousel.promocollection .promogrp {
+	height:234px;
+/*	margin:0 28px;*/
+}
+
+.cbccarousel.promocollection .promogrp {
+/*	border-bottom:1px solid #a9a9a9;*/
+	margin:0 28px;
+	padding-top:38px;
+	overflow: hidden;
+}
+
+.cbccarousel.promocollection .promogrp h2 {
+	position:absolute;
+	left:0;
+	top:0;
+}
+.cbccarousel.promocollection .promogrp .promos {
+	border-top:1px solid #a9a9a9;
+	width:10000px;
+	margin:0;
+}
+.cbccarousel.promocollection .promogrp h3 {
+	display:none;
+}
+
+.cbccarousel.promocollection .canvas {
+	background-color:#232323;
+	border-width:1px;
+	border-color:#a9a9a9;
+	border-style:solid none;
+	position:absolute;
+	top:38px;
+	left:28px;
+	z-index:5;
+}
+
+.cbccarousel.promocollection .slides li {
+	background-color:#232323;
+	width:141px;
+	height:185px;
+}
+
+.cbccarousel.promocollection .promo.med,
+.cbccarousel.promocollection .promo.lrg {
+	background-color:#232323;
+	border-width:1px;
+	border-color:#a9a9a9;
+	border-style:none none solid;
+	width:141px;
+	height:185px;
+	padding:0;
+	float:left;
+}
+.cbccarousel.promocollection .promo.med h3,
+.cbccarousel.promocollection .promo.lrg h3 {
+	font-size:12px;
+	font-weight:normal;
+	display:block;
+}
+.cbccarousel.promocollection .promo.med a,
+.cbccarousel.promocollection .promo.lrg a {
+	background:none !important;
+	border-left:1px solid #474747;
+	color:#cbcbcb !important;
+	width:140px;
+	height:185px;
+	display:block;
+}
+.cbccarousel.promocollection .promo.med a:hover,
+.cbccarousel.promocollection .promo.lrg a:hover {
+	background-color:#333 !important;
+	text-decoration:none !important;
+}
+.cbccarousel.promocollection .promo.med img,
+.cbccarousel.promocollection .promo.lrg img {
+	border-bottom:1px solid #474747;
+	width:140px;
+	height:79px;
+	display:block;
+	position:relative;
+	margin:0;
+	padding:0;
+	top:auto;
+	left:auto;
+	z-index:auto;
+	float:none;
+}
+.cbccarousel.promocollection .promo.med span.flag,
+.cbccarousel.promocollection .promo.lrg span.flag {
+	background-color:#043c7b;
+	color:#fff;
+	width:auto;
+	height:auto;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+	white-space:nowrap;
+	padding:3px 10px;
+	display:inline-block;
+	position:static;
+	left:auto;
+	top:auto;
+	overflow:hidden;
+}
+.cbccarousel.promocollection .promo.med span.flag.live,
+.cbccarousel.promocollection .promo.lrg span.flag.live {
+	background-color:#f7cc31;
+	color:#232323;
+}
+.cbccarousel.promocollection .promo.med strong,
+.cbccarousel.promocollection .promo.lrg strong {
+	font-size:12px;
+	font-weight:normal;
+	margin:0;
+	padding:10px;
+	display:block;
+}
+.cbccarousel.promocollection .promo.med span.synopsis,
+.cbccarousel.promocollection .promo.lrg span.synopsis {
+	display:none;
+}
+
+.cbccarousel.promocollection .controlscontainer a {
+	background-imag../../o/carousel/v11/sprite.pngprite.png);
+	background-repeat:no-repeat;
+	width:15px;
+	height:0;
+	margin:0 5px;
+	padding-top:20px;
+	float:left;
+	overflow:hidden;
+}
+
+.cbccarousel.promocollection .controlscontainer {
+	background-color:transparent;
+	height:187px;
+	width:100%;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:38px;
+	left:0;
+	overflow:visible;
+	z-index:4;
+}
+
+.cbccarousel.promocollection .pagination {
+	position:absolute;
+	top:-30px;
+}
+
+.cbccarousel.promocollection .pagination a {
+	background-position:right -80px;
+	width:10px;
+	height:0;
+	margin:0 0 0 5px;
+	padding-top:10px;
+}
+.cbccarousel.promocollection .pagination a:hover {
+	background-position:right -100px;
+}
+.cbccarousel.promocollection .pagination a.selected,
+.cbccarousel.promocollection .pagination a.selected:hover {
+	background-position:right -90px;
+}
+
+.cbccarousel.promocollection a.play { display: none; }
+
+.cbccarousel.promocollection a.preprev,
+.cbccarousel.promocollection a.prenext,
+.cbccarousel.promocollection a.prev,
+.cbccarousel.promocollection a.next {
+	backgr../../o/carousel/v11/sprite.png1/sprite.png) no-repeat left -320px;
+	width:28px;
+	height:0;
+	margin:0;
+	padding:187px 0 0;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+}
+.cbccarousel.promocollection a.preprev:hover,
+.cbccarousel.promocollection a.prev:hover {
+	background-position:left -507px;
+}
+.cbccarousel.promocollection a.prenext,
+.cbccarousel.promocollection a.next {
+	background-position: -2px -694px;
+	left: 100%;
+	margin-left:-28px;
+}
+.cbccarousel.promocollection a.prenext:hover,
+.cbccarousel.promocollection a.next:hover {
+	background-position: -2px -881px;
+}
+
+.cbccarousel.promocollection a.prenext,
+.cbccarousel.promocollection a.preprev {
+	top:38px;
+}
+
+.cbccarousel.promocollection.ccol4 { width: 300px; overflow: hidden; }
+.cbccarousel.promocollection.ccol4 .canvas { width:244px !important; }
+
+.cbccarousel.promocollection.ccol5 { width: 380px; overflow: hidden; }
+.cbccarousel.promocollection.ccol5 .canvas { width:324px !important; }
+
+.cbccarousel.promocollection.ccol6 { width: 460px; overflow: hidden; }
+.cbccarousel.promocollection.ccol6 .canvas { width:404px !important; }
+
+.cbccarousel.promocollection.ccol7 { width: 540px; overflow: hidden; }
+.cbccarousel.promocollection.ccol7 .canvas { width:484px !important; }
+
+.cbccarousel.promocollection.ccol8 { width: 620px; overflow: hidden; }
+.cbccarousel.promocollection.ccol8 .canvas { width:564px !important; }
+
+.cbccarousel.promocollection.ccol9 { width: 700px; overflow: hidden; }
+.cbccarousel.promocollection.ccol9 .canvas { width:644px !important; }
+
+.cbccarousel.promocollection.ccol10 { width: 780px; overflow: hidden; }
+.cbccarousel.promocollection.ccol10 .canvas { width:724px !important; }
+
+.cbccarousel.promocollection.ccol11 { width: 860px; overflow: hidden; }
+.cbccarousel.promocollection.ccol11 .canvas { width:804px !important; }
+
+.cbccarousel.promocollection.ccol12 { width: 940px; overflow: hidden; }
+.cbccarousel.promocollection.ccol12 .canvas { width:884px !important; }
+
+/*</promo collection>*/
+
+
+
+
+
+
+
+
+
+/*<playlistcarousel>*/
+.cbccarousel.playlistcarousel {
+	margin:0;
+	position:relative;
+	overflow:hidden;
+}
+
+.cbccarousel.playlistcarousel .pcwrap {
+	bac../../gfx/loading.gifgfx/loading.gif) no-repeat 50% 50%;
+	border:1px solid #a9a9a9;
+	overflow:hidden;
+	position:absolute;
+	left:24px;
+}
+
+.cbccarousel.playlistcarousel .pcwrap .slides {
+	width:9999px;
+}
+
+.cbccarousel.playlistcarousel .slides li {
+	width:141px;
+	height:98px;
+}
+
+.cbccarousel.playlistcarousel .pcitem {
+	border-right:1px solid #a9a9a9;
+	width:140px;
+	height:98px;
+	color:#fff !important;
+	margin:0;
+	float:left;
+	display:inline;
+	overflow:hidden;
+	position:relative;
+}
+.cbccarousel.playlistcarousel .pcitem img,
+.cbccarousel.playlistcarousel .slides li img {
+	border-bottom:1px solid #444;
+	width:140px;
+	height:79px;
+	position:static;
+	top:auto;
+	left:auto;
+	z-index:auto;
+}
+.cbccarousel.playlistcarousel .pcitem .title {
+	background-color:#232323;
+	height:16px;
+	white-space:nowrap;
+	padding:2px 5px 0;
+	display:block;
+	overflow:hidden;
+}
+.cbccarousel.playlistcarousel .pcitem .playbtn {
+	../../../sports/hockey/stanleycup2011/gfx/sprite_watchlisten.png/sprite_watchlisten.png) no-repeat 0 0;
+	width:33px;
+	height:26px;
+	display:block;
+	position:absolute;
+	top:44px;
+	left:100%;
+	margin-left:-42px;
+}
+
+.cbccarousel.playlistcarousel .pcitem:hover {
+	text-decoration:none !important;
+}
+.cbccarousel.playlistcarousel .pcitem:hover .title {
+	background-color:#444 !important;
+	text-decoration:underline !important;
+}
+.cbccarousel.playlistcarousel .pcitem:hover .playbtn {
+	background-position:0 -26px;
+}
+
+.cbccarousel.playlistcarousel a.prev, .cbccarousel.playlistcarousel a.ne../../o/carousel/v11/sprite.png/o/carousel/v11/sprite.png") no-repeat 0 -1068px;
+	width:24px;
+	height:0;
+	margin:0;
+	padding:100px 0 0;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.cbccarousel.playlistcarousel a.next {
+	background-position:100% -1268px;
+}
+.cbccarousel.playlistcarousel a.prev:hover {
+	background-position:0 -1168px;
+}
+.cbccarousel.playlistcarousel a.next:hover {
+	background-position:100% -1368px;
+
+}
+.cbccarousel.playlistcarousel a.play {
+	display: none;
+}
+
+.cbccarousel.playlistcarousel {
+	height:100px;
+}
+
+.cbccarousel.playlistcarousel .status { display: none; }
+
+.cbccarousel.playlistcarousel .pcwrap {
+	height:98px;
+}
+
+.cbccarousel.playlistcarousel .canvas {
+	background-color:#232323;
+	border:1px solid #a9a9a9;
+	left:24px;
+}
+
+.cbccarousel.playlistcarousel.ccol4 .pcwrap,
+.cbccarousel.playlistcarousel.ccol4 .canvas {
+	width:250px !important;
+}
+.cbccarousel.playlistcarousel.ccol4 a.next {
+	left:276px;
+}
+
+.cbccarousel.playlistcarousel.ccol5 .pcwrap,
+.cbccarousel.playlistcarousel.ccol5 .canvas {
+	width:330px !important;
+}
+.cbccarousel.playlistcarousel.ccol5 a.next {
+	left:356px;
+}
+
+.cbccarousel.playlistcarousel.ccol6 .pcwrap,
+.cbccarousel.playlistcarousel.ccol6 .canvas {
+	width:410px !important;
+}
+.cbccarousel.playlistcarousel.ccol6 a.next {
+	left:436px;
+}
+
+
+.cbccarousel.playlistcarousel.ccol7 .pcwrap,
+.cbccarousel.playlistcarousel.ccol7 .canvas {
+	width:490px !important;
+}
+.cbccarousel.playlistcarousel.ccol7 a.next {
+	left:516px;
+}
+
+
+.cbccarousel.playlistcarousel.ccol8 .pcwrap,
+.cbccarousel.playlistcarousel.ccol8 .canvas {
+	width:570px !important;
+}
+.cbccarousel.playlistcarousel.ccol8 a.next {
+	left:596px;
+}
+
+
+.cbccarousel.playlistcarousel.ccol9 .pcwrap,
+.cbccarousel.playlistcarousel.ccol9 .canvas {
+	width:650px !important;
+}
+.cbccarousel.playlistcarousel.ccol9 a.next {
+	left:676px;
+}
+
+
+.cbccarousel.playlistcarousel.ccol10 .pcwrap,
+.cbccarousel.playlistcarousel.ccol10 .canvas {
+	width:730px !important;
+}
+.cbccarousel.playlistcarousel.ccol10 a.next {
+	left:756px;
+}
+
+
+.cbccarousel.playlistcarousel.ccol11 .pcwrap,
+.cbccarousel.playlistcarousel.ccol11 .canvas {
+	width:810px !important;
+}
+.cbccarousel.playlistcarousel.ccol11 a.next {
+	left:836px;
+}
+
+
+.cbccarousel.playlistcarousel.ccol12 .pcwrap,
+.cbccarousel.playlistcarousel.ccol12 .canvas {
+	width:890px !important;
+}
+.cbccarousel.playlistcarousel.ccol12 a.next {
+	left:916px;
+}
+
+/*</playlistcarousel>*/
+
+/* styles for centering pagination if centerPagination is set to true in the carousel configuration */
+.cbccarousel.standard .paginationcontainer a.prev {margin-left: 0;}
+.cbccarousel.standard .paginationcontainer a.next {margin-right: 0;}
+.cbccarousel.standard .paginationcontainer {margin: 0 auto;}
+.cbccarousel.standard .paginationcontainer.slides-1 {width: 115px;}
+.cbccarousel.standard .paginationcontainer.slides-2 {width: 140px;}
+.cbccarousel.standard .paginationcontainer.slides-3 {width: 165px;}
+.cbccarousel.standard .paginationcontainer.slides-4 {width: 190px;}
+.cbccarousel.standard .paginationcontainer.slides-5 {width: 215px;}
+.cbccarousel.standard .paginationcontainer.slides-6 {width: 240px;}
+.cbccarousel.standard .paginationcontainer.slides-7 {width: 265px;}
+.cbccarousel.standard .paginationcontainer.slides-8 {width: 290px;}
+.cbccarousel.standard .paginationcontainer.slides-9 {width: 315px;}
+.cbccarousel.standard .paginationcontainer.slides-10 {width: 340px;}
+.cbccarousel.standard .paginationcontainer.slides-11 {width: 365px;}
+.cbccarousel.standard .paginationcontainer.slides-12 {width: 390px;}
+
+
+/* ALT STYLES FOR PROMO CAROUSEL */
+#dontmiss.altstyle .cbccarousel.promocollection .promo.med, #dontmiss.altstyle .cbccarousel.promocollection .promo.lrg {
+	border-color: #d7d7d7;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .promo.med a, #dontmiss.altstyle .cbccarousel.promocollection .promo.lrg a {
+    border-left: 1px solid #d7d7d7;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .promo.med img, #dontmiss.altstyle .cbccarousel.promocollection .promo.lrg img {
+	border-bottom: 1px solid #d7d7d7;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .promogrp .promos {
+    border-top: 1px solid #d7d7d7;
+    background-color: #EAEAEA;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .promo {
+    background-color: #ffffff;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .promo.med span.flag {
+    width: 120px !important;
+    padding: 17px 10px 3px;
+    margin: 0;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .flag {
+	color: #025377;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .promo.med span.flag.live, #dontmiss.altstyle .cbccarousel.promocollection .promo.med span.flag.breaking {
+    margin: 0;
+    padding: 3px 10px 3px;
+    width: auto !important;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .headline {
+	line-height: 16px;
+	font-size: 12px;
+	color: #333333;
+	padding-top: 7px;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .canvas {
+	border-color: #d7d7d7;
+	background-color: #EAEAEA;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .promo.med a:hover, #dontmiss.altstyle .cbccarousel.promocollection .promo.lrg a:hover {
+	background-color: #eaeaea !important;
+}
+
+#dontmiss.altstyle .cbccarousel.promocollection .promo a:hover .headline {
+	text-decoration: underline !important;
+}
+
+#dontmiss.altstyle .cbccarousel.promocollection .promo.med a, #dontmiss.altstyle .cbccarousel.promocollection .promo.lrg a {
+    color: #333333 !important;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .slides li {
+    background-color: #eaeaea !important;
+}
+#dontmiss.altstyle .cbccarousel.promocollection a.prenext, #dontmiss.altstyle .cbccarousel.promocollection a.next {
+    border-left: 1px solid #d7d7d7;
+}
+
+#dontmiss.altstyle .cbccarousel.promocollection a.preprev,
+#dontmiss.altstyle .cbccarousel.promocollection a.prenext, 
+#dontmiss.altstyle .cbccarousel.promocollection a.prev, 
+#dontmiss.altstyle .cbccarousel.promocollection a.nexhttp://www.cbc.ca/i/o/carousel/v11/altstyle_sprite.pngousel/v11/altstyle_sprite.png") no-repeat scroll left -320px transparent;
+    height: 0;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 187px 0 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+}
+#dontmiss.altstyle .cbccarousel.promocollection a.preprev:hover, #dontmiss.altstyle .cbccarousel.promocollection a.prev:hover {
+    background-position: left -507px;
+}
+#dontmiss.altstyle .cbccarousel.promocollection a.prenext, #dontmiss.altstyle .cbccarousel.promocollection a.next {
+    background-position: -3px -694px;
+    left: 100%;
+    margin-left: -28px;
+}
+#dontmiss.altstyle .cbccarousel.promocollection a.prenext:hover, #dontmiss.altstyle .cbccarousel.promocollection a.next:hover {
+    background-position: -2px -881px;
+}
+#dontmiss.altstyle .cbccarousel.promocollection .canvas, 
+#dontmiss.altstyle .cbccarousel.promocollection .controlscontainer, 
+#dontmiss.altstyle .cbccarousel.promocollection a.prenext, 
+#dontmiss.altstyle .cbccarousel.promocollection a.preprev {
+    top: 38px;
+}
+
+/* **** tv/radio schedule **** */
+#tvradioschedule {
+    margin: 40px 0;
+    padding: 0;
+    min-height: 394px;
+}
+
+/*  *** Screer Reader specific rule - hide content visually *** */
+
+.screenReader{
+  position: absolute !important;
+  height: 1px; width: 1px; 
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}

@@ -1,0 +1,1555 @@
+//Redirect /#/ for JQuery Mobile
+var url = window.location.toString();
+var hashLocation = url.indexOf("#/");
+if (hashLocation != -1) {
+    url = url.substring(hashLocation + 1);    
+    location.href = url;
+}
+
+var _officeItemListCombobox = null;
+var _cssStyleSelectJQ = null;
+var _animationTypeSelectJQ = null;
+var _animationType = "slide";
+
+$(function() {
+	var comboboxSettings = {animationSpeed: 100};
+	
+	// Create the different styles combobox
+	_cssStyleSelectJQ = $("#cssStyleSelect").combobox({}, comboboxSettings);
+	// Combobox has its own onChange event, but the onChange of the Select element can be used as well.
+	// changeAnimation works in this manner.
+	_cssStyleSelectJQ.combobox.onChange = function() {changeStyle();};
+	
+	// Create the Animation types combobox
+	// Note: There is no need to configure the onChange event as the event is defined in the html
+	_animationTypeSelectJQ = $("#animationTypeSelect").combobox({}, comboboxSettings);
+	
+	// enable validation on forms (that request it)
+
+	$.validator.addMethod("fname", function (value, element) { return value.search(/your first name/i); }, 'First name is required.');
+	//$.validator.addMethod("fname", function (value, element) { return this.optional(element) || /^[a-z]+$/i.test(value); }, "Fill in Alphabets only");
+	$.validator.addMethod("fname", function (value, element) { return this.optional(element) || (/^[A-Za-z]+[-\']*[A-Za-z]*$/i.test(value)); }, "Fill in Alphabets only");
+	$.validator.addMethod("lname", function (value, element) { return value.search(/your last name/i); }, 'Last name is required.');
+	//$.validator.addMethod("lname", function (value, element) { return this.optional(element) || /^[a-z]+$/i.test(value); }, "Fill in Alphabets only");
+	$.validator.addMethod("lname", function (value, element) { return this.optional(element) || (/^[A-Za-z]+[-\']*[A-Za-z]*$/i.test(value)); }, "Fill in Alphabets only");
+	$.validator.addMethod("zipcode", function (value, element) { return value.search(/your zip code/i); }, 'Zip code is required.');
+	$.validator.addMethod("zipcode", function (value, element) { return this.optional(element) || /^([0-9]{5})(-[0-9]{4})?$/i.test(value); }, "Please supply a 5-digit US zip code.");
+ 
+	var errCont1 = $('#mb-error-msg');
+    $("#morning_bell").validate({
+		errorContainer: errCont1,
+        rules: {
+            firstname: {fname: true},
+            lastname: {lname: true},
+            zipcode: {zipcode: true}
+        }
+    });
+	   $("#healthcare_signup").validate({
+		errorContainer: errCont1,
+        rules: {
+            firstname: {fname: true},
+            lastname: {lname: true},
+            zipcode: {zipcode: true}
+        }
+    });
+    $("#e_newsletters").validate({
+        rules: {
+            firstname: {fname: true},
+            lastname: {lname: true}
+        }
+    });
+	
+	var errCont2 = $('#updates-error-msg');
+    $("#footer_signup").validate({
+		errorContainer: errCont2,
+//		errorLabelContainer: $("ol", errCont2),
+//		wrapper: 'li',
+        rules: {
+            firstname: {fname: true},
+            lastname: {lname: true}
+        }
+    });
+	
+    $("#bullseye").validate({
+        rules: {
+            firstname: {fname: true},
+            lastname: {lname: true}
+        }
+    });
+	
+	var errCont3 = $('#hotsheet-error-msg');
+    $("#hotsheet_frm").validate({
+		errorContainer: errCont3,
+        rules: {
+            firstname: {required: true, fname: true},
+            lastname: {required: true, lname: true},
+            mediaaffiliation: {required: true}
+        }
+    });
+  
+  
+    var return_url = $('#span_return_url').html();
+    $('#foot_return_url').attr('value', return_url);
+    
+    var return_url = $('#hotsheet_span_url').html();
+    $('#hotsheet_return_url').attr('value', return_url);
+    
+	// Search Button hover state (image input)
+	//$(".navSearch .search_btn").hover( 
+	//	function() { // Over
+	//		$(this).attr("src","/static/images/search-orange-hover.png");
+	//	},
+	//	function () { // Out
+	//		$(this).attr("src","/static/images/search-orange.png");
+	//	});
+});
+
+// create a jquery combobx and set the Css class styles
+function setupCombobox() {
+	_officeItemListCombobox = $('.officeItemList').combobox(
+		{
+			comboboxContainerClass: "comboboxContainer",
+			comboboxValueContentContainerClass: "comboboxValueContainer",
+			comboboxValueContentClass: "comboboxValueContent",
+			comboboxDropDownClass: "comboboxDropDownContainer",
+			comboboxDropDownButtonClass: "comboboxDropDownButton",
+			comboboxDropDownItemClass: "comboboxItem",
+			comboboxDropDownItemHoverClass: "comboboxItemHover",
+			comboboxDropDownGroupItemHeaderClass: "comboboxGroupItemHeader",
+			comboboxDropDownGroupItemContainerClass: "comboboxGroupItemContainer"
+		},
+		{
+			animationType: _animationType,
+			width: 82
+		});
+}
+
+// Example to show the dynamic insertion of data directly into the original Select element
+// and then calling the jQuery combobox to synchronise by calling update().
+function updateCombobox() {
+	var officeItemListSelectJQ = $("#officeItemList");
+	_officeItemListCombobox.combobox.update();
+}
+	
+var timeout         = 0;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function dd_follow_open() {	
+	dd_follow_canceltimer();
+	dd_follow_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');
+}
+
+//function dd_follow_open2() {	
+//	dd_follow_canceltimer();
+//	dd_follow_close();
+//	ddmenuitem = $(this).find('.heritage-dd').css('visibility', 'visible');
+//}
+
+function dd_follow_close() {	
+	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');
+}
+
+function dd_follow_timer() {	
+	closetimer = window.setTimeout(dd_follow_close, timeout);}
+
+function dd_follow_canceltimer() {	
+	if(closetimer) {
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+ }
+
+
+
+function hideRefControl(label, hideClassName, showClassName)
+{
+    var label = $(label);
+    $("#" + label.attr('for')).hide();
+    label.removeClass(showClassName);
+    label.addClass(hideClassName);
+	label.unbind(); // removing any previous click events
+    label.click(function() { var obj = this; showRefControl(label, hideClassName, showClassName); return false; });
+
+    return false;
+}
+
+function showRefControl(label, hideClassName, showClassName)
+{
+    var label = $(label);
+    $("#" + label.attr('for')).show();
+    label.removeClass(hideClassName);
+    label.addClass(showClassName);
+	label.unbind();  // removing any previous click events
+    label.click(function() {var obj = this; hideRefControl(label, hideClassName, showClassName);return false;});
+    
+    return false;
+}
+
+//MBox Helper Methods
+function homepageFeatureClick(label, featureNumber) {    
+    if (featureNumber == "1") {
+        dynamicHomePageMbox('home_page_main_feature_click');
+    }
+    else {
+        dynamicHomePageMbox('home_page_secondary_feature_click');
+    }
+    homepageFeatureTrackEvent(label, featureNumber);
+}
+
+//google homepage feature trackevent
+function homepageFeatureTrackEvent(label, number) {
+    _gaq.push(['_trackEvent', 'Homepage Features', label, 'Position:' + number]);
+}
+
+//homepage mbox update
+function dynamicHomePageMbox(mboxName) {
+    var divId = 'dynamic_' + mboxName;    
+    if ($('#' + divId).length) {
+        dynamicMbox(divId, mboxName);
+    }
+}
+
+//generic mbox update
+function dynamicMbox(divId, mboxName) {
+    mboxDefine(divId, mboxName);
+    mboxUpdate(mboxName, '1=1');
+    consolelog(mboxName);    
+}
+
+function consolelog(message) {
+    if (typeof console == "object") {
+        console.log(message);
+    }
+}
+
+$(document).ready(function () {
+    /*if ($.browser.msie  && parseInt($.browser.version, 10) === 8) {
+    $('.eight-drawer-button').append('<span style="float:right; position:absolute; top:16px; right:5px; ">+</span>');
+  
+   
+    } */
+    /*else {
+    alert('Non IE7');
+    }*/
+
+
+
+
+    var leftHeight = $(".issues-container.left .issues-col.left").height();
+    var rightHeight = $(".issues-container.right .issues-col.left").height();
+    if (rightHeight > leftHeight) { $(".issues-container.left .issues-col.left").height(rightHeight); }
+    else { $(".issues-container.right .issues-col.left").height(leftHeight); }
+
+    /*-----start Js new issue landing page------*/
+    $('.issues-container ul.eight-primary-listing li').hover(function () {
+        $(this).toggleClass("white");
+    });
+    /*$('.issues-container ul.eight-primary-listing li').mouseout(function() {
+    $(this).removeClass("white");
+        
+    });*/
+    /*$('#newIssue').parent().css('padding-top', '0px');	
+    $('#New_issue_landing').parent().css('padding-top', '0px');
+    $('#archiveIssue').parent().css('padding-top', '0px');*/
+
+    $('.eight-child-button').click(function () {
+        if ($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+        }
+        else {
+            $('ul.eight-primary-listing li.active').removeClass('active');
+            $(this).parent().addClass('active');
+        }
+        return false;
+    });
+
+    $('.eight-drawer-button').click(function () {
+        if ($(this).hasClass('active')) {
+            $('.eight-drawer-button').removeClass('active');
+            $('.eight-listing-panel').slideUp();
+
+        }
+        else {
+            $('.eight-drawer-button').removeClass('active');
+            $('.eight-listing-panel').slideUp();
+            $(this).addClass('active');
+            $(this).parent().children('ul').slideDown();
+        }
+        return false;
+    });
+    /*--------end Js new issue landing page-----------*/
+
+    // Create the example combobox
+    setupCombobox();
+
+    // header drop downs
+    $('#more').hover(function () {
+        $('div.heritage-dd').toggle().addClass("on");
+        $('#follow_parent > #more').toggleClass("on");
+    });
+
+    $("#navFollow").hover(function () {
+        $("#navFollow").toggleClass("on");
+        $("#navFollow > ul").toggle();
+    });
+
+    $("#navContact").hover(function () {
+        $("#navContact").toggleClass("on");
+        $("#navContact > ul").toggle();
+    });
+
+
+    //issues page accordians
+    $('.foreign-issues .section h5').click(function () {
+        if (!$(this).hasClass("expanded")) {
+            $('.foreign-issues .section ul').hide('fast');
+            $('.foreign-issues .section h5').removeClass("expanded");
+            $(this).next().toggle('fast');
+            $(this).toggleClass("expanded");
+        }
+        //$(this).next().toggle('fast');
+        //$(this).toggleClass("expanded");
+
+    });
+
+
+    // Search dropdown toggle, make sure that act is removed on click
+    $(".comboboxItem").click(function () {
+        $(".comboboxValueContainer").removeClass("act");
+    });
+
+    //hide the all of the element with class msg_body
+    $(".refs-container").hide();
+    //toggle the componenet with class msg_body
+    $(".show-refs").click(function () {
+        $(".refs-container").slideToggle(600);
+        return false;
+    });
+
+    // This expands the footnote references section when a footnote link [1] is clicked
+    $('a[href^=#_ftn], a[href^=#ftn]').click(function () {
+        $(".refs-container").show();
+        return true;
+    });
+
+    // Prepare Header Drop Downs 
+    $('#follow_parent > li.follow').bind('mouseover', dd_follow_open);
+    $('#follow_parent > li.follow').bind('mouseout', dd_follow_timer); //
+    //    $('#follow_parent > #more').bind('mouseover', dd_follow_open2);
+    //    $('#follow_parent > #more').bind('mouseout', dd_follow_timer);
+
+    // Prepare Tabbed-Containers
+    $("ul.tabbed-nav:not(.no-js) li a").click(function () {
+        // Remove active class on active tabs and containers
+        var ul = $(this).parent().parent();
+        ul.children().removeClass("act");
+        ul.parent().find(".tab").removeClass("act");
+        ul.parent().find(".act").removeClass("act");
+
+        // Add active class to clicked tab and container
+        var tabClass = $(this).parent().attr("class");
+        ul.parent().find("." + tabClass + "-cont").addClass("act");
+        $(this).parent().addClass("act");
+
+        return false;
+    });
+
+    // Add blur/focus events on text boxes
+    inputTxtObj = {
+        "addr": "Your Mailing Address",
+        "biofinder": "Enter a Name",
+        "city": "City/Town",
+        "email": "Your Email Address",
+        "firstName": "Your First Name",
+        "friendname": "Your Friend's Name",
+        "friendemail": "Your Friend's Email Address",
+        "lastName": "Your Last Name",
+        "zipcode": "Your Zip Code",
+        "yourName": "Your Name",
+        "mediaattn": "Your Media Affiliation",
+        "name": "Your Name",
+        "org": "Your Organization",
+        "phone": "Your Phone Number",
+        "search": "Search Heritage for",
+        "subject": "Expert's name or topic",
+        "terms": "Topics, Issues, Keywords, Authors ...",
+        "title": "Your Title",
+        "zip": "Zip/Postal",
+        "staffFilter": "Expert or Staff Member",
+        "advSearch": "Enter term(s) you'd like to search Hertage.org for...",
+        "entername": "Enter a Name"
+    };
+
+    $(".navSearch input[type=text]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.search); });
+    $(".navSearch input[type=text]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.search); });
+
+    $(".for-govt-staff .expert .text").focus(function () { obj = this; inputFocus(obj, inputTxtObj.biofinder); });
+    $(".for-govt-staff .expert .text").blur(function () { obj = this; inputBlur(obj, inputTxtObj.biofinder); });
+
+    $("input[name=entername]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.entername); });
+    $("input[name=entername]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.entername); });
+
+    $(".refine-search input.refine-text").focus(function () { obj = this; inputFocus(obj, inputTxtObj.search); });
+    $(".refine-search input.refine-text").blur(function () { obj = this; inputBlur(obj, inputTxtObj.search); });
+
+    $(".request-interview-popup .iName").focus(function () { obj = this; inputFocus(obj, inputTxtObj.name); });
+    $(".request-interview-popup .iName").blur(function () { obj = this; inputBlur(obj, inputTxtObj.name); });
+
+    $(".request-interview-popup .iEmail").focus(function () { obj = this; inputFocus(obj, inputTxtObj.email); });
+    $(".request-interview-popup .iEmail").blur(function () { obj = this; inputBlur(obj, inputTxtObj.email); });
+
+    $(".request-interview-popup .iPhone").focus(function () { obj = this; inputFocus(obj, inputTxtObj.phone); });
+    $(".request-interview-popup .iPhone").blur(function () { obj = this; inputBlur(obj, inputTxtObj.phone); });
+
+    $(".request-interview-popup .iMediaattn").focus(function () { obj = this; inputFocus(obj, inputTxtObj.mediaattn); });
+    $(".request-interview-popup .iMediaattn").blur(function () { obj = this; inputBlur(obj, inputTxtObj.mediaattn); });
+
+    $("input[name=name]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.name); });
+    $("input[name=name]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.name); });
+
+    $("input[name=first-name]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.firstName); alert('343'); });
+    $("input[name=first-name]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.firstName); });
+
+    $("input[name=last-name]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.lastName); });
+    $("input[name=last-name]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.lastName); });
+
+    $("input[name=firstname]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.firstName); });
+    $("input[name=firstname]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.firstName); });
+
+    $("input[name=lastname]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.lastName); });
+    $("input[name=lastname]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.lastName); });
+
+    $("input[name=zipcode]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.zipcode); });
+    $("input[name=zipcode]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.zipcode); });
+
+    $("input[name=phone]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.phone); });
+    $("input[name=phone]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.phone); });
+
+    $("input[name=email]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.email); });
+    $("input[name=email]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.email); });
+
+    $("input.shareEmail").focus(function () { obj = this; inputFocus(obj, inputTxtObj.email); });
+    $("input.shareEmail").blur(function () { obj = this; inputBlur(obj, inputTxtObj.email); });
+
+    $("input.shareFrdEmail").focus(function () { obj = this; inputFocus(obj, inputTxtObj.friendemail); });
+    $("input.shareFrdEmail").blur(function () { obj = this; inputBlur(obj, inputTxtObj.friendemail); });
+
+    $("input.shareName").focus(function () { obj = this; inputFocus(obj, inputTxtObj.yourName); });
+    $("input.shareName").blur(function () { obj = this; inputBlur(obj, inputTxtObj.yourName); });
+
+    $("input.shareFrdName").focus(function () { obj = this; inputFocus(obj, inputTxtObj.friendname); });
+    $("input.shareFrdName").blur(function () { obj = this; inputBlur(obj, inputTxtObj.friendname); });
+
+    $("input[name=friendname]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.friendname); });
+    $("input[name=friendname]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.friendname); });
+
+    $("input[name=friendemail]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.friendemail); });
+    $("input[name=friendemail]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.friendemail); });
+
+    $("input[name=mediaattn]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.mediaattn); });
+    $("input[name=mediaattn]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.mediaattn); });
+
+    $("input[name=subject]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.subject); });
+    $("input[name=subject]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.subject); });
+
+    $("input[name=filter-terms]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.terms); });
+    $("input[name=filter-terms]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.terms); });
+
+    $("input[name=title]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.title); });
+    $("input[name=title]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.title); });
+
+    //$(".title-input").focus( function() {obj = this;inputFocus(obj,inputTxtObj.title);});	
+    //$(".title-input").blur( function() {obj = this;inputBlur(obj,inputTxtObj.title);});
+
+    $("input[name=addr]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.addr); });
+    $("input[name=addr]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.addr); });
+
+    $("input[name=org]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.org); });
+    $("input[name=org]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.org); });
+
+    $("input[name=city]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.city); });
+    $("input[name=city]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.city); });
+
+    $("input[name=zip]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.zip); });
+    $("input[name=zip]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.zip); });
+
+    $("input.focus-staff-filter").focus(function () { obj = this; inputFocus(obj, inputTxtObj.staffFilter); });
+    $("input.focus-staff-filter").blur(function () { obj = this; inputBlur(obj, inputTxtObj.staffFilter); });
+
+    $(".search-bar .search-input").focus(function () { obj = this; inputFocus(obj, inputTxtObj.advSearch); });
+    $(".search-bar .search-input").blur(function () { obj = this; inputBlur(obj, inputTxtObj.advSearch); });
+
+    $("input[name=zip]").focus(function () { obj = this; inputFocus(obj, inputTxtObj.zip); });
+    $("input[name=zip]").blur(function () { obj = this; inputBlur(obj, inputTxtObj.zip); });
+
+    $(".rsvp-popup input[id*='FirstName']").focus(function () { obj = this; inputFocus(obj, "First Name (*)"); });
+    $(".rsvp-popup input[id*='FirstName']").blur(function () { obj = this; inputBlur(obj, "First Name (*)"); });
+
+    $(".rsvp-popup input[id*='LastName']").focus(function () { obj = this; inputFocus(obj, "Last Name (*)"); });
+    $(".rsvp-popup input[id*='LastName']").blur(function () { obj = this; inputBlur(obj, "Last Name (*)"); });
+
+    $(".rsvp-popup input[id*='EMail']").focus(function () { obj = this; inputFocus(obj, "Email Address (*)"); });
+    $(".rsvp-popup input[id*='EMail']").blur(function () { obj = this; inputBlur(obj, "Email Address (*)"); });
+
+    $(".rsvp-popup input[id*='Phone']").focus(function () { obj = this; inputFocus(obj, "Phone Number"); });
+    $(".rsvp-popup input[id*='Phone']").blur(function () { obj = this; inputBlur(obj, "Phone Number"); });
+
+    $(".rsvp-popup input[id*='Title']").focus(function () { obj = this; inputFocus(obj, "Title"); });
+    $(".rsvp-popup input[id*='Title']").blur(function () { obj = this; inputBlur(obj, "Title"); });
+
+    $(".rsvp-popup input[id*='Org']").focus(function () { obj = this; inputFocus(obj, "Organization"); });
+    $(".rsvp-popup input[id*='Org']").blur(function () { obj = this; inputBlur(obj, "Organization"); });
+
+    $(".rsvp-popup input[id*='Mail']").focus(function () { obj = this; inputFocus(obj, "Mailing Address"); });
+    $(".rsvp-popup input[id*='Mail']").blur(function () { obj = this; inputBlur(obj, "Mailing Address"); });
+
+    $(".rsvp-popup input[id*='City']").focus(function () { obj = this; inputFocus(obj, "City/Town"); });
+    $(".rsvp-popup input[id*='City']").blur(function () { obj = this; inputBlur(obj, "City/Town"); });
+
+    $(".rsvp-popup input[id*='Zip']").focus(function () { obj = this; inputFocus(obj, "Zip/Postal"); });
+    $(".rsvp-popup input[id*='Zip']").blur(function () { obj = this; inputBlur(obj, "Zip/Postal"); });
+
+    /** Handles the drop downs in filters */
+    $("label.form_arrow_up").each(function () { hideRefControl(this, "form_arrow_up", "form_arrow_down"); });
+    $("label.form_arrow_down").each(function () { showRefControl(this, "form_arrow_up", "form_arrow_down"); });
+
+    //$(".heritage-dd ul ul").addClass("sub-ul");
+
+    //$("label.form_arrow_up").click ( function() { toggleRefControls(this, "up"); });
+    //$("label.form_arrow_down").click ( function() { toggleRefControls(this, "down"); });
+
+    $(".search-filter h6").each(function () {
+        var uls = $(this).next();
+        if (uls.children().length <= 0) {
+            uls.html("<li><em>no filters selected</em></li>");
+        }
+    });
+
+    /** Displays 'Send Report to a Friend' popup **/
+    //Click the send report link
+
+    $(".send-to-friend").click(function () {
+        var popup = $("#send-to-friend-popup");
+        centerPopup(popup);
+        loadPopup(popup);
+        return false;
+    });
+
+    //Get Embed Code
+    $(".embed-link").click(function () {
+        var embedInput = $(".embed-input");
+        embedInput.toggle();
+        return false;
+    });
+
+    $("#objectEmbedCode").focus(function () { $(this).select(); });
+
+    $(".rsvp").click(function () {
+        var popup = $(this).next(".rsvp-popup");
+        //var i = $(".btns input").index(this)
+        //var popup = $(this).parent().find(".rsvp-popup").index(i);
+        centerPopup(popup);
+        loadPopup(popup);
+        return false;
+    });
+
+    $(".rsvp-online").click(function () {
+        var popup = $(this).next(".rsvp-popup");
+        //var i = $(".btns input").index(this)
+        //var popup = $(this).parent().find(".rsvp-popup").index(i);        
+        centerPopup(popup);
+        loadPopup(popup);
+        return false;
+    });
+
+    if (window.location.hash == '#watch-online' || window.location.hash == '#attend') {
+        var popup = $(".rsvp-popup." + window.location.hash.toString().substring(1));
+        centerPopup(popup);
+        loadPopup(popup);
+    }
+
+    $(".request-interview").click(function () {
+        return locate(this, 0);
+    });
+
+    function locate(link, times) {
+        if (times > 100) {
+            // safety check
+            return true;
+        }
+        var popup = $(link).next(".request-interview-popup");
+        if (popup.length == 0) {
+            return locate($(link).parent(), times++);
+        } else {
+            centerPopup(popup);
+            loadPopup(popup);
+            popup.css('z-index', 999);
+        }
+
+        return false;
+    }
+
+    //Click the X or Cancel button
+    $(".closePopup").click(function () {
+        disablePopup();
+    });
+
+    $(".popup-cancel").click(function () {
+        disablePopup();
+    });
+
+
+    // Initialize hover state for Large Icon List
+    if ($(".large-icon-list").hasClass("grid") == false) {
+        $(".large-icon-list li").hover(
+			function () {
+			    $(this).addClass("hover");
+			},
+			function () {
+			    $(this).removeClass("hover");
+			}
+		);
+
+        // Adding pointer via JS for accessibility
+        $(".large-icon-list li").css("cursor", "pointer");
+
+        // Making whole LI clickable, will load the url of the at tag within the list item
+        $(".large-icon-list li").click(function () {
+            window.location = $(this).find("a").attr("href");
+        });
+    }
+
+    // Initialize homepage carousel nav
+    // Prepare Tabbed-Containers
+    $(".carousel-nav li a").click(function () {
+        // Remove active class on active tabs and containers
+        $(".carousel-nav li.act").removeClass("act");
+
+        // Add active class to clicked tab and container
+        var tabClass = $(this).parent().attr("class");
+        $(".carousel .act").removeClass("act")
+        $(".carousel #cont-" + tabClass).addClass("act");
+
+        $(this).parent().addClass("act");
+
+        return false;
+    });
+
+    $(".spotlight button").click(function () {
+
+        // Get number of tabs and position of active tab
+        var num_tabs = $(".carousel-nav li").length - 2; // Subtract two b/c the first and last LI items are the buttons
+        var act_pos = $(".carousel-nav li").index($(".carousel-nav li.act"));
+        var new_pos;
+
+        // Check if left or right btn 
+        // Get new position based on button clicked, position of active tab, and number of tabs 
+        if ($(this).hasClass("left-btn")) {
+            new_pos = ((act_pos - 1) >= 1) ? act_pos - 1 : num_tabs;
+        } else if ($(this).hasClass("right-btn")) {
+            new_pos = ((act_pos + 1) < num_tabs + 1) ? act_pos + 1 : 1;
+        }
+
+        // Remove active class, put on correct tab
+        $(".carousel-nav li.act").removeClass("act");
+        $(".carousel-nav ." + new_pos).addClass("act");
+
+        // Remove active class, put active on correct Container		
+        $(".carousel div.act").removeClass("act");
+        $(".carousel #cont-" + new_pos).addClass("act");
+
+        return false;
+    });
+
+    // Within homepage carousel, if the article preview p's are to long, this will shorten them so the continue reading link is visible.
+    $(".article-preview p").each(function () {
+        var txt = $(this).text();
+        var max_len = 300;
+        return (txt.length > max_len) ? $(this).text(txt.substring(0, max_len)).append(" ...") : true;
+    });
+
+    // Add click/unclick state to Site Search dropdown
+    $(".comboboxContainer .comboboxValueContainer").click(function () {
+
+        if ($(this).hasClass("act")) {
+            $(this).removeClass("act");
+        } else {
+            $(this).addClass("act");
+        }
+    });
+
+    /* Setting up references hide/show toggle */
+    $(".references").css("display", "none");
+    $(".refs-toggle").click(function () {
+        if ($(".references").hasClass("act")) {
+            $(".references").slideUp("slow").removeClass("act");
+            $(this).html("Show references in this report")
+        } else {
+            $(".references").slideDown("slow").addClass("act");
+            $(this).html("Hide references in this report").addClass("hide");
+        }
+
+        return false;
+    });
+
+    //track the homepage features navigation click        
+    $('#home-page .feature .feature-nav li').click(function () {
+        homepageFeatureTrackEvent('Navigation Click', ($(this).index() + 1));
+    });
+
+    //track click of a homepage feature title
+    $('#home-page div.feat-spotlight h3 a').mousedown(function () {
+        var featureNumber = ($(this).parent().parent().index() + 1);
+        homepageFeatureClick('Title Click', featureNumber);
+    });
+
+    //track click of a homepage feature's read more link
+    $('#home-page div.feat-spotlight p.dotted-bot-border a').mousedown(function () {
+        var featureNumber = ($(this).parent().parent().index() + 1);
+        homepageFeatureClick('Read More Click', featureNumber);
+    });
+
+    //track click of a homepage feature's related posts
+    $('#home-page div.feat-spotlight ul.related a').mousedown(function () {
+        homepageFeatureTrackEvent('Related Click', ($(this).parent().parent().parent().index() + 1));
+    });
+
+    //track click of a homepage feature's hero image
+    $('#home-page div.feature a.feature-hero').mousedown(function () {
+        var featureNumber = ($(this).parent().find('a.feature-hero').index(this) + 1);
+        homepageFeatureClick('Feature Image Click', featureNumber);
+    });
+
+    $('#home-page a').click(function (event) {
+        if ($(this).prop('href').indexOf('#') <= 0) {
+            delayedMbox(event, this, 'home_page_link_click');
+        }
+    });
+
+    $('#home-page button').click(function (event) {
+        delayedMbox(event, this, 'home_page_link_click');
+    });
+
+    $('.signup-form #home-page input').click(function () {
+        delayedMbox(event, this, 'home_page_link_click');
+    });
+
+    //track main story click
+    $('#mystique .main-story a').mousedown(function () {
+        homepageFeatureClick('Main Story Click', 1);
+    });
+
+    //track main story click
+    $('#mystique .secondary-stories a').mousedown(function () {
+        homepageFeatureClick('Secondary Story Click', 2);
+        return false;
+    });
+
+    //track e-mail signup    
+    if (window.location.hash == '#email-success') {
+        dynamicHomePageMbox("homepage_email_signup");
+    }
+    if (window.location.href.indexOf('?mb=true') > -1) {
+        dynamicHomePageMbox("mb_email_signup");
+    }
+    if (window.location.href.indexOf('?fb=true') > -1) {
+        dynamicHomePageMbox("fb_email_signup");
+    }
+
+
+    // Set timer for featured carousel on homepage, roates featured img and content every 5 seconds
+    var timerID = null;
+    if ($(".home").length > 0) {
+        var timerID = setInterval("featureChangeTimer()", 8000);
+    }
+
+    // Set onclick for feature image/media rotation
+    $(".feature .feature-nav li").click(function (timerID) {
+        if (timerID) { clearInterval(timerID); } // Check if timer interval is still set, clear it if it is.
+        //if ($(".home").length > 0) { timerID = setInterval("featureChangeTimer()", 8000); } // Start new time interval (only if homepage)
+
+        var pos = $(".feature .feature-nav li").index(this);
+        $(".feature .feature-nav li.act").removeClass("act");
+
+        $(".feat-spotlight .act").removeClass("act");
+        $(".feat-spotlight .feat-" + pos).addClass("act"); // For homepage
+
+        $(".feature .act").removeClass("act");
+        $(".feature .feat-media-" + pos).addClass("act");
+        //$(".feat-spotlight .video-"+pos).addClass("act");   // For Multimedia
+
+        $(this).addClass("act");
+
+        return false;
+    });
+
+    // Set hover on feature image, onhover remove timer, onhoverout reset hover
+    $(".home .homesplash .feature-block").hover(
+		function () { // in
+		    if (timerID) { clearInterval(timerID); } // Check if timer interval is still set, clear it if it is.
+		},
+		function () { // out
+		    timerID = setInterval("featureChangeTimer()", 8000); // set new timer
+		}
+    );
+
+    $(".search-form .search-toggle").click(function () {
+        var id = $(this).attr("id");
+        if ($(this).hasClass("show")) {
+            $(".block-" + id).slideDown("slow");
+            $(this).removeClass("show").html("Collapse This");
+        } else {
+            $(".block-" + id).slideUp("slow");
+            $(this).addClass("show").html("Expand This");
+        }
+    });
+    // Adding clears to even list items, this is in JS bc some lists do not need it and we use a global control for list items
+    $(".media-page .content-list li:even").addClass("clear");
+    $(".footer-container .content-list li:even").addClass("clear");
+
+
+    // Fixing Tertiary navigation on general page templates, reduces top padding when nav text goes to two lines
+    $(".two-column-leftnav .col-1 ul li a").each(function () {
+        if (jQuery.trim($(this).html()).length > 26) {
+            $(this).css("padding-top", "5px");
+        }
+    });
+    // Reduces top padding when carousel nav item text goes to two lines
+    $(".carousel-nav li a").each(function () {
+        if ($(this).html().length > 22) {
+            $(this).css("padding-top", "5px");
+        }
+    });
+
+    // Reduce the size of the intro text so it fits within the parent element.
+    $(".media-page .homesplash .feat-spotlight .feat-desc").each(function () {
+        /*
+        var more_link = $(this).find("a");
+        more_link=more_link[0]
+        console.log(more_link);
+        $(more_link).remove();
+        reduceText(this,134);
+        $(this).append(more_link);  
+        */
+    });
+
+    // Adding clears to even list items, this is in JS bc some lists do not need it and we use a global control for list items
+    $(".footer-container .content-list li:even").css("clear", "left");
+    $(".issue-tabs-block .tab-cont .content-list").each(function () {
+        $(this).find("li:even").css("clear", "left");
+    });
+    $(".our-work .tab-cont .content-list li:even").css("clear", "left");
+
+    // Setting Multimedia/Video Player to display block instead of block-inline in IE8 (very bizarre bug)
+    $("#_containermyExperience").each(function () { $(this).css("display", "block") });
+
+    // Setting styles for first p in Featured Media Item
+    $(".featured-media-item .body p:first-child").css("font-style", "italic");
+
+    // Clear the first 1 list item on every new row in the multimedia tabset on the multimedia page, 3 row list
+    $(".multimedia-tabset .content-list li:nth-child(3n+1)").removeClass("clear");
+    /* 	$(".multimedia-tabset .content-list li:nth-child(3n)").css({"float":"right","margin-right":"10px"}); */
+
+    // Clear the first 1 list item on every new row in the multimedia tabset on the multimedia page
+    $(".media-page .content-list li").removeClass("clear");
+    $(".media-page .content-list li:nth-child(3n+1)").css("clear", "left");
+
+    // Reduce content list text in home page carousel
+    $(".spotlight .carousel .content-list li a").each(function () {
+        return reduceText(this, 49);
+    });
+
+    // Reduce content list text in Iniative Experts
+    $(".initiative-experts .three-col-list li p").each(function () {
+        var more = $(this).find(".more").html();
+        reduceText(this, 149);
+        $(this).append(more);
+    });
+
+    /*/ Reduce content list text in Iniative Experts
+    $(".about-author .singleAuth p").each(function() {
+    var more = $(this).find(".more");
+    reduceText(this, 149);
+    $(this).append(more);
+    });*/
+
+    // Reduce content list text in Iniative Experts
+    $(".about .sidebar .staff-list p").each(function () {
+        reduceText(this, 149);
+    });
+
+    // Reduce content list text in Iniative Experts
+    $(".sidebar .hot-sheets .staff-list .staff-block p").each(function () {
+        reduceText(this, 149);
+        var ref = $(this).parent().find("a.name").attr("href");
+        var link = "<a href='" + ref + "' class='read-more'>Read More</a>";
+        $(this).append(link);
+    });
+
+    $(".video-container .videos").each(function () {
+        var pages = $("li", this).length / 4;
+        var items = "";
+        for (var i = 0; i < pages; i++) {
+            items += "<li>&nbsp;&nbsp;</li>";
+        }
+
+        $(".slider-counter").append(items);
+        $(".slider-counter li:first").addClass("act");
+    });
+
+
+    // Implement video slider on press page
+    $(".video-container").easySlider({
+        prevText: 'Previous Slide',
+        nextText: 'Next Slide'
+    });
+
+    // Hide/Show event for sidebar subject experts
+    $(".show-experts-btn").click(function () {
+        var parent = $(this).parent();
+        $(".staff-list", parent).slideToggle("slow");
+        return false;
+    });
+
+    // Disabled previous button on video slider
+    $("#prev").addClass("prev-disabled").attr("disabled", "disabled");
+
+    $(".about .lfa-initiative-grid li:even").css("clear", "left");
+
+    // Some anchors are output empty, which adds a margin
+    $(".content-list li .item-link").each(function () {
+        if ($(this).is(":empty")) {
+            $(this).css("display", "none");
+        }
+    });
+
+    /** Feature Carousel on homepage, when you click the active image, it will take you to the content */
+    $(".feature img.act").click(function () {
+        document.location = $(".feature-block .feature-spotlight .act h3 a").attr("href");
+    });
+
+
+
+    $.each(jQuery.browser, function (i) {
+
+        if ($.browser.msie) { // Microsoft Browser
+            $(".multimedia-tabset ul li").css("margin-bottom", "5px");
+            $(".media-page .media-list .content-list li").css("margin-bottom", "5px");
+
+            var max = 50;
+
+            $(".multimedia-tabset ul li a.item-title").each(function () {
+                var string = $(this).text();
+                if (string.length > max) {
+                    $(this).text(reduceIE(string, max));
+                }
+            });
+
+            $(".media-page .media-list .content-list li a.item-title").each(function () {
+                var string = $(this).text();
+                if (string.length > max) {
+                    $(this).text(reduceIE(string, max));
+                }
+            });
+        }
+    });
+
+    var staffListTitle = $("#staffListTitle");
+    if (staffListTitle.length > 0) {
+        var allVars = $.getUrlVars();
+        if (allVars["srmgt"] == "true") {
+
+            document.title = 'Senior Management Staff | The Heritage Foundation';
+            staffListTitle.html("Senior Management Staff");
+            $(".Staff_nav").removeClass("act");
+            $(".SeniorManagement_nav").addClass("act");
+        }
+    }
+
+    /** 
+    * Toggle Statement of Purpose / Objectives list on initiative pages 
+    * note: non-js users will see the entire statement of purpose and objectives list as default
+    */
+
+    // Since the read more link needs to appear in the content (in the first paragraph) 
+    // this grabs the read more link and appends it to the first paragraph
+    $(".initiative .initiative-intro .col-1 div p:eq(0)").append("&nbsp;").append($(".initiative-intro .col-1 a.show-toggle"));
+
+    // Hiding all paragraphs that are not the first (gt = greater than)
+    $(".initiative .initiative-intro .col-1 div p:gt(0)").hide();
+
+    // Limiting Objectives list to two list items but still showing the last item (it has the toggle link)
+    $(".initiative-intro .objectives-list li:gt(1)").hide();
+    $(".initiative-intro .objectives-list li:last").show();
+
+    // On click for showing/hiding statement of purpose and objectives list
+    $(".initiative-intro a.show-toggle").click(function () {
+
+        // Check show/hide state of elemtents, if they are showing all less will == true
+
+        // Hide Toggle
+        if ($(this).hasClass("less")) {
+            // Slide the list up so only the first two show
+            $(".initiative-intro .objectives-list li:gt(1)").slideUp(function () {
+                // callback to show the toggle link (in the last list item) after the slide up is complete
+                $(".initiative-intro .objectives-list li:last").show();
+            });
+
+            // Hide all statement of purpose paragraphs that are not the first (slide up animation)
+            $(".initiative .initiative-intro .col-1 div p:gt(0)").slideUp(function () {
+                // Scroll to top of the Statement of Purpose after the slide event 
+                var targetOffset = $(".initiative .initiative-header").offset().top;
+                $("html,body").animate({ scrollTop: targetOffset }, 1000);
+            });
+
+            // Grabbing the toggle link and appending it to the first paragraph
+            $(".initiative .initiative-intro .col-1 div p:eq(0)").append("&nbsp;").append($(".initiative-intro .col-1 a.show-toggle"));
+
+            // Remove less class name, replace text with Read More
+            $(".initiative-intro a.show-toggle").removeClass("less").text("Read More");
+
+
+
+
+        } else { // Show Toggle	
+
+            // Show the entire objectives list
+            $(".initiative-intro .objectives-list li:gt(1)").slideDown();
+
+            // Show the entire statement of purpose
+            $(".initiative .initiative-intro .col-1 div p:gt(0)").slideDown(function () {
+                // Scroll down to 2nd paragraph after the slide event
+                var targetOffset = $(".initiative-intro .col-1 p:eq(1)").offset().top;
+                $("html,body").animate({ scrollTop: targetOffset }, 1000);
+            });
+
+
+            // Grabbing the toggle link and appending it to the last paragraph
+            $(".initiative .initiative-intro .col-1 div p:last").append("&nbsp;").append($(".initiative-intro .col-1 a.show-toggle"));
+
+            // Add less class name, replace text with Show Less
+            $(".initiative-intro a.show-toggle").addClass("less").text("Show Less");
+
+        }
+
+        return false; // Stop any default action (following the links href)
+    });
+
+    /* Fixing button movement in IE by moving hidden popup after the buttons 
+    $(".btns .popupWindow").each ( function() {
+    $(this).insertAfter($(this).next());
+    }); */
+
+    $(".navSearch > input.txt").autocomplete("/search/autocomplete", { max: 10, matchContains: true, cacheLength: 1, minChars: 3, scroll: false, selectFirst: false });
+
+
+    $(".navSearch > input.txt").setOptions({
+        extraParams: { timestamp: 'cache', filter: function () {
+            /*
+            var s = $('#sitesections').val();
+            if (s.indexOf('infographic') > 0) {
+            return 'infographic';
+            }
+            else if (s.indexOf('audio') > 0) {
+            return 'audio';
+            }
+            else if (s.indexOf('video') > 0) {
+            return 'video';
+            }
+            s = s.substr(s.length - 1);
+            if (s == '1') {
+            return 'research';
+            }
+            else if (s == '2') {
+            return 'staff';
+            }
+            else if (s == '3') {
+            return 'events';
+            }
+            else if (s == '5') {
+            return 'blog';
+            }*/
+            return '';
+        }
+        }
+    });
+
+    var autoComplateNavigated = false;
+    $(".navSearch > input.txt").result(function (event, data, formatted) {
+        var p = data.toString();
+        p = p.replace('<a href="', '');
+        var url = p.substr(0, p.indexOf('"'));
+        $(".navSearch > input.txt").val("");
+        window.location = "" + url + "?ac=1";
+        return false;
+    });
+
+    $('#searchbtn').live("click", function (e) {
+        doTopNavSearch();
+        return false;
+    });
+
+    $('#query').live("keypress", function (e) {
+        if (e.keyCode == 13 && !autoComplateNavigated) {
+
+            doTopNavSearch();
+            return false;
+        }
+        if (e.keyCode == 38 | e.keyCode == 40) {
+            autoComplateNavigated = true;
+        }
+    });
+
+    $('.one-column').live("keypress", function (e) {
+        if (e.keyCode == 13) {
+            var extraParams = '';
+            if (window.location.href.indexOf('&') > 0) {
+                extraParams = window.location.href.substring(window.location.href.indexOf('&'), 300);
+            }
+            var query = replaceSpacesWithPlus($(".refine-text").val());
+            window.location = "/search?query=" + query + extraParams;
+            return false;
+        }
+    });
+
+    //Donate Google Tracking
+    $('li.donateButton a').click(function () { _gaq.push(['_trackEvent', 'Donate', 'Top Orange Button']); });
+    $('li.renew a').click(function () { _gaq.push(['_trackEvent', 'Renew Membership', 'Top Blue Button']); });
+    
+
+});                                                                            /**** End Document Ready */
+
+function delayedMbox(thisEvent, thisLink, mboxName) {
+    thisEvent.preventDefault();
+    var t = $(thisLink);
+    var dest = t.attr('href');
+    if (typeof (dest) != "undefined" && dest != "") {
+        setTimeout(function () { window.location.href = dest; }, 300);
+        consolelog("delay");
+    }
+    dynamicHomePageMbox(mboxName);
+}
+
+function doTopNavSearch() {    
+    var query = $('#query').val();    
+    if (query == 'Search Heritage for') {
+        query = '';
+    }
+    query = replaceSpacesWithPlus(query);
+    var queryString = '';
+    if (query != '')
+    {    
+       queryString = '?query=' + query;
+   }
+    /*
+    if ($('#sitesections').val() != '' && $('#sitesections').val() != ' ') {
+        if (queryString == '') {
+            queryString = '?';
+        }
+        else {
+            queryString = queryString + '&';
+        }
+        queryString = queryString + $('#sitesections').val();
+    }*/    
+    window.location = '/search' + queryString;
+}
+
+function replaceSpacesWithPlus(s) {
+   var myRegExp = new RegExp(" ","g");
+   return s.replace(myRegExp, "+");
+}
+
+$.extend({
+  getUrlVars: function(){
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+      hash = hashes[i].split('=');
+      vars.push(hash[0]);
+      vars[hash[0]] = hash[1];
+    }
+    return vars;
+  },
+  getUrlVar: function(name){
+    return $.getUrlVars()[name];
+  }
+});
+
+function reduceIE (string, max) {
+		
+	if ( string.charAt(max) != " " ) {
+		max = max + string.substr(max, string.length).indexOf(" ")
+	} 
+
+	return string.substr(0,max) + "...";
+
+}
+
+// Function to reduce text size. 
+function reduceText(obj, max) {
+	if (max == null) { max = 300; }
+	var txt = $(obj).html();  // Using HTML to preserve any html (ie: links) within object
+	return ( txt.length > max ) ? $(obj).html(txt.substring(0,max)).append(" ... ") : true;
+}
+
+// Function to control homepage featured carousel
+function featureChangeTimer () {
+	var elem = $(".feature .feature-nav li.act");
+	var feats = $(".feature .feature-nav li").length;
+	var pos = $(".feature .feature-nav li").index(elem);
+	var new_pos = (feats <= pos+1) ? 0 : pos+1;
+	
+	$(".feature .feature-nav li.act").removeClass("act");
+	$(".feat-spotlight .act").removeClass("act");
+	$(".feat-spotlight .feat-"+new_pos).addClass("act"); // For homepage
+	
+	$(".feature .act").removeClass("act");
+	$(".feature .feat-media-"+new_pos).addClass("act");
+		
+	$(".feature .feature-nav li").eq(new_pos).addClass("act");
+		
+	return false;
+	
+}
+// Sets text input val to '' on focus if current value equals val
+function inputFocus(obj,val) {
+	return ($(obj).val() == val) ? $(obj).val('').addClass("reset-font") : false;
+}
+
+// Sets text input val to specficied 'val' on focus
+function inputBlur (obj, val){
+	return ($(obj).val() == '') ? $(obj).val(val).removeClass("reset-font") : false;
+}
+
+function buildRangeSlider (div_id)
+{
+    var div = $(div_id);
+    if (div.length > 0) {
+        var min = parseInt($(".range-footer > .min").text());       
+        var max = parseInt($(".range-footer > .max").text());        
+        var ends = Math.round((max - min) / 3);
+        
+        var re = /(\d{4}) - (\d{4})/;
+        var value = $(".range-footer input.date-range-input").val();
+        var values = [];
+        
+        if (re.test(value))
+        {
+            var match = re.exec(value);
+            values.push(parseInt(match[1]));
+            values.push(parseInt(match[2]));
+        }
+        else
+        {
+            values.push(min);
+            values.push(max);
+        }
+
+        $(div_id).slider({
+            range: true, min: min, max: max, values: values,
+            slide: function(event, ui) {
+            
+                $(".range-footer input.date-range-input").val(ui.values[0] + ' - ' + ui.values[1]);
+            }
+        });
+		$(".range-footer > input").val(min + ' - ' + max);
+	}
+}
+
+/* Displays 'Send Report to a Friend' popup */
+
+//0 - disabled; 1 - enabled;
+var popupStatus = 0;
+
+//loading popup with jQuery 
+function loadPopup(id){
+	//loads popup only if it is disabled
+	if(popupStatus==0){
+		$("#backgroundPopup").css({
+			"opacity": "0.6"
+		});
+		$("#backgroundPopup").fadeIn("slow");
+		id.fadeIn("slow");
+		popupStatus = 1;
+	}
+}
+
+//Disabling popup
+function disablePopup(){
+	//disables popup only if it is enabled
+	if(popupStatus==1){
+		$("#backgroundPopup").fadeOut("slow");
+		$(".popupWindow").fadeOut("slow");
+		popupStatus = 0;
+	}
+}
+
+//Centering popup
+function centerPopup(id){
+	//request data for centering
+	var windowWidth = document.documentElement.clientWidth;
+	var windowHeight = document.documentElement.clientHeight;
+	var popupHeight = id.height();
+	var popupWidth = id.width();
+	var xy = getScrollXY();
+	
+	//centering
+	$(".popupWindow").css({
+		"position": "absolute",
+		"top": windowHeight/2-popupHeight/2 + xy[1],
+		"left": windowWidth/2-popupWidth/2
+	});
+	
+	//only need force for IE6
+	$(".backgroundPopup").css({
+		"height": windowHeight
+	});	
+}
+
+//Determine Scrolling Offset if Any
+function getScrollXY() {
+    var scrOfX = 0, scrOfY = 0;
+    if( typeof( window.pageYOffset ) == 'number' ) {
+        //Netscape compliant
+        scrOfY = window.pageYOffset;
+        scrOfX = window.pageXOffset;
+    } else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
+        //DOM compliant
+        scrOfY = document.body.scrollTop;
+        scrOfX = document.body.scrollLeft;
+    } else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
+        //IE6 standards compliant mode
+        scrOfY = document.documentElement.scrollTop;
+        scrOfX = document.documentElement.scrollLeft;
+    }
+    return [scrOfX, scrOfY];
+}
+
+// disable the submission of the wrong form
+function forceClick(e, elemId) {
+    var elem = document.getElementById(elemId);
+    if(elem == null)
+        return true;
+    var evt = (e) ? e : window.event;
+    var intKey = (evt.which) ? evt.which : evt.keyCode;
+
+    if (intKey == 13) {
+        if (typeof (elem.click) == "function" || typeof (elem.click) == "object") {
+            elem.click();
+        } else if (typeof (elem.href) != "undefined") {
+            window.location = elem.href;
+        } else {
+            return true;
+        }
+        return false;
+    }
+    return true;
+}
+
+function rsvpToThisEvent(clientId) {
+
+    $.post("/events/upcomingevents?clientId=" + clientId, $("form").serialize(),
+        function(data) {
+            if (data.length > 0) {
+                if (data == "error") {
+                    $("#" + clientId + " .form-error-msg").html("There was an error processing your RSVP.");
+                }
+                else {
+                    $("#" + clientId + " .form-error-msg").html("We're sorry. There are some errors you need to address before sending in your RSVP.");
+                    var fields = data.split(",");
+                    for (i = 0; i < fields.length; i++) {
+                        var inputField = $("#" + clientId + " input[name*=" + fields[i] + "]");
+                        inputField.css("color", "red");
+                    }
+                }
+
+
+                $("#" + clientId + " .form-error-msg").show();
+            }
+            else {
+                $("#" + clientId + " .form-error-msg").html("Your form has been submitted.");
+                $("#" + clientId + " .form-error-msg").show();
+                $("#" + clientId + " .rsvp-form").hide();
+                setTimeout(function() { disablePopup(); }, 2000);
+
+            }
+        }
+    );
+    return false;
+}
+//Education made simple -slide show
+/*$(function(){
+
+			var Mytimer;
+$('#slideshow-0 > div:gt(0)').hide();
+            var Mytimer0 =  setInterval(function(){		
+		    $( "#slideshow-0 > div" ).eq(0).hide().next().show().end().appendTo('#slideshow-0');},20000);
+		     
+			$('#slideshow-1 > div:gt(0)').hide();		
+            Mytimer1 =  setInterval(function(){		
+		    $( "#slideshow-1 > div" ).eq(0).hide().next().show().end().appendTo('#slideshow-1');},20000);
+			
+			$('#slideshow-2 > div:gt(0)').hide();		
+            Mytimer2 =  setInterval(function(){		
+		    $( "#slideshow-2 > div" ).eq(0).hide().next().show().end().appendTo('#slideshow-2');},20000);
+			
+			$('#slideshow-3 > div:gt(0)').hide();		
+             Mytimer3 =  setInterval(function(){		
+		    $( "#slideshow-3 > div" ).eq(0).hide().next().show().end().appendTo('#slideshow-3');},20000);	
+			
+			
+$(".made_simple_carousel li").click(function(){
+				 
+				var ind = $(".made_simple_carousel li").index(this);
+				$(".made_simple_carousel li.act_carousel").removeClass("act_carousel");
+				  $(".video .contentshow").removeClass("contentshow");
+				  $(".video .contentshow").removeClass("contenthide");
+				$(".video #video-" + ind).addClass("contentshow");
+				$(this).addClass("act_carousel");
+				
+				
+				clearInterval(Mytimer0); clearInterval(Mytimer1); clearInterval(Mytimer2); clearInterval(Mytimer3); clearInterval(Mytimer)
+				
+				$('#slideshow-'+ind+' > div:gt(0)').hide();	
+            Mytimer = setInterval(function(){	
+			
+		    $( "#slideshow-"+ind+" > div" ).eq(0).hide().next().show().end().appendTo('#slideshow-' + ind);},20000);
+		 		});	
+	});		*/			
+
+// Easy Slider jQuery Plugin modified and comments added by Siteworx from existing plugin:
+/*
+ * 	Easy Slider - jQuery plugin
+ *	written by Alen Grakalic	
+ *	http://cssglobe.com/post/3783/jquery-plugin-easy-image-or-content-slider
+ *
+ *	Copyright (c) 2009 Alen Grakalic (http://cssglobe.com)
+ *	Dual licensed under the MIT (MIT-LICENSE.txt)
+ *	and GPL (GPL-LICENSE.txt) licenses.
+ *
+ *	Built for jQuery library
+ *	http://jquery.com 
+ 
+ */
+ (function($) {
+
+     $.fn.easySlider = function(options) {
+         var defaults = {
+             prevId: 'prev',
+             prevText: 'Previous',
+             nextId: 'next',
+             nextText: 'Next',
+             orientation: '', //  'vertical' is optional;
+             speed: 800
+         };
+
+         var options = $.extend(defaults, options);
+
+         return this.each(function() {
+
+             var slider_cont = $(this);
+             var items = $("li", slider_cont).length;
+             
+             if (items <= 4) { // Do not allow scrolling if there are 4 or less video items
+             	$("#next").addClass("next-disabled").attr("disabled", "disabled");
+             }
+             
+             var item_width = $("li", slider_cont).width();
+
+             var cont_width = slider_cont.width();
+             var trans_width = (items / 4) * cont_width;
+
+             var ts = items - 1;
+             var t = 0;
+
+             $("ul", slider_cont).css('width', trans_width);
+
+             $("#" + options.nextId).click(function() {
+                 animate("next");
+                 $("#" + options.prevId).fadeIn();
+                 return false;
+             });
+             $("#" + options.prevId).click(function() {
+                 animate("prev");
+                 $("#" + options.nextId).fadeIn();
+                 return false;
+             });
+
+             function animate(dir) {
+                 // If next is selected animate the next page in the slider (if available), else animate to the previous page (if available)
+                 if (dir == "next") {
+                     t = (t >= ts) ? ts : t + 1;
+                 } else {
+                     t = (t <= 0) ? 0 : t - 1;
+                 };
+
+                 // Check if on the last page, disable buttons/add css class
+                 p = (t * cont_width * -1);
+
+                 if (((p * -1) + cont_width ) >= trans_width) {
+                     $("#next").addClass("next-disabled").attr("disabled", "disabled");
+                 } else {
+                     $("#next").removeAttr("disabled").removeClass("next-disabled");
+                 }
+
+				 if (t == 0) {
+				 	$("#prev").addClass("prev-disabled").attr("disabled", "disabled");
+				 } else {
+                    $("#prev").removeAttr("disabled").removeClass("prev-disabled");
+                 }
+                 
+                 // Get the page # that is currectly active, set the slider-counter
+                 var act = ((p * -1) + cont_width) / cont_width;
+                 $(".slider-counter li").removeClass("act").eq((act == 0) ? 0 : act - 1).addClass("act");
+
+                 // Animate the transition 
+                 $("ul", slider_cont).animate({ marginLeft: p }, options.speed);
+
+             };
+         });
+
+     };
+	 
+
+ })(jQuery);
+
+
+ //Validating text box value
+    function Validate(sender, args) {
+
+        args.IsValid = false;
+ //       if (args.Value != "" && (/^[a-z]+$/i.test(args.Value))) {
+        if (args.Value != "" && (/^[A-Za-z]+[-\']*[A-Za-z]*$/i.test(args.Value))) {
+            args.IsValid = true;
+        }
+    }
+    function ValidateEmail(sender, args) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        args.IsValid = false;
+        if (re.test(args.Value)) {
+            args.IsValid = true;
+        }
+
+    }
+
+    function ValidateZip(sender, args) {
+        var re = /^([0-9]{5})(-[0-9]{4})?$/;
+        args.IsValid = false;
+        if (re.test(args.Value)) {
+            args.IsValid = true;
+        }
+
+    }
+	
+	
+	
+
+
+
+
+
+	
+	

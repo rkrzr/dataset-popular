@@ -1,0 +1,139 @@
+/* 
+    Document   : amnesty-forums.css
+    Created on : 10-Jun-2010, 13:51:37
+    Author     : rob
+    Description:
+        styling for amnesty forums and comments.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+
+/**************
+forum and fora
+****************/
+
+/** since this is a module css, we might have to get a bit specific with #container in order to have any effect **/
+
+.forum-topic {
+  /*clear: both;*/
+  padding-bottom: 32px;
+}
+.comment-form-user,
+.forum-post-head {
+  float:left;
+  width:120px;
+}
+.comment-form-form,
+.forum-post-body {
+  /*float: left;*/
+  width: 550px;
+}
+.comment-form-user,
+.comment-form-form {
+  padding:0;
+  margin:0;
+}
+.ntype-forum-post {
+  clear:both;
+}
+.ntype-forum-topic .comments {
+  clear:both;
+  background-color:#eeeeee;
+  border-bottom:1px solid #aaaaaa;
+}
+.comments-header {
+  height:20px;
+  border-bottom:1px solid #aaaaaa;
+}
+
+
+ul.forum-links {
+  border-bottom:1px solid #000000;
+  border-top:1px solid #000000;
+  clear:both;
+}
+ul.forum-post-links {
+  clear:both;
+}
+
+.forum-links a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.comment {
+  padding:0px;
+  border-bottom: 1px solid #ffffff;
+}
+.comment-inner .forum-post-head a {
+  display: block;
+}
+
+.comment-inner {
+  overflow: hidden;
+}
+#container ul.forum-links,
+.comments-header {
+  padding-left:120px;
+}
+
+.date-display-forum {
+  font-weight: 700;
+}
+.comment .forum-post-body h3.title {
+  display: inline;
+  float:left;
+}
+
+
+.form-hide-me {
+display:none;
+}
+
+#look-at-me {
+  height: 300px;
+  background-color: #91540e;
+  clear:both;
+  float:none;
+}
+
+/**** call to action panels tabs stuff ***/
+#action-appeal-comment-block {
+background-color:#e3e3e3;
+}
+#action-appeal-comment-block .comment-form-user {
+overflow:hidden;
+}
+#action-appeal-comment-block .comment-form-form {
+background-color: #e3e3e3;
+width:395px;
+margin: 0 auto;
+}
+
+#action-appeal-comment-block .node-form,
+#action-appeal-comment-block .node-type-comment {
+border-bottom:1px solid #ffffff;
+}
+#action-appeal-comment-block .forum-post-body .links {
+float:right;
+}
+#action-appeal-comment-block  .terms-conditions {
+display: inline;
+}
+
+#mini-panel-action_and_comment_tabs ul.primary {
+margin: 0px;
+padding:0 0 0 10px;
+}
+
+/* get rid of whitespace caused by top-margin of first form element on admin versions of comment form */
+#mini-panel-action_and_comment_tabs .standard .form-item:first-child {
+margin-top: 0px;
+}
+
+

@@ -1,0 +1,155 @@
+td, th	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000;}
+
+a	{ color: #006699; text-decoration: none;}
+a:hover		{ color: #CC5533; text-decoration: underline;}
+
+.blacklink	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline;}
+.blacklink:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #CC5533;; text-decoration: underline;}
+
+/*  Created just for advanced search link; 4/23/04; Don't change this  */
+.blacklinkSearch	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: underline;}
+.blacklinkSearch:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #CC5533;; text-decoration: underline;}
+
+.blacklinkbold	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000;}
+.blacklinkbold:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #CC5533; text-decoration: underline;}
+
+/*  DO NOT CHANGE BLACKLINKSUBMENUS. Changes to these will affect the design of the site.  */
+.blacklinksubmenu	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #000000; text-decoration: none;}
+.blacklinksubmenu:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #CC5533; text-decoration: underline;}
+
+.subblue	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #0A599B; text-decoration: none;}
+.subblue:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #0A599B; text-decoration: underline;}
+
+.whitelink a	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; text-decoration: underline;}
+.whitelink a:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 10px; color: red; text-decoration: underline;}
+
+.whitelinkbig a	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 13px; color: #FFFFFF; text-decoration: none;}
+.whitelinkbig a:hover			{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 13px; color: #FFFFFF; text-decoration: underline;}
+
+.topmenu a	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #ECECEC; text-decoration: none;}
+.topmenu a:hover			{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; text-decoration: none;}
+
+.topsub a	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #ECECEC; text-decoration: none;}
+.topsub a:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; text-decoration: underline;}
+
+.redLink, .redLinkBold			{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #B4291C; text-decoration: none;}
+.redLink:hover, .redLinkBold:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #B4291C; text-decoration: underline;}
+
+.redLinkBold	{font-weight: bold; ;}
+.redLinkBold:hover			{font-weight: bold; ;}
+
+.darkBlueLink:link	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #2C4978; text-decoration: none;}
+.darkBlueLink:active	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #2C4978; text-decoration: none;}
+.darkBlueLink:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #2C4978; text-decoration: none;}
+.darkBlueLink:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #CC5533; text-decoration: underline;}
+
+#text	{font-family: Arial, Verdana, Helvetica; font-size: 12px; color: #000000; border-top: #000000 1px solid; border-left: #000000 1px solid; border-right: #000000 1px solid; border-bottom: #000000 1px solid;}
+
+.list	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; line-height:125%; color: #000000;}
+
+.whiteheaderlarge	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 13px; color: #FFFFFF;}
+.whitetext		{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF;}
+
+.blueHeaderSmall	{font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #0A599B;}
+.blueHeaderMedium {font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #0A599B;}
+.blueHeaderLarge	{font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #0A599B;}
+
+.subHeader	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #006699;}
+.subHeader:hover	{font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #CC5533; text-decoration: none;}
+
+/*
+.subHeader a	{font-size: 12px; font-weight: bold; color: #2C4978; text-decoration: none;}*/
+.subHeader a	{font-size: 12px; font-weight: bold; color: #006699; text-decoration: none;}
+.subHeader a:hover	{font-size: 12px; font-weight: bold; color: #CC5533; text-decoration: underline;}
+
+.lightblueHeaderBig	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #0099CC;}
+.lightblueHeaderMedium	{font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #0099CC;}
+.lightblueHeaderSmall	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0099CC;}
+
+.darkblueHeaderSmall	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #2C4978;}
+.darkgreyHeaderSmall	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #4E4E4E;}
+
+.redHeaderSmall	{font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #B4291C;}
+.redHeaderSmall:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #B4291C; }
+
+.redHeaderMedium	{font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #B4291C;}
+
+.redHeaderBig		{font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #CC3333; font-weight: bold;}
+.redAText		{font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #CC3333;}
+.aText		{font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+.qDropDown	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #B4291C;}
+
+.headerwhiteportal			{font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-style: normal; font-weight: bolder; color: #FFFFFF ;}
+
+.tweaser {font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: italic; color: #ECECEC;}
+
+/* ---- Menu Layers ------------------------------ */
+.topLayer
+{
+	position: absolute;
+	visibility: hidden;
+	z-index: 1;
+	top: 101px;
+	left: 10;
+;}
+
+.subLevelMenuBg
+{
+	background: url(http://www.aaas.org/images/submenu3_bg.gif);
+;}
+
+.divContStyle, .divContBlankStyle
+{
+	position: absolute;
+	background: url(http://www.aaas.org/images/submenu3_bg.gif);
+	z-index: 1; 
+	left: 10px;
+	top: 280px;
+	width: 170px;
+	height: 400px;
+	visibility: hidden;
+;}
+
+.divContBlankStyle
+{
+	top: 247px;
+;}
+
+.clTopFirst
+{
+	position: absolute;
+	z-index: 1;
+	width: 160px;
+	line-height: 17px;
+	text-align: right;
+	padding: 1px 0px 2px 0px;
+;}
+
+.clTopBlank
+{
+	position: absolute;
+	z-index: 1;
+	width: 160px;
+	text-align: right;
+;}
+.clTop
+{
+	position: absolute;
+	z-index: 1;
+	width: 160px;
+	line-height: 17px;
+	text-align: right;
+	border-top: 1px solid #BDBDBD;
+	padding: 1px 0px 2px 0px;
+;}
+
+.clSub
+{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 22px; /* 3/7/2007: Was 20px */
+	width: 140px;
+	line-height: 14px;
+	text-align: right;
+;}
