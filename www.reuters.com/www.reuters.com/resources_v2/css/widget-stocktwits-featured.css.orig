@@ -1,0 +1,136 @@
+/* Echo */
+/*#trending-container .moduleHeader h3 { background: url(/resources_v2/images/sprite-core2.gif) no-repeat 0 -762px;padding: 0px 0px 0px 23px; }
+#echo-trending { padding:0; width: 270px; }
+#echo-trending .echo-item-content {border-bottom: 1px solid #efefef;}
+#echo-trending .echo-item-content .echo-item-container {padding: 6px 0 5px;}
+#echo-trending .echo-item-body h1 { font-size: 12px; margin: 0px; }
+#echo-trending .echo-item-body br { line-height: 5px; }
+#echo-trending .echo-item-body img, .echo-item-from, .echo-item-via,.echo-item-authorName, .echo-item-avatar-wrapper, .echo-item-sourceIcon, .echo-stream-header { display: none; }
+#echo-trending .echo-item-body {padding: 0;}
+#echo-trending .echo-item-body span {display: block; height: 32px; overflow:hidden}
+#echo-trending .echo-item-body span br {line-height: 200px;}
+#echo-trending .echo-item-body .article_teaser {display: none;}
+#echo-trending .echo-application-message { border: none; }
+#echo-trending .echo-item-subwrapper { margin-left: 0px; }
+#echo-trending .echo-item-wrapper .echo-clear {clear:none;}
+#echo-trending .echo-item-data { width: 210px; float: left; }
+#echo-trending .echo-item-data .metadata_title{font-weight: bold;}
+#echo-trending .echo-item-accumulatorContainer, #trendingTickers .echo-item-accumulatorContainer { float: none; text-align: center; margin-right: 0px; margin-top: 7px; font-weight: bold; font-size: 14px; }
+#echo-trending .echo-item-accumulatorContainerLabel, #trendingTickers .echo-item-accumulatorContainerLabel { text-align: center; font-size: 10px; color: #999999; display: none; }
+#echo-trending .echo-item-accumulatorContainerWrap, #trendingTickers .echo-item-accumulatorContainerWrap  { float: right; width: 41px; height: 36px; background:url('/resources_v2/images/bg_comment_bubble.gif') no-repeat; }
+#echo-trending .echo-item-container-root {}
+#echo-trending .echo-item-content .echo-secondaryColor .echo-item-date {color: #999999; line-height: normal; width: 210px;}
+#echo-trending .echo-stream-more { background: #016E99; border-color: #016E99; }
+#echo-trending .echo-stream-more span { color: #FFFFFF; }
+#echo-trending .metadata_description {display:none;}
+#echo-trending .echo-stream-more { height: 0; margin: 0; padding: 0; visibility: hidden;}
+.trending-container .follow-link {display: none;}*/
+/* Echo */
+#trending-container .moduleHeader h3 { background: url(/resources_v2/images/sprite-core2.gif) no-repeat 0 -762px;padding: 0px 0px 0px 23px; }
+.module #echo-trending { padding: 0; width: 300px; }
+.focus .module #echo-trending { padding:0; width: 270px; }
+#echo-trending .echo-item-content {border-bottom: 1px solid #efefef;}
+#echo-trending .echo-item-content .echo-item-container {padding: 6px 0 5px;}
+#echo-trending .echo-item-body h1 { font-size: 12px; margin: 0px; }
+#echo-trending .echo-item-body br { line-height: 5px; }
+#echo-trending .echo-item-body img, .echo-item-from, .echo-item-via,.echo-item-authorName, .echo-item-avatar-wrapper, .echo-item-sourceIcon, .echo-stream-header { display: none; }
+#echo-trending .echo-item-body {padding: 0;}
+#echo-trending .echo-item-body span {display: block; height: 32px; overflow:hidden}
+#echo-trending .echo-item-body span br {line-height: 200px;}
+#echo-trending .echo-item-body .article_teaser {display: none;}
+#echo-trending .echo-application-message { border: none; }
+#echo-trending .echo-item-subwrapper { margin-left: 0px; }
+#echo-trending .echo-item-wrapper .echo-clear {clear:none;}
+.module #echo-trending .echo-item-data { width: 240px; float: left; }
+.focus .module #echo-trending .echo-item-data { width: 210px; }
+#echo-trending .echo-item-data .metadata_title{font-weight: bold;}
+#echo-trending .echo-item-accumulatorContainer, #trendingTickers .echo-item-accumulatorContainer { float: none; text-align: center; margin-right: 0px; margin-top: 7px; font-weight: bold; font-size: 14px; }
+#echo-trending .echo-item-accumulatorContainerLabel, #trendingTickers .echo-item-accumulatorContainerLabel { text-align: center; font-size: 10px; color: #999999; display: none; }
+#echo-trending .echo-item-accumulatorContainerWrap, #trendingTickers .echo-item-accumulatorContainerWrap  { float: right; width: 41px; height: 36px; background: url(/resources_v2/images/sprite-core2.gif) no-repeat 0 -1036px; }
+#echo-trending .echo-item-container-root {}
+.module #echo-trending .echo-item-content .echo-secondaryColor .echo-item-date {color: #999999; line-height: normal; width: 240px;}
+.focus .module #echo-trending .echo-item-content .echo-secondaryColor .echo-item-date {width: 210px;}
+#echo-trending .echo-stream-more { background: #016E99; border-color: #016E99; }
+#echo-trending .echo-stream-more span { color: #FFFFFF; }
+#echo-trending .metadata_description {display:none;}
+#echo-trending .echo-stream-more { height: 0; margin: 0; padding: 0; visibility: hidden;}
+.trending-container .follow-link {display: none;}
+
+/* Stocktwits */
+#trendingTickers .moduleHeader h3 { background: url(/resources_v2/images/sprite-core2.gif) no-repeat 0 -788px;padding-left: 23px; }
+#trendingTickers .moduleBody .columnLeft {width: 270px; background:white;}
+#trendingTickers .moduleBody .columnRight{width: 125px; }
+#trendingTickers h4 { font-size: 11px; margin: 0px !important; }
+
+#trendingTickers .trending-item { margin: 10px 10px;position:relative;width:250px;}
+#trendingTickers .trending-item .timestamp {font-size: 11px !important;}
+#trendingTickers .trending-item .ricData { margin:0px; padding: 0px; font-size: 11px; font-weight: bold; position:absolute; float:right; right:0px; }
+#trendingTickers .trending-item .ricData .price { margin:0px; padding: 0px;float:right;}
+#trendingTickers .trending-item .ricData .change {margin:0px; padding: 0px;clear:right; float:right;}
+
+
+#trendingTickers #stocktwits-attribution { float: left; text-align: right; width: 270px; }
+#trendingTickers #moreRics {width:100%;background:#666666;clear:both;height:30px;position:relative;}
+#trendingTickers #moreRics ul{width:100%;margin:0px;padding:0px; height:30px;float:left;}
+#trendingTickers #moreRics ul li{display:inline;line-height:30px; }
+#trendingTickers #moreRics ul li .moreTitle{color:#e2e2e2;font-weight:normal;font-size: 11px;padding-left:10px;}
+#trendingTickers #moreRics ul li .moreDivider{color:#e2e2e2;font-size: 10px}
+#trendingTickers #moreRics ul li a{color:white;font-size:11px;padding:0 5px;}
+#trendingTickers #moreRics ul li a.first{padding-left:3px;}
+#trendingTickers #moreRics ul li a:visited,#trendingTickers #moreRics ul li a:active{color:white !important;}
+#trendingTickers #stocktwitsChatter .module{background-color:white; width:250px;padding-left:10px;}
+#trendingTickers #stocktwitsChatter .moreLink{padding-bottom:5px;margin-bottom:0px;}
+#trendingTickers #stocktwitsChatter .moreLink a{float:right;right:1px; color:#016E99;margin:0px;padding:0px;}
+
+#trendingTickers ul#chatterList {margin:0px;}
+#trendingTickers ul#chatterList li{font-weight:normal;color: black;font-size: 11px; }
+#trendingTickers ul#chatterList li .chatter-msg {margin-top:5px;font-weight:normal;}
+#trendingTickers ul#chatterList li .chatter-msg a{font-weight:bold;}
+#trendingTickers ul#chatterList li .userLogin{color:#016E99;font-weight:bold;}
+#trendingTickers ul#chatterList li .timestamp {font-size: 11px !important; color:black;}
+#trendingTickersCol1 h4{width:160px;font-size: 12px; }
+
+#trendingTickers h4.headerTxt{color:black;width:100%;}
+#trendingTickersCol1 .chart {
+	background: url("http://static.reuters.com/resources/media/global/images/cobrands/stocktwits_background.png") no-repeat 0 0 transparent;
+	margin-right:20px;
+	margin-left: 10px;
+}
+#trendingTickersCol1 .chart img{margin-top: 10px;border:0;margin-left:-2px;} 
+#trendingTickersCol1 .chart.staticBg {background-position: 0px top;}
+
+#trendingTickers #stocktwits-attribution {}
+.focus #trendingTickers #stocktwits-attribution a{
+	background: url(/resources_v2/images/sprite-core2.gif) no-repeat 0px -814px;width:200px; height:22px;display:block;
+	width:185px;
+	float:right;
+}
+
+/* follow reuters */
+#followReuters{width:100%;float:left;background-color:#f3f3f3;}
+#followReuters .moduleBody {padding-top:8px;padding-bottom:8px !important;margin:0;}
+#followReuters #socialMediaFollow {float:left;}
+#followReuters #socialMediaFollow li {width:20px;display:inline;}
+#followReuters #socialMediaFollow li a{background: url(/resources_v2/images/socialMediaFollow.gif) no-repeat top left;width:35px;height:30px;text-decoration:none;}
+#followReuters #socialMediaFollow .last a{background: url(/resources_v2/images/socialMediaFollow.gif) no-repeat top left;width:25px;height:30px;}
+#followReuters #socialMediaFollow .facebook a{background-position: 0 0; float:left;}
+#followReuters #socialMediaFollow .linkedin a{background-position: 0 -34px; float:left;}
+#followReuters #socialMediaFollow .newsletters a{ background-position: 0 -68px; float:left;} 
+#followReuters #socialMediaFollow .rss a{ background-position: 0 -102px; float:left;} 
+#followReuters #socialMediaFollow .twitter a{ background-position: 0 -136px; float:left;} 
+#followReuters #socialMediaFollow .youtube a{ background-position: 0 -170px;  float:left;}
+#followReuters #socialMediaFollow .reutersTV a{ background-position: 0 -204px;  float:left;}
+#followReuters #socialMediaFollow .mobile a{ background-position: 0 -237px;  float:left;}
+
+#followPopup{float:left;height:0px;position:absolute;clear:both;}
+#followPopup .facebookHover{position:relative;top:-284px;*top:-331px;_top:-331px;left:-154px;z-index:9999;float:left;}
+#followPopup .facebookHover .arrow{display:block; background:url(http://www.reuters.com/resources/media/global/images/Twitter-hover.jpg) no-repeat 0px  0px;z-index:9999;width:20px;height:15px;position:relative;top:-1px;left:158px;}
+
+#followPopup .twitterHover{position:relative;top:-74px;*top:-121px;_top:-121px;left:-115px;float:left;width:270px;height:85px;}
+#followPopup .twitterHover .arrow{background:url(http://www.reuters.com/resources/media/global/images/Twitter-hover.jpg) no-repeat 0px  0px;z-index:9999;width:20px;height:15px;z-index:9999;position:relative;left:154px;top:-1px;float:left;}
+#followPopup .twitterHover #tweethtml{padding:10px 16px;float:left;border:1px solid #ccc;background-color:#fff;z-index:999;width:100%;}
+#followPopup .twitterHover .tweetPhoto{margin:0 8px 0 0; float:left;}
+#followPopup .twitterHover .tweetdetails{}
+#followPopup .twitterHover .tweetscreenname a{font-size:12px;font-weight:bold;color:#1ec9fd;float:left;width:100px;margin:4px 0;}
+#followPopup .twitterHover .twitter-follow-button{float:right;}
+#followPopup .twitterHover .tweetname{font-size:14px;font-weight:bold;}

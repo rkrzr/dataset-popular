@@ -1,0 +1,98 @@
+#footer {
+	/* add some space so we can scroll past the footer and leave it readable */
+	margin-bottom: 50px;
+}
+
+#subscription-rightNav {
+	cursor: pointer;
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 100px;
+	width: 40px;
+}
+
+
+#AMS_WIR_FOOTER_NAVBAR_POPUP {
+	background: url("i/sub_promo_bg_solid.gif") no-repeat scroll 0 0 #000000;
+	bottom: 46px;
+	color: #FFFFFF;
+	height: 180px;
+	left: 30px;
+	position: fixed;
+	width: 270px;
+	z-index: 9999;
+	display: none;
+}
+
+    #AMS_WIR_FOOTER_NAVBAR_POPUP .close {
+        cursor: pointer;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 30px;
+    }
+
+    #AMS_WIR_FOOTER_NAVBAR_POPUP .cover {
+        width: 100px;
+        height: 136px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    #AMS_WIR_FOOTER_NAVBAR_POPUP .offer {
+        width: 120px;
+        height: 150px;
+        position: absolute;
+        bottom: 0px;
+        left: 135px;
+        cursor: pointer;
+        font-family: "purista-web-1", "purista-web-2", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        letter-spacing: 0.01em;
+        font-size: 16px;
+        color: #D3AD7F;
+        text-align: left;
+    }
+
+    #AMS_WIR_FOOTER_NAVBAR_POPUP .offer .large {
+        font-size: 22px;
+        color: #FFF;
+    }
+
+#AMS_WIR_FOOTER_NAVBAR .content span a {
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: "purista-web-1","purista-web-2",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	height: 21px;
+	left: 20px;
+	margin-left: 100px;
+	margin-top: 2px;
+	position: absolute;
+	letter-spacing: 0.01em;
+}
+
+    #subscription-content {
+        margin: 10px 30px 10px 30px;
+        position: relative;
+        height: 21px;
+    }
+
+    #footer_navBar .social {
+        float: right;
+        width: 350px;
+        text-align: right;
+    }
+
+    #footer_navBar .social .twitter,
+    #footer_navBar .social .facebook {
+        display: inline;
+        min-width: 100px;
+    }

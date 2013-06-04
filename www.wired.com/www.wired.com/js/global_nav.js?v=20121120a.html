@@ -1,0 +1,144 @@
+jQuery(document).ready(function(){
+
+    var hoverTimer;
+
+    // JS is available, remove the fallbacks
+    jQuery('#nav-wrap').find('a.non-js-menu').replaceWith(
+        function(){
+            return this.innerHTML;
+        }
+    );
+
+    // Parent hover, open the dropdowns
+    jQuery('#primary-nav').hover(
+        function(){
+            var primaryNav = jQuery(this);
+            if ( hoverTimer ) {
+                clearTimeout( hoverTimer );
+                hoverTimer = null;
+            }
+            primaryNav.parents('#nav-wrap').css('overflow','hidden');
+            hoverTimer = setTimeout(
+                function(){
+                    primaryNav.addClass('active')
+                        .parents('#nav-wrap')
+                            .addClass('active')
+                            .stop().animate({height: 270}, 'fast');
+                }, 250);
+        },
+        function(){
+            jQuery(this).removeClass('active')
+                .find('li')
+                    .removeClass('active')
+                .end()
+                .parents('#nav-wrap')
+                    .removeClass('active')
+                    .stop().animate({height: 50}, 'fast',
+                        function(){
+                            jQuery(this).css('overflow', 'visible');
+                        }
+                    );
+            clearTimeout( hoverTimer );
+            hoverTimer = null;
+        }
+    );
+
+    // Activate and Deactivate the first child of dropdowns on parent hover
+    jQuery('#primary-nav').children('li').hover(
+        function(){
+            jQuery(this).addClass('active').find('ul > li:first').addClass('active');
+
+            jQuery('#primary-nav > li').not(this).removeClass('active').find('li').removeClass('active');
+        },
+        function(){
+            jQuery(this).find('ul > li:first').removeClass('active');
+        }
+    )
+
+    // Parent hover, lazy load all the sub images
+    jQuery('#primary-nav').children('li').hover( function() {
+        jQuery(this).find( 'img[data-lazy-src]' ).each( function() {
+            lazy_load_nav_image( this );
+        } );
+    });
+
+
+    // Subscription dropdown
+    jQuery('#primary-nav li.subscribe').hover(
+        function(){
+            jQuery(this).find('#AMS_WIR_GLOBAL_NAVBAR_ROLLOVER').addClass('active');
+        },
+        function(){
+            jQuery(this).find('#AMS_WIR_GLOBAL_NAVBAR_ROLLOVER').removeClass('active');
+        }
+    );
+
+    // Sub menu events in dropdowns
+    jQuery('#primary-nav .subnav > li').each(
+        function(){
+            var thisElement = jQuery(this);
+            var thisElementPosition = thisElement.position();
+
+            jQuery(this).children('ul').css('top',-thisElementPosition.top);
+
+            jQuery(this).find('.feed-title a').mouseenter(
+                function(){
+                    thisElement.addClass('active');
+                    jQuery('#primary-nav .subnav > li').not(thisElement).removeClass('active');
+                }
+            );
+        }
+    );
+
+    /* Search Box */
+    jQuery('#nav-extras li.search').hover(
+        function(){
+            jQuery('#nav-wrap').css('overflow','visible');
+            jQuery('#search-form-cont').css('display', 'block');
+            jQuery(this).find('h2').addClass('active');
+            jQuery('#search-input').focus();
+        },
+        function(){
+            jQuery('#nav-wrap').css('overflow','hidden');
+            jQuery('#search-form-cont').css('display', 'none');
+            jQuery(this).find('h2').removeClass('active');
+            jQuery('#search-input').blur();
+        }
+    );
+});
+
+function lazy_load_nav_image( img ) {
+    var $img = jQuery( img ),
+        src = $img.attr( 'data-lazy-src' );
+
+    $img.hide()
+        .removeAttr( 'data-lazy-src' )
+        .attr( 'data-lazy-loaded', 'true' );
+
+    img.src = src;
+    $img.fadeIn();
+}
+
+function positionSubnav( container ){
+    /*
+    if ( jQuery( container ).length == 0 ) {
+        console.info(container + ' not found!');
+        // Wait 3 secs and try again
+        setTimeout( function(){ positionSubnav(container) }, 3000);
+        return;
+    }
+    var navOffset = jQuery( container ).offset();
+
+    jQuery( container + ' > li > ul' ).each( function(){
+        var h2Offset  = jQuery( this ).parentsUntil( '#primary-nav' ).offset();
+
+        if ( ! jQuery( this ).parent().is( ':first-child' ) ) {
+            var moveTo = navOffset.left - h2Offset.left;
+            jQuery( this ).css( 'left', moveTo+'px' );
+
+            console.info('Positioning subnav at ' + moveTo + 'px');
+        }
+    });
+    */
+    //console.info('Positioning subnav ' + container );
+}

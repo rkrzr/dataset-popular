@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+
+/* ------------------------------------
+*
+*Since: 2010-09-02
+*Update: 2010-11-08
+*Update: 2011-04-22
+*Update: 2012-12-06
+*
+-------------------------------------*/
+
+/* Style Index ==========================================================
+
+01. font
+02. overwrite(reset)
+03. overwrite(structure)
+04. Windows 8 Bar
+======================================================================= */
+
+/*
+01. font
+-------------------------------------*/
+body {
+  font-family:arial,helvetica;
+  letter-spacing:0;
+  line-height:1.3;
+  background-color:white;
+}
+
+/*
+02. overwrite(reset)
+-------------------------------------*/
+
+
+/*
+03. overwrite(structure)
+-------------------------------------*/
+h2 span.comment{
+vertical-align:bottom;
+line-height:1.8;
+}
+
+div.features p a {
+font-size: 1em;
+font-weight:normal;
+}
+
+div#infoArea p{
+font-size: 1.3em;
+}
+
+/*
+04. Windows 8 Bar
+-------------------------------------*/
+#w8bar {width: 910px; padding: 10px; background-color: #45BAFF; margin-bottom: 20px; margin-top: -10px; display:none}
+#w8bar div {color:white}
+#w8bar div h3, #w8bar div p {color:white}
+#w8bar div h3 {}
+#w8bar div p {font-size: 1.4em; font-weight: 100; line-height: 1.4em; max-width: 600px; font-family: helvetica,arial,sans-serif; margin-bottom:5px;}
+#w8bar a{color: #464646 !important; font-size: 120% !important; }
+#w8barMainDiv {float:left; width:500px}
+
+#w8bar div.download { height: 70px; width: 335px; margin: 20px 0 0; display: block; position: relative; left: -10px;	background: transparent url('/image/rp002/express/sprite-express.png') no-repeat left top; overflow: hidden; float:right; width:350px }
+#w8bar div.download:hover {background-position: -1px -71px; left: -9px; }
+#w8bar div.download:active {top:1px; }
+#w8bar div.download a { text-indent: -500px; display: block; height: 70px; }

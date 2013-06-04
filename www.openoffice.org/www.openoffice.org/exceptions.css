@@ -1,0 +1,91 @@
+img { border: 0px; }
+h1 { padding-left: 0.5em; }
+#hr { visibility:hidden; }
+
+#leftcol { display: none; }
+#bodytd { padding: 0px; width: 100%; margin: 0px; }
+#navcol { display: none; }
+.warning { border: solid 3px #F00; background: #FDD; padding: 1em; }
+
+.optionset { margin: 0 0 0 -2px; float: left; width: 67%; max-width: 1200px; }
+.optionset a { margin: 0; padding: .1em 0 .25em 3%; width: 97%; color: #333; }
+.optionset p { margin: 0; padding: .1em 0 .25em 3%; width: 97%; color: #333; }
+.optionset p a { margin: 0; padding: 0; color: #333; }
+#bodycol .optionset p a:hover, #bodycol .optionset .button:hover p a { color: #000; }
+.optionset .button { margin-top: 20px; }
+.optionset .button h2 { margin: 0 0 0 -1px; padding: 0; cursor: pointer; border: none; }
+.optionset .button h2 a { display: block; padding: 25px 25% 0 3%; font-weight: bold; width: 72%; text-decoration: none; cursor: pointer; }
+.optionset .button h3 { margin: 0 0 0 -1px; padding: 0; cursor: pointer; border: none; }
+.optionset .button h3 a { display: block; padding: 25px 25% 0 3%; font-weight: bold; width: 72%; text-decoration: none; cursor: pointer; }
+.optionset .button p { padding: 0; font-size: .9em; padding-bottom: 25px; cursor: pointer; }
+.optionset .button p a { display: block; padding: .1em 25% .25em 3%; text-decoration: none; cursor: pointer; width: 72%; }
+.optionset .first { margin-top: 0; }
+.optionset p.promotional { margin-top: 25px; }
+
+.green { background: url(http://www.openoffice.org/cachedimages/button-green.png) #D1EAA0 right top no-repeat; }
+.green:hover { background: url(http://www.openoffice.org/cachedimages/button-green.png) #C3E480 right -200px no-repeat; }
+.green h2 a { color: #718D36; }
+.green:hover h2 a, #bodycol .green h2 a:hover { color: #546828; }
+.sub-green { background: #E9FEBE; border-top: 1px solid #C3E480; border-bottom: 1px solid #C3E480; font-size: .8em; }
+.sub-green p { padding: .1em 3%; width: 94%; }
+
+.grey { background: #C0C0C0 right top no-repeat; cursor: default; }
+.grey:hover { background: #A0A0A0 right -200px no-repeat; cursor: default; }
+.grey h2 a { color: #404040; cursor: default; }
+.grey h3 { color: #404040; cursor: default; }
+.grey h3 a { color: #404040; cursor: default; }
+.grey p { color: #404040; cursor: default; }
+.grey p a { color: #404040; cursor: default; }
+.grey:hover h2 a, #bodycol .grey h2 a:hover { color: #202020; cursor: default; }
+.grey:hover h3 a, #bodycol .grey h3 a:hover { color: #202020; cursor: default; }
+.grey:hover p a, #bodycol .grey p a:hover { color: #202020; cursor: default; }
+.sub-grey { background: #E0E0E0; border-top: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0; font-size: .8em; cursor: default; }
+.sub-grey p { padding: .1em 3%; width: 94%; cursor: default; }
+
+/* exchanged the normal picture with one that includes the extension repository graphic */
+.blue { background: url(http://www.openoffice.org/cachedimages/button-blue-ext.png) #D8E5F6 right top no-repeat; }
+.blue:hover { background: url(http://www.openoffice.org/cachedimages/button-blue-ext.png) #C3D9F1 right -200px no-repeat; }
+.blue h2 a { color: #2D72CE; }
+.blue:hover h2 a, #bodycol .blue h2 a:hover { color: #21549A; }
+.sub-blue { background: #E1E1FF; border-top: 1px solid #D1D1FF; border-bottom: 1px solid #D1D1FF; font-size: .8em; }
+.sub-blue p { padding: .1em 3%; width: 94%; }
+
+.yellow { background: url(http://www.openoffice.org/cachedimages/button-yellow.png) #FFF379 right top no-repeat; }
+.yellow:hover { background: url(http://www.openoffice.org/cachedimages/button-yellow.png) #FFF24F right -200px no-repeat; }
+.yellow h2 a { color: #E09C09; }
+.yellow:hover h2 a, #bodycol .yellow h2 a:hover { color: #C80; }
+.sub-yellow { background: #FFFEAF; border-top: 1px solid #FBD34E; border-bottom: 1px solid #FBD34E; font-size: .8em; }
+.sub-yellow p { padding: .1em 3%; width: 94%; }
+
+.orange { background: url(http://www.openoffice.org/cachedimages/button-orange.png) #FFD9A7 right 0 no-repeat; }
+.orange:hover { background: url(http://www.openoffice.org/cachedimages/button-orange.png) #FFBE67 right -200px no-repeat; }
+.orange h2 a { color: #D36812; }
+.orange:hover h2 a, #bodycol .orange h2 a:hover { color: #C94800; }
+.sub-orange { background: #FFE2B5; border-top: 1px solid #FFB15E; border-bottom: 1px solid #FFB15E; font-size: .8em; }
+.sub-orange p { padding: .1em 3%; width: 94%; }
+
+.additionalinformation { background: none; float: right; width: 28%; clear: none; }
+.additionalinformation h2 { border-bottom: 1px solid #CCC; margin-bottom: 5px; margin-top: 0px; }
+.additionalinformation h3 { margin-left: 5px; margin-bottom: 5px; }
+.additionalinformation li { margin-left: 5px; font-size: 12px; }
+.additionalinformation #nativelang { background-image: url(http://www.openoffice.org/cachedimages/nativelang.gif); background-repeat: no-repeat; background-position: top left; }
+
+#downloadextendedtext p { background: none; }
+#downloadextendedtext ul { background: none; font-weight: bold; list-style: none; margin: 0px; padding: 0px; font-size: 2em; width: 100%; float: left; color: #333; padding-left: 20px; }
+#downloadextendedtext ul a { color: #333; text-decoration: none; background: none; }
+#downloadextendedtext ul a:hover { color: #666;text-decoration: none; }
+#downloadextendedtext ul li { float: left; margin: 0px; padding: 4px; margin-right: .5em; border: 1px #D7EFA4 solid; margin-bottom: .5em; width: 7em; height: 1.7em; }
+#downloadextendedtext ul li:hover { background: #D7EFA4; }
+#downloadextendedtext ul li ul { font-weight: normal; width: auto; margin: 0px; padding: 0px; font-size: .4em; color: #555; }
+#downloadextendedtext ul.nonqabuilds { font-size: 1.4em; }
+#downloadextendedtext ul.nonqabuilds li { width: auto; }
+#downloadextendedtext ul.nonqabuilds li ul { font-size: .5em; }
+
+/* .4em is a little bit too small for nonqa */
+/*Overrides some of the special settings for the parent li*/
+#downloadextendedtext ul li ul li { border: 0px none; margin: 0px; padding: 0px; width: auto; margin-right: .4em; }
+#downloadextendedtext ul li ul li:hover { background: none; }
+
+.largetable table tr.even td { background: #EEEEEE; }
+.largetable table tr.odd td  { background: none; }
+.builds   { background-position: left; background-repeat: no-repeat; padding: 2px 0 2px 18px; display: block; }

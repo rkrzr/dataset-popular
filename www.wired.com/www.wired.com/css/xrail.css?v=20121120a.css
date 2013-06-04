@@ -1,0 +1,344 @@
+/* xrail.css */
+#xrail {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #333;
+	font-style: normal;
+}
+
+.replace {
+	display: none;
+}
+
+/* main modules.css */
+.scrape {
+	display: block;
+	width: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+}
+
+.scrape a {
+	text-decoration: none;
+	color: #00AAF6;
+}
+    .scrape a:hover {
+        color: #00AAF6;
+    }
+
+.scrape h2 {
+	font-family: periodico-text-1, periodico-text-2, helvetica, arial, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+    .scrape h2 a:link {
+        color: #000;
+    }
+
+    .scrape h2 a:visited {
+        color: #666;
+    }
+
+    .scrape h2 a:hover {
+        color: #00AAF6;
+    }
+
+    .scrape h2 a:active {
+        color: #999;
+    }
+
+.scrape h3 {
+	font-family: calibre-1, calibre-2, helvetica, arial, sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	display: block;
+	height: 14px;
+	text-transform: uppercase;
+}
+
+.scrape h4 {
+	text-transform: uppercase;
+	color: #999;
+}
+
+.scrape .pic {
+	margin: 6px 10px 7px 0;
+}
+
+.scrape ul li {
+	margin: 13px 0 10px 0;
+	list-style-type: none;
+}
+
+.scrape p strong {
+	font-size: .7em;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.scrape p a {
+	color: #00AAF6;
+}
+
+.scrape.multimedia .pic {
+	margin: 6px 0 4px 0;
+	float: left;
+}
+
+/* featured commentary and promo scrapes -> "mod5" */
+.mod5 .col2 {
+	margin-bottom: 7px;
+}
+
+.mod5 h3 {
+	margin-bottom: 5px;
+}
+
+.mod5 h3 span {
+	display: block;
+	margin: 0 0 0 5000px;
+}
+
+.mod5 ul {
+	color: #999;
+	clear: right;
+}
+
+.mod5 ul li {
+	list-style-type: none;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin: -1px 0;
+	padding: 0;
+}
+
+.mod5 .pic {
+	display: block;
+	float: left;
+	height: 110px;
+	width: 110px;
+	margin: 0 10px 17px 0;
+}
+
+.mod5 .comment_by {
+	margin-top: 5px;
+	font-size: 1.1em;
+}
+
+.mod5 .gray {
+	color: #999;
+}
+
+.mod5 sub,
+.mod5 p .view_all {
+	display: block;
+}
+
+.mod5 p .view_all {
+	font-size: 1.1em;
+	display: block;
+	margin-top: 7px;
+}
+
+.mod5 blockquote {
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+.scrape.commentary h3 {
+	background: transparent;
+}
+    .scrape.commentary h3 span {
+        color: #fff;
+        display: block;
+        margin: 0 0 0 5000px;
+    }
+
+/* magazine and multimedia scrape */
+.scrape.magazine h4,
+.scrape.magazine h2,
+.scrape.multimedia h4,
+.scrape.multimedia h2 {
+	margin-left: 0px;
+}
+
+body.home .scrape.multimedia {
+	width: 300px;
+}
+
+.scrape.multimedia h3,
+.scrape.magazine h3 {
+	background: transparent;
+}
+
+.scrape.multimedia h3 span {
+	margin: 0 0 0 5000px;
+}
+
+.scrape.magazine h3 span.remove {
+	position: absolute;
+	top: -5000px;
+}
+
+.scrape.multimedia .pic {
+	float: left;
+	margin: 6px 10px 0 0;
+}
+
+.scrape.multimedia .pic img {
+	margin: 0 0 0 0;
+}
+
+/* magazine extras scrape */
+.scrape.magazine_onlineextras ul h3 {
+	margin: 0 0 -9px 0;
+}
+    .scrape.magazine_onlineextras ul h3 span {
+        display: block;
+        margin: 0 0 0 5000px;
+    }
+.scrape.magazine_onlineextras ul h4 {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.scrape.magazine_onlineextras ul li p {
+	font-size: 1.3em;
+	line-height: 1em;
+}
+
+.scrape.magazine_onlineextras ul li p strong {
+	font: bold .8em;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.scrape.magazine_onlineextras ul li p a {
+	font-size: .9em;
+}
+
+/* most popular/commented on wired module */
+.inner {
+	height: auto;
+}
+
+/* services module */
+.scrape.services {
+	width: 336px;
+}
+
+    body.home .scrape.services {
+        width: 302px;
+    }
+
+.scrape.services .group {
+	margin: 10px 0;
+	color: #00AAF6;
+}
+
+.scrape.services .group strong {
+	color: black;
+}
+
+.scrape.services .group a {
+	margin: 0 2px;
+}
+
+/* Photo Glider */
+#xrail-photo-glide-cont a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+#xrail-photo-glide-cont a:hover {
+	color: #000;
+}
+
+#xrail-photo-glide-cont a:visited {
+	color: #000;
+}
+
+#xrail-photo-glide-cont a:active {
+	color: #000;
+}
+
+#xrail-photo-glide-cont {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 210px;
+	overflow: hidden;
+}
+
+#xrail-photo-glide-btn-left {
+	cursor: pointer;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+}
+
+#xrail-photo-glide-btn-right {
+	cursor: pointer;
+	position: absolute;
+	left: 270px;
+	top: 0px;
+	z-index: 2;
+}
+
+#xrail-photo-glide-disp {
+	position: absolute;
+	width: 300px;
+	height: 160px;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+}
+
+.xrail-photo-glide-disp-elem {
+	position: absolute;
+	width: 300px;
+	height: 160px;
+	left: 310px;
+	top: 0px;
+}
+
+.xrail-photo-glide-disp-elem.first {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#xrail-photo-glide-disp-elem-2 {
+	position: absolute;
+	left: 310px;
+	top: 0px;
+}
+
+.xrail-photo-glide-disp-img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.xrail-photo-glide-disp-label {
+	padding: 5px 5px 5px 0px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 0px;
+	top: 160px;
+	width: 300px;
+	height: 60px;
+	z-index: 5;
+}
+
+/***** Calibre *****/
+.wf-loading .scrape h3,
+.wf-loading .scrape h2 {
+	visibility: hidden;
+}

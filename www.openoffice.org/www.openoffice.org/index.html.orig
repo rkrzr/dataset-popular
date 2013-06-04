@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link href="/css/ooo.css" rel="stylesheet" type="text/css">
+
+	
+    <meta name="description" content="The official home page of the Apache OpenOffice open source project, home of OpenOffice Writer, Calc, Impress, Draw and Base." />
+    <meta name="keywords" content="OpenOffice, Open Office, Apache OpenOffice, OpenOffice.org, Calc, Impress, Draw, Base, ODF, Open Document Format, free office editors" />
+    <meta name="google-site-verification" content="x1jl2cGum4kCvj0PgxjTy_pasCsLY_fBT7my88fpKD4" />
+	<meta name="p:domain_verify" content="bd1ba1fb9d25b0eb3d64891f89e9195e"/> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://plus.google.com/+openoffice" rel="publisher" />
+    <link rel="STYLESHEET" type="text/css" href="/product/product.css" media="screen" />
+    <title>Apache OpenOffice - The Free and Open Productivity Suite</title>
+    <style type="text/css">
+    /* <![CDATA[ */
+    /*-------------------- Exceptions on standard css -----------------------*/
+    @import "home.css";
+    @import "styles.css";
+    @import "exceptions.css";
+    /* ]]> */
+    </style>
+
+    <script>
+    	function follow(platform) {
+    		_gaq.push(['_trackEvent','social', 'followUs', platform]); 
+    		if (platform == 'Facebook') {
+    			window.open("https://www.facebook.com/ApacheOO","_blank");
+    		} else if (platform == 'Twitter') {
+    			window.open("https://twitter.com/ApacheOO","_blank");
+    		} else if (platform == 'GooglePlus') {
+    			window.open("https://plus.google.com/+openoffice","_blank");
+    		}  else if (platform == 'ApacheBlog') {
+    			window.open("https://blogs.apache.org/OOo/","_blank");
+    		}
+    	}
+    </script>
+	
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30193653-1']);
+    _gaq.push(['_setDomainName', 'openoffice.org']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</head>
+<body>
+  <div id="bannera">
+    <div id="bannerleft"><a title="Apache OpenOffice" href="/"><img id="ooo-logo" alt="Apache OpenOffice" src="/images/AOO_logos/OOo_Website_v2_copy.png"/></a></div>
+    <div id="bannerright">        
+      <div style="relative; margin: 14px 0 0 0; height: 24px;">
+	<form id="cse-search-box-header" action="http://www.google.com/search" method="get">
+	  <div>
+	    <input type="hidden" name="domains" value="www.openoffice.org"/>
+	    <input type="hidden" name="sitesearch" value="www.openoffice.org"/>
+	  </div>
+	  <div class="topsrchbox">
+	    <input name="resultsPerPage" value="40" type="hidden"/> 
+	    <input name="q" id="query" type="text"/>
+	    <input name="Button" value="search" type="submit" class="topsrchbutton"/>
+	  </div>
+	</form>
+      </div>
+    </div>
+    <div id="bannercenter"><br/>The Free and Open Productivity Suite</div>
+  </div>
+  <div id="announce"><a href="https://blogs.apache.org/OOo/entry/call_for_designers_apache_openoffice" title="Get Involved!">Call For Designers: Apache OpenOffice 4.0 Brand Refresh Project</a></div>
+
+  <div id="topbara">
+    <div id="topnava"><ul>
+<li><a href="/product/index.html" title="Apache OpenOffice product description">Product</a></li>
+<li><a href="/download/index.html" title="Download OpenOffice.org">Download</a></li>
+<li><a href="/support/index.html" title="Find Support for OpenOffice.org">Support</a></li>
+<li><a href="/extensions/index.html" title="Extensions and Templates for OpenOffice">Extend</a></li>
+<li><a href="http://openoffice.apache.org/get-involved.html" title="Get involved in Apache OpenOffice">Develop</a></li>
+<li><a href="/projects/accepted.html" title="Apache OpenOffice development focus areas">Focus Areas</a></li>
+<li><a href="/projects/native-lang.html" title="Apache OpenOffice in your Native Language">Native Language</a></li>
+</ul></div>
+
+    <div id="breadcrumbsa"><a href="/">home</a></div>
+  </div>
+  <div id="clear"></div>
+  
+  
+  <div id="content">
+    
+    
+    
+
+<div id="actionstatements">
+  <ul>
+    <li>
+      <div class="action-info">
+        <div class="action-text action-link">
+          <h2><a href="/why/">I want to learn more about OpenOffice</a></h2>
+
+          <p><a href="/why/">What is Apache OpenOffice? And why should I use it?</a></p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <hr />
+    </li>
+    <li>
+      <div class="action-download">
+        <div class="action-text action-link">
+          <h2><a href="/download/">I want to download OpenOffice</a></h2>
+
+          <p><a href="/download/">Download Apache OpenOffice for free, or find out about other ways of getting it.</a></p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <hr />
+    </li>
+    <li>
+      <div class="action-help">
+        <div class="action-text action-link">
+          <h2><a href="/support/">I need help with my OpenOffice</a></h2>
+
+          <p><a href="/support/">Help is at hand whenever you need it.</a></p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <hr />
+    </li>
+    <li>
+      <div class="action-extend">
+        <div class="action-text action-link">
+          <h2><a href="/extensions/">I want to do more with my OpenOffice</a></h2>
+
+          <p><a href="/extensions/">Extend Apache OpenOffice with additional functionality, templates and clipart.</a></p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <hr />
+    </li>
+    <li>
+      <div class="action-participate">
+        <div class="action-text action-link">
+          <h2><a href="https://incubator.apache.org/openofficeorg/get-involved.html">
+          I want to participate in OpenOffice</a></h2>
+
+          <p><a href="https://incubator.apache.org/openofficeorg/get-involved.html">
+          Apache OpenOffice is made with help from people all over the world. Feel free to contribute!</a></p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <hr />
+    </li>
+    <li>
+     <div class="action-social">
+        <div class="action-text action-link">
+          <h2><a href="/social/" onclick="javascript:follow('SocialLink');">I want to stay in touch with OpenOffice</a></h2>
+          <p><a href="/social/" onclick="javascript:follow('SocialLink');">Follow the progress of OpenOffice via our announcement list, social media areas and blog.</a></p>     
+          	<div class="action-social-extra">
+          		<p>
+					<span style="padding:0 5px;cursor: pointer; cursor: hand;" onclick="javascript:follow('ApacheBlog');" title="Official Blog">
+						<img src="images/logo-rss-16.png"> <a><u>Official Blog</u></a>
+					</span>
+					<span style="padding:0 5px;cursor: pointer; cursor: hand;" onclick="javascript:follow('Facebook');" title="Follow Us on Facebook">
+						<img src="images/logo-facebook-16.png"> <a><u>Facebook</u></a>
+					</span>
+					<span style="padding:0 5px;cursor: pointer; cursor: hand;" onclick="javascript:follow('Twitter');" title="Follow Us on Twitter">
+						<img src="images/logo-twitter-16.png"> <a><u>Twitter</u></a>
+					</span>
+					<span style="padding:0 5px;cursor: pointer; cursor: hand;" onclick="javascript:follow('GooglePlus');" title="Follow Us on Google+">
+						<img src="images/logo-googleplus-16.png"> <a><u>Google+</u></a>
+					</span>
+     			</p>
+     		</div>
+      </div>
+      </div>
+     </li>
+    <li>
+      <hr />
+    </li>
+  </ul>
+</div>
+
+<div id="news">
+	
+	
+ <div class="campaign">
+    <h2>Over 40 million downloads of AOO 3.4</h2>
+
+	  <p><em>4 March 2013:</em> Apache OpenOffice 3.4 was released in May. Downloads now exceed 40 million. We invite you to take a look at 
+    <a href="http://stats.openoffice.org/">our interactive charts</a> of daily and cumulative downloads.</p>
+  </div>  	
+	
+<div class="campaign">
+
+    <h2>Volunteers, not Amateurs</h2>
+    <p><em>8 January 2013:</em> Apache OpenOffice is developed 100% by volunteers.  Apache does not pay for developers, for translators, for QA, for marketing, for UI, for support, etc.  
+    Of course, we're happy to accept <a href="http://www.apache.org/foundation/contributing.html">donations to the Apache Software Foundation</a>, to keep our servers runnings and for 
+    similar overhead expenses.  But our products are developed entirely by volunteers.
+
+    <p>Some users are initially worried by this statement.  <strong>How can software for free, developed by volunteers, be any good?</strong>   
+    <a href="http://www.openoffice.org/why/why_volunteers.html">Read on for an answer...</a></p>
+</div>
+
+<div class="campaign">	
+    <h2>Apache OpenOffice given two Bossie Awards!</h2>
+
+    <p><em>18 September 2012:</em> InfoWorld has awarded Apache OpenOffice two Bossies (Best of Open Source), one for the OpenOffice application, and one for our <a href="http://templates.openoffice.org/">templates website</a>.  
+		Read <a href="https://plus.google.com/u/0/b/114598373874764163668/114598373874764163668/posts/guW3vcCvFFy">more on our Google+ page</a>.</p>
+  </div>  
+  
+
+<div class="campaign">
+    <h2><a href="/news/">More OpenOffice News...</a></h2>
+  </div>
+
+<!-- <div id="SupportedAndSupporters">
+    <a href="http://validator.w3.org/check?uri=referer"
+    title="W3C Markup Validation Service - Check the markup (HTML, XHTML, ...) of Web documents">
+    <img src="http://www.w3.org/Icons/valid-xhtml10-blue.png"
+    alt="W3C Markup Validation Service - Check the markup (HTML, XHTML, ...) of Web documents"/></a>
+  </div>
+-->
+</div>
+
+
+  </div>
+  <div id="footera">
+    <div id="poweredbya"><p><img src="/images/feather-small.gif" alt="Apache Feather"/></p></div>
+    <div id="copyrighta">
+      <p style="text-align:center;">
+	<a href="/license.html">Copyright &amp; License</a> | <a href="/privacy.html">Privacy</a> | <a href="/contact_us.html">Contact Us</a> | <a href="http://www.apache.org/foundation/contributing.html#Paypal">Donate</a>
+      </p>
+      <p>
+	Apache, the Apache feather logo, and OpenOffice are trademarks of The Apache Software Foundation.
+	OpenOffice.org and the seagull logo are registered trademarks of The Apache Software Foundation.
+	Other names appearing on the site may be trademarks of their respective owners.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

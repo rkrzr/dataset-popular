@@ -1,0 +1,81 @@
+/*!
+ * @file scrolldock.js
+ * @author Katherine Semel
+ * @comment A fixed position dock at the bottom of the screen, with an attached popup that appears when the user scrolls to X position.
+ * @date 2011/07/18 - Initial
+ * @date 12/7/2011 - Messaging and link update, moved files to a single folder
+*/
+
+jQuery(function(){
+
+    // If we're not on a mobile device, add this
+    if( ! (navigator.userAgent.match(/iPhone/i)) && ! (navigator.userAgent.match(/iPad/i)) ) {
+
+        // Don't use the popup in IE
+        if ( ! (navigator.userAgent.match(/MSIE/i) ) ) {
+            // Trigger the popup when the user scrolls past the right tab
+            jQuery(window).bind('scroll', function(e) {
+                var scrollTarget = jQuery('#subscription-rightNav').position(),
+                    scrollPos = jQuery(window).scrollTop();
+
+                if (scrollTarget != null) {
+                    // If the right button has scrolled off the screen, show the popup
+                    if (scrollPos > (scrollTarget.top + jQuery('#subscription-rightNav').height())){
+                        cookieTest = CN.cookie.get('wired_subscription');
+
+                        if (cookieTest !== 'true') {
+                            jQuery('#AMS_WIR_FOOTER_NAVBAR_POPUP .popup').show();
+                            jQuery('#AMS_WIR_FOOTER_NAVBAR_POPUP').show();
+                            // Set a cookie so we don't show this again
+                            // Expires is set in hours (168 = 7 days)
+                            CN.cookie.set('wired_subscription', 'true', { expires: 168, path: '/', domain: 'wired.com', secure: false });
+
+                            makeOmnitureCalls({
+                                pageName: '',
+                                prop6: '',
+                                prop7: '',
+                                prop8: '',
+                                prop9: ''
+                            })
+                        } else {
+                            //console.warn(cookieTest);
+                        }
+                    }
+                }
+            });
+        }
+
+        // Add the twitter and facebook buttons to the div
+        var social_icons = '<div class="social"><div class="twitter"><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.html?screen_name=wired&button=grey" style="width:198px;height:20px;"></iframe></div><div class="facebook"><iframe src="http://www.facebook.com/plugins/like.php?app_id=230957573592026&href=http%3A%2F%2Fwww.facebook.com%2Fwired&send=false&layout=button_count&width=100&show_faces=false&action=like&colorscheme=light&font=verdana&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></div></div>';
+        jQuery('#footer_navBar #subscription-content .content').append(social_icons);
+
+    } else {
+        // Hide the right button and scroll container for iPad and iPhone
+        jQuery('#AMS_WIR_HOMEPAGE_RIGHTNAV').hide();
+        jQuery('#AMS_WIR_FOOTER_NAVBAR').hide();
+    }
+
+    jQuery('#AMS_WIR_FOOTER_NAVBAR_POPUP').bind('click', function() {
+        jQuery('#AMS_WIR_FOOTER_NAVBAR_POPUP .popup').hide();
+        jQuery('#AMS_WIR_FOOTER_NAVBAR_POPUP').hide();
+        CN.cookie.set('wired_subscription', 'true', { expires: 7, path: '/', domain: 'wired.com', secure: false });
+     });
+
+});
+
+function makeOmnitureCalls(omnitureVars) {
+     //console.warn(omnitureVars);
+     // Set the page name we've passed in
+     s.pageName =  omnitureVars.pageName;
+     // Clear all the vars
+     s.prop6 = s.prop7 = s.prop8 = s.prop9 = '';
+     s.eVar6 = s.eVar7 = s.eVar8 = s.eVar9 = '';
+     // Set all the vars for this page
+     s.eVar6 = s.prop6 = omnitureVars.prop6;
+     s.eVar7 = s.prop7 = omnitureVars.prop7;
+     s.eVar8 = s.prop8 = omnitureVars.prop8;
+     s.eVar9 = s.prop9 = omnitureVars.prop9;
+     // This is the actual call to update omniture.
+     s.t();
+}
+

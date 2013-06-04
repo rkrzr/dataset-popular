@@ -1,0 +1,857 @@
+@charset 'UTF-8';
+
+/* ------------------------------------
+*
+*Since: 2010-12-20...
+*Update: 2011-04-25
+*Update: 2012-01-16
+*
+-------------------------------------*/
+
+/* Style Index ==========================================================
+
+1: structure
+    1-1: header
+    1-2: content
+    1-3: main
+    1-4: footer
+2: header
+    2-1: subnav
+3: content
+    3-1: infoArea
+    3-2: sideArea
+4: footer
+5: heading
+6: button
+    6-1: main DL button
+    6-2: howto DL button
+    6-3: side DL button
+    6-4: open close btn
+    6-5: system link
+    6-6: SNS
+7: notfound
+
+======================================================================= */
+
+
+/*
+1: structure
+-------------------------------------*/
+
+/* >>> 1-1: header -----------*/
+div#headerWrapper {
+background-color:#1f6b99;
+width:100%;
+min-width:950px;
+/* height:100%; */
+text-align:left;
+}
+
+div#header,div#headerBar{
+width:930px;
+padding:0 10px;
+margin:0 auto;
+text-align:left;
+}
+
+div#header{height:64px;}
+div#headerBar{height:24px;}
+
+div#slideWrapper{
+width:100%;
+border-bottom:2px solid #fff;
+border-top:2px solid #fff;
+background-color:#fff;
+clear:both;
+}
+
+div#slideBar{
+width:950px;
+margin:0 auto;
+}
+
+/* >>> 1-2: content -----------*/
+div#contentWrapper {
+background:url(/image/rp002/common/main_bc03.jpg) repeat-x top left;
+width:100%;
+margin:0 auto;
+text-align:left;
+min-width:950px;
+}
+
+div#content{
+width:930px;
+padding:0 10px;
+margin:0 auto;
+text-align:left;
+}
+
+/* >>> 1-3: main -----------*/
+div#main{
+width:930px;
+margin-bottom:26px;
+}
+
+/* imageArea */
+div#imageArea{
+float:right;
+width:510px;
+height:327px;
+}
+
+/* copyArea */
+div#copyArea{
+float:left;
+width:410px;
+}
+
+div#copyArea p.txt{
+padding-top:5px;
+line-height:1.6;
+font-size:1.4em;
+}
+div#copyArea div.txt{padding-top:5px;}
+div#copyArea p.detail{
+color:#666666;
+font-size:1.2em;
+margin-bottom:8px;
+}
+
+/* select main images */
+body.upgradePage div#imageArea {
+background: url("/image/rp002/plus/main_img.png") repeat-x scroll left top transparent;
+}
+body.updatePage div#imageArea{
+background: url("/image/rp002/free/main_img.png") repeat-x scroll left top transparent;
+}
+
+/* infoArea */
+div#infoArea{
+width:630px;
+float:left;
+}
+
+div#infoArea p{
+font-size:1.4em;
+}
+
+/* sideArea */
+div#sideArea{
+width:280px;
+float:right;
+margin-bottom:30px;
+}
+
+/* >>> 1-4: footer -----------*/
+div#footerWrapper {
+background-color:#EAEAEA;
+width:100%;
+height:100%;
+margin:0 auto;
+min-width:950px;
+clear:both;
+}
+
+div#footer{
+width:930px;
+padding:0 10px;
+margin:0 auto;
+text-align:left;
+}
+
+
+/*
+2: header
+-------------------------------------*/
+div#header {position:relative;}
+
+div#header div.bar p.link a{
+position:absolute;
+right:10px;
+top:4px;
+color:#FFFFFF;
+}
+
+div#header .logo{
+position:absolute;
+left:10px;
+bottom:10px;
+}
+
+div#header .logo a{
+display:block;
+width:195px;
+height:48px;
+}
+
+div#header ul{
+position:absolute;
+right:10px;
+bottom:0px;
+/bottom:-3px;
+height:54px;
+}
+
+div#header ul li{
+float:left;
+text-align:center;
+padding-right:3px;
+}
+
+div#header ul li a{
+width:173px;
+height:50px;
+display:block;
+font-size:1.45em;
+text-decoration:none;
+color:#FFFFFF;
+line-height:1.3;
+padding-top:7px;
+}
+
+div#header ul li a.pdgT15{
+height:42px;
+}
+
+div#header ul li a:hover,div#header ul li.selected a{
+background:url(/image/rp001/common/header_menu_on.gif) no-repeat top left;
+}
+
+div#header ul li a:hover,div#header ul li a:hover span,div#header ul li.selected a,div#header ul li.selected a span,div#header ul.tab5 li a:hover{
+color:#0077d3;
+}
+
+div#header ul li a span{
+display:block;
+width:173px;
+font-size:0.65em;
+font-weight:normal;
+letter-spacing:0.05em;
+color:#fff;
+}
+
+/* >>>  ul.tab5 -----------*/
+
+div#header ul.tab5{
+}
+
+div#header ul.tab5 li a{
+width:140px;
+font-size:1.2em;
+line-height:1.4;
+letter-spacing:0.03em;
+}
+
+div#header ul.tab5 li a span{
+display:block;
+width:140px;
+font-size:0.8em;
+letter-spacing:0.009em;
+}
+
+
+/* >>> 2-1: subnav -----------*/
+div#subNavi{
+background-color:#FFFFFF !important;
+min-height:10px;
+position:relative;
+width:100%;
+display:inline-block;
+}
+
+div#subNavi ul{
+width:930px;
+padding:0 10px;
+margin:0 auto;
+height:25px;
+}
+
+div#subNavi ul li{
+float:left;
+line-height:1.8;
+padding-right:5px;
+}
+
+
+/*
+3: content
+-------------------------------------*/
+
+/* >>> 3-1: infoArea -----------*/
+div#about,div#latestInfo{
+margin-bottom:24px;
+}
+
+div#about p,div#latestInfo p{
+margin-bottom:10px;
+}
+
+div#latestInfo ul{
+margin-bottom:10px;
+}
+
+div#latestInfo ul li{
+list-style-image: none;
+list-style-position: outside;
+list-style-type: disc;
+margin-left: 20px;
+}
+
+/* features */
+div.features,#featuresList,div.chapter,ul#sns{
+margin-bottom:30px;
+}
+
+div.features p a{
+font-size:1.2em;
+font-weight:bold;
+}
+
+div.features p{
+margin-bottom:14px;
+}
+
+div.features ul{
+margin-bottom:12px;
+}
+
+div.features ul li,div#copyArea div.txt ul li,div#about ul li{
+list-style: disc;
+margin-left:15px;
+}
+
+div.features ul li ul{
+margin-top:4px;
+}
+
+div.features ul li ul li{
+list-style-type:none;
+font-size:1em;
+line-height:1.4;
+margin-left:4px;
+}
+
+/* featuresList */
+div#featuresList ul {
+margin-bottom:24px;
+overflow: auto;
+}
+
+div#featuresList ul li {
+float: left;
+margin-bottom:14px;
+margin-right:34px;
+}
+
+div#featuresList ul li img{
+float: left;
+margin-right:10px;
+}
+div#featuresList ul li a{
+float: left;
+display:block;
+line-height:30px;
+}
+
+/* R */
+div.featuresR img{
+float:right;
+margin:4px 0 10px 20px;
+}
+/* L */
+div.featuresL{
+float:left;
+width:410px;
+}
+
+div.chapter p{
+margin-bottom:14px;
+}
+
+div.chapter p img{
+margin-bottom:14px;
+}
+
+div.chapter ul{margin:0 0 14px;}
+div.chapter ul li{
+list-style:outside disc;
+margin-left:20px;
+}
+
+ul.linkArea li{
+list-style:none !important;
+margin-left:0 !important;
+}
+  
+div.codicil{
+background:#F6F6F6;
+padding:10px;
+margin:30px 0;
+}
+
+div.codicil ul li{
+list-style: disc outside none;
+margin-left: 20px;
+}
+
+/* >>> 3-2: sideArea -----------*/
+div#mBox,div#plusBox,div#freeBox,div#macBox,div#infoBox,div#miniBox{
+padding:20px;
+background-color:#f6f6f6;
+border-bottom:1px solid #E5E7E9;
+}
+
+div#infoBox,div#infoBox p{
+margin-bottom:10px;
+}
+
+div#mBox p.price,div#plusBox p.price,div#freeBox p.price{
+margin-top:10px;
+}
+
+div#macBox ul{margin:10px 0 0;}
+div#mBox ul li,div#plusBox ul li,div#freeBox ul li,div#macBox ul li{
+list-style:outside disc;
+margin-left:20px;
+}
+
+/* side Menu */
+p#menuT {
+font-size:1.4em;
+line-height:1.4em;
+padding:10px;
+border-bottom:1px solid #E5E7E9;
+}
+
+p#menuT,p#menuT a{font-weight:bold;}
+
+div#featuresMenuBox ul.lineT{
+padding:10px;
+border-bottom:1px solid #E5E7E9;
+}
+
+div#featuresMenuBox a{padding:2px 4px;line-height:1.3;display:inline-block;}
+div#featuresMenuBox a.open,div#featuresMenuBox a.close{padding:0;}
+
+div#featuresMenuBox a.selected{
+color:#666666;
+background-color:#E5E7E9;
+text-decoration:none;
+}
+
+div#featuresMenuBox ul li span.featureT a{
+font-size:1.07em;
+font-weight:bold;
+display:inline-block;
+line-height:1.4em;
+margin-left:18px;
+}
+div#featuresMenuBox ul li span.featureT a span{
+font-size:0.9em;
+color:#0077D3;
+}
+div#featuresMenuBox ul li span.featureT a:visited span { color:#7250b0; }
+
+div#featuresMenuBox ul.lineT li.featureL a + span.featureT,
+div#featuresMenuBox ul.lineT li.featureL a + span.featureT a {
+font-size:1.07em;
+vertical-align:baseline;
+display:inline;
+margin-left:0;
+}
+
+div#featuresMenuBox ul li{
+line-height:2;
+}
+
+div#featuresMenuBox ul li.featureL {margin-left:0;}
+/*div#featuresMenuBox ul li {margin-left:56px;}*/
+div#featuresMenuBox ul li.openable {margin-left:22px;}
+div#featuresMenuBox ul li ul li{margin-left:40px;font-size:1em;line-height:1.5em;margin-top:7px;}
+div#featuresMenuBox ul li.openable ul li{margin-left:32px;font-size:1em;}
+div#featuresMenuBox ul li ul li + li{margin-top:7px;}
+
+/*
+4: footer
+-------------------------------------*/
+div#footer p.copylight{
+font-size:1em;
+letter-spacing:0em;
+border-bottom:#cacaca solid 1px;
+padding:15px 0;
+text-align:center;
+margin-bottom:10px;
+font-family:arial,helvetica;
+}
+
+div#footer ul{
+width:930px;
+padding-bottom:30px;
+}
+
+div#footer ul li{
+float:left;
+width:222px;
+padding-left:10px;
+}
+
+div#footer dl dt,
+div#footer dl dt a{
+font-weight:bold;
+font-size:1em;
+}
+
+div#footer dl dt{
+padding:10px 0 8px;
+}
+
+div#footer dl dd{
+font-size:1em;
+padding:3px 0;
+}
+
+div#footer dl dd a{
+font-size:0.9em;
+}
+
+
+/*
+5: heading
+-------------------------------------*/
+/* >>> #bar  <<< */
+
+h1{
+color:#FFFFFF;
+padding-top:4px;
+font-size:1.2em;
+float:left;
+}
+
+/* >>> #main  <<< */
+h2{
+padding-top:15px;
+margin-bottom:5px;
+font-size:4.8em;
+line-height:1.1;
+color:#003663;
+}
+
+h2 span{
+display:block;
+padding-top:5px;
+font-size:0.42em;
+line-height:1.2;
+font-weight:bolder;
+color:#003663;
+}
+
+h2 span.comment{
+font-size:0.35em;
+font-weight:normal;
+display:inline;
+padding-left:10px;
+vertical-align:baseline;
+}
+
+/* >>> #middle  <<< */
+h3{
+margin-bottom:14px;
+line-height:1;
+font-size:2.2em;
+color:#003663;
+font-weight:bold;
+}
+
+h3 span{
+display:block;
+font-size:0.8em;
+padding-top:5px;
+}
+
+h4{
+width:100%;
+margin-bottom:24px;
+padding-bottom:8px;
+font-size:1.8em;
+font-weight:bold;
+color:#999;
+vertical-align: bottom;
+border-bottom:1px solid #E5E7E9;
+}
+
+h4 img{
+margin-right:10px;
+vertical-align: bottom;
+/vertical-align:middle;
+}
+
+h5{
+font-weight:bold;
+font-size: 1.4em;
+border-left:#CCCCCC 4px solid;
+padding-left:8px;
+
+margin-bottom:10px;
+}
+
+/*
+6: button
+-------------------------------------*/
+/* >>> 6-1: btn common -----------*/
+a.btn{
+color:#FFF;
+line-height:1.2;
+font-weight:bold;
+text-decoration:none;
+display:inline-block;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0);
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+behavior:url(/css/rp002/PIE.htc);
+position:relative;
+}
+
+a.btn span{
+color:#FFF;
+text-decoration:none;
+}
+
+/* >>> 6-2: btn form -----------*/
+/* main : DLbtn */
+div#main a.btn, div#mainBox a.btn {
+min-width:262px;
+margin:10px 0;
+padding:18px;
+font-size:2.9em;
+letter-spacing:0.01em;
+text-align:center;
+-webkit-box-shadow:0px 1px 2px rgba(18,71,92,0.4),inset 0px 0px 2px rgba(255,255,255,1);
+-moz-box-shadow:0px 1px 2px rgba(18,71,92,0.4),inset 0px 0px 2px rgba(255,255,255,1);
+box-shadow:0px 1px 2px rgba(18,71,92,0.4),inset 0px 0px 2px rgba(255,255,255,1);
+}
+
+/* side : DLbtn */
+div#sideArea a.btn {
+width:214px;
+font-size:1.4em;
+padding:8px 12px;
+margin-top:10px;
+text-align:center;
+}
+
+/* how to install : DLbtn */
+div.featuresR a.btn {
+width:278px;
+font-size:2.4em;
+padding:8px 10px;
+margin:10px 0;
+}
+
+/* function list : DLbtn */
+table#functionList a.btn {
+padding: 2px 8px;
+margin:6px auto 0;
+}
+
+/* dlBox : DLbtn */
+div.dlBox a.btn {
+min-width:224px;
+font-size:2.4em;
+padding:8px 12px;
+margin-bottom:8px;
+text-align:center;
+}
+
+/* RGTmain : DLbtn */
+body#RGT div#main a.btn {
+min-width:280px;
+*width:280px;
+}
+
+/* >>> 6-3: btn color -----------*/
+a.btn,
+a.btn.Orange {
+border: 1px solid #ba8a2b;
+background: #ff8c18;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffc939), to(#ff8c18));
+background: -webkit-linear-gradient(#ffc939, #ff8c18);
+background: -moz-linear-gradient(#ffc939, #ff8c18);
+background: -ms-linear-gradient(#ffc939, #ff8c18);
+background: -o-linear-gradient(#ffc939, #ff8c18);
+background: linear-gradient(#ffc939, #ff8c18);
+-pie-background: linear-gradient(#ffc939, #ff8c18);
+}
+a.btn:hover,
+a.btn:hover.Orange {
+border: 1px solid #e3ae1f;
+background: #ffac11;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffda21), to(#ffac11));
+background: -webkit-linear-gradient(#ffda21, #ffac11);
+background: -moz-linear-gradient(#ffda21, #ffac11);
+background: -ms-linear-gradient(#ffda21, #ffac11);
+background: -o-linear-gradient(#ffda21, #ffac11);
+background: linear-gradient(#ffda21, #ffac11);
+-pie-background: linear-gradient(#ffda21, #ffac11);
+}
+
+a.btn.yGreen {
+border: 1px solid #8ab43b;
+background: #8ac524;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c5f66c), to(#8ac524));
+background: -webkit-linear-gradient(#c5f66c, #8ac524);
+background: -moz-linear-gradient(#c5f66c, #8ac524);
+background: -ms-linear-gradient(#c5f66c, #8ac524);
+background: -o-linear-gradient(#c5f66c, #8ac524);
+background: linear-gradient(#c5f66c, #8ac524);
+-pie-background: linear-gradient(#c5f66c, #8ac524);
+}
+a.btn:hover.yGreen {
+border: 1px solid #b6db44;
+background: #aee217;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dfff87), to(#aee217));
+background: -webkit-linear-gradient(#dfff87, #aee217);
+background: -moz-linear-gradient(#dfff87, #aee217);
+background: -ms-linear-gradient(#dfff87, #aee217);
+background: -o-linear-gradient(#dfff87, #aee217);
+background: linear-gradient(#dfff87, #aee217);
+-pie-background: linear-gradient(#dfff87, #aee217);
+}
+
+a.btn.gpBlue {
+border: 1px solid #42B6C9;
+background: #39A9BB;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#76dbec), to(#39A9BB));
+background: -webkit-linear-gradient(#76dbec, #39A9BB);
+background: -moz-linear-gradient(#76dbec, #39A9BB);
+background: -ms-linear-gradient(#76dbec, #39A9BB);
+background: -o-linear-gradient(#76dbec, #39A9BB);
+background: linear-gradient(#76dbec, #39A9BB);
+-pie-background: linear-gradient(#76dbec, #39A9BB);
+}
+a.btn:hover.gpBlue {
+border: 1px solid #53d5eb;
+background: #2AC7E1;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#7eecff), to(#2AC7E1));
+background: -webkit-linear-gradient(#7eecff, #2AC7E1);
+background: -moz-linear-gradient(#7eecff, #2AC7E1);
+background: -ms-linear-gradient(#7eecff, #2AC7E1);
+background: -o-linear-gradient(#7eecff, #2AC7E1);
+background: linear-gradient(#7eecff, #2AC7E1);
+-pie-background: linear-gradient(#7eecff, #2AC7E1);
+}
+
+
+/* >>> 6-4: open close btn -----------*/
+div#featuresMenuBox a.close img,div#featuresMenuBox a.open img{
+width:14px;
+height:15px;
+text-decoration:none;
+margin-right:4px;
+}
+
+
+/* >>> 6-5: system link -----------*/
+div#copyArea ul.system{width:410px;}
+
+div#copyArea ul.system li,
+div#otherPromo ul li{
+float:left;
+margin-right:15px;
+}
+
+div#copyArea ul.system li{white-space:nowrap;}
+div#copyArea ul.system li a{display:inline-block;}
+
+/* >>> 6-5: slide bar link -----------*/
+div#headerBar a.btnSBc, div#headerBar a.btnSBo{
+width:76px;
+height:26px;
+float:right;
+display:block;
+cursor: pointer;
+}
+
+/* >>> 6-6: SNS -----------*/
+ul#sns{
+padding:10px 20px;
+background: none repeat scroll 0 0 #eff8f9;
+overflow:auto;
+clear:both;
+}
+
+ul#sns li{
+float:left;
+padding-right:6px;
+vertical-align: bottom;
+}
+
+/*
+7: notfound
+-------------------------------------*/
+div#notfound{
+padding:20px 30px 40px;
+}
+
+div#notfound p{
+padding:10px 0;
+font-size:1.4em;
+}
+
+div#notfound ul li{
+width:435px;
+float:left;
+font-size:1em;
+}
+
+div#notfound dl{
+margin-bottom:10px;
+}
+
+div#notfound dl dt{
+font-weight:bold;
+margin-bottom:5px;
+}
+
+div#notfound dl dd{
+text-align:left;
+line-height:1.6em;
+}
+
+div#notfound dl dd a.iconBlue{
+padding-left: 12px;
+}
+
+/*-- for UK --*/
+div#notfound.uk{overflow: auto;}
+
+div#notfound.uk ul li.region{
+width: 405px;
+margin:30px 20px 0 0;
+}
+
+.directionWord{
+display: block;
+color: #003663;
+font-weight: bold;
+font-size: 1.4em;
+margin-bottom:10px;
+}
+
+div#notfound.uk ul li.region span.country{
+font-size: 1.4em;
+font-weight: bold;
+}
+
+div#notfound.uk ul li.region p{
+padding:0 0 10px;
+display:block;
+}
+
+div#notfound.uk ul li.region ul{margin-bottom:10px;}
+div#notfound.uk ul li.region ul li{
+display: inline-block;
+width: auto;
+font-size: 1.4em;
+padding-right:15px;
+}

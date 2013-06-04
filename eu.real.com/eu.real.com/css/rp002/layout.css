@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* ------------------------------------
+*
+*Since: 2010-11-30...
+*Renew: 2012-05-31
+*Renew: 2012-06-13
+*Renew: 2012-09-26
+*Renew: 2012-12-12
+*
+-------------------------------------*/
+
+/*
+css sprite
+-------------------------------------*/
+div#header .logo a,div#header ul li a:hover,div#header ul li.selected a,div#header ul li a,
+.realico,a.btnSBc,a.btnSBo,.osWindows,.osMac,.osLinux{
+background:url(http://eu.real.com/image/rp002/common/common.png) no-repeat;
+}
+/* [ for IE6 ] */
+a.btnS01,a.btnS01:hover,a.btnSSblue,a.btnSSblue:hover,.realico{
+_background:url(http://eu.real.com/image/rp002/common/common_ie6.gif) no-repeat;
+}
+
+.icon{
+background:url(http://eu.real.com/image/rp002/common/icon.gif) no-repeat;
+}
+.iconBlue,a.btnBlue span,.pageUp a,a.open,a.close,.overlay,.blank,.premium,.closeico,.yes,.no{
+background:url(http://eu.real.com/image/rp002/common/icon2.gif) no-repeat;
+}
+
+.iconM{
+background:url(http://eu.real.com/image/rp002/common/iconM.gif) no-repeat;
+}
+
+/* logo */
+div#header .logo a{background-position:-360px 0;}
+
+/* tub */
+div#header ul li a{background-position:-360px -50px;}
+div#header ul li a:hover,div#header ul li.selected a{background-position:-360px -104px;}
+
+div#header ul.tab5 li a{background-position:-540px -50px;}
+div#header ul.tab5 li a:hover,div#header ul.tab5 li.selected a{background-position:-540px -104px;}
+
+/* slide bar */
+a.btnSBc{background-position:-608px -514px;}
+a.btnSBo{background-position:-456px -514px;}
+a.btnSBo:hover{background-position:-532px -514px;}
+
+/* overlay blank */
+.overlay{background-position:0 -180px; margin:0 5px 0 5px; height:12px; width:16px;}
+.blank{background-position:0 -200px; margin:0 5px 0 5px; height:12px; width:16px;}
+ul.globalLink li img.blank{background-position:0 -293px;}
+.premium{background-position:0 -220px;}
+.realico{height:16px; width:16px;}
+.realico{background-position:-600px 0; margin-right:8px;_background-position:-100px -140px;}
+.closeico{background-position:0 -237px; margin-right:10px; height:13px; width:13px;}
+
+/* arrow */
+a.btnBlue span{background-position:0 0;}
+.iconBlue{background-position:0 -42px;}
+div#mainL ul.system li a.iconBlue{background-position:0 -41px;}
+.pageUp a{background-position:0 -75px;}
+
+/* functionList */
+.yes{background-position:0 -255px; height:16px; width:16px;}
+.no{background-position:0 -275px; height:16px; width:16px;}
+
+/* iconM */
+.iconM{height:80px;width:135px;}
+.mdownload{background-position:0 0;}
+.mmanage{background-position:0 -80px;}
+.mnoBuffering{background-position:0 -160px;}
+.mcopy{background-position:0 -240px;}
+.mdownloadP{background-position:0 -320px;}
+.mconvertP{background-position:0 -400px;}
+.mburnP{background-position:0 -480px;}
+.mcopyP{background-position:0 -1120px;}
+.mmusic{background-position:0 -560px;}
+.mvideo{background-position:0 -640px;}
+.mdownloadF{background-position:0 -720px;}
+.mplay{background-position:0 -800px;}
+.mconvert{background-position:0 -880px;}
+.mshare{background-position:0 -960px;}
+
+/* icon */
+.icon{height:30px;width:30px;}
+.download{background-position:0 0;}
+.manage{background-position:0 -30px;}
+.play{background-position:0 -60px;}
+.editing{background-position:0 -90px;}
+.burn{background-position:0 -120px;}
+.convert{background-position:0 -150px;}
+.copy{background-position:0 -180px;}
+.share{background-position:0 -210px;}
+.record{background-position:0 -240px;}
+.search{background-position:0 -270px;}
+.video{background-position:0 -300px;}
+.music{background-position:0 -330px;}
+.photo{background-position:0 -360px;}
+.with_itunes{background-position:0 -390px;}
+.convertCopy{background-position:0 -420px;}
+.downloader{background-position:0 -450px;}
+.converter{background-position:0 -480px;}
+.trimmer{background-position:0 -510px;}
+.rp{background-position:0 -540px;}
+.downloadP{background-position:0 -570px;}
+.convertP{background-position:0 -600px;}
+.burnP{background-position:0 -630px;}
+.playP{background-position:0 -660px;}
+.manageP{background-position:0 -690px;}
+.copyP{background-position:0 -420px;}
+
+/* other */
+.premium{margin:0 4px 0 0; height:13px; width:13px;}
+
+.osWindows,.osMac,.osLinux{height:16px;width:16px;margin-right:7px;}
+.osWindows{background-position:-646px -163px;}
+.osMac{background-position:-646px -194px;}
+.osLinux{background-position:-646px -225px;}
+
+/***
+* w8bar
+***/
+#w8bar {width: 910px; padding: 10px; background-color: #45BAFF; margin-bottom: 20px; margin-top: -10px; display:none}
+#w8bar div {color:white}
+#w8bar div h3, #w8bar div p {color:white}
+#w8bar div h3 {}
+#w8bar div p {font-size: 1.4em; font-weight: 100; line-height: 1.4em; max-width: 600px; font-family: helvetica,arial,sans-serif; margin-bottom:5px;}
+#w8bar a{color: #464646 !important; font-size: 120% !important; }
+#w8barMainDiv {float:left; width:500px}
+
+#w8bar div.download { height: 70px; width: 335px; margin: 20px 0 0; display: block; position: relative; left: -10px;	background: transparent url('../../image/rp002/express/sprite-express.png') no-repeat left top; overflow: hidden; float:right; width:350px }
+#w8bar div.download:hover {background-position: -1px -71px; left: -9px; }
+#w8bar div.download:active {top:1px; }
+#w8bar div.download a { text-indent: -500px; display: block; height: 70px; }
+
+/* realplayer express page */
+div.btn_express { height: 70px; width: 335px; margin: 20px 0 0; display: block; position: relative; left: -10px;	background: transparent url('../../image/rp002/express/sprite-express.png') no-repeat left top; overflow: hidden; float:left; width:350px }
+div.btn_express:hover {background-position: -1px -71px; left: -9px; }
+div.btn_express:active {top:1px; }
+div.btn_express a { text-indent: -500px; display: block; height: 70px; }

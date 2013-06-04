@@ -1,0 +1,22 @@
+#main {background: url(http://www.alistapart.com/pix/fourcolbg.gif) 580px 0 repeat-y;}
+#content {width: 355px; padding-right: 15px; padding-left: 0;}
+#secondary {width: 215px;}
+
+.about #content {width: 335px; padding: 0.5em 15px 0.5em 20px;}
+.about #content p {margin: 0.5em 0 1.5em;}
+
+.about #secondary {padding: 0.5em 20px; width: 175px; font-size: 0.95em;}
+.about #secondary h3 {margin-bottom: 0.5em; line-height: 1.33em;}
+.about #secondary dl {padding: 0 0 0.75em; margin: 0 0 1.5em;
+  border-bottom: 1px dotted #B2B2B2;}
+.about #secondary dl.last {border: none;}
+.about #secondary dt {margin: 0.5em 0 0;}
+.about #secondary dt a {font-weight: bold; border-width: 0;}
+.about #secondary dt a:hover {border-width: 1px;}
+.about #secondary dd {font-style: italic; margin: -0.33em 0 0.75em; line-height: 1.4em;}
+
+/* IE5.x/Win hacks */
+
+#content {width: 380px; voice-family: "\"}\""; voice-family: inherit; width: 355px;}
+.about #content {width: 370px; voice-family: "\"}\""; voice-family: inherit; width: 335px;}
+.about #secondary {width: 215px; voice-family: "\"}\""; voice-family: inherit; width: 175px;}

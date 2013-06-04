@@ -1,0 +1,168 @@
+﻿@charset 'UTF-8';
+
+/* ------------------------------------
+*
+*Since: 2010-09-02
+*Update: 2010-09-15 
+*Update: 2011-01-11
+*Update: 2011-04-06
+*
+-------------------------------------*/
+
+/* Style Index ========================
+
+  01: clearfix [floatclear]
+  02: offleft
+  03: class
+
+==================================== */
+
+/*
+01. clearfix
+-------------------------------------*/
+.clearfix:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+display:inline-block;
+display: block;
+clear: both;
+}
+
+/* End hide from IE-mac */
+
+
+/*
+2. offleft
+-------------------------------------*/
+.offleft {
+  text-indent:-9999px !important; /* for MODERN blowser */
+  text-indent:0;
+  font-size:0;
+  line-height:0;
+  height:0;
+}
+
+.offleft span {
+  text-indent:-9999px; /* for ALL WIN IE */
+}
+
+.offleft a {
+  text-decoration:none;
+  overflow:hidden;
+}
+
+
+/*
+3. class
+-------------------------------------*/
+.mgn0 {
+  margin:0px !important;
+}  
+
+.pdgT15 {
+  padding-top:15px !important;
+}  
+
+.pdg0{
+  padding:0px !important;
+}
+
+.lastChild {
+  margin-right:0 !important;
+  }
+  
+.br {
+  width:100%;
+}
+
+p.pageUp{
+width:100%;
+display:block;
+clear:both;
+}
+
+.pageUp a{
+padding-left:15px;
+margin:10px 0 20px;
+float:right;
+color:#666666;
+}
+
+.orange,
+ul.orange li{
+  color:#F47722;
+}
+
+.red{
+  color:#d53030;
+}
+
+.clear_BlockFont{
+  display:inline;
+  font-size:1em;
+}
+
+.bold{
+font-weight:bold;
+}
+
+.lineG{
+border-bottom:#CCCCCC solid 1px;
+}
+
+.lineThrough{
+text-decoration: line-through;
+}
+
+.sideT{color:#999999}
+.productName,.sideT{font-size:1.4em;padding-bottom:10px;}
+.productName a span{font-size:1.15em;font-weight:bold;color:#22A2D2;}
+.productName a:visited span {color: #7250B0;}
+p.sideT{border-bottom:1px solid #E5E7E9;}
+
+.lineB{border-bottom:1px solid #E5E7E9;}
+div#sideArea .lineB{margin-bottom:20px;}
+
+.indent{margin-left: 1.3em; text-indent: -1.3em;}
+
+.title{font-weight:bold; margin-bottom:4px !important;}
+
+.title span{ font-weight:normal !important; vertical-align:baseline;}
+
+.caption{font-size:1.2em !important;}
+
+.copyright{font-size:0.8em !important; color: #828282;}
+
+.radius
+,ul#sns,div.codicil {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+behavior: url(PIE.htc.html);
+}
+
+.number li{
+list-style-type:decimal;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+div.announcement{
+border:1px solid #D53030;
+font-size:1.3em;
+width:930px;
+margin:0 auto 10px;
+padding:10px;
+text-align:left;
+}

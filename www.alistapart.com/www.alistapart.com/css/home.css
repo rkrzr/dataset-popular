@@ -1,0 +1,31 @@
+@import url(base.css);
+@import url(fourcol.css);
+
+#content .ishinfo, #content .title, #content .byline {text-align: center;}
+#content .item, #content #ishintro, #ishoutro {border-top: 1px dotted #999;
+  padding: 1.5em 1em 0.5em; margin-top: 0.75em;}
+#content #ishintro, #content #ishoutro {padding: 1em 1em 1px; font: italic 1.05em Georgia, serif;}
+#content .title {font-size: 1.8em; text-align: center;}
+#content .byline {padding: 0 0 1em; margin: 0 0 1.25em; text-align: center;
+  background: url(../pix/byline-separator.gif) 50% 100% no-repeat;}
+#content .byline a {font: bold 0.85em Verdana, sans-serif;
+  text-transform: uppercase; letter-spacing: 2px;
+   margin-left: 0.25em;}
+
+#banners {margin: 0 20px 20px;}
+#banners li {margin: 0 0 10px;}
+#banners li a {background: #CCC; display: block; width: 173px; margin: 0 auto;}
+#banners li img {background: #CCC; display: block; margin: 0 auto;}
+#banners li a:hover, #banners li a:hover img {background: #666; border: none;}
+
+#choice {border-top: 1px solid #D9D9D9;
+  padding: 1.5em 20px;}
+#choice h3 {color: #333; font: 0.9em Verdana, sans-serif;
+  text-transform: uppercase; letter-spacing: 0.33em;}
+#choice .title {text-align: left; font: 1.5em Georgia, Times, serif;}
+#choice .byline {display: block; border: none; text-align: left; margin-top: 0.5em;}
+#choice .byline a {font-size: 0.8em;}
+#choice .info {font-style: italic; font-size: 0.9em;
+  color: #666;}
+
+#sidebar {width: 140px; padding-left: 15px;}

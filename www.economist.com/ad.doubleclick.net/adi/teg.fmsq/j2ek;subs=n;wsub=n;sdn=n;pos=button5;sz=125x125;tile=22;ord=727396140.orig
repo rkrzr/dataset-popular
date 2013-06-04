@@ -1,0 +1,13 @@
+<html><head><title>Click here to find out more!</title></head><body bgcolor=#ffffff marginwidth=0 marginheight=0 leftmargin=0 topmargin=0><script>var domain_name = "//media.economist.com";</script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script src="//media.economist.com/sites/all/modules/custom/ec_ads_jobs/js/ec_ads_jobs.js" ></script>
+
+<div id="jobad" >
+	<div id="classified_ads_jobs" style="display:inline-block; width:125px; height:125px; vertical-align:top; text-align: center; font-family:arial; position:relative;">
+		<a target="_blank" style="text-decoration:none; color:#000000;" href="http://jobs.economist.com" >
+		<img src="//media.economist.com/sites/all/modules/custom/ec_ads_jobs/images/Jobs-BannerAd.gif" border="0" alt="'+job['employer']+'" height="125px" />
+		</a>
+	</div>
+</div></body></html>

@@ -1,0 +1,1 @@
+!is_ipad&&!is_iphone&&(document.write('<link href="/resources_v2/css/rcom-tracknsave.css" rel="stylesheet" />'),is_ie6&&document.write('<link href="/resources_v2/css/rcom-tracknsave-ie6.css" rel="stylesheet" />'),document.write('<script src="/resources_v2/js/rcom-tns-backend.js"><\/script>'),document.write('<script src="/resources_v2/js/rcom-tns-frontend.js"><\/script>'));

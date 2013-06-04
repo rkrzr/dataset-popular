@@ -1,0 +1,130 @@
+/* Tab Switch */
+jQuery(function(){
+    jQuery('#tertiary_package ul.tabs a').bind('click', function(e) {
+        e.preventDefault();
+
+        // Remove the active class from all tabs and hide the containers
+        jQuery('#tertiary_package ul.tabs a').removeClass('active');
+        jQuery('#tertiary_package .tab').hide();
+
+        // Add the active class to the clicked tab and show the container
+        jQuery(this).addClass('active');
+        var currentTab = jQuery(this).attr('href');
+        jQuery(currentTab).show();
+    });
+    
+    // Leave this decision to the user
+    jQuery('#reddit-links a[target="reddit_pop"]').removeAttr('target');
+
+    /*
+    jQuery.ajax({
+        url: 'http://www.reddit.com/top/.json',
+        jsonpCallback: 'jsonCallback',
+        contentType: "application/json",
+        dataType: 'jsonp',
+        success: function(data, textStatus, jqXHR) {
+            jQuery('#reddit-links').append('<div>Success!</div>');
+            jQuery('#reddit-links').append(data);
+        }
+    });
+
+    /*
+    var redditfeed = document.createElement('script');
+        redditfeed.type = 'text/javascript';
+        redditfeed.async = true;
+        redditfeed.src = 'http://static.reddit.com/wired.js';
+    var async_head = document.getElementsByTagName('head')[0];
+    async_head.appendChild(redditfeed);
+    */
+
+});
+
+
+// pager for the blog list
+function bPageSwitch(pageNum, numPages) {
+    var linkSpan = document.getElementById("lnkspn1");
+	var thisLink = document.getElementById("pglnk1");
+    var prevLink = document.getElementById("backLink");
+    var nextLink = document.getElementById("forLink");
+
+    var thisPage = document.getElementById("blog_river_p"+pageNum);
+    thisPage.style.display = "block";
+
+    // "previous" link should not display on page one
+    if(pageNum == 1) {
+        prevLink.style.display = "none";
+    } else prevLink.style.display = "block";
+
+    if(pageNum == numPages) {
+        nextLink.style.display = "none";
+    } else nextLink.style.display = "block";
+
+    for(var p = 1; p <= numPages; p++)
+    {
+        if(p == pageNum)
+        {
+            changeCount(p);
+
+            for(var k=1; k <= numPages; k++)
+            {
+                // here p has to be the page because of the previous if statement
+				linkSpan = document.getElementById("lnkspn"+k);
+				thisLink = document.getElementById("pglnk"+k);
+				if(k==p){
+					linkSpan.style.backgroundColor = "#B4D3E1";
+					thisLink.style.color = "#000";
+					thisLink.style.cursor = "arrow";
+                    prevLink.href = "javascript:bPageSwitch('"+ (k-1) +"','"+numPages+"');";
+                    nextLink.href = "javascript:bPageSwitch('"+ (k+1) +"','"+numPages+"');";
+				}
+				else {
+					linkSpan.style.backgroundColor = "#fff";
+					thisLink.style.color = "#007CA5";
+					thisLink.style.cursor = "hand";
+				}
+            }
+            continue;
+        }
+        var nextPage = document.getElementById("blog_river_p"+p);
+        nextPage.style.display = "none"
+    }
+}
+
+// change text of number of pages shown
+function changeCount(nP) {
+    var countSpan = document.getElementById("pageCount");
+    var pC = (nP*10)-9 + "-" + (nP*10);
+    countSpan.firstChild.data = pC;
+}
+
+// change "next page" link
+function pageBack(b) {
+    bPageSwitch(b);
+}
+
+// change "next page" link
+function pageFor(f) {
+    bPageSwitch(f);
+}
+
+var time = new Date().getTime();
+jQuery(document).bind("mousemove keypress", function(e) {
+	//alert("event");
+    time = new Date().getTime();
+});
+
+function refresh() {
+	var currentTime = new Date().getTime();
+    if( (currentTime - time) >= 840000) {
+    	//alert(currentTime - time);
+        window.location.reload(true);
+        CN.debug.info("Reloading page..");
+    }
+    else {
+        setTimeout(refresh, 10000);
+	}
+}
+setTimeout(refresh, 10000);
+
+
+

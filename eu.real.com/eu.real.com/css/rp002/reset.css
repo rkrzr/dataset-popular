@@ -1,0 +1,53 @@
+﻿@charset 'UTF-8';
+
+/* ------------------------------------
+*
+*Since: 2010-12-20...
+*Update: 2011-01-06
+*
+-------------------------------------*/
+
+/* ====================================
+
+              reset
+
+==================================== */
+
+body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, a, address, img,
+strong, dl, dt, dd, ol, ul, li, input, select,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+    vertical-align: middle;
+    background: transparent;
+	color:#666;
+}
+ol, ul {list-style:none;}
+br {letter-spacing:0;}
+a {color:#22A2D2;text-decoration:underline;vertical-align:baseline;}
+a:hover {text-decoration:none;}
+a:visited { color:#7250b0; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* font size */
+body {
+	font-size:62.5% !important; /* for MODERN blowser */
+	/*\*/
+	letter-spacing:0.05em;
+	/**/
+	text-align:center;
+    line-height:1.8;
+}
+html>body {font-size:10px;}
+p, h1, h2, h3, h4, h5, h6, li, dt, dd, address {font-size:1.3em;}

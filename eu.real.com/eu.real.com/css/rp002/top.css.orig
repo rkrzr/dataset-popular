@@ -1,0 +1,167 @@
+/* CSS Document */
+
+/* ------------------------------------
+*
+*Since: 2011-05-20...
+*update: 2011-12-13
+*
+-------------------------------------*/
+
+/*====================================
+  TOP
+======================================*/
+
+div#contentWrapper {
+background: url("/image/rp002/top/main_bc_top.jpg") repeat-x scroll left top transparent;
+margin-top:10px;
+}
+
+div#main{
+background:url(/image/rp002/top/main_img.jpg)  no-repeat top left;
+background-color:#fff;
+}
+
+div#slideWrapper{
+background-color:#def8ff;
+background:url(/image/rp002/top/slide-bg.gif)  repeat-x top left;
+}
+
+/* copyArea */
+div#copyArea{
+width:400px;
+text-align:left;
+min-height:356px;
+*height:356px;
+}
+
+h2 {
+padding-top:20px;
+font-size:6em;
+text-shadow: 1px 1px 0px #edf5f8;
+}
+h2.sp {
+padding-top:20px;
+font-size:5.7em;
+line-height:0.98;
+}
+/*CN*/
+h2.rp {
+padding-top:20px;
+font-size:6em !important;
+}
+h2.rp span{
+font-size:0.32em;
+line-height:1.3 !important;
+}
+/*KR*/
+div#copyArea p.mb8{
+margin-bottom:8px;
+}
+
+h2 span{
+font-size:0.32em;
+line-height:1.3;
+margin:0 !important;
+}
+
+div#copyArea p{
+line-height:1.4;
+font-size:1.4em;
+}
+
+div#copyArea a.btnTop{
+margin-top:10px;
+margin-bottom:16px;
+text-decoration:none;
+display:inline-block;
+}
+
+/* main : DLbtn */
+div#main a.btn {
+min-width:262px;
+margin:10px 0　16px;
+font-size:3em;
+}
+
+/* detailArea */
+div#detailArea p{
+letter-spacing:0.01em;
+}
+
+div#copyArea p.detail{color:#464646;}
+
+div#detailArea p,ul.system li{line-height:2;}
+div#detailArea p,ul.system li a{color:#464646;}
+
+div#detailArea ul.system {
+clear: both;
+width:100%;
+}
+
+div#detailArea ul.system li {
+float:left;
+}
+
+
+/*
+infoArea
+-------------------------------------*/
+div#infoArea {
+float:none;
+width:100%;
+margin:40px 0;
+}
+
+div#features {
+width:930px;
+margin:30px 0;
+}
+
+div#features  ul {
+width:940px;
+margin-right:-10px;
+overflow:hidden;
+_zoom:1;
+}
+
+div#features ul li {
+position:relative;
+float:left;
+margin-right:10px;
+padding: 10px 20px;
+border: 1px solid #E5E7E9;
+text-align:center;
+width:183px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background: #FFFFFF;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#f5f9fb));
+background: -webkit-linear-gradient(#FFFFFF, #f5f9fb);
+background: -moz-linear-gradient(#FFFFFF, #f5f9fb);
+background: -ms-linear-gradient(#FFFFFF, #f5f9fb);
+background: -o-linear-gradient(#FFFFFF, #f5f9fb);
+background: linear-gradient(#FFFFFF, #f5f9fb);
+-pie-background: linear-gradient(#FFFFFF, #f5f9fb);
+behavior: url(/css/rp002/PIE.htc);
+}
+
+div#features ul li span, div#features ul li span.wLine, div#infoArea p span {
+font-weight:bold;
+font-size: 1.1em;
+}
+
+div#features ul li span a{font-weight:bold; z-index: 1;}
+
+div#features ul li p {
+font-size:1em;
+line-height:1.6;
+margin:10px 0;
+text-align:left;
+letter-spacing:0;
+}
+
+div#features ul li span,div#features ul li span.wLine{
+display:block;
+text-align:left;
+}

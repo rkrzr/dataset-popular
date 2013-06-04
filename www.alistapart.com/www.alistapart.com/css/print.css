@@ -1,0 +1,42 @@
+#masthead, #navbar, #sidebar, #metastuff b, #metastuff .discuss, div.discuss {
+  display: none !important;
+}
+body, #main, #content, .column, #articletext, #footer {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body #main {background: none;}
+
+html body #ish {position: static; width: auto; height: auto;
+  margin: 1em 0 0; padding: 0; border-top: none;
+  font-size: 0.9em; text-align: right;
+  background: none;}
+html body #ish a:link, html body #ish a:visited, html body #ish a em {
+  position: static; display: inline;
+  font-size: 1em; font-weight: normal; width: auto; height: auto;
+  margin: 0; padding: 0;
+  background: none; color: #555;}
+
+html body #content .ishinfo {padding: 0 0 0.5em; margin: -1.5em 0 2em; text-align: left;
+  background: none; position: relative;}
+html body #metastuff {background: none;}
+html body #learnmore {border-top: 0; border-bottom: 1px dotted #999;}
+html body #footer {background: none;}
+html body #footer p {border-left: none; margin-left: 0; text-align: center;}
+
+html body pre, html body code {vertical-align: baseline;}
+
+#articletext a[href]:after,
+#authorbio a[href]:after,
+#footer a[href]:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;}
+
+#articletext a[href^="/"]:after,
+#authorbio a[href^="/"]:after,
+#footer a[href^="/"]:after {
+   content: " (http://alistapart.com" attr(href) ") ";}
+ 

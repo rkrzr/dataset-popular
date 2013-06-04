@@ -1,0 +1,38 @@
+#retailer_box{
+width:330px;
+height:282px;
+background: #000000 url(http://postsecretcommunity.com/lifedeathgod/images/retailer_box_PS.png) no-repeat top left;
+z-index:20;
+padding:20px;
+display: none;
+position:relative;
+}
+.retailer_list{
+list-style-type: none;
+margin:0px;
+padding:0px;
+width:150px;
+font-size:11px;
+line-height:11px;
+}
+.retailer_list a{
+color:#f3f6d1;
+}
+#button_close{
+display: block;
+text-indent:-9999px;
+width:16px;
+height:16px;
+background: url(http://postsecretcommunity.com/lifedeathgod/images/button_close.png) no-repeat top left;
+position:absolute;
+top:18px;
+left:350px;
+display: none;
+}
+#button_preorder{
+text-indent:-9999px;
+display:block;
+width:370px;
+height:222px;
+background: url(http://postsecretcommunity.com/lifedeathgod/images/button_preorder_PS.png) no-repeat top left;
+}

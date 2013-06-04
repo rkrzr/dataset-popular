@@ -1,0 +1,222 @@
+#content {
+	margin-top: 0;
+}
+
+.item,
+#content .item {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* HOME */
+
+#homePage #ish {
+	border-top: 1px solid #999;
+}
+
+#homePage #content #ishintro,
+#homePage #content #ishintro p {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+	text-align: center;
+}
+
+#homePage #content .ishinfo {
+	margin-top: 1em;
+	margin-bottom: .2em;
+}
+
+#homePage #content #ishintro,
+#homePage #content #ishintro p {
+	margin-bottom: 0;
+	line-height: 1.4em;
+}
+
+#homePage #content .item {
+	border-top: 0;
+}
+
+#homePage #content .title {
+	padding-top: 0;
+	font-size: 2em;
+	line-height: 1.3em;
+}
+
+#homePage #content p {
+	font-size: 1.1em;
+	line-height: 1.8em;
+}
+
+#homePage #content .byline {
+	margin-bottom: .8em;
+	background-image: url(../pix/byline-separator_new.gif);
+}
+
+#homePage #content #ishoutro {
+margin: 2em 0;
+padding: 1em 0 1em;
+border-top: 1px dotted #bbb;
+}
+
+/* END HOME */
+
+/* ARTICLE */
+
+#ish {
+	border-top: 1px solid #999;
+}
+
+#content .ishinfo {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+#content .title {
+	margin-top: 0;
+	padding-top: .25em;
+	font-size: 2.2em;
+	line-height: 1.25em;
+}
+
+#content #metastuff {
+	position: relative;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.75em;
+	padding-top: 1em;
+	border-top: 1px dotted #bbb;
+	border-bottom: 0;
+	background: transparent;
+}
+
+#content #metastuff li,
+#content #metastuff li p {
+	padding: 0 .75em;
+	font-family: sans-serif;
+}
+
+#content #metastuff li b {
+	color: #fff;
+}
+
+#content #metastuff a.editButton {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-top: -5px;
+}
+
+#content #articletext h3,
+#content #articletext h4,
+#content #articletext p,
+#content #articletext blockquote,
+#content #articletext ul li,
+#content #articletext ol li,
+#content div.comment h3,
+#content div.comment h4,
+#content div.comment p,
+#content div.comment ul li,
+#content div.comment ol li {
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+
+#content #articletext li ul,
+#content #articletext li ol {
+	margin-top: 12px;
+}
+
+#content #articletext ul li li,
+#content #articletext ol li li {
+	font-size: 1em;
+}
+
+#content #articletext ul li p,
+#content #articletext ol li p {
+	font-size: 1em;
+}
+ 
+#content h2 {
+	font-size: 1.8em;
+}
+
+#content #articletext ul li ul li,
+#content #articletext ol li ul li {
+	font-size: 1em;
+}
+
+div#authorbio p,
+#content div.discuss p {
+	font-size: 1.05em;
+}
+
+#content div.discuss h2 {
+	font-size: 1.4em;
+}
+
+/* END ARTICLE */
+
+/* SIDEBAR */
+
+#sidebar div {
+	padding-left: 0;
+	padding-right: 0;
+	border-bottom: 0;
+}
+
+#sidebar h3 {
+	font-size: 1.2em;
+}
+
+#sidebar label.unifiedForm {
+	display: block;
+	margin-bottom: 4px;
+	padding: 2px;
+	background: #fff;
+	border: 3px solid #eee;
+	border-radius: 5px;
+}
+
+#sidebar label.unifiedForm input {
+	display: inline-block;
+	vertical-align: middle;
+	background: #fff;
+	border: 0;
+}
+
+#sidebar label.unifiedForm input#search {
+	width: 97px;
+	height: 21px;
+}
+
+#sidebar div.first {
+	padding-bottom: 0;
+}
+
+#sidebar div.first form p {
+	margin-left: 1px;
+}
+
+#sidebar li a:link, #sidebar li a:visited {
+	padding-left: 0;
+	font-size: 1.1em;
+	background-image: none;
+}
+
+#sidebar li a:after {
+	content: " \203a";
+}
+
+div#abookapart-side,
+div#jobboard p.monitor {
+	border-bottom: 1px dotted #bbb; 
+}
+
+div#lucre,
+div#jobboard {
+	border-top: 1px dotted #bbb; 
+}

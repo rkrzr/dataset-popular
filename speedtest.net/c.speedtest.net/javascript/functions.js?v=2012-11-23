@@ -1,0 +1,302 @@
+$(document).ready(function () {
+
+	// ------------------------------------------------------------------
+	// download arrow
+	// note:
+	// see main function below, outside of document.ready. this section
+	// is intentionally left inside document.ready so goArrowOK remains
+	// false until the document is loaded.
+	// ------------------------------------------------------------------
+	// only do this for particular browsers
+	(function() {
+		var uaArr = new Array();
+		// add more useragents here
+		uaArr.push('chrome');
+		uaArr.push('msie 9');
+		var ua = navigator.userAgent.toLowerCase();
+		for (var i = 0; i < uaArr.length; i++) {
+			goArrowOK = goArrowOK || ua.indexOf(uaArr[i]) > -1;
+		}
+	})();
+
+	// the arrow will eventually be triggered in another way, but for now, create a link to trigger it
+	// if (goArrowOK) {
+	// 	$('<a href="#" class="go-arrow">a.go-arrow</a>').appendTo('div.ad-btn-home').click(goArrowGo);
+	// }
+
+	// ------------------------------------------------------------------
+
+	// ------------------------------------------------------------------
+	// eot ad
+	// place an ad over the speedtest at the end of test
+	// ------------------------------------------------------------------
+
+	// adeot is declared outside document.ready
+	adeot = $('#ad-eot');
+	searcheot = $('#search-eot');
+
+	// $('#toggle-search-eot').click( function(e) {
+	// 	e.preventDefault();
+	// 	searcheot.filter(':visible').length > 0 ? searcheothide() : searcheotshow();
+	// });
+
+	// ------------------------------------------------------------------
+
+    // Dropdowns
+    $('.login-title').click(function (e) {
+    	e.preventDefault();
+	$('.login-box').slideToggle('fast');
+    });
+
+    $('.current-lang').click(function () {
+	$('.other-lang').slideToggle('fast');
+    });
+
+    $('.server').click(function () {
+	$('.servers').slideToggle('fast');
+    });
+
+    $('.timeframe').click(function () {
+	$('.timeframes').slideToggle('fast');
+    });
+
+    $('.ip').click(function () {
+	$('.ips').slideToggle('fast');
+    });
+
+    $('.connection').click(function () {
+	$('.connections').slideToggle('fast');
+    });
+
+	// Modals
+	$('a.modal[href^=#]').live('click', function() {
+		var popID = $(this).attr('rel');
+		var popURL = $(this).attr('href');
+
+		var query= popURL.split('?');
+		var dim= query[1].split('&');
+		var popWidth = dim[0].split('=')[1];
+
+		$('#' + popID).fadeIn().css({ 'width': Number( popWidth ) }).prepend('<a href="#" class="close"><img src="/images/icon-close-modal.png" class="btn_close" title="Close Window" alt="Close" /></a>');
+
+		var popMargTop = ($('#' + popID).height() + 80) / 2;
+		var popMargLeft = ($('#' + popID).width() + 80) / 2;
+
+		$('#' + popID).css({
+			'margin-top' : -popMargTop,
+			'margin-left' : -popMargLeft
+		});
+
+		$('body').append('<div id="fade"></div>');
+		$('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
+
+		return false;
+	});
+
+	$('a.close, #fade').live('click', function() {
+	  	$('#fade , .modal-block').fadeOut(function() {
+			$('#fade, a.close').remove();
+	}); //fade them both out
+
+		return false;
+	});
+
+	//Tabs
+	$(".tab_content").hide();
+	$("ul.tabs li:first").addClass("active").show();
+	$(".tab_content:first").show();
+
+	$("ul.tabs li").click(function() {
+
+		$("ul.tabs li").removeClass("active");
+		$(this).addClass("active");
+		$(".tab_content").hide();
+
+		var activeTab = $(this).find("a").attr("href");
+		$(activeTab).fadeIn();
+		return false;
+	});
+
+	//Support FAQ accordion
+	$('.faq-content').hide();
+	$('.faq-title').click(function(){
+		if( $(this).next().is(':hidden') ) {
+			$('.faq-title').removeClass('active').next().slideUp();
+			$(this).toggleClass('active').next().slideDown();
+		}
+		else {
+			$(this).next().slideUp();
+		}
+		return false;
+	});
+
+	$('.tooltip').tipTip({ defaultPosition: 'top', delay: 0 });
+
+	$('.login-box input').placeholder();
+
+	// cache the search-eot-input and its original value
+	var $searcheotinput = $('#search-eot-input');
+	var searcheotval = $searcheotinput.val();
+
+	$searcheotinput.focus(function() {
+		var $this = $(this);
+		if ( $this.val() == searcheotval ) {
+			$this.val( '' );
+		}
+	});
+
+	$searcheotinput.blur(function() {
+		var $this = $(this);
+		if ( $this.val() == '' ) {
+			$this.val( searcheotval );
+			$this.removeAttr('style');
+		}
+	});
+
+});
+
+// download arrow (to be called from flash)
+var goArrowOK = false;
+var arrowtimeout;
+var goArrow;
+var blackOut;
+function goArrowGo() {
+	if (goArrowOK) {
+		// create the arrow and animate it down to the bottom of the screen
+		goArrow = $('<div class="go-arrow"></div>').appendTo('body').animate({ opacity: 1, bottom: 0 }, 'slow').click(cancelArrow);
+		blackOut = $('<div id="fade"></div>').appendTo('body').show().click(cancelArrow);
+		arrowtimeout = setTimeout(cancelArrow, 5000);
+	}
+	return false;
+}
+
+function cancelArrow() {
+	clearTimeout(arrowtimeout);
+	goArrow.fadeOut('slow', function() { $(this).remove(); });
+	blackOut.fadeOut('slow', function() { $(this).remove(); });
+}
+
+// Social icons
+function toggle_div( div_id ) {
+	if ($("div#" + div_id ).css("display") == "none") {
+		$("div#" + div_id ).fadeIn("medium");
+	} else {
+		$("div#" + div_id ).fadeOut("fast");
+	}
+}
+
+// Support scroll
+$(document).ready(function() {
+	anchor.init()
+});
+
+anchor = {
+	init : function()  {
+		$("a.anchor").click(function () {
+
+			// hide open (must do this first or the heights are all screwed)
+			$('.faq-content').hide();
+
+			elementClick = $(this).attr("href")
+			destination = $(elementClick).offset().top;
+			$("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination}, 900 );
+
+			// open question
+			var selector = ".faq-title" + elementClick;
+			$faq_title = $(selector);
+			if( $faq_title.next().is(':hidden') ) {
+				$faq_title.removeClass('active').next().slideUp();
+				$faq_title.toggleClass('active').next().slideDown();
+			}
+			else {
+				$faq_title.next().slideUp();
+			}
+
+			return false;
+		})
+	}
+}
+
+// TuneUp download tracking
+function tuneup_download( sid ) {
+    var tuneup_url = "http://www.tune-up.com/download/sc.php?pk=38904125247865&sid=";
+    var cache_buster = "&random=" + Math.random();
+    $('<iframe />', {
+        name:   'iframetu',
+        id:     'iframetu',
+        frameborder:    0,
+        src:    tuneup_url + sid + cache_buster
+    }).appendTo('div#footer');
+}
+
+// eot ad test
+var adeot;
+var searcheot;
+
+// "shorthand" function calls for cases when you can't use parameters
+function adeotshow250() { adeotshow( 250 ); }
+function adeotshow300() { adeotshow( 300 ); }
+function searcheotshow_wide_noad() { searcheotshow( 52, false ); }
+function searcheotshow_wide_ad() { searcheotshow( 52, true ); }
+function searcheotshow_narrow_noad() { searcheotshow( 0, false ); }
+function searcheotshow_narrow_ad() { searcheotshow( 0, true ); }
+
+function searcheotshow(zoneid, ad) {
+	classname = 'search-eot-wide';
+	zoneid = parseInt(zoneid);
+	if (zoneid != 0) {
+		if ( zoneid == 52 || zoneid == 58 ) {
+			searcheot.addClass(classname);
+		} else {
+			searcheot.removeClass(classname);
+		}
+	}
+	classname = 'search-eot-with-ad';
+	if (ad) {
+		searcheot.addClass(classname);
+	} else {
+		searcheot.removeClass(classname);
+	}
+	var resized = false;
+	searcheot.animate( { opacity: 'show' }, { step: function(now, fx) {
+		if (!resized) {
+			// resize h3 if it's too long for its container
+			var $h3 = $('.search-eot-search h3');
+			h3width = $h3.width() - 20;
+			var $h3span = $h3.find('span');
+			if ( !$h3span.length ) {
+				$h3span = $h3.contents().wrap('<span />').parent();
+			}
+			var resizecount = 0;
+			while ( $h3span.width() > h3width && resizecount < 100 ) {
+				$h3.css('font-size', parseFloat($h3.css('font-size')) - 1);
+				resizecount++;
+			}
+			resized = true;
+		}
+	} });
+}
+
+function searcheothide() { searcheot.fadeOut(); }
+
+function adeotshow(adwidth) {
+	if (!adwidth || adwidth == 45) {
+		adwidth = 250;
+	}
+	adeot.empty();
+	$('<iframe />', {
+		scrolling: 'no',
+		frameborder: 0,
+		allowtransparency: true,
+		style: 'border: 0;',
+		src: '/adsense_eot.php?width=' + adwidth
+	}).appendTo( adeot ).attr('width', adwidth).attr('height', '250');
+	adeot.fadeIn();
+}
+
+function adeothide() {
+	adeot.fadeOut(function() {
+		adeot.empty();
+	});
+}
+

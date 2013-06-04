@@ -1,0 +1,60 @@
+/*
+Adjusts existing templates to accomodate bar.
+--------------------------------------------*/
+html body {
+  margin:0;
+  padding-top:0;
+  padding-left:0;
+  padding-right:0;
+}
+
+
+/* for Thisaway, Moto */
+body #wrapper {
+  margin-top:30px;
+}
+/* for Herbert, Sand dollar, Jelly Fish, Snapshot, Rounders, Minima*/
+body #header {
+  margin-top:50px;
+}
+
+/* for Tekka */
+#leftcontent {
+  _margin-top:30px !important;
+}
+#rightcontent {
+  margin-top:30px !important;
+}
+#Main #Title {
+  margin-top:30px !important;
+}
+
+/* for Scribe use #main-top*/
+
+/* for No.897 */
+body #wrap #wrap2 #header {
+  margin-top:0;
+}
+
+body #wrap {
+  margin-top:34px;
+}
+
+/* for TicTac */
+#blog-header {
+  margin-top:-4px;
+}
+
+/* for Simple and Harbor*/
+body #wrap4 {
+  padding:15px 15px 0 15px;
+  margin-top:-4px;
+}
+
+#navbar-iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:500;
+  height:30px;
+}

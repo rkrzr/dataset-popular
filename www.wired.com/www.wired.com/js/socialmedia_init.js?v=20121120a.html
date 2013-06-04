@@ -1,0 +1,46 @@
+var async_head = document.getElementsByTagName('head')[0];
+var async_body = document.getElementsByTagName('body')[0];
+
+/* Facebook */
+var facebookdiv = async_body.appendChild(document.createElement('div'));
+facebookdiv.id = 'fb-root';
+window.fbAsyncInit = function() {
+    FB.init({
+        channelURL : 'http://www.wired.com/channel.html', // Channel File
+        status     : true, // check login status
+        cookie     : true, // enable cookies to allow the server to access the session
+        oauth      : true, // enable OAuth 2.0
+        xfbml      : true  // parse XFBML
+    });
+};
+(function(d){
+    var js, id = 'facebook-jssdk';
+    if (d.getElementById(id)) {return;}
+    js = d.createElement('script');
+    js.id = id;
+    js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js";
+    d.getElementsByTagName('head')[0].appendChild(js);
+}(document));
+
+// Add all the other social buttons async so we don't hold up the page
+// Google Plus
+var google_plus_one = document.createElement('script');
+    google_plus_one.type = 'text/javascript';
+    google_plus_one.async = true;
+    google_plus_one.src = 'https://apis.google.com/js/plusone.js';
+async_head.appendChild(google_plus_one);
+
+// Twitter
+var twitter_tweet = document.createElement('script');
+    twitter_tweet.type = 'text/javascript';
+    twitter_tweet.async = true;
+    twitter_tweet.src = 'http://platform.twitter.com/widgets.js';
+async_head.appendChild(twitter_tweet);
+
+// Linked In
+var linkedin = document.createElement('script');
+    linkedin.type = 'text/javascript';
+    linkedin.async = true;
+    linkedin.src = 'http://platform.linkedin.com/in.js';
+async_head.appendChild(linkedin);

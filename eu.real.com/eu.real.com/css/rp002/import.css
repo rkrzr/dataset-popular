@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+/* ------------------------------------
+*
+*Since: 2010-09-02
+*Since: 2010-10-28
+*
+-------------------------------------*/
+
+/* >>> Browser initialization,default <<<-----------*/
+@import "reset.css";
+
+/* >>> Universal class <<<-----------*/
+@import "class.css";
+
+/* >>> Structure component <<<-----------*/
+@import "structure.css";
+
+/* >>> Structure component <<<-----------*/
+@import "layout.css";

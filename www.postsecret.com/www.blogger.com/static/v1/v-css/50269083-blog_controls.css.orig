@@ -1,0 +1,46 @@
+ /*
+-----------------------------------------------
+Quick Edit and Delete Comment Icons for Classic Templates
+----------------------------------------------- */
+
+/* Hide it now, show it later with dynamically-generated CSS */
+.item-control {
+   display:none;
+}
+
+.item-control a, .item-action a {
+   text-decoration:none !important;
+}
+
+.widget-item-control {
+  float: right;
+}
+
+.icon-action {
+  border-style: none !important;
+  margin: 0 0 -5px 0.5em !important;
+}
+
+.delete-comment-icon {
+   background: url("/img/icon_delete13.gif") no-repeat left;
+
+   /* makes a 14x14 box */
+   padding:7px;
+}
+
+/* Mobile video tags shown on handhelds only.
+   All others get regular video tags. */
+@media all {
+  .BLOG_mobile_video_class {
+    display:none;
+  }
+}
+
+@media handheld {
+  .BLOG_mobile_video_class {
+    display:inline;
+  }
+  .BLOG_video_class {
+    display:none;
+  }
+}

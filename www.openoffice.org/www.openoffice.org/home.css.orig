@@ -1,0 +1,58 @@
+#navcol { display: none; }
+#bodycol, #midcol { margin: 0px; width: 100%; width: auto; }
+#breadcrumbs { visibility: hidden; }
+
+#actionstatements { margin: 40px 0 50px 3%; width: 60%; float: left; }
+#actionstatements a { text-decoration: none; width: 100%; display: inline; outline: none; margin: 0; }
+#actionstatements h2 { font-size: 1.5em; line-height:105%; color: #666; margin: 5px 0px 5px 60px; padding: 0px; border: none; }
+#actionstatements h2 a { color: #444; }
+#actionstatements p { margin: 5px 0px 5px 60px; padding: 0px; line-height: 150%; color: #999; font-size: .8em; }
+#actionstatements p a { color: #555;  }
+
+#actionstatements ul { margin: 0; padding: 0; }
+#actionstatements li { margin: 0; padding: 0; list-style: none; background: url(/images/action-bg.png) no-repeat; }
+#actionstatements li:hover { background: url(/images/action-bg.png) #E8F0FD repeat-x; }
+#actionstatements li:hover div.action-text:hover h2 a { color: #06338B; }
+#actionstatements li:hover div.action-text:hover p a, #actionstatements li:hover div.action-text:hover p a:hover, #actionstatements div.action-download:hover #downloadbutton p.options a:hover { color: #0949C1; }
+#actionstatements hr { display: block; width: 100%; border: none; border-top: 1px solid white; border-bottom: 1px dotted #CCC; margin: 0 0 15px 0; padding: 0; background: #FFF; }
+
+#actionstatements div.action-link:hover { background: url(/images/action-link.png) top right no-repeat; margin: 0 5px 0 0; }
+#actionstatements div.action-expand:hover { background: url(/images/action-expand.png) top right no-repeat; margin: 0 5px 0 0; }
+#actionstatements div.action-contract:hover { background: url(/images/action-contract.png) top right no-repeat; margin: 0 5px 0 0; }
+
+#actionstatements div.action-info { background: url(/images/action-info.png) no-repeat; }
+#actionstatements div.action-info:hover { background: url(/images/action-info.png) 0 -250px no-repeat; }
+#actionstatements div.action-download { background: url(/images/action-download.png) no-repeat; }
+#actionstatements div.action-download:hover { background: url(/images/action-download.png) 0 -250px no-repeat; }
+#actionstatements div.action-download #action-download-extra a { display: inline; margin: 0; padding: 0; text-decoration: underline; }
+#actionstatements div.action-help { background: url(/images/action-help.png) no-repeat; }
+#actionstatements div.action-help:hover { background: url(/images/action-help.png) 0 -250px no-repeat; }
+#actionstatements div.action-extend { background: url(/images/action-extend.png) no-repeat; }
+#actionstatements div.action-extend:hover { background: url(/images/action-extend.png) 0 -250px no-repeat; }
+#actionstatements div.action-participate { background: url(/images/action-participate.png) no-repeat; }
+#actionstatements div.action-participate:hover { background: url(/images/action-participate.png) 0 -250px no-repeat; }
+#actionstatements div.action-social { background: url(/images/action-social.png) no-repeat; }
+#actionstatements div.action-social:hover { background: url(/images/action-social.png) 0 -250px no-repeat; }
+#actionstatements div.action-social .action-social-extra p { margin: 0; padding: 5px 0px 5px 60px; line-height: 150%; color: #333;  }
+#actionstatements div.action-social .action-social-extra a { color: #06338B;  }
+
+#actionstatements div.action-download #buttonwrap { padding: 15px 0 5px 60px; }
+#actionstatements div.action-download #downloadbutton { display: block; width: 550px; background: #C7E094 url(/images/download-bg.png) right top no-repeat; }
+#actionstatements div.action-download:hover #downloadbutton { background: #CCE891 url(/images/download-bg.png) right -200px no-repeat; }
+#actionstatements div.action-download:hover #downloadbutton:hover { background: #CCE891 url(/images/download-bg.png) right -400px no-repeat; cursor: pointer; }
+#actionstatements div.action-download #downloadbutton h3 { margin: 0; padding: 25px 0 7px 30px; font-size: 1.6em; }
+#actionstatements div.action-download #downloadbutton h3 a { color: #718D36; text-decoration: none; }
+#actionstatements div.action-download #downloadbutton:hover h3 a { color: #546828; }
+#actionstatements div.action-download #downloadbutton p { display: block; width: 500px; margin: 0; padding: 2px 0 20px 30px; color: #333; }
+#actionstatements div.action-download p.options { cursor: default; padding: 5px 0 5px 30px; width: 520px; color: #333; background: #E9FEBE; border-top: 1px solid #C3E480; border-bottom: 1px solid #C3E480; }
+#actionstatements div.action-download p.options a { color: #546828; }
+#actionstatements div.action-download p.options:hover a:hover { color: #2E3816; }
+
+#news { width: 30%; float: right; margin: 0 3% 0 0; }
+#news div.campaign { min-height: 50px; width: 90%; padding: 30px 5% 5px 5%; margin: 10px 0 0 0; background: url(/images/campaign-divider.png) no-repeat center top; clear: right; }
+#news div.campaign h2 { margin: 0; padding: 0; border: none; width: 100%; color: #06338B; background: none; }
+#news div.campaign p { line-height: 150%; padding: 10px 0 0 0; color: #333; text-align: left; background: none; }
+#news div.campaign a { color:#107EC0; text-decoration:underline; }
+#news div.campaign a:hover { background-color: #e6ebed; }
+
+#SupportedAndSupporters {margin: 40px 0 0 5%; float: left}

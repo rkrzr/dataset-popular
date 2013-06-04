@@ -1,0 +1,645 @@
+/* 2009 Header: Masthead
+ ************************/
+
+.home #header {
+    color: #FFF;
+    height: 90px;
+    position: relative;
+    width: 1000px;
+}
+
+#stereo1, #stereo2, #logo_home {
+    position: absolute;
+    height: 82px;
+}
+
+#stereo2 {
+    width: 400px;
+    background-color: black;
+}
+
+#stereo1 {
+    width: 200px;
+    background-color: black;
+}
+
+#logo_home {
+    width: 398px;
+    left: 201px;
+}
+
+#stereo2 {
+    left: 600px;
+}
+
+#shell, #leaderboard, #primary_navigation, #secondary_navigation {
+    margin: 0 auto;
+    padding-left: 0px;
+    width: 1000px;
+    _width: 1020px;
+}
+
+.home #primary_navigation, .home #secondary_navigation {
+    width: 960px;
+    margin: 0;
+    padding: 0 20px 0 0;
+	line-height: 24px;
+}
+
+.home #primary_navigation #pn_subscribe_b {
+    right: 29px;
+}
+
+.home #promo_placement {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.home #supplemental_links {
+    width: 650px;
+    padding: 9px 10px 0 0;
+    text-align: right;
+}
+
+#global_search select {
+    border: 1px solid #FFF;
+    width: 110px;
+}
+
+.home #global_header {
+	position: relative;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    /*background-color: #fff;*/
+    width: 1000px;
+}
+
+.home #global_navigation {
+    background-image: none;
+    min-width: 0;
+}
+
+.home #global_search {
+    left: -1px;
+    position: relative;
+    text-align: right;
+    top: -1px;
+    width: 300px;
+}
+
+#gs_search_form #q {
+    width: 149px;
+}
+
+.home #pn_home {
+    display: none;
+}
+
+.under_nav_ad {
+    background: #fff;
+}
+
+/*end header*/
+#primary_package {
+    margin: 12px 0;
+    font-family: periodico-text-1, periodico-text-2, helvetica, arial, sans-serif;
+    font-size: 1.2em;
+    clear: right;
+    text-align: left;
+    zoom:1 !important;
+    z-index: 1000 !important;
+}
+
+/*
+#pushdownAd {
+}*/
+#pushdownAd970x418_frame {
+    margin: 2px 0px 2px 15px;
+    clear: both;
+    position: relative;
+    text-align: center;
+}
+/*
+ When smaller sized pushdown ads do not center properly, uncomment
+#pushdownAd970x418_frame iframe {
+    width: 768px !important;
+}
+*/
+
+#displayAd300x250 {
+    width: 300px;
+    margin: 10px 0;
+    float: left;
+}
+
+#primary_package a {
+    color: #333;
+    text-decoration: none;
+}
+
+#primary_package div.headline,
+#primary_package div.pic {
+    float: left;
+}
+
+#primary_package div.headline {
+    margin: 10px;
+}
+
+#primary_package h5,
+#secondary_package h5 {
+    display: block;
+    margin: 0;
+    font-size: 12px;
+    font-weight:600;
+    font-family:calibre-1, calibre-2, helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+#primary_package a:visited,
+#secondary_package a:visited {
+    color: #666;
+}
+
+#primary_package a:hover,
+#secondary_package a:hover {
+    color: #00AAF6;
+}
+
+#primary_package a:active,
+#secondary_package a:active {
+    color: #999;
+}
+
+#primary_package img,
+#secondary_package img {
+    margin-bottom: 4px;
+}
+
+/* for ie6 & 7 */
+#primary_package img,
+#secondary_package img {
+    *margin-bottom: 2px;
+}
+
+#primary_package h5 {
+    font-size: 12px;
+}
+
+#primary_package div.headline h5 a:link {
+    color: #00AAF6;
+}
+
+#primary_package div.headline h5 a:visited {
+    color: #00AAF6;
+}
+
+#primary_package div.headline h5 a:hover {
+    color: #00AAF6;
+}
+
+#primary_package div.headline h5 a:active {
+    color: #999;
+}
+
+div.headline .wiredItemTimeStamp {
+    font-size: 0.9em;
+    font-family: helvetica, arial, sans-serif;
+    color: #666;
+    margin-top: 5px;
+}
+
+#primary_package div.headline h1 {
+    font-weight: normal;
+}
+
+/* not sure if this will be necessary for hpcurator */
+div#row1,
+div#row2 {
+    width: 1000px;
+}
+
+#contentwell {
+    clear: both;
+    width: 690px;
+    margin: 0 10px 0 0;
+}
+    .home_sponsored2 #global_navigation {
+        z-index: 51 !important;
+    }
+    .home_sponsored2 #extra_navigation {
+        z-index: 50 !important;
+    }
+    .home_sponsored2 #primary_package,
+    .home_sponsored2 #contentwell,
+    .home_sponsored2 #xrail {
+        margin-top: 0px;
+    }
+    .home_sponsored2 #stereo1,
+    .home_sponsored2 #stereo2 {
+        background: #FFF;
+    }
+    .home_sponsored2 #homepage_rightRail_A {
+        display: none;
+    }
+
+#edsecondary {
+    width: 690px;
+}
+
+#xrail {
+    width: 300px;
+}
+    #xrail .matchbook_bubble {
+        width: auto;
+    }
+
+    #xrailHome300x250_frame.ad-served {
+        margin-bottom: 30px;
+    }
+
+/* secondary package */
+#secondary_package {
+    text-align: left;
+    width: 690px;
+}
+
+#secondary_package .wiredItemTimeStamp {
+    font: 1.1em;
+	font-family: helvetica, arial, sans-serif;
+    color: #666;
+}
+
+#secondary_package h1 a {
+    color: #333;
+    font-weight: normal !important;
+    font-family: periodico-text-1, periodico-text-2, helvetica, arial, sans-serif;
+}
+
+.row1, .row2, .row3, .row4 {
+    clear: both;
+    width: 690px;
+}
+
+.headline1,
+.headline2,
+.headline3,
+.headline4 {
+    float: left;
+}
+
+#secondary_package .headline4 {
+    width: 474px;
+    float: right;
+}
+
+#secondary_package .pic1,
+#secondary_package .pic2 {
+    float: left;
+}
+
+#secondary_package .pic1 {
+    width: 200px;
+    clear: left;
+    margin-bottom:10px;
+}
+
+#secondary_package .pic2,
+#secondary_package .pic2 img {
+    width: 100px;
+}
+
+#secondary_package .headline1,
+#secondary_package .headline2,
+#secondary_package .headline3,
+#secondary_package .headline4 {
+    padding: 5px 8px;
+    overflow: hidden;
+}
+
+html body #secondary_package .wiredItemTimeStamp {
+    margin-top: 4px;
+}
+
+/* row type 1 */
+#secondary_package .headline1 {
+    width: 280px;
+    clear: left;
+}
+
+#secondary_package .headline1 {
+    clear: none;
+}
+
+#secondary_package .headline1 h1 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+#secondary_package .headline2,
+#secondary_package .headline3 {
+    width: 178px;
+    float: left;
+}
+
+#secondary_package .headline2 h1,
+#secondary_package .headline3 h1 {
+    font-size: 1.6em;
+    line-height: 1.1em;
+}
+
+#secondary_package .headline4 h1 {
+    font-size: 2.6em;
+    /*width: 480px;*/
+}
+
+
+
+#separator {
+    background: #000000;
+    height: 4px;
+    clear: both;
+    margin: 0 0 20px 0;
+}
+
+/***** Calibre *****/
+.wf-loading #primary_package h5,
+.wf-loading #secondary_package h5,
+.wf-loading #subnav .tab
+{visibility:hidden;}
+
+
+/***** Periodico Text *****/
+.wf-loading #primary_package,
+.wf-loading #secondary_package h1 a,
+{visibility:hidden;}
+
+
+/* Tertiary Package (river replacement)
+*******************************************************************************/
+
+#tertiary_package {
+    width: 650px;
+    position: relative;
+    clear: both;
+    margin-top: 40px;
+    padding-top: 25px;
+}
+    #tertiary_package ul.tabs {
+        position: relative;
+        clear: both;
+        background-color: black;
+        color: #FFF;
+        border-bottom: solid 1px #000;
+    }
+
+    #tertiary_package ul.tabs li {
+        display: inline-block;
+        width: 200px;
+        margin: 0 auto;
+        list-style: none;
+        text-align: center;
+    }
+        #tertiary_package ul.tabs li a {
+            display: inline-block;
+            font-family: "calibre-1", "calibre-2", helvetica, arial, sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #FFF;
+            background: #000;
+            border-bottom: solid 5px #000;
+            font-size: 14px;
+            line-height: 20px;
+            margin: 5px;
+            padding-bottom: 5px;
+        }
+
+        #tertiary_package ul.tabs li a:hover,
+        #tertiary_package ul.tabs li a.active {
+            border-bottom: solid 5px #FFF;
+        }
+
+    #tab1 { display: block; }
+    #tab2 { display: none; }
+    #tab3 { display: none; }
+
+/* TAB 1: Feed Modules */
+
+.feed-module {
+	float: left;
+    width: 125px;
+    font-size: 12px;
+    font-family: arial, helvetica, san-serif;
+    margin-right: 50px;
+    text-transform: uppercase;
+    color: #EC008C;
+    padding-top: 20px;
+	border-top: 1px solid black;
+}
+    .feed-module .feed-timestamp {
+        display: none;
+    }
+
+.feed-module-row {
+    width:650px;
+    overflow: auto;
+	margin-top: 15px;
+    float:left;
+    /* clear:both; Removed 2013-03-11 to resolve float issue introduced in Chrome 25 */
+}
+
+.feed-content a {
+    color: #333;
+    text-transform: none;
+}
+    .feed-content a:visited { color: #666; }
+    .feed-content a:hover { color: #00AAF6; }
+    .feed-content a:active { color: #999; }
+
+#feed-module-row-first .feed-module {
+	padding-top: 0;
+	border-top: 0;
+}
+
+.feed-module .feed-title,
+.feed-module .feed-title a,
+.feed-module .feed-title a:link,
+.feed-module .feed-title a:visited {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:calibre-1, calibre-2, helvetica, arial, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.feed-module .feed-title a:hover {
+	color: #00AAF6;
+}
+
+.feed-module .feed-content {
+    margin-bottom: 15px;
+}
+    .feed-module.underwire,
+    .feed-module.raw-file,
+    .feed-module.geekdad,
+    .feed-module.wired-design {
+        margin-right: 0;
+    }
+
+    .feed-module img {
+        width: 125px;
+        margin-bottom: 10px;
+        border-top: solid 5px #000;
+        display:block;
+        float:left;
+        clear:both;
+    }
+
+    .feed-module.autopia img,
+    .feed-module.raw-file img {
+        border-top-color: #9F0B10;
+    }
+    .feed-module.wired-business img,
+    .feed-module.wired-enterprise img {
+        border-top-color: #00AEEF;
+    }
+    .feed-module.danger-room img,
+    .feed-module.playbook img,
+    .feed-module.threat-level img {
+        border-top-color: #F72C33;
+    }
+    .feed-module.wired-design img,
+    .feed-module.wired-science img {
+        border-top-color: #72BF44;
+    }
+    .feed-module.gadget-lab img {
+        border-top-color: #E48331;
+    }
+    .feed-module.game-life img {
+        border-top-color: #F6BD11;
+    }
+    .feed-module.geekdad img {
+        border-top-color: #D0E52B;
+    }
+    .feed-module.geekmom img,
+    .feed-module.underwire img {
+        border-top-color: #EC008C;
+    }
+    .feed-module.product-reviews img {
+        border-top-color: #430273;
+    }
+    .feed-module.webmonkey img {
+        border-top-color: #B6A98E;
+        /* What kind of coffee do you drink? */
+    }
+    
+	/* if an image that is not 200x100 sneaks in, crop it */		
+	.feed-module .feed-thumbnail {
+	display: block;
+	height: 67px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	}
+
+/* TAB 2: Latest Blog Posts */
+/* TAB 3: Reddit Links */
+
+.feed_table_container {
+    color: #333333;
+    font-family: periodico-text-1, periodico-text-2, helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+    .feed_table_container .powered {
+        display: block;
+        margin-top: 10px;
+        text-align: right;
+        width: 100%;
+    }
+
+    .feed_table_container table {
+        width: 100%;
+    }
+
+    .feed_table_container .small {
+        font-family: helvetica, arial, sans-serif;
+        font-size: 10px;
+        color: #666;
+    }
+
+    .feed_table_container td.number {
+        font-family: helvetica, arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        padding-right: 10px;
+        text-align: right;
+        width: 30px;
+    }
+
+    .feed_table_container a.title {
+        font-family: helvetica, arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .feed_table_container td.byline {
+        padding-bottom: 10px;
+        color: #666;
+    }
+
+        .feed_table_container td.byline a {
+            color: #333;
+        }
+
+/* New Nav
+*******************************************************************************/
+
+#nav-wrap {
+    position: absolute !important;
+    top: 0;
+    left: -10px;
+    width: auto;
+    z-index: 999999998; /* Doomsday device (maximum 32-bit integer) minus one */ /* Set for iPad takeover ad through 1/18; revert to 2147483646 when done */
+}
+    #nav-wrap #primary-nav {
+        padding-left: 10px;
+        width: auto;
+    }
+
+    #nav-wrap #nav-extras {
+        padding-right: 10px;
+    }
+
+    #nav-wrap h1 {
+        display: none;
+    }
+
+    #primary-nav > li.gear {
+        padding-left: 0;
+    }
+
+/* Positions of the dropdown menus */
+        #primary-nav > li.gear > ul {          left: 0; }
+        #primary-nav > li.science > ul {       left: -38px; }
+        #primary-nav > li.entertainment > ul { left: -99px; }
+        #primary-nav > li.business > ul {      left: -213px; }
+        #primary-nav > li.security > ul {      left: -284px; }
+        #primary-nav > li.design > ul {        left: -355px; }
+        #primary-nav > li.opinion > ul {       left: -411px; }
+        #primary-nav > li.video > ul {         left: -473px; }
+        #primary-nav > li.insider > ul {       left: -520px; }
+        #primary-nav > li.magazine > ul {      left: -576px; }
+        #primary-nav > li.subscribe > ul {     left: -650px; }
+
+#global_header {
+    padding-top: 50px; /* Make room for absolutely-positioned #nav-wrap */
+}
+
+body {
+    /*background-image: url('/images/home_ads/eBay_Q3_Electronics_1600x1000_090712.jpg');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;*/
+}

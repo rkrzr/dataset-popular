@@ -1,0 +1,525 @@
+.button {
+	font-size: 12px;
+	margin: 0 8px 0 0;
+	padding: 7px 20px 6px;
+	float: left;
+}
+
+.button_lg {
+	font-size: 14px;
+	padding: 10px 40px;
+	margin: 105px 194px 0;
+}
+
+/* basic styles for simple buttons (like, share, etc) 
+------------------------------------------------------------------------------*/
+.button-a, a.button-a {
+	display:block;
+	padding:8px 9px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow: 1px 1px 0 #ffffff;
+	color: #4f5d6e !important;
+	font-size:11px;
+	letter-spacing: 0.01em;
+	border: 1px solid #bbbfc6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	background: #e2ecf8;
+	-webkit-transition: background 0.4s ease-in-out;
+	-moz-transition: background 0.4s ease-in-out;
+	-o-transition: background 0.4s ease-in-out;
+	transition: background 0.4s ease-in-out;
+}
+
+.button-a:hover, .button-a:active {
+	background:#EFF2F6;
+}
+
+.button-b {
+	color: #3A5997;
+	text-align: left;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.button-c { /* basic bordered transparent button shell - use multiple classes to set bg, icons, etc*/
+	display:inline-block;
+	/*IE7 hack to get inline-block to work */
+	zoom:1 ; *display: inline;
+	padding:10px 15px 10px 16px;
+	overflow: hidden;
+	text-decoration: none;
+	cursor: pointer;
+	letter-spacing: 0.01em;
+	border: 1px solid #bbbfc6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	height:13px;
+}
+
+.button-c .int-icon-1 {
+	font-size: 12px !important;
+	line-height: 1 !important;
+	padding-left: 20px !important;
+	height: 11px !important;
+	text-align:left !important;
+	width: auto !important;
+	background-position: 0 0 !important;
+	background-repeat: no-repeat;
+}
+
+.button-d { /* borderless, transparent container for simple icon'd buttons - e.g., play sample */
+	display:inline-block;
+	/*IE7 hack to get inline-block to work */
+	zoom:1 ; *display: inline;
+	overflow: visible;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-shadow: 1px 1px 0 #ffffff;
+	color: #46546b;
+}
+
+.button-d .int-icon-1 {
+	font-size: 12px !important;
+	line-height: 1 !important;
+	padding: 10px 15px 10px 40px !important;
+	height: 11px !important;
+	color: #53637D !important;
+	text-align:left !important;
+	width: auto !important;
+	background-position: 14px 6px !important;
+	background-repeat: no-repeat;
+}
+
+
+.split {
+	-moz-border-top-right-radius: 0;
+	-moz-border-bottom-right-radius: 0;
+	-webkit-border-top-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-khtml-border-top-right-radius: 0;
+	-khtml-border-bottom-right-radius: 0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+}
+
+.btn-follow {width:98px;padding:9px 0;text-align:center;line-height:1;}
+.btn-follow .int-icon-1 {display:inline;background-position: 0 1px !important;}
+.btn-follow.long {width:157px;}
+.btn-follow.long .int-icon-1 {padding-left:25px !important;}
+
+.ie7 .button-c {padding-top:9px;padding-bottom:10px;}
+
+/*
+.ie8 .button-c {padding-top:10px;padding-bottom:10px;}
+*/
+
+.btn-follow.followable {background: #edf0f4 url(/img/follow_1x30.gif) repeat-x 0 0;color: #46546b;text-shadow: 1px 1px 0 #ffffff;}
+.btn-follow.followable:hover {background: #d2dae4 url(/img/follow_hover_1x30.gif) repeat-x 0 0;}
+.btn-follow.following:hover {background: #b3312a url(/img/unfollow_1x30.gif) repeat-x 0 0;border-color:#6e0a0a;}
+.btn-follow.following, .btn-follow.following.immediate:hover {background: #70b043 url(/img/following_1x30.gif) repeat-x 0 0;color:#fff;border-color:#57912d;}
+.btn-follow.blocked {background: #edf0f4 url(/img/follow_1x30.gif) repeat-x 0 0;color: #bb0000;text-shadow: 1px 1px 0 #ffffff;}
+.btn-follow.blocked:hover {background: #d2dae4 url(/img/follow_hover_1x30.gif) repeat-x 0 0;color:#46546b;}
+
+.followable .i-follow {background-image: url('/img/icon_follow_10x11.png');}
+.followable:hover .i-follow {background-image: url('/img/icon_follow_hover_10x11.png');} 
+.following:hover .i-follow {background-image: url('/img/icon_unfollow_11x10.png');}
+.following .i-follow, .following.immediate:hover .i-follow {background-image: url('/img/icon_following_12x11.png') }
+.blocked .i-follow {background-image: url('/img/icon_blocked_10x11.png');}
+.blocked:hover .i-follow {background-image: url('/img/icon_unblock_10x11.png');}
+
+/* custom bg images for simple buttons */
+.likeButton {
+	width: 112px;
+	height:12px;
+	line-height:22px;
+	line-height:1em;
+	padding:5px 0 5px 30px;
+	margin: 9px 0 0 0;
+	background: transparent url(/img/likes/like.png) no-repeat 0 0;
+}
+
+.likeButton.selected {
+	background: transparent url(/img/likes/liked.png) no-repeat 0 0;
+}
+
+.likeButton.unknown {
+	visibility: hidden;
+}
+
+.likeButton .undo {
+	display:none;
+}
+
+.likeButton.selected:hover .undo {
+	display:inline;
+}
+
+.likeButton.selected:hover .likeText {
+	display:none;
+}
+
+/* location specific settings */
+.left_col .likeButton {
+	margin: 10px 0 0 25px; 
+	white-space: nowrap; 
+	color: #3a5997;
+	cursor: pointer;
+}
+
+.left_col .btn_bg {margin: 0 5px;width:154px;}
+.left_col .btn_bg .int-icon-2 {padding-right:10px !important;}
+
+/* share button */
+.i-share {
+	background: url("/img/share.png") no-repeat 0 0;
+    margin: 9px 0 0 0;
+    padding: 1px 0 2px 29px;
+}
+
+.i-share:hover {
+	background: url('/img/share-hover.png') no-repeat 0 0;
+	text-decoration: underline;
+}
+
+.left_col .i-share {
+	margin: 10px 0 0 25px;
+}
+
+.tooltip_profile .follow_button {
+	width: 155px;
+	height: 33px;
+	cursor: pointer;
+	background: transparent url(/img/content/follow-btn.png) no-repeat 0 0;
+	border: none;
+}
+
+
+.tooltip_profile .follow_button.short {
+	margin-top: 15px;
+    height: 33px;
+    width: 90px;
+	display:table;
+}
+
+.tooltip_profile .follow_button.small {
+	margin: 5px 0px;
+	height: 33px;
+    width: 90px;
+	display:table;
+}
+
+.tooltip_profile .follow_button.followable {
+	background-image: url(/img/content/follow-wide.png);
+}
+
+.tooltip_profile .follow_button.followable.hover {
+	background-image: url(/img/content/follow-hover-wide.png);
+}
+
+.tooltip_profile .follow_button.followable.small {
+	background-image: url(/img/content/follow-btn.png);
+}
+
+.tooltip_profile .follow_button.followable.small.hover {
+	background-image: url(/img/content/follow-btn_hover.png);
+}
+
+.tooltip_profile .follow_button.followable.split {
+	background-image: url(/img/content/follow_split-btn.png);
+}
+
+.tooltip_profile .follow_button.followable.split.hover {
+	background-image: url(/img/content/follow_split-btn_hover.png);
+}
+
+.tooltip_profile .follow_button.following {
+	background-image: url(/img/content/following-wide.png);
+}
+
+.tooltip_profile .follow_button.following.hover {
+	background-image: url(/img/content/unfollow-wide.png);
+}
+
+.tooltip_profile .follow_button.following.small {
+	background-image: url(/img/content/following-btn.png);
+}
+
+.tooltip_profile .follow_button.following.small.hover {
+	background-image: url(/img/content/unfollow_hover.png);
+}
+
+.tooltip_profile .follow_button.following.split {
+	background-image: url(/img/content/following_split.png);
+	width: 90px;
+}
+
+.tooltip_profile .follow_button.following.split.hover {
+	background-image: url(/img/content/unfollow_split.png);
+}
+
+
+.tooltip_profile .follow_button.blocked {
+	background-image: url(/img/content/blocked-btn.png);
+}
+
+.tooltip_profile .follow_button.blocked.hover {
+	background-image: url(/img/content/unblock-btn_hover.png);
+}
+
+.tooltip_profile .follow_button.blocked.split {
+	background-image: url(/img/content/blocked_split-btn.png);
+}
+
+.tooltip_profile .follow_button.blocked.split.hover {
+	background-image: url(/img/content/unblock_split-btn_hover.png);
+}
+
+.cannotFollow,
+.follow_button.cannotFollow,
+.tooltip_profile .follow_button.small.cannotFollow,
+.tooltip_profile .follow_button.short.cannotFollow {
+    display:none !important; 
+}
+
+
+
+/* Transitional OOCSS framework styles
+----------------------------------------------------------------------------- */
+.btn_bg {
+	display:inline-block;
+	/*IE7 hack to get inline-block to work */
+	zoom:1 ; *display: inline;
+	overflow: visible;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-shadow: 1px 1px 0 #ffffff;
+	border: 1px solid #bbbfc6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	color: #46546b;
+	background: #e8ecf1 url(/img/bg_button_gradient_5x32.gif) repeat-x 0 top;
+	/* -------------------------------------------------------------------------- */
+	/* background-color: #ffffff;
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e8ecf1)); /* Saf4+, Chrome */
+	/* background-image: -webkit-linear-gradient(top, #ffffff, #e8ecf1); /* Chrome 10+, Saf5.1+ */
+	/* background-image:    -moz-linear-gradient(top, #ffffff, #e8ecf1); /* FF3.6 */
+	/* background-image:     -ms-linear-gradient(top, #ffffff, #e8ecf1); /* IE10 */
+	/* background-image:         linear-gradient(top, #ffffff, #e8ecf1);
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#e8ecf1')"; /* IE9 */
+	/* -------------------------------------------------------------------------- */
+	
+	
+}
+
+.btn_bg.disabled {
+	color:#bbb;
+	background:#fff;
+	border:1px solid #ddd;
+}
+
+.btn_bg.disabled:hover {
+	cursor:default;
+}
+	
+a.btn_bg {
+	text-decoration: none;
+}
+	
+.btn_bg:hover {
+	color: #151e2b;
+	border: 1px solid #a3aab6;
+	background: #d7dee8 url(/img/bg_button_gradient_hover_5x32.gif) repeat-x 0 top;
+	/* -------------------------------------------------------------------------- */
+	/* background-color: #ebeef2;
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f7fa), to(#d7dee8)); /* Saf4+, Chrome */
+	/* background-image: -webkit-linear-gradient(top, #f5f7fa, #d7dee8); /* Chrome 10+, Saf5.1+ */
+	/* background-image:    -moz-linear-gradient(top, #f5f7fa, #d7dee8); /* FF3.6 */
+	/* background-image:     -ms-linear-gradient(top, #f5f7fa, #d7dee8); /* IE10 */
+	/* background-image:         linear-gradient(top, #f5f7fa, #d7dee8);
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f7fa', EndColorStr='#d7dee8')"; /* IE9 */
+	/* -------------------------------------------------------------------------- */
+}
+
+/* -------------------------------------------------------------------------- */
+/* These are unnecessary if we just the gradient bg and use a gif for all browsers
+/* .ie7 .btn_bg {background: #e8ecf1 url(/img/bg_button_gradient_5x32.gif) repeat-x 0 top;}
+/* .ie7 .btn_bg:hover {background: #d7dee8 url(/img/bg_button_gradient_hover_5x32.gif) repeat-x 0 top;}
+/* -------------------------------------------------------------------------- */	
+	
+.btn_left {
+	border:1px solid #bbbfc6;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	-khtml-border-radius: 4px 0px 0px 4px;
+	border-radius: 4px 0px 0px 4px;
+	float: left;
+}
+	
+.btn_right {
+	border:1px solid #bbbfc6;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-khtml-border-radius: 0px 4px 4px 0px;
+	border-radius: 0px 4px 4px 0px;
+	margin: 0 0 0 -1px;
+	float: left;
+}
+	
+.btn_bg .int-icon-1 {
+	font-size: 12px !important;
+	line-height: 1 !important;
+	padding: 10px 15px 10px 40px !important;
+	height: 11px !important;
+	color: #53637D !important;
+	text-align:left !important;
+	width: auto !important;
+	background-position: 14px 6px !important;
+	background-repeat: no-repeat;
+}
+	
+.btn_bg .int-icon-2 {
+	font-size: 12px !important;
+	line-height: 1 !important;
+	padding: 10px 17px 10px 48px !important;
+	height: 11px !important;
+	color: #53637D !important;
+	text-align:left !important;
+	width: auto !important;
+	background-position: 19px 6px !important;
+	background-repeat: no-repeat;
+}
+
+.ie .btn_bg .int-icon-2 {
+	padding-right:16px !important;
+}
+	
+.btn_bg .int-icon:hover {background-position: 14px 7px !important;}
+	
+.btn_right .menu_dropdown {height:31px;}
+	
+.i-buy-1 {background-image: url('/img/content/buy-bg.png');}
+.btn_bg:hover  .i-buy-1 {background-image: url('/img/content/buy-bg_hover.png');}
+	
+.i-create-1 {background-image: url('/img/content/create_station-bg.png');}
+.btn_bg:hover .i-create-1 {background-image: url('/img/content/create_station-bg_hover.png');}
+	
+.i-play-1 {background-image: url('/img/content/play_station-bg.png');}
+.btn_bg:hover .i-play-1 {background-image: url('/img/content/play_station-bg_hover.png');}
+.i-play-1.playing {background: url("/img/content/stop_station-bg.png") no-repeat 9px 4px;}
+.i-play-1.playing:hover {background: url("/img/content/stop_station-bg_hover.png") no-repeat 9px 4px;}
+	
+.i-menu-dropdown-1 {background-image: url("/img/arrow_down-btn.png");background-repeat: no-repeat;background-position: 6px 12px !important;}
+
+
+
+/* End Transitional OOCSS framework styles 
+----------------------------------------------------------------------------- */
+
+.btn_bg.blue {
+	text-shadow: 0px -1px 0 #000;
+	color:#ffffff;
+	border: 1px solid #1d446e;
+	background: #1d446e url(/img/bg_button_blue_5x32.gif) repeat-x 0 top;
+	font-family: "arial", Helvetica Neue, helvetica, sans-serif;
+	padding: 7px 19px 6px;
+	/* -------------------------------------------------------------------------- */
+	/*background-color: #043f89;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(#0c79c6), to(#043f89)); /* Saf4+, Chrome */
+	/*background-image: -webkit-linear-gradient(top, #0c79c6, #043f89); /* Chrome 10+, Saf5.1+ */
+	/*background-image:    -moz-linear-gradient(top, #0c79c6, #043f89); /* FF3.6 */
+	/*background-image:     -ms-linear-gradient(top, #0c79c6, #043f89); /* IE10 */
+	/*background-image:         linear-gradient(top, #0c79c6, #043f89);
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#0c79c6', EndColorStr='#043f89')"; /* IE9 */
+	/* -------------------------------------------------------------------------- */
+}
+
+.btn_bg.blue:hover {
+	background: #1d446e url(/img/bg_button_blue_hover_5x32.gif) repeat-x 0 top;
+	/* -------------------------------------------------------------------------- */
+	/* background: #0b6fb6;
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from(#0b6fb6), to(#033675)); /* Saf4+, Chrome */
+	/* background-image: -webkit-linear-gradient(top, #0b6fb6, #033675); /* Chrome 10+, Saf5.1+ */
+	/* background-image:    -moz-linear-gradient(top, #0b6fb6, #033675); /* FF3.6 */
+	/* background-image:     -ms-linear-gradient(top, #0b6fb6, #033675); /* IE10 */
+	/* background-image:         linear-gradient(top, #0b6fb6, #033675);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#0b6fb6', EndColorStr='#033675')"; /* IE9 */
+	/* -------------------------------------------------------------------------- */
+}
+
+.btn_bg_sort {
+	display:inline-block;
+	/*IE7 hack to get inline-block to work */
+	zoom:1 ; *display: inline;
+	overflow: visible;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-shadow: 1px 1px 0 #ebeff3;
+	color: #2d394d;
+	background-color: #ffffff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d8e0e9), to(#c4cfdc)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #d8e0e9, #c4cfdc); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #d8e0e9, #c4cfdc); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #d8e0e9, #c4cfdc); /* IE10 */
+	background-image:         linear-gradient(top, #d8e0e9, #c4cfdc);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#d8e0e9', EndColorStr='#c4cfdc')"; /* IE9 */
+
+}
+
+
+.btn_bg_sort:hover {
+	background-color: #ebeef2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ebeef2), to(#bdc8d5)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #ebeef2, #bdc8d5); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #ebeef2, #bdc8d5); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #ebeef2, #bdc8d5); /* IE10 */
+	background-image:         linear-gradient(top, #ebeef2, #bdc8d5);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ebeef2', EndColorStr='#bdc8d5')"; /* IE9 */
+}
+
+.btn_bg_sort.selected {
+	background-color: #ebeef2;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#ecf0f5), to(#dee4ec)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #ecf0f5, #dee4ec); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #ecf0f5, #dee4ec); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #ecf0f5, #dee4ec); /* IE10 */
+	background-image:         linear-gradient(top, #ecf0f5, #dee4ec);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ecf0f5', EndColorStr='#dee4ec')"; /* IE9 */
+}
+
+#stationSortButtons div {
+	float: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 11px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#stationSortDate {
+	width: 95px;
+	border: none;
+	border-top: 1px solid #BBBFC6;
+}
+
+#stationSortAlpha {
+	width: 94px;
+	border: none;
+	border-top: 1px solid #BBBFC6;
+	border-left: 1px solid #BBBFC6;
+}

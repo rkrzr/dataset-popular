@@ -1,0 +1,55 @@
+div#primary_package div#row1,
+div#primary_package div#row2 {
+    clear: both;
+}
+
+div#primary_package div.pic {
+    width: 200px;
+}
+
+div#primary_package div.pic img {
+    margin-bottom: 3px;
+}
+
+div#primary_package div.headline {
+    width: 180px;
+}
+
+div#primary_package div#headline1, div#primary_package div.headline1 {
+    width: 380px;
+}
+
+div#primary_package div#headline2, div#primary_package div.headline2 {
+    width: 180px;
+}
+
+div#primary_package div#headline3, div#primary_package div.headline3 {
+    width: 380px;
+}
+
+div#primary_package div#headline4, 
+div#primary_package div#headline5, 
+div#primary_package div.headline4,
+div#primary_package div.headline5 {
+    width: 180px;
+}
+
+div#primary_package div#headline1 h1,
+div#primary_package div.headline1 h1{
+    font-size: 2.8em;
+}
+
+div#primary_package div#headline2 h1,
+div#primary_package div#headline3 h1,
+div#primary_package div.headline2 h1,
+div#primary_package div.headline3 h1{
+    font-size: 2em;
+}
+
+div#primary_package div#headline4 h1,
+div#primary_package div#headline5 h1,
+div#primary_package div.headline4 h1,
+div#primary_package div.headline5 h1{
+    font-size: 1.6em;
+}
+/* THIS IS A COMMENT */

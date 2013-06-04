@@ -1,0 +1,38 @@
+#colophon a:hover img {background: #3d9ecf;}
+.articles .author {border-color: #3d9ecf;}
+.articles .editorial {border-color: #595A5A;}
+
+a:link, a:visited {border-color: #3d9ecf;}
+a:link, a:visited,
+#navbar a:hover,
+  .articles #navbar #articles a,
+  .topics #navbar #topics a,
+  .about #navbar #about a,
+  .contact #navbar #contact a,
+  .contribute #navbar #contribute a,
+  .feed #navbar #feed a,
+  	/* Store Sale style */
+	#content .price {
+	 color: #3d9ecf;
+}
+
+#navbar {border-top-color: #e6624e;}
+
+#content h1 a,
+	.ishinfo a, 
+	.title a:link, .title a:visited,
+	.authors #content h2 a,
+	.contact #content a.ishno,
+	.illustration p {
+		color: #e6624e;
+}
+
+/* 
+the following rule makes sure hover states stay black: DO NOT CHANGE! */
+
+#content h1 a:hover,
+	.ishinfo a:hover,
+	.title a:hover,
+	.authors #content h2 a:hover {
+		color: #000;
+	}

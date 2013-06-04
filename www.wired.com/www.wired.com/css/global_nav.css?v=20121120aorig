@@ -1,0 +1,405 @@
+html {
+    width: 100%;
+}
+
+/* Nav container */
+#nav-wrap {
+    font-family: "calibre-1", "calibre-2", helvetica, arial, sans-serif;
+    background-color: black;
+    position: absolute; /* change to relative to stop overlap on blog headers */
+    top: 0;
+    width: auto;
+    z-index: 2147483647; /* Doomsday device */
+    min-height: 50px;
+    width: 100%;
+    min-width: 1000px; /* iPad */
+}
+
+    #nav-wrap * {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Expanded state */
+    #nav-wrap.active {
+        border-bottom: 1px solid #4d4d4d;
+    }
+
+    #nav-wrap nav    {
+        display: block;
+        width: 1020px;
+        min-height: 50px;
+        margin: 0 auto;
+        color: #FFF;
+        background-color: black;
+        font-size: 11px;
+        /*line-height 0 fixes height bug on jquery.anim*/
+        line-height:0;
+    }
+
+    #nav-wrap a {
+        color: #FFF;
+        text-decoration: none;
+    }
+        #nav-wrap a:hover {
+            background-color: transparent;
+        }
+
+    #nav-wrap ul {
+        list-style-type: none;
+        text-align: left;
+        line-height: 20px;
+    }
+
+        #primary-nav > li.gear {
+            padding-left: 175px;
+        }
+
+           /* Positions of the dropdown menus */
+            #primary-nav > li.gear > ul {          left: 0; }
+            #primary-nav > li.science > ul {       left: -213px; }
+            #primary-nav > li.entertainment > ul { left: -274px; }
+            #primary-nav > li.business > ul {      left: -388px; }
+            #primary-nav > li.security > ul {      left: -459px; }
+            #primary-nav > li.design > ul {        left: -530px; }
+            #primary-nav > li.opinion > ul {       left: -586px; }
+            #primary-nav > li.video > ul {         left: -648px; }
+            #primary-nav > li.insider > ul {       left: -697px; }
+            #primary-nav > li.magazine > ul {      left: -754px; }
+            #primary-nav > li.subscribe > ul {     left: -828px; }
+
+    #primary-nav {
+        display: inline-block;
+        font-weight: bold;
+        min-height:50px;
+        position: absolute;
+        left: 0;
+        z-index: 1; /* Beneath logo */
+    } /* This is a ul */
+
+
+
+#primary-nav .secondary h2 a {
+    color: #00aeef;
+    font-weight: normal;
+}
+
+/* override background color on legacy blogs */
+#primary-nav .secondary h2 a:hover {
+    background-color: transparent;
+}
+
+#primary-nav > li {
+    float: left;
+    padding: 0 5px;
+    cursor: default;
+}
+
+#primary-nav > li > ul {
+    position: absolute;
+    width: 165px;
+    height: 190px;
+}
+#primary-nav > li > ul,
+#primary-nav > li > ul > li > ul {
+    visibility: hidden;
+}
+#primary-nav > li.active > ul,
+#primary-nav > li > ul > li.active > ul {
+    visibility: visible;
+}
+#primary-nav > li.active > h2 {
+    border-bottom: 5px solid #FFF;
+    }
+#primary-nav > li.secondary.active > h2 {
+    border-bottom-color: #00aeef;
+}
+#primary-nav > li.secondary.search.active > h2 {
+    border-bottom: none;;
+}
+#primary-nav > li > ul > li.active {
+    background-color: #4d4d4d;
+}
+#primary-nav > li > ul > li.no-content.active {
+    background-color: transparent;
+}
+#primary-nav > li > ul > li > ul {
+    position:absolute;
+    width: 835px;
+    height: 190px;
+    left: 165px;
+    background-color: #4d4d4d;
+}
+#primary-nav > li > ul > li > ul > li > a {
+    display: block;
+    padding: 5px 10px;
+    font-family: "periodico-text-1", "periodico-text-2", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: url('/images/global_header/new/hed-bg.gif') no-repeat 135px bottom;
+}
+#primary-nav > li > ul > li > ul > li:first-child > a {
+    padding-top: 10px;
+}
+#primary-nav > li > ul > li > ul > li:last-child > a {
+    padding-bottom: 10px;
+    background: none;
+}
+#primary-nav > li > ul > li > ul > li > a:hover > h4 {
+    text-decoration: underline;
+}
+
+#primary-nav li.sponsored ul > li:first-child {
+    text-align: center;
+}
+#primary-nav li.sponsored ul > li.sponsored-hed a {
+    padding-top: 0;
+}
+#primary-nav li.sponsored ul > li h4 {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: #808080;
+    margin-top: 0;
+    height: 1.5em;
+}
+#primary-nav li.sponsored ul > li.sponsored-content a {
+    display: block;
+    float: left;
+}
+#primary-nav li.sponsored ul > li.sponsored-content img {
+    display: block;
+    width: 217px;
+    height: 109px;
+    margin: 10px 20px 10px 0;
+    float: left;
+}
+#primary-nav li.sponsored ul > li.sponsored-content p {
+    display: block;
+    float: left;
+    width: 500px;
+    font-size: 0.75em;
+    margin-top: 10px;
+}
+
+#primary-nav li.insider img {
+    display: block;
+    width: 1000px;
+    height: 190px;
+}
+
+#primary-nav li.subscribe img {
+    display: block;
+    width: 1000px;
+    height: 190px;
+}
+
+#nav-wrap h1 {
+    display: inline-block;
+    width: 150px;
+    padding-top: 10px;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+    z-index: 2; /* On top of #primary-nav */
+}
+#nav-wrap h1 a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-indent: 100%;
+    overflow: hidden;
+    background: url('/images/global_header/new/wired-logo.gif') no-repeat top left;
+}
+
+#nav-wrap h1 a:hover {
+    background-position:bottom left;
+}
+#nav-wrap h2, #nav-wrap h3 {
+    text-transform:uppercase;
+    /*including font-family here overrides a precedent bug on the non-responsive blogs w/ specifity*/
+    font-family: "calibre-1", "calibre-2", helvetica, arial, sans-serif;
+}
+#nav-wrap h2 {
+    height:auto;
+    margin: 16px auto;
+    padding-bottom:5px;
+    font-size:14px;
+    color:#FFFFFF;
+    line-height:20px;
+}
+#nav-wrap .secondary h2,
+    #nav-wrap h3,
+    #nav-wrap .secondary h3 {
+    font-weight:normal;
+    color:#FFF;
+}
+
+#nav-wrap h3 a {
+    display:inline-block;
+    min-height:20px;
+    padding:3px 5px;
+    font-size:12px;
+    line-height:1.6;
+    font-family: "calibre-1", "calibre-2", helvetica, arial, sans-serif;  /* override legacy blog font */
+    font-weight:normal;  /* override legacy blog font */
+}
+#nav-wrap h3 a:hover {
+    text-decoration:underline;
+    background-color:#4d4d4d;
+}
+#nav-wrap h4 {
+    display:inline-block;
+    font-weight: normal;
+    height:20px;
+    margin-top:17px;
+    width: 685px;
+    overflow: hidden; /* Fix until we implement smart truncation */
+}
+#nav-wrap img {
+    vertical-align:top;
+    margin-right:25px;
+    width:100px;
+    height: 50px;
+}
+
+/* Magazine dropdown ecom placement */
+#nav-wrap #AMS_WIR_GLOBAL_MAGAZINE_SUBNAV {
+    background-color: #000;
+    height: auto;
+    width: auto;
+}
+    #nav-wrap li.active #AMS_WIR_GLOBAL_MAGAZINE_SUBNAV {
+        visibility: visible;
+    }
+
+    #nav-wrap #AMS_WIR_GLOBAL_MAGAZINE_SUBNAV img {
+        width: 110px;
+        height: 150px;
+        padding-top: 10px;
+        background-color: #000;
+    }
+
+    #nav-wrap #AMS_WIR_GLOBAL_MAGAZINE_SUBNAV a {
+        text-transform:uppercase;
+        color: #00AEEF;
+        font-size:12px;
+        font-weight:normal;
+    }
+
+#nav-extras{
+    display: inline-block;
+    height:50px;
+    float:right;
+}
+#nav-extras .secondary h2 a {
+    color: #00aeef;
+    font-weight: normal;
+    text-indent:101%; /* Firefox fix */
+    overflow:hidden;
+    display:block;
+}
+/* override background color on legacy blogs */
+#nav-extras .secondary h2 a:hover {
+    background-color: transparent;
+}
+#nav-extras > li {
+    float: left;
+    padding-right: 10px;
+    cursor: default;
+}
+
+#nav-extras > li + li {
+    padding-right: 0;
+}
+
+#nav-extras .rss-icon,
+#nav-extras .search-icon {
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#nav-extras .rss-icon a,
+#nav-extras .search-icon a {
+    background: url('/images/global_header/new/nav-button-sprite.gif') no-repeat top left;
+    height: 30px;
+    width: 30px;
+    background-position: 0px 0px;
+    color: #00aeef;
+    font-weight: normal;
+    text-indent: 101%; /* Firefox fix */
+    overflow: hidden;
+    display: block;
+}
+
+    #nav-extras .rss-icon a:hover,
+    #nav-extras .search-icon a:hover {
+        cursor: pointer;
+    }
+
+    #nav-extras .search-icon a {
+        background-position: 0px -30px;
+    }
+
+        #nav-extras .search-icon.active a {
+            background-position: -30px -30px;
+        }
+
+#search-form-cont {
+    display: none;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    background-color: #00AEEF;
+    padding: 2px 2px 2px 8px;
+    z-index: 100;
+    top: 39px;
+    right: 0;
+    width: 186px;
+    height: auto;
+    line-height: 1.5em;
+}
+    #search-form-cont form {
+        border:none;
+    }
+    #search-form-cont form input {
+        margin-left:6px;
+        display:inline-block;
+        width:129px;
+        line-height:1.1em;
+        height:1.5em;
+    }
+
+#nav-wrap li.secondary div {
+    width: 1000px;
+    height: 220px;
+    position: absolute;
+    visibility: hidden;
+}
+#nav-wrap li.secondary div#search-form-cont {
+    visibility: visible;
+}
+#nav-wrap li.secondary div.active {
+    visibility: visible;
+}
+
+#AMS_WIR_GLOBAL_NAVBAR_ROLLOVER.active {
+    visibility: visible;
+}
+
+
+/* Ad banner fixes */
+
+#leaderboard {
+    position:relative;
+    padding: 60px 0 10px;
+}
+
+.index #global_header,
+.post #global_header,
+.s_video #global_header,
+.magazineindex #global_header,
+.magazinesmall #global_header {
+    min-height:160px;
+}
