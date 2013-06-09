@@ -57,7 +57,6 @@
 "http://www.wired.com/" : "/opt/dataset2/www.wired.com/www.wired.com/index.html",
 :http://www.pandora.com/restricted" : "/opt/dataset2/www.pandora.com/www.pandora.com/restricted.html",
 "http://www.break.com/" : "/opt/dataset2/www.break.com/www.break.com/index.html",
-"http://www.nps.gov/index.htm" : "/opt/dataset2/www.nps.gov/www.nps.gov/index.htm.html",
 "http://www.edmunds.com/" : "/opt/dataset2/www.edmunds.com/www.edmunds.com/index.html",
 "http://www.toyota.com/" : "/opt/dataset2/www.toyota.com/www.toyota.com/index.html",
 "http://www.scientificamerican.com/" : "/opt/dataset2/www.scientificamerican.com/www.scientificamerican.com/index.html",
