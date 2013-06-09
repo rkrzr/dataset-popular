@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset="utf-8">
+	<title>Drugs.com | Prescription Drug Information, Interactions &amp; Side Effects</title>
+	<meta name="description" content="Prescription drug information and news for professionals and consumers.  Search our drug database for comprehensive prescription and patient information on 24,000 drugs online">
+	<meta name="keywords" content="prescription drug information side effects medicine interactions">
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<!-- Open Graph (Facebook) -->
+	<meta property="og:title" content="Drugs.com | Prescription Drug Information, Interactions &amp; Side Effects" />
+	<meta property="og:description" content="Prescription drug information and news for professionals and consumers.  Search our drug database for comprehensive prescription and patient information on 24,000 drugs online" />
+	<meta property="og:image" content="http://www.drugs.com/img/social/ddc-facebook-icon.png" />
+	<link rel="canonical" href="http://www.drugs.com/">
+	<link rel="shortcut icon" href="//images.ddccdn.com/favicon.ico">
+	<base href="http://www.drugs.com"/>
+	<link rel="stylesheet" href="//images.ddccdn.com/css/ddc-v719.css" media="screen,handheld,print">
+	<link rel="stylesheet" href="//images.ddccdn.com/css/ddc-768-v719.css" media="only screen and (max-width: 9px)">
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" href="//images.ddccdn.com/css/ddc-ie-v719.css">
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="//images.ddccdn.com/css/ddc-ie7-v719.css">
+	<![endif]-->
+	<!--[if IE 8]>
+	<link rel="stylesheet" href="//images.ddccdn.com/css/ddc-ie8-v719.css">
+	<![endif]-->
+	<script src="//images.ddccdn.com/js/jquery/jquery-1.8.3.min.js,/js/ajax.js,/js/search.js,/js/misc-v314.js"></script>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script><script>
+googletag.cmd.push(function() {googletag.defineSlot('/7146/homepage', [728, 90], 'div-gpt-ddcad-0').addService(googletag.pubads());
+googletag.defineSlot('/7146/homepage', [160, 600], 'div-gpt-ddcad-2').addService(googletag.pubads());
+googletag.defineSlot('/7146/homepage', [300, 250], 'div-gpt-ddcad-1').addService(googletag.pubads());
+googletag.pubads().setTargeting('ugc', '0').setTargeting('c1', ['4046']);
+gptSearch();googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>	<link rel="alternate" type="application/rss+xml" title="Drugs.com - Daily MedNews" href="//www.drugs.com/feeds/medical_news.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Drugs.com - Pharma News" href="//www.drugs.com/feeds/headline_news.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Drugs.com - FDA MedWatch Alerts" href="//www.drugs.com/feeds/fda_alerts.xml" />
+	<link rel="search" type="application/opensearchdescription+xml" href="//images.ddccdn.com/opensearch.xml" title="Drugs.com" />
+	<link href="https://plus.google.com/+drugscom" rel="publisher" />
+
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-78451-2']);
+  _gaq.push(['_setDomainName', 'drugs.com']);
+	_gaq.push(['_addOrganic', 'google', 'q', true, 'google images', '/imgres?']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'http://www.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+  
+<body itemscope itemtype="http://schema.org/WebPage">
+
+<script>
+var _comscore = _comscore || [];
+_comscore.push({c1: "2", c2: "9355535"});
+(function() {
+  var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+  s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+  el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=9355535&amp;cv=2.0&amp;cj=1" alt="" /></noscript>
+<script>
+var _qevents = _qevents || [];
+(function() {
+  var elem = document.createElement('script'); elem.type = "text/javascript"; elem.async = true;
+  elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+  var scpt = document.getElementsByTagName('script')[0]; scpt.parentNode.insertBefore(elem, scpt);
+})();
+_qevents.push({qacct:"p-8dgvuxp_ahRkE"});
+</script>
+<noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-8dgvuxp_ahRkE.gif" height="1" width="1" alt=""/></div></noscript>
+
+<div id='wrap' class='layoutRightColThin layoutHome'>
+
+<div id="topbannerWrap">
+	<div id="topbanner">
+	  <table>
+	    <tr>
+	      <td class='topbanner-728'><div id='div-gpt-ddcad-0' style='width:728px;'><script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ddcad-0'); });</script></div></td>
+	      <td class='topbanner-label'><img src="//images.ddccdn.com/img/label/adv-vert.gif" width="10" height="90" alt="" /></td>
+	      <td class='topbanner-200'><a href='/health/lice/buyers-guide-1218/' onclick="_gaq.push(['_trackEvent', 'Sponsor Center', 'Sklice', '200x90']);"><img src='//images.ddccdn.com/img/banners/200x90-Sklice.png' alt='' width='200' height='90' /></a></td>
+	    </tr>
+	  </table>
+	</div>
+</div>
+
+<div id="header" class='clearAfter'>
+
+<a href="http://www.drugs.com/"><img class="logo" src="//images.ddccdn.com/img/layout/drugs-com-logo.png" alt="Drugs.com" width="284" height="68" /></a>
+<a class='skipContent' href='#content' tabindex='1' accesskey='2'>Skip to Content</a>
+
+	<div class='search-box'>
+		<div id='search-browse' class='search-browse'>
+			<span class='light res-full'>Browse all medications&nbsp;</span>
+			<a href="/alpha/a1.html">A</a>
+			<a href="/alpha/b1.html">B</a>
+			<a href="/alpha/c1.html">C</a>
+			<a href="/alpha/d1.html">D</a>
+			<a href="/alpha/e1.html">E</a>
+			<a href="/alpha/f1.html">F</a>
+			<a href="/alpha/g1.html">G</a>
+			<a href="/alpha/h1.html">H</a>
+			<a href="/alpha/i1.html">I</a>
+			<a href="/alpha/j1.html">J</a>
+			<a href="/alpha/k1.html">K</a>
+			<a href="/alpha/l1.html">L</a>
+			<a href="/alpha/m1.html">M</a>
+			<a href="/alpha/n1.html">N</a>
+			<a href="/alpha/o1.html">O</a>
+			<a href="/alpha/p1.html">P</a>
+			<a href="/alpha/q1.html">Q</a>
+			<a href="/alpha/r1.html">R</a>
+			<a href="/alpha/s1.html">S</a>
+			<a href="/alpha/t1.html">T</a>
+			<a href="/alpha/u1.html">U</a>
+			<a href="/alpha/v1.html">V</a>
+			<a href="/alpha/w1.html">W</a>
+			<a href="/alpha/x1.html">X</a>
+			<a href="/alpha/y1.html">Y</a>
+			<a href="/alpha/z1.html">Z</a>
+			&nbsp;&nbsp;
+			<a href="/search_advanced.html">Advanced <span class='res-full'>Search</span></a>
+			&nbsp;
+			<a href="/search-wildcard-phonetic.html">Phonetic <span class='res-full'>Search</span></a>
+		</div>
+		<form method='get' action='/search.php' class='clearAfter'>
+			<label for="livesearch-main" style="display: none;">Search:</label>
+			<input type="text" id="livesearch-main" name="searchterm" class="livesearch placeholder input-text search-text webkit-speech" placeholder="Enter a search term" value="" maxlength="50" accesskey="s" tabindex="2" />
+			<input type="submit" value="Search" class="input-button search-button" />
+		</form>
+	</div>
+
+	<div id='nav' class='nav clearAfter'>
+		<ul>
+			<li class='nav-home'>
+				<a class='nav-item' href='/' title="Return to home page"><span>
+					<img alt='Home' src='//images.ddccdn.com/img/pixel.gif' width='13' height='14' />
+				</span></a>
+			</li>
+			<li class='nav-drugs'>
+				<a class='nav-item' href='/drug_information.html'><span>Drugs<span class='res-full'> A-Z</span></span></a>
+			</li>
+			<li class='nav-pill-id'>
+				<a class='nav-item' href='/pill_identification.html'><span>Pill Id<span class='res-full'>entifier</span></span></a>
+			</li>
+			<li class='nav-interactions'>
+				<a class='nav-item' href='/drug_interactions.html'><span>Interactions<span class='res-full'> Checker</span></span></a>
+			</li>
+			<li class='nav-news'>
+				<a class='nav-item' href='/news.html'><span>News</span></a>
+			</li>
+			<li class='nav-pro'>
+				<a class='nav-item' href='/professionals.html'><span><span class='res-full'>Health </span>Professionals</span></a>
+			</li>
+			<li class='nav-community'>
+				<a class='nav-item' href='/answers/'><span>Q &amp; A</span></a>
+			</li>
+			<li class='nav-mednotes'>
+				<a class='nav-item' href='https://www.drugs.com/mednotes/'><span>Mednotes</span></a>
+			</li>
+			<li class='nav-apps'>
+				<a class='nav-item' href='/apps/'><span>Apps</span></a>
+			</li>
+		</ul>
+		<script>
+			$('<div />').load('/js/subnav.html', function(){
+				$(this).children('ul').each(function(){
+					var navId = '.' + $(this).attr('class').replace('subnav-', 'nav-');
+					$(navId).addClass('subnav').append($(this));
+				});
+			});
+		</script>
+	</div>
+</div>
+
+
+
+<div id='contentWrap' class='clearAfter'>
+<div id='content' class='content'>
+
+<!-- google_ad_section_start -->
+
+
+<div class='homeIntro'>
+	<div id='homePromo' class='homePromo'>
+		<ul>
+<li id='promoLink-1' class='promoLink selected'><a href='/rheumatoid-arthritis.html'>Treating RA Pain</a></li>
+<li id='promoLink-2' class='promoLink'><a href='/pill_identification.html'>Pill Identifier</a></li>
+<li id='promoLink-3' class='promoLink'><a href='/drug_interactions.html'>Interactions Checker</a></li>
+<li id='promoLink-4' class='promoLink'><a href='/symptom-checker/'>Symptom Checker</a></li>
+<li id='promoLink-5' class='promoLink'><a href='/search-wildcard-phonetic.html'>Medical Transcription</a></li>
+
+		</ul>
+
+		<div id='promoBox-1' class='promoBox promoBox-1 promoBox-active' data-index='1' data-link="Treating RA Pain">
+			<div class='promoText'>
+				<p class='promoTitle'>Could your pain be related to <b>Rheumatoid Arthritis</b>?</p>
+				<p>Learn about the signs and symptoms of Rheumatoid Arthritis and the options available for treatment.</p>
+			</div>
+			<a class='input-button' href='/rheumatoid-arthritis.html'>Learn More</a>
+		</div>
+		<div id='promoBox-2' class='promoBox' data-index='2' data-link="Pill Identifier">
+			<div class='promoText'>
+				<p class='promoTitle'>Having trouble identifying pills? Try the <b>Pill Identifier</b></p>
+				<p>Quickly identify pills, tablets and capsules using the web’s most comprehensive Pill Identification Wizard.</p>
+			</div>
+			<a class='input-button' href='/pill_identification.html'>Get Started</a>
+		</div>
+		<div id='promoBox-3' class='promoBox' data-index='3' data-link="Interactions Checker">
+			<div class='promoText'>
+				<p class='promoTitle'>Worried about drug interactions? Use the <b>Interactions Checker</b></p>
+				<p>The drug interactions tool allows you to check for drug-drug and drug-food interactions.</p>
+			</div>
+			<a class='input-button' href='/drug_interactions.html'>Get Started</a>
+		</div>
+		<div id='promoBox-4' class='promoBox' data-index='4' data-link="Symptom Checker">
+			<div class='promoText'>
+				<p class='promoTitle'>Discover treatment options with the new <b>Symptom Checker</b></p>
+				<p>This interactive decision guide helps identify the underlying cause of common symptoms.</p>
+			</div>
+			<a class='input-button' href='/symptom-checker/'>Get Started</a>
+		</div>
+		<div id='promoBox-5' class='promoBox' data-index='6' data-link="Medical Transcription">
+			<div class='promoText'>
+				<p class='promoTitle'>Custom search for <b>Medical Transcriptionists</b>?</p>
+				<p>Use our custom wildcard and phonetic search to assist in identifying drugs where the exact spelling is unknown and only the pronunciation is available.</p>
+			</div>
+			<a class='input-button' href='/search-wildcard-phonetic.html'>Get Started</a>
+		</div>
+	</div>
+</div>
+<div class='homeMain'>
+<div class="contentBox">
+<h1>Welcome to Drugs.com</h1>
+<p class='homeIntroText'>Drugs.com is the most popular, comprehensive and up-to-date source of drug information online. Providing free, peer-reviewed, accurate and independent data on more than 24,000 prescription drugs, over-the-counter medicines &amp; natural products. Find helpful tools, wallet size personal medication records, mobile applications and more.</p>
+<div class='boxList boxListHome'>
+	<h2>Featured Topic Centers</h2>
+	<ul class='noVisit'>
+		<li><a href='/health/multiple-sclerosis/' onClick="_gaq.push(['_trackEvent', 'Sponsor Center', 'Tysabri', 'HomeFeatured']);">Multiple Sclerosis Assessment</a></li>
+		<li><a href='/health/hiv-aids/animations-1182/' onClick="_gaq.push(['_trackEvent', 'Sponsor Center', 'Prezista', 'HomeFeatured']);">Treatments for HIV</a></li>
+	</ul>
+</div>
+</div></div><div class='homeSide'>
+<div class="homeBox sideBoxHomeWelcome">
+	<div class="sideBoxHead">
+		<div class="sideBoxTitle">Featured Services</div>
+	</div>
+	<div class="sideBoxContent">
+			<div class='column-split'>
+				<ul id='featured-list-1'>
+					<li><a href="/drug_information.html">A to Z Drug List</a></li>
+					<li><a href="/medical_conditions.html">Drugs by Condition</a></li>
+					<li><a href="/pill_identification_drug_picture.html">Pill Identifier</a></li>
+					<li><a href="/sfx/">Drug Side Effects</a></li>
+					<li><a href="/dosage/">Drug Dosage</a></li>
+					<li><a href="/drug_interactions.html">Interactions Checker</a></li>
+					<li><a href="/news.html">News &amp; Articles</a></li>
+					<li><a href="/fda_alerts.html">FDA Drug Alerts</a></li>
+					<li><a href="/newdrugs.html">New Drug Approvals</a></li>
+					<li><a href="/new-drug-applications.html">New Drug Applications</a></li>
+					<li><a href="/imprints.html">Drug Imprint Codes</a></li>
+					<li><a href="/international/">International Drugs</a></li>
+					<li><a href="/drug-classes.html">Drugs by Category</a></li>
+					<li><a href="/pregnancy/">Pregnancy Warnings</a></li>
+					<li><a href="/article/emergency-contraceptive-pill.html">Emergency Contraception</a></li>
+					<li><a href="/inactive/">Inactive Ingredients</a></li>
+					<li><a href="/video/">Video Center</a></li>
+									</ul>
+			</div>
+			<div class='column-split'>
+				<ul id='featured-list-2'>
+					<li><a href="/otc/">OTC Database</a> <img src="//images.ddccdn.com/img/label/new.gif" alt="new" /></li>
+					<li><a href="/conferences/">Medical Conferences</a></li>
+					<li><a href="/health-guide/">Health Guides</a></li>
+					<li><a href="/symptom-checker/">Symptom Checker</a></li>
+					<li><a href="/fda-consumer/">FDA Consumer Updates</a></li>
+					<li><a href="https://www.drugs.com/mednotes/">Medication Record</a></li>
+					<li><a href="/clinical_trials.html">Clinical Trial Results</a></li>
+					<li><a href="/medical_encyclopedia.html">Medical Encyclopedia</a></li>
+					<li><a href="/medical_dictionary.html">Medical Dictionary</a></li>
+					<li><a href="/care_notes.html">Patient Care Notes</a></li>
+					<li><a href="/professionals.html">For Professionals</a></li>
+					<li><a href="/availability/">Generic Drugs</a></li>
+					<li><a href="/vet/">Veterinary Drugs</a></li>
+					<li><a href="/article/">Popular Articles</a></li>
+					<li><a href="/article/drug-substance-abuse.html">Commonly Abused Drugs</a></li>
+					<li><a href="/mtm_esp/">Info en Espa&ntilde;ol</a></li>
+					<li><a href="/apps/">Mobile Apps</a></li>
+				</ul>
+			</div>
+	</div>
+</div>
+<div class='sideBoxAd sideBoxHomepage300'><div id='div-gpt-ddcad-1'><script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ddcad-1'); });</script></div></div>
+<div class="sideBox sideBoxTop100">
+  <div class="sideBoxHead">
+  	<div class="sideBoxTitle">Top 100 Drugs</div>
+  </div>
+	<div class="sideBoxContent">
+		<a class='top200sales' href="/stats/top100/sales">Top 100 by sales</a>
+<table id='sidebox-top-100-drugs' style="width: 100%">
+<tr>
+<td style="vertical-align:top;">
+	<a href="/abilify.html">Abilify</a><br>
+	<a href="/accutane.html">Accutane</a><br>
+	<a href="/actonel.html">Actonel</a><br>
+	<a href="/adderall.html">Adderall</a><br>
+	<a href="/adipex.html">Adipex</a><br>
+	<a href="/advair.html">Advair</a><br>
+	<a href="/allegra.html">Allegra</a><br>
+	<a href="/ambien.html">Ambien</a><br>
+	<a href="/amitiza.html">Amitiza</a><br>
+	<a href="/arava.html">Arava</a><br>
+	<a href="/aricept.html">Aricept</a><br>
+	<a href="/avodart.html">Avodart</a><br>
+	<a href="/boniva.html">Boniva</a><br>
+	<a href="/botox.html">Botox</a><br>
+	<a href="/byetta.html">Byetta</a><br>
+	<a href="/carvedilol.html">Carvedilol</a><br>
+	<a href="/celebrex.html">Celebrex</a><br>
+	<a href="/celexa.html">Celexa</a><br>
+	<a href="/chantix.html">Chantix</a><br>
+	<a href="/cialis.html">Cialis</a><br>
+	<a href="/cimzia.html">Cimzia</a><br>
+	<a href="/ciprofloxacin.html">Ciprofloxacin</a><br>
+	<a href="/claritin.html">Claritin</a><br>
+	<a href="/clomid.html">Clomid</a><br>
+	<a href="/coumadin.html">Coumadin</a><br>
+	<a href="/crestor.html">Crestor</a><br>
+	<a href="/cyclobenzaprine.html">Cyclobenzaprine</a><br>
+	<a href="/cymbalta.html">Cymbalta</a><br>
+	<a href="/dexamethasone.html">Dexamethasone</a><br>
+	<a href="/dilaudid.html">Dilaudid</a><br>
+	<a href="/diovan.html">Diovan</a><br>
+	<a href="/diovan.html">Diphenhydramine</a><br>
+	<a href="/dopamine.html">Dopamine</a><br>
+	<a href="/effexor.html">Effexor</a><br>
+	<a href="/enbrel.html">Enbrel</a><br>
+	<a href="/ephedrine.html">Ephedrine</a><br>
+	<a href="/femara.html">Femara</a><br>
+	<a href="/fish_oil.html">Fish Oil</a><br>
+	<a href="/flomax.html">Flomax</a><br>
+	<a href="/folic_acid.html">Folic Acid</a><br>
+	<a href="/fosamax.html">Fosamax</a><br>
+	<a href="/gabapentin.html">Gabapentin</a><br>
+	<a href="/gardasil.html">Gardasil</a><br>
+	<a href="/geodon.html">Geodon</a><br>
+	<a href="/humira.html">Humira</a><br>
+</td>
+<td style="vertical-align:top;">
+	<a href="/hydrocodone.html">Hydrocodone</a><br>
+	<a href="/insulin.html">Insulin</a><br>
+	<a href="/keppra.html">Keppra</a><br>
+	<a href="/lamictal.html">Lamictal</a><br>
+	<a href="/lasix.html">Lasix</a><br>
+	<a href="/levaquin.html">Levaquin</a><br>
+	<a href="/levitra.html">Levitra</a><br>
+	<a href="/lexapro.html">Lexapro</a><br>
+	<a href="/lipitor.html">Lipitor</a><br>
+	<a href="/lisinopril.html">Lisinopril</a><br>
+	<a href="/lithium.html">Lithium</a><br>
+	<a href="/loratadine.html">Loratadine</a><br>
+	<a href="/losartan.html">Losartan</a><br>
+	<a href="/lotrel.html">Lotrel</a><br>
+	<a href="/losartan.html">Losartan</a><br>
+	<a href="/lunesta.html">Lunesta</a><br>
+	<a href="/lyrica.html">Lyrica</a><br>
+	<a href="/melatonin.html">Melatonin</a><br>
+	<a href="/meloxicam.html">Meloxicam</a><br>
+	<a href="/metformin.html">Metformin</a><br>
+	<a href="/methadone.html">Methadone</a><br>
+	<a href="/methotrexate.html">Methotrexate</a><br>
+	<a href="/mirapex.html">Mirapex</a><br>
+	<a href="/mirena.html">Mirena</a><br>
+	<a href="/mirtazapine.html">Mirtazapine</a><br>
+	<a href="/namenda.html">Namenda</a><br>
+	<a href="/naproxen.html">Naproxen</a><br>
+	<a href="/nasonex.html">Nasonex</a><br>
+	<a href="/neurontin.html">Neurontin</a><br>
+	<a href="/nexium.html">Nexium</a><br>
+	<a href="/nizoral.html">Nizoral</a><br>
+	<a href="/norco.html">Norco</a><br>
+	<a href="/norvasc.html">Norvasc</a><br>
+	<a href="/omeprazole.html">Omeprazole</a><br>
+	<a href="/orencia.html">Orencia</a><br>
+	<a href="/oxycodone.html">Oxycodone</a><br>
+	<a href="/oxycontin.html">Oxycontin</a><br>
+	<a href="/pantoprazole.html">Pantoprazole</a><br>
+	<a href="/paxil.html">Paxil</a><br>
+	<a href="/paracetamol.html">Paracetamol</a><br>
+	<a href="/percocet.html">Percocet</a><br>
+	<a href="/phentermine.html">Phentermine</a><br>
+	<a href="/plan-b.html">Plan B</a><br>
+	<a href="/plavix.html">Plavix</a><br>
+	<a href="/pravastatin.html">Pravastatin</a><br>
+</td>
+<td style="vertical-align:top;">
+	<a href="/prednisone.html">Prednisone</a><br>
+	<a href="/prevacid.html">Prevacid</a><br>
+	<a href="/prilosec.html">Prilosec</a><br>
+	<a href="/promethazine.html">Promethazine</a><br>
+	<a href="/propecia.html">Propecia</a><br>
+	<a href="/protonix.html">Protonix</a><br>
+	<a href="/provigil.html">Provigil</a><br>
+	<a href="/prozac.html">Prozac</a><br>
+	<a href="/pulmicort.html">Pulmicort</a><br>
+	<a href="/remicade.html">Remicade</a><br>
+	<a href="/rituxan.html">Rituxan</a><br>
+	<a href="/senna.html">Senna</a><br>
+	<a href="/seroquel.html">Seroquel</a><br>
+	<a href="/sertraline.html">Sertraline</a><br>
+	<a href="/simvastatin.html">Simvastatin</a><br>
+	<a href="/singulair.html">Singulair</a><br>
+	<a href="/soma.html">Soma</a><br>
+	<a href="/spiriva.html">Spiriva</a><br>
+	<a href="/suboxone.html">Suboxone</a><br>
+	<a href="/synvisc.html">Synvisc</a><br>
+	<a href="/tamiflu.html">Tamiflu</a><br>
+	<a href="/tamoxifen.html">Tamoxifen</a><br>
+	<a href="/tamsulosin.html">Tamsulosin</a><br>
+	<a href="/taxol.html">Taxol</a><br>
+	<a href="/testosterone.html">Testosterone</a><br>
+	<a href="/thyroid.html">Thyroid</a><br>
+	<a href="/topamax.html">Topamax</a><br>
+	<a href="/tramadol.html">Tramadol</a><br>
+	<a href="/trazodone.html">Trazodone</a><br>
+	<a href="/tylenol.html">Tylenol</a><br>
+	<a href="/ultram.html">Ultram</a><br>
+	<a href="/valtrex.html">Valtrex</a><br>
+	<a href="/viagra.html">Viagra</a><br>
+	<a href="/vicodin.html">Vicodin</a><br>
+	<a href="/vimovo.html">Vimovo</a><br>
+	<a href="/voltaren.html">Voltaren</a><br>
+	<a href="/vytorin.html">Vytorin</a><br>
+	<a href="/wellbutrin.html">Wellbutrin</a><br>
+	<a href="/xanax.html">Xanax</a><br>
+	<a href="/xenical.html">Xenical</a><br>
+	<a href="/zetia.html">Zetia</a><br>
+	<a href="/zocor.html">Zocor</a><br>
+	<a href="/zoloft.html">Zoloft</a><br>
+	<a href="/zyprexa.html">Zyprexa</a><br>
+	<a href="/zyrtec.html">Zyrtec</a><br>
+</td>
+</tr>
+</table>
+<div class="top100more">
+	<a href="/drugname.html">More A-K</a> ·
+	<a href="/drugname_1.html">More L-Z</a> ·
+	<a href="/drug-classes.html">By Class</a> ·
+	<a href="/uk/">UK Medicines</a>
+</div>	</div>
+</div>
+<div class='sideBox sideBoxSuppliers'>
+	<div class='sideBoxContent'>
+		<b>For Consumers</b>
+		<ul>
+			<li><a href='/cdi/'>MedFacts Drug Information</a></li>
+			<li><a href='/mtm/'>Cerner Multum Drug Information</a></li>
+			<li><a href='/cons/'>Micromedex Advanced Consumer</a></li>
+			<li><a href='/npc/'>MedFacts Natural Products</a></li>
+		</ul>
+		<b>For Professionals</b>
+		<ul>
+			<li><a href='/pro/'>FDA Professional Information</a></li>
+			<li><a href='/ppa/'>A-Z Drug Facts (Facts &amp; Comparisons)</a></li>
+			<li><a href='/monograph/'>ASHP Monographs (AHFS DI)</a></li>
+			<li><a href='/care_notes.html'>Micromedex Carenotes</a></li>
+			<li><a href='/npp/'>MedFacts Natural Products</a></li>
+		</ul>
+		<b>For Researchers</b>
+		<ul>
+			<li><a href='/stats/top100/sales'>U.S. Pharmaceutical Sales Statistics</a></li>
+			<li><a href='/pharmaceutical-companies.html'>Pharmaceutical Company Directory</a></li>
+		</ul>
+		<b>Announcements</b>
+		<ul>
+			<li><a href='/pdr/'>Physician's Desk Reference (PDR)</a></li>
+		</ul>
+	</div>
+</div>
+
+    <div class="sideBox sideBoxDrugsApproved">
+    	<div class="sideBoxHead">
+    		<div class="sideBoxTitle">Latest FDA New Drug Approvals</div>
+      </div>
+    	<div class="sideBoxContent">
+<ul id='sidebox-drugs-approved'>
+<li><p><a href="http://www.drugs.com/mtm/nimodipine.html">Nymalize</a><br><span class='light'>Nymalize (nimodipine) is a calcium channel blocker indicated to improve neurological outcome following subarachnoid hemorrhage.</span></p></li><li><p><a href="http://www.drugs.com/breo-ellipta.html">Breo Ellipta</a><br><span class='light'>Breo Ellipta (fluticasone and vilanterol) is a once-a-day inhaled corticosteroid/long-acting beta2 agonist (LABA) combination indicated for ...</span></p></li><li><p><a href="http://www.drugs.com/liptruzet.html">Liptruzet</a><br><span class='light'>Liptruzet (atorvastatin and ezetimibe) is a 
+statin (HMG-CoA reductase inhibitor) and cholesterol absorption inhibitor combination ...</span></p></li></ul>
+	    <p><a class='icon iconGo' href="/newdrugs.html">More...</a></p>
+	    </div>
+	 </div>
+<div class="sideBox sideBoxDrugsNotApproved">
+	<div class="sideBoxHead">
+		<div class="sideBoxTitle">Drugs in Development</div>
+		<p class='normal tiny light'>(Not yet approved)</p>
+	</div>
+	<div class="sideBoxContent">
+<ul id='sidebox-drugs-not-approved'>
+<li><p><a href="/nda/suvorexant_130522.html">suvorexant</a><br><span class='light'>Suvorexant is an orexin receptor antagonist in development for use in patients with difficulty falling or staying asleep.</span></p></li><li><p><a href="/nda/simeprevir_130513.html">simeprevir</a><br><span class='light'>Simeprevir is an investigational NS3/4A protease inhibitor in development for the treatment of chronic hepatitis C.</span></p></li><li><p><a href="/nda/tivozanib_130502.html">tivozanib</a><br><span class='light'>Tivozanib is an oral, once-daily, investigational tyrosine kinase inhibitor in development for the treatment of advanced renal cell ...</span></p></li></ul>
+
+		<p><a class='icon iconGo' href="/new-drug-applications.html">More...</a></p>
+	</div>
+</div>
+</div><div class='homeMain'>
+<div class='contentHead'>
+<div class="headerTitleLeft headerTitleHome"><h2>Daily Medical News</h2><a href="/rss.html" class="rss">RSS</a></div></div>
+<div class="contentBox">
+<div class='newsItem'>
+<h2><a href="/news/could-statins-raise-diabetes-risk-44700.html">Could Statins Raise Diabetes Risk?</a></h2>
+<p>THURSDAY, May 23 -- Certain statins -- the widely used cholesterol-lowering drugs -- may increase your chances of developing type 2 diabetes, a new study suggests. The risk was greatest for patients taking atorvastatin (brand name Lipitor), rosuvastatin (Crestor) and simvastatin (Zocor), the study said. Focusing on almost 500,000 Ontario residents, researchers in Canada found that the overall...</p>
+</div>
+<div class='newsItem'>
+<h2><a href="/news/modified-polio-virus-may-help-fight-brain-tumors-study-suggests-44698.html">Modified Polio Virus May Help Fight Brain Tumors, Study Suggests</a></h2>
+<p>THURSDAY, May 23 -- A modified version of the polio virus might one day help fight brain tumors, preliminary research suggests. Scientists at Duke Cancer Institute said the investigational therapy, known as PVSRIPO, uses an engineered form of the virus that is harmless to normal cells, but attacks cancer cells. The therapy shows promise in the treatment of glioblastoma, the most common and...</p>
+</div>
+<div class='newsItem'>
+<h2><a href="/news/glucosamine-supplements-tied-risk-eye-condition-44697.html">Glucosamine Supplements Tied to Risk of Eye Condition</a></h2>
+<p>THURSDAY, May 23 -- Glucosamine supplements that millions of Americans take to help treat hip and knee osteoarthritis may have an unexpected side effect: They may increase risk for developing glaucoma, a small new study of older adults suggests. Glaucoma occurs when there is an increase of intraocular pressure (IOP) or pressure inside the eye. Left untreated, glaucoma is one of the leading causes...</p>
+</div>
+<p><a href="/medical-news.html">More...</a></p></div>
+<div class='contentHead'>
+<div class="headerTitleLeft headerTitleHome"><h2>Latest Pharma Industry News</h2><a href="/rss.html" class="rss">RSS</a></div></div>
+<div class="contentBox">
+<div class='newsItem'>
+<h2><a href="/nda/suvorexant_130522.html">Merck Statement on FDA Advisory Committee Meeting for Suvorexant </a></h2>
+<p>WHITEHOUSE STATION, N.J., May 22, 2013 -- Merck, known as MSD outside the United States and Canada, today provided the following statement after the conclusion of the Peripheral and Central Nervous System Drugs Advisory Committee meeting of the U.S. Food and Drug Administration (FDA) about suvorexant, Merck’s investigational medicine to treat insomnia.
+
+“We are excited about the potential...</p>
+</div>
+<div class='newsItem'>
+<h2><a href="/newdrugs/fda-approves-xofigo-advanced-prostate-cancer-3790.html">FDA Approves Xofigo for Advanced Prostate Cancer</a></h2>
+<p>May 15, 2013 -- The U.S. Food and Drug Administration today approved Xofigo (radium Ra 223 dichloride) to treat men with symptomatic late-stage (metastatic) castration-resistant prostate cancer that has spread to bones but not to other organs. It is intended for men whose cancer has spread after receiving medical or surgical therapy to lower testosterone.
+ 
+Prostate cancer forms in a gland in...</p>
+</div>
+<div class='newsItem'>
+<h2><a href="/newdrugs/fda-approves-simponi-ulcerative-colitis-3789.html">FDA Approves Simponi to Treat Ulcerative Colitis
+</a></h2>
+<p>May 15, 2013 -- The U.S. Food and Drug Administration today approved a new use for Simponi (golimumab) injection to treat adults with moderate to severe ulcerative colitis.
+
+Simponi works by blocking tumor necrosis factor (TNF), which plays an important role in causing abnormal inflammatory and immune responses. Previously approved to treat rheumatoid arthritis, psoriatic arthritis and...</p>
+</div>
+<p><a href="/pharmanews.html">More...</a></p></div>
+<div class='contentHead'>
+<div class="headerTitleLeft headerTitleHome"><h2>Latest Additions to Drugs.com</h2></div></div>
+<div class="contentBox">
+<p>Recently added consumer and prescribing information: <a href="/breo-ellipta.html">Breo Ellipta</a>, <a href="/suvorexant.html">Suvorexant</a>, <a href="/liptruzet.html">Liptruzet</a>, <a href="/procysbi.html">Procysbi</a>, <a href="/kcentra.html">Kcentra</a>, <a href="/simbrinza.html">Simbrinza</a>, <a href="/sitavig.html">Sitavig</a>, <a href="/diclegis.html">Diclegis</a>, <a href="/dotarem.html">Dotarem</a>, <a href="/invokana.html">Invokana</a></p><div class='newsItem'>
+<h2><a href="http://blog.drugs.com/2013/05/q1-2013-drug-sales-data-released-rough-u-s-flu-season-boosts-numbers-for-tamiflu/">Q1 2013 Drug Sales Data Released: Rough U.S Flu Season Boosts Numbers for Tamiflu</a></h2>
+<p>The latest U.S. drug sales data has been released by Drugs.com. The top five drugs have minor shifts in rank but exhibit positive growth for Q1 2013. Abilify, Otsuka’s second generation antipsychotic, and Nexium, AstraZeneca’s leading acid blocker, rank as the top two drugs by sales for the fourth quarter in a row. Both agents ...</p>
+</div>
+<div class='newsItem'>
+<h2><a href="http://blog.drugs.com/2013/04/drugs-com-receives-fourth-webby-nomination/">Drugs.com Receives Fourth Webby Nomination!</a></h2>
+<p>We are extremely proud to announce that Drugs.com has been nominated for the prestigious Webby Awards. Kudos to the hard working team! This is their fourth nomination in five years. To yet again be judged among the Internet&#8217;s top 5 health web sites is indeed an honor. But wait, there&#8217;s more&#8230; we need your vote! The ...</p>
+</div>
+<div class='newsItem'>
+<h2><a href="http://blog.drugs.com/2013/03/drugs-com-launches-new-ios-and-android-app/">Drugs.com Launches New iOS and Android Medication Guide</a></h2>
+<p>Today we are officially launching a new consumer tool to join other leading Drugs.com apps &#8211; the Drugs.com Medication Guide. Patients and caregivers will have instant access to their most recent personal medication records, the latest advice on drug therapy and medical conditions, and breaking health news tailored to their needs. In addition, consumers can ...</p>
+</div>
+See <a href="http://blog.drugs.com">more blog posts</a> or follow us on <a href="http://twitter.com/drugscom">twitter</a>.<br/><br/></div></div>
+<!-- google_ad_section_end -->
+
+
+<div class='scripts'>
+<script>
+	DDC.Search.init();
+</script>
+
+</div>
+
+</div>
+
+<div id='sidebar'>
+
+
+<div class='sideBox sideBoxAccount sideBoxSignedOut' >
+	<a class='noVisit' href='/account/login/'>Sign In</a> <span>or</span> <a class='noVisit' href='/account/register/'>Register</a>
+</div>
+
+<div class="sideBox sideBoxTop100Graph">
+	<div class="sideBoxContent">
+		<h2>Top 100 Drugs</h2>
+        <img width="136" height="72" alt="Top 100 Graph" src="//images.ddccdn.com/img/top100-graph.png">
+        <p>U.S. Prescription<br>Sales Data<br><span class="updated">Updated Quarterly</span></p>
+        <a class="input-button" href="http://www.drugs.com/stats/top100/sales">View Stats</a>
+	</div>
+</div>
+<div class='sideBox sideBoxSocial'>
+	<table style='margin: 0 auto;'>
+		<tr style='vertical-align: top;'>
+			<td style='padding-right: 12px;'><div class='fb-like' data-href='http://www.drugs.com/' data-layout='box_count'></div></td>
+			<td><div class='g-plusone' data-href='http://www.drugs.com/' data-size='tall'></div></td>
+			
+			
+		</tr>
+	</table></div><!-- FDA Consumer Updates -->
+<div class='sideBox fdaBox'>
+	<div class='sideBoxHead'>
+		<div class='sideBoxTitle'><b>FDA</b> <span>Consumer</span> Updates</div>
+	</div>
+	<div class='sideBoxContent'>
+		<ul class='list listBullet'>
+		  <li><a href='/fda-consumer/fda-helps-women-get-heart-smart-260.html'>FDA Helps Women Get Heart Smart</a></li>
+			<li><a href='/fda-consumer/stay-safe-in-the-summer-sun-259.html'>Stay Safe in the Summer Sun</a></li>
+			<li><a href='/fda-consumer/medications-target-long-term-weight-control-223.html'>Medications Target Long-Term Weight Control</a></li>
+			<li><a href='/fda-consumer/fda-works-to-reduce-risk-of-opioid-pain-relievers-221.html'>FDA Works to Reduce Risk of Opioid Pain Relievers</a></li>
+		</ul>
+		<p><a href="/fda-consumer/" class="more">More FDA updates...</a></p>
+	</div>
+</div>
+<div class='sideBoxAd sideBoxMiddleAd sideBoxFloatRight'>
+<div id='div-gpt-ddcad-2'><script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ddcad-2'); });</script></div></div><div class='sideBox sideBoxSubscribe'>
+	<div class='sideBoxHead'>
+		<div class='sideBoxTitle'>Updates by Email</div>
+	</div>
+	<div class='sideBoxContent'>
+		<b>Email me:</b>
+		<div class='sideBoxDivider'></div>
+		<form action='/email-subscribe.php' method='post'>
+			<input type='checkbox' id='subscribeFdaAlerts' name='fdaalerts' value='1' />
+			<label for='subscribeFdaAlerts'>FDA Medwatch Alerts </label>
+
+      <div class='sideBoxDivider'></div>
+
+			<input type='checkbox' id='subscribeNewsletter' name='newsletter' value='1' />
+			<label for='subscribeNewsletter'>News Roundup</label>
+			<select name="newsletter_option">
+			  <option value="Daily">Daily</option>
+			  <option value="Weekly">Weekly</option>
+			  <option value="Monthly">Monthly</option>
+			</select>
+
+			<div class='sideBoxDivider'></div>
+
+			<label for='subscribeEmail' style='display: none;'>Email</label>
+			<input type='text' id='subscribeEmail' name='email' class='email placeholder' placeholder="Enter your email here"  style='width: 130px; margin-bottom: 6px;' />
+			<input type='submit' class='input-button' value='Submit' />
+		</form>
+	</div>
+	<script>
+		if(document.getElementById('subscribeEmail').value.length > 0) document.getElementById('subscribeEmail').style.background = '#FFF';
+	</script>
+</div>
+<div class='sideBoxAd sideBoxDrugsAds'>
+	<div class='sideBoxContent' id='ddca'></div>
+	<script src="/js/ddca.php"></script>
+</div>
+</div>
+</div>
+<!--Start Footer-->
+<div id='footer' class='clearAfter'>
+	<div class='footerTitle clearAfter'>
+		<div class='footLinks'>Support</div>
+		<div class='footAbout'>About Drugs.com</div>
+		<div class='footPrivacy'>Your Privacy</div>
+	</div>
+	<div class='footerContent clearAfter'>
+		<div class='footLinks'>
+			<ul id='footer-support'>
+				<li><a href='/support/'>Support Center</a></li>
+				<li><a href='/support/advertising.html'>Advertise With Us</a></li>
+				<li><a href='/support/faq.html'>Frequently Asked Questions</a></li>
+				<li><a href='/answers/'>Ask a Question</a></li>
+				<li><a href='/support/submit.html'>Content Submissions</a></li>
+				<li><a href='/support/about.html'>About Drugs.com</a></li>
+				<li><a href='/support/contact.html'>Contact Us</a></li>
+				<li><a href='/sitemap.html'>Sitemap</a></li>
+			</ul>
+			<p class='clearAfter'>
+				<span style='float: left; padding-right: 6px;'>Follow:</span>
+				<a class='icon iconOnly iconGPlus' title='Drugs.com on Google Plus' href='https://plus.google.com/+drugscom' target='_blank' style='float: left; margin-top: 1px;'>Google+</a>
+				<a class='icon iconOnly iconFacebook' title='Drugs.com on Facebook' href='http://www.facebook.com/Drugscom' target='_blank' style='float: left; margin-top: 1px;'>Facebook</a>
+				<a class='icon iconOnly iconTwitter' title='Drugs.com on Twitter' href='http://twitter.com/drugscom' target='_blank' style='float: left; margin-top: 1px;'>Twitter</a>
+				<a class='icon iconOnly iconYoutube' title='Drugs.com on YouTube' href='http://www.youtube.com/user/drugscom' target='_blank' style='float: left; margin-top: 1px;'>YouTube</a>
+			</p>
+		</div>
+		<div class='footAbout'>
+			<p>Drugs.com provides accurate and independent information on more than 24,000 prescription drugs, over-the-counter medicines and natural products. This material is provided for educational purposes only and is not intended for medical advice, diagnosis or treatment.</p>
+			<p>Data sources include Micromedex&trade; (updated May 16th, 2013), Cerner Multum&trade; (updated May 20th, 2013), Wolters Kluwer&trade; (updated Apr 30th, 2013) and  others. To view content sources and attributions, refer to our <a href='/support/editorial_policy.html'>editorial policy</a>.</p>
+			<p>Copyright &copy; 2000-2013 Drugs.com. All rights reserved.</p>
+		</div>
+		<div class='footPrivacy'>
+			<img src='//images.ddccdn.com/img/layout/privacy-sprite.png' width='150' height='155' usemap='#footPrivacyImage' alt='Privacy information with TRUSTe, HONcode and Ad Choices' />
+			<map id='footPrivacyImage' name='footPrivacyImage' title='Privacy information with TRUSTe, HONcode and Ad Choices'>
+				<area shape='rect' coords='0,0,150,44' href='//privacy.truste.com/privacy-seal/Drugs-com/validation?rid=d18cba4a-afc4-4863-af81-8262bb120271' target='_blank' alt='TRUSTe' title='Reviewed by TRUSTe site privacy statement' rel='nofollow' />
+				<area shape='rect' coords='0,117,125,155' href='/support/privacy/advertising.html' target='_blank' alt='Ad Choices' title='Concerning Third Party Advertising' />
+			</map>
+			<p style='position: absolute; top: 60px; left: 68px;'>We comply with the HONcode standard for trustworthy health information.<br><a class='nowrap' href='http://www.hon.ch/HONcode/Conduct.html?HONConduct756274' target='_blank'>Verify here</a></p>
+			<p style='padding-top: 6px;'><a href='/support/terms.html'>Terms of Use</a> &middot; <a href='/support/privacy.html'>Privacy Policy</a></p>
+		</div>
+	</div>
+</div>
+<!--End Footer-->
+
+
+</div>
+
+<div id="bottom">
+ (web2)</div>
+
+<div class='scripts'>
+
+<script>
+(function(w, d, s) {
+	function go(){
+		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.src = url; js.id = id;
+		fjs.parentNode.insertBefore(js, fjs);
+	};
+
+load('//connect.facebook.net/en_US/all.js', 'fbjssdk');
+window.fbAsyncInit = function() {
+  FB.init({ appId : '110059425716895', channelUrl : '//www.drugs.com/facebook-channel.html', status : true, cookie : false, xfbml : true });
+  FB.Event.subscribe('edge.create', function(targetUrl) { _gaq.push(['_trackSocial', 'Facebook', 'Like', targetUrl]); });
+};
+load('https://apis.google.com/js/plusone.js', 'gplus1js');
+	 }
+  if (w.addEventListener) { w.addEventListener("load", go, false); }
+  else if (w.attachEvent) { w.attachEvent("onload", go); }
+}(window, document, 'script'));
+
+</script>
+
+
+<script>
+	setTimeout("_gaq.push(['_trackEvent', 'NoBounce', 'Over 30 seconds'])",30000);
+	$(document).ready(DDC.Promo.init);
+	$(document).ready(DDC.Pro.init);
+	$(document).ready(DDC.Resolution.init);
+	$('object').append('<param name="wmode" value="transparent" />');
+	$('embed').attr('wmode', 'transparent');
+	$('.webkit-speech').attr('x-webkit-speech', 'x-webkit-speech');
+	DDC.Placeholder.init();
+</script>
+
+</div></body>
+</html>

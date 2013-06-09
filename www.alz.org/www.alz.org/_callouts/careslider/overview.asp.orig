@@ -1,0 +1,136 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script>
+_udn = "alz.org";
+</script>
+
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='62550139-13',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>home include</title>
+
+
+<style>
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+	#bg-slider{
+		background: url('/_callouts/images/longestday2.jpg') top left no-repeat;
+		height: 308px;
+	}
+	#bttnLearnMore{
+
+	}
+	.bttnRoll{
+		float: right;
+		margin-top: 50px;
+		margin-right: 12px;
+	}
+</style>
+
+<!--[if lt IE 8]>
+	<link class="lfr-css-file" href="/_callouts/moleskine-js/_styles/ie-fix.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!-- start Google Analytics tag -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-493108-1']);
+_gaq.push(['_setDomainName', 'alz.org']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- end Google Analytics tag -->
+
+<script type="text/javascript">
+function RollOver(){
+	document.getElementById('bttnLearnMore').src='/_callouts/images/longestday-learnmore-over.gif';
+}
+function RollOut(){
+	document.getElementById('bttnLearnMore').src='/_callouts/images/longestday-learnmore.gif';
+}
+
+</script>
+
+
+<style>
+.bttnRoll{
+	float: right;
+	clear: both;
+}
+p.activities{
+	width: 172px;
+	float: right;
+	z-index: 3;
+	margin-top: 180px;
+}
+p.activities a,
+p.activities{
+	color: #fff100;
+	font-size: 14px;
+	font-family: 'Arial', Helvetica, sans-serif;
+	 font-family: 'Arial Narrow', sans-serif
+	 font-stretch: condensed;
+}
+p.activities a{
+		text-decoration: underline;
+}
+p.activities a:hover{
+		text-decoration: none;
+}
+
+</style>
+
+
+
+
+</head>
+<body >
+<div id="bg-slider" style="width: 500px;  overflow: hidden;">
+	<br clear="all" />
+
+	<a onclick="_gaq.push(['_trackEvent', 'homepage', 'longest-day', 'main-banner', 1200]);" href="http://thelongestday.alz.org/?utm_source=alz.org&utm_medium=referral&utm_campaign=alz-homepage-banner" onmouseover="RollOver()" onmouseout="RollOut()" class="bttnRoll" target="_blank"><img id="bttnLearnMore" src="/_callouts/images/longestday-learnmore.gif" border="0" /></a>
+	<br clear="all" />
+	<p class="activities"><a onclick="_gaq.push(['_trackEvent', 'homepage', 'longest-day', 'main-banner-activities', 1200]);" href="http://thelongestday.alz.org/home/activities?utm_source=alz.org&utm_medium=referral&utm_campaign=alz-homepage-banner-activities" target="_blank">GET ACTIVITIES IDEAS</a> &gt;</p>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+

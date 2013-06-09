@@ -1,0 +1,569 @@
+@charset "utf-8";
+/* CSS Document */
+img{
+	border: 0px;
+}
+/* ALL TWEAKS AT THE BOTTOM OF THIS SHEET*/
+div.guts{
+
+}
+
+div.guts div.homeTopLine{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Arial', Helvetica, sans-serif;	
+	margin-left: 4px;
+	color: #65378e;
+	margin-top: 20px;
+	border-bottom: 5px solid #65378e;
+	padding-bottom: 5px;
+	width: 504px;
+	display: none;
+}
+
+div.guts h2{
+	font-familY: 'Arial', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal; /* kt changed from bold 10/01/12 */
+	color: #2d2d2d;
+	border-bottom: 4px solid #65378e;
+	width: 500px;
+	padding-bottom: 3px;
+	margin: 0px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-top: 25px;
+	clear: both;
+}
+
+div.guts h2.gray{
+	font-familY: 'Arial', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2d2d2d;
+	border-bottom: 4px solid #b3b3b3;
+	width: 500px;
+	padding-bottom: 3px;
+	margin: 0px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-top: 25px;
+	clear: both;
+}
+/* BEGIN IFRAME FOR FLASH MAP*/
+div.guts iframe.flashMap{
+	margin-top: 8px; 
+	margin-bottom: 0px; 
+	margin-left: 4px; 
+	overflow: hidden; 
+	border: 0px;
+}
+
+/* BEGIN IFRAME FOR SOCIAL*/
+div.guts iframe.social4Map{
+	z-index: 100; 
+	position: static; 
+	margin-top: -20px;
+	margin-left: 10px;
+}
+/* END IFRAME FOR SOCIAL*/
+/* BEGIN IFRAME FOR FLASH MAP*/
+div.guts iframe.petition{
+	margin-top: 7px; 
+	margin-bottom: -1px; 
+	margin-left: 0px; 	 
+	border: 0px;
+	min-height: 264px;
+	width: 506px;
+}
+
+/* BEGIN SOCIAL --
+	THE SOCIAL PLUGIN LIVES IN ANOTHER PAGE AND IS BROUGHT IN VIA IFRAME
+	THE URL FOR THIS PAGE: http://www.alz.org/social4map.asp
+ */
+ /*
+div.FBLike{
+	position: absolute;
+	margin:0;
+	width: 200px;
+	height: 28px;
+	padding: 4px;
+	padding-top: 7px;
+	background:url('http://alz.org/images_custom/home/homepage-fb-bg2.png') top left no-repeat;
+	margin-left: 310px;
+	margin-top: -40px;
+}
+div.FBLike div.hideCopy{
+	
+}
+div.guts div.FBLike div.fb-like{
+	margin-top: -3px;
+	float: left
+}
+div.guts div.FBLike div#___plusone_0{
+	float: left
+}*/
+/*new social for scroller*/
+div.guts div.social{
+	width:494px;
+	padding-left:10px; 
+	margin-top: 0px;
+	margin-left: 4px;
+	margin-top: -165px!important;
+	padding-top: 7px;
+	background: #ff00ff;
+	height: 24px;
+	z-index: 500;
+	position: relative; 
+	background: url(../../alz.org/images_custom/home/social_bg.gif);
+	margin-bottom: 140px;
+}
+div.guts div.social div.FBLike {
+	padding: 0px;
+}
+div.guts div.social div.FBLike div.fb-like{
+}
+div.guts div.social div.FBLike .fb_edge_widget_with_comment{
+	float: left; 
+	margin-right: 10px;
+	margin-left: 180px;
+}
+div.guts div.social div.FBLike div#___plusone_0{
+	float: left!important;
+	margin-left: 10px!important;
+}
+
+div.guts div.social div.FBLike iframe.twitter-share-button{
+	float: left!important;
+	width: 93px!important;
+}
+/*END  SOCIAL */
+/**/
+		
+		
+/* BEGIN SCROLLER IFRAME*/
+.iframeHomeCarousel{
+	overflow: hidden;
+	margin-left: 4px;
+	margin-top: 20px;
+}
+
+
+.iframeHomeCarousel.june{
+	margin-top: 20px;	
+}
+/* END SCROLLER IFRAME*/
+		
+		.breakAfterMap{
+			margin: 0px;
+			font-size: 1px;
+			line-height: 1px;
+		}
+		div.guts div.highlightsMain{
+			width: 498px!important;
+			margin-left: auto;
+			margin-right: auto;
+			background: #fff;
+			border: 1px solid #b3b3b3;
+			color: #2D2D2D;
+			font-family: 'Arial', Helvetica, sans-serif;
+			font-size: 13px;
+			line-height: 19px;
+		}
+		div.guts div.highlightsMain ul{
+			margin: 0px;
+			padding: 0px;
+			margin-top: 8px;
+			font-size: 13px;
+		}
+		div.guts div.highlightsMain ul li{
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+			background-position: top left;
+			background-repeat: no-repeat;
+			margin-left: 10px;
+			padding-left: 137px;
+		}
+		div.guts div.highlightsMain ul li.line{
+			margin: 0px;
+			padding: 0px;
+			background: url('../../alz.org/images_custom/home/homepage-highlights-linebreak.png') bottom center no-repeat;
+			line-height: 3px;
+			margin-bottom: 17px;
+			margin-top: 7px
+		}
+		div.guts div.highlightsMain ul li p{
+			margin: 10px;
+			margin-left: 75px; /* moves text (not image) in Highlights box */
+		}
+		div.guts div.highlightsMain ul li a{
+			color: #00539b;
+			text-decoration: none;
+		}
+		div.guts div.highlightsMain p{
+			margin: 10px;
+		}
+		div.guts div.highlightsMain ul li a:hover{
+			text-decoration: underline;
+		}	
+		div.guts div.highlightsMain a{
+			color: #00539b;
+			text-decoration: none;
+		}
+		div.guts div.highlightsMain a:hover{
+			text-decoration: underline;
+		}			
+		/**/
+		div.guts div.educationNResources{
+			width: 498px;
+			margin-left: auto;
+			margin-right: auto;
+			background: #e7e0ee;
+			border: 1px solid #65378e;
+		}
+		div.guts div.educationNResources div.left{
+			float: left;
+			clear: both;
+			margin-left: 13px;
+		}
+		div.guts div.educationNResources div.right{
+			float: right;
+			margin-right: 30px;
+		}
+		div.guts div.educationNResources div.left, div.guts div.educationNResources div.right{
+			width: 204px;
+			margin-top: 23px;
+			font-size: 12px;
+			line-height: 18px;
+		}
+		div.guts div.educationNResources div.left h2, div.guts div.educationNResources div.right h2{
+			font-size: 16px;
+			font-weight: bold;
+			width: 204px;
+			border: 0px;
+			margin: 0px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		div.guts div.educationNResources div.left h2 a, div.guts div.educationNResources div.right h2 a{
+			font-size: 16px;
+			font-weight: bold;
+			width: 204px;
+			border: 0px;
+			margin: 0px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		div.guts div.educationNResources div.left a, div.guts div.educationNResources div.right a{
+			color: #00539b;
+			text-decoration: none;
+			font-size: 14px;
+		}
+		
+		div.guts div.educationNResources div.left a:hover, div.guts div.educationNResources div.right a:hover{
+			text-decoration: underline;
+		}
+		div.guts div.educationNResources div.left span.blue,div.guts div.educationNResources div.right span.blue{
+			color: #00539b;
+		} 
+		/*news*/
+		
+		div.guts div.news {
+			width: 498px;
+			margin-left: auto;
+			margin-right: auto;
+			background: #fff;
+			border: 1px solid #65378e;
+			font-family: 'Arial', Helvetica, sans-serif;
+			font-size: 14px;
+			padding-top: 7px;
+		}
+		div.guts div.news div.newsItem{
+			margin-left: 12px;
+			background: url('../../alz.org/images_custom/home/homepage_callout-new-bg.png') bottom left repeat-x;
+			border-bottom: 1px solid #c1bcc5;
+			width: 474px;
+		}
+		
+		div.guts div.news div.newsItem div.blurbNImg{
+			padding-top: 8px;
+			padding-bottom: 15px;
+			padding-right: 50px;
+		}
+		div.guts div.news div.newsItem div.blurbNImg img.blurbNImg{
+			float: left;
+			margin-left: 6px;
+			margin-right: 2px;
+		}
+		div.guts div.news div.newsItem div.blurbNImg a{
+			color: #00539b;
+			text-decoration: none;
+			font-size: 14px;
+		}
+		div.guts div.news div.newsItem div.blurbNImg a:hover{
+			text-decoration: underline;
+		}
+		div.guts div.news div.readMore{
+			margin-right: 12px;
+			margin-top: 5px;
+			margin-bottom: 20px;
+		}
+		div.guts div.news div.readMore a{
+			text-decoration: none;
+			color: #00539b;
+			font-size: 13px;
+			font-weight: bold;
+		}
+		div.guts div.news div.readMore a:hover{
+			text-decoration: underline;
+		}
+		div.guts div.news div.form{
+			padding: 0px;
+			background: #e0d7e8;
+			width: 478px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 10px;
+		}
+		div.guts div.news div.form div{
+			width: auto;
+			margin-top: 10px;
+			margin-left: 28px;
+			margin-right: 18px;
+		}
+		div.guts div.news div.form div h3{
+			font-weight: bold;
+			font-size: 18px;
+			margin: 0px;
+			margin-bottom: 25px;
+		}
+		div.guts div.news div.form div p{
+			font-size: 12px;
+			font-family: 'Arial', Helvetica, sans-serif;
+		}
+		div.guts div.news div.form div p.checkboxes input.rightCheckBox{
+			margin-left: 113px;
+		}
+		div.guts div.news div.form div input{
+			margin:0px;
+			margin-top: 0px;
+			margin-bottom: 4px;
+			margin-right: 6px;
+		}
+		div.guts div.news div.form div input.emailInput{
+			margin-left: 1px;
+			margin-right: 22px;
+			border: 1px solid #020202;
+			padding: 3px;
+		}
+		div.guts div.news div.form div input.zipInput{
+			margin: 0px;
+			margin-left: 1px;
+			border: 1px solid #020202;
+			padding: 3px;
+			width: 60px;
+		}
+		div.guts div.news div.form div input.submitImg{
+			margin: 0px;
+			margin-left: 5px;
+			float: right;
+		}
+	
+	/* About Us - Mission Statement */
+			div.guts div.aboutUs {
+			width: 498px;
+			margin-left: auto;
+			margin-right: auto;
+			background: #fff;
+			border: 1px solid #65378e;
+			font-family: 'Arial', Helvetica, sans-serif;
+			font-size: 14px;
+			padding-top: 7px;
+		}
+		div.guts div.aboutUs div.aboutUsItem{
+			margin-left: 12px;
+			width: 474px;
+		}
+		div.aboutUs div.aboutUsItem a{
+			text-decoration: none;
+			color: #00539b;
+			font-size: 14px;
+		}
+		div.aboutUs div.aboutUsItem a:hover{
+			text-decoration: underline;
+		}
+		div.guts div.aboutUs div.aboutUsItem div h3{
+		   	font-weight: bold;
+			font-size: 18px;
+			margin: 0px;
+			margin-top: 25px;
+		}
+		
+/*TWEAKS */
+	.tweakA{
+		margin-top: 140px!IMPORTANT;/* A TWEAK FOR HIGHLIGHTS -- space below rotating banner and highlights area*/	
+	}
+	.tweakB{
+		margin-top: 5px!IMPORTANT; /*A TWEAK FOR EDUCATION CENTER... Change this to 10px is there is a highlights area, 170px if no highlights */	
+	}
+
+
+/* HIDDEN IMAGES FOR SOCIAL -- */		
+/* NOTE: FACEBOOK WAS PULLING THE LAST IMAGE ON THE PAGE SO IN ORDER TO GET AROUND THAT I (EDGAR) PUT THIS AT THE BOTTOM AND HID AN IMAGE IN IT.*/
+div.hideThis{
+	height: 1px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+div.hideThis img.imgHide{
+	margin-top: 1000px;
+}
+
+
+
+/* KT ADDED for 'new' used in news boxes 11/7/11 */
+.orangeNew{
+	color: #CC0000;
+	font-weight:bold;
+}
+
+div.purpleBoxMain{
+	background: #E7E0EE;
+    border: 1px solid #65378E;
+    margin-left: auto;
+    margin-right: auto;
+    width: 498px;
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+div.purpleBoxMain p{
+	margin-left: 13px;
+	margin-right: 13px;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.purpleBoxMain ul{
+	padding: 0px;
+	margin: 0px;	
+	margin-left: 13px;
+}
+div.purpleBoxMain ul li{
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	display: block;
+	margin-left: 200px;
+}
+div.purpleBoxMain ul li:first-child{
+	margin-left: 0px;	
+}
+
+div.purpleBoxMain .youtube{
+	margin-left: 13px;
+	margin-bottom: 20px;	
+	margin-top: 10px;
+}
+
+.iFrameMoleskine{
+	margin-left: 5px; /* kt changed from 3px to 500 11/30/12 */
+	margin-bottom: 20px;
+	width: 498px; /* kt changed from 510 to 500 11/30/12 */
+	height: 310px;
+	border: 1px solid #65378E;
+	border-bottom: 0px;
+}
+
+
+div.bigdiv {
+	border:1px solid #ff0000;
+	height: 140px;
+}
+
+
+/*forum 2013*/
+#forumBanner {
+	width:500px; 
+	height:307px; 
+	BACKGROUND-IMAGE: url(../images_custom/home/forum2013-bg03.jpg); 
+	BACKGROUND-REPEAT: no-repeat; 
+	position:relative; 
+	FONT-FAMILY: 'Arial', Helvetica, sans-serif; 
+	COLOR: #fff; 
+	FONT-SIZE: 14px;
+	margin-left : 4px;
+	}
+
+#forumLearnMore {
+	position:absolute; 
+	top: 173px; 
+	left:225px;
+	}
+
+#forumAddYourVoice {
+	position:absolute; 
+	top:240px; 
+	left:17px;
+	}	
+		
+div.forumNews {
+	width: 498px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+	border: 1px solid #65378e;
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 7px;
+}
+div.forumNews div.forumNewsItem{
+	margin-left: 12px;
+	background: url('../../alz.org/images_custom/home/homepage_callout-new-bg.png') bottom left repeat-x;
+	border-bottom: 1px solid #c1bcc5;
+	width: 474px;
+}
+
+div.forumNews div.forumNewsItem div.blurbNImg{
+	padding-top: 8px;
+	padding-bottom: 15px;
+	padding-right: 50px;
+}
+div.forumNews div.forumNewsItem div.blurbNImg img.blurbNImg{
+	float: left;
+	margin-left: 6px;
+	margin-right: 10px;
+}
+div.forumNews div.forumNewsItem div.blurbNImg a{
+	color: #00539b;
+	text-decoration: none;
+	font-size: 14px;
+}
+div.forumNews div.forumNewsItem div.blurbNImg a:hover{
+	text-decoration: underline;
+}
+
+h2{
+font-familY: 'Arial', Helvetica, sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: #2d2d2d;
+border-bottom: 4px solid #65378e;
+width: 500px;
+padding-bottom: 3px;
+margin: 0px;
+margin-left:auto;
+margin-right: auto;
+margin-bottom: 2px;
+margin-top: 25px;
+clear: both;}
+
+/* end Forum 2013 */
+
+
+

@@ -1,0 +1,508 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head dir="ltr">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Global News Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes" />
+    <meta http-equiv="cleartype" content="on" />    
+    <meta http-equiv="Content-Style-Type" content="text/css; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8" />
+    <meta name="google-site-verification" content="" />
+    <meta name="title" content="Global News Dashboard: The Latest News From US International Media" />
+    <meta name="abstract" content="Aggregation of the the latest news from the BBG including Radio Free Europe / Radio Liberty Inc., Voice of America and Radio Free Asia" />
+    <meta name="description" content="The newest content published by all US International Broadcasting English language websites -- latest news, analysis, articles, blogs, photo galleries, audio or video footage. All content is categorized by regions and BBG networks." />
+    <meta name="keywords" content="Voice of America, Radio Free Europe, Radio Liberty, Radio Free Asia, Radio Mart&#237;, Radio Sawa, Al Hurra, news, breaking news, news, world news, politics, special reports, developing story, video, audio, international" />
+    <meta name="publisher" content="Pangea CMS system 6.x" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="1 day"/>
+    <meta name="language" content="EN" />
+    <meta name="govtype" content="international" />
+    <meta name="distribution" content="global" />
+    <meta name="createDate" content="January, 2013" />
+    <meta name="contactName" content="Broadcasting Board of Governors (BBG)" />
+    <meta name="contactOrganization" content="Broadcasting Board of Governors (BBG)" />
+    <meta name="contactStreetAddress1" content="330 Independence Avenue, SW" />
+    <meta name="contactCity" content="Washington, DC" />
+    <meta name="contactZipcode" content="20237" />
+    <meta name="contactNetworkAddress" content="publicaffairs [at] bbg.gov" />
+    <meta name="contactPhoneNumber" content="(202) 203-4000" />
+    <meta name="contactFaxNumber" content="(202) 203-4585" />
+    <meta name="norton-safeweb-site-verification" content="44aw8cfy4ae43-ta34s8sy7cbdaypzc26wp5lewp6vo62ywjac0l0u945mcq-9s7v2cfl08bsmfr0q-642o4aco9ytts6m88m1ylgltbds6e-1l27ziyuq3ri30enl01" />
+    <meta name="msvalidate.01" content="BC94811461B7BF0C2662E5BC33B01969" />
+
+    <!-- Improve readability -->
+    <link rel="shortcut icon" href="/Content/img/gnd.ico" />
+
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js" type="text/javascript"></script>
+    <![endif]-->
+
+    
+    <link href="/Content/main.b?v=hf0j8ZYY_h71Yf7zAq6-7BC9CHsJaZG3AH8fSp2Vdw41?&amp;av=6.12.0.30359" rel="stylesheet"/>
+
+    <!--[if lte IE 8]><link href="/Content/ie8.b?v=0yT1cpEfBZmeTYYonSaEDCxaai66a9OEOVNedFWlrxw1&amp;av=6.12.0.30359" rel="stylesheet"/>
+<![endif]-->
+    <!--[if lte IE 7]><link href="/Content/ie7.b?v=NlatQFC7fvLGTPt2AZpYhWzp4oX3rkbLu_9K5dCz-RQ1?&amp;av=6.12.0.30359" rel="stylesheet"/>
+<![endif]-->
+
+    
+    <script src="/Scripts/jquery.b?v=IuHvzvxAG6c-vGIREUSoVFGH4ZmjDat4ywhWHpBu9FM1&amp;av=6.12.0.30359"></script>
+
+    <script src="/Scripts/jquery.validate.b?v=4ci7vi8hK89VaCyD4Z1u1CgkM45NDcU61ULE7E-LGvo1&amp;av=6.12.0.30359"></script>
+
+    <script src="/Scripts/main.b?v=-5e8K4XJgwLUJE359qGrApfFegOh66JLNYBCpkZJi7k1&amp;av=6.12.0.30359"></script>
+
+
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36477423-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+<body>
+    <div id="container" dir="ltr">
+          <div id="page" class="ltr"> <div id="header"> <noscript> <p class="warning">We are sorry, but for full functionality and the best experience of this site it is necessary to enable JavaScript.<br /> <strong>Please enable Javascript and refresh the page or use some modern browser.</strong></p>
+    </noscript>
+
+        <!-- logo -->
+        <div id="webtitle">
+            <a href="/" title="Homepage"><img src="/Content/img/GND-logo-print.png" alt="Global News Dashboard" width="173" height="104" title="Global News Dashboard" /></a>
+            <span>Powered by Networks of US International Broadcasting</span>
+        </div>
+
+        <!-- entities -->
+        <div id="sites">
+            <ul class="networks">
+                <li class="voa"><a class="link-external" href="http://www.voanews.com" title="Voice of America"><img src="/Content/img/voa-logo.png" alt="Voice of America" /></a></li>
+                <li class="rferl"><a class="link-external" href="http://www.rferl.org" title="Radio Free Europe/Radio Libery"><img src="/Content/img/rferl-logo.png" alt="Radio Free Europe/Radio Liberty" /></a></li>
+                <li class="ocb"><a class="link-external" href="http://www.martinoticias.com" title="Radio Marti"><img src="/Content/img/ocb-logo.png" alt="Radio Marti" /></a></li>
+                <li class="rfa"><a class="link-external" href="http://www.rfa.org" title="Radio Free Asisa"><img src="/Content/img/rfa-logo.png" alt="Radio Free Asia" /></a></li>
+                <li class="mbn"><a class="link-external" href="http://www.alhurra.com" title="Middle East Broadcasting Network"><img src="/Content/img/mbn-logo.png" alt="Middle East Broadcasting Network" /></a></li>
+            </ul>
+        </div>
+
+        <span id="servicesTrigger" class="opened"><strong>[+/-]</strong></span>
+        <div class="servicesTriggerCleaner"></div>
+
+        <div id="services"> 
+            <div class="searchpanel">
+                <span class="input"><input id="TxtSearch" name="TxtSearch" type="text" value="" /></span>
+                <span class="button"><input type="button" value="Search" title="Search" class="searchSubmitFromHeader" /></span>
+            </div>
+            <ul class="socials">
+                <!-- <li class="twitter"><a href="./" title="Twitter"><span>Twitter</span></a></li> -->
+                <li class="rss"><a href="/homepage/rss" title="RSS"><span>RSS</span></a></li>
+                <!-- <li class="facebook"><a href="./" title="Facebook"><span>Facebook</span></a></li> -->
+            </ul>
+            <div class="cleaner"></div>
+        </div>
+     
+
+        <div class="cleaner"></div>
+    </div>
+<script type="text/javascript">
+    var root = '/';
+</script> <div id="content">              <div id="filterbar"> <div class="title"> <h6 id="filterToggler" class="opened"> <span class="text">Filter by</span>  <span class="ico"><strong>[+/-]</strong></span>
+        </h6>
+    </div>
+    <div class="title1C">
+        <h6>Filter by</h6> 
+    </div>
+    <div id="articleFilter">
+        
+        <div class="cols">
+            <div class="col col1">
+                <div class="note">
+                    <p><strong>Filter content by selecting location, networks and media types to the right.</strong></p>
+                </div>
+            </div>    
+            <div class="col col2">
+                <div id="regionsFilter" class="filter">
+                    <h5 class="label_checkbox_pair">
+                        <span>Regions</span>
+                    </h5>
+                    <ul>
+                        <li class="label_checkbox_pair aggregate">
+                            <input id="regions" name="regions" class="region" type="checkbox" value="31" checked="checked" />
+                            <label for="regions">All</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="africa" name="africa" class="region" type="checkbox" value="1" />
+                            <label for="africa">Africa</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="americas" name="americas" class="region" type="checkbox" value="2" />
+                            <label for="americas">Americas</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="asia" name="asia" class="region" type="checkbox" value="4" />
+                            <label for="asia">Asia</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="europe" name="europe" class="region" type="checkbox" value="8" />
+                            <label for="europe">Europe</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="middleEast" name="middleEast" class="region" type="checkbox" value="16" />
+                            <label for="middleEast">Middle East</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col col3">
+                <div id="entitiesFilter" class="filter">
+                    <h5 class="label_checkbox_pair">
+                        <span>Networks</span>
+                    </h5>
+                    <ul>
+                        <li class="label_checkbox_pair aggregate">
+                            <input id="entities" name="entities" class="region"  type="checkbox" value="" checked="checked" />
+                            <label for="entities">All</label>
+                        </li>
+                        <li class="label_checkbox_pair " title="http://www.voanews.com">
+                            <input id="voa" name="voa" class="region"   type="checkbox" value="16" />
+                            <label for="voa" class="">VOA</label>
+                        </li>
+                        <li class="label_checkbox_pair " title="http://www.rferl.org">
+                            <input id="rfe" name="rfe" class="region"   type="checkbox" value="1" />
+                            <label for="rfe" class="">RFE/RL</label>
+                        </li>
+                        <li class="label_checkbox_pair " title="http://www.rfa.org">
+                            <input id="rfa" name="rfa" class="region"   type="checkbox" value="32" />
+                            <label for="rfa" class="">RFA</label>
+                        </li>
+                        <li class="label_checkbox_pair  disabledListItem" title="http://www.alhurra.com">
+                            <input id="mbn" name="mbn" class="region" disabled='disabled' type="checkbox" value="8" />
+                            <label for="mbn" class="disabled">MBN</label>
+                        </li>
+                        <li class="label_checkbox_pair  disabledListItem" title="http://www.martinoticias.com">
+                            <input id="ocb" name="ocb" class="region" disabled='disabled' type="checkbox" value="4" />
+                            <label for="ocb" class="disabled">OCB</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col col4">
+                <div id="mediaFilter" class="filter">
+                    <h5 class="label_checkbox_pair">
+                        <span>Media</span>
+                    </h5>
+                    <ul>
+                        <li class="label_checkbox_pair aggregate">
+                            <input id="media" name="media" class="region" type="checkbox" value="31" checked="checked" />
+                            <label for="media">All</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="news" name="news" class="region" type="checkbox" value="8" />
+                            <label for="news">News and analysis</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="blogs" name="blogs" class="region" type="checkbox" value="4" />
+                            <label for="blogs">Blogs</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="videos" name="videos" class="region" type="checkbox" value="1" />
+                            <label for="videos">Video</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="photogalleries" name="photogalleries" class="region" type="checkbox" value="16" />
+                            <label for="photogalleries">Photo Galleries</label>
+                        </li>
+                        <li class="label_checkbox_pair">
+                            <input id="audios" name="audios" class="region" type="checkbox" value="2" />
+                            <label for="audios">Audio</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cleaner"><hr class="hidden" /></div>
+    </div> 
+</div>
+ <div id="datebar"> <strong class="datetime">5/24/2013 11:47:49 AM</strong> <h5>Latest News from US International Media</h5>      </div> <div id="articleArea"> <div class="tabs"> <div class="tabsInner"> <ul> <li style="display:none;"><a id="searchResultsTab" href="#searchResults" class="tabLink">SearchResults</a></li> <li class="mostRecent"><a id="latestTab" href="#latest" class="tabLink">Most recent</a></li> <li class="mostRead"><a id="mostreadTab" href="#mostread" class="tabLink">Most read</a></li> <li class="editorsChoice"><a id="editors_choiceTab" href="#editors_choice" class="tabLink">Editor's choice</a></li>
+            </ul>
+            <div class="cleaner"></div>
+        </div>
+        <div class="separator"><div class="hr"><hr /></div></div>
+    </div>
+
+<div id="searchFilter" style="display:none;"> <h2>Search</h2> <p class="form"> <span class="formElement"> <span class="label"><label for="SearchKeyword" class="block">Keywords</label></span> <span class="element"><input class="text-box single-line" id="SearchKeyword" name="SearchKeyword" type="text" value="" /></span> </span> <span class="formElement"> <span class="label"><label for="SearchDateFrom" class="block">Date From</label></span> <span class="element"><input class="SearchDate" data-val="true" data-val-date="The field SearchDateFrom must be a date." data-val-required="The SearchDateFrom field is required." id="SearchDateFrom" name="SearchDateFrom" type="text" value="05/17/2013" /></span> </span> <span class="formElement"> <span class="label"><label for="SearchKeyword" class="block">Date To</label></span> <span class="element"><input class="SearchDate" data-val="true" data-val-date="The field SearchDateTo must be a date." data-val-required="The SearchDateTo field is required." id="SearchDateTo" name="SearchDateTo" type="text" value="05/31/2013" /></span> </span> </p> <p class="form cleaner form-buttons"> <span class="formElement"> <span class="element"><input type="button" class="button searchSubmitFromTab" value="Search" title="Search" /></span>
+        </span>
+         <span class="formElement">
+            <span class="element"><input type="button" class="button searchClear" value="Clear" title="Clear" /></span>
+        </span>
+
+        <span class="cleaner"></span>
+    </p>
+
+</div>
+
+
+
+    <div id="latest">
+    <div class="items"> <div class="itemsInner">  <div class="item item2n1 item3n1"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=RFE&amp;recordId=24996087&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.rferl.org/71C0B027-9FA5-4F5F-A732-FD60E6605E96_w141_h94_cw0_cx0_cy6.jpg" alt="Tajik, Kyrgyz Youths Fighting In Syria" title="Tajik, Kyrgyz Youths Fighting In Syria" /><span class="overlay"></span></a></span>
+        <h5 class="section">Asia, MiddleEast</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=RFE&amp;recordId=24996087&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Tajik, Kyrgyz Youths Fighting In Syria</a>
+        </h3>
+        <p class="description">Officials from Tajikistan and Kyrgyzstan have confirmed that nationals from both those countries have been found recently fighting on the side of the rebels in Syria&#39;s ongoing civil war.</p>
+        <div class="footer">
+            <span class="entity RFE">Posted by <a href="http://www.rferl.org" title="RFE website" class="">RFE</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n1 separator3n1"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n0 item3n2"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667456&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/9024D816-0DFE-4450-AE1E-1BB760D31C89_w141_h94_cw0_cx0_cy7.jpg" alt="Study Identifies Risks of Human Spread of H7N9 Bird Flu" title="Study Identifies Risks of Human Spread of H7N9 Bird Flu" /><span class="overlay"></span></a></span>
+        <h5 class="section">Asia</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667456&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Study Identifies Risks of Human Spread of H7N9 Bird Flu</a>
+        </h3>
+        <p class="description">Study suggest that international measures to contain the H7N9 influenza, in the event of severe outbreak, will need to be targeted in Asia</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n0 separator3n2"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n1 item3n0"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667441&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/D2C5CFBB-78DE-4258-836F-69E98B9ECC24_w141_h94_cw0_cx0_cy3.jpg" alt="Kerry to Meet with AU Officials in Ethiopia" title="Kerry to Meet with AU Officials in Ethiopia" /><span class="overlay"></span></a></span>
+        <h5 class="section">Africa</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667441&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Kerry to Meet with AU Officials in Ethiopia</a>
+        </h3>
+        <p class="description">US secretary of state will discuss Sudan violence and efforts to battle insurgents in Mali, Nigeria during talks with African Union</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n1 separator3n0"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n0 item3n1"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667435&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/BF7A4BAC-0B2B-4808-830A-98795E2C54CC_w141_h94.jpg" alt="North Korea Envoy Wraps Up Visit to China" title="North Korea Envoy Wraps Up Visit to China" /><span class="overlay"></span></a></span>
+        <h5 class="section">Asia</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667435&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">North Korea Envoy Wraps Up Visit to China</a>
+        </h3>
+        <p class="description">Relations between the two countries have weakened since North Korea&#39;s nuclear test in February and China&#39;s support of UN sanctions in response to the test</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n0 separator3n1"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n1 item3n2"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667418&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/ABDDDAE9-4F82-4367-B5C9-000818C6781B_w141_h94.jpg" alt="Russia: Syria Agrees to Participate in Conference" title="Russia: Syria Agrees to Participate in Conference" /><span class="overlay"></span></a></span>
+        <h5 class="section">MiddleEast</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667418&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Russia: Syria Agrees to Participate in Conference</a>
+        </h3>
+        <p class="description">Russia and the US have proposed a peace conference next month in Geneva but no date has been set</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n1 separator3n2"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n0 item3n0"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667409&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/94EFB67B-00E7-49A5-9BF6-640766E6FF8B_w141_h94.png" alt="Earthquake Hits Russia" title="Earthquake Hits Russia" /><span class="overlay"></span></a></span>
+        <h5 class="section">Europe</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667409&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Earthquake Hits Russia</a>
+        </h3>
+        <p class="description">Authorities had issued a tsunami warning for the Sakalin Islands after the 8.2 temblor struck off Russian&#39;s eastern coast</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n0 separator3n0"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n1 item3n1"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667405&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/6CF342D6-6CB5-44BC-93D8-BC397A1CF0F7_w141_h94.jpg" alt="Kerry to Visit Ethiopia for Security Talks" title="Kerry to Visit Ethiopia for Security Talks" /><span class="overlay"></span></a></span>
+        <h5 class="section">Africa</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667405&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Kerry to Visit Ethiopia for Security Talks</a>
+        </h3>
+        <p class="description">On Saturday, Kerry will join African leaders and other foreign dignitaries at an AU summit that will celebrate 50 years of the pan-African organization</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n1 separator3n1"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n0 item3n2"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667402&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/F49AEAE4-F06A-48C3-A7FA-6145BAEEBC67_w141_h94.png" alt="Indian Soldiers Killed in Kashmir Attack" title="Indian Soldiers Killed in Kashmir Attack" /><span class="overlay"></span></a></span>
+        <h5 class="section">Asia</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667402&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Indian Soldiers Killed in Kashmir Attack</a>
+        </h3>
+        <p class="description">Authorities say the attack took place Friday outside Srinagar, the main city on the Indian section of Kashmir</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n0 separator3n2"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n1 item3n0"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=RFE&amp;recordId=24995784&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.rferl.org/00000000-0000-0000-0000-000000000000_w141_h94.jpg" alt="Major Quake Rattles Russian Far East" title="Major Quake Rattles Russian Far East" /><span class="overlay"></span></a></span>
+        <h5 class="section">Asia</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=RFE&amp;recordId=24995784&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Major Quake Rattles Russian Far East</a>
+        </h3>
+        <p class="description">A powerful earthquake has hit Russia&#39;s Far East region, sending tremors across the country and sparking a short-lived tsunami warning.</p>
+        <div class="footer">
+            <span class="entity RFE">Posted by <a href="http://www.rferl.org" title="RFE website" class="">RFE</a></span>
+            <span class="date">May 24, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n1 separator3n0"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n0 item3n1"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667359&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/FBDA691B-43D7-4A92-9166-401A28F6580F_w141_h94_cw0_cx0_cy5.jpg" alt="FAO Project Will Track S. Sudan Food Production" title="FAO Project Will Track S. Sudan Food Production" /><span class="overlay"></span></a></span>
+        <h5 class="section">Africa</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667359&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">FAO Project Will Track S. Sudan Food Production</a>
+        </h3>
+        <p class="description">The U.N. Food and Agriculture Organization launches a three-year project in South Sudan to improve tracking of food production.</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 23, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n0 separator3n1"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n1 item3n2"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667339&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/F21E3CD1-5B08-4E37-ACCC-6A214CECDCC7_w141_h94.jpg" alt="Victims of Oklahoma Tornado Get Help From Near and Far" title="Victims of Oklahoma Tornado Get Help From Near and Far" /><span class="overlay"></span></a></span>
+        <h5 class="section">Americas</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667339&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Victims of Oklahoma Tornado Get Help From Near and Far</a>
+        </h3>
+        <p class="description">Hundreds of people lost their homes from the tornado</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 23, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n1 separator3n2"><div class="hr"><hr /></div></div>
+
+
+
+ <div class="item item2n0 item3n0"> <div class="article"> <span class="photo"><a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667304&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink overlay_Article" title="read more"><img src="http://gdb.voanews.com/F49CEB54-13F5-4AD9-BA09-E89DAAB89062_w141_h94.jpg" alt="Jodi Arias Jury Fails to Reach Decision on Death Penalty" title="Jodi Arias Jury Fails to Reach Decision on Death Penalty" /><span class="overlay"></span></a></span>
+        <h5 class="section">Americas</h5>
+        <h3 class="title">
+            <a href="/Homepage/LoadArticle?entity=VOA&amp;recordId=1667304&amp;recordGuid=00000000-0000-0000-0000-000000000000&amp;media=Article" class="titleLink" title="read more">Jodi Arias Jury Fails to Reach Decision on Death Penalty</a>
+        </h3>
+        <p class="description">The jury had earlier found her guilty of the brutal murder of her ex-boyfriend in a trial that has received nationwide media attention</p>
+        <div class="footer">
+            <span class="entity VOA">Posted by <a href="http://www.voanews.com" title="VOA website" class="">VOA</a></span>
+            <span class="date">May 23, 2013</span>
+        </div>
+
+    </div>
+</div>
+<div class="separator separator2n0 separator3n0"><div class="hr"><hr /></div></div>
+
+
+
+        </div> </div> <!--/.items -->
+    <!-- /sample of a structure -->
+<script type="text/javascript">
+        $('.moreContent').show();
+</script>
+    </div>
+    <div id="mostread">
+        
+    </div>
+    <div id="editors_choice">
+        
+    </div>
+    <div id="searchResults">
+    </div>
+
+    <div class="cleaner"></div>
+
+    <p class="buttons">
+            <a id="moreContent" href="javascript:void(0);" class="moreContent">
+                <span class="button">
+                    <strong class="plus">+</strong>
+                    <span class="text"><strong>Load More Content</strong></span>
+                </span>
+            </a>
+    </p>
+    
+</div>
+
+<div id="sharedArticle" style="display:none">
+</div>
+
+
+
+
+
+         </div> <!--/#content -->
+    
+        <div id="footer"> <div class="cols"> <div class="colsInner"> <div class="col col1"> <div class="inner"> <h3>About Us</h3> <p>The Broadcasting Board Governors (BBG) is an independent entity responsible for all U.S. Government and government-sponsored, non-military, international broadcasting .  The BBG broadcasting services include the Voice of America (VOA) and the Office of Cuba Broadcasting (OCB) and three grantee organizations, Radio Free Europe/Radio Liberty (RFE/RL), Radio Free Asia (RFA), and the Middle East Broadcasting Networks (MBN).</p> </div> </div> <div class="col col2"> <div class="inner"> <h3>Contact Us</h3> <p><strong>Broadcasting Board of Governors (BBG)</strong><br />  330 Independence Avenue, SW Washington, DC 20237<br />  (202) 203-4000<br />                                <a href="mailto:publicaffairs(at)bbg.gov">publicaffairs@bbg.gov</a><br /><a href="http://www.bbg.gov">www.bbg.gov</a></p> </div> </div> <div class="col col3"> <div class="inner"> <h3>Networks</h3> <ul class="networks"> <li><a class="link-external" href="http://www.voanews.com" title="Voice of America"><img src="/Content/img/voa-logo.png" alt="Voice of America" /></a></li>
+                                <li><a class="link-external" href="http://www.rferl.org" title="Radio Free Europe/Radio Libery"><img src="/Content/img/rferl-logo.png" alt="Radio Free Europe/Radio Liberty" /></a></li>
+                                <li><a class="link-external" href="http://www.martinoticias.com" title="Radio Marti"><img src="/Content/img/ocb-logo.png" alt="Radio Marti" /></a></li>
+                                <li><a class="link-external" href="http://www.rfa.org" title="Radio Free Asisa"><img src="/Content/img/rfa-logo.png" alt="Radio Free Asia" /></a></li>
+                                <li><a class="link-external" href="http://www.alhurra.com" title="Middle East Broadcasting Network"><img src="/Content/img/mbn-logo.png" alt="Middle East Broadcasting Network" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright"><p>Broadcasting Board of Governors 2013</p></div>
+        </div> <!-- /#footer -->
+</div> <!-- /#page -->
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mayo Clinic</title>
+	
+	<link href="/images/nav/shields.ico" rel="shortcut icon">
+	
+	<link rel="stylesheet" type="text/css" href="/mymayo/css/structure.css"  />
+
+	<script type="text/javascript" src="/mymayo/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/mymayo/js/jquery.cycle.all.2.74.js"></script>
+	<script type="text/javascript" src="/mymayo/js/common.js"></script>
+	<script src="/js/linkTagging.js" type="text/javascript"></script>
+	
+	<meta name="globalsign-domain-verification" content="XduEjiQJUA1bnpK9c507MlLfp1_DBN2NXWChargXPJ"/>
+
+	<!--
+	<script type="text/javascript"  src="/mymayo/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/mymayo/js/jquery.cycle.all.2.74.js"></script>
+	<script type="text/javascript" src="/mymayo/js/common.js"></script>
+	-->
+	
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="/mymayo/css/ie6.css" />
+	<script type="text/javascript" src="/mymayo/js/iepngfix.js"></script>
+	<![endif]-->
+</head>
+
+<body class="mymayo">
+
+<div id="odin">
+	<div id="w_head">
+		<div id="head">
+			<ul>
+				<li id="l_patientcare"><a href="http://www.mayoclinic.org/patient-care/" onClick="ntptEventTag('ev=internal-link&evDetail=patient-care&location=banner');">Patient Care</a>
+
+					<ul id="sub_l_patientcare">
+						<li><a href="http://www.mayoclinic.org/patientinfo/appointments.html" onClick="ntptEventTag('ev=internal-link&evDetail=request-an-appointment&location=banner-upper-left-dropdown');">Request an Appointment</a></li>
+						<li><a href="https://www.mayoclinic.org/_portal/html/C/index.html" onClick="ntptEventTag('ev=internal-link&evDetail=log-in-to-patient-account&location=banner-upper-left-dropdown');">Log in to Patient Account</a></li>
+						<li><a href="http://www.mayoclinic.org/diseases-treatments/" onClick="ntptEventTag('ev=internal-link&evDetail=see-treatment-and-diagnosis-services&location=banner');">See Treatment & Diagnosis Services</a></li>
+						<li><a href="http://www.mayoclinic.org/patient-visitor-guide/" onClick="ntptEventTag('ev=internal-link&evDetail=plan-your-visit&location=banner');">Plan Your Visit</a></li>
+						<li><a href="http://www.mayoclinic.org/doctors-departments/" onClick="ntptEventTag('ev=internal-link&evDetail=find-a-doctor&location=banner');">Find a Doctor</a></li>
+						<li><a href="http://www.mayoclinic.org/mayo-apps/" onClick="ntptEventTag('ev=internal-link&evDetail=patient-mobile-app&location=banner');">Download Mayo Clinic Patient App</a></li>
+						<li><a href="http://www.mayoclinic.org/patientstories/" onclick="ntptEventTag('ev=internal-link&evDetail=stories&location=banner');">Stories</a></li>
+			
+				</ul>
+				</li>
+	
+				<li id="l_healthinformation"><a href="/health-information/" data-tagid="health-information-banner">Health Information</a>
+					<ul id="sub_l_healthinformation">
+						<li><a href="/health/DiseasesIndex/DiseasesIndex" data-tagid="disease-index-banner">Diseases & Conditions A-Z</a></li>
+						<li><a href="/health/symptoms/SymptomIndex" data-tagid="symptom-index-banner" >Symptom Checker</a></li>
+						<li><a href="/health/drug-information/DrugHerbIndex" data-tagid="drug-herb-index-banner">Drugs & Supplements A-Z</a></li>
+
+						<li><a href="/health/tests-and-procedures/TestProcedureIndex" data-tagid="test-procedure-index-banner">Tests & Procedures A-Z</a></li>
+						<li><a href="/health/HealthyLivingIndex/HealthyLivingIndex" data-tagid="healthy-living-index-banner">Healthy Living</a></li>
+						<li><a href="/health/blogs/BlogIndex" data-tagid="blog-index-banner">Expert Blogs</a></li>
+						<li><a href="http://bookstore.mayoclinic.com/home.cfm" data-tagid="mayo-clinic-store-banner">Mayo Clinic Store</a></li>
+					</ul>
+				</li>
+
+	
+				<li id="l_medprofessionals"><a href="http://www.mayoclinic.org/medicalprofs/" onClick="ntptEventTag('ev=internal-link&evDetail=for-medical-professionals&location=banner');">For Medical Professionals</a>
+					<ul id="sub_l_medprofessionals">
+						<li><a href="https://www.mayoclinic.org/_portal/html/C/physicians.html" onClick="ntptEventTag('ev=internal-link&evDetail=online-services-for-referring-physicians&location=banner');">Online Services for Referring Physicians</a></li>
+						<li><a href="http://www.mayoclinic.org/grand-rounds/" onClick="ntptEventTag('ev=internal-link&evDetail=grand-rounds&location=banner');">Grand Rounds</a></li>
+						<li><a href="http://www.mayoclinic.org/publications-md/" onClick="ntptEventTag('ev=internal-link&evDetail=publications&location=banner');">Publications</a></li>
+						<li><a href="http://www.mayo.edu/cme/" onClick="ntptEventTag('ev=internal-link&evDetail=continuing-medical-education&location=banner');">Continuing Medical Education</a></li>
+
+						<li><a href="http://www.mayomedicallaboratories.com/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-medical-laboratories&location=banner');">Mayo Medical Laboratories</a></li>
+						<li><a href="http://store.mayoclinic.com/productList.cfm?mpt=6" onClick="ntptEventTag('ev=internal-link&evDetail=patient-education-materials&location=banner');">Patient Education Materials</a></li>
+					</ul>
+				</li>
+
+				<li id="l_research"><a href="http://mayoresearch.mayo.edu/mayo/research/" onClick="ntptEventTag('ev=internal-link&evDetail=research&location=banner');">Research</a>
+					<ul id="sub_l_research">
+						<li><a href="http://mayoresearch.mayo.edu/mayo/research/labs.cfm" onClick="ntptEventTag('ev=internal-link&evDetail=explore-research-areas&location=banner');">Explore Research Areas</a></li>
+						<li><a href="http://clinicaltrials.mayo.edu/" onClick="ntptEventTag('ev=internal-link&evDetail=find-clinical-trials&location=banner');">Find Clinical Trials</a></li>
+
+						<li><a href="http://mayoresearch.mayo.edu/mayo/research/researchers/directory.cfm" onClick="ntptEventTag('ev=internal-link&evDetail=research-faculty&location=banner');">Research Faculty</a></li>
+						<li><a href="http://www.mayo-clinic-jobs.com/go/Postdoctoral-Temporary-Research/343401/?utm_source=careersite&utm_campaign=PostDocResearch" onClick="ntptEventTag('ev=internal-link&evDetail=postdoctoral-fellowship&location=banner');">Postdoctoral Fellowships</a></li>
+						<li><a href="http://discoverysedge.mayo.edu/" onClick="ntptEventTag('ev=internal-link&evDetail=discoverys-edge-magazine&location=banner');">Discovery&#146;s Edge Magazine</a></li>
+						<li><a href="http://mayoresearch.mayo.edu/mayo/research/pubs.cfm" onClick="ntptEventTag('ev=internal-link&evDetail=search-publications&location=banner');">Search Publications</a></li>
+					</ul>
+				</li>
+
+				<li id="l_education"><a href="http://www.mayo.edu/education/" onClick="ntptEventTag('ev=internal-link&evDetail=education&location=banner');">Education</a>
+					<ul id="sub_l_education">
+						<li><a href="http://www.mayo.edu/mgs/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-graduate-school&location=banner');">Mayo Graduate School</a></li>
+						<li><a href="http://www.mayo.edu/mms/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-medical-school&location=banner');">Mayo Medical School</a></li>
+						<li><a href="http://www.mayo.edu/cme/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-school-of-continuous-professional-development&location=banner');">Mayo School of Continuous Professional Development</a></li>
+						<li><a href="http://www.mayo.edu/msgme/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-school-of-graduate-medical-education&location=banner');">Mayo School of Graduate Medical Education</a></li>
+
+						<li><a href="http://www.mayo.edu/mshs/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-school-of-health-sciences&location=banner');">Mayo School of Health Sciences</a></li>
+						<li><a href="http://www.mayo.edu/mayo-clinic-alumni-center/" onClick="ntptEventTag('ev=internal-link&evDetail=alumni-association&location=banner');">Alumni Center</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<div id="logo">
+			<a href="/" data-tagid="3-shield-logo-banner"><img src="/mymayo/img/logo.png" alt="Mayo Clinic" /></a>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="w_nav">
+		<div id="nav">
+			<ul>
+			<li id="l_requestappointment"><a href="http://www.mayoclinic.org/patientinfo/appointments.html" onClick="ntptEventTag('ev=internal-link&evDetail=request-an-appointment&location=banner-bottom-left');">Request an Appointment</a></li>
+			<li id="l_findadoctor"><a href="http://www.mayoclinic.org/doctors-departments/" onClick="ntptEventTag('ev=internal-link&evDetail=find-a-doctor&location=banner');">Find a Doctor</a></li>
+			<li id="l_findajob"><a href="http://www.mayoclinic.org/jobs/" onClick="ntptEventTag('ev=internal-link&evDetail=find-a-job&location=banner');">Find a Job</a></li>
+			<li id="l_patientlogin"><a href="https://www.mayoclinic.org/_portal/html/C/index.html" onClick="ntptEventTag('ev=internal-link&evDetail=log-in-to-patient-account&location=banner');">Log in to Patient Account</a></li>
+			<li id="l_giving"><a href="https://development-comm.mayoclinic.org/sslpage.aspx?pid=600" onclick="ntptEventTag('ev=internal-link&evDetail=give-to-mayo-clinic&location=banner');">Give to Mayo Clinic</a></li>
+            <li id="l_s_facebook"><a href="http://www.facebook.com/MayoClinic" onclick="ntptEventTag('ev=external-link&evDetail=facebook&location=banner');">Facebook</a></li>
+            <li id="l_s_twitter"><a href="http://twitter.com/mayoclinic" onclick="ntptEventTag('ev=external-link&evDetail=twitter&location=banner');">Twitter</a></li>
+            <li id="l_s_youtube"><a href="http://www.youtube.com/user/mayoclinic" onclick="ntptEventTag('ev=external-link&evDetail=youtube&location=banner');">YouTube</a></li>
+
+
+            </ul>
+		</div>
+	</div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+<div id="photo"></div>
+
+
+
+
+
+<div id="w_banner">
+
+	
+
+	<div id="banner">
+
+	
+	<p class="patientstory"></p>
+
+		<form action="http://search2.mayoclinic.com/search?" method="get" class="mayosearch" onSubmit="ntptEventTag('ev=form&evDetail=search&evAction=submit');"  >
+			<input maxlength="255" name="q" type="text" class="inputbox-b" />
+			<input type="hidden" value="mayoclinic-org|mayoclinic-com|mayo-edu|internet-research|clinical-trials" name="site" /> 
+			<input type="hidden" value="unified" name="client" />
+			<input type="hidden" value="unified" name="proxystylesheet" />
+			<input type="hidden" value="xml_no_dtd" name="output" />
+			<input type="submit" value="Search"/>
+		</form>
+
+		
+		<a href="/health-information/" onClick="ntptEventTag('ev=internal-link&evDetail=health-information&location=middle-of-page');">Health Information</a>
+		<p>
+			Find information on hundreds of conditions. Check your symptoms. Improve your lifestyle.
+		</p>
+		
+		<a href="http://www.mayoclinic.org/patient-care/" onClick="ntptEventTag('ev=internal-link&evDetail=patient-care&location=middle-of-page');">Patient Care</a>
+		<p>
+			See how Mayo diagnoses and treats your condition. Find a doctor. Log in to your patient account. Plan your visit.
+		</p>
+		
+		<a href="http://www.mayoclinic.org/patientinfo/appointments.html" class="btn" onClick="ntptEventTag('ev=internal-link&evDetail=request-an-appointment&location=middle-of-page');">Request an Appointment</a>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div id="w_alerts">
+	<div id="alerts">
+		<div></div>
+	</div>
+</div>
+
+<div id="w_sublinks">
+	<ul id="sublinks">
+		<li><a href="http://www.mayoclinic.org/medicalprofs/" onClick="ntptEventTag('ev=internal-link&evDetail=for-medical-professionals&location=above-the-footer');">For Medical Professionals</a>
+
+			<p>
+				Refer a patient. Access medical professional services. Connect to research and education.
+			</p>
+		</li>
+
+		<li><a href="http://mayoresearch.mayo.edu/mayo/research/" onClick="ntptEventTag('ev=internal-link&evDetail=research&location=above-the-footer');">Research</a>
+			<p>
+				Discover how research advances patient care. See clinical trials and publications. Support research.
+			</p>	
+		</li>
+
+		<li><a href="http://www.mayo.edu/education/" onClick="ntptEventTag('ev=internal-link&evDetail=education&location=above-the-footer');">Education</a>
+			<p>
+				Explore medical and scientific education and training opportunities and resources.
+			</p>
+		</li>
+	</ul>
+</div>
+
+<div id="w_donations">
+<div id="donations">
+<a href="http://www.mayoclinic.org/development" onClick="ntptEventTag('ev=internal-link&evDetail=give-hope&location=above-the-footer');">Give Hope</a> Your gift holds great power. 
+
+<a href="https://development-comm.mayoclinic.org/SSLPage.aspx?pid=191&srcid=191" onClick="ntptEventTag('ev=internal-link&evDetail=give-online&location=above-the-footer');" class="btn">Make a Donation</a>
+</div>
+</div>
+
+<div id="w_footer">
+	<div id="footer">
+
+		<div>
+			<h4>Patient Care</h4>
+			<ul>
+				<li><a href="http://www.mayoclinic.org/patientinfo/appointments.html" onClick="ntptEventTag('ev=internal-link&evDetail=request-an-appointment&location=footer');">Request an Appointment</a></li>
+				<li><a href="https://www.mayoclinic.org/_portal/html/C/index.html" onClick="ntptEventTag('ev=internal-link&evDetail=log-in-to-patient-account&location=footer');">Log in to Patient Account</a></li>
+				<li><a href="http://www.mayoclinic.org/diseases-treatments/" onClick="ntptEventTag('ev=internal-link&evDetail=see-treatment-and-diagnosis-services&location=footer');">See Treatment & Diagnosis Services</a></li>
+				<li><a href="http://www.mayoclinic.org/patient-visitor-guide/" onClick="ntptEventTag('ev=internal-link&evDetail=plan-your-visit&location=footer');">Plan Your Visit</a></li>
+				<li><a href="http://www.mayoclinic.org/doctors-departments/" onClick="ntptEventTag('ev=internal-link&evDetail=find-a-doctor&location=footer');">Find a Doctor</a></li>
+				<li><a href="http://www.mayoclinic.org/mayo-apps/" onClick="ntptEventTag('ev=internal-link&evDetail=patient-mobile-app&location=footer');">Download Mayo Clinic Patient App</a></li>
+				<li><a href="http://www.mayoclinic.org/patientstories/" onclick="ntptEventTag('ev=internal-link&evDetail=stories&location=footer');">Stories</a></li>
+			</ul>
+			<h4>Corporate Services</h4>
+			<ul>
+				<li><a href="http://www.mayoclinichealthsolutions.com/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-clinic-health-solutions&location=footer');">Mayo Clinic Health Solutions</a></li>
+			</ul>
+		</div>
+		<div>
+			<h4>Health Information</h4>
+			<ul>
+				<li><a href="/health/DiseasesIndex/DiseasesIndex" onClick="ntptEventTag('ev=internal-link&evDetail=diseases-and-conditions-a-to-z&location=footer');">Diseases & Conditions A-Z</a></li>
+				<li><a href="/health/symptoms/SymptomIndex" onClick="ntptEventTag('ev=internal-link&evDetail=symptom-checker&location=footer');">Symptom Checker</a></li>
+				<li><a href="/health/drug-information/DrugHerbIndex" onClick="ntptEventTag('ev=internal-link&evDetail=drugs-supplements-a-to-z&location=footer');">Drugs & Supplements A-Z</a></li>
+				<li><a href="/health/tests-and-procedures/TestProcedureIndex" onClick="ntptEventTag('ev=internal-link&evDetail=tests-and-procedures-a-to-z&location=footer');">Tests & Procedures A-Z</a></li>
+				<li><a href="/health/HealthyLivingIndex/HealthyLivingIndex" onClick="ntptEventTag('ev=internal-link&evDetail=healthy-living&location=footer');">Healthy Living</a></li>
+				<li><a href="/health/blogs/BlogIndex" onClick="ntptEventTag('ev=internal-link&evDetail=expert-blogs&location=footer');">Expert Blogs</a></li>
+				<li><a href="http://bookstore.mayoclinic.com/home.cfm" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-clinic-bookstore&location=footer');">Mayo Clinic Store</a></li>		
+			</ul>
+
+		</div>
+		<div>
+			<h4>For Medical Professionals</h4>
+			<ul>
+				<li><a href="https://www.mayoclinic.org/_portal/html/C/physicians.html" onClick="ntptEventTag('ev=internal-link&evDetail=online-services-for-referring-physicians&location=footer');">Online Services for Referring Physicians</a></li>
+				<li><a href="http://www.mayoclinic.org/grand-rounds/" onClick="ntptEventTag('ev=internal-link&evDetail=grand-rounds&location=footer');">Grand Rounds</a></li>
+				<li><a href="http://www.mayoclinic.org/publications-md/" onClick="ntptEventTag('ev=internal-link&evDetail=publications&location=footer');">Publications</a></li>
+				<li><a href="http://www.mayo.edu/cme/" onClick="ntptEventTag('ev=internal-link&evDetail=continuing-medical-education&location=footer');">Continuing Medical Education</a></li>
+				<li><a href="http://www.mayomedicallaboratories.com/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-medical-laboratories&location=footer');">Mayo Medical Laboratories</a></li>	
+				<li><a href="http://store.mayoclinic.com/productList.cfm?mpt=6" onClick="ntptEventTag('ev=internal-link&evDetail=patient-education-materials&location=footer');">Patient Education Materials</a></li>			
+			</ul>
+
+		</div>
+
+		<div>
+			<h4>Research</h4>
+			<ul>
+				<li><a href="http://mayoresearch.mayo.edu/mayo/research/labs.cfm" onClick="ntptEventTag('ev=internal-link&evDetail=explore-research-areas&location=footer');">Explore Research Areas</a></li>
+
+				<li><a href="http://clinicaltrials.mayo.edu/" onClick="ntptEventTag('ev=internal-link&evDetail=find-clinical-trials&location=footer');">Find Clinical Trials</a></li>
+				<li><a href="http://mayoresearch.mayo.edu/mayo/research/researchers/directory.cfm" onClick="ntptEventTag('ev=internal-link&evDetail=research-faculty&location=footer');">Research Faculty</a></li>
+				<li><a href="http://www.mayo-clinic-jobs.com/go/Postdoctoral-Temporary-Research/343401/?utm_source=careersite&utm_campaign=PostDocResearch" onClick="ntptEventTag('ev=internal-link&evDetail=postdoctoral-fellowship&location=footer');">Postdoctoral Fellowships</a></li>
+				<li><a href="http://discoverysedge.mayo.edu/" onClick="ntptEventTag('ev=internal-link&evDetail=discoverys-edge-magazine&location=footer');">Discovery&#146;s Edge Magazine</a></li>
+				<li><a href="http://mayoresearch.mayo.edu/mayo/research/pubs.cfm" onClick="ntptEventTag('ev=internal-link&evDetail=search-publications&location=footer');">Search Publications</a></li>				
+			</ul>
+		</div>
+
+		<div>
+			<h4>Education</h4>
+			<ul>
+				<li><a href="http://www.mayo.edu/mgs/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-graduate-school&location=footer');">Mayo Graduate School</a></li>
+				<li><a href="http://www.mayo.edu/mms/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-medical-school&location=footer');">Mayo Medical School</a></li>
+				<li><a href="http://www.mayo.edu/cme/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-school-of-continuous-professional-development&location=footer');">Mayo School of Continuous Professional Development</a></li>
+				<li><a href="http://www.mayo.edu/msgme/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-school-of-graduate-medical-education&location=footer');">Mayo School of Graduate Medical Education</a></li>
+				<li><a href="http://www.mayo.edu/mshs/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-school-of-health-sciences&location=footer');">Mayo School of Health Sciences</a></li>
+				<li><a href="http://www.mayo.edu/mayo-clinic-alumni-center/" onClick="ntptEventTag('ev=internal-link&evDetail=alumni-association&location=footer');">Alumni Center</a></li>
+			</ul>
+		</div>
+		<div>
+			<h4>Stay Connected</h4>
+			<ul>
+
+				<li><a href="http://www.mayoclinic.org/news/" onClick="ntptEventTag('ev=internal-link&evDetail=mayo-clinic-news&location=footer');">Mayo Clinic News</a></li>
+				<li><a href="http://www.mayoclinic.org/medical-edge/" onClick="ntptEventTag('ev=internal-link&evDetail=medical-edge&location=footer');">Medical Edge</a></li>
+				<li><a href="http://sharing.mayoclinic.org/" onClick="ntptEventTag('ev=internal-link&evDetail=sharing-mayo-clinic&location=footer');">Sharing Mayo Clinic</a></li>
+				<li><a href="http://www.mayoclinic.org/contact/" onClick="ntptEventTag('ev=internal-link&evDetail=contact-us&location=footer');">Contact Us</a></li>
+				<li id="sm_facebook"><a href="http://www.facebook.com/MayoClinic" onClick="ntptEventTag('ev=external-link&evDetail=facebook&location=footer');">Facebook</a></li>
+				<li id="sm_youtube"><a href="http://www.youtube.com/user/mayoclinic" onClick="ntptEventTag('ev=external-link&evDetail=youtube&location=footer');">YouTube</a></li>
+				<li id="sm_twitter"><a href="http://twitter.com/mayoclinic" onClick="ntptEventTag('ev=external-link&evDetail=twitter&location=footer');">Twitter</a></li>
+			</ul>
+		</div>
+		<div id="copyright">
+			<ul>
+				<li><a href="http://www.mayoclinic.org/about/" onClick="ntptEventTag('ev=internal-link&evDetail=about-mayo-clinic&location=copyright');">About Mayo Clinic</a></li>
+				<li><a href="http://www.mayoclinic.org/contact/" onClick="ntptEventTag('ev=internal-link&evDetail=contact-us&location=copyright');">Contact Us</a></li>
+				<li><a href="http://www.mayoclinic.org/jobs/" onClick="ntptEventTag('ev=internal-link&evDetail=find-a-job&location=copyright');">Jobs</a></li>
+				<li><a href="http://www.mayoemployees.org" onClick="ntptEventTag('ev=internal-link&evDetail=employees&location=copyright');">Employees</a></li>
+				<li><a href="https://development-comm.mayoclinic.org/sslpage.aspx?pid=600/" onClick="ntptEventTag('ev=internal-link&evDetail=support-mayo-clinic&location=copyright');">Give to Mayo Clinic</a></li>
+			</ul>
+			<p>&copy; 1998-2013 Mayo Foundation for Medical Education and Research. All rights reserved.</p>
+
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="/mymayo/js/ntpagetag.js"></script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4442223-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

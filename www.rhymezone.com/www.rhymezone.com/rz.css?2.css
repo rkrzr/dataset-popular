@@ -1,0 +1,43 @@
+<!--A:hover {text-decoration:bold; color:#FF0000;}-->
+<!--A:active {text-decoration:bold; color:#FF0000;}-->
+
+table.rzalert {
+  border-radius: 15px;
+  background-color: #fafad2;
+}
+table.rzf {
+  background-color: #000000;
+}
+div.autocompleteclass {
+  position:absolute;
+  width:200px;
+  background-color: #ffffff;
+  border:1px solid #888;
+  margin-top:10;
+  margin-left:10;
+  padding:0;
+  z-index: 50000;
+}
+div.mainform {
+  margin-top:10;
+  margin-left:10;
+  font-size:16
+  padding:0;
+}
+
+div.autocompleteclass ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+div.autocompleteclass ul li.selected { background-color: #ffb;}
+div.autocompleteclass ul li {
+  list-style-type:none;
+  margin:0;
+  padding:2px;
+  text-align: left;
+  height:32px;
+  cursor:pointer;
+  background-color: #ffffff;
+}
+.d {color:#56789a}

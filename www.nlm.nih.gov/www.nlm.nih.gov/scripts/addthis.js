@@ -1,0 +1,1 @@
+document.write("<scr" + "ipt type='text/javascript' src='" + "http" + (window.location.protocol.indexOf('https:')==0?'s':'') + "://s7.addthis.com/js/250/addthis_widget.js#username=nationallibraryofmedicine" + "'><\/scr"+"ipt>");

@@ -1,0 +1,655 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html id="html1" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="en" lang="en"> <head id="ctl00_ctl00_Head1"><title>
+	VOA - Voice of America English News - VOA News
+</title><script type="text/javascript">
+	//<![CDATA[
+                      var publicSiteVersion = '_6.12.0.30359.12';
+                      var publicSiteId = 415;
+                      var isLibNetSite = false;
+                      //]]>
+</script><script type="text/javascript">
+
+</script><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css; charset=utf-8" /><meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8" /><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/TemplatePage.cssx" /> <!--[if IE 6]><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/TemplatePage_ie6.cssx" /><![endif]--> <!--[if IE 7]><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/TemplatePage_ie7.cssx" /><![endif]--> <!--[if IE 8]><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/TemplatePage_ie8.cssx" /><![endif]--> <!--[if IE 9]><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/TemplatePage_ie9.cssx" /><![endif]--> <script type="text/javascript" src="jsloc_6.12.0.30359.12/Common.Title.x.js?c=0">
+
+</script><script type="text/javascript" src="js_6.12.0.30359.12/jquery/jquery.x.js">
+
+</script><script type="text/javascript" src="js_6.12.0.30359.12/TemplatePage.x.js"></script><script id="ctl00_ctl00_DynamicScript1" type="text/javascript" src="js_6.12.0.30359.12/jquery/jquery.superfish.x.js">
+
+</script><script id="ctl00_ctl00_DynamicScript2" type="text/javascript" src="js_6.12.0.30359.12/jquery/jquery.hoverIntent.x.js">
+
+</script><script type="text/javascript" src="js_6.12.0.30359.12/jquery/jquery.url.packed.x.js">
+
+</script>  <link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/VOA/VOA1.cssx" /> <!--[if IE 6]><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/VOA/VOA_ie6.cssx" /><![endif]--> <!--[if IE 7]><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/VOA/VOA_ie7.cssx" /><![endif]--> <link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/VOA/VOA2.cssx" /><link rel="stylesheet" type="text/css" href="App_Themes_6.12.0.30359.12/VOA_en-US/Stylesheet1.csxx" /> <link rel="stylesheet" type="text/css" href="App_Themes_6.12.0.30359.12/VOA_en-US/showcase.csxx" /><script type="text/javascript" src="js_6.12.0.30359.12/jquery/jquery.fancybox-1.3.4.pack.x.js">
+
+</script><script type="text/javascript" src="js_6.12.0.30359.12/jquery/jquery.easing-1.3.pack.x.js">
+
+</script><script type="text/javascript" src="js_6.12.0.30359.12/init.x.js">
+
+</script><link id="ctl00_ctl00_linkRSS" type="application/rss+xml" rel="alternate" href="/rss/" title="VOA - Top Stories [RSS]" /><script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['net._setAccount', 'UA-15260035-1']);
+_gaq.push(['net._setDomainName', '.voanews.com']);
+/*DomainSpecification2*/
+_gaq.push(['net._setAllowLinker', true]);
+/*CustomVariables2*/
+_gaq.push(['net._trackPageview']);
+_gaq.push(['_setAccount', 'UA-18560519-1']);
+_gaq.push(['_setDomainName', '.voanews.com']);
+/*DomainSpecification*/
+_gaq.push(['_setAllowLinker', true]);
+/*CustomVariables*/
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script><link rel="author" href="/humans.txt" /><link href="http://www.voanews.com/" rel="canonical" /><meta http-equiv="Refresh" content="900; url=?refresh=1" /><meta name="title" content="VOA - Voice of America English News" /><meta name="abstract" content="The Voice of America is one of the world&#39;s most trusted sources for news and information from the United States and around the world. VOA is a  multimedia news organization using radio, television, and the internet to distribute content in 43 languages." /><meta http-equiv="content-language" content="en" /><meta name="msvalidate.01" content="BC94811461B7BF0C2662E5BC33B01969" /><link rel="icon" type="image/x-icon" href="/img/voa/favicon.ico" /><link href="http://www.voanews.com/sitemap.xml" rel="sitemap" type="application/rss+xml" /><link href="http://learningenglish.voanews.com" hreflang="en" rel="alternate" /><!--[if lte IE 7]><link type="text/css" rel="stylesheet" href="css_6.12.0.30359.12/ie6nomore_ltr.cssx" /><![endif]--><meta name="description" content="English news from the Voice of America. VOA provides complete coverage of the U.S, Asia, Africa and the Mideast." /><meta name="keywords" content="voa, voice of america, voanews, voanews,voianews, english news,  voanews.com, china, iran the voice of america, syria, africa, asia, middle east, us, united states" /></head> <body id="bd1" class="body_LayoutD1"> <script type="text/javascript" src="http://www.google.com/jsapi"></script> <script type="text/javascript">
+        var virtualKeyboardLanguage = 'en';
+    </script> <script type="text/javascript">
+        
+        var MODAL_LINKS_REGEXP = 'userupload.html|login.html|signup.html|logout.html|passwordrecovery.html';
+    </script>  <form method="post" action="" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=a5qs3JXytOrgHBb6nPqZUJvgebz_pf0MAPYFt2180yPmEtaeGlCGuRQ13zXCq9cJMDolz64JSfF_8QRwbP_SEI6Clmk1&amp;t=634773866700000000" type="text/javascript"></script>
+
+<script type="text/javascript">function openPopup(url) {window.open(url, "pinterest_popup", "scrollbars=no, resizable,width=650,height=600");}</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys$Application$_applicationBaseUrl = '/';var Sys$Application$isPostBack = false;//]]>
+</script>
+
+<script src="/js_6.12.0.30359.12/jquery/jquery.cookie.x.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Ye9l3b64FrN-Fq2tkmbB6H8WEB9jQwqOIY-ItblADLBvwwU3pAQ2yaVeP155BTJrJOcGs4aFOuWpIlzBA4Dxb9rwKOrwjnnEYhEBFeuFmvpKwTaB0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fqcbzF6VK2r0opxCuxNUsbOnGcyEriF4SLixwhDsHsmlNaCeGF08GI1428-4vPXGVhcBVCe-nh7P-Cn6--_7hoqch6MNPe9NJ8qy05pNGUsGOXdI1_GJ49YV3KwcwumXfB9dJA2&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="js/RFERL.WebControls/6.12.0.30359/RFERL.UI.Web.Controls.Utilities.x.js" type="text/javascript"></script>
+<script src="js_6.12.0.30359.12/custom/playlist-helper.x.js" type="text/javascript"></script>
+<script src="js_6.12.0.30359.12/authentication.x.js" type="text/javascript"></script>
+<script src="/js_6.12.0.30359.12/jquery/carousel.x.js" type="text/javascript"></script>
+<script src="/js_6.12.0.30359.12/custom/multimediaWidget.x.js" type="text/javascript"></script>
+<script src="js/RFERL.Site/6.12.0.30359/swfobject.x.js" type="text/javascript"></script>
+<script src="/js_6.12.0.30359.12/custom/mostPopular.x.js" type="text/javascript"></script>
+<script src="js_6.12.0.30359.12/custom/AudioHighlightServiceHelper.x.js" type="text/javascript"></script>
+<script src="Services/CaptchaService.asmx/js" type="text/javascript"></script>
+<script src="Services/MembershipService.asmx/js" type="text/javascript"></script>
+<script src="Services/PlaylistService.asmx/js" type="text/javascript"></script>
+<script src="Services/AudioHighlightService.asmx/js" type="text/javascript"></script>
+<script src="/Services/MediaWidgetService.asmx/js" type="text/javascript"></script>
+<script src="/js_6.12.0.30359.12/versionhelper.x.js" type="text/javascript"></script> <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$smManager', 'aspnetForm', [], [], [], 90, 'ctl00$ctl00');
+//]]>
+</script>
+<!--[if lte IE 7]><div id="ctl00_ctl00_ctl21" class="ie6nomore" style="display:none;">
+	<button type="button" title="Close" onclick="(function (){$(document.getElementById(&#39;ctl00_ctl00_ctl21&#39;)).hide(1000);
+var cookieExpiration = new Date();
+cookieExpiration.setTime(cookieExpiration.getTime() + 1000 * 1814400);
+$.cookie(&#39;IE6NoMore_Closed&#39;,true,{path:&#39;/&#39;,expires: cookieExpiration});(function(){$(&#39;#ctl00_ctl00_ctl21&#39;).prev(&#39;.ie6nomore-bg&#39;).remove();
+$(&#39;object, embed&#39;).filter(function(){try{return $(this).attr(&#39;IE6NoMoreHidden&#39;) == &#39;true&#39;;}catch(ex){return false;}}).css(&#39;visibility&#39;, function(){return $(this).attr(&#39;IE6NoMoreVisibility&#39;);});})();})()"><img class="ie6nomoreClose" src="img/spacer.gif" alt="Close" /></button><h2>
+		Did you know that your Internet Explorer is out of date?
+	</h2><p>To get best possible experience using our website we recommend that you upgrade to a newer version or other web browser. A list of the most popular web browsers can be found below.</p><div>
+		<p>Just click on the icons to get to the download page</p><a href="http://getfirefox.com/"><img alt="Firefox 14+" title="Firefox 14+" class="ie6nomoreFF" src="img/spacer.gif" /><span>Firefox 14+</span></a><a href="http://www.opera.com/browser/"><img alt="Opera 12+" title="Opera 12+" class="ie6nomoreOP" src="img/spacer.gif" /><span>Opera 12+</span></a><a href="http://www.google.com/chrome/"><img alt="Chrome 21+" title="Chrome 21+" class="ie6nomoreCH" src="img/spacer.gif" /><span>Chrome 21+</span></a><a href="http://www.apple.com/safari/"><img alt="Safari 5.1+" title="Safari 5.1+" class="ie6nomoreSF" src="img/spacer.gif" /><span>Safari 5.1+</span></a><a href="http://www.microsoft.com/windows/internet-explorer/"><img alt="Internet Explorer 9+" title="Internet Explorer 9+" class="ie6nomoreIE" src="img/spacer.gif" /><span>Internet Explorer 9+</span></a>
+	</div>
+</div><script type="text/javascript">
+	//<![CDATA[
+((function (){Sys.Application.add_init(function(){
+var cookie = $.cookie('IE6NoMore_Closed');
+if(!cookie){(function(){var me = $('#ctl00_ctl00_ctl21');me.offset({left:Math.round($(window).width()/2 - me.width()/2),top:Math.round($(window).height()/2 - me.height()/2)});})();$(document.getElementById('ctl00_ctl00_ctl21')).show(1000,function(){var me = $('#ctl00_ctl00_ctl21'); var before = $('<div class=\'ie6nomore-bg\'></div>');me.before(before);before.height($(document).height()); me.css('top', ($(window).scrollTop() + Math.round($(window).height()/2 - me.height()/2)) + 'px');
+$('object, embed').attr('IE6NoMoreHidden', 'true').attr('IE6NoMoreVisibility', function(){return $(this).css('visibility');}).css('visibility', 'hidden');});}});}))();//]]>
+</script><![endif]-->
+        <div id="superheader">
+            
+            <div id="top_bar" class=''>
+                <div class="content_centered">
+                    <div class='sites_by_language'><strong class='label'>VOA</strong><a href='#' class='trigger'><span>Sites by Language</span></a></div> <div class="top_stories" > <strong class="label"> Top Stories:</strong> <ul>  <li class="first"> <a class='' href='/content/russia-syria-agrees-to-participate-in-conference/1667418.html'>Russia: Syria Agrees to Participate in Conference</a> </li>  <li class=""> <a class='' href='/content/kerry-to-meet-with-african-union-officials-in-ethiopia/1667441.html'>Kerry to Meet with AU Officials in Ethiopia</a> </li>  </ul> </div>
+                    
+                    <div class="site_specific"></div>
+                    
+                    <ul id="ctl00_ctl00_multisite1_multisiteUL" class="header_multisiteControl">  <li> <a href='http://learningenglish.voanews.com'><img src='/App_Themes/VOA_en-US-LEARN/img/MultipleSitesButtonActive.gif' alt='' /></a> </li>   </ul>
+                    <div class="cleaner">
+                    </div>
+                    <hr class="hidden" />
+                </div>
+                <!-- .content_centered -->
+            </div>
+            <!-- #top_bar -->
+            
+            
+            <div id='top_bar_expanded'><div class='content_centered'><div class='sites'><div class='boxwidget'>
+<ul><li><h5>English Worldwide</h5><h5 class='siteinfochild'><a href="http://www.voanews.com"><span class='siteinfochild1'>English</span><span class='siteinfochild2'>voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://learningenglish.voanews.com"><span class='siteinfochild1'>Learning English</span><span class='siteinfochild2'>learningenglish.voanews.com</span></a></h5></li><li><h5>Eastern & Central Europe</h5><h5 class='siteinfochild'><a href="http://www.zeriamerikes.com"><span class='siteinfochild1'>Shqip</span><span class='siteinfochild2'>Zeriamerikes.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.vijestiglasaamerike.com"><span class='siteinfochild1'>Bosanski</span><span class='siteinfochild2'>vijestiglasaamerike.com</span></a></h5><h5 class='siteinfochild'><a href="http://gr.voanews.com"><span class='siteinfochild1'>Ελληνικά</span><span class='siteinfochild2'>gr.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://mk.voanews.com"><span class='siteinfochild1'>Македонски</span><span class='siteinfochild2'>mk.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.glasamerike.net"><span class='siteinfochild1'>Srpski</span><span class='siteinfochild2'>glasamerike.net</span></a></h5><h5 class='siteinfochild'><a href="http://www.chastime.com"><span class='siteinfochild1'>Українська</span><span class='siteinfochild2'>chastime.com</span></a></h5></li><li><h5>Eurasia</h5><h5 class='siteinfochild'><a href="http://www.amerikayidzayn.com"><span class='siteinfochild1'>Հայերեն</span><span class='siteinfochild2'>amerikayidzayn.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.amerikaninsesi.org"><span class='siteinfochild1'>Azerbaijani</span><span class='siteinfochild2'>amerikaninsesi.org</span></a></h5><h5 class='siteinfochild'><a href="http://www.voanews.com/georgian"><span class='siteinfochild1'>ქართული</span><span class='siteinfochild2'>amerikiskhma.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.golos-ameriki.ru"><span class='siteinfochild1'>Русский</span><span class='siteinfochild2'>golos-ameriki.ru</span></a></h5></li><li><h5>Central Asia</h5><h5 class='siteinfochild'><a href="http://www.amerikaovozi.com"><span class='siteinfochild1'>O‘zbek</span><span class='siteinfochild2'>amerikaovozi.com</span></a></h5></li></ul><ul><li><h5>East & Southeast Asia</h5><h5 class='siteinfochild'><a href="http://www.burmese.voanews.com"><span class='siteinfochild1'>Burmese</span><span class='siteinfochild2'>burmese.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voacantonese.com"><span class='siteinfochild1'>粵語</span><span class='siteinfochild2'>voacantonese.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voachinese.com"><span class='siteinfochild1'>中文</span><span class='siteinfochild2'>voachinese.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voaindonesia.com"><span class='siteinfochild1'>Bahasa Indonesia</span><span class='siteinfochild2'>voaindonesia.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.khmer.voanews.com"><span class='siteinfochild1'>ខ្មែរ</span><span class='siteinfochild2'>khmer.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voacambodia.com"><span class='siteinfochild1'>Khmer</span><span class='siteinfochild2'>voacambodia.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voakorea.com"><span class='siteinfochild1'>한국어</span><span class='siteinfochild2'>voakorea.com</span></a></h5><h5 class='siteinfochild'><a href="http://lao.voanews.com"><span class='siteinfochild1'>ລາວ</span><span class='siteinfochild2'>lao.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voathai.com"><span class='siteinfochild1'>ไทย</span><span class='siteinfochild2'>voathai.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voatibetan.com"><span class='siteinfochild1'>བོད་ཡིག</span><span class='siteinfochild2'>voatibetan.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voatibetanenglish.com"><span class='siteinfochild1'>Tibetan</span><span class='siteinfochild2'>voatibetanenglish.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voatiengviet.com"><span class='siteinfochild1'>Tiếng Việt</span><span class='siteinfochild2'>voatiengviet.com</span></a></h5></li><li><h5>South Asia</h5><h5 class='siteinfochild'><a href="http://www.voabangla.com"><span class='siteinfochild1'>বাংলা</span><span class='siteinfochild2'>voabangla.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.darivoa.com"><span class='siteinfochild1'>دری</span><span class='siteinfochild2'>darivoa.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.pashtovoa.com"><span class='siteinfochild1'>پښتو</span><span class='siteinfochild2'>pashtovoa.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voadeewaradio.com"><span class='siteinfochild1'>وی او اې ډيوه ريډیو</span><span class='siteinfochild2'>voadeewaradio.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.urduvoa.com"><span class='siteinfochild1'>اردو</span><span class='siteinfochild2'>urduvoa.com</span></a></h5></li></ul><ul><li><h5>Africa</h5><h5 class='siteinfochild'><a href="http://www.voaafaanoromoo.com"><span class='siteinfochild1'>Afaan Oromoo</span><span class='siteinfochild2'>voaafaanoromoo.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.amharic.voanews.com"><span class='siteinfochild1'>አማርኛ</span><span class='siteinfochild2'>amharic.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.lavoixdelamerique.com"><span class='siteinfochild1'>Français</span><span class='siteinfochild2'>lavoixdelamerique.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voahausa.com"><span class='siteinfochild1'>Hausa</span><span class='siteinfochild2'>voahausa.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.radiyoyacuvoa.com"><span class='siteinfochild1'>Kinyarwanda</span><span class='siteinfochild2'>radiyoyacuvoa.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.radiyoyacuvoa.com"><span class='siteinfochild1'>Kirundi</span><span class='siteinfochild2'>radiyoyacuvoa.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voandebele.com"><span class='siteinfochild1'>Ndebele</span><span class='siteinfochild2'>voandebele.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voaportugues.com"><span class='siteinfochild1'>Português</span><span class='siteinfochild2'>voaportugues.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voashona.com"><span class='siteinfochild1'>Shona</span><span class='siteinfochild2'>voashona.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voasomali.com"><span class='siteinfochild1'>Soomaaliga</span><span class='siteinfochild2'>voasomali.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voaswahili.com"><span class='siteinfochild1'>Kiswahili</span><span class='siteinfochild2'>voaswahili.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.tigrigna.voanews.com"><span class='siteinfochild1'>ትግርኛ</span><span class='siteinfochild2'>tigrigna.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voazimbabwe.com"><span class='siteinfochild1'>Zimbabwe</span><span class='siteinfochild2'>voazimbabwe.com</span></a></h5></li><li><h5>Middle East / North Africa</h5><h5 class='siteinfochild'><a href="http://ir.voanews.com"><span class='siteinfochild1'>فارسی</span><span class='siteinfochild2'>ir.voanews.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.dengiamerika.com"><span class='siteinfochild1'>كوردی</span><span class='siteinfochild2'>dengiamerika.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.dengeamerika.com"><span class='siteinfochild1'>Kurdi</span><span class='siteinfochild2'>dengeamerika.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.amerikaninsesi.com"><span class='siteinfochild1'>Türkçe</span><span class='siteinfochild2'>amerikaninsesi.com</span></a></h5></li><li><h5>Latin America</h5><h5 class='siteinfochild'><a href="http://www.voanouvel.com"><span class='siteinfochild1'>Creole</span><span class='siteinfochild2'>voanouvel.com</span></a></h5><h5 class='siteinfochild'><a href="http://www.voanoticias.com"><span class='siteinfochild1'>Español</span><span class='siteinfochild2'>voanoticias.com</span></a></h5></li></ul><div class='cleaner'></div></div></div><div class='info'><div class='boxwidget'></div></div><div class='cleaner'></div><hr class='hidden' /></div></div><script id="ctl00_ctl00_DynamicScript6" type="text/javascript" src="js_6.12.0.30359.12/controller.x.js">
+
+</script>
+            
+            <div id="header" class='' dir="ltr">
+                <div class="content_centered">
+                    <h2 id="header_logo"><a href="/">
+                        <span>
+                            VOA
+                        </span>
+                    </a></h2>
+
+                    <div id="header_services">
+                        
+                            <div class="login_bar">
+                                <ul id="ulMembershipBar">
+                                    
+                                        <li><a id='login-trigger' href="/login.html" class="last">
+                                            Log in
+                                        </a></li>
+                                        <li><a id='signup-trigger' href="/signup.html">
+                                            Sign up
+                                        </a></li>
+                                        <li style="display: none" id="liMembershipUserName">
+                                            <span></span>
+                                            <a id='logout-trigger' href="/logout.html">
+                                                Log out
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                        <div class="search_bar">
+                            <div class="search_cower">
+                                <input id="search_loupe_btn"  onclick="SearchButton('keywords_header','order_', isLibNetSite ? publicSiteId  : '');" type="button" value="" title="Search" class="round_corners_button_orange" />
+                                <input id="keywords_header"  onkeypress="if (event.keyCode == 13) { SearchButton('keywords_header','order_', isLibNetSite ? publicSiteId  : ''); return false;}" type="text" value="" class="top_search" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .header_services -->
+                    <ul class="header_navigation">
+                        <li class="header_navigation_item first"><a class="nav_link"  href="/">Home</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/usa/2203.html">USA</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/africa/2204.html">Africa</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/asia/2205.html">Asia</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/middle_east/2206.html">Mideast</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/europe/2210.html">Europe</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/science-and-technology/2214.html">Science & Tech</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/health/2215.html">Health</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/arts_and_entertainment/2216.html">Entertainment</a></li>
+<li class="header_navigation_item "><a class="nav_link"  href="/section/economy_and_business/2217.html">Economy</a></li>
+<li class="header_navigation_item last"><a class="nav_link"  href="http://www.voanews.com/programindex.aspx">Programs</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- #header -->
+            
+            </div>
+
+            
+            <div class="main-content">
+                
+                <div class="content_centered">
+                    
+                    <div class="content" dir="ltr">
+                        <div id="content_top_bar">
+                            
+                            <div id="datetime_bar">
+                                &#32;
+                            </div>
+                            <div class="multimedia_control mm_control_audio " style='display:none;'>
+                                <span><a id="audio_menu_trigger" class="" href="#audio_menu"><strong>
+                                    Audio menu</strong></a></span>
+                            </div>
+                            <div class="multimedia_control mm_control_itv" >
+                                <span><a id="itv_menu_trigger" class="" href="#itv_menu"><strong>Live streams</strong></a></span>
+                            </div>
+                            <div class="cleaner">
+                            </div>
+                        </div>
+                        
+                         <div id="audio_menu" class='multimedia_menu '> <div class="wrapper"> <div id="content_services_menuaudio1" class="column first_column">  </div> <div id="content_services_liveaudio1" class="column first_column" style="display: none;"> </div> <div id="content_services_menuaudio2" class="column second_column">  </div> <div id="content_services_liveaudio2" class="column second_column" style="display: none;"> </div> <div class="column third_column">  </div> <div class="delimiter"> <hr class="delimiter"/> </div> </div> </div>  <div id="itv_menu" class="multimedia_menu"> <div class="wrapper"> <div id="content_services_menuitv1" class="column first_column"> <div class='boxwidget'><div class='programlist_row'><span class='latest_news'><a class='' href='javascript:void window.open(&#39;http://www.voanews.com/wm/live/live-englishtoafrica-a.asx&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;)' onclick='void window.open(&#39;http://www.voanews.com/wm/live/live-englishtoafrica-a.asx&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;);return false;'>Africa Live</a></span></div></div> </div> <div id="content_services_liveitv1" class="column first_column" style="display: none;"> </div> <div id="content_services_menuitv2" class="column second_column"> <div class='boxwidget'><div class='programlist_row'><span class='latest_news'><a class='' href='javascript:void window.open(&#39;http://www.voanews.com/wm/live/newsnow.asx&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;)' onclick='void window.open(&#39;http://www.voanews.com/wm/live/newsnow.asx&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;);return false;'>Global Live</a></span></div></div> </div> <div id="content_services_liveitv2" class="column second_column" style="display: none;"> </div> <div id="content_services_menuitv3" class="column third_column"> <div class='boxwidget'><div class='programlist_row'><span class='latest_news'><a class='' href='javascript:void window.open(&#39;http://www.voanews.com/wm/live/musicmix.asx&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;)' onclick='void window.open(&#39;http://www.voanews.com/wm/live/musicmix.asx&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;);return false;'>Music Mix</a></span></div></div><div class='boxwidget'><div class='programlist_row'><span class='latest_news'><a class='' href='javascript:void window.open(&#39;http://www.voanews.com/mp3/voa/english/nnow/NNOW_HEADLINES.mp3&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;)' onclick='void window.open(&#39;http://www.voanews.com/mp3/voa/english/nnow/NNOW_HEADLINES.mp3&#39;, &#39;_blank&#39;, &#39;width=400,height=200&#39;);return false;'>Latest Newscast</a></span></div></div> </div> <div class="delimiter"> <hr class="delimiter"/> </div> </div> </div> <script type="text/javascript">
+    //<![CDATA[
+    var audio_menu_num_of_opens = 0;
+    var audio_menu_num_of_titleupdates = 0;
+    var audio_menu_is_live = false;
+    var audio_menu_liveid = '0';
+    var itv_menu_num_of_opens = 0;
+    var itv_menu_num_of_titleupdates = 0;
+    var itv_menu_is_live = false;
+    var itv_menu_liveid = '0';
+
+    /*menu type is audio or itv*/
+    function menu_open(openmenutype) {
+        var audioAlwaysOpen = false ;
+        var closemenutype = openmenutype == 'audio' ? 'itv' : 'audio'; 
+        if ($('#'+openmenutype+'_menu').is(':visible')==false)
+        {
+            if ($('#'+closemenutype+'_menu').is(':visible'))
+            {
+                if(closemenutype!='audio' || !audioAlwaysOpen)
+                {
+                    $('#' + closemenutype + '_menu').slideToggle('fast');
+                    $('#' + closemenutype + '_menu_trigger').toggleClass('opened');
+                }
+            }
+            if(openmenutype!='audio' || !audioAlwaysOpen)
+            {
+                $('#' + openmenutype + '_menu').slideToggle('fast');
+                $('#' + openmenutype + '_menu_trigger').toggleClass('opened');
+            }
+        }
+    }
+    function audio_menu_update_title(islive) {
+        $('#audio_menu_trigger').html('<strong>'+
+            (islive ?'Live Audio menu'
+                :'Audio menu') +'</strong>');
+        return false;
+    }
+    Sys.Application.add_load(function()
+    {
+        var showAudio = false;
+        var showItv = true;
+        var internetTvOpenHasPriority = true
+        var autoOpenEnabled = true;
+        var autoRefreshInterval = 300;
+        if((showAudio || showItv) ) //not in cms preview
+        {
+            www.rferl.org.Services.AudioHighlightServiceHelper.register("UpdateAudioHighlightMenu", autoRefreshInterval*1000, null, 
+                function successCallbackAudio_AudioHighlightMenu(result){
+                    
+                    //filling proper columns with data from service
+                    if(result!=null)
+                    {
+                  //      if(result.HtmlAudioLive!='')
+                    //        $("#content_services_liveaudio1").html(result.HtmlAudioLive);
+                      //  if(result.HtmlAudioUpcomming!='')
+                        //    $("#content_services_liveaudio2").html(result.HtmlAudioUpcomming);
+                        
+                        if(result.HtmlAudioLive!='') //if live audio exist
+                        {
+                            $("#content_services_liveaudio1").html(result.HtmlAudioLive);
+                            $("#content_services_menuaudio1").hide();
+                            $("#content_services_liveaudio1").show();
+                            if(result.HtmlAudioUpcomming!='') {
+                                $("#content_services_liveaudio2").html(result.HtmlAudioUpcomming);    
+                                $("#content_services_menuaudio2").hide();
+                                $("#content_services_liveaudio2").show();
+                            }
+                            else {
+                                $("#content_services_liveaudio2").hide();
+                                $("#content_services_menuaudio2").show();
+                            }
+                        }
+                        else //if live audio doesnt exist (second column display menu)
+                        {
+                            $("#content_services_liveaudio2").hide();
+                            $("#content_services_menuaudio2").show();
+                            
+                            if(result.HtmlAudioUpcomming!='') { //if upcommming exist first column is upcomming and second column display menu
+                                $("#content_services_liveaudio1").html(result.HtmlAudioUpcomming);
+                                $("#content_services_menuaudio1").hide();
+                                $("#content_services_liveaudio1").show();
+                            }
+                            else {  // if no audio exist first column display menu too
+                                $("#content_services_liveaudio1").hide();
+                                $("#content_services_menuaudio1").show();
+                            }
+                        }
+                        
+                        
+                        if(result.HtmlItvLive!='') //if live itv exist
+                        {
+                            $("#content_services_liveitv1").html(result.HtmlItvLive);
+                            $("#content_services_menuitv1").hide();
+                            $("#content_services_liveitv1").show();
+                            if(result.HtmlItvUpcomming!='') {
+                                $("#content_services_liveitv2").html(result.HtmlItvUpcomming);    
+                                $("#content_services_menuitv2").hide();
+                                $("#content_services_liveitv2").show();
+                            }
+                            else {
+                                $("#content_services_liveitv2").hide();
+                                $("#content_services_menuitv2").show();
+                            }
+                        }
+                        else //if live itv doesnt exist (second column display menu)
+                        {
+                            $("#content_services_liveitv2").hide();
+                            $("#content_services_menuitv2").show();
+                            
+                            if(result.HtmlItvUpcomming!='') { //if upcommming exist first column is upcomming and second column display menu
+                                $("#content_services_liveitv1").html(result.HtmlItvUpcomming);
+                                $("#content_services_menuitv1").hide();
+                                $("#content_services_liveitv1").show();
+                            }
+                            else {  // if no itv exist first column display menu too
+                                $("#content_services_liveitv1").hide();
+                                $("#content_services_menuitv1").show();
+                            }
+                        }
+                        audio_menu_liveid = result.AudioLiveId;    
+                        itv_menu_liveid = result.ItvLiveId;    
+                    }
+                    
+                    var oldvalue_audioislive = audio_menu_is_live;
+                    audio_menu_is_live = audio_menu_liveid!='0';
+                    itv_menu_is_live = itv_menu_liveid!='0';
+                    
+                    //check which audio was closed by user .. check in cookies
+                    var lastclosed_audioid = $.cookie("audio_menu_liveid");
+                    if(lastclosed_audioid==null)
+                        lastclosed_audioid='0';
+
+                    var lastclosed_itvid = $.cookie("itv_menu_liveid");
+                    if(lastclosed_itvid==null)
+                        lastclosed_itvid='0';
+
+                    //logic which tab to automatically open
+                    var openAudio = audio_menu_liveid != lastclosed_audioid && audio_menu_num_of_opens == 0 && audio_menu_is_live;
+                    var openItv = itv_menu_liveid != lastclosed_itvid && itv_menu_num_of_opens == 0 && itv_menu_is_live;
+                    if(autoOpenEnabled && (openAudio || openItv))
+                    {
+                        if(openItv && openAudio) {
+                            openAudio = !internetTvOpenHasPriority;
+                            openItv = internetTvOpenHasPriority;
+                        }
+                        if(openAudio) {
+                            menu_open('audio');
+                            audio_menu_num_of_opens = 1;
+                        }
+                        if(openItv) {
+                            menu_open('itv');
+                            itv_menu_num_of_opens = 1;
+                        }
+                        setOpenedMultimediaControl();
+                    }
+                    
+                    if(audio_menu_num_of_titleupdates==0 || oldvalue_audioislive!=audio_menu_is_live)
+                    {
+                        audio_menu_update_title(audio_menu_is_live);
+                        audio_menu_num_of_titleupdates=1;
+                    }
+                },
+                function failCallbackAudio_AudioHighlightMenu(error){
+                    // Hide the audio highlight on any error.
+                    $("#content_services_liveaudio1").hide();
+                    $("#content_services_liveaudio2").hide();
+                    $("#content_services_menuaudio1").show();
+                    $("#content_services_menuaudio2").show();
+                    $("#content_services_liveaudio1").html("");
+                    $("#content_services_liveaudio2").html("");
+                    $("#content_services_liveitv1").hide();
+                    $("#content_services_liveitv2").hide();
+                    $("#content_services_menuitv1").show();
+                    $("#content_services_menuitv2").show();
+                    $("#content_services_liveitv1").html("");
+                    $("#content_services_liveitv2").html("");
+                }
+            );
+        }
+    });
+    //]]>
+</script>
+         
+                        <div class="columns">
+                               <script type="text/javascript">
+        //<![CDATA[
+        function previewPage(URL_) {
+            var w;
+            w = window.open(URL_, 'detail', 'width=800,height=600,resizable=yes,status=yes,scrollbars=yes');
+            w.moveTo((screen.availWidth / 2) - (800 / 2), (screen.availHeight / 2) - (600 / 2));
+        }
+        //]]>
+    </script> <div class="content_column4 content_column2"><div class="content_column3 content_column2_1"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_WIDGET_RW_5_11768" class="boxwidget  no_padding w_RW2 p_2c"><div class="boxwidgetInner no_padding"><div class="boxwidget_part"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl00_WIDGET_AR_103_11657" class="boxwidget  w_TopNewsSideHeadline p_2c"><div class="boxwidgetInner" data-vr-zone="Top News"><div class="boxwidget_part"> <div class="columcontainer"> <div class="content_column2_widgethalf firstcolumn"> <div class="columnInner" data-vr-contentbox="FirstColumn"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl00_ctl02_ctl00_ImageHyperlink1" title="A wall with the Syrian revolutionary flag and Arabic writing which reads &quot;freedom,&quot; northern Syria, June 3, 2012." href="/content/russia-syria-agrees-to-participate-in-conference/1667418.html"><img src="http://gdb.voanews.com/ABDDDAE9-4F82-4367-B5C9-000818C6781B_w443_r1_s.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl00_ctl02_ctl00_imgArticle1" alt="A wall with the Syrian revolutionary flag and Arabic writing which reads &quot;freedom,&quot; northern Syria, June 3, 2012." /></a> <h3> <a class='' href='/content/russia-syria-agrees-to-participate-in-conference/1667418.html'>Russia: Syria Agrees to Participate in Conference</a></h3> <p> Russia and the US have proposed a peace conference next month in Geneva but no date has been set <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl00_ctl02_ctl00_linkMore1" class="linksmall" href="/content/russia-syria-agrees-to-participate-in-conference/1667418.html">More</a>  </p> </div> </div> <div class="content_column2_widgethalf secondcolumn"> <div class="columnInner">   <h4 data-vr-contentbox="NumberedLink0"> <a class=' assignedIcon asIcoVideo' href='/content/kerry-to-meet-with-african-union-officials-in-ethiopia/1667441.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Kerry to Meet with AU Officials in Ethiopia</span></a> </h4>  <hr/>  <h4 data-vr-contentbox="NumberedLink1"> <a class='' href='/content/north-korea-envoy-wraps-up-visit-to-china/1667435.html'>North Korea Envoy Wraps Up Visit to China</a> </h4>  <hr/>  <h4 data-vr-contentbox="NumberedLink2"> <a class=' assignedIcon asIcoVideo' href='/content/us-one-drone-victim-was-intent-on-antiamerican-terrorism/1666935.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Obama Outlines Limits on Drone Use in Counterterrorism War</span></a> </h4>  <hr/>  <h4 data-vr-contentbox="NumberedLink3"> <a class=' assignedIcon asIcoPhotogallery' href='/content/at-least-one-london-terror-suspect-is-of-nigerian-descent/1667112.html'><span title="Photogallery" class='assignedIcon asIcoPhotogallery'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Photogallery" />&nbsp;</span><span class='underlineLink'>Terror Suspects Were Known to British Police</span></a> </h4>  <hr/>  <h4 data-vr-contentbox="NumberedLink4"> <a class=' assignedIcon asIcoVideo' href='/content/tornado-oklahoma-relief/1667339.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Victims of Oklahoma Tornado Get Help From Near and Far</span></a> </h4>   </div> </div>  </div></div></div></div><div class="delimiter"><hr class="delimiter" /></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl01_WIDGET_AR_67_11658" class="boxwidget  w_Headline2c p_2c"><div class="boxwidgetInner" data-vr-zone="&amp;nbsp;"><h3 class="boxwidget_part boxwidget_title">&nbsp;</h3><div class="boxwidget_part"> <div class="boxwidget_part">   <div class="content_column_tagheadline firstcolumn widget_headline2c" data-vr-contentbox="Headline0"> <div class="photo"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl01_ctl03_ctl00_repHeadlines_ctl00_ImageHyperlink1" title="Activists march during a demonstration to mark the International Day Against Homophobia and Transphobia in Changsha, May 17, 2013. The banner reads, &quot;Homosexsuals are also ordinary people&quot;. " href="/content/gay-rights-activist-held-in-china/1666767.html"> <img alt='Activists march during a demonstration to mark the International Day Against Homophobia and Transphobia in Changsha, May 17, 2013. The banner reads, "Homosexsuals are also ordinary people". ' class="imgsmall aligned" src='http://gdb.voanews.com/9A51CA19-B262-4523-8850-8BFBB15792D5_w113_r1_cy6.jpg' /> </a> </div> <h4 class="black"> <a class='linkmed' href='/content/gay-rights-activist-held-in-china/1666767.html'>Gay Rights Activist Held in China</a> </h4> Xiang Yuhan was detained following a rally organized by local groups to mark international day against homophobia, lawyer said <a class="linksmall linkmore" href='/content/gay-rights-activist-held-in-china/1666767.html'> More </a> </div>    <div class="content_column_tagheadline widget_headline2c" data-vr-contentbox="Headline1"> <div class="photo"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl01_ctl03_ctl00_repHeadlines_ctl02_ImageHyperlink1" title="Experts estimate that about four million Kenyans drink unpasteurized camel milk on a regular basis. (Sharon Deem, Saint Louis Zoo)" href="/content/us-researchers-examine-camel-milk-risks/1666178.html"> <img alt='Experts estimate that about four million Kenyans drink unpasteurized camel milk on a regular basis. (Sharon Deem, Saint Louis Zoo)' class="imgsmall aligned" src='http://gdb.voanews.com/BF8E8E66-04D8-41F8-8E04-81742B2B443E_w113_r1_cw92.jpg' /> </a> </div> <h4 class="black"> <a class='linkmed assignedIcon asIcoMultimedia' href='/content/us-researchers-examine-camel-milk-risks/1666178.html'><span title="Multimedia" class='assignedIcon asIcoMultimedia'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Multimedia" />&nbsp;</span><span class='underlineLink'>US Researchers Examine Camel Milk Risks </span></a> </h4> Dromedaries have become an increasingly common source of milk in drought-prone areas like Kenya <a class="linksmall linkmore" href='/content/us-researchers-examine-camel-milk-risks/1666178.html'> More </a> </div>  </div> </div></div></div><div class="delimiter"><hr class="delimiter" /></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl02_ctl02_desktopRL_ctl02_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div></div></div><div class="content_column2_1_row"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl04_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl05_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div></div><div class="content_column2_2"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl07_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_WIDGET_RW_37_407" class="boxwidget  no_padding w_RW1 p_1c"><div class="boxwidgetInner no_padding"><div class="boxwidget_part"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_WIDGET_RW_37_9274" class="boxwidget  no_padding w_RW1 p_1c"><div class="boxwidgetInner no_padding"><div class="boxwidget_part"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl00_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl01_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl02_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl03_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl04_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl05_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl06_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl07_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl00_ctl02_desktopRL_ctl08_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl01_WIDGET_AR_53_11659" class="boxwidget  w_TopNewsMainHeadlineVertical p_1c"><div class="boxwidgetInner" data-vr-zone="Feature 3"><div class="boxwidget_part"> <div class="photo aligned" data-vr-contentbox="ImageLink"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl01_ctl02_ctl00_ImageHyperlink1" title="Star Trek Influence Lives Long and Prospers" href="/content/star-trek-movie-influence-live-long-and-prosper/1666982.html"><img src="http://gdb.voanews.com/F874CE23-6FE8-4B6B-AA44-94832DC55FE4_w308_r1_cy10.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl01_ctl02_ctl00_imgArticle1" class="imgmed1col" alt="Star Trek Influence Lives Long and Prospers" /></a> </div> <h3 data-vr-contentbox="TitleLink"> <a class=' assignedIcon asIcoVideo' href='/content/star-trek-movie-influence-live-long-and-prosper/1666982.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Star Trek Influence Lives Long and Prospers</span></a></h3> <p data-vr-contentbox="MoreLink"> As new movie thrills, many are once again discussing the iconic franchise's influence on society, science and technology <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl01_ctl02_ctl00_linkMore1" class="linksmall" href="/content/star-trek-movie-influence-live-long-and-prosper/1666982.html">More</a>  </p> <div class="topintend_superlow"> <ul class="bullet_orange">  </ul> </div> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl02_WIDGET_PHOTO_49_10076" class="boxwidget  w_photoL1 p_1c"><div class="boxwidgetInner" data-vr-zone="Day in Photos"><h3 class="boxwidget_part boxwidget_title"><a href="/archive/day-in-photos/latest/3413/3413.html" target=_blank>Day in Photos</a></h3><div class="boxwidget_part"> <div class="boxmediathumb_inner"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl02_ctl03_imgHyp" class="mediathumb mediathumbmed" title="" href="http://www.voanews.com/media/photogallery/1667128.html"><img id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl02_ctl03_imgPlace" alt="" src="http://gdb.voanews.com/DABF8925-8E9C-487D-AB19-293B06C1DB3E_w308_r1_cy10.jpg" /><img src="/img/spacer.gif" class='overlay ' onmouseover="this.src='/img/cameraOverlayMed.png'" onmouseout="this.src='/img/spacer.gif'"/></a> <div class="boxwidget_part"> <h4 class="photo_capt_txt"> </h4> <p> </p> </div>  </div></div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl03_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl08_ctl02_desktopRL_ctl04_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div></div></div></div></div><div class="content_column2"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_WIDGET_ARTICLEPG_100_412" class="boxwidget  no_padding w_Features3c p_3c"><div class="boxwidgetInner no_padding" data-vr-zone="Highlights"><h3 class="boxwidget_part boxwidget_title">Highlights</h3><div class="boxwidget_part">
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#carousel412').tinycarousel({ pager:true, interval: false, layout: 'ltr' });
+    });
+</script>  <div id="carousel412" class="slider-code slider-columns3"> <div class="viewport"> <ul class="overview"> <li>  <div class='boxwidget_part'> <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link0"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl00_ImageHyperlink1" title="Several telescopes have teamed up to discover a rare and massive merging of two galaxies that took place when the universe was just 3 billion years old (its current age is about 14 billion years). (Photo: ESA/NASA/JPL-Caltech/UC Irvine/STScI/Keck/NRAO/SAO" href="/content/telescopes-capture-colliding-galaxies/1667043.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='Several telescopes have teamed up to discover a rare and massive merging of two galaxies that took place when the universe was just 3 billion years old (its current age is about 14 billion years). (Photo: ESA/NASA/JPL-Caltech/UC Irvine/STScI/Keck/NRAO/SAO' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/2B0E0610-BA4E-475B-9043-694D2F1BE1DE_w183_r1.jpg)' /> </a> <h5 class="orange"> Big Crash </h5> <h4 class="black"> <a class='linkmed assignedIcon asIcoVideo' href='/content/telescopes-capture-colliding-galaxies/1667043.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Telescopes Spot Colliding Galaxies</span></a> </h4> </div> </div>      <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link1"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl02_ImageHyperlink1" title="&#39;Cash Mob&#39; Phenomenon Supports Local Business" href="/content/cash-mob-phenomenon-supports-local-business/1666155.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt=''Cash Mob' Phenomenon Supports Local Business' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/9AE453A7-9EC7-40D3-A0D2-B52B5741E837_w183_r1.jpg)' /> </a> <h5 class="orange"> Spenders </h5> <h4 class="black"> <a class='linkmed' href='/content/cash-mob-phenomenon-supports-local-business/1666155.html'>&#39;Cash Mob&#39; Phenomenon Supports Local Business</a> </h4> </div> </div>      <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link2"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl04_ImageHyperlink1" title="The storm system that generated an F-4 tornado in Moore, Oklahoma is pictured in this May 20, 2013 NASA handout photo shortly before the tornado struck. " href="/content/deadly-us-twister-hit-tornado-alley/1665431.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='The storm system that generated an F-4 tornado in Moore, Oklahoma is pictured in this May 20, 2013 NASA handout photo shortly before the tornado struck. ' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/B31B3BD9-67B1-40CA-8E61-73BAEF7BF0BA_w183_r1_cy11.jpg)' /> </a> <h5 class="orange"> Vulnerable  </h5> <h4 class="black"> <a class='linkmed' href='/content/deadly-us-twister-hit-tornado-alley/1665431.html'>Deadly US Twister Hits &#39;Tornado Alley&#39;</a> </h4> </div> </div>      <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link3"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl06_ImageHyperlink1" title="This screenshot from the 1965 U.S. Navy training film &quot;Blondes Prefer Gentlemen&quot; shows what to do in a &quot;dangerous&quot; dating situation." href="/content/through-the-ages-us-armed-forces-sexual-conduct-videos-evolve-somewhat/1664684.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='This screenshot from the 1965 U.S. Navy training film "Blondes Prefer Gentlemen" shows what to do in a "dangerous" dating situation.' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/20737D60-C21A-4CD6-9F5D-E1E7F81E4980_w183_r1.jpg)' /> </a> <h5 class="orange"> Being a Gentleman </h5> <h4 class="black"> <a class='linkmed' href='/content/through-the-ages-us-armed-forces-sexual-conduct-videos-evolve-somewhat/1664684.html'>Tongue-in-Cheek Videos Teach Etiquette</a> </h4> </div> </div>      <div class="content_column_feature lastItem content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link4"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl08_ImageHyperlink1" title="Comet ISON is shown in this NASA handout image photographed by the Hubble telescope on April 10, 2013." href="/content/astronomers-await-comet-ison-year-end-spectacular/1663642.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='Comet ISON is shown in this NASA handout image photographed by the Hubble telescope on April 10, 2013.' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/BC6D1DE2-A954-4F1D-9471-F70A0AAF10E1_w183_r1_cy19.jpg)' /> </a> <h5 class="orange"> Comet Show </h5> <h4 class="black"> <a class='linkmed' href='/content/astronomers-await-comet-ison-year-end-spectacular/1663642.html'>Astronomers Awaiting Year-End Spectacular</a> </h4> </div> </div> </div>  </li><li class='hideBgImages'>  <div class='boxwidget_part'> <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link5"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl10_ImageHyperlink1" title="Smoke drifts south in this image of Al Basrah, located in southeastern Iraq, captured by the Landsat mission on April 4, 2003. The green circles from the center to the left of the image represent irrigated crops. (Courtesy USGS)" href="/content/google-earth-engine-timelapse-shows-changing-planet/1661012.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='Smoke drifts south in this image of Al Basrah, located in southeastern Iraq, captured by the Landsat mission on April 4, 2003. The green circles from the center to the left of the image represent irrigated crops. (Courtesy USGS)' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/20000E37-DEDD-4168-9EDD-D33C6A0B7698_w183_r1.jpg)' /> </a> <h5 class="orange"> Decades of Change </h5> <h4 class="black"> <a class='linkmed' href='/content/google-earth-engine-timelapse-shows-changing-planet/1661012.html'>Time Lapse Look at Earth</a> </h4> </div> </div>      <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link6"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl12_ImageHyperlink1" title="Each red dot on this screen shot from the Ventus website  represents a power plant.  (Ventus Project)" href="/content/citizen-scientists-map-global-emissions/1662640.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='Each red dot on this screen shot from the Ventus website  represents a power plant.  (Ventus Project)' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/A1B12174-90D8-4B72-92EB-6D9649C6FF67_w183_r1_cy5.jpg)' /> </a> <h5 class="orange"> Help Wanted </h5> <h4 class="black"> <a class='linkmed' href='/content/citizen-scientists-map-global-emissions/1662640.html'>Citizen Scientists Map Global Emissions </a> </h4> </div> </div>      <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link7"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl14_ImageHyperlink1" title="Somali nationals demonstrate outside Parliament in Cape Town against recent xenophobic attacks, (File photo)." href="/content/south-african-filmmaker-looks-to-spark-dialogue-on-xenophobia/1662822.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='Somali nationals demonstrate outside Parliament in Cape Town against recent xenophobic attacks, (File photo).' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/076EDFD9-C6B6-484C-BCED-82EEE36D2424_w183_r1.jpg)' /> </a> <h5 class="orange"> Root Cause? </h5> <h4 class="black"> <a class='linkmed' href='/content/south-african-filmmaker-looks-to-spark-dialogue-on-xenophobia/1662822.html'>SAF Filmmaker Examines Xenophobia Riots</a> </h4> </div> </div>      <div class="content_column_feature  content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link8"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl16_ImageHyperlink1" title="Gamera II pilot Henry Enerson hovers just short of the 3-meter altitude required in the competition. (Earl Zubkoff/Courtesy University of Maryland.)" href="/content/students-aim-for-aviation-history-with-human-powered-helicopter/1661270.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='Gamera II pilot Henry Enerson hovers just short of the 3-meter altitude required in the competition. (Earl Zubkoff/Courtesy University of Maryland.)' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/465CCBB4-65D0-4573-AD46-9C0F94645332_w183_r1_cy10.png)' /> </a> <h5 class="orange"> Making History </h5> <h4 class="black"> <a class='linkmed' href='/content/students-aim-for-aviation-history-with-human-powered-helicopter/1661270.html'>Human-Powered Chopper Takes Flight</a> </h4> </div> </div>      <div class="content_column_feature lastItem content_column_feature_firstrow boxwidget rc_sideborders" data-vr-contentbox="Link9"> <div class="boxwidget_part round_corners_ww"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl10_ctl03_ctl00_repHightlights_ctl18_ImageHyperlink1" title="Device Keeps Internet On When Power Goes Off" href="/content/device-keeps-internet-on-when-power-goes-off/1661067.html" style="display:inline-block;border-width:0px;"> <img class='featureThumb' alt='Device Keeps Internet On When Power Goes Off' src='/img/spacer.gif' style='background-image:url(http://gdb.voanews.com/AE40FFAB-F46C-47FE-A51B-9E49CB930D51_w183_r1.jpg)' /> </a> <h5 class="orange"> Staying Connected </h5> <h4 class="black"> <a class='linkmed' href='/content/device-keeps-internet-on-when-power-goes-off/1661067.html'>Device Keeps Internet On When Power Goes Off</a> </h4> </div> </div> </div>  </li> </ul> </div> <div class="paging"> <a href="#" class="buttons prev"><span>previous</span></a> <ul class="pager"> <li><a rel="0" class="pagenum" href="#">&nbsp;</a></li><li><a rel="1" class="pagenum" href="#">&nbsp;</a></li> </ul> <a href="#" class="buttons next"><span>next</span></a> </div> </div> <div class="more_footer" data-vr-contentbox="MoreLink">  </div></div></div></div><div class="delimiter"><hr class="delimiter" /></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl11_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div class="content_column2_1"><div class="content_column2_1_row"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl14_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl15_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl16_WIDGET_MEDIA_68_8968" class="boxwidget  w_MediaWidget p_2c"><div class="boxwidgetInner" data-vr-zone="Featured Videos"><h3 class="boxwidget_part boxwidget_title">Featured Videos</h3><div class="boxwidget_part"> 
+<div class="multimedia_widget mmw_two_columns" id="mmw_8968">
+    <div class="mmw_soundslide_fulscreen">
+        <div class="mmw_soundslide_bg">
+        </div>
+        <div class="mmw_soundslide_popup_cont" onclick="mmw.hideSoundSlide()">
+            <div class="mmw_soundslide_popup">
+                <div class="mmw_soundslide_hide" onclick="mmw.hideSoundSlide()">
+                </div>
+                <div class='mmw_soundslide_fl'>
+                    Your JavaScript is turned off or you have an old version of Adobe's Flash Player. <a href="http://www.macromedia.com/go/getflashplayer/">Get the latest Flash player</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mmw_content_container">
+        <div id='Flash_mmw_8968'>
+            Your JavaScript is turned off or you have an old version of Adobe's Flash Player. <a href="http://www.macromedia.com/go/getflashplayer/">Get the latest Flash player</a>.
+        </div>
+        <a class='mmw_ssph' onclick="mmw.showSoundSlide(this)">
+            <img src="/img/spacer.gif" alt='' class="mmw_ssph_i" />
+            <img alt='' class="mmw_ssph_over" src="/img/spacer.gif" />
+        </a>
+        <div class="mmw_youtube_placeholder">
+           <iframe id='ifr_YT_mmw_8968' width="100%" height="100%" src="about:blank" frameborder="0" allowfullscreen></iframe>
+         </div>
+        <div class="mmw_htmlPhotogallery_placeholder">
+            
+        </div>
+    </div>
+    <div class="mmw_nowplaying_description">
+        <h5 class="orange">Video</h5><h4><a class='linkmed assignedIcon asIcoVideo' href='/media/video/1666184.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Most Undocumented Asian Youth Have Not Applied for Work Permits</span></a></h4><div>There are an estimated 11 million undocumented immigrants in the United States. While lawmakers are debating immigration reform and much of the focus has been on people from Latin America, five of the top 10 home countries of the undocumented are Asian. Elizabeth Lee reports for VOA from Los Angeles that California has the largest number of undocumented immigrants.</div>
+    </div>
+    <div class="mmw_filmstrip">
+        <span class="mmw_scroll mmw_scroll_back" onmouseover="mmw.scroll(this, 'back')" onmousedown="mmw.setScrollStep(10)" onmouseup="mmw.setScrollStep(4)" onmouseout="mmw.stopScroll()"></span>
+        <div class="mmw_thumbnails_container">
+            <div class="mmw_thumbnails">
+                
+                     <a class="mmw_th_cont mmw_th_selected" 
+                        onclick="mmw.loadItem('1666184', 'Video', '', this, null, 1666184)" 
+                        title='Most Undocumented Asian Youth Have Not Applied for Work Permits'>
+                         <img class="mmw_th" 
+                              style="background-image:url('http://gdb.voanews.com/2E07E6B2-898F-477B-93D7-883AFC2F5511_w113_r1.jpg')"
+                              alt='Most Undocumented Asian Youth Have Not Applied for Work Permits'
+                              src='/img/spacer.gif' onmouseover="this.src='/img/videoOverlay_mmw.gif'" onmouseout="this.src='/img/spacer.gif'" />
+                        </a>
+                    
+                     <a class="mmw_th_cont" 
+                        onclick="mmw.loadItem('1665424', 'Video', '', this, null, 1665424)" 
+                        title='Oklahoma Tornado Victims Share Stories of Survival'>
+                         <img class="mmw_th" 
+                              style="background-image:url('http://gdb.voanews.com/A314FBA9-A2DD-41DB-A008-7B0F0DC52E5E_w113_r1.jpg')"
+                              alt='Oklahoma Tornado Victims Share Stories of Survival'
+                              src='/img/spacer.gif' onmouseover="this.src='/img/videoOverlay_mmw.gif'" onmouseout="this.src='/img/spacer.gif'" />
+                        </a>
+                    
+                     <a class="mmw_th_cont" 
+                        onclick="mmw.loadItem('1665167', 'Video', '', this, null, 1665167)" 
+                        title='Past Differences Hamper US-Russian Efforts to Help Syria'>
+                         <img class="mmw_th" 
+                              style="background-image:url('http://gdb.voanews.com/BEFF3F5B-A36A-4FCE-9032-ACF88EE0DA19_w113_r1.jpg')"
+                              alt='Past Differences Hamper US-Russian Efforts to Help Syria'
+                              src='/img/spacer.gif' onmouseover="this.src='/img/videoOverlay_mmw.gif'" onmouseout="this.src='/img/spacer.gif'" />
+                        </a>
+                    
+                     <a class="mmw_th_cont" 
+                        onclick="mmw.loadItem('1664978', 'Video', '', this, null, 1664978)" 
+                        title='Valley Fever Raises Concerns in California, Arizona'>
+                         <img class="mmw_th" 
+                              style="background-image:url('http://gdb.voanews.com/293EA5BC-8097-498E-B912-7A704F98AEED_w113_r1.jpg')"
+                              alt='Valley Fever Raises Concerns in California, Arizona'
+                              src='/img/spacer.gif' onmouseover="this.src='/img/videoOverlay_mmw.gif'" onmouseout="this.src='/img/spacer.gif'" />
+                        </a>
+                    
+                     <a class="mmw_th_cont" 
+                        onclick="mmw.loadItem('1663685', 'Video', '', this, null, 1663685)" 
+                        title='Annual Event Helps Torture Treatment Center'>
+                         <img class="mmw_th" 
+                              style="background-image:url('http://gdb.voanews.com/94812DF4-BBD3-46C9-B8A9-E8841ECD061A_w113_r1.jpg')"
+                              alt='Annual Event Helps Torture Treatment Center'
+                              src='/img/spacer.gif' onmouseover="this.src='/img/videoOverlay_mmw.gif'" onmouseout="this.src='/img/spacer.gif'" />
+                        </a>
+                    
+                     <a class="mmw_th_cont" 
+                        onclick="mmw.loadItem('1662932', 'Video', '', this, null, 1662932)" 
+                        title='The Biggest World’s Slum  (VOA On Assignment May 17)'>
+                         <img class="mmw_th" 
+                              style="background-image:url('http://gdb.voanews.com/AE18EA39-EEF1-4944-8391-1D8D07595BC9_w113_r1.jpg')"
+                              alt='The Biggest World’s Slum  (VOA On Assignment May 17)'
+                              src='/img/spacer.gif' onmouseover="this.src='/img/videoOverlay_mmw.gif'" onmouseout="this.src='/img/spacer.gif'" />
+                        </a>
+                    
+            </div>
+        </div>
+        <span class="mmw_scroll mmw_scroll_forward" onmouseover="mmw.scroll(this, 'forward')" onmousedown="mmw.setScrollStep(10)" onmouseup="mmw.setScrollStep(4)" onmouseout="mmw.stopScroll()"></span>
+    </div>
+</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+    if (!mmw) {
+        var mmw = new RFERL.js.custom.MultimediaWidget({
+            MediaPlayerURL: '/flash_6.12.0.30359.12/MediaPlayer.swfx',
+            PhotoGalleryPlayerURL: '/flash_6.12.0.30359.12/photogalleryComponent.swfx?cache=',
+            LTRorRTL: 'ltr',
+            videoH: 248,
+            videoW: 384,
+            photogalH: 248,
+            photogalW: 384,
+            soundslideW: 640, //620 or 640
+            soundslideH: 510, //510 or 393
+            oneColW: 308,
+            oneColH: 205
+        });
+
+    }
+    mmw.loadItem('1666184', 'Video', null, null, '8968');
+    //]]>
+</script></div></div></div><div class="delimiter"><hr class="delimiter" /></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl17_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div class="content_column2_1_row"><div class="content_column2_1_1"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl20_WIDGET_AR_25_421" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="USA"><h3 class="boxwidget_part boxwidget_title"><a href="/section/usa/2203.html">USA</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl20_ctl03_ctl00_ImageHyperlink1" title="In this photo provided by Francisco Rodriguez, rescue boats approach victims at their vehicles in the Skagit River after the collapse of the Interstate 5 bridge in Mount Vernon, Wash., May 23, 2013." href="/content/us-bridge-collapses-no-fatalities/1667391.html"><img src="http://gdb.voanews.com/B364A757-07B4-4EFA-8A1D-D53B281D0F78_w113_r1.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl20_ctl03_ctl00_imgArticle1" alt="In this photo provided by Francisco Rodriguez, rescue boats approach victims at their vehicles in the Skagit River after the collapse of the Interstate 5 bridge in Mount Vernon, Wash., May 23, 2013." class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class='' href='/content/us-bridge-collapses-no-fatalities/1667391.html'>Bridge Collapses in Washington State, No Fatalities</a> </h4> <p data-vr-contentbox="top link more button"> Four-lane Interstate 5 bridge collapsed Thursday evening local time, sending several vehicles into the shallow water of the Skagit River <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl20_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/us-bridge-collapses-no-fatalities/1667391.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class=' assignedIcon asIcoVideo' href='/content/tornado-oklahoma-relief/1667339.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Victims of Oklahoma Tornado Get Help From Near and Far</span></a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class='' href='/content/jodi-arias-death-hung-jury/1667304.html'>Jodi Arias Jury Fails to Reach Decision on Death Penalty</a> </h4> </li>  </ul> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl21_WIDGET_AR_25_430" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="Asia"><h3 class="boxwidget_part boxwidget_title"><a href="/section/asia/2205.html">Asia</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl21_ctl03_ctl00_ImageHyperlink1" title="A car, second from left, believed to be carrying North Korean envoy Choe Ryong Hae, is escorted by a convoy of cars as it leaves Beijing&#39;s Diaoyutai State Guesthouse, May 24, 2013. " href="/content/north-korea-envoy-wraps-up-visit-to-china/1667435.html"><img src="http://gdb.voanews.com/BF7A4BAC-0B2B-4808-830A-98795E2C54CC_w113_r1.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl21_ctl03_ctl00_imgArticle1" alt="A car, second from left, believed to be carrying North Korean envoy Choe Ryong Hae, is escorted by a convoy of cars as it leaves Beijing&#39;s Diaoyutai State Guesthouse, May 24, 2013. " class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class='' href='/content/north-korea-envoy-wraps-up-visit-to-china/1667435.html'>North Korea Envoy Wraps Up Visit to China</a> </h4> <p data-vr-contentbox="top link more button"> Relations between the two countries have weakened since North Korea's nuclear test in February and China's support of UN sanctions in response to the test <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl21_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/north-korea-envoy-wraps-up-visit-to-china/1667435.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class='' href='/content/indian-soldiers-killed-in-kashmir-attack/1667402.html'>Indian Soldiers Killed in Kashmir Attack</a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class='' href='/content/global-advocacy-group-urges-pakistan-to-protect-press/1666853.html'>Global Advocacy Group Urges Pakistan to Protect Press</a> </h4> </li>  </ul> </div></div></div></div><div class="content_column2_1_2"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl23_WIDGET_AR_25_429" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="Africa"><h3 class="boxwidget_part boxwidget_title"><a href="/section/africa/2204.html">Africa</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl23_ctl03_ctl00_ImageHyperlink1" title="U.S. Secretary of State John Kerry steps off his plane, May 14, 2013. (File photo)" href="/content/kerry-to-meet-with-african-union-officials-in-ethiopia/1667441.html"><img src="http://gdb.voanews.com/D2C5CFBB-78DE-4258-836F-69E98B9ECC24_w113_r1_cy3.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl23_ctl03_ctl00_imgArticle1" alt="U.S. Secretary of State John Kerry steps off his plane, May 14, 2013. (File photo)" class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class=' assignedIcon asIcoVideo' href='/content/kerry-to-meet-with-african-union-officials-in-ethiopia/1667441.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Kerry to Meet with AU Officials in Ethiopia</span></a> </h4> <p data-vr-contentbox="top link more button"> US secretary of state will discuss Sudan violence and efforts to battle insurgents in Mali, Nigeria during talks with African Union <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl23_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/kerry-to-meet-with-african-union-officials-in-ethiopia/1667441.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class='' href='/content/kerry-to-visit-ethiopia-for-security-talks/1667405.html'>Kerry to Visit Ethiopia for Security Talks</a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class='' href='/content/south-sudan-food-production-fao/1667359.html'>FAO Project Will Track S. Sudan Food Production</a> </h4> </li>  </ul> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl24_WIDGET_AR_25_432" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="Middle East"><h3 class="boxwidget_part boxwidget_title"><a href="/section/mideast/2206.html">Middle East</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl24_ctl03_ctl00_ImageHyperlink1" title="A wall with the Syrian revolutionary flag and Arabic writing which reads &quot;freedom,&quot; northern Syria, June 3, 2012." href="/content/russia-syria-agrees-to-participate-in-conference/1667418.html"><img src="http://gdb.voanews.com/ABDDDAE9-4F82-4367-B5C9-000818C6781B_w113_r1.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl24_ctl03_ctl00_imgArticle1" alt="A wall with the Syrian revolutionary flag and Arabic writing which reads &quot;freedom,&quot; northern Syria, June 3, 2012." class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class='' href='/content/russia-syria-agrees-to-participate-in-conference/1667418.html'>Russia: Syria Agrees to Participate in Conference</a> </h4> <p data-vr-contentbox="top link more button"> Russia and the US have proposed a peace conference next month in Geneva but no date has been set <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl24_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/russia-syria-agrees-to-participate-in-conference/1667418.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class=' assignedIcon asIcoVideo' href='/content/syria-iraq-sectarian-violence/1667233.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Syria&#39;s Civil War Fuels Violence in Iraq</span></a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class='' href='/content/rafsanjani-calls-iran-leaders-ignorant/1666889.html'>Rafsanjani Calls Iranian Leaders Ignorant</a> </h4> </li>  </ul> </div></div></div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl25_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl26_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div class="content_column2_1_row"><div class="content_column2_1_1"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl29_WIDGET_AR_25_434" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="Science &amp; Technology"><h3 class="boxwidget_part boxwidget_title"><a href="/section/science_and_technology/2214.html">Science & Technology</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl29_ctl03_ctl00_ImageHyperlink1" title="Authorities are taking samples of live poultry from mainland China to test for the H7N9 virus, April 11, 2013. " href="/content/study-identifies-risks-of-human-spread-of-h7n9-bird-flu/1667456.html"><img src="http://gdb.voanews.com/9024D816-0DFE-4450-AE1E-1BB760D31C89_w113_r1_cy7.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl29_ctl03_ctl00_imgArticle1" alt="Authorities are taking samples of live poultry from mainland China to test for the H7N9 virus, April 11, 2013. " class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class='' href='/content/study-identifies-risks-of-human-spread-of-h7n9-bird-flu/1667456.html'>Study Identifies Risks of Human Spread of H7N9 Bird Flu</a> </h4> <p data-vr-contentbox="top link more button"> Study suggest that international measures to contain the H7N9 influenza, in the event of severe outbreak, will need to be targeted in Asia <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl29_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/study-identifies-risks-of-human-spread-of-h7n9-bird-flu/1667456.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class=' assignedIcon asIcoVideo' href='/content/telescopes-capture-colliding-galaxies/1667043.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Telescopes Spot Colliding Galaxies</span></a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class=' assignedIcon asIcoVideo' href='/content/star-trek-movie-influence-live-long-and-prosper/1666982.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Star Trek Influence Lives Long and Prospers</span></a> </h4> </li>  </ul> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl30_WIDGET_AR_25_437" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="Arts &amp; Entertainment"><h3 class="boxwidget_part boxwidget_title"><a href="/section/arts_and_entertainment/2216.html">Arts & Entertainment</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl30_ctl03_ctl00_ImageHyperlink1" title="French singer-songwriter Georges Moustaki performs at Palau de la Musica Catalana during the Mil.leni festival, Barcelona, Jan. 10, 2008." href="/content/edith-pilaf-songwriter-singer-georges-moustaki-dies/1666989.html"><img src="http://gdb.voanews.com/A944FA83-4E85-423E-A6AA-C4DA1D1035C5_w113_r1.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl30_ctl03_ctl00_imgArticle1" alt="French singer-songwriter Georges Moustaki performs at Palau de la Musica Catalana during the Mil.leni festival, Barcelona, Jan. 10, 2008." class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class='' href='/content/edith-pilaf-songwriter-singer-georges-moustaki-dies/1666989.html'>Singer, Piaf Songwriter Georges Moustaki Dies at 79</a> </h4> <p data-vr-contentbox="top link more button"> Greek-born singer arrived in Paris in 1951, where he worked with some of the period's best-known singers <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl30_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/edith-pilaf-songwriter-singer-georges-moustaki-dies/1666989.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class='' href='/content/liberace-film-casts-spotlight-on-gay-rights-at-cannes-festival/1665475.html'>Liberace Film Spotlights Gay Rights at Cannes</a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class=' assignedIcon asIcoVideo' href='/content/teen-who-made-viral-video-clouds-dies-of-cancer-zach-sobiech/1664874.html'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Teen Dies of Cancer After Touching Millions With Song</span></a> </h4> </li>  </ul> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl31_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl32_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div><div class="content_column2_1_2"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl34_WIDGET_AR_25_436" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="Health"><h3 class="boxwidget_part boxwidget_title"><a href="/section/health/2215.html">Health</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl34_ctl03_ctl00_ImageHyperlink1" title="New research suggests patients with disorders such as obsessive-compulsive behavior, depression, Parkinson&#39;s Disease and Tourette&#39;s syndrome might be helped by having deep brain stimulation devices implanted in the brain." href="/content/medical-diagnosis-depression-mental-illness/1666567.html"><img src="http://gdb.voanews.com/6713E10E-F7A4-44E0-BC11-C9D2C9B10ED2_w113_r1_cy6.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl34_ctl03_ctl00_imgArticle1" alt="New research suggests patients with disorders such as obsessive-compulsive behavior, depression, Parkinson&#39;s Disease and Tourette&#39;s syndrome might be helped by having deep brain stimulation devices implanted in the brain." class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class='' href='/content/medical-diagnosis-depression-mental-illness/1666567.html'>Revision of Mental Illness Guide Stirs Debate</a> </h4> <p data-vr-contentbox="top link more button"> Manual of mental disorders shortens time period in which symptons are present before patients can be diagnosed as suffering from depression <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl34_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/medical-diagnosis-depression-mental-illness/1666567.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class=' assignedIcon asIcoMultimedia' href='/content/us-researchers-examine-camel-milk-risks/1666178.html'><span title="Multimedia" class='assignedIcon asIcoMultimedia'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Multimedia" />&nbsp;</span><span class='underlineLink'>US Researchers Examine Camel Milk Risks </span></a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class='' href='/content/new-iphone-app-speeds-care-of-heart-attack-victims/1665697.html'>New iPhone App Speeds Care of Heart Attack Victims </a> </h4> </li>  </ul> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl35_WIDGET_AR_25_438" class="boxwidget  w_SectionB2c p_1c"><div class="boxwidgetInner" data-vr-zone="Economy &amp; Business"><h3 class="boxwidget_part boxwidget_title"><a href="/section/economy_and_business/2217.html">Economy & Business</a></h3><div class="boxwidget_part"> <div class="photo" data-vr-contentbox="photo link"> <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl35_ctl03_ctl00_ImageHyperlink1" title="Under Secretary of the U.S. Treasury for International Affairs Lael Brainard speaks at the 2013 NABE Economic Policy Conference in Washington, Mar. 5, 2013.   " href="/content/us-urges-action-from-europe-to-avert-prolonged-stagnation/1666947.html"><img src="http://gdb.voanews.com/B8C153B1-8F2D-4B69-BA27-26A67935F84A_w113_r1_cy19.jpg" id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl35_ctl03_ctl00_imgArticle1" alt="Under Secretary of the U.S. Treasury for International Affairs Lael Brainard speaks at the 2013 NABE Economic Policy Conference in Washington, Mar. 5, 2013.   " class="imgsmall aligned" /></a> </div> <h4 data-vr-contentbox="top link"> <a class='' href='/content/us-urges-action-from-europe-to-avert-prolonged-stagnation/1666947.html'>US Urges Action from Europe to Avert Prolonged Stagnation</a> </h4> <p data-vr-contentbox="top link more button"> Under Secretary of Treasury says Europe should rethink broad push toward fiscal austerity <a id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl35_ctl03_ctl00_linkMore1" class="linksmall linkmore" href="/content/us-urges-action-from-europe-to-avert-prolonged-stagnation/1666947.html">More</a> </p> <ul class="bullet_orange topintend_superlow">  <li data-vr-contentbox="Newsline0"> <h4> <a class='' href='/content/yahoo-buying-tumblr-for-more-than-one-billion-dollars/1664655.html'>Yahoo Buying Tumblr for $1.1 Billion</a> </h4> </li>  <li data-vr-contentbox="Newsline1"> <h4> <a class='' href='/content/opinion-washington-scandals-wont-stunt-us-recovery/1662361.html'>Opinion: Washington&#39;s Scandals Won&#39;t Stunt US Recovery</a> </h4> </li>  </ul> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl36_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl37_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div></div></div><div class="content_column2_2"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl39_WIDGET_RW_37_7761" class="boxwidget  no_padding w_RW1 p_1c"><div class="boxwidgetInner no_padding"><div class="boxwidget_part"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl39_ctl02_desktopRL_ctl00_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl39_ctl02_desktopRL_ctl01_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl39_ctl02_desktopRL_ctl02_WIDGET_RSSFeed_69_9939" class="boxwidget  w_rss-widget p_1c"><div class="boxwidgetInner" data-vr-zone="Latest World News "><h3 class="boxwidget_part boxwidget_title"><a href="/archive/breaking-news/latest/3491/3491.html">Latest World News </a></h3><div class="boxwidget_part"> <div class='boxwidget_part float-none ' ><ul class='bullet_orange'><li><a target='_blank' href='http://www.voanews.com/content/north-korea-envoy-wraps-up-visit-to-china/1667452.html'>North Korea Envoy Wraps Up Visit to China</a>&nbsp;<span class='date'>41 minutes ago</span></li>  <li><a target='_blank' href='http://www.voanews.com/content/suicide-bomber-kills-3-in-pakistan/1667447.html'>Suicide Bomber Kills 3 in Pakistan</a>&nbsp;<span class='date'>53 minutes ago</span></li></ul></div>   </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl39_ctl02_desktopRL_ctl03_WIDGET_HTMLText_2_9962" class="boxwidget  w_HTMLNoBorderBox p_1c"><div class="boxwidgetInner" data-vr-zone="New in Music Alley"><h3 class="boxwidget_part boxwidget_title"><a href="/section/music-alley/3644.html">New in Music Alley</a></h3><div class="boxwidget_part"><a href="http://www.voanews.com/info/music-alley/3644.html"><img a="" alt="Beyond Category" href="http://www.voanews.com/info/music-alley/3644.html" src="http://gdb.voanews.com/F2083361-4A0A-4A40-9FD5-03D8109ECB31.jpg" width="308" /></a><br />
+Sin&eacute; Qua Non mixes jazz, new grooves, and world music. They bring their fresh sound to the VOA stage, performing and talking with <a href="http://www.voanews.com/info/music-alley/3644.html" target="_blank">Beyond Category</a> host Eric Felten. </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl39_ctl02_desktopRL_ctl04_WIDGET_AR_53_11955" class="boxwidget  w_TopNewsMainHeadlineVertical p_1c"><div class="boxwidgetInner" data-vr-zone="WIDGET_AR_53_11955"><h3 class="boxwidget_part boxwidget_title">&nbsp;</h3><div class="boxwidget_part"></div></div></div></div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl40_WIDGET_HTMLText_2_967" class="boxwidget  w_HTMLNoBorderBox p_1c"><div class="boxwidgetInner" data-vr-zone="Blogs"><a href="http://blogs.voanews.com/"><img class='imgheader' src='http://gdb.voanews.com/A5A5ABA0-F267-4500-9325-4F484E18AC70.png' alt='Blogs' width='100%' /></a><div class="boxwidget_part"><br />
+<script type="text/javascript">var fdgts=new Date();var fdgtsts2=Math.floor(fdgts.valueOf()/(60*3*1000))*(60*3*1000);document.write("<scr"+"ip"+"t type='text/jav"+"ascript' src='http://www.voanews.com/MediaAssets2/projects/fidget/html/178.js?ts3="+fdgtsts2+"'>"+"</scr"+"ipt>");</script> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl41_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl42_WIDGET_RW_37_7714" class="boxwidget  no_padding w_RW1 p_1c"><div class="boxwidgetInner no_padding"><div class="boxwidget_part"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl42_ctl02_desktopRL_ctl00_WIDGET_SOCIALBUTTONS_2_786" class="boxwidget  w_HTMLNoBorderBox p_1c"><div class="boxwidgetInner" data-vr-zone="WIDGET_SOCIALBUTTONS_2_786"><div class="boxwidget_part"><script id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl42_ctl02_desktopRL_ctl00_ctl02_DynamicScript1" type="text/javascript" src="/js_6.12.0.30359.12/custom/FBConnect.x.js">
+
+</script> <script type="text/javascript">
+    pangeaSocialIcons({ icons: [{"type":"facebook_popup", "href":"https%3A%2F%2Fwww.facebook.com%2Fvoiceofamerica","name":"Facebook"},{"type":"twitter_popup", "href":"VOA_News","name":"Twitter"},{"type":"link_button", "href":"http%3A%2F%2Fwww.youtube.com%2Fvoavideo","target":"_blank","cssClass":"shwico_youtube","name":"Youtube"},{"type":"link_button", "href":"%2Finfo%2Fpodcast%2F1356.html","target":"","cssClass":"shwico_pangea_podcast","name":"Podcast"},{"type":"link_button", "href":"%2Fsubscribe.aspx","target":"","cssClass":"shwico_pangea_subscribe","name":"Subscribe"},{"type":"link_button", "href":"http%3A%2F%2Fm.voanews.com","target":"","cssClass":"shwico_pangea_mobile","name":"Mobile"}], isDesign: false });
+</script> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl42_ctl02_desktopRL_ctl01_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl42_ctl02_desktopRL_ctl02_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl42_ctl02_desktopRL_ctl03_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl42_ctl02_desktopRL_ctl04_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div></div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl43_WIDGET_FORUM_59_1376" class="boxwidget  w_FW2 p_1c"><div class="boxwidgetInner" data-vr-zone="What Our Readers Are Saying"><h3 class="boxwidget_part boxwidget_title">What Our Readers Are Saying</h3><div class="boxwidget_part"> <div class='forum_list'>  <div class='forum_list_item'><h4 class='black'><a class='' href='/content/article/1666652.html'>&#39;Britons of African Origin&#39; Kill Soldier in London</a></h4><h5 class='comments'>Latest Comment (10 total)</h5><p class='comment'><strong>Mustapha Smith:</strong> American federal police the FBI slaughtered the other day an innocent young man ... <a class='linksmall' href='/content/article/1666652.html#532595'>More</a></p></div>  <div class='forum_list_item'><h4 class='black'><a class='' href='/content/article/1666558.html'>US Lawmakers Pledge to Back Israel Against Iran</a></h4><h5 class='comments'>Latest Comment (6 total)</h5><p class='comment'><strong>Mr RPM:</strong> Mike, first off Israel NEVER signed the Anti Nuke P Act and Iran ... <a class='linksmall' href='/content/article/1666558.html#532678'>More</a></p></div>  </div> <p></p> </div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_WIDGET_MOSTPOP_32_410" class="boxwidget  w_mostpop1 p_1c"><div class="boxwidgetInner" data-vr-zone="WIDGET_MOSTPOP_32_410"><h3 class="boxwidget_part boxwidget_title">&nbsp;</h3><div class="boxwidget_part"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl00" class="mostpopular_acc"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl02" class="box_mostpopular_cover"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_acc4100-header" class="mostpopular_heading header_highlight"><a href='#' class='tab_acc' onclick='javascript:ActivateAccordeonPart(this, "ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl00","ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl02");'>Most Read</a></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_acc4100-content" class="mostpopular_inner"><ol class="box_mostpopular "><li><a href="/content/british-pm-seeks-answers-to-terrorist-attack/1666652.html" class=' assignedIcon asIcoMultimedia'><span title="Multimedia" class='assignedIcon asIcoMultimedia'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Multimedia" />&nbsp;</span><span class='underlineLink'>'Britons of African Origin' Kill Soldier in London</span></a></li><li><a href="/content/thailand-same-sex-marriage-controversy/1666220.html" class=' assignedIcon asIcoVideo'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Thai Same-Sex Marriage Bill Not Without Controversy</span></a></li><li><a href="/content/earthquake-hits-russia/1667409.html">Earthquake Hits Russia</a></li><li><a href="/content/us-one-drone-victim-was-intent-on-antiamerican-terrorism/1666935.html" class=' assignedIcon asIcoVideo'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Obama Outlines Limits on Drone Use in Counterterrorism War</span></a></li><li><a href="/content/at-least-one-london-terror-suspect-is-of-nigerian-descent/1667112.html" class=' assignedIcon asIcoPhotogallery'><span title="Photogallery" class='assignedIcon asIcoPhotogallery'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Photogallery" />&nbsp;</span><span class='underlineLink'>Terror Suspects Were Known to British Police</span></a></li></ol></div></div><div class="mostpopular_separator round_corners_bottom_ww"></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl04" class="box_mostpopular_cover"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_acc4101-header" class="mostpopular_heading"><a href='#' class='tab_acc' onclick='javascript:ActivateAccordeonPart(this, "ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl00","ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl04");'>Most E-mailed</a></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_acc4101-content" class="mostpopular_inner"><ol class="box_mostpopular "><li><a href="/content/future-astronauts-could-print-food/1666201.html">Future Astronauts Could Print Food</a></li><li><a href="/content/tornado-foreign-students-oklahoma/1666441.html">Foreign Students in Oklahoma Confront Tornado Threat</a></li><li><a href="/content/oecd-green-cities-key-to-sustainable-future/1667006.html">OECD: Developing Green Cities Key to Sustainable Future</a></li><li><a href="/content/us-one-drone-victim-was-intent-on-antiamerican-terrorism/1666935.html" class=' assignedIcon asIcoVideo'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Obama Outlines Limits on Drone Use in Counterterrorism War</span></a></li><li><a href="/content/south-sudan-president-says-never-to-icc/1667226.html">South Sudan's President Says 'Never' to ICC</a></li></ol></div></div><div class="mostpopular_separator round_corners_bottom_ww"></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl06" class="box_mostpopular_cover"><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_acc4102-header" class="mostpopular_heading"><a href='#' class='tab_acc' onclick='javascript:ActivateAccordeonPart(this, "ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl00","ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl06");'>Top Videos</a></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_acc4102-content" class="mostpopular_inner"><ol class="box_mostpopular "><li><a href="/media/video/1666191.html" class=' assignedIcon asIcoVideo'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Thai Same-Sex Marriage Bill Not Without Controversy</span></a></li><li><a href="/media/photogallery/1666731.html" class=' assignedIcon asIcoPhotogallery'><span title="Photogallery" class='assignedIcon asIcoPhotogallery'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Photogallery" />&nbsp;</span><span class='underlineLink'>Terror Attack in London</span></a></li><li><a href="/media/video/1666984.html" class=' assignedIcon asIcoVideo'><span title="Video" class='assignedIcon asIcoVideo'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Video" />&nbsp;</span><span class='underlineLink'>Soldier Killed in London Street By 'Britons Of African Origin'</span></a></li><li><a href="/media/photogallery/1666298.html" class=' assignedIcon asIcoPhotogallery'><span title="Photogallery" class='assignedIcon asIcoPhotogallery'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Photogallery" />&nbsp;</span><span class='underlineLink'>May 22, 2013</span></a></li><li><a href="/media/photogallery/1667128.html" class=' assignedIcon asIcoPhotogallery'><span title="Photogallery" class='assignedIcon asIcoPhotogallery'><img border="0" align="top" src="/img/assignedIcons/icon-blank.gif" alt="Photogallery" />&nbsp;</span><span class='underlineLink'>May 23, 2013</span></a></li></ol></div></div></div><script type="text/javascript">//<![CDATA[
+                    InitAccordeon('ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl44_ctl03_ctl00')
+                    //]]></script></div></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl45_WIDGET__0_0" style="display:none;"><div class="boxwidgetInner" data-vr-zone="WIDGET__0_0"></div></div><div id="ctl00_ctl00_cpAB_cp1_widgetDeskSection_ctl46_WIDGET_HTMLText_2_10599" class="boxwidget  w_HTMLNoBorderBox p_1c"><div class="boxwidgetInner" data-vr-zone="Global News Dashboard"><div class="boxwidget_part"><a href="http://gnd.voanews.com" target="_blank"><img a="" alt="Global News Dashboard" height="173" href="http://gnd.voanews.com" src="http://gdb.rferl.org/77307DF7-7DC0-4CBC-92B5-409D4E039A4E.gif" width="308" /></a> </div></div></div></div></div>  
+                            <div class="cleaner content-cleaner">
+                            </div>
+                            <div class="ads cleaner">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <!-- .main-content -->
+            
+                
+            
+            
+            
+            <div id="footer" dir="ltr">
+                <div id="footerServices">
+                    <div class="content_centered">
+                        <div class="inner">
+                            <div class="services">
+                                <div class='content_services'><h2>Services:</h2><a class=' podcastico' href="/info/podcast/1356.html" title="Podcast">Podcast</a><a class=' rssico' href="/rsspage.aspx" title="RSS">RSS</a><a class=' subscribeico' href="/subscribe.aspx" title="Mail Subscription">Mail Subscription</a><a class=' mobileico' href="http://m.voanews.com/" title="Mobile">Mobile</a></div>
+                            </div>
+                            <!-- .services -->
+                            <div class="search_bar">
+                                <div class="search_cower">
+                                    <input id="search_loupe_btn_footer" onclick="SearchButton('keywords_footer','order_', isLibNetSite ? publicSiteId  : '');" type="button" value="" title="Search" class="round_corners_button_orange" />
+                                    <!--<input type="submit" class="search_btn" name="" value="Search"/>-->
+                                    <input id="keywords_footer"  onkeypress="if (event.keyCode == 13) { SearchButton('keywords_footer','order_', isLibNetSite ? publicSiteId  : ''); return false;}" type="text" value="" class="top_search" />
+                                </div>
+                            </div>
+                            <!-- .search_bar -->
+                            <div class="cleaner">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footerLinks" data-vr-zone="Footer links">
+                    <div class="content_centered">
+                        <div class="inner">
+                            <div class='menuColumn menuColumnFirst'><h4><a href="/" >VOAnews.com</a></h4>
+<ul><li class=""><a href="/section/usa/2203.html" >USA</a></li>
+<li class=""><a href="/section/africa/2204.html" >Africa</a></li>
+<li class=""><a href="/section/asia/2205.html" >Asia</a></li>
+<li class=""><a href="/section/middle_east/2206.html" >Mideast</a></li>
+<li class=""><a href="/section/europe/2210.html" >Europe</a></li>
+<li class=""><a href="/section/americas/2211.html" >Americas</a></li>
+</ul></div><div class='menuColumn'><ul><li class=""><a href="" ></a></li>
+<li class=""><a href="/section/science-and-technology/2214.html" >Science & Technology</a></li>
+<li class=""><a href="/section/health/2215.html" >Health</a></li>
+<li class=""><a href="/section/arts_and_entertainment/2216.html" >Arts & Entertainment</a></li>
+<li class=""><a href="/section/economy_and_business/2217.html" >Business & Economy</a></li>
+<li class=""><a href="http://blogs.voanews.com/" >Blogs</a></li>
+<li class=""><a href="/media/video/latest.html" >Video</a></li>
+<li class=""><a href="http://editorials.voa.gov/" target='_blank'>Editorials</a></li>
+</ul></div><div class='menuColumn'><h4>About VOA</h4>
+<ul><li class=""><a href="http://www.insidevoa.com/" >Media Relations</a></li>
+<li class=""><a href="/info/contact_us/1360.html" >Contact Us</a></li>
+<li class=""><a href="http://www.bbg.gov/careers/job-listings/" >Job Opportunities</a></li>
+<li class=""><a href="/info/terms_of_use_privacy_policy/1363.html" >Terms of Use/Privacy Policy</a></li>
+<li class=""><a href="/info/language_sites/2378.html" >Our Languages</a></li>
+</ul></div><div class='menuColumn'><h4>Our Partners</h4>
+<ul><li class=""><a href="http://www.rferl.org/" >RFE/RL</a></li>
+<li class=""><a href="http://www.rfa.org/english/" >Radio Free Asia</a></li>
+<li class=""><a href="http://alhurra.com/" >MBN</a></li>
+<li class=""><a href="http://www.martinoticias.com/" >Radio Marti</a></li>
+</ul></div><div class='menuColumn menuColumnLast'><h4>Our Broadcasts</h4>
+<ul><li class=""><a href="/info/frequencies_and_schedules/2218.html" >Frequencies and Schedules</a></li>
+<li class=""><a href="http://pronounce.voanews.com" >Pronunciation Guide</a></li>
+<li class=""><a href="http://www.voanews.com/programindex.aspx" >Broadcast Programs</a></li>
+</ul></div>
+                            <p class="copyright">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #footer -->
+            
+        
+    
+
+<script type="text/javascript">
+//<![CDATA[
+if(Sys && Sys.WebForms && Sys.WebForms.PageRequestManager)
+                        Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(function (sender, args) {
+                            showMembershipBar();
+                        });//]]>
+</script>
+</form>
+      
+    
+        <!--Visual Revenue Reader Response Tracking Script (v6) -->
+        <script type="text/javascript">
+            var _vrq = _vrq || [];
+            _vrq.push(['id', 229]);
+            _vrq.push(['automate', true]);
+            _vrq.push(['track', function () { }]);
+            (function (d, a) {
+                var s = d.createElement(a),
+                x = d.getElementsByTagName(a)[0];
+                s.async = true;
+                s.src = 'http://a.visualrevenue.com/vrs.js';
+                x.parentNode.insertBefore(s, x);
+            })(document, 'script');
+        </script> </body> </html>

@@ -1,0 +1,212 @@
+﻿/* default font size*/
+@import url(small.css);
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', sans-serif;
+    background: #F6F4ED;
+    text-align: center;
+}
+#page {
+    font-size: 80%;
+    width: 750px;
+    padding: 0px;
+    margin: 0px auto 10px auto;
+    text-align: left;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: #fff;
+}
+#top{
+    display: none;
+}
+#sitenav{
+    display: none;
+}
+#breadcrumb{
+    display: none;
+}
+
+/* sub page */
+#subbody{
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+    background: #fff;
+    float: none;
+    color: #3a3a3a;
+}
+#subbody #leftnav{
+    display: none;
+}
+
+/* hide logo print styles*/
+.print-logo{
+    display: block;
+}
+
+
+#subbody #content{
+    float: none;
+    width: 553px;
+    padding: 0px 0px 0px 30px;
+    margin: 0px;
+}
+#subbody #content .header{
+    float: left;
+    border-bottom: 1px solid #B47C3F;
+}
+#subbody #content .header .title{
+    float: none;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 200%;
+    font-weight: normal;
+    color: #B47C3F;
+}
+#subbody #content .header .controls{
+    display: none;
+}
+#subbody #content .body{
+    clear: left;
+}
+#subbody #content .body .toggle_nrn{
+    display: none;
+}
+#subbody #content .body .toggle
+{
+    display: none;
+}
+#subbody #content .body .main, #subbody #content .body .mainBottom{
+    float: none !important;
+    width: 395px;
+    color: #343637;
+    padding-right: 18px;
+    font-family: 'Times New Roman', sans-serif;
+}
+#subbody #content .body .main_nrn{
+    float: none !important;
+    width: 530px;
+    color: #343637;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
+    font-family: Verdana, sans-serif;
+}
+#subbody #content .body .mainBottom_nrn{
+    float: none !important;
+    width: 530px;
+    color: #343637;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
+    font-family: Verdana, sans-serif;
+}
+#subbody #content .body .main h2, #subbody #content .body .mainBottom h2, #subbody #content .body .main_nrn h2, #subbody #content .body .mainBottom_nrn h2{
+    color: #286BA9;
+    font-size: 130%;
+    margin: 10px 0px 0px 0px;
+}
+#subbody #content .body .main h3, #subbody #content .body .mainBottom h3, #subbody #content .body .main_nrn h3, #subbody #content .body .mainBottom_nrn h3{
+    color: #343637;
+    font-size: 95%;
+}
+#subbody #content .body .main a, #subbody #content .body .mainBottom a, #subbody #content .body .main_nrn a, #subbody #content .body .mainBottom_nrn a{
+    color: #286BA9;
+    text-decoration: underline;
+}
+#subbody #content .body .main a:hover, #subbody #content .body .mainBottom a:hover, #subbody #content .body .main_nrn a:hover, #subbody #content .body .mainBottom_nrn a:hover{
+    text-decoration: none;
+}
+#subbody #content .body .main a:visited, #subbody #content .body .mainBottom a:visited, #subbody #content .body .main_nrn a:visited, #subbody #content .body .mainBottom_nrn a:visited{
+    color: #8C1E76;
+    text-decoration: underline;
+}
+#subbody #content .body .main .back-to-top, #subbody #content .body .mainBottom .back-to-top, #subbody #content .body .main_nrn .back-to-top, #subbody #content .body .mainBottom_nrn .back-to-top{
+   /* text-align: right;*/
+    display:none;
+}
+#subbody #content .body .main .back-to-top a, #subbody #content .body .mainBottom .back-to-top a, #subbody #content .body .main_nrn .back-to-top a, #subbody #content .body .mainBottom_nrn .back-to-top a{
+    background: url(../images/arrow_top.gif) no-repeat 0px 4px;
+    padding-left: 15px;
+}
+
+#subbody #content .body .main .text-block, #subbody #content .body .mainBottom .text-block, #subbody #content .body .main_nrn .text-block, #subbody #content .body .mainBottom_nrn .text-block {
+    border: 1px solid #B4CDE4;
+    padding: 10px 15px;
+}
+#subbody #content .body .main .text-block h1, #subbody #content .body .mainBottom .text-block h1, #subbody #content .body .main_nrn .text-block h1, #subbody #content .body .mainBottom_nrn .text-block h1{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    color: #286BA9;
+}
+#subbody #content .body .main .text-block ul, #subbody #content .body .mainBottom .text-block ul, #subbody #content .body .main_nrn .text-block ul, #subbody #content .body .mainBottom_nrn .text-block ul{
+    list-style-image: url(../images/arrow_blue.gif);
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+}
+#subbody #content .body .main .text-block ul li, #subbody #content .body .mainBottom .text-block ul li, #subbody #content .body .main_nrn .text-block ul li, #subbody #content .body .mainBottom_nrn .text-block ul li{
+    padding-bottom: 4px;
+}
+
+#subbody #content .body .callout{
+  /*  float: right; */
+  /*  width: 135px; */
+  /*  padding-top: 20px;*/
+    display:none;
+}
+#subbody #content .body .callout .panel{
+    border: 1px solid #EADFD1;
+    background: url(../images/bg_gradient.gif) repeat-x bottom;
+    margin-bottom: 2px;
+}
+#subbody #content .body .callout .panel .content{
+    padding: 10px;
+}
+#subbody #content .body .callout .panel .content a.title{
+    color: #6E4576;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+}
+#subbody #content .body .callout .panel .content a:hover.title{
+    text-decoration: underline;
+}
+#subbody #content .body .callout .panel .content a.text{
+    color: #873901;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    text-decoration: none;
+}
+#subbody #content .body .callout .panel .content a:hover.text{
+    text-decoration: underline;
+}
+#subbody #content .body .callout .panel .content a:visited.text{
+    color: #8C1E76;
+    text-decoration: none;
+}
+#subbody #content .body .callout .panel .content .go{
+    text-align: right;
+    padding-top: 10px;
+}
+#subbody #content .body .callout .panel .content form input{
+    width: 75px;
+}
+#subbody #content .body .callout .panel .content form a{
+    color: #873901;
+    font-family: 'Times New Roman', sans-serif;
+    text-decoration: none;
+}
+#subbody #content .body .callout .panel .content form a:hover{
+    text-decoration: underline;
+}
+#footer{
+    display: none;
+}
+
+#page #allBottomArea,
+#page #subbody #allBottomArea{
+    display: none;
+}

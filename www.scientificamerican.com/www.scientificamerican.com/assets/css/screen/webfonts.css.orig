@@ -1,0 +1,99 @@
+/*- LOCALLY HOSTED FONTS
+----------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "Brunel-for-Titles";
+  src: url("../../fonts/53a8cf2e-6421-4292-852f-a282ba53459d-2");
+  src: local("../../fonts/BrunelTextWeb-Bold"),
+    url("../../fonts/53a8cf2e-6421-4292-852f-a282ba53459d-3") format("woff"),
+    url("../../fonts/53a8cf2e-6421-4292-852f-a282ba53459d-1")
+format("truetype"),
+    url("../../fonts/53a8cf2e-6421-4292-852f-a282ba53459d-4#web") format("svg");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Brunel-for-Titles-Italic";
+  src: url("../../fonts/fa6d24a6-1d5e-4f78-b333-2178c511c6d8-2");
+  src: local("../../fonts/BrunelTextWeb-BoldItalic"),
+    url("../../fonts/fa6d24a6-1d5e-4f78-b333-2178c511c6d8-3") format("woff"),
+    url("../../fonts/fa6d24a6-1d5e-4f78-b333-2178c511c6d8-1")
+format("truetype"),
+    url("../../fonts/fa6d24a6-1d5e-4f78-b333-2178c511c6d8-4#web") format("svg");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Prelude";
+  src: url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-2");
+  src: local("../../fonts/PreludeWGL Medium"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-3") format("woff"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-1")
+format("truetype"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-4#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Apres";
+  src: url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-2");
+  src: local("../../fonts/PreludeWGL Medium"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-3") format("woff"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-1")
+format("truetype"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-4#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ApresTT";
+  src: url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-2");
+  src: local("../../fonts/PreludeWGL Medium"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-3") format("woff"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-1")
+format("truetype"),
+    url("../../fonts/bf15443a-6bf6-4af1-8887-d46d68cbb4b6-4#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PreludeItalic";
+  src: url("../../fonts/009944d4-635e-4ffa-9503-a0450d78370d-2");
+  src: local("../../fonts/PreludeWGL Medium Italic"),
+    url("../../fonts/009944d4-635e-4ffa-9503-a0450d78370d-3") format("woff"),
+    url("../../fonts/009944d4-635e-4ffa-9503-a0450d78370d-1")
+format("truetype"),
+    url("../../fonts/009944d4-635e-4ffa-9503-a0450d78370d-4#web") format("svg");
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: "PreludeBold";
+  src: url("../../fonts/3739f210-118f-4d28-be3f-86746b0e6aa8-2");
+  src: local("../../fonts/PreludeWGL Bold"),
+    url("../../fonts/3739f210-118f-4d28-be3f-86746b0e6aa8-3") format("woff"),
+    url("../../fonts/3739f210-118f-4d28-be3f-86746b0e6aa8-1")
+format("truetype"),
+    url("../../fonts/3739f210-118f-4d28-be3f-86746b0e6aa8-4#web") format("svg");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PreludeBoldItalic";
+  src: url("../../fonts/3471f0ca-6e33-4f17-adfb-b84c8d2f1e62-2");
+  src: local("../../fonts/PreludeWGL Bold Italic"),
+    url("../../fonts/3471f0ca-6e33-4f17-adfb-b84c8d2f1e62-3") format("woff"),
+    url("../../fonts/3471f0ca-6e33-4f17-adfb-b84c8d2f1e62-1")
+format("truetype"),
+    url("../../fonts/3471f0ca-6e33-4f17-adfb-b84c8d2f1e62-4#web") format("svg");
+  font-style: italic;
+  font-weight: bold;
+}

@@ -1,0 +1,2301 @@
+
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" itemscope itemtype="http://schema.org/" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie ie7 lt-ie9 lt-ie8" lang="en" itemscope itemtype="http://schema.org/" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie ie8 lt-ie9" lang="en" itemscope itemtype="http://schema.org/" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie ie9" lang="en" itemscope itemtype="http://schema.org/" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/" xmlns:fb="http://ogp.me/ns/fb#"> <!--<![endif]-->
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8" />
+<!-- iPad Meta -->
+<meta name="viewport" content="width=1024" />
+<script>
+/*! A fix for the iOS orientationchange zoom bug. Script by @scottjehl, rebound by @wilto.MIT / GPLv2 License.*/(function(a){function m(){d.setAttribute("content",g),h=!0}function n(){d.setAttribute("content",f),h=!1}function o(b){l=b.accelerationIncludingGravity,i=Math.abs(l.x),j=Math.abs(l.y),k=Math.abs(l.z),(!a.orientation||a.orientation===180)&&(i>7||(k>6&&j<8||k<8&&j>6)&&i>5)?h&&n():h||m()}var b=navigator.userAgent;if(!(/iPhone|iPad|iPod/.test(navigator.platform)&&/OS [1-5]_[0-9_]* like Mac OS X/i.test(b)&&b.indexOf("AppleWebKit")>-1))return;var c=a.document;if(!c.querySelector)return;var d=c.querySelector("meta[name=viewport]"),e=d&&d.getAttribute("content"),f=e+",maximum-scale=1",g=e+",maximum-scale=10",h=!0,i,j,k,l;if(!d)return;a.addEventListener("orientationchange",m,!1),a.addEventListener("devicemotion",o,!1)})(this); 
+</script>
+<style>
+
+</style>
+<link rel="shortcut icon" href="http://www.toyota.com/favicon.ico">  
+	
+	<!-- PAGE-META -->
+	
+	<!-- PAGE-META -->
+	<title>Toyota Cars, Trucks, SUVs & Hybrids | Toyota Official Site.</title>
+	<meta name="description" content="Explore the newest Toyota trucks, cars, SUVs, hybrids and minivans. See photos, compare models, get tips, calculate payments, and more. " />
+	<meta name="keywords" content="toyota, toyota car, toyota cars, toyota truck, toyota trucks, toyota suv, toyota suvs, Toyota hybrid, Toyota hybrids, Toyota hybrid car, Toyota hybrid cars" />
+	<link rel="canonical" href="http://www.toyota.com/">
+	<link rel="alternate" media="only screen and (max-width: 640px)" href="http://touch.toyota.com/">
+	<link rel="alternate" media="handheld" href="http://m.toyota.com/">
+
+	<link rel="stylesheet" href="/common/css/global.css" />
+	
+	<link rel="stylesheet" href="/apps/homepage/css/homepage.css" />
+	
+	<script src="/vendor/modernizr/2.6.2/modernizr.custom.js"></script>
+</head>
+<body class="homepage" data-page-name="home">
+	
+
+<div class="wrapper">
+	
+	<header>
+		
+<div id="global-nav">
+	<div class="navbar">
+		<div class="navbar-wrapper span15">
+			<nav>
+				<ul class="nav">
+					<li class="nav-item"><a class="logo" href="/"></a></li>
+					<li class="nav-item select-vehicle"><a href="#">Select Vehicle<i class="menu-arrow"></i></a></li>
+				 	<li class="nav-item shopping-tools"><a href="#">Shopping Tools</a></li>
+				 	<li class="nav-item"><a href="/dealers/">Find a Dealer</a></li>
+				 	<li class="nav-item"><div class="nav-search-box"> 
+<form action="/search/search.html" method="get" class="nav-search-form"> 
+<div class="pull-left"><input type="text" name="keyword" placeholder="Search" class="nav-search-input"></div> 
+<div class="searchButton">&nbsp;</div> 
+<div class="clearfix"></div> 
+</form> 
+</div></li>
+				 	<li class="nav-item"><a href="/owners">Owners</a></li>
+				 	<li class="nav-item language-switch">
+				 		<a href="/espanol/" class="language-switch-link">
+				 			<div class="switch"></div>
+				 			
+				 			<span class="language">English</span>
+				 			
+				 			<span class="language">Espa&ntilde;ol</span>
+				 			
+				 		</a>
+				 	</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	
+<div class="select-vehicle-dropdown nav-drop-down">
+	<div class="select-vehicle-dropdown-wrapper">
+		<div class="span15 select-vehicle-menu">
+			<ol class="sliders">
+			
+				<li class="slider cars-minivan">
+					<h4 class="caption">
+						<i class="state"></i>
+						<span>Cars &amp; Minivan</span>
+					</h4>
+					<div class="slider-mask">
+						<div class="slider-content">
+							<div class="slider-content-wrapper">
+								<ul class="cars">
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="yaris">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/yaris/" rel="nofollow">Yaris</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$14,370</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">30/37</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/yaris/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/yaris/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/yaris/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/yaris" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="corolla">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/corolla/" rel="nofollow">Corolla</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$16,230</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">27/34</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/corolla/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/corolla/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/corolla/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/corolla" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="matrix">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/matrix/" rel="nofollow">Matrix</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$19,275</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">26/32</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/matrix/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/matrix/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/matrix/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/matrix" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="camry">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/camry/" rel="nofollow">Camry</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$22,235</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">25/35</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/camry/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/camry/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/camry/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/camry" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="avalon">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/avalon/" rel="nofollow">Avalon</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$30,990</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">21/31</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/avalon/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/avalon/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/avalon/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/avalon" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="sienna">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/sienna/" rel="nofollow">Sienna</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$26,585</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">18/25</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/sienna/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/sienna/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/sienna/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/sienna" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				<li class="slider trucks">
+					<h4 class="caption">
+						<i class="state"></i>
+						<span>Trucks</span>
+					</h4>
+					<div class="slider-mask">
+						<div class="slider-content">
+							<div class="slider-content-wrapper">
+								<ul class="cars">
+									
+									
+									
+										
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="tacoma">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/tacoma/" rel="nofollow">Tacoma<br/>Double Cab</a></span></h5>
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$22,525</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">19/24</span>
+																	
+																	
+																	<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																	
+																</div>
+																
+																<div class="as-shown-row">$32,150 as shown</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/tacoma/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/tacoma/tacoma_double_cab.png');"></div></a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/tacoma/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+															<a href="/configurator/#!/series/tacoma/cab/Double Cab" target="_self" class="arrow-button">Build</a>
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+										
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="tacoma">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/tacoma/" rel="nofollow">Tacoma<br/>Access Cab</a></span></h5>
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$20,415</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">21/25</span>
+																	
+																	
+																	<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/tacoma/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/tacoma/tacoma_access_cab.png');"></div></a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/tacoma/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+															<a href="/configurator/#!/series/tacoma/cab/Access Cab" target="_self" class="arrow-button">Build</a>
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+										
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="tacoma">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/tacoma/" rel="nofollow">Tacoma<br/>Regular Cab</a></span></h5>
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$17,625</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">21/25</span>
+																	
+																	
+																	<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/tacoma/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/tacoma/tacoma_regular_cab.png');"></div></a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/tacoma/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+															<a href="/configurator/#!/series/tacoma/cab/Regular Cab" target="_self" class="arrow-button">Build</a>
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+										
+									
+									
+									
+									
+										
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="tundra">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/tundra/" rel="nofollow">Tundra<br/>CrewMax</a></span></h5>
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$30,635</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">13/17</span>
+																	
+																	
+																	<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																	
+																</div>
+																
+																<div class="as-shown-row">$41,730 as shown</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/tundra/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/tundra/tundra_crewmax.png');"></div></a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/tundra/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+															<a href="/configurator/#!/series/tundra/cab/CrewMax" target="_self" class="arrow-button">Build</a>
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+										
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="tundra">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/tundra/" rel="nofollow">Tundra<br/>Double Cab</a></span></h5>
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$27,665</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">15/20</span>
+																	
+																	
+																	<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																	
+																</div>
+																
+																<div class="as-shown-row">$30,940 as shown</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/tundra/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/tundra/tundra_double_cab.png');"></div></a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/tundra/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+															<a href="/configurator/#!/series/tundra/cab/Double Cab" target="_self" class="arrow-button">Build</a>
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+										
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="tundra">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/tundra/" rel="nofollow">Tundra<br/>Regular Cab</a></span></h5>
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$25,455</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">16/20</span>
+																	
+																	
+																	<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/tundra/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/tundra/tundra_regular_cab.png');"></div></a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/tundra/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+															<a href="/configurator/#!/series/tundra/cab/Regular Cab" target="_self" class="arrow-button">Build</a>
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+										
+									
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				<li class="slider crossovers-suvs">
+					<h4 class="caption">
+						<i class="state"></i>
+						<span>Crossovers &amp; SUVs</span>
+					</h4>
+					<div class="slider-mask">
+						<div class="slider-content">
+							<div class="slider-content-wrapper">
+								<ul class="cars">
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="rav4">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/rav4/" rel="nofollow">RAV4</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$23,300</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">24/31</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/rav4/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/rav4/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/rav4/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/rav4" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="venza">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/venza/" rel="nofollow">Venza</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$27,850</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">20/26</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/venza/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/venza/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/venza/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/venza" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="highlander">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/highlander/" rel="nofollow">Highlander</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$29,020</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">20/25</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/highlander/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/highlander/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/highlander/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/highlander" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="fjcruiser">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/fjcruiser/" rel="nofollow">FJ Cruiser</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$27,030</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">16/20</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/fjcruiser/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/fjcruiser/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/fjcruiser/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/fjcruiser" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="4runner">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/4runner/" rel="nofollow">4Runner</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$31,490</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">17/22</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/4runner/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/4runner/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/4runner/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/4runner" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="sequoia">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/sequoia/" rel="nofollow">Sequoia</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$42,455</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">13/18</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/sequoia/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/sequoia/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/sequoia/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/sequoia" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="landcruiser">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/landcruiser/" rel="nofollow">Land Cruiser</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$78,555</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">13/18</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/landcruiser/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/landcruiser/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/landcruiser/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/landcruiser" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				<li class="slider hybrids-evs">
+					<h4 class="caption">
+						<i class="state"></i>
+						<span>Hybrids &amp; EVs</span>
+					</h4>
+					<div class="slider-mask">
+						<div class="slider-content">
+							<div class="slider-content-wrapper">
+								<ul class="cars">
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="camry">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/camry/" rel="nofollow">Camry Hybrid</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$26,140</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">43/39</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/camry/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/camry/camry-hybrid.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/camry/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															
+															<a href="/configurator/#!/series/camry/grade/Hybrid LE" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="avalon">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/avalon/" rel="nofollow">Avalon Hybrid</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$35,555</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">40/39</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/avalon/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/avalon/avalon-hybrid.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/avalon/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															
+															<a href="/configurator/#!/series/avalon/grade/Hybrid XLE Premium" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="rav4ev">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/rav4ev/" rel="nofollow">RAV4 EV</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$49,800</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">103/76</span>
+																	
+																	
+																		
+																				<span class="secondary-stats-row">EPA-rated <br>driving range <span class="secondary-stats-super" data-disclaimer="3" href="#3"><sup>3</sup></span> / <br>mpge <span class="secondary-stats-super" data-disclaimer="4" href="#4"><sup>4</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/rav4ev/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/rav4ev/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-center">
+															<a href="/rav4ev/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="highlander">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/highlander/" rel="nofollow">Highlander Hybrid</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$46,370</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">28/28</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/highlander/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/highlander/highlander-hybrid.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/highlander/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															
+															<a href="/configurator/#!/series/highlander/grade/Hybrid Limited" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="prius">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/prius/" rel="nofollow">Prius</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$24,200</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">51/48</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/prius/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/prius/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/prius/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/prius" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="priusc">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/priusc/" rel="nofollow">Prius <i>c</i></a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$19,080</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">53/46</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/priusc/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/priusc/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/priusc/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/priusc" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="prius-plug-in">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/prius-plug-in/" rel="nofollow">Prius Plug-in</a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$32,000</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">95/50</span>
+																	
+																	
+																		
+																				<span class="secondary-stats-row">est. mpge <span class="secondary-stats-super" data-disclaimer="5" href="#5"><sup>5</sup></span> / <br>est. hybrid <br>mode mpg <span class="secondary-stats-super" data-disclaimer="6" href="#6"><sup>6</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/prius-plug-in/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/prius-plug-in/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/prius-plug-in/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="https://auth2.toyota.com/order/prius/#page=Start" target="_blank" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+									
+									
+											<li>
+												<div class="menu-item">
+													<div class="item-info-row" data-vehicle="priusv">
+														<div class="meta-row">
+															
+															<h5 class="page-header"><span class="small"><a href="/priusv/" rel="nofollow">Prius <i>v</i></a></span></h5>
+															
+															<div class="stats-row">
+																<div class="stats-item">
+																	<span class="stat">$26,650</span>
+																	
+																	<span class="secondary-stats-row">starting msrp <span class="secondary-stats-super" data-disclaimer="1" href="#1"><sup>1</sup></span></span>
+																	
+																</div>
+																<div class="stats-row-divider"></div>
+																<div class="stats-item">
+																	
+																	<span class="stat">44/40</span>
+																	
+																	
+																																			
+																				<span class="secondary-stats-row">est. mpg <span class="secondary-stats-super" data-disclaimer="2" href="#2"><sup>2</sup></span></span>
+																			
+																	
+																</div>
+																
+															</div>							
+														</div>
+														<div class="car-row">
+															<a href="/priusv/"><div class="car-image" style="background-image:url('/content/common/img/jellies/small/2013/priusv/base.png');"></div>
+															</a>
+														</div>
+													</div>
+													<div class="actions-row">
+														<div class="action-item btn-left">
+															<a href="/priusv/" rel="nofollow" class="arrow-button">Explore</a>
+														</div>
+														
+														<div class="action-item btn-right">
+														
+															<a href="/configurator/#!/series/priusv" target="_self" class="arrow-button">Build</a>
+														
+														</div>
+														
+													</div>	
+												</div>
+											</li>
+									
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+								<li class="slider upcoming-vehicles">
+					<h2 class="caption">
+						<i class="state"></i>
+						<span class="upcoming">Upcoming Vehicles</span>
+					</h2>
+					<div class="slider-mask">
+						<div class="slider-content">
+							<div class="slider-content-wrapper">
+								<ul class="cars">
+									<li>
+										<div class="menu-item">
+											<div class="item-info-row" data-vehicle="upcoming-vehicles">
+												<div class="meta-row">
+													<h3 class="page-header"><span class="small">2014 4Runner<br/>Coming Fall 2013</span></h3>			
+												</div>
+												<div class="car-row">
+													<a href="/upcoming-vehicles/4runner.html"><div class="jelly-small car-image upcoming-vehicles-4runner"></div></a>
+												</div>
+											</div>
+											<div class="actions-row">
+												<div class="action-item btn-center">
+													<a href="/upcoming-vehicles/4runner.html" class="arrow-button">View More Info</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="menu-item">
+											<div class="item-info-row" data-vehicle="upcoming-vehicles">
+												<div class="meta-row">
+													<h3 class="page-header"><span class="small">2014 Tundra<br/>Coming Fall 2013</span></h3>			
+												</div>
+												<div class="car-row">
+													<a href="/upcoming-vehicles/tundra.html"><div class="jelly-small car-image upcoming-vehicles-tundra"></div></a>
+												</div>
+											</div>
+											<div class="actions-row">
+												<div class="action-item btn-center">
+													<a href="/upcoming-vehicles/tundra.html" class="arrow-button">View More Info</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="menu-item">
+											<div class="item-info-row" data-vehicle="upcoming-vehicles">
+												<div class="meta-row">
+													<h3 class="page-header"><span class="small">2014 Highlander<br/>Coming Early 2014</span></h3>			
+												</div>
+												<div class="car-row">
+													<a href="/upcoming-vehicles/highlander.html"><div class="jelly-small car-image upcoming-vehicles-highlander"></div></a>
+												</div>
+											</div>
+											<div class="actions-row">
+												<div class="action-item btn-center">
+													<a href="/upcoming-vehicles/highlander.html" class="arrow-button">View More Info</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="menu-item">
+											<div class="item-info-row" data-vehicle="concept-vehicles">
+												<div class="meta-row">
+													<h3 class="page-header"><span class="small">Concept Vehicles</span></h3>
+												</div>
+												<div class="car-row">
+													<a href="/concept-vehicles/"><div class="jelly-small car-image concept-vehicles"></div></a>
+												</div>
+											</div>
+											<div class="actions-row">
+												<div class="action-item btn-center">
+													<a href="/concept-vehicles/" class="arrow-button">See Vehicles</a>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ol>
+			<noscript>
+				<p>Please enable JavaScript to get the full experience.</p>
+			</noscript>
+		</div>
+		<div class="all-vehicle-btn">
+			<a class="btn btn-pill medium" href="/all-vehicles/">
+				<i class="icon-arrow-right-medium"></i>
+				<span>View All Vehicles</span>
+			</a>
+		</div>		
+
+	</div>
+</div>
+
+	
+<div class="shopping-tools-dropdown nav-drop-down">
+	<div class="shopping-tools-dropdown-wrapper">
+		<div class="shopping-tools-calculator"></div>
+		<span class="shopping-tools-text">Shopping Tools</span>
+		<div class="shopping-tools-links">
+		
+			<ul>
+				
+				<li><a href="#" data-flyout-form="REQUEST_QUOTE" rel="popover" class="shopping-tools-link request-quote"><span class="pill-tip"></span>Request a Quote</a></li>
+				
+				<li><a href="/accessories/"  class="shopping-tools-link accessories-guide"><span class="pill-tip"></span>Accessories Guide</a></li>
+				
+				<li><a href="/compare/"  class="shopping-tools-link compare"><span class="pill-tip"></span>Compare Vehicles</a></li>
+				
+			</ul>
+		
+			<ul class="border-left">
+				
+				<li><a href="/download-brochure.html"  class="shopping-tools-link view-brochures"><span class="pill-tip"></span>View Brochures</a></li>
+				
+				<li><a href="/local-specials/"  class="shopping-tools-link special-offers"><span class="pill-tip"></span>Local Specials</a></li>
+				
+				<li><a href="/search-inventory/"  class="shopping-tools-link inventory"><span class="pill-tip"></span>Search Inventory</a></li>
+				
+			</ul>
+		
+			<ul class="border-right">
+				
+				<li><a href="/financial-tools/"  class="shopping-tools-link financial-tools"><span class="pill-tip"></span>Financial Tools</a></li>
+				
+				<li><a href="/financial-tools/#!/budget/"  class="shopping-tools-link what-fits-my-budget lesser"><span class="pill-tip"></span>What Fits My Budget?</a></li>
+				
+				<li><a href="/financial-tools/#!/payments/"  class="shopping-tools-link estimate-payments lesser"><span class="pill-tip"></span>Estimate Payments</a></li>
+				
+			</ul>
+		
+			<ul><li></li>
+				
+				<li><a href="/financial-tools/#!/quiz/"  class="shopping-tools-link buy-lease-quiz lesser"><span class="pill-tip"></span>Buy or Lease Quiz</a></li>
+				
+				<li><a href="/financial-tools/#!/guide/"  class="shopping-tools-link credit-guides lesser"><span class="pill-tip"></span>Credit Guides</a></li>
+				
+			</ul>
+		
+		</div>
+	</div>
+</div>
+
+</div>
+<div id="global-nav-placeholder"></div>
+
+	</header>
+
+		<section id="marquee" class="panel-container">
+
+			<div class="marquee-panels">
+
+				<div class="panel-set">
+									
+					<section id="panel1" class="panel " style="background-image: url('/content/homepage/img/marquee/toyota-time-sales-event.jpg');" data-promotion-title="Toyota_Time_Sales_Event">
+						<div class="container">
+						
+								<div class="page-header light">
+									<h3 class="title"></h3>
+									<p class="tagline"></p>
+									<a href="/local-specials/" class="btn btn-pill" style="top:120px;left:10px;">
+										<i class="icon-arrow-right"></i>
+										<span>See Deals</span>
+									</a>
+								</div>
+						
+						</div>
+					</section>
+									
+					<section id="panel2" class="panel " data-background="/content/homepage/img/marquee/great-time-great-deal2.png" data-promotion-title="Great_Time_For_A_Great_Deal">
+						<div class="container">
+						
+								<div class="page-header light">
+									<h3 class="title"></h3>
+									<p class="tagline"></p>
+									<a href="/local-specials/" class="btn btn-pill" style="top:40px;left:25px;">
+										<i class="icon-arrow-right"></i>
+										<span>See Deals</span>
+									</a>
+								</div>
+						
+						</div>
+					</section>
+				
+				</div>
+			</div>
+		</section>
+	
+		<section id="exploreToyota" class="panel-container custom-panel">
+			<div class="container">
+				<div id="exploreHeader" class="container"> 
+				<div class="page-header">
+					<h1>Explore Toyota</h1>
+				</div>
+				</div>
+				<section id="explore">
+					<div id="explore-nav" class="explore-nav items-5 indicator">
+						<div class="indicator"><span></span></div>
+						<ul>
+							<li class="is-on"><a href="#"><span>Latest News</span></a></li>
+							<li class="is-on"><a href="#"><span>Popular Videos</span></a></li>
+							<li class="is-on"><a href="#"><span>Featured Services</span></a></li>
+							<li class="is-on"><a href="#"><span>Community Stories</span></a></li>
+							<li class="is-on"><a href="#"><span>Owner Resources</span></a></li>
+						</ul>
+					</div>
+					<div class="panel-set">
+					
+						<section class="panel">
+							<ul>
+								<li>
+									<a href="/upcoming-vehicles/highlander.html" class="tile"  data-promotion-title="Latest_News_2014_Highlander_upcoming_vehicles"><img src="/content/homepage/img/explore/2014_highlander.jpg"></a>
+									<a href="/upcoming-vehicles/highlander.html" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Discover the all-new 2014 Highlander</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/prius/#!/panels3" class="tile"  ><img src="/content/homepage/img/explore/priuspersona.jpg"></a>
+									<a href="/prius/#!/panels3" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Explore the new Prius Persona Series</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/rav4/" class="tile"  ><img src="/content/homepage/img/explore/rav4.jpg"></a>
+									<a href="/rav4/" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Learn what's new on the 2013 RAV4</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/corolla/#!/Corolla S Special Edition" class="tile"  data-promotion-title="Latest_News_Corolla_Special_Editions"><img src="/content/homepage/img/explore/corolla-specialedition.jpg"></a>
+									<a href="/corolla/#!/Corolla S Special Edition" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Hot cars. Cool options. Limited time.</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/upcoming-vehicles/4runner.html" class="tile"  data-promotion-title="Latest_News_2014_4Runner_upcoming_vehicles"><img src="/content/homepage/img/explore/4runner-2014.jpg"></a>
+									<a href="/upcoming-vehicles/4runner.html" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Experience the 2014 4Runner</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/letsgoplaces/" class="tile"  ><img src="/content/homepage/img/explore/lgp-prototype.jpg"></a>
+									<a href="/letsgoplaces/" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Join us on the journey</span>
+									</a>
+								</li>
+														
+							</ul>
+						</section>
+					
+						<section class="panel">
+							<ul>
+								<li>
+									<a href="" class="tile" data-yt-id="edYWDhH6hK4" ><img src="/content/homepage/img/explore/endeavour-video.jpg"></a>
+									<a href="" class="btn btn-circle tiny" data-yt-id="edYWDhH6hK4">
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Tundra Endeavour</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="" class="tile" data-yt-id="iymBRSUfz9U" ><img src="/content/homepage/img/explore/rav4-wish-video.jpg"></a>
+									<a href="" class="btn btn-circle tiny" data-yt-id="iymBRSUfz9U">
+										<i class="icon-arrow-right-tiny"></i>
+										<span>The all-new RAV4. Your wish is granted.</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="" class="tile" data-yt-id="HFIYlDEpLcQ" ><img src="/content/homepage/img/explore/prius-video.jpg"></a>
+									<a href="" class="btn btn-circle tiny" data-yt-id="HFIYlDEpLcQ">
+										<i class="icon-arrow-right-tiny"></i>
+										<span>The Prius Family is now four</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="" class="tile" data-yt-id="cniIVxaJMSY" ><img src="/content/homepage/img/explore/car-video.jpg"></a>
+									<a href="" class="btn btn-circle tiny" data-yt-id="cniIVxaJMSY">
+										<i class="icon-arrow-right-tiny"></i>
+										<span>The new 2013 Avalon</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="" class="tile" data-yt-id="GfeVbuVmbxE" ><img src="/content/homepage/img/explore/toyota-video.jpg"></a>
+									<a href="" class="btn btn-circle tiny" data-yt-id="GfeVbuVmbxE">
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Jan is here to help</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="" class="tile" data-yt-id="2A5Ibz6wooc" ><img src="/content/homepage/img/explore/lgp-video.jpg"></a>
+									<a href="" class="btn btn-circle tiny" data-yt-id="2A5Ibz6wooc">
+										<i class="icon-arrow-right-tiny"></i>
+										<span>See the start of the journey</span>
+									</a>
+								</li>
+														
+							</ul>
+						</section>
+					
+						<section class="panel">
+							<ul>
+								<li>
+									<a href="/entune/" class="tile"  data-promotion-title="Featured_Services_Stay_Connected_with_Entune"><img src="/content/homepage/img/explore/entune.jpg"></a>
+									<a href="/entune/" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Stay connected with Entune<sup>&reg;</sup></span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.toyotamobility.com/?siteid=Tcom_Promo:Mobility_Home" class="tile"  data-promotion-title="Mobility_Home"><img src="/content/homepage/img/explore/toyota-mobility-marketinglink-US-TU13-448-A.jpg"></a>
+									<a href="http://www.toyotamobility.com/?siteid=Tcom_Promo:Mobility_Home" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Learn more about Toyota Mobility</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/toyota-care/" class="tile"  data-promotion-title="Featured_Servies_Discover_The_Best_Way_To_Rent_A_Toyota"><img src="/content/homepage/img/explore/toyota-care.jpg"></a>
+									<a href="/toyota-care/" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Peace of mind with Toyota Care</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/rental/?siteid=Tcom_Promo:TRAC_Home " class="tile"  data-promotion-title="TRAC_Home"><img src="/content/homepage/img/explore/rent-a-car.jpg"></a>
+									<a href="/rental/?siteid=Tcom_Promo:TRAC_Home " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Discover the best way to rent a Toyota</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/safety-connect/" class="tile"  data-promotion-title="Featured_Services_Find_Certified_Used_Toyotas_Near_You"><img src="/content/homepage/img/explore/safety-connect.jpg"></a>
+									<a href="/safety-connect/" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Emergency help with Safety Connect<sup>&reg;</sup></span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.toyotacertified.com/?siteid=Tcom_Promo:TCUV_Home " class="tile"  data-promotion-title="TCUV_Home"><img src="/content/homepage/img/explore/tcuv-marketing.jpg"></a>
+									<a href="http://www.toyotacertified.com/?siteid=Tcom_Promo:TCUV_Home " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Find Certified Used Toyotas near you</span>
+									</a>
+								</li>
+														
+							</ul>
+						</section>
+					
+						<section class="panel">
+							<ul>
+								<li>
+									<a href="http://www.toyotainaction.com/facts-and-figures" target="_blank " class="tile"  ><img src="/content/homepage/img/explore/1-million.jpg"></a>
+									<a href="http://www.toyotainaction.com/facts-and-figures" target="_blank " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Facts and figures</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.toyotainaction.com/community/story/20-years-of-supporting-family-literacy" target="_blank " class="tile"  ><img src="/content/homepage/img/explore/literacy.jpg"></a>
+									<a href="http://www.toyotainaction.com/community/story/20-years-of-supporting-family-literacy" target="_blank " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Supporting family literacy</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.toyotainaction.com/environment/story/smart-energy-in-the-hoosier-state" target="_blank " class="tile"  ><img src="/content/homepage/img/explore/smart-energy.jpg"></a>
+									<a href="http://www.toyotainaction.com/environment/story/smart-energy-in-the-hoosier-state" target="_blank " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Making charging simple</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.toyotainaction.com/innovation/story/calty-design-research-inc" target="_blank " class="tile"  ><img src="/content/homepage/img/explore/modern-design.jpg"></a>
+									<a href="http://www.toyotainaction.com/innovation/story/calty-design-research-inc" target="_blank " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Calty Design Research Division</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.toyotainaction.com/story/planting-seeds-of-environmental-change" target="_blank " class="tile"  data-promotion-title="Community_Stories_Together_Green"><img src="/content/homepage/img/explore/together-green.jpg"></a>
+									<a href="http://www.toyotainaction.com/story/planting-seeds-of-environmental-change" target="_blank " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Conserving the future</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.toyotainaction.com/innovation/story/toyotas-north-american-technical-center-ttc" target="_blank " class="tile"  ><img src="/content/homepage/img/explore/sound-lab.jpg"></a>
+									<a href="http://www.toyotainaction.com/innovation/story/toyotas-north-american-technical-center-ttc" target="_blank " class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Toyota Technical Center</span>
+									</a>
+								</li>
+														
+							</ul>
+						</section>
+					
+						<section class="panel">
+							<ul>
+								<li>
+									<a href="/owners/web/pages/resources/owners-manuals" class="tile"  ><img src="/content/homepage/img/explore/owners-manual.jpg"></a>
+									<a href="/owners/web/pages/resources/owners-manuals" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Download vehicle manuals</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/owners/web/pages/how-to-videos" class="tile"  ><img src="/content/homepage/img/explore/how-to-video.jpg"></a>
+									<a href="/owners/web/pages/how-to-videos" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Learn about vehicle features</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/owners/web/pages/dealers/service-offers" class="tile"  ><img src="/content/homepage/img/explore/service-offers.jpg"></a>
+									<a href="/owners/web/pages/dealers/service-offers" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>View the latest offers</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/owners/ask-an-owner/" class="tile"  data-promotion-title="Owner_Resources_Ask_An_Owner"><img src="/content/homepage/img/explore/ask-an-owner.jpg"></a>
+									<a href="/owners/ask-an-owner/" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Got questions? Ask a Toyota owner.</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/owners/web/pages/resources/dashboard-indicators" class="tile"  ><img src="/content/homepage/img/explore/dashboard-guide.jpg"></a>
+									<a href="/owners/web/pages/resources/dashboard-indicators" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>See what your vehicle is saying</span>
+									</a>
+								</li>
+							
+								<li>
+									<a href="/owners/web/pages/parts-service/history" class="tile"  ><img src="/content/homepage/img/explore/service-history.jpg"></a>
+									<a href="/owners/web/pages/parts-service/history" class="btn btn-circle tiny" >
+										<i class="icon-arrow-right-tiny"></i>
+										<span>Check your maintenance record</span>
+									</a>
+								</li>
+														
+							</ul>
+						</section>
+					
+					</div>
+				</section>
+			</div>
+		</section>
+
+        <section class="shop-assist">
+	        <div class="container">
+                <div id="shopassistsHeader" class="container">
+                    <div class="page-header">
+                        <h2>Shopping Made Easy</h2>
+                        
+                        <h3>New cars, trucks, SUVs, hybrids, crossovers and minivans.</h3>
+                    	
+                    </div>
+                </div>
+                <div class="page-content">
+                    <div class="row">
+                        <div class="span7"><img src="/content/homepage/img/shop-assist/build-your-own.png" alt="Shopping Made Easy"></div>
+                        <div class="span6 shopping-made-easy">
+                        	<h2>Explore. Build. Buy.</h2>
+							<p>Finding your new Toyota while you’re on the go, or at home, has never been easier. We’ve improved the shopping experience to help you view the newest models, compare and build vehicles, and locate a dealer. Shop Assist, located at the bottom of the page, is always there to help guide you along the way.</p>
+                            <a href="/all-vehicles/" class="btn btn-pill">
+                                <i class="icon-arrow-right"></i>
+                                <span>Get Started</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+	<div class="disclaimers-container">
+	    <ol>
+	            <li><a id="1"></a>Manufacturer's Suggested Retail Price, excludes the Delivery, Processing and Handling Fee of $795 for Cars, $845 for Small/Medium Trucks (Sienna, RAV4, Highlander Gas, Highlander HV, FJ Cruiser, 4Runner, Tacoma and Venza), and $995 for Large Trucks (Land Cruiser, Tundra and Sequoia). (Historically, vehicle manufacturers and distributors have charged a separate fee for processing, handling and delivering vehicles to dealerships. Toyota's charge for these services is called the "Delivery, Processing and Handling Fee" and is based on the value of the processing, handling and delivery services Toyota provides as well as Toyota's overall pricing structure. Toyota may make a profit on the Delivery, Processing and Handling Fee.) Excludes taxes, license, title and available or regionally required equipment. The Delivery, Processing and Handling Fee in AL, AR, FL, GA, LA, MS, NC, OK, SC and TX will be higher. Actual dealer price will vary.</li>
+	            <li><a id="2"></a>2013 EPA-estimated mileage. Actual mileage will vary.</li>
+	            <li><a id="3"></a>EPA-rated driving range when vehicle is fully charged. Excludes driving conditions. Actual mileage will vary.</li>
+	            <li><a id="4"></a>MPGe based on 2013 EPA ratings. Actual MPGe will vary based on driving habits, charging practice, battery age, weather, temperature and road/traffic conditions. Battery capacity will decrease with time and use. For more information on MPGe and range, please see www.fueleconomy.gov.</li>
+	            <li><a id="5"></a>2013 EPA combined estimated miles per gasoline gallon equivalent. Estimate includes consumption of electricity and gasoline energy during EV Mode operation. Actual results will vary for many reasons including driving conditions and how you drive and maintain your vehicle.</li>
+	            <li><a id="6"></a>51 city/49 highway/50 combined mpg estimates. Actual mileage will vary.</li>
+	    </ol>
+	</div>
+		<footer>
+			
+
+<div id="global-footer">
+	<div id="global-footer-wrapper" class="clearfix">
+	
+		<div class="span3">
+			<h3>Vehicles</h3>
+			<ul>
+				<li><a id="all-vehicles" href="/all-vehicles/" target="_self">All Vehicles</a></li>
+				<li><a id="search-inventory" href="/search-inventory/" target="_self">Search Inventory</a></li>
+				<li><a id="cars" href="/cars/" target="_self">Cars</a></li>
+				<li><a id="trucks" href="/trucks/" target="_self">Trucks</a></li>
+				<li><a id="suvs" href="/suvs/" target="_self">SUVs</a></li>
+				<li><a id="crossovers" href="/crossovers/" target="_self">Crossovers</a></li>
+				<li><a id="hybrids" href="/hybrid/" target="_self">Hybrids & EV</a></li>
+				<li><a id="hybrid-cars" href="/hybrid-cars/" target="_self">Hybrid Cars</a></li>
+				<li><a id="hybrid-suvs" href="/hybrid-suvs/" target="_self">Hybrid SUVs</a></li>
+				<li><a id="TCUV_Home" href="http://www.toyotacertified.com/?siteid=Tcom_btmnav:TCUV_Home" target="_blank">Certified Used</a></li>
+				<li><a id="TRAC_Home" href="/rental/?siteid=Tcom_btmnav:TRAC_Home" target="_blank">Toyota Rent a Car</a></li>
+				<li><a id="Mobility_Home" href="http://www.toyotamobility.com/?siteid=Tcom_btmnav:Mobility_Home" target="_blank">Toyota Mobility</a></li>
+				<li><a id="find-your-match" href="/findyourmatch/" target="_self">Find Your Match</a></li>
+				<li><a id="upcoming-vehicles" href="/upcoming-vehicles/" target="_self">Upcoming Vehicles</a></li>
+				<li><a id="concept-cars" href="/concept-vehicles/" target="_self">Concept Vehicles</a></li>
+			</ul>
+		</div>
+	
+		<div class="span3">
+			<h3>Resources</h3>
+			<ul>
+				<li><a id="dealer-directory" href="/dealers/directory/" target="_self">Dealers</a></li>
+				<li><a id="financial-tools" href="/financial-tools/" target="_self">Financial Tools</a></li>
+				<li><a id="phone-compatability-pairing" href="/connect/" target="_self">Phone Compatibility &amp; Pairing</a></li>
+				<li><a id="entune" href="/entune/" target="_self">Entune<sup>&#174;</sup></a></li>
+				<li><a id="accessories" href="/accessories/" target="_self">Accessories</a></li>
+				<li><a id="contact-us" href="/support/contact.html" target="_self">Contact Us</a></li>
+				<li><a id="faq" href="/support/#!/app/home" target="_self">FAQs</a></li>
+				<li><a id="car-tips" href="/car-tips/" target="_self">Car Tips & Advice</a></li>
+			</ul>
+		</div>
+	
+		<div class="span3">
+			<h3>About Toyota</h3>
+			<ul>
+				<li><a id="our-company" href="/about/our_values/index.html" target="_blank">Our Company</a></li>
+				<li><a id="toyota-usa-newsroom" href="http://pressroom.toyota.com" target="_blank">Toyota USA Newsroom</a></li>
+				<li><a id="careers" href="/about/careers/index.html" target="_blank">Careers</a></li>
+				<li><a id="toyota-worldwide" href="http://www.toyota-global.com/" target="_blank">Toyota Worldwide</a></li>
+				<li><a id="toyota-financial-services" href="http://www.toyotafinancial.com/consumer/tfs.portal" target="_blank">Toyota Financial Services</a></li>
+				<li><a id="toyota-racing" href="http://www.toyotaracing.com/" target="_blank">Toyota Racing</a></li>
+			</ul>
+		</div>
+	
+		<div class="span3">
+			<h3>Toyota Social</h3>
+			<ul class="social_links">
+				<li><a id="facebook" href="http://www.facebook.com/toyota" target="_blank" class="footer-icon facebook">Facebook</a></li>
+				<li><a id="twitter" href="http://twitter.com/toyota" target="_blank" class="footer-icon twitter">Twitter</a></li>
+				<li><a id="youtube" href="http://www.youtube.com/user/ToyotaUSA" target="_blank" class="footer-icon youtube">Youtube</a></li>
+				<li><a id="googleplus" href="https://plus.google.com/+toyotausa/" target="_blank" class="footer-icon googleplus">Google+</a></li>
+			</ul>
+		</div>
+		<div class="span3">
+			<h3>Search</h3>
+			<div class ="footer-search-box"><form id="footer-search-form" method="get" action="/search/search.html"> 
+<div class="pull-left"><input type="text" class="footer-search-input" name="keyword"></div> 
+<div class="footer-searchButton">&nbsp;</div> 
+<div class="clearfix"></div> 
+</form></div>
+			<a id="rss" href="/rss/" target="_blank" class="rss-link">RSS</a><div class="footer-divider"></div>
+			<a id="sign-up-for-updates" href="https://access.toyota.com/" target="_blank" class="sign-up-updates-link">Sign Up For Updates</a>
+			<div class="footer-language-switch">
+				<a id="espanol" href="/espanol/" class="language-switch-link">
+					<span class="language">English</span>
+					<div class="switch"></div>
+					<span class="language">Espa&ntilde;ol</span>
+				</a>
+			</div>
+		</div>
+		<div class="copyright-row span15">
+			<a id="view-all-disclosures" class="disclosures-link" data-disclaimer="*">[#] View All Disclosures</a>
+			&copy;2013 Toyota Motor Sales, U.S.A., Inc. All information applies to U.S. vehicles only.&nbsp;&nbsp;
+			
+				
+				<a id="privacy-policy" href="/support/privacy.html">Privacy Policy</a><div class="footer-divider"></div>				
+				
+			
+				
+				<a id="legal-terms" href="/support/legal-terms.html">Legal Terms</a><div class="footer-divider"></div>				
+				
+			
+				
+				<a id="site-map" href="/support/sitemap.html">Site Map</a><div class="footer-divider"></div>				
+				
+			
+				
+				<a id="_bapw-link" href="#" target="_blank"><img id="_bapw-icon"/><span>AdChoices</span></a><div class="footer-divider"></div>				
+				
+			
+		</div>
+	</div>
+</div>
+		</footer>
+</div><!--/.wrapper-->
+	<script>
+		var require = {
+			paths: {
+				"app": "apps/homepage/js"
+			}
+		};
+	</script>
+	<script src="/vendor/requirejs/2.1.2/require.js"></script>
+<script>
+var useBuilt = (/local./.test(location.hostname)) ? false : (/useBuilt=false/g.test(document.cookie)) ? false : true;
+//var useBuilt = /staging|www|next/.test(location.hostname);
+require.config({
+	baseUrl: '/', // baseUrl is set to root so we can require anything in the project if needed
+	waitSeconds: 30, // The number of seconds to wait before giving up on loading a script. The default is 7 seconds.
+	paths: {
+		'require': 'vendor/requirejs/2.1.2', // in case we want to load any plugins
+		'jquery': 'vendor/jquery/1.8.3/jquery',
+		'underscore': 'vendor/underscore/1.4.0/underscore',
+		'backbone': 'vendor/backbone/0.9.9/backbone',
+		// we don't need these here but it doesn't hurt in case we want to change the paths
+		'apps': 'apps',
+		'common': 'common',
+		'vendor': 'vendor',
+		'global': useBuilt?'/common/js/global-built':'/common/js/global',
+		'util':'common/js/util',
+		'plugin':'common/js/plugin',
+		'bootstrap': 'vendor/bootstrap/2.1.1',
+		'jquerypp': 'vendor/jquerypp/1.0b2',
+		'omni':'analytics/tcom_af',
+		// Plugin paths - should move these
+		'imagesLoaded': 'vendor/imagesloaded/2.1.1/jquery.imagesloaded',
+		'spin': 'vendor/spin/1.2.5/spin',
+		'placeholder': 'vendor/jquery-plugins/placeholder/1.0/placeholder',
+		'chosen': 'vendor/jquery-plugins/chosen/0.9.8/chosen',
+		'navIndicator': 'common/js/plugin/jquery.nav-indicator',
+		'toyFlyout': 'common/js/plugin/jquery.flyout',
+		'text': 'vendor/requirejs-text/2.0.3/text',
+		'json': 'vendor/requirejs-json/0.3.0/json',
+		'youtube': 'common/js/util/youtube',
+		'socialButtons': 'common/js/views/social-buttons',
+		'digits': 'common/js/plugin/jquery.digits',
+		'modal':'common/js/plugin/bootstrap.modal',
+		'modalize':'common/js/plugin/jquery.modalize',
+		'popover':'common/js/plugin/bootstrap.popover',
+		'tooltip':'common/js/plugin/bootstrap.tooltip',
+		'flyoutForm': 'apps/flyout-form/js/main',
+		'flyoutFormViews': 'apps/flyout-form/js/views',
+		'trimSelect': 'apps/trim-select',
+		'formValidate':'common/js/plugin/jquery.validate',
+		'postmessage': 'vendor/jquery-plugins/postmessage/0.5/jquery.ba-postmessage.min',
+		'loading': 'common/js/plugin/jquery.loading',
+		'loadmask': 'vendor/jquery-plugins/loadmask/jquery.loadmask',
+		'ritLoading': 'common/js/plugin/jquery.loading.rit',
+		'touch': 'common/js/plugin/jquery.touch',
+		'socialite': 'vendor/socialite/v2.0/socialite.min'
+	},
+	// rit is loaded as a package with a main because we want to be able to
+	// require 'rit' and have a specific file load, and also be able to
+	// require other modules in the rit "namespace" such as 'rit/backbone'
+	packages: [
+		{
+			name: 'rit',
+			location: 'common/js/rit'
+		},
+		{
+			name: 'globalNav',
+			location: 'apps/global-nav/js',
+			main: useBuilt?'main-built':'main'
+		},
+		{
+			name: 'disclaimers',
+			location: 'apps/disclaimers/js',
+			main: useBuilt?'main-built':'main'
+		},
+		{
+			name: 'shopAssist',
+			location: 'apps/agent/js',
+			main: useBuilt?'main-built':'main'
+		}
+	],
+	shim: {
+		'underscore': {
+			exports: '_'
+		},
+		'backbone': {
+			// These script dependencies should be loaded before loading backbone.js
+			deps: ['underscore', 'jquery'],
+			// Once loaded, use the global 'Backbone' as the module value.
+			exports: 'Backbone'
+		},
+		'bootstrap': {
+			deps: ['jquery'],
+			exports: 'bootstrap'
+		},
+		'bootstrap/js/bootstrap-popover': {
+			deps: ['bootstrap/js/bootstrap-tooltip']
+		},
+		'placeholder': {exports: 'placeholder'},
+		'chosen': {exports: 'chosen'},
+		'omni':{exports: 'omni'},
+		'flyoutForm': {exports: 'flyout-form'},
+		'postmessage': {
+			deps: ['jquery']
+		},
+		'socialite': {exports: 'Socialite'}
+	},
+	urlArgs: ''// useBuilt?"":"bust=" +  (new Date()).getTime()
+});
+require(["global"]);
+</script>
+<script>
+require(["http://nexus.ensighten.com/toyotanational/Bootstrap.js"]);
+</script>
+
+<script>document.write('<s'+'cript language="JavaScript" src="https://view.atdmt.com/jaction/avecam_AOuniversalTagToyota_10"></s'+'cript>')</script><noscript><iframe src="https://view.atdmt.com/iaction/avecam_AOuniversalTagToyota_10" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe></noscript>
+<script>
+//begin i2a.js
+var io = new Image();
+var pageAction, price, sku, order_code, currency_id, user_defined1, user_defined2, user_defined3, user_defined4, ic_cat, ic_bu, ic_bc, ic_ch, ic_nso, altid, ic_type, urlA, prefix;
+function pixel_conversion(pageAction)
+{
+        var dt = new Date();
+        var ts = (Math.round(dt.getTime()/1000)).toString() + (Math.random()*100).toString();
+       
+	var icstring =".ic-live.com/goat.php?cID=1687&cdid=5293&rand="+ts+"&campID=8";
+	var refVar = (document.referrer);
+	var locURL = location.href;
+	var locHttp = locURL.split(":")[0];
+
+	if (!pageAction) { pageAction = 0; };
+	if (!price) { price=""; }
+	if (!sku) { sku=""; }
+	if (!order_code) { order_code=""; }
+	if (!user_defined1) { user_defined1=""; }
+	if (!user_defined2) { user_defined2=""; }
+	if (!user_defined3) { user_defined3=""; }
+	if (!user_defined4) { user_defined4=""; }
+	if (!currency_id) { currency_id=""; }
+	if (!ic_bu) { ic_bu=""; }
+	if (!ic_bc) { ic_bc=""; }
+	if (!ic_ch) { ic_ch=""; }
+	if (!ic_nso) { ic_nso=""; }
+	if (!altid) { altid=""; }
+	if (!ic_cat) { ic_cat=""; }
+	if (!ic_type) { ic_type=""; }
+	if (locHttp.toLowerCase( ) == "https")  { prefix="https://1687"+icstring+"";}
+	if (locHttp.toLowerCase( ) == "http")  { prefix="http://1687"+icstring+"";}
+
+	if (pageAction > 0) {
+		urlA = prefix+"&convID="+pageAction+"&convP="+price+"&curID="+currency_id+"&ordID="+escape(order_code)+"&ud1="+escape(user_defined1)+"&ud2="+escape(user_defined2)+"&ud3="+escape(user_defined3)+"&ud4="+escape(user_defined4)+"&ic_cat="+escape(ic_cat)+"&ic_type="+escape(ic_type)+"&ic_bu="+escape(ic_bu)+"&ic_bc="+escape(ic_bc)+"&ic_ch="+escape(ic_ch)+"&ic_nso="+escape(ic_nso)+"&altid="+escape(altid)+"&sku="+escape(sku)+"&refVar="+escape(refVar);
+	} else {
+		urlA = prefix+"&ic_cat="+escape(ic_cat)+"&ic_type="+escape(ic_type)+"&ic_bu="+escape(ic_bu)+"&ic_bc="+escape(ic_bc)+"&ic_ch="+escape(ic_ch)+"&ic_nso="+escape(ic_nso)+"&altid="+escape(altid)+"&refVar="+escape(refVar);
+	}
+		io.src = urlA;
+}
+function pixel()
+{
+        var dt = new Date();
+        var ts = (Math.round(dt.getTime()/1000)).toString() + (Math.random()*100).toString();
+       
+	var icstring =".ic-live.com/goat.php?cID=1687&cdid=5293&rand="+ts+"&campID=8";
+	var refVar = (document.referrer);
+	var locURL = location.href;
+	var locHttp = locURL.split(":")[0];
+
+	if (!pageAction) { pageAction = 0; };
+	if (!price) { price=""; }
+	if (!sku) { sku=""; }
+	if (!order_code) { order_code=""; }
+	if (!user_defined1) { user_defined1=""; }
+	if (!user_defined2) { user_defined2=""; }
+	if (!user_defined3) { user_defined3=""; }
+	if (!user_defined4) { user_defined4=""; }
+	if (!currency_id) { currency_id=""; }
+	if (!ic_bu) { ic_bu=""; }
+	if (!ic_bc) { ic_bc=""; }
+	if (!ic_ch) { ic_ch=""; }
+	if (!ic_nso) { ic_nso=""; }
+	if (!altid) { altid=""; }
+	if (!ic_cat) { ic_cat=""; }
+	if (!ic_type) { ic_type=""; }
+	if (locHttp.toLowerCase( ) == "https")  { prefix="https://1687"+icstring+"";}
+	if (locHttp.toLowerCase( ) == "http")  { prefix="http://1687"+icstring+"";}
+
+	if (pageAction > 0) {
+		urlA = prefix+"&convID="+pageAction+"&convP="+price+"&curID="+currency_id+"&ordID="+escape(order_code)+"&ud1="+escape(user_defined1)+"&ud2="+escape(user_defined2)+"&ud3="+escape(user_defined3)+"&ud4="+escape(user_defined4)+"&ic_cat="+escape(ic_cat)+"&ic_type="+escape(ic_type)+"&ic_bu="+escape(ic_bu)+"&ic_bc="+escape(ic_bc)+"&ic_ch="+escape(ic_ch)+"&ic_nso="+escape(ic_nso)+"&altid="+escape(altid)+"&sku="+escape(sku)+"&refVar="+escape(refVar);
+	} else {
+		urlA = prefix+"&ic_cat="+escape(ic_cat)+"&ic_type="+escape(ic_type)+"&ic_bu="+escape(ic_bu)+"&ic_bc="+escape(ic_bc)+"&ic_ch="+escape(ic_ch)+"&ic_nso="+escape(ic_nso)+"&altid="+escape(altid)+"&refVar="+escape(refVar);
+	}
+		io.src = urlA;
+}
+pixel();
+//end i2a.js
+
+</script>
+<script>/*<![CDATA[*/(function(){var k=870,m=2444,n=1,b=false,l=document,p=l.getElementById("_bapw-link"),h=(l.location.protocol=="https:"),i=(h?"https":"http")+"://",g=i+"c.betrad.com/pub/",r=window._bap_p_overrides,e=0,a=0,f=560,q=720,o=h||(r&&r.hasOwnProperty(k)&&r[k].new_window);function c(s){var d=new Image();d.src=i+"l.betrad.com/pub/p.gif?pid="+k+"&ocid="+m+"&i"+s+"=1&r="+Math.random()}function j(){if(typeof(window.innerWidth)=="number"&&typeof(window.innerHeight)=="number"){e=window.innerWidth;a=window.innerHeight}else{if(document.documentElement&&document.documentElement.clientWidth&&document.documentElement.clientHeight){e=document.documentElement.clientWidth;a=document.documentElement.clientHeight}else{if(document.body&&document.body.clientWidth&&document.body.clientHeight){e=document.body.clientWidth;a=document.body.clientHeight}}}return(a<=f)||(e<=q)}l.getElementById("_bapw-icon").src=g+"icon1.png";p.onmouseover=function(){p.href="http://info.evidon.com/pub_info/"+k+"?v=1&nt="+n+"&nw="+((o||j())?"true":"false")};p.onclick=function(){if(o||j()){c("c");return true}function d(u,x){var v=l.getElementsByTagName("head")[0]||l.documentElement,t=b,s=l.createElement("script");function w(){s.onload=s.onreadystatechange=null;v.removeChild(s);x()}s.src=u;s.onreadystatechange=function(){if(!t&&(this.readyState=="loaded"||this.readyState=="complete")){t=true;w()}};s.onload=w;v.insertBefore(s,v.firstChild)}this.onclick="return "+b;d(i+"ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js",function(){d(g+"pub2.js",function(){BAPW.i(p,{pid:k,ocid:m})})});return b};c("i")}());/*]]>*/</script>
+</body>
+</html>

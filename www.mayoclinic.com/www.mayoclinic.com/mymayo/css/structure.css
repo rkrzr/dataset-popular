@@ -1,0 +1,508 @@
+@import url("base.css");
+/*@import url("http://www.sputnikds.com/mymayo.css");*/
+
+body.mymayo {
+min-width: 960px; background: #f5f5f3; padding: 0 0 25px 0; 
+}
+
+body.mymayo, body.mymayo input, #odin {
+font-family: Helvetica, Arial, sans-serif;
+}
+
+
+body.mymayo a, #odin a {
+text-decoration: none; color: #007dba;
+}
+
+body.mymayo a:hover, #odin a:hover {
+text-decoration: underline;	
+}
+
+#odin {
+z-index: 1000;	
+}
+
+#odin #w_head {
+background: #f5f5f3; height: 100px; width: 100%; z-index: 100;
+}
+
+#odin #logo {
+position: absolute; top: 28px; left: 416px; background: url("../img/shieldBottom.png") no-repeat bottom; padding: 0 0 9px 0; z-index: 90; height: 112px;
+}
+
+#odin #head {
+width: 960px; margin: 0 auto 0 auto;  z-index: 200;
+}
+
+#odin #head ul {
+margin: 0; padding: 32px 0 0 0;  position: relative; z-index: 100;
+}
+
+#odin #head ul li {
+list-style: none; margin: 0; padding: 0; width: 110px; height: 35px; position: absolute; font-size: 14px;
+}
+
+#odin #head ul li#l_patientcare {
+left: 160px; width: 90px; 
+}
+
+#odin #head ul li#l_healthinformation {
+left: 290px; width: 90px;
+}
+
+#odin #head ul li#l_medprofessionals {
+left: 580px; width: 95px;
+}
+
+#odin #head ul li#l_research {
+left: 705px; width: 65px;
+}
+
+#odin #head ul li#l_education {
+left: 800px; width: 70px;
+}
+
+#odin #head ul a {
+color: #7e7e74;  font-weight: bold; position: absolute; bottom: 0; text-align: center; padding: 0 0 4px 0;
+}
+
+#odin #head ul a:hover {
+text-decoration: none;
+}
+
+#odin #head ul li:hover, #odin #head ul li.on  {
+text-decoration: none; border-bottom: 2px solid #003da5;
+}
+
+
+#odin #head ul li ul {
+display: none; background: #f5f5f3 url("../img/arrow_headnav.png") no-repeat 35px top; width: 215px; margin: 0 0 0 0; padding: 18px 22px 12px 22px; top: 35px; border: 1px solid #d5d5d0; border-top: 2px solid #003da5;
+}
+
+
+
+#odin #head ul li:hover ul {
+display: block;
+}
+
+#odin #head ul li ul li {
+position: relative; float: none; display: block; width: auto; height: auto; font-size: 12px; margin: 0 0 6px 0;
+}
+
+#odin #head ul li ul li:hover {
+border: 0;
+}
+
+#odin #head ul li ul li a {
+position: relative; float: none; display: block; text-align: left; font-size: 13px; color: #7e7e74; font-weight: normal;
+}
+
+#odin #head ul li ul li a:hover {
+text-decoration: underline;
+}
+
+#odin #head ul li ul#sub_l_healthinformation {
+background-position: 34px top; width: 160px;
+}
+
+#odin #head ul li ul#sub_l_medprofessionals {
+background-position: 38px top; width: 235px;
+}
+
+#odin #head ul li ul#sub_l_research {
+background-position: 22px top; width: 160px;
+}
+
+#odin #head ul li ul#sub_l_education {
+background-position: 24px top; width: 160px; left: 0px;
+}
+
+#odin #w_nav {
+height: 32px; background: url("../img/bg_nav.png") repeat-x top; z-index: 10;
+}
+
+#odin #nav {
+width: 960px; margin: 0 auto 0 auto; font-family: Arial, sans-serif;
+}
+
+
+#odin #nav ul {
+margin: 0; padding: 0; overflow: hidden;
+}
+
+#odin #nav li {
+float: left; padding: 0; margin: 8px 0 0 10px; line-height: auto; list-style: none; font-size: 12px;
+}
+
+#odin #nav li:first-child {
+margin: 8px 0 0 0; padding: 0;
+}
+
+#odin #nav a {
+color: #7e7f74; font-size: 12px !important;
+}
+
+#odin #nav li#l_requestappointment {
+margin-left: 90px; border: 0; padding: 0;
+}
+
+#odin #nav li#l_findadoctor {
+padding: 0; margin-left: 25px;
+}
+
+#odin #nav li#l_findajob {
+margin-left: 25px; border: 0;
+}
+
+#odin #nav li#l_patientlogin {
+padding: 0;	margin-left: 150px;
+}
+
+#odin #nav li#l_giving {
+padding: 0;	margin-left: 25px;
+}
+
+#odin #nav li#l_s_facebook {
+padding: 0;	margin-left: 25px;
+}
+
+#odin #nav li#l_s_facebook a {
+text-indent: -999999px; background: url("../img/ico_socmed_nav_fb.png") no-repeat top; width: 16px; height: 16px; display: block;
+}
+
+#odin #nav li#l_s_facebook a:hover {
+background: url("../img/ico_socmed_nav_fb_on.png") no-repeat top;
+}
+
+#odin #nav li#l_s_twitter {
+padding: 0;	margin: 9px 0 0 10px;
+}
+
+#odin #nav li#l_s_twitter a {
+text-indent: -999999px; background: url("../img/ico_socmed_nav_twitter.png") no-repeat top; width: 21px; height: 14px; display: block;
+}
+
+#odin #nav li#l_s_twitter a:hover {
+background: url("../img/ico_socmed_nav_twitter_on.png") no-repeat top;
+}
+
+#odin #nav li#l_s_youtube {
+padding: 0;	margin: 10px 0 0 10px;
+}
+
+#odin #nav li#l_s_youtube a {
+text-indent: -999999px; background: url("../img/ico_socmed_nav_youtube.png") no-repeat top; width: 17px; height: 13px; display: block;
+}
+
+#odin #nav li#l_s_youtube a:hover {
+background: url("../img/ico_socmed_nav_youtube_on.png") no-repeat top;
+}
+
+/* GRAY PALETTE MODS
+
+#odin.gray #w_nav {
+background: #89898b url("../img/bg_nav_gray.png") repeat-x top;
+}
+
+#odin.gray #logo {
+background: url("../img/logo_bot_gray.png") no-repeat bottom;
+}
+ */
+
+
+
+
+body.mymayo #photo {
+width: 100%; height: 400px; position: absolute; z-index: 1; top: 130px; left: 0;
+}
+
+
+body.mymayo #photo.photo1 {
+background: #ffffff url("../img/photo_9.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo2 {
+background: #ffffff url("../img/photo_4_1.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo3 {
+background: #ffffff url("../img/photo_5.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo4 {
+background: #ffffff url("../img/photo_6.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo5 {
+background: #ffffff url("../img/photo_8.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo6 {
+background: #ffffff url("../img/photo_9.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo7 {
+background: #ffffff url("../img/photo_10.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo8 {
+background: #ffffff url("../img/photo_12.jpg") no-repeat center top;
+}
+
+body.mymayo #photo.photo9 {
+background: #ffffff url("../img/photo_13.jpg") no-repeat center top;
+}
+
+
+#w_banner {
+height:398px; background: url("../img/bg_banner.png") repeat-x bottom; z-index: 2; font-size: 13px;
+}
+
+
+#banner {
+width: 260px; margin: 0 auto 0 auto; padding: 25px 70px 50px 700px; background: url("../img/head_answers.png") no-repeat 185px 290px;
+}
+
+#banner a {
+font-size: 20px; font-weight: bold; padding: 0 18px 0 0; margin: 0;
+}
+
+#banner p {
+color: #444444; margin: 2px 0 25px 0; line-height: 16px;
+}
+
+#banner form {
+margin: 0 0 25px 0; overflow: hidden;
+}
+
+#banner form input[type=text] {
+width: 130px; border: 1px solid #9d9d9d; background: #ffffff url("../img/bg_input_text.png") repeat-x left top; padding: 6px; font-size: 14px; color: #454545; float: left; margin: 1px 0 0 0;
+}
+
+#banner form input[type="submit"] {
+background: #767676 url("../img/bg_btn_blue.png") repeat-x left -32px; color: #ffffff; font-weight: bold; font-size: 13px; padding: 7px 12px 7px 12px; border: 0; margin: 0 0 0 5px; position: relative; cursor: pointer;
+border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; 
+}
+
+#banner form input[type="submit"]:hover {
+background: #767676 url("../img/bg_btn_blue.png") repeat-x left -132px;
+}
+
+#banner form input {
+width: 80px;
+}
+
+#banner form input:first-child {
+width: 130px;
+}
+
+#banner a.btn {
+display: block; background: #1662C6 url("../img/bg_btn_blue.png") repeat-x left -32px; color: #ffffff; font-weight: bold; font-size: 13px; padding:9px 20px 9px 20px; 
+border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-align: center;
+}
+
+#banner a.btn:hover {
+background: url("../img/bg_btn_blue.png") repeat-x left -132px; text-decoration: none;
+}
+
+#banner .patientstory a {
+font-size: 13px; margin: 0; padding: 0;
+}
+
+/*#banner {
+width: 280px; margin: 0 auto 0 auto; padding: 90px 70px 50px 660px; background: url("../img/head_answers_purple.png") no-repeat 660px 19px;
+}
+
+
+#banner a {
+font-size: 20px; font-weight: bold; padding: 0 18px 0 0; margin: 0;
+}
+
+#banner p {
+color: #444444; margin: 2px 0 15px 0; line-height: 16px;
+}
+
+#banner form {
+margin: 0 0 15px 0; overflow: hidden;
+}
+
+#banner form input[type=text] {
+width: 130px; border: 1px solid #9d9d9d; background: #ffffff url("../img/bg_input_text.png") repeat-x left top; padding: 6px; font-size: 14px; color: #454545; float: left; margin: 1px 0 0 0;
+}
+
+#banner form input[type="submit"] {
+background: #767676 url("../img/bg_btn_blue.png") repeat-x left -32px; color: #ffffff; font-weight: bold; font-size: 13px; padding: 7px 12px 7px 12px; border: 0; margin: 0 0 0 5px; position: relative; cursor: pointer;
+border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; 
+}
+
+#banner form input[type="submit"]:hover {
+background: #767676 url("../img/bg_btn_blue.png") repeat-x left -132px;
+}
+
+#banner form input {
+width: 80px;
+}
+
+#banner form input:first-child {
+width: 130px;
+}
+
+#banner a.btn {
+display: block; background: #1662C6 url("../img/bg_btn_blue.png") repeat-x left -32px; color: #ffffff; font-weight: bold; font-size: 13px; padding:9px 20px 9px 20px; 
+border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; text-align: center;
+}
+
+#banner a.btn:hover {
+background: url("../img/bg_btn_blue.png") repeat-x left -132px; text-decoration: none;
+}
+
+#banner .patientstory a {
+font-size: 13px;	
+}
+
+*/
+
+
+
+
+
+
+#w_alerts {
+background: #693C5E; padding: 18px 0 18px 0;
+}
+
+#alerts {
+width: 960px; margin: 0 auto 0 auto;
+}
+
+body.mymayo #alerts a {
+color: #ffffff; font-size: 16px; font-weight: bold; padding: 0; display: block; width: 100%;
+}
+
+
+#w_sublinks {
+background: #ffffff; font-size: 13px;
+}
+
+ul#sublinks {
+width: 960px; margin: 0 auto 0 auto; padding: 20px 0 20px 0; overflow: hidden;
+}
+
+ul#sublinks li {
+list-style: none; float: left; width: 280px; margin: 0 0 0 20px; padding: 10px 0 10px 20px; min-height: 80px;
+}
+
+ul#sublinks li:first-child {
+border: 0; margin: 0; padding: 10px 0 10px 0;
+}
+
+ul#sublinks a {
+float: left; padding: 0 18px 0 0; font-size: 20px; font-weight: bold; margin: 0 0 8px 0;
+}
+
+
+
+ul#sublinks p {
+clear: left; color: #454545; width: 230px; line-height: 20px;
+}
+
+
+#w_donations {
+background-color: #e3e3e0; font-size: 16px;
+}
+
+body.mymayo #donations {
+width: 960px; margin: auto; color: #444444; padding: 18px 0 18px 0;
+}
+
+body.mymayo #donations a {
+font-weight: bold; margin: 0 18px 0 0;
+}
+
+body.mymayo #donations a.btn {
+background: #767676 url("../img/bg_btn_blue.png") repeat-x left -32px; color: #ffffff; font-weight: bold; font-size: 13px; padding: 9px 12px 9px 12px; border: 0; margin: 0 0 0 18px; position: relative; cursor: pointer; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; line-height: 14px; 
+}
+
+body.mymayo #donations a.btn:hover {
+background: #767676 url("../img/bg_btn_blue.png") repeat-x left -132px;
+}
+
+
+
+
+
+#w_footer {
+
+}
+
+body.mymayo #footer {
+width: 960px; margin: 0 auto 0 auto; color: #919388; font-size: 11px; padding: 25px 0 0 0;
+}
+
+
+
+
+body.mymayo #footer div {
+float: left; margin: 0 0 0 10px;	width: 150px;
+}
+
+body.mymayo #footer div:first-child {
+margin: 0;
+}
+
+body.mymayo #footer a {
+color: #919388;
+}
+
+body.mymayo #footer ul {
+margin: 0 0 25px 0; padding: 0;
+}
+
+body.mymayo #footer ul li {
+margin: 0 0 6px 0; list-style: none; padding: 0;
+}
+
+body.mymayo #footer ul li#sm_facebook, #footer ul li#sm_youtube, #footer ul li#sm_twitter {
+background: none; padding: 0; margin: 0 0 8px 0;
+}
+
+body.mymayo #footer ul li#sm_facebook {
+margin-top: 10px;
+}
+
+body.mymayo #footer ul li#sm_facebook a {
+background: url("../img/icon_socialmedia.png") no-repeat left 0; padding: 1px 0 4px 22px;
+}
+
+body.mymayo #footer ul li#sm_youtube a {
+background: url("../img/icon_socialmedia.png") no-repeat left -23px; padding: 1px 0 4px 22px;
+}
+
+body.mymayo #footer ul li#sm_twitter a {
+background: url("../img/icon_socialmedia.png") no-repeat left -47px; padding: 1px 0 4px 22px;
+}
+
+body.mymayo #footer h4 {
+font-weight: bold; font-size: 11px; margin: 0 0 12px 0; color: #919388;
+}
+
+
+body.mymayo #footer #copyright {
+clear: both; border-top: 1px solid #d3d3d3; padding: 12px 0 0 0; margin: 25px 0 0 0; float: none; width: 100%;
+}
+
+body.mymayo #footer #copyright p {
+text-align: right;
+}
+
+body.mymayo #footer #copyright ul {
+margin: 0; padding: 0;
+}
+
+body.mymayo #footer #copyright ul li {
+float: left; margin: 0 0 0 10px; padding: 0 0 0 10px; border-left: 1px solid #d3d3d3; list-style: none; background: none;
+}
+
+body.mymayo #footer #copyright ul li:first-child {
+border: 0; margin: 0; padding: 0;
+}

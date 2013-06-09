@@ -1,0 +1,67 @@
+﻿body{
+    font-size:    small;
+    voice-family:    "\"}\"";
+    voice-family:    inherit;
+    font-size:    medium;
+}
+html>body{
+    font-size: medium;
+}
+#subbody #content .body .main{
+    font-size: 100%;
+}
+#subbody #content .body .main_nrn{
+    font-size: 100%;
+}
+#subbody #content .body .main2{
+    font-size: 100%;
+}
+#subbody #content .body .main2_nrn{
+    font-size: 100%;
+}
+#subbody #content .body .mainBottom{
+    font-size: 100%;
+}
+#subbody #content .body .mainBottom_nrn{
+    font-size: 100%;
+}
+#subbody #content .body .mainLocal1{
+    font-size: 100%;
+}
+#subbody #content .body .mainLocal1_nrn{
+    font-size: 100%;
+}
+#subbody #content .body .mainLocal2{
+    font-size: 100%;
+}
+#subbody #content .body .mainLocal2_nrn{
+    font-size: 100%;
+}
+#subbody #content .body .mainCore1{
+    font-size: 100%;
+}
+#subbody #content .body .mainCore1_nrn{
+    font-size: 100%;
+}
+#subbody #content .body .mainCore2{
+    font-size: 100%;
+}
+#subbody #content .body .mainCore2_nrn{
+    font-size: 100%;
+}
+#subbody #content .body .graphicalIntro{
+    font-size: 100%;
+}
+ 
+
+
+
+/* ADDITIONAL ALTERATIONS -- EDGAR 12072012 */
+#subbody #content .body #main.main h2,
+#subbody #content .body #main.main{
+    font-size: 100%;
+ /*   line-height: 100%;*/
+}
+#subbody #content .body .main_nrn h2{
+    font-size: 100%;
+}

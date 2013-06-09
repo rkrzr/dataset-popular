@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'ArimoRegular';
+    src: url('http://www.nps.gov/pwr/templates/css/webfontkit/arimo-regular-webfont.eot');
+    src: url('../../../../pwr/templates/css/webfontkit/arimo-regular-webfont.eot') format('embedded-opentype'),
+         url('../../../../pwr/templates/css/webfontkit/arimo-regular-webfont.woff') format('woff'),
+         url('../../../../pwr/templates/css/webfontkit/arimo-regular-webfont.ttf') format('truetype'),
+         url('../../../../pwr/templates/css/webfontkit/arimo-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#slideShowWrapper{
+	width:710px;
+	height:340px;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	clear:none;
+	float:left;
+}
+#rightShadow {
+	float:right;
+	position:relative;
+	z-index:200;
+	height:340px;
+	width:23px;
+	background: url(../../../../pwr/templates/images/slideshowshadow.png);
+	overflow:hidden;
+}
+/* single slide */
+.images div {
+	display:none;
+	position:absolute;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+.images div.descriptor {
+	height:90px;
+	width:685px;
+	position:relative;
+	margin-top:-88px;
+	padding:3px 0 0 25px;
+	overflow:hidden;
+}
+
+.images div.descriptor.black {
+	background: url(../../../../pwr/templates/images/black-opacity-sprite.png) repeat scroll left 600px transparent;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* header */
+.images div.descriptor h1 {
+     font-size:2.36em;
+     font-family: "ArimoRegular", sans-serif;
+     color:#fff;
+     line-height:1.4em;
+     overflow:hidden;
+     font-weight: normal;
+}
+
+.images div.descriptor a {
+     font-size:20px;
+     font-weight:inherit;
+     font-family: "ArimoRegular", sans-serif;
+     color:#ffffcc;
+     text-decoration:none;
+     margin:10px 0 0 0;
+     overflow:hidden;
+	 letter-spacing:-.6px;
+}
+
+.images div.descriptor a:hover {	
+	text-decoration:underline;
+}
+
+/* tabs (those little squares below slides) */
+#tab_wrapper {
+     display:block;
+     float:right;
+     position:relative;
+     top:280px;
+     margin:0px
+     z-index:1;
+     overflow:hidden;
+}
+#viewall { display:block; clear:both; text-align: right;overflow:hidden;}
+#viewall a {
+	position:relative;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow: #333 1px 1px 0px;
+	overflow:hidden;
+}
+#viewall a:hover {text-decoration:underline;}
+/* single tab */
+.slidetabs a {
+	width:11px;
+	height:11px;
+	float:left;
+	margin:1px;
+	background:url(../../../../pwr/templates/images/nav.png) 0 0 no-repeat;
+	display:block;
+	font-size:1px;
+	overflow:hidden;
+	-moz-box-shadow: 1px 1px 2px #333;
+	-webkit-box-shadow: 1px 1px 2px #333;
+	box-shadow: 1px 1px 2px #333;
+}
+/* mouseover state */
+.slidetabs a:hover {
+	background-position:0 -13px;
+}
+/* active state (current page state) */
+.slidetabs a.current {
+	background-position:0 -26px;
+}

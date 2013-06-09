@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/UyYrYy3ltEffJV9QueSi4UpeNX8RPf6i6WQfJWyCWEs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url(http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v3/Q_pTky3Sc3ubRibGToTAYjnFfol0SnfBMmbnmUK0fZM.ttf) format('truetype');
+}

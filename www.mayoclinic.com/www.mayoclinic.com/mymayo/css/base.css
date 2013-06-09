@@ -1,0 +1,36 @@
+/* NULLIFY EXISTING STYLES   */
+body.mymayo h1, body.mymayo h2, body.mymayo h3, body.mymayo h4, body.mymayo h5, body.mymayo h6, body.mymayo, body.mymayo div, body.mymayo dl, body.mymayo dt, body.mymayo dd, body.mymayo pre, body.mymayo form, body.mymayo fieldset, body.mymayo input, body.mymayo p, body.mymayo blockquote, body.mymayo th, body.mymayo td {
+margin: 0; padding: 0; 
+}
+
+body.mymayo h1, body.mymayo h2, body.mymayo h3, body.mymayo h4, body.mymayo h5, body.mymayo h6 {
+font-size: 100%; font-style: normal; font-weight: normal;
+}
+
+body.mymayo {
+margin: 0; padding: 0;
+}
+
+body.mymayo div, #odin div {
+position: relative;
+}
+
+body.mymayo address, body.mymayo caption, body.mymayo cite, body.mymayo code, body.mymayo dfn, body.mymayo em, body.mymayo th, body.mymayo var {
+font-style: normal; font-weight: normal;
+}
+
+body.mymayo table {
+border-collapse: collapse;
+}
+
+body.mymayo img, body.mymayo fieldset, #odin * {
+border: 0;
+}
+
+img {
+-ms-interpolation-mode: bicubic;
+}
+
+a {
+cursor: pointer;	
+}

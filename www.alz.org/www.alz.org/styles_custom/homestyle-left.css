@@ -1,0 +1,630 @@
+@charset "utf-8";
+/* CSS Document */
+img{
+	border: 0px;
+}
+div.sideBar{
+	font-familY: 'Arial', Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 9px;
+}
+div.sideBar a.donateBttn{
+	margin-left: 15px;
+
+}
+div.sideBar a.donateBttn img{
+	margin-bottom: 20px;	
+}
+div.sideBar a.donateBttn img#donateNowBttn{
+}
+
+div.sideBar h2{
+	font-familY: 'Arial', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal; /* kt changed from bold 10/01/12 */
+	width: 186px;
+	color: #2d2d2d;
+	border-bottom: 4px solid #00539b;
+	padding-bottom: 3px;
+	margin: 0px;
+	margin-left: 18px;
+	margin-bottom: 2px;
+	margin-top: 5px; /* kt changed from 25px 11/21/11 */
+}
+div.sideBar h2.purpleH2{
+	font-familY: 'Arial', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal; /* kt changed from bold 10/01/12 */
+	width: 186px;
+	color: #2d2d2d;
+	border-bottom: 4px solid #61398f;
+	padding-bottom: 3px;
+	margin: 0px;
+	margin-left: 18px;
+	margin-bottom: 2px;
+	margin-top: 25px;
+}
+div.sideBar h2.redHeader{
+	border-bottom: 4px solid #B02329; 
+	font-family: 'Arial',Helvetica,sans-serif; 
+	font-size: 18px; 
+	margin: 25px 0 2px 18px; 
+	padding-bottom: 3px; 
+	width: 186px; 
+	color: #B02329; 
+	font-weight: normal;
+}
+
+div.sideBar .whiteLine{
+	border-top: 1px solid #fff;
+}
+div.obama{
+	width: 200px;
+	margin-left: 10px;
+	margin-bottom: 17px;
+	margin-top: 3px;
+}
+
+div.sideBar ul.linkBox{
+	margin: 0px;
+	padding: 0px;
+	width: 184px;
+	border: 1px solid #00539b;
+	font-size: 14px;
+	color: #020202;
+	line-height: 28px;
+	padding-left: 0px;
+	list-style: none;
+	margin-left: 18px;
+}
+div.sideBar ul.linkBox li{
+	padding: 0px;
+	margin: 0px;
+	background-image: url('../../alz.org/images_custom/home/home-callout-linkbox-bg.png');
+	background-repeat: repeat-x;
+	background-position: top left;
+	min-height: 30px;
+	background-color: #fff;
+	border-bottom: 1px solid #d0d0d0;
+	border-top: 1px solid #fff;
+	padding-left: 8px;
+}
+
+div.sideBar ul.linkBoxRed{
+	margin: 0px;
+	padding: 0px;
+	width: 184px;
+	border: 1px solid #B02329;
+	font-size: 14px;
+	color: #020202;
+	line-height: 28px;
+	padding-left: 0px;
+	list-style: none;
+	margin-left: 18px;
+}
+div.sideBar ul.linkBoxRed li{
+	padding: 0px;
+	margin: 0px;
+	background-image: url('../../alz.org/images_custom/home/home-callout-linkbox-bg.png');
+	background-repeat: repeat-x;
+	background-position: top left;
+	min-height: 30px;
+	background-color: #fff;
+	border-bottom: 1px solid #B02329;
+	border-top: 1px solid #fff;
+	padding-left: 8px;
+}
+div.sideBar ul.linkBox li img.arrow{
+	margin-top: 10px;
+	margin-right: 5px;
+}
+div.sideBar ul.linkBoxRed li img.arrow{
+	margin-top: 10px;
+	margin-right: 5px;
+}
+div.sideBar div.linkBoxTwo{
+	border: 1px solid #00539b;
+	width: 184px;
+	margin-left: 18px;
+	background: url('../../alz.org/images_custom/home/home-callout-linkbox2-bg-below.png') bottom left repeat-x; 
+}
+div.sideBar div.linkBoxTwo ul.linkBoxTwo{
+	background: url('../../alz.org/images_custom/home/home-callout-linkbox2-bg-above.png') top left repeat-x;
+	background-color: none;
+	margin: 0px;
+	padding: 0px;
+	width: 184px;
+	font-size: 14px;
+	color: #020202;
+	line-height: 18px;
+	padding-left: 0px;
+	list-style: none;
+	border-bottom: 1px solid #fff;
+}
+div.sideBar div.linkBoxTwo ul.linkBoxTwo li{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #d3d3d3;
+	padding-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+div.sideBar div.linkBoxTwo ul.linkBoxTwo a{
+	color: #00539b!important;
+	text-decoration: none;
+}
+div.sideBar div.linkBoxTwo ul.linkBoxTwo a:hover{
+	text-decoration: underline;
+}
+div.sideBar div.linkBoxAddOn{
+	border: 1px solid #ff00ff;
+	margin-left:18px; 
+	width: 184px; 
+	border: 1px solid #00539B; 
+	border-top: 0px; 
+	background: #eeeeee;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	
+}
+div.sideBar div.linkBoxAddOn img{
+	float: left;
+	margin-left: 8px;	
+	margin-top: 15px;
+}
+div.sideBar div.linkBoxAddOn img.first{
+	clear: both;
+		
+	
+}
+	
+/*BEGIN WALK CALLOUT BOX*/
+div.sideBar div.walk{
+	width: 200px;
+	margin-left: 10px;
+	margin-top: 45px;
+	margin-bottom: 46px;
+}
+/*BEGIN WALK CALLOUT BOX*/
+/*BEGIN TOTEBAG DONATE BUTTON*/
+
+div.sideBar div.totebag{
+	background: url('../../alz.org/images_custom/home/tote-bg.jpg') no-repeat top left;
+	width: 200px;
+	height: 186px;
+	margin-left: 10px;
+	padding-top: 14px;
+	margin-top: 35px;
+}
+
+div.sideBar div.totebag p.hdr, div.sideBar div.totebag p{
+	font-family: 'Arial', Helvetica, sans-serif;
+	color: #010101;	
+	margin-left: 6px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.sideBar div.totebag p.hdr{
+	font-size: 18px;
+	line-height: 23px;	
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.sideBar div.totebag p{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+div.sideBar div.totebag a img#totebttn{
+	MARGIN-LEFT: 6px;
+	margin-top: 28px;	
+}
+/*END TOTEBAG DONATE BUTTON*/
+/* ALTERNATE VERSIONS PURPLE AND BLUE OF THE BIG BOX*/
+div.sideBar h2.purple{
+	color: #fff;
+	background: #65378e;
+	width: 170px;
+	padding-left: 16px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	font-size: 17px;
+	font-weight: bold;
+	border: 0px;
+}
+div.sideBar div.bigPurpleBox{
+	background: url('../../alz.org/images_custom/home/home-callout-bigpurplebox-bg.gif') top left #9066b3 repeat-x;
+	width: 166px;
+	margin-left: 18px;
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 47px;
+	font-size: 14px; 
+	line-height: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+div.sideBar div.bigPurpleBox #facebook{
+		margin-left: 5px;
+}
+div.sideBar div.bigPurpleBox #twitter{
+		margin-right: 12px;
+		margin-left: 12px;
+}
+div.sideBar ul.linkBoxPurple{
+	margin: 0px;
+	padding: 0px;
+	width: 186px;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 28px;
+	padding-left: 0px;
+	list-style: none;
+	margin-left: 18px;
+}
+div.sideBar ul.linkBoxPurple li{
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+	background-color: #9971ba;
+	border-top: 1px solid #fff;
+	padding-left: 4px;
+}
+div.sideBar ul.linkBoxPurple li img.whiteArrow{
+	margin-right: 4px;
+	margin-top: 10px;
+}
+/* ALTERNATE VERSIONS PURPLE AND BLUE OF THE BIG BOX*/
+div.sideBar div.bigBlueBox{
+	background: url('../../alz.org/images_custom/home/home-callout-bigbluebox-bg.gif') top left #007eb2 repeat-x;
+	width: 166px;
+	margin-left: 18px;
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 47px;
+	font-size: 14px; 
+	line-height: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+div.sideBar div.bigBlueBox #facebook{
+		margin-left: 5px;
+}
+div.sideBar div.bigBlueBox #twitter{
+		margin-right: 12px;
+		margin-left: 12px;
+}
+div.sideBar ul.linkBoxBlue{
+	margin: 0px;
+	padding: 0px;
+	width: 186px;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 28px;
+	padding-left: 0px;
+	list-style: none;
+	margin-left: 18px;
+}
+div.sideBar ul.linkBoxBlue li{
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+	background-color: #007eb2;
+	border-top: 1px solid #fff;
+	padding-left: 4px;
+}
+div.sideBar ul.linkBoxBlue li img.whiteArrow{
+	margin-right: 4px;
+	margin-top: 10px;
+}
+div.sideBar div.shop{
+	background: #eeeeee;
+	width: 184px;
+	height: 250px;
+	margin-left: 18px;
+	border: 1px solid #cccccc;
+}
+/* STYLES FOR THE CONTENT INSIDE THE SHOP DIV IS AT: /custom_styles/side_scroller.css */
+div.sideBar div.aboutUsBox{
+	border: 1px solid #00539b;
+	width: 184px;
+	margin-left: 18px;
+	margin-bottom: 20px;
+	background: url('../../alz.org/images_custom/home/home-callout-linkbox2-bg-above.png') top left repeat-x; 
+}
+div.sideBar div.aboutUsBox div{
+	background: url('../../alz.org/images_custom/home/home-callout-blue-bg-bottom.png') bottom left repeat-x;
+	padding: 8px;
+	padding-top: 10px; 
+	padding-bottom: 40px;
+	font-size: 14px;
+}
+div.sideBar div.aboutUsBox div a{
+	color: #00539b!important;
+	text-decoration: none;
+}
+div.sideBar div.aboutUsBox div a:hover{
+	text-decoration: underline;
+}
+div.sideBar div.aboutUsBox div h3{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+div.sideBar div.aboutUsBox div p{
+	font-size: 13px;
+}
+
+
+
+div.leftHeader{
+	border-bottom: 5px solid #65378E;
+	margin: 0px;
+	height: 17px;
+	width: 192px;
+	padding: 0px;
+	color: #65378E;
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 19px;
+	font-weight: bold;
+	margin-left: 14px;
+	margin-top: 24px;
+	margin-bottom: 2px;
+	padding-bottom: 5px;
+}
+div.sideBar div.shop.blog{
+	background: #fff;
+	border: 1px solid #65378e;
+}
+
+div.shop.blog div.horizontalScroller div.jcarousel-skin-tango div.jcarousel-container{
+	margin-top: 3px;		
+}
+
+iframe.iframeBlogScroller{
+	margin-top: 20px; 
+	margin-bottom: 15px;	
+}
+
+
+/************************************/
+
+/*BEGIN COUNT DOWN TIMER*/
+
+#countdowncontainer{
+	width: 170px;
+	font-size: 21px;
+	line-height: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0px 0px;
+}
+#countdowncontainer2{
+	color: #b02329;
+	width: 170px;
+	font-size: 21px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 5px 0px 8px 13px;
+}
+#countdowncontainer div{
+	color: #ffffff;
+	font-size: 21px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 25px;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#countdowncontainer div.colon{
+	width: 2px;
+	background: #fff;
+	margin-left: 6px;
+	margin-right: 10px;
+	float: left;
+}
+#countdowncontainer div.colon.two{
+	margin-left: 115px;
+	margin-top: -60px;
+}
+div#countdowncontainer div.colon{
+	float:left;
+	margin-top: -30px;
+	height: 60px;
+	margin-left: 18px;
+	margin-right: 10px;
+}
+
+#countdowncontainer div.colon.set2{
+	margin-left: 8px;
+}
+#countdowncontainer div.colon.two.set2{
+	margin-left: 114px;
+}
+
+
+#countdowncontainer div.days{
+	margin-left: 12px;
+}
+
+/* NON DYNAMIC WORDS UNDERNEATH THE NUMBERS */
+
+
+div.words{
+	color: #ffffff;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: -20px;
+	width: 170px;
+}
+
+div.words span{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+div#countdowncontainer div.secs,
+div#countdowncontainer div.mins,
+div#countdowncontainer div.hrs,
+div#countdowncontainer div.days{
+	font-size: 26px;
+}
+div#countdowncontainer div.days{
+	float: left;
+	margin-left: 5px;
+}
+div#countdowncontainer div.hrs{
+	width: auto;
+	margin-left: 5px;
+	float: left;
+	margin-top: -22px;
+}
+div#countdowncontainer div.mins{
+	width: 25px;
+	float: left;
+	margin-left: 133px;
+	margin-top: -52px;
+}
+div#countdowncontainer div.secs{
+	width: 25px;
+	float: left;
+	margin-left: 144px;
+	margin-top: -56px;
+}
+div#countdowncontainer div.sec2,
+div#countdowncontainer div.min2,
+div#countdowncontainer div.hrs2,
+div#countdowncontainer div.days2{
+	clear: both;
+	margin-left: 3px;
+	font-size: 10px;
+	float: left;
+}
+div#countdowncontainer div.days2{
+	margin-left: 5px;
+	margin-top: 8px;
+}
+div#countdowncontainer div.hrs2{
+	width: 40px;
+	margin-left: 64px;
+	margin-top: -22px;
+}
+div#countdowncontainer div.min2{
+	margin-left: 137px;
+	margin-top: -22px;
+}
+div#countdowncontainer div.sec2{
+	margin-left: 145px;
+	margin-top: -22px;	
+}
+/******************/
+
+div#countdowncontainer div.secsNum,
+div#countdowncontainer div.minsNum,
+div#countdowncontainer div.hrsNum,
+div#countdowncontainer div.daysNum{
+	font-size: 26px;
+}
+div#countdowncontainer div.daysNum{
+	float: left;
+	margin-left: 5px;
+}
+div#countdowncontainer div.hrsNum{
+	width: auto;
+	margin-left: 5px;
+	float: left;
+	margin-top: 0px;
+}
+div#countdowncontainer div.minsNum{
+	width: 25px;
+	float: left;
+	margin-left: 8px;
+	margin-top: -22px;
+}
+div#countdowncontainer div.secsNum{
+	width: 25px;
+	float: left;
+	margin-left: 133px;
+	margin-top: -53px;
+}
+div#countdowncontainer div.sec2Num,
+div#countdowncontainer div.min2Num,
+div#countdowncontainer div.hrs2Num,
+
+div#countdowncontainer div.days2Num{
+	clear: both;
+	margin-left: 3px;
+	font-size: 10px;
+	float: left;
+}
+div#countdowncontainer div.days2Num{
+	margin-left: 5px;
+	margin-top: 8px;
+}
+div#countdowncontainer div.hrs2Num{
+	width: 40px;
+	margin-left: 0px;
+	margin-top: px;
+}
+div#countdowncontainer div.min2Num{
+	margin-left: 75px;
+	margin-top: -30px;
+}
+div#countdowncontainer div.sec2Num{
+	margin-left: 136px;
+	margin-top: -30px;	
+}
+/******************/
+#countdowncontainer,
+#countdowncontainer2{
+	margin-left:5px;	
+}
+div.words span.hrs{
+	margin-left: 0px;	
+}
+div.words span.min{
+	margin-left: 27px;	
+}
+div.words span.sec{
+	margin-left: 29px;
+}
+/******************/
+/******************/
+div.homeTimer{
+	background: url('../../alz.org/images_custom/home/bg-timer.png') top left repeat-x #65378e;
+	height: 52px;
+	width: 176px;
+	margin: 0px;
+	padding: 10px 8px;
+	color: #65378E;
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 14px;
+	margin-top: 0px;
+	padding-bottom: 5px;
+}
+div.homeTimerDesc{
+	background: #e0d7e8;
+	padding: 10px 8px;
+	width: 176px;
+	margin-left: 14px;
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 14px;
+}
+div.homeTimerDesc a{
+	color: #65378e;	
+	text-decoration: none;
+}
+div.homeTimerDesc a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*END COUNT DOWN TIMER*/
