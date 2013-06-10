@@ -1,0 +1,1447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlU0003Alang="en" class="FFX" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+    <title>
+      Medicare.gov: the official U.S. government site for Medicare
+    </title>
+    <meta content="text/html; charset=us-ascii" http-equiv="Content-Type" />
+    <script src="file://dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1179.js?380193" type="text/javascript" async="">
+</script>
+    <script async="" type="text/javascript" src="//www.googletagmanager.com/gtm.js?id=GTM-V7HZ">
+</script>
+    <script async="" type="text/javascript" src="//www.googletagmanager.com/gtm.js?id=GTM-XN6B">
+</script>
+    <script async="" type="text/javascript" src="http://www.google-analytics.com/ga.js">
+</script>
+    <script src="../cdn.optimizely.com/js/170377910.js" type="text/javascript">
+</script>
+    <meta content="Medicare, Medicare Eligibility, Medicare Advantage, Medicare Advantage Plans, Advantage Plans, Medicare Part D, Medicare Part C, Medicare Part B, Medicare Part A, Medicare health plans, Medicare drug plans, Medicare drug coverage, Medicare prescription drug coverage, Medicare supplemental plans, Medicare supplemental insurance, Medicare supplement, Medicare facilities, Medicare providers, what&#226;&#8364;&#8482;s new, parts of Medicare, elder care , Durable Medicare Equipment (DME), Medicare costs, Medicare non-covered services, Medicare covered services, Rights and Protections, Medigap, Medicare claims, Medicare appeals, Medicare complaints, Medicare forms, Mail About Medicare, Medicare Open Enrollment, Medicare card, ESRD, End-Stage Renal Disease, Extra Help, Apply for Medicare, Medicare coverage, Medicare rights, Medicare fraud, Medicare benefits, Medicare gov official site, Medicare premiums, Medicare.com, Medicare application, Medicare website, Medicare sign up, Medicare insurance" name="keywords" /><!--[if IE]>
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="imagetoolbar" content="no" />
+<![endif]-->
+
+    <script type="text/javascript">
+//&lt;![CDATA[
+    var _sf_startpt=(new Date()).getTime()
+    //]]&gt;
+    </script>
+    <link media="print" href="../assets.cms.gov/Resources/Medicare/css/MedicarePrint.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+//&lt;![CDATA[
+    function replaceAssetsElements() {
+    // This assets link should be referenced dynamically via each page type.
+    var assetsHosts = "";
+
+    try{
+        assetsHosts = "//" + document.getElementById("assetsHostVar").getAttribute("content");
+        if (assetsHosts.indexOf("cannot be found") != -1) assetsHosts = "";
+
+        var DefaultMedicare = "medicare.gov"
+
+        if (window.location.hostname.indexOf(DefaultMedicare) == -1 &amp;&amp; assetsHosts != "") {
+            var $headReferences = $("head").children()
+
+            for (var i = 0; i &lt; $headReferences.length; i++) {
+                if ($headReferences[i].getAttribute("AssetsSrc")) {
+                    $headReferences[i].href = assetsHosts + $headReferences[i].getAttribute("AssetsSrc");
+                }
+            }
+        }
+    }catch(e){}
+    } 
+    //]]&gt;
+    </script><!-- es.medicare.gov-->
+
+    <script type="text/javascript">
+//&lt;![CDATA[
+    function OneLink()
+    {
+      var redirectLink = document.location.href;
+      var pagePath = document.location.pathname.toLowerCase();
+
+      if ( pagePath.indexOf(".aspx") &gt; 0 || pagePath.indexOf(".asp")&gt;0){
+          var mySplitResult =pagePath.split("/");
+          if (mySplitResult.length &gt;2){
+                switch (mySplitResult[1]) {
+                    case "dialysisfacilitycompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/DialysisFacilityCompare";
+                        break;
+                    case "hospitalcompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/HospitalCompare";
+                        break;
+                    case "contacts":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/Contacts";
+                        break;
+                    case "medicareeligibility":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/MedicareEligibility/Home.asp";
+                        break;
+                    case "nursinghomecompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/NursingHomeCompare";
+                        break;
+                    case "find-a-doctor":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/find-a-doctor";
+                        break;
+                    case "homehealthcompare":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/homehealthcompare/search.aspx";
+                        break;
+                    case "medicareonlineforms":
+                        if(mySplitResult[2]=="authorizationform")
+                            redirectLink = document.location.protocol +"//"+ window.location.hostname + "/MedicareOnlineForms/AuthorizationForm/OnlineFormStep.asp";
+                        else
+                           redirectLink = document.location.protocol +"//"+ window.location.hostname + "/MedicareOnlineForms";
+                        break;
+                    case "publications":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/publications";
+                        break;
+                    case "supplierdirectory":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/supplierdirectory";
+                        break;
+                    case "coverage":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/Coverage";
+                        break;
+                    case "gopaperless":
+                        redirectLink = document.location.protocol +"//"+ window.location.hostname + "/GoPaperless";
+                        break;
+                    default:
+                       break;
+                }
+          }
+      }
+
+      if (window.location.hostname.indexOf("qa") &gt;=0 || window.location.hostname.indexOf("staging") &gt;=0|| window.location.hostname.indexOf("localhost") &gt;=0){
+             redirectLink= redirectLink.replace(window.location.hostname, 'es-qamedicare.onelink-translations.com');
+      }else{
+            redirectLink= redirectLink.replace(window.location.hostname, 'es.medicare.gov');
+      }
+
+      document.location.href = redirectLink;
+    }
+    //]]&gt;
+    </script><!-- END es.medicare.gov -->
+    <!-- Google's Site Search BEGIN-->
+
+    <script src="../www.google.com/jsapi" type="text/javascript">
+</script>
+    <link href="site-search/default.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+//&lt;![CDATA[
+
+
+
+    if (window.location.hostname == "es.medicare.gov"){
+      google.load('search', '1', { language: 'es' });
+    }else{
+      google.load('search', '1', { language: 'en' });
+    }
+    google.load('feeds', '1');
+
+    function init() {
+    try {
+    if (window.location.hostname == "es.medicare.gov"){
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:f-_vzp1vfzy',document.getElementById('Search_TextBox'),'SearchImageButton');
+    }else{
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:4efeow-xvgm',document.getElementById('Search_TextBox'),'SearchImageButton');
+    }
+    } catch (err) { }
+
+    try {
+    if (window.location.hostname == "es.medicare.gov"){
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:nvsifwkzkaw',document.getElementById('searchcovered-textbox'),'searchcovered-button');
+    }else{
+    google.search.CustomSearchControl.attachAutoCompletion('004711181796222465330:jj3pfbcxpx8',document.getElementById('searchcovered-textbox'),'searchcovered-button');
+    }
+    } catch (err) { }
+    }
+
+
+    function siteSearchRedirect() {
+    try {
+    if (window.location.hostname == "www.mymedicare.gov") {
+    var siteSearchResultsPath = 'http://www.medicare.gov/site-search/search-results.html';
+    }
+    else if (window.location.hostname == "plancompare.medicare.gov") {
+    var siteSearchResultsPath = 'http://www.medicare.gov/site-search/search-results.html';
+    }
+    else
+    {
+    var siteSearchResultsPath = '/site-search/search-results.html';
+    }
+
+    if (document.getElementById('Search_TextBox').value !== null) {
+    var searchValue = encodeURIComponent(document.getElementById('Search_TextBox').value);
+    window.location.href = siteSearchResultsPath + '?q=' + searchValue;
+    }
+    } catch (err) { }
+    }
+
+
+    function YMCsiteSearchRedirect() {
+    try {
+
+    var siteSearchResultsPath = '/coverage/your-medicare-coverage.html';
+
+    if (document.getElementById('searchcovered-textbox').value !== null) {
+    var searchValue = encodeURIComponent(document.getElementById('searchcovered-textbox').value);
+    window.location.href = siteSearchResultsPath + '?q=' + searchValue;
+    }
+    } catch (err) { }
+    }
+
+
+    google.setOnLoadCallback(init);
+
+    function searchTextBoxKeyUp(event) {
+    try {
+    var keyPressed = String.fromCharCode(event.keyCode);
+
+    if (keyPressed == '\n' || keyPressed == '\r') {
+    siteSearchRedirect();
+    }
+    } catch (err) { }
+    }
+    //]]&gt;
+    </script>
+    <script src="http://www.google.com/uds/?file=search&amp;v=1&amp;hl=en" type="text/javascript">
+</script>
+    <link href="http://www.google.com/uds/api/search/1.0/5530b85faafd53e1d394092d8d1eb26a/default+en.css" type="text/css" rel="stylesheet" />
+    <script src="http://www.google.com/uds/api/search/1.0/5530b85faafd53e1d394092d8d1eb26a/default+en.I.js" type="text/javascript">
+</script>
+    <script src="http://www.google.com/uds/?file=feeds&amp;v=1" type="text/javascript">
+</script>
+    <link href="http://www.google.com/uds/api/feeds/1.0/77f89919ef841f93359ce886504e4e3f/default+en.css" type="text/css" rel="stylesheet" />
+    <script src="http://www.google.com/uds/api/feeds/1.0/77f89919ef841f93359ce886504e4e3f/default+en.I.js" type="text/javascript">
+</script><!-- Google's Site Search END-->
+    <link href="favicon.ico" rel="shortcut icon" /><!-- Pre-existing header scripts-->
+
+    <script type="text/javascript">
+//&lt;![CDATA[
+        function mp_onload() {
+            if (window.body_onload != null)
+                window.body_onload();
+        }
+        function getAnchorValue() {
+            var url = location.href;
+            var urlArray = url.split('#');
+
+            //Delete old cookie.
+            document.cookie = "anchor=" + "" + "; expires=-1" + "; path=/";
+
+            if (urlArray[1] != null &amp;&amp; urlArray[1] != "") {
+                //Create new cookie.
+                document.cookie = "anchor=" + urlArray[1] + "; path=/";
+            }
+        }
+        //]]&gt;
+
+    </script><!--Medicare Libraries and styles-->
+    <link href="../assets.cms.gov/Resources/Medicare/css/MedicareHeaderFooter.css" type="text/css" assetssrc="/Resources/Medicare/css/MedicareHeaderFooter.css" rel="stylesheet" /><!--Google analytics async tracking code-->
+
+    <script src="../assets.cms.gov/Resources/global/JS/ga-track.js" type="text/javascript">
+</script>
+    <meta content="True" name="HandheldFriendly" />
+    <meta content="320" name="MobileOptimized" />
+    <meta content="width=device-width,minimum-scale=1,maximum-scale=1" name="viewport" />
+    <link href="http://assets.cms.gov/Resources/Global/Images/Icons/icon-iphone.png" assetssrc="/Resources/Global/Images/Icons/icon-iphone.png" rel="apple-touch-icon" />
+    <link href="http://assets.cms.gov/Resources/Global/Images/Icons/icon-ipad.png" assetssrc="/Resources/Global/Images/Icons/icon-ipad.png" rel="apple-touch-icon" sizes="72x72" />
+    <link href="http://assets.cms.gov/Resources/Global/Images/Icons/icon-iphone4.png" assetssrc="/Resources/Global/Images/Icons/icon-iphone4.png" rel="apple-touch-icon" sizes="114x114" />
+    <link href="http://assets.cms.gov/Resources/Global/Images/Icons/icon-ipad2.png" assetssrc="/Resources/Global/Images/Icons/icon-ipad2.png" rel="apple-touch-icon" sizes="144x144" />
+    <link href="../assets.cms.gov/Resources/Global/css/lib/bootstrap.css" type="text/css" rel="stylesheet" assetssrc="/Resources/Global/css/lib/bootstrap.css" />
+    <link href="../assets.cms.gov/Resources/Global/css/lib/bootstrap-responsive.css" type="text/css" rel="stylesheet" assetssrc="/Resources/Global/css/lib/bootstrap-responsive.css" />
+    <link href="../assets.cms.gov/Resources/Global/css/lib/jquery-ui-1.8.17.custom.css" type="text/css" assetssrc="/Resources/Global/css/lib/jquery-ui-1.8.17.custom.css" rel="stylesheet" />
+    <link href="../assets.cms.gov/Resources/Global/css/508Assets.css" type="text/css" assetssrc="/Resources/Global/css/508Assets.css" rel="stylesheet" />
+    <link href="../assets.cms.gov/Resources/Medicare/css/MedicareGlobal.css" type="text/css" assetssrc="/Resources/Medicare/css/MedicareGlobal.css" rel="stylesheet" />
+    <link href="../assets.cms.gov/Resources/Global/css/508addthis.css" type="text/css" assetssrc="/Resources/Global/css/508addthis.css" rel="stylesheet" /><!-- HTML5 shi/css3 media query, for IE6-8 support of HTML5 elements  -->
+    <!--[if lt IE 9]>
+      <script src="//assets.cms.gov/Resources/Global/JS/lib/html5.js"></script>
+<![endif]-->
+
+    <script type="text/javascript">
+//&lt;![CDATA[
+    // Fix iPhone viewport scaling bug on orientation change
+    (function (doc) {
+
+        var addEvent = 'addEventListener',
+        type = 'gesturestart',
+        qsa = 'querySelectorAll',
+        scales = [1, 1],
+        meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+        function fix() {
+            meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+            doc.removeEventListener(type, fix, true);
+        }
+
+        if ((meta = meta[meta.length - 1]) &amp;&amp; addEvent in doc) {
+            fix();
+            scales = [.25, 4.0];
+            doc[addEvent](type, fix, true);
+        }
+
+    } (document));
+    //]]&gt;
+    </script>
+    <link href="http://www.medicare.gov/index.html" rel="canonical" />
+    <link href="../assets.cms.gov/Resources/Medicare/css/contentdatatable.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+/*&lt;![CDATA[*/
+    .gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gscsep_a{display:none}.gsq_a{padding:0}.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;user-select:none;-moz-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gssb_a{padding:0 2px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c &gt; tbody &gt; tr,.gssb_c &gt; tbody &gt; tr &gt; td,.gssb_d,.gssb_d &gt; tbody &gt; tr,.gssb_d &gt; tbody &gt; tr &gt; td,.gssb_e,.gssb_e &gt; tbody &gt; tr,.gssb_e &gt; tbody &gt; tr &gt; td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}
+    /*]]&gt;*/
+    </style>
+    <style type="text/css">
+/*&lt;![CDATA[*/
+    .gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gscsep_a{display:none}.gsq_a{padding:0}.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;user-select:none;-moz-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gssb_a{padding:0 2px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c &gt; tbody &gt; tr,.gssb_c &gt; tbody &gt; tr &gt; td,.gssb_d,.gssb_d &gt; tbody &gt; tr,.gssb_d &gt; tbody &gt; tr &gt; td,.gssb_e,.gssb_e &gt; tbody &gt; tr,.gssb_e &gt; tbody &gt; tr &gt; td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}
+    /*]]&gt;*/
+    </style>
+    <script src="http://awesomeness/builder/builder.js" type="text/javascript">
+</script>
+    <script src="http://awesomeness/builder/js/jquery.js" type="text/javascript">
+</script>
+    <style type="text/css">
+/*&lt;![CDATA[*/
+    .highlight {box-shadow: inset 0 0 0 10px rgba(220,221,222,1), 0 0 0 1px red !important;}
+        *[data-block] {outline: 1px solid blue !important; box-shadow: inset 0 0 0 10px rgba(220,221,222,1), 0 0 0 1px blue !important;}    
+    /*]]&gt;*/
+    </style>
+    <link href="http://awesomeness/builder/css/ui-lightness/jquery-ui.custom.css" type="text/css" rel="stylesheet" />
+    <link href="index.html" rel="canonical" />
+    <link href="../assets.cms.gov/Resources/Medicare/CSS/FeedTabs.css" type="text/css" rel="stylesheet" assetssrc="/Resources/Medicare/CSS/FeedTabs.css" />
+  </head>
+  <body class="Linux x86_64 smallFont">
+    <!-- Google Tag Manager -->
+    <noscript>&lt;iframe src="../www.googletagmanager.com/ns.html%3Fid=GTM-XN6B.html" height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"&gt;&lt;/iframe&gt;</noscript><script type="text/javascript">
+//&lt;![CDATA[
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XN6B');
+    //]]&gt;
+    </script><!-- End Google Tag Manager -->
+    <a id="Top" name="Top"></a>
+    <div class="skipnav">
+      <a id="skipNavigation" href="index.html#main_content" name="skipNavigation" title="Skip Navigation">Skip Navigation</a>
+    </div>
+    <div id="page" class="">
+      <div class="container-fluid" id="pagecontent">
+        <!-- Google Tag Manager -->
+        <noscript>&lt;iframe src="../www.googletagmanager.com/ns.html%3Fid=GTM-XN6B.html" title="googletagmanager" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript> <script type="text/javascript">
+//&lt;![CDATA[
+
+
+        (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({ 'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&amp;l=' + l : ''; j.async = true; j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer',
+        (window.location.hostname == "medicare.gov" || window.location.hostname == "www.medicare.gov" ) ? 'GTM-XN6B' : 'GTM-V7HZ');
+        //]]&gt;
+        </script> <!-- End Google Tag Manager -->
+        <!-- Canonical -->
+        <h2 class="HiddenText" id="navheading1">
+          Site Options
+        </h2>
+        <ul id="headertoolbarleft" class="">
+          <li id="espanolli" title="Click here to view in Espa&#195;&#177;ol">
+            <a href="javascript:OneLink();">Espa&#195;&#177;ol</a>
+          </li>
+          <li id="fontli">
+            <ol>
+              <li title="Click here to use a small font">
+                <a href="index.html#" class="smallFont currFont"><span aria-hidden="true">A</span><span class="HiddenText">Small Font</span></a>
+              </li>
+              <li title="Click here to use a medium font">
+                <a href="index.html#" class="medFont"><span aria-hidden="true">A</span><span class="HiddenText">Medium Font</span></a>
+              </li>
+              <li title="Click here to use a large font">
+                <a href="index.html#" class="largeFont"><span aria-hidden="true">A</span><span class="HiddenText">Large Font</span></a>
+              </li>
+            </ol>
+          </li>
+          <li id="emailli">
+            <a href="index.html#" title="Send this page by e-mail">Email</a>
+          </li>
+          <li id="printli" class="">
+            <a href="index.html#" title="Print this page">Print</a>
+          </li>
+          <li class="toolbarmenu" id="viewli">
+            <a href="index.html#" class="toolbarmenu-a">View <span class="HiddenText">options</span><span class="HiddenText 508State">, collapsed</span></a>
+            <ul>
+              <li id="espanolli-responsive">
+                <a lang="es" mporgnav="" xmlU0003Alang="es" href="http://es.medicare.gov/" xml:lang="es">Espa&#195;&#177;ol</a>
+              </li>
+              <li id="emailli-responsive">
+                <a href="javascript:void(0);" title="Send this page by e-mail">Email</a>
+              </li>
+              <li id="printli-responsive">
+                <a href="index.html#" title="Print this page">Print</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul id="headertoolbarright" class="">
+          <li title="Learn more about us" class="" id="aboutli">
+            <a href="http://www.medicare.gov/about-us/about-medicare.html" class="">About Us</a>
+          </li>
+          <li id="FAQli" class="">
+            <a href="http://questions.medicare.gov/app/home"><abbr class="" title="Frequenty asked questions">FAQ</abbr></a>
+          </li>
+          <li id="glossaryli" title="Go to the glossary">
+            <a href="http://www.medicare.gov/glossary/a.html">Glossary</a>
+          </li>
+          <li id="cmsli" title="Go to CMS.gov">
+            <a href="http://www.cms.gov/">CMS.gov</a>
+          </li>
+          <li class="toolbarmenu" id="sitesli">
+            <a href="index.html#" class="toolbarmenu-a">Sites <span class="HiddenText 508State">, collapsed</span></a>
+            <ul>
+              <li title="Go to CMS.gov">
+                <a href="http://www.cms.gov/">CMS.gov</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/about-us/about-medicare.html">About Us</a>
+              </li>
+              <li>
+                <a href="http://questions.medicare.gov/app/home">FAQ</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/glossary/a.html">Glossary</a>
+              </li>
+            </ul>
+          </li>
+          <li id="mymedicareli" title="Login to MyMedicare.gov">
+            <a href="https://www.mymedicare.gov/">MyMedicare.gov Login</a>
+          </li>
+        </ul>
+        <div class="" id="headerlogocontent">
+          <div id="headerlogo" class="">
+            <a title="Medicare.gov - the Official U.S. Government Site for Medicare" href="index.html" id="headerlogo-link" name="headerlogo-link" class=""><img src="../assets.cms.gov/Resources/Medicare/Images/home/logoSprite.png" alt="Medicare.gov - the Official U.S. Government Site for Medicare" class="" /></a>
+          </div>
+        </div>
+        <div role="search" onkeyup="searchTextBoxKeyUp(event);" class="" id="headersearchrightcontent">
+          <label class="HiddenText" for="Search_TextBox" id="SearchBoxLabelTop">Search Medicare.gov</label> <input style="outline: medium none;" spellcheck="false" name="Search_TextBox" title="type search term here" placeholder="type search term here" class="SearchBox" autocomplete="off" type="text" id="Search_TextBox" dir="ltr" /> <input value="Search" type="submit" id="SearchImageButton" onclick="javascript:siteSearchRedirect(); return false;" class="btn" />
+          <div id="headerlearnrightcontent" class="">
+            <a href="http://www.healthcare.gov/" name="headerlearnlink" id="headerlearnlink">Learn about your health care options</a>
+          </div>
+        </div>
+        <div class="btn btn-primary opened" id="menu-btn">
+          <a href="index.html#">Menu <span class="icon"><span class="HiddenText 508State">, collapsed</span></span></a>
+        </div>
+        <h2 class="HiddenText" id="navheading2">
+          Main Menu
+        </h2>
+        <ul id="nav-list" class="">
+          <li class="top sub">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand Sign Up / Change Plans menu</span></span> <a href="http://www.medicare.gov/sign-up-change-plans/index.html" class="" title="Sign Up / Change Plans">Sign Up /<br />
+            Change Plans<span class="HiddenText 508State">, collapsed</span></a>
+            <ul style="display: none;" class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/people-like-me/new-to-medicare/getting-started-with-medicare.html" title="Getting started with Medicare">Getting started with Medicare</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/decide-how-to-get-medicare/your-medicare-coverage-choices.html" title="Your Medicare coverage choices">Your Medicare coverage choices</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/get-parts-a-and-b/when-how-to-sign-up-for-part-a-and-part-b.html" title="When &amp; how to sign up for Part A &amp; Part B">When &amp; how to sign up for Part A &amp; Part B</a>
+              </li>
+              <li>
+                <a href="http://www.socialsecurity.gov/medicareonly/" title="Apply for Medicare online">Apply for Medicare online</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/get-drug-coverage/get-drug-coverage.html" title="How to get drug coverage">How to get drug coverage</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/when-can-i-join-a-health-or-drug-plan/when-can-i-join-a-health-or-drug-plan.html" title="When can I join a health or drug plan?">When can I join a health or drug plan?</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/medicare-health-plans/medicare-health-plans.html" title="About Medicare health plans">About Medicare health plans</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health &amp; drug plans">Find health &amp; drug plans</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/find-a-plan/enrollment/check-enrollment.aspx" title="Check your enrollment">Check your enrollment</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" title="Find doctors, hospitals, &amp; facilities">Find doctors, hospitals, &amp; facilities</a>
+              </li>
+            </ul>
+          </li>
+          <li class="top sub">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand Your Medicare Costs menu</span></span> <a href="http://www.medicare.gov/your-medicare-costs/index.html" class="" title="Your Medicare Costs">Your Medicare Costs<span class="HiddenText 508State">, collapsed</span></a>
+            <ul style="display: none;" class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/help-paying-costs/get-help-paying-costs.html" class="" title="Get help paying costs">Get help paying costs</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/part-a-costs/part-a-costs.html" class="" title="Part A costs">Part A costs</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/part-b-costs/part-b-costs.html" title="Part B costs">Part B costs</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/part-d/costs/part-d-costs.html" title="Costs for Medicare drug coverage">Costs for Medicare drug coverage</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/medicare-health-plan-costs/costs-for-medicare-health-plans.html" title="Costs for Medicare health plans">Costs for Medicare health plans</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/paying-parts-a-and-b/pay-parts-a-and-b-premiums.html" title="Ways to pay Part A &amp; Part B premiums">Ways to pay Part A &amp; Part B premiums</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/costs-at-a-glance/costs-at-glance.html" title="Costs at a glance">Costs at a glance</a>
+              </li>
+            </ul>
+          </li>
+          <li class="top sub">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand What Medicare Covers menu</span></span> <a href="http://www.medicare.gov/what-medicare-covers/index.html" title="What Medicare Covers">What Medicare Covers<span class="HiddenText 508State">, collapsed</span></a>
+            <ul style="display: none;" class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/coverage/your-medicare-coverage.html" title="Is my test, item, or service covered?">Is my test, item, or service covered?</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/what-medicare-covers/part-a/what-part-a-covers.html" title="What Part A covers">What Part A covers</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/what-medicare-covers/part-b/what-medicare-part-b-covers.html" title="What Part B covers">What Part B covers</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/part-d/coverage/part-d-coverage.html" title="What drug plans cover">What drug plans cover</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/what-medicare-covers/medicare-health-plans/what-medicare-advantage-plans-cover.html" title="What Medicare health plans cover">What Medicare health plans cover</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/coverage/preventive-and-screening-services.html" title="Preventive services">Preventive services</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/Supplier/Home.asp" title="Find suppliers of medical equipment &amp; supplies">Find suppliers of medical equipment &amp; supplies</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" title="Find doctors, hospitals, &amp; facilities">Find doctors, hospitals, &amp; facilities</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/what-medicare-covers/not-covered/item-and-services-not-covered-by-part-a-and-b.html" title="What's not covered by Part A &amp; Part B?">What's not covered by Part A &amp; Part B?</a>
+              </li>
+            </ul>
+          </li>
+          <li class="top sub">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand Drug Coverage (Part D) menu</span></span> <a href="http://www.medicare.gov/part-d/index.html" class="" title="Drug Coverage (Part D)">Drug Coverage (Part D)<span class="HiddenText 508State">, collapsed</span></a>
+            <ul style="display: none;" class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/get-drug-coverage/get-drug-coverage.html" title="How to get drug coverage">How to get drug coverage</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/part-d/coverage/part-d-coverage.html" title="What drug plans cover">What drug plans cover</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/part-d/costs/part-d-costs.html" title="Costs for Medicare drug coverage">Costs for Medicare drug coverage</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/when-can-i-join-a-health-or-drug-plan/when-can-i-join-a-health-or-drug-plan.html" title="When can I join a health or drug plan?">When can I join a health or drug plan?</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/part-d/how-part-d-works-with-other-insurance/part-d-and-other-insurance.html" title="How Part D works with other insurance">How Part D works with other insurance</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health &amp; drug plans">Find health &amp; drug plans</a>
+              </li>
+            </ul>
+          </li>
+          <li class="top sub">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand Supplements &amp; Other Insurance menu</span></span> <a href="http://www.medicare.gov/supplement-other-insurance/index.html" title="Supplements &amp; Other Insurance">Supplements &amp;<br />
+            Other Insurance<span class="HiddenText 508State">, collapsed</span></a>
+            <ul class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/supplement-other-insurance/how-medicare-works-with-other-insurance/how-medicare-works-with-other-insurance.html" title="How Medicare works with other insurance">How Medicare works with other insurance</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/supplement-other-insurance/retiree-insurance/retiree-insurance.html" title="Retiree insurance">Retiree insurance</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/supplement-other-insurance/medigap/whats-medigap.html" title="What's supplement (Medigap) insurance?">What's supplement (Medigap) insurance?</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/find-a-plan/questions/medigap-home.aspx" title="Find a Medigap policy">Find a Medigap policy</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/supplement-other-insurance/when-can-i-buy-medigap/when-can-i-buy-medigap.html" title="When can I buy Medigap?">When can I buy Medigap?</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/supplement-other-insurance/compare-medigap/compare-medigap.html" title="How to compare Medigap policies">How to compare Medigap policies</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/supplement-other-insurance/medigap-and-travel/medigap-and-travel.html" title="Medigap &amp; travel">Medigap &amp; travel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="top sub">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand Claims &amp; Appeals menu</span></span> <a href="http://www.medicare.gov/claims-and-appeals/index.html" title="Claims &amp; Appeals">Claims &amp;<br />
+            Appeals<span class="HiddenText 508State">, collapsed</span></a>
+            <ul class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/claims-and-appeals/file-a-complaint/complaints.html" title="File a complaint">File a complaint</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/claims-and-appeals/file-a-claim/file-a-claim.html" title="File a claim">File a claim</a>
+              </li>
+              <li>
+                <a href="http://www.MyMedicare.gov" title="Check the status of a claim (MyMedicare.gov)">Check the status of a claim (MyMedicare.gov)</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/claims-and-appeals/file-an-appeal/appeals.html" title="File an appeal">File an appeal</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/claims-and-appeals/right-to-fast-appeal/fast-appeals.html" title="Your right to a fast appeal">Your right to a fast appeal</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/claims-and-appeals/medicare-rights/medicare-rights-overview.html" title="Your Medicare rights">Your Medicare rights</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/MedicareOnlineForms/" title="Get Medicare forms">Get Medicare forms</a>
+              </li>
+              <li>
+                <a href="https://www.medicare.gov/MedicareOnlineForms/AuthorizationForm/OnlineFormStep.asp" title="Authorization to Disclose Personal Health Information">Authorization to Disclose Personal Health Information</a>
+              </li>
+            </ul>
+          </li>
+          <li class="top sub">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand Manage Your Health menu</span></span> <a href="http://www.medicare.gov/manage-your-health/index.html" class="" title="Manage Your Health">Manage Your Health<span class="HiddenText 508State">, collapsed</span></a>
+            <ul style="display: none;" class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="https://www.mymedicare.gov/" title="Login to MyMedicare.gov">Login to MyMedicare.gov</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/MedicareOnlineForms/" title="Get Medicare forms">Get Medicare forms</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/manage-your-health/advance-directives/advance-directives-and-long-term-care.html" title="Advance directives &amp; long-term care">Advance directives &amp; long-term care</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/manage-your-health/personal-health-records/personal-health-records.html" title="Personal Health Records (PHRs)">Personal Health Records (PHRs)</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/manage-your-health/electronic-prescribing/electronic-prescribing.html" title="Electronic prescribing">Electronic prescribing</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/manage-your-health/electronic-health-records/electronic-health-records.html" title="Electronic Health Records (EHRs)">Electronic Health Records (EHRs)</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/manage-your-health/blue-button/medicare-blue-button.html" title="Medicare's Blue Button">Medicare's Blue Button</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/manage-your-health/coordinating-your-care/coordinating-your-care.html" title="Coordinating your care">Coordinating your care</a>
+              </li>
+            </ul>
+          </li>
+          <li class="top sub navbar-last">
+            <span role="link" class="slideForward" tabindex="0"><span class="HiddenText 508State">Expand Forms, Help, &amp; Resources menu</span></span><a href="http://www.medicare.gov/forms-help-and-resources/index.html" title="Forms, Help, &amp; Resources">Forms, Help, &amp;<br />
+            Resources<span class="HiddenText 508State">, collapsed</span></a>
+            <ul class="topnavsubmenu">
+              <li class="backTitle">
+                <a href="#" class="slideBack">Back to Main Menu</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health &amp; drug plans">Find health &amp; drug plans</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" title="Find doctors, hospitals, &amp; facilities">Find doctors, hospitals, &amp; facilities</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/your-medicare-costs/help-paying-costs/get-help-paying-costs.html" title="Get help paying costs">Get help paying costs</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/Supplier/Home.asp" title="Find suppliers of medical equipment &amp; supplies">Find suppliers of medical equipment &amp; supplies</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/forms/medicare-forms.html" title="Forms">Forms</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/Publications/" title="Publications">Publications</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/mail-about-medicare/mail-about-medicare.html" title="Mail you get about Medicare">Mail you get about Medicare</a>
+              </li>
+              <li>
+                <a href="https://secure.ssa.gov/apps6z/IMRC/main.html" title="Lost/incorrect Medicare card">Lost/incorrect Medicare card</a>
+              </li>
+              <li class="navmenuseparator">
+                <a href="http://www.medicare.gov/forms-help-and-resources/report-fraud-and-abuse/fraud-and-abuse.html" title="Report fraud &amp; abuse">Report fraud &amp; abuse</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/claims-and-appeals/file-a-complaint/complaints.html" title="File a complaint">File a complaint</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/identity-theft/identity-theft.html" title="Identity theft: protect yourself">Identity theft: protect yourself</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/Contacts/Default.aspx" title="Phone numbers &amp; websites">Phone numbers &amp; websites</a>
+              </li>
+              <li class="navmenuseparator">
+                <a href="http://www.medicare.gov/forms-help-and-resources/privacy-practices/privacy.html" title="Privacy practices">Privacy practices</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/contact/contact-medicare.html" title="Contact Medicare">Contact Medicare</a>
+              </li>
+            </ul>
+          </li>
+        </ul><noscript>
+        &lt;p id="js-off-message"&gt;
+          The page could not be loaded. The Medicare.gov Home page currently does not fully support browsers with "JavaScript" disabled. Please note that if you choose to continue without enabling "JavaScript" certain functionalities on this website may not be available.
+        &lt;/p&gt;</noscript>
+        <div id="wrapper" class="">
+          <a tabindex="-1" id="main_content" name="main_content"></a>
+          <div class="" role="main" id="main-content">
+            <h1 class="HiddenText">
+              Medicare.gov
+            </h1><!-- Home Banner =============================================================================== -->
+            <div class="" id="homebanner">
+              <div onkeyup="EnterFunction(event, YMCsiteSearchRedirect);" role="search" id="searchcovered" class="">
+                <h2 class="highlight">
+                  Is my test, item, or<br />
+                  <span class="">service covered?</span>
+                </h2>
+                <form class="">
+                  <label title="Search Medicare.gov for covered items" class="HiddenText" for="searchcovered-textbox" id="SearchCoveredLabelTop">Search Medicare.gov for covered items</label> <input style="outline: medium none;" spellcheck="false" title="type your test, item, or service here" placeholder="type your test, item, or service here" value="" class="searchbox-defaultvalue" autocomplete="off" type="text" id="searchcovered-textbox" dir="ltr" /> <input value="Go" type="submit" class="btn btn-primary" onclick="javascript:YMCsiteSearchRedirect(); return false;" id="searchcovered-button" />
+                </form>
+              </div><a title="Find health &amp; drug plans" href="http://www.medicare.gov/find-a-plan/questions/home.aspx" id="find-hadp-button" name="find-hadp-button" class="btn btn-announce btn-pill"><span class="homepage-button-label"> Find health &amp; drug plans</span></a> <a title="Apply for Medicare" href="http://www.socialsecurity.gov/medicareonly/" id="apply-fm-button" name="apply-fm-button" class="btn btn-announce btn-pill"><span class="homepage-button-label"> Apply for Medicare</span></a> <a title="Login to MyMedicare.gov" href="https://www.mymedicare.gov/" id="mymedicare-button" name="mymedicare-button" class="btn btn-secondary"> MyMedicare.gov login</a>
+            </div><br />
+            <!-- Announcement Section ====================================================================== -->
+            <div id="announcement-section"></div><!-- Get Help Section ========================================================================== -->
+            <div class="" id="gethelp-section">
+              <div onkeyup="EnterFunctionParams(event, lostCard ,'lostincorrect-dropdown');" class="span3">
+                <h2 class="">
+                  Address change/Medicare card issue?<!-- Lost / incorrect Medicare card? -->
+                </h2><label class="HiddenText" for="lostincorrect-dropdown" title="Select your card issue">Lost or incorrect Medicare card? Select your card issue</label> <select id="lostincorrect-dropdown" class="">
+                  <option>
+                    Select your card issue...
+                  </option>
+                  <option value="https://secure.ssa.gov/apps6z/ICOA/coa001.jsp">
+                    Change your name or address
+                  </option>
+                  <option value="https://secure.ssa.gov/apps6z/IMRC/main.html">
+                    Replace a lost or damaged card
+                  </option>
+                  <option value="http://ssa-custhelp.ssa.gov/app/answers/detail/a_id/329/kw/reportstolencard">
+                    Report a stolen card
+                  </option>
+                </select><input value="Go" type="submit" class="btn btn-primary .go" onclick="lostCard('lostincorrect-dropdown')" id="lost-go" />
+              </div>
+              <div onkeyup="EnterFunctionParams(event, peopleLikeMe ,'informationforme-dropdown');" class="span3">
+                <h2 class="">
+                  Information for my situation
+                </h2><label class="HiddenText" for="informationforme-dropdown" title="Select your situation">Information for my situation - Select your situation</label> <select id="informationforme-dropdown" class="">
+                  <option>
+                    Select your situation...
+                  </option>
+                  <option value="/people-like-me/new-to-medicare/getting-started-with-medicare.html">
+                    I'm getting started with Medicare
+                  </option>
+                  <option value="/people-like-me/disability/disability.html">
+                    I have a disability
+                  </option>
+                  <option value="/people-like-me/extra-help/extra-help.html">
+                    I need or get Extra Help / Medicaid
+                  </option>
+                  <option value="/campaigns/caregiver/caregiver.html">
+                    I'm a caregiver
+                  </option>
+                  <option value="/people-like-me/outside-us/outside-us.html">
+                    I'm outside the U.S.
+                  </option>
+                  <option value="/people-like-me/esrd/esrd.html">
+                    I have End-Stage Renal Disease
+                  </option>
+                </select><input value="Go" type="submit" class="btn btn-primary .go" onclick="peopleLikeMe('informationforme-dropdown')" id="info-go" />
+              </div>
+              <div onkeyup="EnterFunctionParams(event, FindSomeone ,'findsomeone-dropdown');" class="span3 last">
+                <h2 class="">
+                  Find someone to talk to
+                </h2><label title="Select your state" class="HiddenText" for="findsomeone-dropdown" id="state-id">Find someone to talk to in your state</label> <select size="1" id="findsomeone-dropdown" name="State" class="">
+                  <option selected="selected" value="Select your state">
+                    Select your state...
+                  </option>
+                  <option value="AL|Alabama">
+                    Alabama
+                  </option>
+                  <option value="AK|Alaska">
+                    Alaska
+                  </option>
+                  <option value="AS|American Samoa">
+                    American Samoa
+                  </option>
+                  <option value="AZ|Arizona">
+                    Arizona
+                  </option>
+                  <option value="AR|Arkansas">
+                    Arkansas
+                  </option>
+                  <option value="CA|California">
+                    California
+                  </option>
+                  <option value="CO|Colorado">
+                    Colorado
+                  </option>
+                  <option value="CT|Connecticut">
+                    Connecticut
+                  </option>
+                  <option value="DE|Delaware">
+                    Delaware
+                  </option>
+                  <option value="DC|District of Columbia">
+                    District of Columbia
+                  </option>
+                  <option value="FM|Federated States of Micronesia">
+                    Federated States of Micronesia
+                  </option>
+                  <option value="FL|Florida">
+                    Florida
+                  </option>
+                  <option value="GA|Georgia">
+                    Georgia
+                  </option>
+                  <option value="GU|Guam">
+                    Guam
+                  </option>
+                  <option value="HI|Hawaii">
+                    Hawaii
+                  </option>
+                  <option value="ID|Idaho">
+                    Idaho
+                  </option>
+                  <option value="IL|Illinois">
+                    Illinois
+                  </option>
+                  <option value="IN|Indiana">
+                    Indiana
+                  </option>
+                  <option value="IA|Iowa">
+                    Iowa
+                  </option>
+                  <option value="KS|Kansas">
+                    Kansas
+                  </option>
+                  <option value="KY|Kentucky">
+                    Kentucky
+                  </option>
+                  <option value="LA|Louisiana">
+                    Louisiana
+                  </option>
+                  <option value="ME|Maine">
+                    Maine
+                  </option>
+                  <option value="MH|Marshall Islands">
+                    Marshall Islands
+                  </option>
+                  <option value="MD|Maryland">
+                    Maryland
+                  </option>
+                  <option value="MA|Massachusetts">
+                    Massachusetts
+                  </option>
+                  <option value="MI|Michigan">
+                    Michigan
+                  </option>
+                  <option value="MN|Minnesota">
+                    Minnesota
+                  </option>
+                  <option value="MS|Mississippi">
+                    Mississippi
+                  </option>
+                  <option value="MO|Missouri">
+                    Missouri
+                  </option>
+                  <option value="MT|Montana">
+                    Montana
+                  </option>
+                  <option value="NE|Nebraska">
+                    Nebraska
+                  </option>
+                  <option value="NV|Nevada">
+                    Nevada
+                  </option>
+                  <option value="NH|New Hampshire">
+                    New Hampshire
+                  </option>
+                  <option value="NJ|New Jersey">
+                    New Jersey
+                  </option>
+                  <option value="NM|New Mexico">
+                    New Mexico
+                  </option>
+                  <option value="NY|New York">
+                    New York
+                  </option>
+                  <option value="NC|North Carolina">
+                    North Carolina
+                  </option>
+                  <option value="ND|North Dakota">
+                    North Dakota
+                  </option>
+                  <option value="MP|Northern Mariana Islands">
+                    Northern Mariana Islands
+                  </option>
+                  <option value="OH|Ohio">
+                    Ohio
+                  </option>
+                  <option value="OK|Oklahoma">
+                    Oklahoma
+                  </option>
+                  <option value="OR|Oregon">
+                    Oregon
+                  </option>
+                  <option value="PW|Palau">
+                    Palau
+                  </option>
+                  <option value="PA|Pennsylvania">
+                    Pennsylvania
+                  </option>
+                  <option value="PR|Puerto Rico">
+                    Puerto Rico
+                  </option>
+                  <option value="RI|Rhode Island">
+                    Rhode Island
+                  </option>
+                  <option value="SC|South Carolina">
+                    South Carolina
+                  </option>
+                  <option value="SD|South Dakota">
+                    South Dakota
+                  </option>
+                  <option value="TN|Tennessee">
+                    Tennessee
+                  </option>
+                  <option value="TX|Texas">
+                    Texas
+                  </option>
+                  <option value="UM|U.S. Minor Outlying Islands">
+                    U.S. Minor Outlying Islands
+                  </option>
+                  <option value="UT|Utah">
+                    Utah
+                  </option>
+                  <option value="VT|Vermont">
+                    Vermont
+                  </option>
+                  <option value="VI|Virgin Islands of the U.S.">
+                    Virgin Islands of the U.S.
+                  </option>
+                  <option value="VA|Virginia">
+                    Virginia
+                  </option>
+                  <option value="WA|Washington">
+                    Washington
+                  </option>
+                  <option value="WV|West Virginia">
+                    West Virginia
+                  </option>
+                  <option value="WI|Wisconsin">
+                    Wisconsin
+                  </option>
+                  <option value="WY|Wyoming">
+                    Wyoming
+                  </option>
+                </select><input value="Go" type="submit" class="btn btn-primary .go" onclick="FindSomeone('findsomeone-dropdown')" id="find-go" />
+              </div>
+            </div>
+            <div id="homepage-columns" class="">
+              <div id="find-dphp-column" class="span3">
+                <h2 class="">
+                  Find doctors, providers, hospitals, plans &amp; suppliers
+                </h2>
+                <ul class="">
+                  <li>
+                    <a href="http://www.medicare.gov/find-a-doctor/provider-search.aspx" title="Find doctors &amp; other health professionals">Find doctors &amp; other health professionals</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.medicare.gov/NursingHomeCompare/search.aspx" title="Find nursing homes">Find nursing homes</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.medicare.gov/hospitalcompare/search.aspx" title="Find hospitals">Find hospitals</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.medicare.gov/homehealthcompare/search.aspx" class="" title="Find home health services">Find home health services</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.medicare.gov/Dialysisfacilitycompare/search.aspx" title="Find dialysis facilities">Find dialysis facilities</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health &amp; drug plans">Find health &amp; drug plans</a>
+                  </li>
+                  <li class="">
+                    <a href="http://www.medicare.gov/Supplier/Home.asp" title="Find suppliers of medical equipment &amp; supplies">Find suppliers of medical equipment &amp; supplies</a>
+                  </li>
+                </ul>
+                <p>
+                  <a title="More quality, planning, &amp; compare tools" href="http://www.medicare.gov/help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" id="more-qpct-button" name="more-qpct-button" class="btn btn-secondary">More quality, planning, &amp; compare tools</a>
+                </p>
+              </div>
+              <div id="feedtabs-column" class="span3">
+                <h2 class="HiddenText">
+                  Latest Updates
+                </h2>
+                <div id="feedTabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+                  <ul id="tabs-ul" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                    <li id="tab0" class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active">
+                      <a href="#contentTab1" class="">Blogs<span class="HiddenText 508State">, tab selected</span></a>
+                    </li>
+                    <li id="tab1" class="ui-state-default ui-corner-top">
+                      <a href="#contentTab2" class="">News<span class="HiddenText 508State">, tab</span></a>
+                    </li>
+                    <li id="tab2" class="ui-state-default ui-corner-top">
+                      <a href="#contentTab3">Videos<span class="HiddenText 508State">, tab</span></a>
+                    </li>
+                  </ul>
+                  <div id="contentTab1" class="DefaultTabClass ui-tabs-panel ui-widget-content ui-corner-bottom">
+                    <a id="contentTab1" name="contentTab1"></a>
+                    <p class="HiddenText 508SelectedMsg">
+                      You have selected Blogs
+                    </p>
+                    <ul class="">
+                      <li class="feedItem">
+                        <p class="">
+                          <a href="http://blog.medicare.gov/2013/05/06/older-americans-month-2013-unleash-the-power-of-age/" class="" title="Older Americans Month 2013: Unleash the Power of Age!">Older Americans Month 2013: Unleash the Power of Age!</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p class="">
+                          <a href="http://blog.medicare.gov/2013/05/01/protect-your-bones-medicare-can-help" class="" title="Protect your bones">Protect your bones</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p class="">
+                          <a href="http://blog.medicare.gov/2013/05/01/protect-yourself-from-hepatitis-b-2/" class="" title="Protect yourself from Hepatitis B">Protect yourself from Hepatitis B</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p class="">
+                          <a href="http://blog.medicare.gov/2013/05/01/get-your-blood-pressure-checked-regularly/" class="" title="Check your blood pressure regularly">Check your blood pressure regularly</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p>
+                          <a href="http://blog.medicare.gov/2013/04/01/making-complaints-less-complex" class="" title="Making complaints less complex">Making complaints less complex</a>
+                        </p>
+                      </li>
+                    </ul><a href="http://blog.medicare.gov" class="feedtab-button btn btn-primary" title="Click to read more blogs">Read more blogs</a>
+                  </div>
+                  <div style="display:none;" id="contentTab2" class="DefaultTabClass ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                    <a id="contentTab2" name="contentTab2"></a>
+                    <p class="HiddenText 508SelectedMsg"></p>
+                    <ul>
+                      <li class="feedItem">
+                        <p>
+                          <a href="http://www.hhs.gov/news/press/2013pres/05/20130508a.html" title="An unprecedented look at hospital charges">An unprecedented look at hospital charges</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p>
+                          <a href="http://www.hhs.gov/news/press/2013pres/05/20130503a.html" title="HHS Secretary Kathleen Sebelius on Older Americans Month">HHS Secretary Kathleen Sebelius on Older Americans Month</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p>
+                          <a href="http://www.hhs.gov/news/press/2013pres/05/20130502a.html" title="HHS Secretary Kathleen Sebelius on Mental Health Month">HHS Secretary Kathleen Sebelius on Mental Health Month</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p>
+                          <a href="https://www.cms.gov/apps/media/press/release.asp?Counter=4578&amp;intNumPerPage=10&amp;checkDate=&amp;checkKey=&amp;srchType=1&amp;numDays=3500&amp;srchOpt=0&amp;srchData=&amp;keywordType=All&amp;chkNewsType=1%2C+2%2C+3%2C+4%2C+5&amp;intPage=&amp;showAll=&amp;pYear=&amp;year=&amp;desc=&amp;cboOrder=date" title="Expanded competitive bidding program means fair pricing">Expanded competitive bidding program means fair pricing</a>
+                        </p>
+                      </li>
+                    </ul><a href="http://www.cms.gov/Newsroom/Newsroom-Center.html" class="feedtab-button btn btn-primary" title="Click to read more news">Read more news</a>
+                  </div>
+                  <div style="display:none;" id="contentTab3" class="DefaultTabClass ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                    <a id="contentTab3" name="contentTab3"></a>
+                    <p class="HiddenText 508SelectedMsg"></p>
+                    <ul>
+                      <li class="feedItem">
+                        <p>
+                          <a href="http://www.youtube.com/watch?v=kiNX_mc7S5s" title="Medicare &amp; You: Hepatitis awareness (video)">Medicare &amp; You: Hepatitis awareness (video)</a>
+                        </p>
+                      </li>
+                      <li class="feedItem">
+                        <p>
+                          <a href="http://www.youtube.com/watch?v=opQFBVd7oHI&amp;feature=plcp" title="Medicare &amp; You: high blood pressure and osteoporosis (video)">Medicare &amp; You: high blood pressure and osteoporosis (video)</a>
+                        </p>
+                      </li>
+                    </ul><a title="Click to read more videos" href="http://www.youtube.com/user/CMSHHSgov" class="feedtab-button btn btn-primary" target="_blank">Watch more videos</a>
+                  </div>
+                </div>
+              </div>
+              <div id="homepage-buttons-column" class="span3">
+                <h2 class="HiddenText">
+                  Additional Actions
+                </h2>
+                <ul class="">
+                  <li id="hp-costs-button">
+                    <a href="http://www.medicare.gov/your-medicare-costs/help-paying-costs/get-help-paying-costs.html" class="btn btn-primary btn-pill" title="Get help with costs"><span class="icon">&#160;</span>Get help with costs</a>
+                  </li>
+                  <li id="hp-plans-button">
+                    <a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" class="btn btn-primary btn-pill" title="Explore Medicare health plans"><span class="icon">&#160;</span>Explore Medicare health plans</a>
+                  </li>
+                  <li id="hp-how-button">
+                    <a href="http://www.medicare.gov/supplement-other-insurance/how-medicare-works-with-other-insurance/how-medicare-works-with-other-insurance.html" class="btn btn-primary btn-pill" title="Find out how Medicare works with other insurance"><span class="icon">&#160;</span>Find out how Medicare works with other insurance</a>
+                  </li>
+                  <li id="hp-mail-button" class="">
+                    <a href="http://www.medicare.gov/help-and-resources/mail-about-medicare/mail-about-medicare.html" class="btn btn-primary btn-pill" title="Mail you get about Medicare"><span class="icon">&#160;</span>Mail you get about Medicare</a>
+                  </li>
+                  <li id="hp-paperless-button">
+                    <a href="http://www.medicare.gov/gopaperless/home.aspx" class="btn btn-primary btn-pill" title="Go paperless: get Medicare &amp; You electronically"><span class="icon">&#160;</span>Go paperless: get <em>Medicare &amp; You</em> electronically</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="clearfooter"></div>
+        </div>
+        <h2 class="HiddenText">
+          Footer
+        </h2>
+        <div id="footer-top" class="">
+          <button title="Medicare.gov Home" id="footer_home_btn" onclick="window.location.href='/';return false;" class="btn btn-primary">Home</button>
+          <div id="footer-home-logo-wrapper">
+            <div id="footer_home_logo">
+              <a title="Go to Medicare.gov" href="index.html" id="footer_home_logo_link" name="footer_home_logo_link"><img src="../assets.cms.gov/Resources/Medicare/Images/home/logoSprite.png" alt="Medicare.gov" class="" /></a>
+            </div>
+          </div>
+          <div id="footer-address" class="">
+            A federal government website managed by the Centers for Medicare &amp; Medicaid Services<br />
+            7500 Security Boulevard, Baltimore, MD 21244
+          </div>
+          <div id="footer-hhs-logo-wrapper">
+            <div id="footer_hhs_logo">
+              <a id="footer_hhs_logo_link" href="http://www.hhs.gov/" name="footer_hhs_logo_link" title="Health and Human Services home page"><img src="../assets.cms.gov/Resources/Medicare/Images/home/logoSprite.png" alt="Health and Human Services home page" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="" id="footer-bottom">
+          <div class="" id="footer-column1">
+            <ul class="">
+              <li>
+                <a href="http://www.medicare.gov/sign-up-change-plans/index.html" class="" title="Sign Up or Change Plans">Sign Up / Change Plans</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/your-medicare-costs/index.html" class="" title="Your Medicare Costs">Your Medicare Costs</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/what-medicare-covers/index.html" title="What Medicare Covers">What Medicare Covers</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/part-d/index.html" title="Drug Coverage (Part D)">Drug Coverage (Part D)</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/supplement-other-insurance/index.html" class="" title="Supplements &amp; Other Insurance">Supplements &amp; Other Insurance</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/claims-and-appeals/index.html" title="Claims &amp; Appeals">Claims &amp; Appeals</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/manage-your-health/index.html" title="Manage Your Health">Manage Your Health</a>
+              </li>
+              <li>
+                <a href="http://www.medicare.gov/forms-help-and-resources/index.html" title="Forms, Help, &amp; Resources">Forms, Help &amp; Resources</a>
+              </li>
+            </ul>
+          </div>
+          <div class="" id="footer-column2">
+            <h3 class="footer-headline">
+              Take Action
+            </h3>
+            <ul class="">
+              <li class="">
+                <a href="http://www.medicare.gov/find-a-plan/questions/home.aspx" title="Find health and drug plans">Find health &amp; drug plans</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/forms-help-and-resources/find-doctors-hospitals-and-facilities/quality-care-finder.html" class="" title="Find doctors, providers, hospitals and plans">Find doctors, providers, hospitals &amp; plans</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/Supplier/Home.asp" class="" title="Where can I get covered medical items?">Where can I get covered medical items?</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/forms-help-and-resources/forms/medicare-forms.html" class="" title="Get Medicare forms">Get Medicare forms</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/Publications/Home.asp" title="Publications">Publications</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/about-us/other-languages/information-in-other-languages.html" class="" title="Information in other languages">Information in other languages</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/Contacts/Default.aspx" title="Phone numbers and websites">Phone numbers &amp; websites</a>
+              </li>
+            </ul>
+            <h3 class="footer-headline">
+              Get Email Updates
+            </h3>
+            <div id="login" class="email-form">
+              <input type="hidden" id="email_action_url" value="https://public.govdelivery.com/accounts/USCMS/subscribers/qualify" /> <input type="hidden" name="category_id" value="USCMS_C110" id="category_id" /> <label id="email-updates-label" for="footer-email-updates-textbox" class="HiddenText">Your email address for getting email updates</label> <input spellcheck="false" name="email" title="type email here" placeholder="type email here" value="" id="footer-email-updates-textbox" autocomplete="off" type="text" class="SearchBox searchbox-defaultvalue" dir="ltr" /> <input class="btn btn-primary" type="submit" id="footer-go-button" value="Go" name="footer-go-button" />
+            </div>
+          </div>
+          <div class="" id="footer-column3">
+            <h3 class="footer-headline">
+              Helpful Links
+            </h3>
+            <ul class="">
+              <li>
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/index.html" class="" title="Site policies and important links">Site policies &amp; important links</a>
+              </li>
+              <li class="">
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/Privacy-Policy.html" class="" title="Privacy policy">Privacy policy</a>
+              </li>
+              <li class="">
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/FOIA.html" title="FOIA"><abbr title="Freedom of Information Act">FOIA</abbr></a>
+              </li>
+              <li class="">
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/NoFearAct.html" title="No Fear Act">No Fear Act</a>
+              </li>
+              <li class="">
+                <a href="http://www.HHS.gov" title="HHS.gov">HHS.gov</a>
+              </li>
+              <li class="">
+                <a href="http://USA.gov" title="USA.gov">USA.gov</a>
+              </li>
+              <li class="">
+                <a href="http://oig.hhs.gov" class="" title="Inspector General">Inspector General</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/about-us/plain-writing/plain-writing.html" class="" title="Plain language">Plain language</a>
+              </li>
+              <li class="">
+                <a href="http://archive-it.org/collections/2650" class="" title="Archive">Archive</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/download/downloaddb.asp" class="" title="Downloadable Databases">Downloadable databases</a>
+              </li>
+              <li class="">
+                <a href="http://www.medicare.gov/medicare-and-you/medicare-and-you.html" title="Medicare &amp; You">Medicare &amp; You</a>
+              </li>
+              <li class="">
+                <a href="http://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/Help.html" class="" title="Help with file formats &amp; plug-ins">Help with file formats &amp; plug-ins</a>
+              </li>
+            </ul>
+          </div>
+          <div class="" id="footer-column4">
+            <h3 class="footer-headline">
+              CMS &amp; HHS Websites
+            </h3>
+            <ul class="">
+              <li>
+                <a href="http://healthcare.gov" title="HealthCare.gov">HealthCare.gov</a>
+              </li>
+              <li class="">
+                <a href="http://STOPmedicarefraud.gov" title="STOPMedicareFraud.gov">STOPMedicareFraud.gov</a>
+              </li>
+              <li class="">
+                <a href="http://insurekidsnow.gov" title="InsureKidsNow.gov">InsureKidsNow.gov</a>
+              </li>
+              <li class="">
+                <a href="http://mymedicare.gov" title="MyMedicare.gov">MyMedicare.gov</a>
+              </li>
+              <li class="">
+                <a href="http://medicaid.gov" class="" title="Medicaid.gov">Medicaid.gov</a>
+              </li>
+              <li class="">
+                <a href="http://cms.gov" title="CMS.gov">CMS.gov</a>
+              </li>
+            </ul>
+            <h3 class="footer-headline">
+              Get Involved with Us
+            </h3>
+            <div class="footer-bucket">
+              <ul>
+                <li class="footer_email">
+                  <a href="http://www.medicare.gov/emailthispage/emailform.asp?version=DOTNET" class="footer_email_link" title="Email this page"><img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="Email this page" /></a>
+                </li>
+                <li class="footer_twitter">
+                  <a href="http://www.twitter.com/MedicareGov" class="footer_twitter_link" title="CMS Twitter"><img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="CMS Twitter" /></a>
+                </li>
+                <li class="footer_youtube">
+                  <a href="http://www.youtube.com/user/CMSHHSgov" class="footer_youtube_link" title="CMS YouTube"><img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="CMS Youtube" class="" /></a>
+                </li>
+                <li class="footer_rss">
+                  <a href="http://www.cms.gov/cmsfeeds/" class="footer_rss_link" title="CMS RSS Feed"><img src="../assets.cms.gov/Resources/medicare/images/home/socialMedia.png" alt="CMS RSS Feed" class="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><script src="../assets.cms.gov/Resources/Global/JS/lib/jquery-1.7.2.js" type="text/javascript">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/jquery.hcmode-detection.js" type="text/javascript">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/lib/jquery.listen.js" type="text/javascript">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/lib/jquery-ui-1.8.17.custom.js" type="text/javascript">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/508addthis.js" type="text/javascript">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/ga-track-footer.js" type="text/javascript">
+</script> <script src="../assets.cms.gov/Resources/Medicare/JS/topNavigation.js" type="text/javascript">
+</script> <script src="../assets.cms.gov/Resources/Medicare/JS/medicareutils.js" type="text/javascript">
+</script> <!--Font Resize Script -->
+        <script src="../assets.cms.gov/Resources/Medicare/JS/fontsizer.jquery.js" type="text/javascript">
+</script> <script type="text/javascript">
+//&lt;![CDATA[
+        $(document).ready(function () {
+
+        replaceAssetsElements();
+        fontResizer();
+        });
+        //]]&gt;
+        </script> <!--Forsee Script CODE-->
+        <script src="SharedResources/widgets/foresee/foresee-trigger.js" type="text/javascript">
+</script> <!-- Chartbeat -->
+        <script type="text/javascript">
+//&lt;![CDATA[
+        try {
+
+        switch (document.location.host) {
+        case "medicare.gov":
+        var _sf_async_config={uid:11791,domain:"medicare.gov"};
+        break;
+        case "es.medicare.gov":
+        var _sf_async_config={uid:11791,domain:"es.medicare.gov"};
+        break;
+        case "csr.medicare.gov":
+        break;
+        default:
+        var _sf_async_config={uid:11791,domain:"medicare.gov"};
+        break;
+        }
+
+        (function(){
+        function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+        (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+        "static.chartbeat.com/js/chartbeat.js");
+        document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+        loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        })();
+        } catch (err) { }
+        //]]&gt;
+        </script> <script src="../assets.cms.gov/Resources/Global/JS/jquery.508tabs.js" type="text/javascript" assetssrc="/Resources/Global/JS/jquery.508tabs.js">
+</script> <script src="../assets.cms.gov/Resources/Medicare/JS/feedTabs.js" type="text/javascript" assetssrc="/Resources/Medicare/JS/feedTabs.js">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/jquery.ui.widget.js" type="text/javascript" assetssrc="/Resources/Global/JS/jquery.ui.widget.js">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/jquery.508tooltip.js" type="text/javascript" assetssrc="/Resources/Global/JS/jquery.508tooltip.js">
+</script> <script src="../assets.cms.gov/Resources/Global/JS/jquery.508expcollapse.js" type="text/javascript" assetssrc="/Resources/Global/JS/jquery.508expcollapse.js">
+</script> <script type="text/javascript" language="javascript">
+//&lt;![CDATA[
+        $(document).ready(function () {
+                $("#blogTab").detach();
+            $(".glossary").tooltip();
+            $("#expandAll").bind('click', function () {
+                $(".collapse-header").removeClass("collapsed");
+                $(".collapse-header").addClass("expanded");
+                $(".collapse").collapse("show");
+                });
+                $("#collapseAll").bind('click', function () {
+                $(".collapse-header").removeClass("expanded");
+                $(".collapse-header").addClass("collapsed");
+                $(".collapse").collapse("hide");
+            });
+        });
+        //]]&gt;
+        </script> <script type="text/javascript">
+//&lt;![CDATA[
+        $(document).ready(function () {
+        // adds a class to every other glossary item for IE
+        if ($('html').hasClass('IE8') || $('html').hasClass('IE7')) {
+                $('#glossary .definitions .content div:nth-child(even)').addClass('even-definition');
+        }
+        });
+        //]]&gt;
+        </script>
+      </div>
+    </div><!-- 2013-05-08 13:00:00.047 -->
+    <!-- CrazyEgg Code --><script type="text/javascript">
+//&lt;![CDATA[
+    setTimeout(function(){var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1179.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); 
+    //]]&gt;
+    </script>
+    <table cellpadding="0" style="width: 234px; display: none; top: 67px; left: 1090px; position: absolute;" cellspacing="0" class="gstl_0 gssb_c">
+      <tbody>
+        <tr>
+          <td class="gssb_f"></td>
+          <td style="width: 100%;" class="gssb_e"></td>
+        </tr>
+      </tbody>
+    </table>
+    <table cellpadding="0" style="width: 405px; display: none; top: 324px; left: 456px; position: absolute;" cellspacing="0" class="gstl_1 gssb_c">
+      <tbody>
+        <tr>
+          <td class="gssb_f"></td>
+          <td style="width: 100%;" class="gssb_e"></td>
+        </tr>
+      </tbody>
+    </table><script src="http://static.chartbeat.com/js/chartbeat.js" type="text/javascript" language="javascript">
+</script>
+    <div aria-labelledby="ui-id-1" style="outline: 0px none; z-index: 1002; position: absolute; height: auto; width: 300px; top: 0px; left: 718px; display: none;" role="dialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable ui-dialog-buttons" tabindex="-1">
+      <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-id-1" class="ui-dialog-title">New resource</span><a href="#" role="button" class="ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick">close</span></a>
+      </div>
+      <div scrolltop="0" style="display: block; width: auto; min-height: 37px; height: auto;" id="popupDialog" scrollleft="0" class="ui-dialog-content ui-widget-content">
+        <p>
+          <!-- label for="widgetName">Please input a new resource name:</label>            <input type="text" id="widgetName" />            <br /> -->
+        </p>
+        <h3>
+          High-level types
+        </h3><input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Header" id="header4242" /><label for="#header4242">Header</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Footer" id="footer4242" /><label for="#footer4242">Footer</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Content" id="content4242" /><label for="#content4242">Content</label><br />
+        <input style="vertical-align: middle; margin: 0px;" type="radio" name="group1" value="Sidebar" id="sidebar4242" /><label for="#sidebar4242">Sidebar</label><br />
+        <h3>
+          Specific types
+        </h3><input type="radio" name="group1" value="Logo" id="logo4242" /><label for="#logo4242">Logo</label><br />
+        <input type="radio" name="group1" value="Menu" id="menu4242" /><label for="#menu4242">Menu</label><br />
+        <input type="radio" name="group1" value="Title" id="title4242" /><label for="#title4242">Title</label><br />
+        <input type="radio" name="group1" value="LinkList" id="linklist4242" /><label for="#linklist4242">LinkList</label><br />
+        <input type="radio" name="group1" value="Author" id="author4242" /><label for="#author4242">Author</label><br />
+        <input type="radio" name="group1" value="Table" id="table4242" /><label for="#table4242">Table</label><br />
+        <input type="radio" name="group1" value="Comments" id="comments4242" /><label for="#comments4242">Comments</label><br />
+        <input type="radio" name="group1" value="Ad" id="ad4242" /><label for="#ad4242">Ad</label><br />
+        <input type="radio" name="group1" value="Video" id="video4242" /><label for="#video4242">Video</label><br />
+        <input type="radio" name="group1" value="Article" id="article4242" /><label for="#article4242">Article</label><br />
+        <input type="radio" name="group1" value="Image" id="image4242" /><label for="#image4242">Image</label><br />
+        <input type="radio" name="group1" value="Searchbar" id="search4242" /><label for="#search4242">Searchbar</label><br />
+      </div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-n"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-e"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-s"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-w"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-sw"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-ne"></div>
+      <div style="z-index: 1000;" class="ui-resizable-handle ui-resizable-nw"></div>
+      <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+        <div class="ui-dialog-buttonset">
+          <button type="button" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" aria-disabled="false"><span class="ui-button-text">Cancel</span></button><button type="button" role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-focus" aria-disabled="false"><span class="ui-button-text">Accept</span></button>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
