@@ -37,7 +37,7 @@
 "http://www.nature.com/" : "/opt/dataset-popular/www.nature.com/www.nature.com/index.html",
 "http://www.amnesty.org/" : "/opt/dataset-popular/www.amnesty.org/www.amnesty.org/index.html",
 "http://www.freetranslation.com/" : "/opt/dataset-popular/www.freetranslation.com/www.freetranslation.com/index.html",
-# "http://www.treasury.gov/Pages/default.aspx" : "/opt/dataset-popular/www.treasury.gov/www.treasury.gov/Pages/default.aspx.html",
+"http://www.treasury.gov/Pages/default.aspx" : "/opt/dataset-popular/www.treasury.gov/www.treasury.gov/Pages/default.aspx.html",
 "http://www.heritage.org/" : "/opt/dataset-popular/www.heritage.org/www.heritage.org/index.html",
 "http://www.bing.com/translator/" : "/opt/dataset-popular/www.bing.com/www.bing.com/translator/index.html",
 "http://www.cato.org/" : "/opt/dataset-popular/www.cato.org/www.cato.org/index.html",
