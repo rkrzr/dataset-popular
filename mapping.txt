@@ -1,4 +1,4 @@
-"http://www.whitehouse.gov/" : "/opt/dataset-popular/www.whitehouse.gov/www.whitehouse.gov/index.html",
+# "http://www.whitehouse.gov/" : "/opt/dataset-popular/www.whitehouse.gov/www.whitehouse.gov/index.html",
 "http://www.irs.gov/" : "/opt/dataset-popular/www.irs.gov/www.irs.gov/index.html",
 "http://www.house.gov/" : "/opt/dataset-popular/www.house.gov/www.house.gov/index.html",
 "http://www.senate.gov/" : "/opt/dataset-popular/www.senate.gov/www.senate.gov/index.html",
